@@ -1,0 +1,20 @@
+.card{
+    background-color: #099268!important;
+}
+.card-header{
+    border: none;
+}
+.copyright{
+    background-color: rgba(0, 0, 0, 0.742);
+    color: white;
+}.contact-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.4rem;
+}
+.cntc-link a{
+    cursor: pointer;
+    color: rgba(12, 1, 1, 0.632)!important;
+}

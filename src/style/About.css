@@ -1,0 +1,28 @@
+.container-one{
+    
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+margin: 80px;
+font-size: 2rem;
+margin-top: 8rem;
+color: aquamarine;
+}
+.bx-1{
+width: 40vw;
+}
+.bx-2{
+width: 40vw;
+}
+img{
+   width: 400px; 
+
+}
+.repo-btn{
+    font-weight: 500;
+    padding: 8px 12px;
+    border-color: none;
+    color:orangered;
+    border-radius: 12px;
+    background-color: transparent;
+}

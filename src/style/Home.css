@@ -1,0 +1,35 @@
+.main-container{
+display:grid;
+grid-template-columns: repeat(4,1fr);
+margin: 10px;
+margin-top: 8rem;
+
+}
+.content-box{
+    
+    border: 1px solid forestgreen;
+    margin: 20px;
+    padding: 7px 12px;
+    border-radius: 12px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.btn-b{
+color: rgb(226, 43, 122);
+font-size: 1.1rem;
+border: 2px dashed rgb(22, 132, 140);
+margin-inline: 10px;
+background:transparent;
+padding: 6px 13px;
+border-radius: 6px;
+}
+.btn-b:hover{
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.pagination{
+    margin-inline: 12%;
+}
