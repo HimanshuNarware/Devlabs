@@ -12,7 +12,7 @@ function About() {
   <p>
       Devlabs is an application that is used to search for free tools that are both free and helpful for our needs. It is built by the amazing open-source community.
       </p>
-      <button className='repo-btn'>Star the repo &#9733;</button>
+      <button className='repo-btn'> <a href="https://github.com/HimanshuNarware/Devlabs" target="_blank">Star the repo &#9733;</a></button>
 </div>
 <div className='bx-2'>
 <img   className="img "src='https://imgs.search.brave.com/QKiV2kjLLbCo5yYmlXGywHNk3CbfEVQPXvl7zoMhR3s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9vcGVu/c291cmNlLmd1aWRl/L2Fzc2V0cy9pbWFn/ZXMvaWxsb3MvYmFs/YW5jZS5zdmc.svg' alt='img'/>
@@ -29,7 +29,9 @@ function About() {
       Great things are never created in isolation. Thanks to our amazing Contributors, we've brought this product to life. And with your help, we can continue to make it even better. If you're a Developer or a Tech enthusiast, you can help us create a better experience for everyone. We are excited to hear your thoughts and ideas.
       </p>
       <button className='repo-btn'>
+       <a href="https://github.com/HimanshuNarware" target="_blank">
       Learn more ➜
+       </a>
       </button>
       </div>
     
