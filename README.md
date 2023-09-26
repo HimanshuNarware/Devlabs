@@ -48,9 +48,21 @@ git checkout -b YourBranchName
 ```
 
 
-### 7. Make your changes to the source code.
+### 6. Make your changes to the source code.
+Add new tool :
+Go to src > DB > product.json & add your code
 
-### 8. Stage your changes:
+{
+    productName: "< App_Name >",
+    category: "remote | resume | tweet | ai | ethical | movies | extensions | tools",
+    image: "< Image-Url >",
+    link: "< Link_to_the_website >",
+    description: "< Description of product >"
+},
+To ensure that your URLs are short, it is recommended to use bitly for URL shortening.
+Description should not exceed 10-12 words
+
+### 7. Stage your changes:
 
 ⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
 
@@ -66,16 +78,16 @@ git checkout -b YourBranchName
 git add "<files_you_have_changed>"
 ```
 
-### 9. Commit your changes:
+### 8. Commit your changes:
 
 ```bash
 git commit -m "<your_commit_message>"
 ```
 
-### 10. Push your local commits to the remote repository:
+### 9. Push your local commits to the remote repository:
 
 ```bash
 git push origin YourBranchName
 ```
 
-**11.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+**10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
