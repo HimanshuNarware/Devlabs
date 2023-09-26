@@ -1,6 +1,7 @@
 import React, { useState } from 'react'; // Import React and useState
 import { IoReorderThree } from 'react-icons/io5'
-import { BsSearch } from 'react-icons/bs'
+import {AiFillHome} from 'react-icons/ai'
+import { BsSearch,BsBookmark } from 'react-icons/bs'
 import logo from '../image/logo.png'
 import '../style/Navbar.css'
 import { Link } from 'react-router-dom'
@@ -54,7 +55,7 @@ function Navbar() {
                 className="btn btn-search btn-outline-success"
                 type="button"
                 onClick={(e) => handleClick(e)}
-              ></button>
+              ><BsSearch/></button>
             </form>
           </div>
         </div>
@@ -63,18 +64,38 @@ function Navbar() {
       {/* Conditionally render the side navigation based on the showSideNav state */}
       {showSideNav && (
         <div className="sidebar">
-          <div className="sidebar-content ">home-icon-bookmark</div>
+          <div className="sidebar-content sidebar-btns ">
+            
+            <div className='sidebar-btn home-btn'>
+              
+            <a className="nav-link active" aria-current="page" >
+                  <Link to="/home" className='Link  Bookmark'>
+                   
+                  <AiFillHome/> Home
+
+                  </Link>
+                </a>
+            
+            </div>
+            <div className='sidebar-btn bookmark-btn'>
+              
+            <a className="nav-link active" aria-current="page" >
+                  <Link to="/bookmark" className='Link  Bookmark'>
+                   
+              <BsBookmark/> BookMark
+                  </Link>
+                </a></div>
+          </div>
           <div className="sidebar-content ">All</div>
           <div className="sidebar-content ">Remote Jobs</div>
-          <div className="sidebar-content ">AL</div>
-          <div className="sidebar-content ">AL</div>
-          <div className="sidebar-content">AL</div>
-          <div className="sidebar-content ">AL</div>
-          <div className="sidebar-content ">AL</div>
-          <div className="sidebar-content ">AL</div>
-          <div className="sidebar-content ">UI</div>
-          <div className="sidebar-content ">UI</div>
-          <div className="sidebar-content ">UI</div>
+          <div className="sidebar-content ">AI</div>
+          <div className="sidebar-content ">Ethical Hacking</div>
+          <div className="sidebar-content">Movie | Series</div>
+          <div className="sidebar-content ">Extension</div>
+          <div className="sidebar-content ">UI Design</div>
+          <div className="sidebar-content ">Frontend Tools</div>
+          <div className="sidebar-content ">Coding Platforms</div>
+          <div className="sidebar-content ">Course Platforms</div>
         </div>
       )}
     </div>
