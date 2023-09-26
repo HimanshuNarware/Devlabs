@@ -23,7 +23,7 @@ You can clone the project directly from this repo to your local system.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/ZeroOctave/resource-gallery.git .
+https://github.com/HimanshuNarware/Devlabs.git
 ```
 
 The `.` will clone it to the current directory so make sure you are inside your project folder first.
@@ -32,44 +32,15 @@ The `.` will clone it to the current directory so make sure you are inside your 
 
 ```bash
 npm install
-# or
-yarn install
-# or (recommended)
-pnpm install
-```
-
+`
 ### 3. Start development Server
 
 ```bash
+npm start
+#or
 npm run dev
-# or
-yarn dev
-# or (recommended)
-pnpm dev
 ```
 
-### Preview & Build
-
-```bash
-npm run preview
-npm run build
-# or
-yarn preview
-yarn build
-# or (recommended)
-pnpm preview
-pnpm build
-```
-
-We recommend using [pnpm](https://pnpm.io/) to save disk space on your computer.
-
-### Other Commands
-
-```bash
-pnpm astro ...
-pnpm astro add
-pnpm astro --help
-```
 ### 5 Create a new branch:
 
 ```bash
@@ -105,11 +76,7 @@ git merge upstream/main
 >
 > By using public path it means it will add all files and folders under that folder, it is better to be specific
 
-```bash
-git add public
-```
 
-_or_
 
 ```bash
 git add "<files_you_have_changed>"
