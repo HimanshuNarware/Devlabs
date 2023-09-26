@@ -15,3 +15,116 @@ Reactjs - Reactjs is a JavaScript library for building user interfaces.
 🚀 Quick start
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
 
+How to Contribute
+## Installation
+
+You can clone the project directly from this repo to your local system.
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/ZeroOctave/resource-gallery.git .
+```
+
+The `.` will clone it to the current directory so make sure you are inside your project folder first.
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+# or (recommended)
+pnpm install
+```
+
+### 3. Start development Server
+
+```bash
+npm run dev
+# or
+yarn dev
+# or (recommended)
+pnpm dev
+```
+
+### Preview & Build
+
+```bash
+npm run preview
+npm run build
+# or
+yarn preview
+yarn build
+# or (recommended)
+pnpm preview
+pnpm build
+```
+
+We recommend using [pnpm](https://pnpm.io/) to save disk space on your computer.
+
+### Other Commands
+
+```bash
+pnpm astro ...
+pnpm astro add
+pnpm astro --help
+```
+### 5 Create a new branch:
+
+```bash
+git checkout -b YourBranchName
+```
+
+### 6. Sync your fork or your local repository with the origin repository:
+
+- In your forked repository, click on "Fetch upstream"
+- Click "Fetch and merge"
+
+### Alternatively, Git CLI way to Sync forked repository with origin repository:
+
+```bash
+git fetch upstream
+```
+
+```bash
+git merge upstream/main
+```
+
+### [Github Docs](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) for Syncing
+
+### 7. Make your changes to the source code.
+
+### 8. Stage your changes:
+
+⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
+
+⚠️ **Make sure** not to run the commands `git add .` or `git add *`
+
+> Instead, stage your changes for each file/folder
+>
+> By using public path it means it will add all files and folders under that folder, it is better to be specific
+
+```bash
+git add public
+```
+
+_or_
+
+```bash
+git add "<files_you_have_changed>"
+```
+
+### 9. Commit your changes:
+
+```bash
+git commit -m "<your_commit_message>"
+```
+
+### 10. Push your local commits to the remote repository:
+
+```bash
+git push origin YourBranchName
+```
+
+**11.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
