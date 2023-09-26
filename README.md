@@ -47,22 +47,6 @@ npm run dev
 git checkout -b YourBranchName
 ```
 
-### 6. Sync your fork or your local repository with the origin repository:
-
-- In your forked repository, click on "Fetch upstream"
-- Click "Fetch and merge"
-
-### Alternatively, Git CLI way to Sync forked repository with origin repository:
-
-```bash
-git fetch upstream
-```
-
-```bash
-git merge upstream/main
-```
-
-### [Github Docs](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) for Syncing
 
 ### 7. Make your changes to the source code.
 
