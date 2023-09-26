@@ -49,9 +49,10 @@ git checkout -b YourBranchName
 
 
 ### 6. Make your changes to the source code.
-Add new tool :
-Go to src > DB > product.json & add your code
+ Add new tool :
+   > Go to **src > DB > `product.json`** & add your code
 
+```
 {
     productName: "< App_Name >",
     category: "remote | resume | tweet | ai | ethical | movies | extensions | tools",
@@ -59,6 +60,7 @@ Go to src > DB > product.json & add your code
     link: "< Link_to_the_website >",
     description: "< Description of product >"
 },
+```
 To ensure that your URLs are short, it is recommended to use bitly for URL shortening.
 Description should not exceed 10-12 words
 
