@@ -15,6 +15,9 @@
     font-size: 1.4rem;
 }
 .cntc-link a{
+    color: black;
+}
+.cntc-link a:hover{
     cursor: pointer;
-    color: rgba(12, 1, 1, 0.632)!important;
+    color: white!important;
 }
