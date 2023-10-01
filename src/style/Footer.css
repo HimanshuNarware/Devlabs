@@ -14,7 +14,15 @@
     gap: 20px;
     font-size: 1.4rem;
 }
+.cntc-link{
+    border-radius: 50%;
+    padding: 2px 2px;
+}
 .cntc-link a{
+    padding: 0px 7px;
     cursor: pointer;
     color: rgba(12, 1, 1, 0.632)!important;
+}
+.cntc-link:hover{
+    filter: invert(1);
 }
