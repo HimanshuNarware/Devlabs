@@ -18,3 +18,11 @@
     cursor: pointer;
     color: rgba(12, 1, 1, 0.632)!important;
 }
+/* add hover */
+.cntc-link a:hover{
+    transform: scale(1.1);
+    color: rgba(12, 1, 1, 1)!important;
+}
+.cntc-link:hover{
+    transform: scale(1.2);
+}
