@@ -14,15 +14,24 @@
     gap: 20px;
     font-size: 1.4rem;
 }
-.cntc-link a{
+.contact-link a{
     cursor: pointer;
     color: rgba(12, 1, 1, 0.632)!important;
 }
 /* add hover */
-.cntc-link a:hover{
-    transform: scale(1.1);
-    color: rgba(12, 1, 1, 1)!important;
-}
-.cntc-link:hover{
+
+.contact-link div:hover{
     transform: scale(1.2);
+}
+.cntc-link a:hover{
+    color: #0072b1ff!important;
+}
+.cntc-git a:hover{
+    color: #ffffffff!important;
+}
+.cntc-twit a:hover{
+    color: #00aceeff!important;
+}
+.cntc-mail a:hover{
+    color: #da202aff!important;
 }
