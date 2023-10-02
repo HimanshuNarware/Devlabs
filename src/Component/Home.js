@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import dataBaseData from './../DB/product.json'
 import '../style/Home.css'
 import { setSource } from '../Slice/DataSlice';
@@ -6,6 +6,7 @@ import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 import BookMark from './BookMark';
 function Home() {
+    const [localStorageValue, setLocalStorageValue] = useState(localStorage.getItem('filter') || '');
     let itemList='';
 const  [currentPage,setCurrentPage]=useState(1)
 const postPerpage=16;
@@ -13,8 +14,34 @@ const postPerpage=16;
 const lastPostIndex=currentPage * postPerpage;
 const firstPostIndex=lastPostIndex-postPerpage;
 
-const currentPost=dataBaseData.slice(firstPostIndex, lastPostIndex);
-const npage=Math.ceil(dataBaseData.length/postPerpage)
+const currentPost1=dataBaseData;
+let allvalue=dataBaseData;
+useEffect(() => {
+    const handleStorageChange = () => {
+        setLocalStorageValue(localStorage.getItem('filter'));
+    };
+    window.addEventListener('storage', handleStorageChange);
+    return () => {
+        window.removeEventListener('storage', handleStorageChange);
+    };
+    
+}, []);
+if(localStorageValue === 'undefined' || localStorageValue==='all'){
+    allvalue=dataBaseData;
+    console.log("No localstorage item");
+}
+else if(localStorageValue!=='all' && localStorageValue!== 'undefined'){
+    console.log(localStorageValue);    
+    if(localStorage.getItem('filter-2')){
+        allvalue=currentPost1.filter((e)=> e.category.toLowerCase().includes(localStorageValue)||e.category.includes(localStorage.getItem('filter-2')));
+    }else{
+        allvalue=currentPost1.filter((e)=> e.category.toLowerCase().includes(localStorageValue));
+    }
+    console.log(allvalue);
+}
+
+const currentPost=allvalue.slice(firstPostIndex, lastPostIndex);
+const npage=Math.ceil(allvalue.length/postPerpage)
 const numbers=[...Array(npage+1).keys()].slice(1);
 const dispatch=useDispatch();
 

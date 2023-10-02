@@ -14,7 +14,21 @@ function Navbar() {
     console.log('hello world');
     setShowSideNav(!showSideNav); // Toggle the state when the button is clicked
   }
+  function handleSearch(e) {
+    e.preventDefault();
+    console.log('hello world');
+  }
 
+  function handleSidebarClick(prop){    
+    
+    localStorage.setItem("filter",prop);
+    
+    if(prop === "tools"){
+      localStorage.setItem("filter-2","web");
+    }
+    window.dispatchEvent(new Event('storage'));
+    //console.log(localStorage.getItem("filter"));
+  }
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -54,7 +68,7 @@ function Navbar() {
               <button
                 className="btn btn-search btn-outline-success"
                 type="button"
-                onClick={(e) => handleClick(e)}
+                onClick={(e) => handleSearch(e)}
               ><BsSearch/></button>
             </form>
           </div>
@@ -86,16 +100,16 @@ function Navbar() {
                   </Link>
                 </a></div>
           </div>
-          <div className="sidebar-content ">All</div>
-          <div className="sidebar-content ">Remote Jobs</div>
-          <div className="sidebar-content ">AI</div>
-          <div className="sidebar-content ">Ethical Hacking</div>
-          <div className="sidebar-content">Movie | Series</div>
-          <div className="sidebar-content ">Extension</div>
-          <div className="sidebar-content ">UI Design</div>
-          <div className="sidebar-content ">Frontend Tools</div>
-          <div className="sidebar-content ">Coding Platforms</div>
-          <div className="sidebar-content ">Course Platforms</div>
+          <div className="sidebar-content " onClick={() => handleSidebarClick("all")}>All</div>
+          <div className="sidebar-content " onClick={() => handleSidebarClick("remote")}>Remote Jobs</div>
+          <div className="sidebar-content " onClick={() => handleSidebarClick("ai")}>AI</div>
+          <div className="sidebar-content " onClick={() => handleSidebarClick("ethical")}>Ethical Hacking</div>
+          <div className="sidebar-content " onClick={() => handleSidebarClick("movies")}>Movie | Series</div>
+          <div className="sidebar-content " onClick={() => handleSidebarClick("extension")}>Extension</div>
+          <div className="sidebar-content " onClick={() => handleSidebarClick("ui")}>UI Design</div>
+          <div className="sidebar-content " onClick={() => handleSidebarClick("tools")}>Frontend Tools</div>
+          <div className="sidebar-content " onClick={() => handleSidebarClick("coding")}>Coding Platforms</div>
+          <div className="sidebar-content " onClick={() => handleSidebarClick("course")}>Course Platforms</div>
         </div>
       )}
     </div>
