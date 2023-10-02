@@ -95,3 +95,8 @@ margin-left: -20px;
 .sidebar{
     color: rgba(0, 0, 0, 0.84);
 }
+.filter:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+    transition: all 0.3s;
+}
