@@ -1,7 +1,8 @@
 {
-    "git.ignoreLimitWarning": true,
-    "emmet.includeLanguages": {
-        "\"javascript\":": "\"javascriptreact\""
-    },
-    "C_Cpp.errorSquiggles": "disabled"
+  "git.ignoreLimitWarning": true,
+  "emmet.includeLanguages": {
+    "\"javascript\":": "\"javascriptreact\""
+  },
+  "C_Cpp.errorSquiggles": "disabled",
+  "liveServer.settings.port": 5501
 }
