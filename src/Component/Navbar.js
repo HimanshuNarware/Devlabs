@@ -40,7 +40,7 @@ function Navbar() {
           >
             <IoReorderThree />
           </a>
-          <a href="#">
+          <a href="/">
             <img className="navbar-brand logo-img" src={logo} alt="this" />
           </a>
         </span>
