@@ -83,7 +83,7 @@ function Navbar() {
             <div className='sidebar-btn home-btn'>
               
             <a className="nav-link active" aria-current="page" >
-                  <Link to="/home" className='Link  Bookmark'>
+                  <Link to="/" className='Link  Bookmark'>
                    
                   <AiFillHome/> Home
 
@@ -100,16 +100,16 @@ function Navbar() {
                   </Link>
                 </a></div>
           </div>
-          <div className="sidebar-content " onClick={() => handleSidebarClick("all")}>All</div>
-          <div className="sidebar-content " onClick={() => handleSidebarClick("remote")}>Remote Jobs</div>
-          <div className="sidebar-content " onClick={() => handleSidebarClick("ai")}>AI</div>
-          <div className="sidebar-content " onClick={() => handleSidebarClick("ethical")}>Ethical Hacking</div>
-          <div className="sidebar-content " onClick={() => handleSidebarClick("movies")}>Movie | Series</div>
-          <div className="sidebar-content " onClick={() => handleSidebarClick("extension")}>Extension</div>
-          <div className="sidebar-content " onClick={() => handleSidebarClick("ui")}>UI Design</div>
-          <div className="sidebar-content " onClick={() => handleSidebarClick("tools")}>Frontend Tools</div>
-          <div className="sidebar-content " onClick={() => handleSidebarClick("coding")}>Coding Platforms</div>
-          <div className="sidebar-content " onClick={() => handleSidebarClick("course")}>Course Platforms</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("all")}>All</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("remote")}>Remote Jobs</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("ai")}>AI</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("ethical")}>Ethical Hacking</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("movies")}>Movie | Series</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("extension")}>Extension</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("ui")}>UI Design</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("tools")}>Frontend Tools</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("coding")}>Coding Platforms</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("course")}>Course Platforms</div>
         </div>
       )}
     </div>

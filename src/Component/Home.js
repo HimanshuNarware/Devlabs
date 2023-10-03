@@ -5,6 +5,9 @@ import { setSource } from '../Slice/DataSlice';
 import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 import BookMark from './BookMark';
+import '../style/Pagination.css'
+
+
 function Home() {
     const [localStorageValue, setLocalStorageValue] = useState(localStorage.getItem('filter') || '');
     let itemList='';
@@ -77,7 +80,7 @@ const dispatch=useDispatch();
 
 </div>
 {/* pagination */}
-<nav>
+<nav className='pagination-cont'>
     <ul className='pagination'>
         <li className='page-item'>
             <a href="#" className='page-link'onClick={prePage}>prev</a>
