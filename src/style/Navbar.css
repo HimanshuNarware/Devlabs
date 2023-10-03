@@ -124,3 +124,43 @@
     margin-top: -15px;
   }
 }
+
+.sidebar {
+  display: flex;
+}
+.Link {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-item {
+  font-size: 1.6rem;
+}
+.Link:hover {
+  color: rgb(38, 3, 3);
+  text-decoration: underline;
+}
+.sidebar-btns {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.sidebar-btn {
+  padding: 2px 5px;
+  margin: 9px;
+  text-align: center;
+  line-height: 1;
+}
+
+.sidebar-btn:hover {
+  color: rgba(0, 0, 0, 0.84);
+}
+.sidebar {
+  color: rgba(0, 0, 0, 0.84);
+}
+.filter:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+  transition: all 0.3s;
+}
