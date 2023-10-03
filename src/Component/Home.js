@@ -5,6 +5,9 @@ import { setSource } from '../Slice/DataSlice';
 import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 import BookMark from './BookMark';
+import '../style/Pagination.css'
+
+
 function Home() {
     const [localStorageValue, setLocalStorageValue] = useState(localStorage.getItem('filter') || '');
     let itemList='';
@@ -44,9 +47,42 @@ const npage=Math.ceil(allvalue.length/postPerpage)
 const numbers=[...Array(npage+1).keys()].slice(1);
 const dispatch=useDispatch();
 
-  return (
-    <div className="container">
-      <div className="main-container">
+    return(
+        <div className='container' >
+
+        
+        <div className='main-container'>
+
+{itemList=currentPost.map(datalist=>{
+    return(
+        <div className='content-box'>
+            <img className='logo' src={datalist.image} alt={datalist.category}/>
+<h2>{datalist.productName}</h2>
+<p>{datalist.description}</p>
+<button className='btn-b' onClick={(e)=>window.open(datalist.link)}>Link</button>
+<button className='btn-b'onClick={()=>dispatch(setSource({
+    image:datalist.image,
+    name:datalist.productName,
+    desc:datalist.description,
+    link:datalist.link
+}))}>Bookmark</button>
+
+
+
+        </div>
+    )
+
+})
+}
+
+
+</div>
+{/* pagination */}
+<nav className='pagination-cont'>
+    <ul className='pagination'>
+        <li className='page-item'>
+            <a href="#" className='page-link'onClick={prePage}>prev</a>
+        </li>
         {
           (itemList = currentPost.map((datalist) => {
             return (
