@@ -1,15 +1,10 @@
-import React, { useState } from "react";
-import dataBaseData from "./../DB/product.json";
-import "../style/Home.css";
-import { useDispatch } from "react-redux";
-import { setSource } from "../Slice/DataSlice";
+
 
 function Home(props) {
   const [currentPage, setCurrentPage] = useState(1);
   const postPerPage = 16;
 
-  const lastPostIndex = currentPage * postPerPage;
-  const firstPostIndex = lastPostIndex - postPerPage;
+
 
   const totalPages = Math.ceil(dataBaseData.length / postPerPage);
   const pageNumbers = Array.from({ length: totalPages }, (_, i) => i + 1);
@@ -103,10 +98,6 @@ function Home(props) {
       </nav>
     </div>
   );
-
-  function changePage(pageNumber) {
-    if (pageNumber >= 1 && pageNumber <= totalPages) {
-      setCurrentPage(pageNumber);
     }
   }
 }

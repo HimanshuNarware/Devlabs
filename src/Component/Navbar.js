@@ -15,10 +15,17 @@ function Navbar(props) {
 
   const handleClick = (e) => {
     e.preventDefault();
-    console.log("hello world");
-    setShowSideNav(!showSideNav);
-  };
 
+  function handleSidebarClick(prop){    
+    
+    localStorage.setItem("filter",prop);
+    
+    if(prop === "tools"){
+      localStorage.setItem("filter-2","web");
+    }
+    window.dispatchEvent(new Event('storage'));
+    //console.log(localStorage.getItem("filter"));
+  }
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -81,44 +88,25 @@ function Navbar(props) {
               <button
                 className="btn btn-search btn-outline-success"
                 type="button"
-                onClick={(e) => handleClick(e)}
-              >
-                <BsSearch />
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
+                 <Link to="/" className='Link  Bookmark'>
+                   
+                  <AiFillHome/> Home
 
-      {/* Conditionally render the side navigation based on the showSideNav state */}
-      {showSideNav && (
-        <div className="sidebar">
-          <div className="sidebar-content sidebar-btns ">
-            <div className="sidebar-btn home-btn">
-              <a className="nav-link active" aria-current="page">
-                <Link to="/home" className="Link  Bookmark">
-                  <AiFillHome /> Home
-                </Link>
-              </a>
-            </div>
-            <div className="sidebar-btn bookmark-btn">
-              <a className="nav-link active" aria-current="page">
-                <Link to="/bookmark" className="Link  Bookmark">
-                  <BsBookmark /> BookMark
-                </Link>
-              </a>
+                  </Link>
+                </a>
+           
             </div>
           </div>
-          <div className="sidebar-content ">All</div>
-          <div className="sidebar-content ">Remote Jobs</div>
-          <div className="sidebar-content ">AI</div>
-          <div className="sidebar-content ">Ethical Hacking</div>
-          <div className="sidebar-content">Movie | Series</div>
-          <div className="sidebar-content ">Extension</div>
-          <div className="sidebar-content ">UI Design</div>
-          <div className="sidebar-content ">Frontend Tools</div>
-          <div className="sidebar-content ">Coding Platforms</div>
-          <div className="sidebar-content ">Course Platforms</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("all")}>All</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("remote")}>Remote Jobs</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("ai")}>AI</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("ethical")}>Ethical Hacking</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("movies")}>Movie | Series</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("extension")}>Extension</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("ui")}>UI Design</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("tools")}>Frontend Tools</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("coding")}>Coding Platforms</div>
+          <div className="sidebar-content filter" onClick={() => handleSidebarClick("course")}>Course Platforms</div>
         </div>
       )}
     </div>
