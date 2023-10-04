@@ -30,7 +30,7 @@
 }
 .pagination {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   width: 100%;
 }
 
@@ -61,5 +61,6 @@
     width: 100%;
     white-space: nowrap;
     scroll-padding: 0;
+    justify-content: flex-start;
   }
 }

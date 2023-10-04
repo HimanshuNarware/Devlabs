@@ -12,7 +12,6 @@
   border-bottom: 3px solid rgb(28, 174, 184);
 }
 .navbar-content {
-  font-size: 1.2rem;
   display: flex;
   align-items: center;
 }
@@ -20,6 +19,7 @@
 .navbar-content li {
   list-style: none;
   margin: 0 10px;
+  font-size: 1.3rem;
 }
 .navbar-left {
   display: flex;
@@ -80,7 +80,7 @@
   font-weight: 500;
 }
 .nav-item {
-  font-size: 1.2rem;
+  font-size: 1srem;
 }
 .Link:hover {
   color: rgb(38, 3, 3);
