@@ -6,8 +6,11 @@ import logo from "../image/logo.png";
 import "../style/Navbar.css";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar(props) {
   const [showSideNav, setShowSideNav] = useState(false); // Initialize showSideNav state
+  const handleInputChange = (e) => {
+    props.setSearchQuery(e.target.value);
+  };
 
   function handleClick(e) {
     e.preventDefault();
@@ -76,6 +79,7 @@ function Navbar() {
               type="search"
               placeholder="Search..."
               aria-label="Search"
+              onChange={handleInputChange}
             />
             <button
               className="btn btn-search btn-outline-success"

@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import BookMark from "./BookMark";
 import "../style/Pagination.css";
 
-function Home() {
+function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
@@ -46,9 +46,18 @@ function Home() {
     }
     console.log(allvalue);
   }
-
-  const currentPost = allvalue.slice(firstPostIndex, lastPostIndex);
-  const npage = Math.ceil(allvalue.length / postPerpage);
+  const filteredData = allvalue.filter((datalist) => {
+    return (
+      datalist.productName
+        .toLowerCase()
+        .includes(props.searchQuery.toLowerCase()) ||
+      datalist.description
+        .toLowerCase()
+        .includes(props.searchQuery.toLowerCase())
+    );
+  });
+  const currentPost = filteredData.slice(firstPostIndex, lastPostIndex);
+  const npage = Math.ceil(filteredData.length / postPerpage);
   const numbers = [...Array(npage + 1).keys()].slice(1);
   const dispatch = useDispatch();
 
