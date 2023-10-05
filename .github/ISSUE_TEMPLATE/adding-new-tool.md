@@ -3,7 +3,7 @@ name: Adding New Tool
 about: Want to add new tool on the Devlabs
 title: ''
 labels: ''
-assignees: ''
+assignees: HimanshuNarware
 
 ---
 
