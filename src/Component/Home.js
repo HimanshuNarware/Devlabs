@@ -103,6 +103,9 @@ function Home(props) {
       </div>
       {/* pagination */}
       <nav>
+      <div className="page-index">
+            Showing {firstPostIndex+1}-{lastPostIndex} from {currentPost1.length} results
+        </div>
         <ul className="pagination">
           <li className="page-item">
             <a href="#" className="page-link" onClick={prePage}>
