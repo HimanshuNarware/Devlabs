@@ -13,7 +13,9 @@
 }
 .navbar-content {
   display: flex;
-  align-items: center;
+  position: absolute;
+  right: 800px;
+  top: 30px;
 }
 
 .navbar-content li {
