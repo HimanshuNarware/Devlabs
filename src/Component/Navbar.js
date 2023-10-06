@@ -1,5 +1,5 @@
-import React, { useState } from "react"; // Import React and useState
-import { IoReorderThree } from "react-icons/io5";
+import React, { useState } from "react";
+import { IoReorderThree, IoClose } from "react-icons/io5";
 import { AiFillHome } from "react-icons/ai";
 import { BsSearch, BsBookmark } from "react-icons/bs";
 import logo from "../image/logo.png";
@@ -7,19 +7,19 @@ import "../style/Navbar.css";
 import { Link } from "react-router-dom";
 
 function Navbar(props) {
-  const [showSideNav, setShowSideNav] = useState(false); // Initialize showSideNav state
+  const [showSideNav, setShowSideNav] = useState(false);
+
   const handleInputChange = (e) => {
     props.setSearchQuery(e.target.value);
   };
 
   function handleClick(e) {
     e.preventDefault();
-    console.log("hello world");
-    setShowSideNav(!showSideNav); // Toggle the state when the button is clicked
+    setShowSideNav(!showSideNav);
   }
+
   function handleSearch(e) {
     e.preventDefault();
-    console.log("hello world");
   }
 
   function handleSidebarClick(prop) {
@@ -29,8 +29,8 @@ function Navbar(props) {
       localStorage.setItem("filter-2", "web");
     }
     window.dispatchEvent(new Event("storage"));
-    //console.log(localStorage.getItem("filter"));
   }
+
   return (
     <header>
       <div className="navbar">
@@ -41,7 +41,7 @@ function Navbar(props) {
             href="/"
             id="logo"
           >
-            <IoReorderThree />
+            {showSideNav ? <IoClose /> : <IoReorderThree />}
           </a>
           <a href="/">
             <img className="navbar-brand logo-img" src={logo} alt="this" />
@@ -84,7 +84,7 @@ function Navbar(props) {
             <button
               className="btn btn-search btn-outline-success"
               type="button"
-              onClick={(e) => handleClick(e)}
+              onClick={(e) => handleSearch(e)}
             >
               <BsSearch />
             </button>
@@ -92,7 +92,6 @@ function Navbar(props) {
         </div>
       </div>
 
-      {/* Conditionally render the side navigation based on the showSideNav state */}
       {showSideNav && (
         <div className="sidebar">
           <div className="sidebar-content sidebar-btns ">
