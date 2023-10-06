@@ -97,7 +97,7 @@ function Navbar(props) {
           <div className="sidebar-content sidebar-btns ">
             <div className="sidebar-btn home-btn">
               <a className="nav-link active" aria-current="page">
-                <Link to="/home" className="Link  Bookmark">
+                <Link to="/" className="Link  Bookmark">
                   <AiFillHome /> Home
                 </Link>
               </a>
