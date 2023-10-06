@@ -5,15 +5,15 @@ import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
 import { Route, Routes } from "react-router-dom";
 import BookMark from "./BookMark";
-import "../style/Pagination.css";
 
-function Home(props) {
+function Home(searchItem) {
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
   let itemList = "";
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
+
   const lastPostIndex = currentPage * postPerpage;
   const firstPostIndex = lastPostIndex - postPerpage;
 
@@ -46,18 +46,10 @@ function Home(props) {
     }
     console.log(allvalue);
   }
-  const filteredData = allvalue.filter((datalist) => {
-    return (
-      datalist.productName
-        .toLowerCase()
-        .includes(props.searchQuery.toLowerCase()) ||
-      datalist.description
-        .toLowerCase()
-        .includes(props.searchQuery.toLowerCase())
-    );
-  });
-  const currentPost = filteredData.slice(firstPostIndex, lastPostIndex);
-  const npage = Math.ceil(filteredData.length / postPerpage);
+
+  allvalue = dataBaseData;
+  const currentPost = allvalue.slice(firstPostIndex, lastPostIndex);
+  const npage = Math.ceil(allvalue.length / postPerpage);
   const numbers = [...Array(npage + 1).keys()].slice(1);
   const dispatch = useDispatch();
 
@@ -65,40 +57,112 @@ function Home(props) {
     <div className="container">
       <div className="main-container">
         {
-          (itemList = currentPost.map((datalist) => {
-            return (
-              <div className="content-box">
-                <img
-                  className="logo"
-                  src={datalist.image}
-                  alt={datalist.category}
-                />
-                <h2>{datalist.productName}</h2>
-                <p>{datalist.description}</p>
-                <button
-                  className="btn-b"
-                  onClick={(e) => window.open(datalist.link)}
-                >
-                  Link
-                </button>
-                <button
-                  className="btn-b"
-                  onClick={() =>
-                    dispatch(
-                      setSource({
-                        image: datalist.image,
-                        name: datalist.productName,
-                        desc: datalist.description,
-                        link: datalist.link,
-                      })
-                    )
-                  }
-                >
-                  Bookmark
-                </button>
-              </div>
-            );
-          }))
+          (itemList = currentPost
+            .filter((datalist) => {
+              if (searchItem.data === null) {
+                return (
+                  <div className="content-box">
+                    <img
+                      className="logo"
+                      src={datalist.image}
+                      alt={datalist.category}
+                    />
+                    <h2>{datalist.productName}</h2>
+                    <p>{datalist.description}</p>
+                    <button
+                      className="btn-b"
+                      onClick={(e) => window.open(datalist.link)}
+                    >
+                      Link
+                    </button>
+                    <button
+                      className="btn-b"
+                      onClick={() =>
+                        dispatch(
+                          setSource({
+                            image: datalist.image,
+                            name: datalist.productName,
+                            desc: datalist.description,
+                            link: datalist.link,
+                          })
+                        )
+                      }
+                    >
+                      Bookmark
+                    </button>
+                  </div>
+                );
+              } else if (
+                datalist.productName.toLowerCase().includes(searchItem.data)
+              ) {
+                return (
+                  <div className="content-box">
+                    <img
+                      className="logo"
+                      src={datalist.image}
+                      alt={datalist.category}
+                    />
+                    <h2>{datalist.productName}</h2>
+                    <p>{datalist.description}</p>
+                    <button
+                      className="btn-b"
+                      onClick={(e) => window.open(datalist.link)}
+                    >
+                      Link
+                    </button>
+                    <button
+                      className="btn-b"
+                      onClick={() =>
+                        dispatch(
+                          setSource({
+                            image: datalist.image,
+                            name: datalist.productName,
+                            desc: datalist.description,
+                            link: datalist.link,
+                          })
+                        )
+                      }
+                    >
+                      Bookmark
+                    </button>
+                  </div>
+                );
+              }
+            })
+            .map((datalist) => {
+              return (
+                <div className="content-box">
+                  <img
+                    className="logo"
+                    src={datalist.image}
+                    alt={datalist.category}
+                  />
+                  <h2>{datalist.productName}</h2>
+                  <p>{datalist.description}</p>
+                  <button
+                    className="btn-b"
+                    onClick={(e) => window.open(datalist.link)}
+                  >
+                    Link
+                  </button>
+                  <button
+                    className="btn-b"
+                    onClick={() =>
+                      dispatch(
+                        setSource({
+                          image: datalist.image,
+                          name: datalist.productName,
+                          desc: datalist.description,
+                          link: datalist.link,
+                        })
+                      )
+                    }
+                  >
+                    Bookmark
+                  </button>
+                </div>
+              );
+            }))
         }
       </div>
       {/* pagination */}
