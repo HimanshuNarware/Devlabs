@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const DataSlice=createSlice({
     name:'data',
     initialState:{
-        sourceData:[]
+        sourceData: JSON.parse(localStorage.getItem('bookmarks')) || []
     },
     reducers:{
         setSource:(state,action)=>{
