@@ -83,15 +83,50 @@ function Home(props) {
                 </button>
                 <button
                   className="btn-b"
-                  onClick={() =>
-                    dispatch(
-                      setSource({
+                  onClick={() =>{
+                    const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
+                    if (bookmarks === null){
+                      localStorage.setItem('bookmarks', JSON.stringify([{
                         image: datalist.image,
                         name: datalist.productName,
                         desc: datalist.description,
                         link: datalist.link,
-                      })
-                    )
+                      }]));
+                      dispatch(
+                        setSource({
+                          image: datalist.image,
+                          name: datalist.productName,
+                          desc: datalist.description,
+                          link: datalist.link,
+                        })
+                      )
+                    } else {
+                      let found = false;
+                      for (let item of bookmarks){
+                        if (item.name === datalist.productName){
+                          found = true;
+                          break;
+                        }
+                      }
+
+                      if (!found){
+                        localStorage.setItem('bookmarks', JSON.stringify([...bookmarks, {
+                          image: datalist.image,
+                          name: datalist.productName,
+                          desc: datalist.description,
+                          link: datalist.link,
+                        }]));
+                        dispatch(
+                          setSource({
+                            image: datalist.image,
+                            name: datalist.productName,
+                            desc: datalist.description,
+                            link: datalist.link,
+                          })
+                        )
+                      }
+                    }
+                  }
                   }
                 >
                   Bookmark
