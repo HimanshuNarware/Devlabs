@@ -100,7 +100,6 @@ button {
   align-items: center;
   justify-content: center;
   box-shadow: 0.3rem 0.3rem 5px rgb(172, 172, 172);
-  position: relative;
 }
 
 button:hover::before {
