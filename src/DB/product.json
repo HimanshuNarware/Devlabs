@@ -2593,5 +2593,12 @@
   "image": "https://aniwatch.to/images/logo.png",
   "link": "https://aniwatch.to/",
   "description": "Watch your favourite Anime here in Sub/Dub"
+},
+{
+  "productName": "Planet Scale",
+  "category": "tools",
+  "image": "http://bit.ly/3tndBZC",
+  "link": "https://planetscale.com/",
+  "description": "MySQL-compatible, serverless platform that makes MySQL near infinitely scalable, easier and safer to manage"
 }
 ]
