@@ -6,6 +6,7 @@ import Footer from "./Component/Footer";
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar";
 import BookMark from "./Component/BookMark";
+import NotFound from "./Component/NotFound"; 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home searchQuery={searchQuery} />}></Route>
         <Route path="/bookmark" element={<BookMark />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
       <Footer />
     </>
