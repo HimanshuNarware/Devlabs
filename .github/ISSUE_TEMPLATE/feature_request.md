@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea for this project
 title: ''
 labels: ''
-assignees: HimanshuNarware
+assignees: ''
 
 ---
 
@@ -18,6 +18,8 @@ A clear and concise description of what you want to happen.
 
 
 Checklist
-[] I have checked the existing issues *
-[] I have read the Contributing Guidelines *
-[] I have starred the repository *
+Example  Fill x { [x] }  into  bracket
+
+- [ ] I have checked the existing issues *
+- [ ] I have read the Contributing Guidelines *
+- [ ] I have starred the repository *

@@ -15,6 +15,7 @@ function Footer() {
     <h4 class="card-title ">Contact us</h4>
     <div className='contact-link'>
     <div className='cntc-link'><a href='https://www.linkedin.com/in/himanshunarware/' target='_blank' ><FaLinkedinIn/></a></div>  
+
   <div className='cntc-twit'><a href='https://twitter.com/N_Himanshu_\' target='_blank' >   <FaTwitter/></a></div>  
   <div className='cntc-git'><a href='https://github.com/HimanshuNarware' target='_blank' >   <BsGithub/></a></div>  
   <div className='cntc-mail'><a href='https://twitter.com/_Jason_Dsouza' target='_blank' >   <AiTwotoneMail/></a></div> 

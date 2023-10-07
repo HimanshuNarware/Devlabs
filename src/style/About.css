@@ -1,28 +1,85 @@
-.container-one{
-    
+.container-one {
+
     display: flex;
     justify-content: center;
     gap: 5%;
-margin: 80px;
-font-size: 2rem;
-margin-top: 8rem;
-color: aquamarine;
+    margin: 80px;
+    font-size: 2rem;
+    margin-top: 8rem;
+    color: aquamarine;
 }
-.bx-1{
-width: 40vw;
+
+.bx-1 {
+    width: 40vw;
 }
-.bx-2{
-width: 40vw;
+
+.bx-2 {
+    width: 40vw;
 }
-img{
-   width: 400px; 
+
+img {
+    width: 400px;
 
 }
-.repo-btn{
+
+.repo-btn {
     font-weight: 500;
     padding: 8px 12px;
     border-color: none;
-    color:orangered;
+    color: orangered;
     border-radius: 12px;
     background-color: transparent;
+}
+
+.content-box {
+
+    border: 1px solid forestgreen;
+    margin: 20px;
+    padding: 7px 12px;
+    border-radius: 12px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+    margin-top: 4rem;
+
+}
+
+.contributor-container {
+
+    gap: 5%;
+    margin: 80px;
+    font-size: 2rem;
+    margin-top: 6rem;
+    color: aquamarine;
+}
+
+
+.profile-btn {
+    color: rgb(226, 43, 122);
+    font-size: 1.1rem;
+    border: 2px dashed rgb(22, 132, 140);
+    margin-inline: 10px;
+    background: transparent;
+    padding: 6px 13px;
+    border-radius: 6px;
+}
+
+
+.profile-btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.profile-btn:hover {
+    color: white;
+    cursor: pointer;
+    border: none;
 }
