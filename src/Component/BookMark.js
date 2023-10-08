@@ -1,25 +1,35 @@
-import { useSelector } from 'react-redux'
-import '../style/BookMark.css'
-function BookMark() {
-const subcribe=useSelector(state=>state.SourceReducer.sourceData);
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { deleteSource } from '../Slice/DataSlice';
+import '../style/BookMark.css';
 
+function BookMark() {
+  const sourceData = useSelector(state => state.SourceReducer.sourceData);
+  const dispatch = useDispatch();
+
+  const handleDeleteBookmark = (name) => {
+    dispatch(deleteSource({ name }));
+
+    const bookmarksInStorage = JSON.parse(localStorage.getItem('bookmarks')) || [];
+    const updatedBookmarks = bookmarksInStorage.filter(bookmark => bookmark.name !== name);
+    localStorage.setItem('bookmarks', JSON.stringify(updatedBookmarks));
+  };
 
   return (
     <div className='container-bk'>
-
-      {subcribe.map((data,index)=>{
-        return(
-          <div className='box-bk' >
-            <img className='logo' src={data.image} alt={data.name}/>
+      {sourceData.map((data, index) => {
+        return (
+          <div className='box-bk' key={index}>
+            <img className='logo' src={data.image} alt={data.name} />
             <h2>{data.name}</h2>
             <p>{data.desc}</p>
-            <button className='btn-b' onClick={()=>Window.open(data.link)}>Link</button>
+            <button className='btn-b' onClick={() => window.open(data.link)}>Link</button>
+            <button className='btn-b' onClick={() => handleDeleteBookmark(data.name)}>Remove</button>
           </div>
-         
-        )
+        );
       })}
     </div>
-  )
+  );
 }
 
-export default BookMark
+export default BookMark;
