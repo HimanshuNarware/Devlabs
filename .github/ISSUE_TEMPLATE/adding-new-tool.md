@@ -3,7 +3,7 @@ name: Adding New Tool
 about: Want to add new tool on the Devlabs
 title: ''
 labels: ''
-assignees: HimanshuNarware
+assignees: ''
 
 ---
 
@@ -23,3 +23,5 @@ Example  Fill x { [x] }  into  bracket
 - [ ] I have checked the existing issues *
 - [ ] I have read the Contributing Guidelines *
 - [ ] I have starred the repository *
+- [ ] Working under Hacktomberfest/Hacksquad*
+- [ ] Working under Slop 3.0 *
