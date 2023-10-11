@@ -6,6 +6,7 @@ import Footer from "./Component/Footer";
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar";
 import BookMark from "./Component/BookMark";
+import BackToTopButton from "./Component/BackToTopButton";
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/bookmark" element={<BookMark />}></Route>
         <Route path="/about" element={<About />}></Route>
       </Routes>
+      <BackToTopButton/>
       <Footer />
     </>
   );
