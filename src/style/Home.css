@@ -1,6 +1,6 @@
 .main-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   margin: 10px;
   margin-top: 8rem;
 }
@@ -10,6 +10,12 @@
   padding: 7px 12px;
   border-radius: 12px;
 }
+.content-box:hover{
+  transform: scale(1.05); 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
 .logo {
   width: 50px;
   height: 50px;
@@ -21,6 +27,7 @@
   margin-inline: 10px;
   background: transparent;
   padding: 6px 13px;
+  margin-bottom: 10px;
   border-radius: 6px;
 }
 .btn-b:hover {
