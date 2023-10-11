@@ -6,6 +6,7 @@ import Footer from "./Component/Footer";
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar";
 import BookMark from "./Component/BookMark";
+import NotFound from "./Component/NotFound"
 import BackToTopButton from "./Component/BackToTopButton";
 
 function App() {
