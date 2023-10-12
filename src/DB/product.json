@@ -2607,5 +2607,19 @@
   "image": "http://bit.ly/3tndBZC",
   "link": "https://planetscale.com/",
   "description": "MySQL-compatible, serverless platform that makes MySQL near infinitely scalable, easier and safer to manage"
+},
+{
+  "productName": "CodePen.io",
+  "category": "web",",
+  "image": "https://codepen.io/falks1/pen/JqLxrW",
+  "link": "https://codepen.io/knox97/pen/zKEvre",
+  "description": "An online ide for HTML, CSS, JS projects"
+},
+{
+  "productName": "Frontend Mentor",
+  "category": "web",
+  "image": "https://seeklogo.com/images/F/frontend-mentor-logo-DD85EFE0E9-seeklogo.com.png",
+  "link": "https://www.frontendmentor.io/",
+  "description": "Solve real-world HTML, CSS and JavaScript challenges of professional designs."
 }
 ]
