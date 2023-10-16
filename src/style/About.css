@@ -44,7 +44,7 @@ img {
     height: 50px;
 }
 
-.main-container {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 10px;
@@ -65,6 +65,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 

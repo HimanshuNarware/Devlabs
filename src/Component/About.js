@@ -81,7 +81,7 @@ function About() {
           </div>
         </div>
         <h1>Our Contributors</h1>
-        <div className='main-container'>
+        <div className='grid-container'>
           {contributors.map(contributor => {
             return (
               <div className='content-box'>
