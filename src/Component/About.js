@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import '../style/About.css'
 
+const FOUNDER = "HimanshuNarware"
 
 function About() {
   const [contributors, setContributors] = useState([]);
+  const [founder, setFounder] = useState({})
   const repoOwner = 'HimanshuNarware';
   const repoName = 'Devlabs';
 
@@ -15,7 +17,12 @@ function About() {
           throw new Error(`GitHub API request failed with status ${response.status}`);
         }
         const data = await response.json();
-        setContributors(data);
+
+        const contributorsList = data.filter(contributor => contributor.login !== FOUNDER);
+        const founderObj = data.find(contributor => contributor.login === FOUNDER);
+
+        setContributors(contributorsList);
+        setFounder(founderObj);
       } catch (error) {
         console.error('Error fetching contributors:', error);
       }
