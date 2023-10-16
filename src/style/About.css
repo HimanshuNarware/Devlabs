@@ -37,6 +37,7 @@ img {
     margin: 20px;
     padding: 7px 12px;
     border-radius: 12px;
+    max-width: 20vw;
 }
 
 .logo {
@@ -49,7 +50,36 @@ img {
     grid-template-columns: repeat(4, 1fr);
     margin: 10px;
     margin-top: 4rem;
+}
 
+@media screen and (max-width: 1300px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .content-box {
+        max-width: 25vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content-box {
+        max-width: 33vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content-box {
+        max-width: 100vw;
+    }
 }
 
 .contributor-container {
