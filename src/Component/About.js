@@ -68,7 +68,7 @@ function About() {
 
       </div>
       <div className='contributor-container'>
-        <h1>Our Contributors</h1>
+        <h1>Founder</h1>
         <div className='founder-container'>
           <div className='content-box'>
                 <img className='logo' src={founder.avatar_url} />
@@ -80,6 +80,7 @@ function About() {
                 </button>
           </div>
         </div>
+        <h1>Our Contributors</h1>
         <div className='main-container'>
           {contributors.map(contributor => {
             return (
