@@ -61,6 +61,12 @@ img {
     color: aquamarine;
 }
 
+.founder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .profile-btn {
     color: rgb(226, 43, 122);

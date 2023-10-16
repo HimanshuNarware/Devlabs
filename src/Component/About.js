@@ -69,6 +69,17 @@ function About() {
       </div>
       <div className='contributor-container'>
         <h1>Our Contributors</h1>
+        <div className='founder-container'>
+          <div className='content-box'>
+                <img className='logo' src={founder.avatar_url} />
+                <h3>{founder.login}</h3>
+                <button className='profile-btn'>
+                  <a href={founder.html_url} target="_blank">
+                    Profile
+                  </a>
+                </button>
+          </div>
+        </div>
         <div className='main-container'>
           {contributors.map(contributor => {
             return (
