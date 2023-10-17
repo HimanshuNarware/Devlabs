@@ -105,6 +105,10 @@ img {
     margin-bottom: 4rem;
 }
 
+.buttons-container {
+    display: flex;
+}
+
 
 .profile-btn {
     color: rgb(226, 43, 122);

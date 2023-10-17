@@ -74,18 +74,20 @@ function About() {
         <h1>Founder</h1>
         <div className='founder-container'>
           <div className='content-box'>
-                <img className='logo' src={founder.avatar_url} />
-                <h3>{founder.login}</h3>
-                <button className='profile-btn'>
-                  <a href={founder.html_url} target="_blank">
-                    GitHub
-                  </a>
-                </button>
-                <button className='profile-btn'>
-                  <a href={linkedinUrl} target="_blank">
-                    Linkedin
-                  </a>
-                </button>
+            <img className='logo' src={founder.avatar_url} />
+            <h3>{founder.login}</h3>
+            <div className='buttons-container'>
+              <button className='profile-btn'>
+                <a href={founder.html_url} target="_blank">
+                  GitHub
+                </a>
+              </button>
+              <button className='profile-btn'>
+                <a href={linkedinUrl} target="_blank">
+                  Linkedin
+                </a>
+              </button>
+            </div>
           </div>
         </div>
         <h1>Our Contributors</h1>
