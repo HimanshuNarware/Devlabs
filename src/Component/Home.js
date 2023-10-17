@@ -13,7 +13,7 @@ function Home(props) {
   );
   let itemList = "";
   const [currentPage, setCurrentPage] = useState(1);
-  const postPerpage = 16;
+  const postPerpage = 40;
   const lastPostIndex = currentPage * postPerpage;
   const firstPostIndex = lastPostIndex - postPerpage;
 
@@ -139,7 +139,7 @@ function Home(props) {
       {/* pagination */}
       <nav>
       <div className="page-index">
-            Showing {firstPostIndex+1}-{lastPostIndex} from {currentPost1.length} results
+            Showing {firstPostIndex+1}-{lastPostIndex < currentPost1.length?lastPostIndex:currentPost1.length} from {currentPost1.length} results
         </div>
         <ul className="pagination">
           <li className="page-item">
@@ -167,12 +167,12 @@ function Home(props) {
     </div>
   );
   function prePage() {
-    if (currentPage !== firstPostIndex) {
+    if (currentPage !== firstPostIndex && currentPage !== 1) {
       setCurrentPage(currentPage - 1);
     }
   }
   function nextPage() {
-    if (currentPage !== lastPostIndex) {
+    if (currentPage >= lastPostIndex) {
       setCurrentPage(currentPage + 1);
     }
   }
