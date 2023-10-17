@@ -46,9 +46,14 @@ img {
     white-space: nowrap;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
+.profile-img {
+    width: 100%;
+    height: auto;
+}
+
+.founder-username {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .grid-container {
