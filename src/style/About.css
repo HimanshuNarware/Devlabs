@@ -125,5 +125,5 @@ img {
 .profile-btn:hover {
     color: white;
     cursor: pointer;
-    border: none;
+    border-color: transparent;
 }

@@ -2,12 +2,15 @@ import React, { useState, useEffect } from 'react';
 import '../style/About.css'
 
 const FOUNDER = "HimanshuNarware"
+const linkedinUrl = "https://www.linkedin.com/in/HimanshuNarware"
 
 function About() {
   const [contributors, setContributors] = useState([]);
   const [founder, setFounder] = useState({})
   const repoOwner = 'HimanshuNarware';
   const repoName = 'Devlabs';
+
+  console.log(founder)
 
   useEffect(() => {
     async function fetchContributors() {
@@ -75,7 +78,12 @@ function About() {
                 <h3>{founder.login}</h3>
                 <button className='profile-btn'>
                   <a href={founder.html_url} target="_blank">
-                    Profile
+                    GitHub
+                  </a>
+                </button>
+                <button className='profile-btn'>
+                  <a href={linkedinUrl} target="_blank">
+                    Linkedin
                   </a>
                 </button>
           </div>
