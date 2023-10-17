@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../style/About.css'
+import profile from '../image/profile.png'
 
 const FOUNDER = "HimanshuNarware"
 const linkedinUrl = "https://www.linkedin.com/in/HimanshuNarware"
@@ -74,7 +75,8 @@ function About() {
         <h1>Founder</h1>
         <div className='founder-container'>
           <div className='content-box'>
-            <img className='logo' src={founder.avatar_url} />
+            {/* <img className='logo' src={founder.avatar_url} /> */}
+            <img className='logo' src={profile} />
             <h3>{founder.login}</h3>
             <div className='buttons-container'>
               <button className='profile-btn'>
