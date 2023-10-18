@@ -2607,5 +2607,12 @@
   "image": "http://bit.ly/3tndBZC",
   "link": "https://planetscale.com/",
   "description": "MySQL-compatible, serverless platform that makes MySQL near infinitely scalable, easier and safer to manage"
+},
+{
+  "productName": "Optimizilla",
+  "category": "tools",
+  "image": "https://imagecompressor.com/images/imagecompressor/logo.svg",
+  "link": "https://imagecompressor.com/",
+  "description": "Optimizilla is the ultimate image optimizer to compress your images in JPEG, GIF and PNG formats to the minimum possible size."
 }
 ]
