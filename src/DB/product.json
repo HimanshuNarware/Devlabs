@@ -2607,5 +2607,40 @@
   "image": "http://bit.ly/3tndBZC",
   "link": "https://planetscale.com/",
   "description": "MySQL-compatible, serverless platform that makes MySQL near infinitely scalable, easier and safer to manage"
+},
+{
+  "productName": "Azure",
+  "category": "tools",
+  "image": "https://seeklogo.com/images/M/microsoft-azure-logo-2575D39E82-seeklogo.com.png",
+  "link": "https://learn.microsoft.com/en-us",
+  "description": "Azure is a subsidiary of Microsoft providing on-demand cloud computing platforms and APIs to individuals."
+},
+{
+  "productName": "Salesforce",
+  "category": "tools",
+  "image": "https://seeklogo.com/images/S/salesforce-logo-273F95FE60-seeklogo.com.png",
+  "link": "https://trailhead.salesforce.com",
+  "description": "Trailhead is Salesforce's free training site that has over many learning and hands-on activities."
+},
+{
+  "productName": "Google Cloud Platform",
+  "category": "tools",
+  "image": "https://seeklogo.com/images/G/google-cloud-logo-ADE788217F-seeklogo.com.png",
+  "link": "https://cloud.google.com/?hl=en",
+  "description": "Google Cloud is a subsidiary of Google providing on-demand cloud computing platforms and APIs to individuals."
+},
+{
+  "productName": "The Odin Project",
+    "category": "Web Development",
+    "image": "https://shorturl.at/gozNR",
+    "link": "https://www.theodinproject.com",
+    "description": "The Odin Project provides the best learning material and projects on web development."
+},
+{
+  "productName": "DataCamp",
+    "category": "Data Science and Machine Learning",
+    "image": "https://images.app.goo.gl/Rr59PV8PWq6MU8a49",
+    "link": "https://www.datacamp.com/",
+    "description": "DataCamp provides the best learning materials and projects on the topics of Data Science and Machine Learning."
 }
 ]
