@@ -11,7 +11,7 @@ function Navbar(props) {
   return (
     <header>
       <div className="navbar">
-        <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav}/>
+        <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
         <NavbarCenter />
         <NavbarRight setSearchQuery={props.setSearchQuery} />
       </div>

@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true,
+    "emmet.includeLanguages": {
+        "\"javascript\":": "\"javascriptreact\""
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
