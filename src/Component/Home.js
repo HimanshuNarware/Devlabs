@@ -74,15 +74,15 @@ function Home(props) {
                   alt={datalist.category}
                 />
                 <h2>{datalist.productName}</h2>
-                <p>{datalist.description}</p>
+                <p className="content-box-text">{datalist.description}</p>
                 <button
-                  className="btn-b"
+                  className="btn-b-box"
                   onClick={(e) => window.open(datalist.link)}
                 >
                   Link
                 </button>
                 <button
-                  className="btn-b"
+                  className="btn-b-box"
                   onClick={() =>{
                     const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
                     if (bookmarks === null){
