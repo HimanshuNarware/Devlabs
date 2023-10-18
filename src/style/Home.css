@@ -1,0 +1,73 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  margin: 10px;
+  margin-top: 8rem;
+}
+.content-box {
+  border: 1px solid forestgreen;
+  margin: 20px;
+  padding: 7px 12px;
+  border-radius: 12px;
+}
+.content-box:hover{
+  transform: scale(1.05); 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.btn-b {
+  color: rgb(226, 43, 122);
+  font-size: 1.1rem;
+  border: 2px dashed rgb(22, 132, 140);
+  margin-inline: 10px;
+  background: transparent;
+  padding: 6px 13px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+.btn-b:hover {
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.pagination::-webkit-scrollbar {
+  height: 10px;
+  width: 100%;
+}
+
+.pagination::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.pagination::-webkit-scrollbar-thumb {
+  background-color: #0a8e66;
+  border-radius: 5px;
+}
+
+.pagination::-webkit-scrollbar-thumb:hover {
+  background-color: #EB89B5;
+}
+
+@media screen and (max-width: 1124px) {
+  .pagination {
+    overflow-x: scroll;
+    padding-bottom: 5px;
+    width: 100%;
+    white-space: nowrap;
+    scroll-padding: 0;
+    justify-content: flex-start;
+  }
+}

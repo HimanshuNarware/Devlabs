@@ -1,0 +1,144 @@
+.container-one {
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin: 80px;
+    font-size: 2rem;
+    margin-top: 8rem;
+    color: aquamarine;
+}
+
+.bx-1 {
+    width: 40vw;
+}
+
+.bx-2 {
+    width: 40vw;
+}
+
+img {
+    width: 400px;
+
+}
+
+.repo-btn {
+    font-weight: 500;
+    padding: 8px 12px;
+    border-color: none;
+    color: orangered;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+.content-box {
+
+    border: 1px solid forestgreen;
+    margin: 20px;
+    padding: 7px 12px;
+    border-radius: 12px;
+    max-width: 20vw;
+}
+
+.content-box h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.profile-img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 0.75rem;
+}
+
+.founder-username {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .content-box {
+        max-width: 25vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content-box {
+        max-width: 33vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content-box {
+        max-width: 100vw;
+    }
+}
+
+.contributor-container {
+
+    gap: 5%;
+    margin: 80px;
+    font-size: 2rem;
+    margin-top: 6rem;
+    color: aquamarine;
+}
+
+.founder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+
+.profile-btn {
+    color: rgb(226, 43, 122);
+    font-size: 1.1rem;
+    border: 2px dashed rgb(22, 132, 140);
+    margin-inline: 10px;
+    background: transparent;
+    padding: 6px 13px;
+    border-radius: 6px;
+}
+
+
+.profile-btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.profile-btn:hover {
+    color: white;
+    cursor: pointer;
+    border-color: transparent;
+}

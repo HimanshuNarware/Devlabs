@@ -1,0 +1,23 @@
+.card{
+    background-color: #099268!important;
+}
+.card-header{
+    border: none;
+}
+.copyright{
+    background-color: rgba(0, 0, 0, 0.742);
+    color: white;
+}.contact-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.4rem;
+}
+.cntc-link a{
+    color: black;
+}
+.cntc-link a:hover{
+    cursor: pointer;
+    color: white!important;
+}
