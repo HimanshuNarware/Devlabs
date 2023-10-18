@@ -47,8 +47,10 @@ img {
 }
 
 .profile-img {
-    width: 100%;
+    width: 60%;
     height: auto;
+    border-radius: 50%;
+    margin-top: 0.75rem;
 }
 
 .founder-username {
