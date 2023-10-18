@@ -3,15 +3,13 @@ import '../style/About.css'
 import profile from '../image/profile.png'
 
 const FOUNDER = "HimanshuNarware"
-const linkedinUrl = "https://www.linkedin.com/in/HimanshuNarware"
+const LINKEDIN_URL = "https://www.linkedin.com/in/HimanshuNarware"
 
 function About() {
   const [contributors, setContributors] = useState([]);
   const [founder, setFounder] = useState({})
   const repoOwner = 'HimanshuNarware';
   const repoName = 'Devlabs';
-
-  console.log(founder)
 
   useEffect(() => {
     async function fetchContributors() {
@@ -75,8 +73,7 @@ function About() {
         <h1>Founder</h1>
         <div className='founder-container'>
           <div className='content-box'>
-            {/* <img className='logo' src={founder.avatar_url} /> */}
-            <img className='profile-img' src={profile} />
+            <img className='profile-img' src={profile} alt="profile"/>
             <h3 className='founder-username'>{founder.login}</h3>
             <div className='buttons-container'>
               <button className='profile-btn'>
@@ -85,7 +82,7 @@ function About() {
                 </a>
               </button>
               <button className='profile-btn'>
-                <a href={linkedinUrl} target="_blank">
+                <a href={LINKEDIN_URL} target="_blank">
                   Linkedin
                 </a>
               </button>
@@ -97,7 +94,7 @@ function About() {
           {contributors.map(contributor => {
             return (
               <div className='content-box'>
-                <img className='logo' src={contributor.avatar_url} />
+                <img className='logo' src={contributor.avatar_url} alt="avatar"/>
                 <h3>{contributor.login}</h3>
                 <h4>{contributor.contributions} commits</h4>
                 <button className='profile-btn'>
