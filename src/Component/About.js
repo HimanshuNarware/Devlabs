@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import '../style/About.css'
 
+const FOUNDER = "HimanshuNarware"
+const LINKEDIN_URL = "https://www.linkedin.com/in/HimanshuNarware"
 
 function About() {
   const [contributors, setContributors] = useState([]);
+  const [founder, setFounder] = useState({})
   const repoOwner = 'HimanshuNarware';
   const repoName = 'Devlabs';
 
@@ -15,7 +18,12 @@ function About() {
           throw new Error(`GitHub API request failed with status ${response.status}`);
         }
         const data = await response.json();
-        setContributors(data);
+
+        const contributorsList = data.filter(contributor => contributor.login !== FOUNDER);
+        const founderObj = data.find(contributor => contributor.login === FOUNDER);
+
+        setContributors(contributorsList);
+        setFounder(founderObj);
       } catch (error) {
         console.error('Error fetching contributors:', error);
       }
@@ -61,12 +69,31 @@ function About() {
 
       </div>
       <div className='contributor-container'>
+        <h1>Founder</h1>
+        <div className='founder-container'>
+          <div className='content-box'>
+            <img className='profile-img' src={founder.avatar_url} alt="profile"/>
+            <h3 className='founder-username'>{founder.login}</h3>
+            <div className='buttons-container'>
+              <button className='profile-btn'>
+                <a href={founder.html_url} target="_blank">
+                  GitHub
+                </a>
+              </button>
+              <button className='profile-btn'>
+                <a href={LINKEDIN_URL} target="_blank">
+                  Linkedin
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
         <h1>Our Contributors</h1>
-        <div className='main-container'>
+        <div className='grid-container'>
           {contributors.map(contributor => {
             return (
               <div className='content-box'>
-                <img className='logo' src={contributor.avatar_url} />
+                <img className='logo' src={contributor.avatar_url} alt="avatar"/>
                 <h3>{contributor.login}</h3>
                 <h4>{contributor.contributions} commits</h4>
                 <button className='profile-btn'>
