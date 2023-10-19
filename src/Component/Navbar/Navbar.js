@@ -13,7 +13,7 @@ function Navbar(props) {
       <div className="navbar">
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav}/>
         <NavbarCenter />
-        <NavbarRight props={props}/>
+        <NavbarRight setSearchQuery={props.setSearchQuery}/>
       </div>
 
       {showSideNav && (
