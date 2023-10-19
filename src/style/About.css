@@ -1,25 +1,50 @@
 .container-one {
-
     display: flex;
     justify-content: center;
     gap: 5%;
-    margin: 80px;
-    font-size: 2rem;
+    margin: 40px;
+    font-size: 32px;
     margin-top: 8rem;
     color: aquamarine;
 }
 
 .bx-1 {
-    width: 40vw;
+    width: 48%;
 }
 
 .bx-2 {
-    width: 40vw;
+    width: 48%;
+}
+
+@media screen and (max-width: 900px) {
+    .container-one{
+        font: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-one{
+        flex-direction: column;
+        font: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .bx-1{
+        width: auto;
+    }
+    .bx-2{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .container-one{
+        font: 16px;
+    }
 }
 
 img {
-    width: 400px;
-
+    width: 98%;
 }
 
 .repo-btn {
@@ -29,6 +54,12 @@ img {
     color: orangered;
     border-radius: 12px;
     background-color: transparent;
+}
+
+@media screen and (max-width: 375px) {
+    .repo-btn{
+        font: 16px;
+    }
 }
 
 .content-box {
