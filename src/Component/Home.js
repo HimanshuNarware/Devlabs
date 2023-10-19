@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
-import dataBaseData from "./../DB/product.json";
+import React, { useEffect, useRef, useState } from "react";
+import axios from "axios";
+import ReactPaginate from "react-paginate";
 import "../style/Home.css";
 import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
@@ -12,13 +13,40 @@ function Home(props) {
     localStorage.getItem("filter") || ""
   );
   let itemList = "";
-  const [currentPage, setCurrentPage] = useState(1);
-  const postPerpage = 16;
-  const lastPostIndex = currentPage * postPerpage;
-  const firstPostIndex = lastPostIndex - postPerpage;
+  const currentPage = useRef();
+  const dispatch = useDispatch();
+  const [limit, setLimit] = useState(16);
+  const [lastPostIndex, setLastPostIndex] = useState(0);
+  const [firstPostIndex, setFirstPostIndex] = useState(0);
 
-  const currentPost1 = dataBaseData;
-  let allvalue = dataBaseData;
+  const [productsData,setProductsData] = useState([]);
+  const [currentPost1,setCurrentPost1] = useState([]);
+
+  useEffect(()=>{
+    currentPage.current = 1;
+    getProducts();
+  },[])
+  
+  function handlePageClick(e) {
+    console.log(e);
+    currentPage.current = e.selected+1;
+    getProducts();
+  }
+  function getProducts() {
+    const url2 = `${process.env.REACT_APP_BACKEND_URL}/products`
+    axios
+      .get(url2)
+      .then((response) => {
+        setProductsData(response.data);
+        setFirstPostIndex((currentPage.current-1)*limit);
+        setLastPostIndex(currentPage.current*limit);
+        setCurrentPost1(response.data);
+      })
+      .catch((error) => {
+        console.log(error.message);
+      })
+  }
+
   useEffect(() => {
     const handleStorageChange = () => {
       setLocalStorageValue(localStorage.getItem("filter"));
@@ -28,8 +56,12 @@ function Home(props) {
       window.removeEventListener("storage", handleStorageChange);
     };
   }, []);
+
+  // const currentPost1 = productsData;
+  let allvalue = productsData;
+
   if (localStorageValue === "undefined" || localStorageValue === "all") {
-    allvalue = dataBaseData;
+    allvalue = productsData;
     console.log("No localstorage item");
   } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
     console.log(localStorageValue);
@@ -38,11 +70,11 @@ function Home(props) {
         (e) =>
           e.category.toLowerCase().includes(localStorageValue) ||
           e.category.includes(localStorage.getItem("filter-2"))
-      );
+      )
     } else {
       allvalue = currentPost1.filter((e) =>
-        e.category.toLowerCase().includes(localStorageValue)
-      );
+      e.category.toLowerCase().includes(localStorageValue)
+    )
     }
     console.log(allvalue);
   }
@@ -57,9 +89,7 @@ function Home(props) {
     );
   });
   const currentPost = filteredData.slice(firstPostIndex, lastPostIndex);
-  const npage = Math.ceil(filteredData.length / postPerpage);
-  const numbers = [...Array(npage + 1).keys()].slice(1);
-  const dispatch = useDispatch();
+  const npage = Math.ceil(filteredData.length / limit);
 
   return (
     <div className="container">
@@ -83,15 +113,22 @@ function Home(props) {
                 </button>
                 <button
                   className="btn-b"
-                  onClick={() =>{
-                    const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
-                    if (bookmarks === null){
-                      localStorage.setItem('bookmarks', JSON.stringify([{
-                        image: datalist.image,
-                        name: datalist.productName,
-                        desc: datalist.description,
-                        link: datalist.link,
-                      }]));
+                  onClick={() => {
+                    const bookmarks = JSON.parse(
+                      localStorage.getItem("bookmarks")
+                    );
+                    if (bookmarks === null) {
+                      localStorage.setItem(
+                        "bookmarks",
+                        JSON.stringify([
+                          {
+                            image: datalist.image,
+                            name: datalist.productName,
+                            desc: datalist.description,
+                            link: datalist.link,
+                          },
+                        ])
+                      );
                       dispatch(
                         setSource({
                           image: datalist.image,
@@ -99,23 +136,29 @@ function Home(props) {
                           desc: datalist.description,
                           link: datalist.link,
                         })
-                      )
+                      );
                     } else {
                       let found = false;
-                      for (let item of bookmarks){
-                        if (item.name === datalist.productName){
+                      for (let item of bookmarks) {
+                        if (item.name === datalist.productName) {
                           found = true;
                           break;
                         }
                       }
 
-                      if (!found){
-                        localStorage.setItem('bookmarks', JSON.stringify([...bookmarks, {
-                          image: datalist.image,
-                          name: datalist.productName,
-                          desc: datalist.description,
-                          link: datalist.link,
-                        }]));
+                      if (!found) {
+                        localStorage.setItem(
+                          "bookmarks",
+                          JSON.stringify([
+                            ...bookmarks,
+                            {
+                              image: datalist.image,
+                              name: datalist.productName,
+                              desc: datalist.description,
+                              link: datalist.link,
+                            },
+                          ])
+                        );
                         dispatch(
                           setSource({
                             image: datalist.image,
@@ -123,11 +166,10 @@ function Home(props) {
                             desc: datalist.description,
                             link: datalist.link,
                           })
-                        )
+                        );
                       }
                     }
-                  }
-                  }
+                  }}
                 >
                   Bookmark
                 </button>
@@ -137,48 +179,33 @@ function Home(props) {
         }
       </div>
       {/* pagination */}
+
       <nav>
-      <div className="page-index">
-            Showing {firstPostIndex+1}-{lastPostIndex} from {currentPost1.length} results
+        <div className="page-index">
+          Showing {firstPostIndex + 1}-{lastPostIndex} from{" "}
+          {currentPost1.length} results
         </div>
-        <ul className="pagination">
-          <li className="page-item">
-            <a href="#" className="page-link" onClick={prePage}>
-              prev
-            </a>
-          </li>
-          {numbers.map((n, i) => (
-            <li
-              className={`page-item ${currentPage === n ? "active" : ""}`}
-              key={i}
-            >
-              <a href="#" className="page-link" onClick={() => changeCPage(n)}>
-                {n}
-              </a>
-            </li>
-          ))}
-          <li className="page-item">
-            <a href="#" className="page-link" onClick={nextPage}>
-              next
-            </a>
-          </li>
-        </ul>
+        <ReactPaginate
+          breakLabel="..."
+          nextLabel="next >"
+          pageRangeDisplayed={5}
+          pageCount={npage}
+          previousLabel="< previous"
+          renderOnZeroPageCount={null}
+          marginPagesDisplayed={2}
+          onPageChange={handlePageClick}
+          containerClassName="pagination justify-content-center"
+          pageClassName="page-item"
+          pageLinkClassName="page-link"
+          previousClassName="page-item"
+          previousLinkClassName="page-link"
+          nextClassName="page-item"
+          nextLinkClassName="page-link"
+          activeClassName="active"
+        />
       </nav>
     </div>
   );
-  function prePage() {
-    if (currentPage !== firstPostIndex) {
-      setCurrentPage(currentPage - 1);
-    }
-  }
-  function nextPage() {
-    if (currentPage !== lastPostIndex) {
-      setCurrentPage(currentPage + 1);
-    }
-  }
-  function changeCPage(id) {
-    setCurrentPage(id);
-  }
 }
 
 export default Home;
