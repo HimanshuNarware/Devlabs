@@ -172,7 +172,7 @@ function Home(props) {
     }
   }
   function nextPage() {
-    if (currentPage >= lastPostIndex) {
+    if (currentPage >= lastPostIndex !== lastPostIndex) {
       setCurrentPage(currentPage + 1);
     }
   }
