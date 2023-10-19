@@ -13,7 +13,7 @@ function Home(props) {
   );
   let itemList = "";
   const [currentPage, setCurrentPage] = useState(1);
-  const postPerpage = 40;
+  const postPerpage = 25;
   const lastPostIndex = currentPage * postPerpage;
   const firstPostIndex = lastPostIndex - postPerpage;
 
