@@ -9,11 +9,7 @@ const PORT = process.env.PORT_NUM || 3000;
 const mongodbURL = process.env.MONGODB_URL;
 
 app.use(express.json());
-app.use(cors({
-  origin: process.env.FRONTEND_URL,
-  methods: ["GET","POST","PUT","DELETE"],
-  allowedHeaders: ["Content-Type"],
-}))
+app.use(cors())
 
 app.get("/", (request, response) => {
   response.send("Hi there");
