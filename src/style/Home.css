@@ -81,6 +81,12 @@
   background-color:rgb(10, 142, 102) ;
 }
 
+nav {
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .pagination {
   display: flex;
   justify-content: center;
