@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "../../style/Navbar.css";
 import { BsSearch } from "react-icons/bs";
 
-function NavbarRight(props) {
+function NavbarRight({ setSearchQuery }) {
   function handleSearch(e) {
     e.preventDefault();
   }
   const handleInputChange = (e) => {
-    props.setSearchQuery(e.target.value);
+    setSearchQuery(e.target.value);
   };
   const [search, setSearch] = useState("Search...");
 
