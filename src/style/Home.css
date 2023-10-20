@@ -39,17 +39,15 @@
   border-radius: 12px;
   box-shadow: 2px 2px 8px rgb(187, 72, 122);
 }
-/* @media (min-width: 651px) and (max-width: 769px) {
-  .main-container {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-  .content-box {
+
+@media screen and (max-width: 950px) {
+  .content-box-home {
     margin: 10px; 
     padding: 5px 8px; 
     border-radius: 8px; 
     box-shadow: 2px 2px 5px rgba(187, 72, 122); 
   }
-} */
+}
 
 .content-box-home:hover{
   transform: scale(1.05); 
