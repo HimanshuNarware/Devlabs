@@ -6,6 +6,24 @@
   gap: 20px;
 }
 
+@media screen and (max-width: 1300px) {
+  .main-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .content-box {
   background-color:rgb(0,0,0,0.5);
   border: 1px solid rgb(10, 142, 102,0.7);
