@@ -3,38 +3,61 @@
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   margin: 10px;
   margin-top: 8rem;
+  gap: 20px;
 }
+
 .content-box {
-  border: 1px solid forestgreen;
+  background-color:rgb(0,0,0,0.5);
+  border: 1px solid rgb(10, 142, 102,0.7);
   margin: 20px;
   padding: 7px 12px;
   border-radius: 12px;
+  box-shadow: 2px 2px 8px rgb(187, 72, 122);
 }
-.content-box:hover{
-  transform: scale(1.05); 
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+@media (min-width: 651px) and (max-width: 769px) {
+  .main-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .content-box {
+    margin: 10px; 
+    padding: 5px 8px; 
+    border-radius: 8px; 
+    box-shadow: 2px 2px 5px rgba(187, 72, 122); 
+  }
 }
 
-.logo {
-  width: 50px;
-  height: 50px;
+.content-box:hover{
+  transform: scale(1.05); 
+  box-shadow: 0px 0px 25px rgb(187, 72, 122); 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-.btn-b {
+.content-box-text{
+  padding: 4px;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.btn-b-box {
   color: rgb(226, 43, 122);
   font-size: 1.1rem;
-  border: 2px dashed rgb(22, 132, 140);
+  border: 1px solid rgb(10, 142, 102);
   margin-inline: 10px;
+  padding: 6px 16px 6px 16px;
   background: transparent;
-  padding: 6px 13px;
   margin-bottom: 10px;
   border-radius: 6px;
+  box-shadow: 1px 1px  rgb(0, 0, 0,0.5);
 }
-.btn-b:hover {
+.btn-b-box:hover {
   color: white;
   cursor: pointer;
-  border: none;
+  border: 1px solid rgb(10, 142, 102);
+  background-color:rgb(10, 142, 102) ;
 }
+
 .pagination {
   display: flex;
   justify-content: center;
