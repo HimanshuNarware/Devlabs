@@ -67,7 +67,7 @@ function Home(props) {
         {
           (itemList = currentPost.map((datalist) => {
             return (
-              <div className="content-box">
+              <div className="content-box-home">
                 <img
                   className="logo"
                   src={datalist.image}
