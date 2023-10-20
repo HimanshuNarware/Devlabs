@@ -1,6 +1,7 @@
 .container-one {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5%;
     margin: 40px;
     font-size: 32px;
@@ -10,22 +11,24 @@
 
 .bx-1 {
     width: 48%;
+    max-width: 450px;
 }
 
 .bx-2 {
     width: 48%;
+    max-width: 450px;
 }
 
 @media screen and (max-width: 900px) {
     .container-one{
-        font: 26px;
+        font-size: 26px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .container-one{
         flex-direction: column;
-        font: 20px;
+        font-size: 20px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -39,11 +42,11 @@
 
 @media screen and (max-width: 375px){
     .container-one{
-        font: 16px;
+        font-size: 16px;
     }
 }
 
-img {
+.img {
     width: 98%;
 }
 
@@ -63,7 +66,6 @@ img {
 }
 
 .content-box {
-
     border: 1px solid forestgreen;
     margin: 20px;
     padding: 7px 12px;
@@ -96,6 +98,15 @@ img {
     margin-top: 4rem;
 }
 
+.contributor-container {
+
+    gap: 5%;
+    margin: 40px;
+    font-size: 2rem;
+    margin-top: 6rem;
+    color: aquamarine;
+}
+
 @media screen and (max-width: 1300px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
@@ -110,29 +121,30 @@ img {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
-
     .content-box {
         max-width: 33vw;
     }
 }
 
-@media screen and (max-width: 650px) {
-    .grid-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .content-box {
-        max-width: 100vw;
+@media screen and (max-width: 650px){
+    .contributor-container{
+        margin: 20px;
     }
 }
 
-.contributor-container {
+@media screen and (max-width: 500px) {
+}
 
-    gap: 5%;
-    margin: 80px;
-    font-size: 2rem;
-    margin-top: 6rem;
-    color: aquamarine;
+@media screen and (max-width: 425px) {
+    .contributor-container{
+        margin: 1%;
+    }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .content-box {
+        max-width: 100vw;
+    }
 }
 
 .founder-container {
