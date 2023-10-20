@@ -1,7 +1,7 @@
 .page-container {
   width: 95vw;
   margin: 0 auto;
-  padding-right: 25px;  /* width of the scrollbar to align center */
+  padding-right: 10px;  /* width of the scrollbar to align center */
   max-width: 1500px;
 }
 
