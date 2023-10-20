@@ -1,14 +1,14 @@
-import React,{useState} from "react";
-import "../../style/Navbar.css"
+import React, { useState } from "react";
+import "../../style/Navbar.css";
 import { BsSearch } from "react-icons/bs";
 
 function NavbarRight(props) {
-  // function handleSearch(e) {
-  //   e.preventDefault();
-  // }
-  // const handleInputChange = (e) => {
-  //   props.setSearchQuery(e.target.value);
-  // };
+  function handleSearch(e) {
+    e.preventDefault();
+  }
+  const handleInputChange = (e) => {
+    props.setSearchQuery(e.target.value);
+  };
   const [search, setSearch] = useState("Search...");
 
   return (
@@ -27,26 +27,23 @@ function NavbarRight(props) {
           onClick={(e) => handleSearch(e)}
         >
           <BsSearch />
-        </button>
+        </button> 
       </form> */}
-      <form role="search" className="search-bar">
-        <input
-          type="search"
-          name="search"
-          pattern=".*\S.*"
-          required
-          // value={search}
-          // values={values.keyword}
-          onChange={(e)=>setSearch(e.target.value)}
-        />
-        <button
-          className="search-btn"
-          type="submit"
-          // onClick={(e) => handleSearch(e)}
-        >
-          <span>Search</span>
-        </button>
-      </form>
+      <div className="search">
+        <form role="search" className="search-bar">
+          <div className="box">
+            <input
+              type="text"
+              className="input"
+              placeholder="Search . . ."
+              required
+            />
+            <button className="span">
+              <BsSearch/>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
