@@ -1,5 +1,5 @@
-import React from "react";
-import "../../style/Navbar.css"
+import React, { useState } from "react";
+import "../../style/Navbar.css";
 import { BsSearch } from "react-icons/bs";
 
 function NavbarRight(props) {
@@ -9,10 +9,11 @@ function NavbarRight(props) {
   const handleInputChange = (e) => {
     props.setSearchQuery(e.target.value);
   };
+  const [search, setSearch] = useState("Search...");
 
   return (
     <div className="navbar-right" id="navbarTogglerDemo03">
-      <form className="d-flex" role="search">
+      {/* <form className="d-flex" role="search">
         <input
           className="form-control me-2 search-box"
           type="search"
@@ -26,8 +27,23 @@ function NavbarRight(props) {
           onClick={(e) => handleSearch(e)}
         >
           <BsSearch />
-        </button>
-      </form>
+        </button> 
+      </form> */}
+      <div className="search">
+        <form role="search" className="search-bar">
+          <div className="box">
+            <input
+              type="text"
+              className="input"
+              placeholder="Search . . ."
+              required
+            />
+            <button className="span">
+              <BsSearch/>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
