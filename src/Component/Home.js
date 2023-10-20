@@ -62,7 +62,7 @@ function Home(props) {
   const dispatch = useDispatch();
 
   return (
-    <div className="container">
+    <div className="page-container">
       <div className="main-container">
         {
           (itemList = currentPost.map((datalist) => {
