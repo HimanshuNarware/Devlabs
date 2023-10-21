@@ -92,43 +92,36 @@ function Home(props) {
   const npage = Math.ceil(filteredData.length / limit);
 
   return (
-    <div className="container">
+    <div className="page-container">
       <div className="main-container">
         {
           (itemList = currentPost.map((datalist) => {
             return (
-              <div className="content-box">
+              <div className="content-box-home">
                 <img
                   className="logo"
                   src={datalist.image}
                   alt={datalist.category}
                 />
                 <h2>{datalist.productName}</h2>
-                <p>{datalist.description}</p>
+                <p className="content-box-text">{datalist.description}</p>
                 <button
-                  className="btn-b"
+                  className="btn-b-box"
                   onClick={(e) => window.open(datalist.link)}
                 >
                   Link
                 </button>
-                <button
-                  className="btn-b"
-                  onClick={() => {
-                    const bookmarks = JSON.parse(
-                      localStorage.getItem("bookmarks")
-                    );
-                    if (bookmarks === null) {
-                      localStorage.setItem(
-                        "bookmarks",
-                        JSON.stringify([
-                          {
-                            image: datalist.image,
-                            name: datalist.productName,
-                            desc: datalist.description,
-                            link: datalist.link,
-                          },
-                        ])
-                      );
+                <button 
+                  className="btn-b-box"
+                  onClick={() =>{
+                    const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
+                    if (bookmarks === null){
+                      localStorage.setItem('bookmarks', JSON.stringify([{
+                        image: datalist.image,
+                        name: datalist.productName,
+                        desc: datalist.description,
+                        link: datalist.link,
+                      }]));
                       dispatch(
                         setSource({
                           image: datalist.image,
