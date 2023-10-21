@@ -62,12 +62,12 @@ function Home(props) {
   const dispatch = useDispatch();
 
   return (
-    <div className="container">
+    <div className="page-container">
       <div className="main-container">
         {
           (itemList = currentPost.map((datalist) => {
             return (
-              <div className="content-box">
+              <div className="content-box-home">
                 <img
                   className="logo"
                   src={datalist.image}
