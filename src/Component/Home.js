@@ -4,9 +4,6 @@ import ReactPaginate from "react-paginate";
 import "../style/Home.css";
 import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
-import { Route, Routes } from "react-router-dom";
-import BookMark from "./BookMark";
-import "../style/Pagination.css";
 
 function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
@@ -78,6 +75,7 @@ function Home(props) {
     }
     console.log(allvalue);
   }
+
   const filteredData = allvalue.filter((datalist) => {
     return (
       datalist.productName
@@ -97,7 +95,7 @@ function Home(props) {
         {
           (itemList = currentPost.map((datalist) => {
             return (
-              <div className="content-box-home">
+              <div className="content-box-home" key={datalist.id}>
                 <img
                   className="logo"
                   src={datalist.image}
@@ -107,21 +105,28 @@ function Home(props) {
                 <p className="content-box-text">{datalist.description}</p>
                 <button
                   className="btn-b-box"
-                  onClick={(e) => window.open(datalist.link)}
+                  onClick={() => window.open(datalist.link)}
                 >
                   Link
                 </button>
                 <button 
                   className="btn-b-box"
-                  onClick={() =>{
-                    const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
-                    if (bookmarks === null){
-                      localStorage.setItem('bookmarks', JSON.stringify([{
-                        image: datalist.image,
-                        name: datalist.productName,
-                        desc: datalist.description,
-                        link: datalist.link,
-                      }]));
+                  onClick={() => {
+                    const bookmarks = JSON.parse(
+                      localStorage.getItem("bookmarks")
+                    );
+                    if (bookmarks === null) {
+                      localStorage.setItem(
+                        "bookmarks",
+                        JSON.stringify([
+                          {
+                            image: datalist.image,
+                            name: datalist.productName,
+                            desc: datalist.description,
+                            link: datalist.link,
+                          },
+                        ])
+                      );
                       dispatch(
                         setSource({
                           image: datalist.image,
@@ -168,15 +173,14 @@ function Home(props) {
                 </button>
               </div>
             );
-          }))
-        }
+          })
+        )}
       </div>
       {/* pagination */}
 
       <nav>
         <div className="page-index">
-          Showing {firstPostIndex + 1}-{lastPostIndex} from{" "}
-          {currentPost1.length} results
+          Showing {firstPostIndex + 1}-{lastPostIndex} from {currentPost1.length} results
         </div>
         <ReactPaginate
           breakLabel="..."
