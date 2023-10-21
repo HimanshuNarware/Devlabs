@@ -3,43 +3,32 @@ import "../../style/Navbar.css";
 import { BsSearch } from "react-icons/bs";
 
 function NavbarRight(props) {
-  function handleSearch(e) {
-    e.preventDefault();
-  }
+  const [searchQuery, setSearchQuery] = useState(""); // Local state to manage search query
+
   const handleInputChange = (e) => {
-    props.setSearchQuery(e.target.value);
+    setSearchQuery(e.target.value); // Update the search query when input changes
   };
-  const [search, setSearch] = useState("Search...");
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    props.setSearchQuery(searchQuery); // Pass the search query to the parent component (App)
+  };
 
   return (
     <div className="navbar-right" id="navbarTogglerDemo03">
-      {/* <form className="d-flex" role="search">
-        <input
-          className="form-control me-2 search-box"
-          type="search"
-          placeholder="Search..."
-          aria-label="Search"
-          onChange={handleInputChange}
-        />
-        <button
-          className="btn btn-search btn-outline-success"
-          type="button"
-          onClick={(e) => handleSearch(e)}
-        >
-          <BsSearch />
-        </button> 
-      </form> */}
       <div className="search">
-        <form role="search" className="search-bar">
+        <form role="search" className="search-bar" onSubmit={handleSearch}>
           <div className="box">
             <input
               type="text"
               className="input"
               placeholder="Search . . ."
+              value={searchQuery} // Set input value to the search query
+              onChange={handleInputChange}
               required
             />
-            <button className="span">
-              <BsSearch/>
+            <button className="span" type="submit">
+              <BsSearch />
             </button>
           </div>
         </form>
