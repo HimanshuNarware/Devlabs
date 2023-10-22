@@ -4,7 +4,7 @@ import "../style/Home.css";
 import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
 import Pagination from "./Pagination";
-import { getPaginationData } from "../utils/paginationData";
+import { getPaginationData, changePage } from "../utils/paginationData";
 
 const CARDS_PER_PAGE = 16
 
@@ -71,6 +71,10 @@ function Home(props) {
 
   // const npage = Math.ceil(filteredData.length / postPerpage);
   // const numbers = [...Array(npage + 1).keys()].slice(1);
+
+  const handlePageChange = (value) => {
+    changePage(value, currentPage, setCurrentPage)
+  }
 
   const dispatch = useDispatch();
 
@@ -166,11 +170,12 @@ function Home(props) {
         firstCardIndex={firstCardIndex}
         lastCardIndex={lastCardIndex}
         dataLength={data.length}
-        prePage={prePage} 
+        // prePage={prePage} 
         allPagesNumbers={allPagesNumbers} 
         currentPage={currentPage} 
-        changeCPage={changeCPage} 
-        nextPage={nextPage}
+        // changeCPage={changeCPage} 
+        // nextPage={nextPage}
+        handlePageChange={handlePageChange}
       />
       {/* <nav>
         <div className="page-index">
@@ -202,21 +207,21 @@ function Home(props) {
     </div>
   );
 
-  function prePage() {
-    if (currentPage !== firstCardIndex) {
-      setCurrentPage(currentPage - 1);
-    }
-  }
+  // function prePage() {
+  //   if (currentPage !== firstCardIndex) {
+  //     setCurrentPage(currentPage - 1);
+  //   }
+  // }
 
-  function nextPage() {
-    if (currentPage !== lastCardIndex) {
-      setCurrentPage(currentPage + 1);
-    }
-  }
+  // function nextPage() {
+  //   if (currentPage !== lastCardIndex) {
+  //     setCurrentPage(currentPage + 1);
+  //   }
+  // }
 
-  function changeCPage(id) {
-    setCurrentPage(id);
-  }
+  // function changeCPage(id) {
+  //   setCurrentPage(id);
+  // }
 }
 
 export default Home;

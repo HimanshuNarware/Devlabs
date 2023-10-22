@@ -1,7 +1,14 @@
 import React from 'react'
 import "../style/Pagination.css"
 
-const Pagination = ({ firstCardIndex, lastCardIndex, dataLength, prePage, allPagesNumbers, currentPage, changeCPage, nextPage  }) => {  
+const Pagination = ({ 
+  firstCardIndex, 
+  lastCardIndex, 
+  dataLength, 
+  allPagesNumbers, 
+  currentPage, 
+  handlePageChange  
+}) => {  
   return (
     <nav>
       <div className="page-index">
@@ -10,7 +17,7 @@ const Pagination = ({ firstCardIndex, lastCardIndex, dataLength, prePage, allPag
 
       <ul className="pagination">
         <li className="page-item">
-          <a href="#" className="page-link" onClick={prePage}>
+          <a href="#" className="page-link" onClick={() => handlePageChange("prev")}>
             prev
           </a>
         </li>
@@ -18,16 +25,16 @@ const Pagination = ({ firstCardIndex, lastCardIndex, dataLength, prePage, allPag
         {allPagesNumbers.map((pageNum, i) => (
           <li
             className={`page-item ${currentPage === pageNum ? "active" : ""}`}
-            key={i}
+            key={`li-${i}`}
           >
-            <a href="#" className="page-link" onClick={() => changeCPage(pageNum)}>
+            <a href="#" className="page-link" onClick={() => handlePageChange(pageNum)}>
               {pageNum}
             </a>
           </li>
         ))}
 
         <li className="page-item">
-          <a href="#" className="page-link" onClick={nextPage}>
+          <a href="#" className="page-link" onClick={() => handlePageChange("next")}>
             next
           </a>
         </li>

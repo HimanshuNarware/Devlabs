@@ -11,3 +11,9 @@ export const getPaginationData = (currentPage, cardsPerPage, data) => {
     allPagesNumbers
   }
 }
+
+export const changePage = (value, currentPage, setCurrentPage) => {
+  if (value === "next") {setCurrentPage(currentPage + 1)}
+  else if (value === "prev") {setCurrentPage(currentPage - 1)}
+  else setCurrentPage(value)
+}
