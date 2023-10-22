@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../style/BackToTopButton.css'
 
-import customIcon from '../image/double-up-svgrepo-com.svg';
+import customIcon from '../image/arrow-up-solid.svg';
 
 function BackToTopButton() {
     const [isVisible, setIsVisible] = useState(false);
@@ -30,11 +30,9 @@ function BackToTopButton() {
 
 
     const iconStyle = {
-        width: '2.5rem',  
-        height: '2.5rem',
-        filter: 'brightness(0) invert(1)',
-        
-
+        width: '32px',  
+        height: '32px',
+        filter: 'brightness(0) invert(1)'
         };
     
 
