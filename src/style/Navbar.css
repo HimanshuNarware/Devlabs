@@ -1,7 +1,7 @@
 /* https://codepen.io/himalayasingh/pen/dqjLgO */
 .navbar {
   display: flex;
-  background-color: #099268 !important;
+  background-color: #099268;
   padding: 8px 10px;
   position: fixed;
   margin-top: -8.5rem;
@@ -12,6 +12,12 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
   border-bottom: 3px solid rgb(28, 174, 184);
   z-index: 5;
+  isolation: isolate;
+  mix-blend-mode:normal;
+  
+}
+.darkmode--activated .navbar {
+  mix-blend-mode:multiply;
 }
 .navbar-content {
   display: flex;

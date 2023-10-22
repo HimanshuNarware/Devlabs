@@ -32,7 +32,7 @@
 }
 
 .content-box-home {
-  background-color:rgb(0,0,0,0.5);
+  /* background-color:rgb(0,0,0,0.5); */
   border: 1px solid rgb(10, 142, 102,0.7);
   margin: 20px;
   padding: 7px 12px;
