@@ -3,6 +3,7 @@ import dataBaseData from "./../DB/product.json";
 import "../style/Home.css";
 import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
+import Pagination from "./Pagination";
 
 function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
@@ -147,7 +148,17 @@ function Home(props) {
         )}
       </div>
       {/* pagination */}
-      <nav>
+      <Pagination 
+        firstPostIndex={firstPostIndex}
+        lastPostIndex={lastPostIndex}
+        currentPost1={currentPost1} // need only length
+        prePage={prePage} 
+        numbers={numbers} 
+        currentPage={currentPage} 
+        changeCPage={changeCPage} 
+        nextPage={nextPage}
+      />
+      {/* <nav>
         <div className="page-index">
           Showing {firstPostIndex + 1}-{lastPostIndex} from {currentPost1.length} results
         </div>
@@ -173,7 +184,7 @@ function Home(props) {
             </a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </div>
   );
 
