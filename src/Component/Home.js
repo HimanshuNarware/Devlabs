@@ -63,11 +63,11 @@ function Home(props) {
   });
 
   const paginationValues = getPaginationData(currentPage, CARDS_PER_PAGE, filteredData)
-  const { lastCardIndex, firstCardIndex, allPagesNumbers} = paginationValues
-  console.log(paginationValues)
+  const { lastCardIndex, firstCardIndex, allPagesNumbers, currentPageData} = paginationValues
+  // console.log(paginationValues)
 
   // const currentPageData = filteredData.slice(firstPostIndex, lastPostIndex);
-  const currentPageData = filteredData.slice(firstCardIndex, lastCardIndex);
+  // const currentPageData = filteredData.slice(firstCardIndex, lastCardIndex);
 
   // const npage = Math.ceil(filteredData.length / postPerpage);
   // const numbers = [...Array(npage + 1).keys()].slice(1);

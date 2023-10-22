@@ -5,10 +5,13 @@ export const getPaginationData = (currentPage, cardsPerPage, data) => {
   const totalPagesAmount = Math.ceil(data.length / cardsPerPage);
   const allPagesNumbers = [...Array(totalPagesAmount + 1).keys()].slice(1);
 
+  const currentPageData = data.slice(firstCardIndex, lastCardIndex);
+
   return {
     lastCardIndex,
     firstCardIndex,
-    allPagesNumbers
+    allPagesNumbers,
+    currentPageData
   }
 }
 
