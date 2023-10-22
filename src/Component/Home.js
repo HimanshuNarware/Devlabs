@@ -3,9 +3,6 @@ import dataBaseData from "./../DB/product.json";
 import "../style/Home.css";
 import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
-import { Route, Routes } from "react-router-dom";
-import BookMark from "./BookMark";
-import "../style/Pagination.css";
 
 function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
@@ -46,6 +43,7 @@ function Home(props) {
     }
     console.log(allvalue);
   }
+
   const filteredData = allvalue.filter((datalist) => {
     return (
       datalist.productName
@@ -62,36 +60,43 @@ function Home(props) {
   const dispatch = useDispatch();
 
   return (
-    <div className="container">
+    <div className="page-container">
       <div className="main-container">
         {
           (itemList = currentPost.map((datalist) => {
             return (
-              <div className="content-box">
+              <div className="content-box-home" key={datalist.id}>
                 <img
                   className="logo"
                   src={datalist.image}
                   alt={datalist.category}
                 />
                 <h2>{datalist.productName}</h2>
-                <p>{datalist.description}</p>
+                <p className="content-box-text">{datalist.description}</p>
                 <button
-                  className="btn-b"
-                  onClick={(e) => window.open(datalist.link)}
+                  className="btn-b-box"
+                  onClick={() => window.open(datalist.link)}
                 >
                   Link
                 </button>
                 <button
-                  className="btn-b"
-                  onClick={() =>{
-                    const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
-                    if (bookmarks === null){
-                      localStorage.setItem('bookmarks', JSON.stringify([{
-                        image: datalist.image,
-                        name: datalist.productName,
-                        desc: datalist.description,
-                        link: datalist.link,
-                      }]));
+                  className="btn-b-box"
+                  onClick={() => {
+                    const bookmarks = JSON.parse(
+                      localStorage.getItem("bookmarks")
+                    );
+                    if (bookmarks === null) {
+                      localStorage.setItem(
+                        "bookmarks",
+                        JSON.stringify([
+                          {
+                            image: datalist.image,
+                            name: datalist.productName,
+                            desc: datalist.description,
+                            link: datalist.link,
+                          },
+                        ])
+                      );
                       dispatch(
                         setSource({
                           image: datalist.image,
@@ -99,23 +104,29 @@ function Home(props) {
                           desc: datalist.description,
                           link: datalist.link,
                         })
-                      )
+                      );
                     } else {
                       let found = false;
-                      for (let item of bookmarks){
-                        if (item.name === datalist.productName){
+                      for (let item of bookmarks) {
+                        if (item.name === datalist.productName) {
                           found = true;
                           break;
                         }
                       }
 
-                      if (!found){
-                        localStorage.setItem('bookmarks', JSON.stringify([...bookmarks, {
-                          image: datalist.image,
-                          name: datalist.productName,
-                          desc: datalist.description,
-                          link: datalist.link,
-                        }]));
+                      if (!found) {
+                        localStorage.setItem(
+                          "bookmarks",
+                          JSON.stringify([
+                            ...bookmarks,
+                            {
+                              image: datalist.image,
+                              name: datalist.productName,
+                              desc: datalist.description,
+                              link: datalist.link,
+                            },
+                          ])
+                        );
                         dispatch(
                           setSource({
                             image: datalist.image,
@@ -123,23 +134,26 @@ function Home(props) {
                             desc: datalist.description,
                             link: datalist.link,
                           })
-                        )
+                        );
                       }
                     }
-                  }
-                  }
+                  }}
                 >
                   Bookmark
                 </button>
               </div>
             );
-          }))
-        }
+          })
+        )}
       </div>
       {/* pagination */}
       <nav>
       <div className="page-index">
             Showing {firstPostIndex+1}-{lastPostIndex < currentPost1.length?lastPostIndex:currentPost1.length} from {currentPost1.length} results
+ 
+        <div className="page-index">
+          Showing {firstPostIndex + 1}-{lastPostIndex} from {currentPost1.length} results
+ 
         </div>
         <ul className="pagination">
           <li className="page-item">
@@ -166,16 +180,19 @@ function Home(props) {
       </nav>
     </div>
   );
+
   function prePage() {
     if (currentPage !== firstPostIndex && currentPage !== 1) {
       setCurrentPage(currentPage - 1);
     }
   }
+
   function nextPage() {
     if (currentPage >= lastPostIndex !== lastPostIndex) {
       setCurrentPage(currentPage + 1);
     }
   }
+
   function changeCPage(id) {
     setCurrentPage(id);
   }

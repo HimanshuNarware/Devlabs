@@ -19,14 +19,17 @@
 .btn-b{
     color: rgb(226, 43, 122);
     font-size: 1.1rem;
-    border: 2px dashed rgb(22, 132, 140);
+    border: 1px solid rgb(10, 142, 102);
     margin-inline: 10px;
-    background:transparent;
-    padding: 6px 13px;
+    padding: 6px 16px 6px 16px;
+    background: transparent;
+    margin-bottom: 10px;
     border-radius: 6px;
+    box-shadow: 1px 1px  rgb(0, 0, 0,0.5);
     }
     .btn-b:hover{
         color: white;
         cursor: pointer;
-        border: none;
+        border: 1px solid rgb(10, 142, 102);
+        background-color:rgb(10, 142, 102) ;
     }
