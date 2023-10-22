@@ -27,9 +27,7 @@ function Home(props) {
   }, []);
   if (localStorageValue === "undefined" || localStorageValue === "all") {
     allvalue = dataBaseData;
-    console.log("No localstorage item");
   } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
-    console.log(localStorageValue);
     if (localStorage.getItem("filter-2")) {
       allvalue = currentPost1.filter(
         (e) =>
@@ -41,7 +39,6 @@ function Home(props) {
         e.category.toLowerCase().includes(localStorageValue)
       );
     }
-    console.log(allvalue);
   }
 
   const filteredData = allvalue.filter((datalist) => {
@@ -65,7 +62,7 @@ function Home(props) {
         {
           (itemList = currentPost.map((datalist) => {
             return (
-              <div className="content-box-home" key={datalist.id}>
+              <div className="content-box-home" key={datalist.productName}>
                 <img
                   className="logo"
                   src={datalist.image}
