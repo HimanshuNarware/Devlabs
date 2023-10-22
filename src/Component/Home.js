@@ -150,11 +150,7 @@ function Home(props) {
       <nav>
       <div className="page-index">
             Showing {firstPostIndex+1}-{lastPostIndex < currentPost1.length?lastPostIndex:currentPost1.length} from {currentPost1.length} results
- 
-        <div className="page-index">
-          Showing {firstPostIndex + 1}-{lastPostIndex} from {currentPost1.length} results
- 
-        </div>
+      </div>      
         <ul className="pagination">
           <li className="page-item">
             <a href="#" className="page-link" onClick={prePage}>
