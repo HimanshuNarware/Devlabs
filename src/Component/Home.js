@@ -4,19 +4,23 @@ import "../style/Home.css";
 import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
 import Pagination from "./Pagination";
+import { getPaginationData } from "../utils/paginationData";
+
+const CARDS_PER_PAGE = 16
 
 function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
-  let itemList = "";
+  // let itemList = "";
   const [currentPage, setCurrentPage] = useState(1);
-  const postPerpage = 16;
-  const lastPostIndex = currentPage * postPerpage;
-  const firstPostIndex = lastPostIndex - postPerpage;
+  // const postPerpage = 16;
+  // const lastPostIndex = currentPage * postPerpage;
+  // const firstPostIndex = lastPostIndex - postPerpage;  
 
-  const currentPost1 = dataBaseData;
+  const data = dataBaseData;
   let allvalue = dataBaseData;
+
   useEffect(() => {
     const handleStorageChange = () => {
       setLocalStorageValue(localStorage.getItem("filter"));
@@ -26,25 +30,27 @@ function Home(props) {
       window.removeEventListener("storage", handleStorageChange);
     };
   }, []);
+
   if (localStorageValue === "undefined" || localStorageValue === "all") {
     allvalue = dataBaseData;
     console.log("No localstorage item");
   } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
     console.log(localStorageValue);
     if (localStorage.getItem("filter-2")) {
-      allvalue = currentPost1.filter(
+      allvalue = data.filter(
         (e) =>
           e.category.toLowerCase().includes(localStorageValue) ||
           e.category.includes(localStorage.getItem("filter-2"))
       );
     } else {
-      allvalue = currentPost1.filter((e) =>
+      allvalue = data.filter((e) =>
         e.category.toLowerCase().includes(localStorageValue)
       );
     }
     console.log(allvalue);
   }
 
+  // filters data from searchbar query 
   const filteredData = allvalue.filter((datalist) => {
     return (
       datalist.productName
@@ -55,16 +61,24 @@ function Home(props) {
         .includes(props.searchQuery.toLowerCase())
     );
   });
-  const currentPost = filteredData.slice(firstPostIndex, lastPostIndex);
-  const npage = Math.ceil(filteredData.length / postPerpage);
-  const numbers = [...Array(npage + 1).keys()].slice(1);
+
+  const paginationValues = getPaginationData(currentPage, CARDS_PER_PAGE, filteredData)
+  const { lastCardIndex, firstCardIndex, allPagesNumbers} = paginationValues
+  console.log(paginationValues)
+
+  // const currentPageData = filteredData.slice(firstPostIndex, lastPostIndex);
+  const currentPageData = filteredData.slice(firstCardIndex, lastCardIndex);
+
+  // const npage = Math.ceil(filteredData.length / postPerpage);
+  // const numbers = [...Array(npage + 1).keys()].slice(1);
+
   const dispatch = useDispatch();
 
   return (
     <div className="page-container">
       <div className="main-container">
         {
-          (itemList = currentPost.map((datalist) => {
+          (currentPageData?.map((datalist) => {
             return (
               <div className="content-box-home" key={datalist.id}>
                 <img
@@ -149,18 +163,18 @@ function Home(props) {
       </div>
       {/* pagination */}
       <Pagination 
-        firstPostIndex={firstPostIndex}
-        lastPostIndex={lastPostIndex}
-        currentPost1={currentPost1} // need only length
+        firstCardIndex={firstCardIndex}
+        lastCardIndex={lastCardIndex}
+        dataLength={data.length}
         prePage={prePage} 
-        numbers={numbers} 
+        allPagesNumbers={allPagesNumbers} 
         currentPage={currentPage} 
         changeCPage={changeCPage} 
         nextPage={nextPage}
       />
       {/* <nav>
         <div className="page-index">
-          Showing {firstPostIndex + 1}-{lastPostIndex} from {currentPost1.length} results
+          Showing {firstPostIndex + 1}-{lastPostIndex} from {data.length} results
         </div>
         <ul className="pagination">
           <li className="page-item">
@@ -189,13 +203,13 @@ function Home(props) {
   );
 
   function prePage() {
-    if (currentPage !== firstPostIndex) {
+    if (currentPage !== firstCardIndex) {
       setCurrentPage(currentPage - 1);
     }
   }
 
   function nextPage() {
-    if (currentPage !== lastPostIndex) {
+    if (currentPage !== lastCardIndex) {
       setCurrentPage(currentPage + 1);
     }
   }

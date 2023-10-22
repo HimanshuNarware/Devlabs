@@ -1,14 +1,11 @@
 import React from 'react'
 import "../style/Pagination.css"
 
-const Pagination = ({ firstPostIndex, lastPostIndex, currentPost1, prePage, numbers, currentPage, changeCPage, nextPage  }) => {
-  
-  console.log(`NUMBERS: ${firstPostIndex}`)
-  
+const Pagination = ({ firstCardIndex, lastCardIndex, dataLength, prePage, allPagesNumbers, currentPage, changeCPage, nextPage  }) => {  
   return (
     <nav>
       <div className="page-index">
-        Showing {firstPostIndex + 1}-{lastPostIndex} from {currentPost1.length} results
+        Showing {firstCardIndex + 1}-{lastCardIndex} from {dataLength} results
       </div>
 
       <ul className="pagination">
@@ -18,13 +15,13 @@ const Pagination = ({ firstPostIndex, lastPostIndex, currentPost1, prePage, numb
           </a>
         </li>
 
-        {numbers.map((n, i) => (
+        {allPagesNumbers.map((pageNum, i) => (
           <li
-            className={`page-item ${currentPage === n ? "active" : ""}`}
+            className={`page-item ${currentPage === pageNum ? "active" : ""}`}
             key={i}
           >
-            <a href="#" className="page-link" onClick={() => changeCPage(n)}>
-              {n}
+            <a href="#" className="page-link" onClick={() => changeCPage(pageNum)}>
+              {pageNum}
             </a>
           </li>
         ))}
