@@ -184,7 +184,7 @@ function Home(props) {
   }
 
   function nextPage() {
-    if (currentPage >= lastPostIndex !== lastPostIndex) {
+    if (currentPage!== lastPostIndex && currentPage !== 16 ) {
       setCurrentPage(currentPage + 1);
     }
   }
