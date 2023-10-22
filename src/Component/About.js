@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import '../style/About.css'
+import Pagination from './Pagination';
+import { getPaginationData, changePage } from '../utils/paginationData';
 
 const FOUNDER = "HimanshuNarware"
 const LINKEDIN_URL = "https://www.linkedin.com/in/HimanshuNarware"
+const CARDS_PER_PAGE = 12
 
 function About() {
   	const [contributors, setContributors] = useState([]);
   	const [founder, setFounder] = useState({})
+		const [currentPage, setCurrentPage] = useState(1);
   	const repoOwner = 'HimanshuNarware';
   	const repoName = 'Devlabs';
 
@@ -30,6 +34,13 @@ function About() {
     	}	
     	fetchContributors();
   	}, []);
+
+		const paginationValues = getPaginationData(currentPage, CARDS_PER_PAGE, contributors)
+		const { lastCardIndex, firstCardIndex, allPagesNumbers, currentPageData} = paginationValues
+
+		const handlePageChange = (value) => {
+			changePage(value, currentPage, setCurrentPage)
+		}
 
   	return (
     	<div>
@@ -83,7 +94,7 @@ function About() {
         		</div>
         		<h1>Our Contributors</h1>
 				<div className='grid-container'>
-          			{contributors.map(contributor => {
+          			{currentPageData?.map(contributor => {
             			return (
               				<div className='content-box' key={contributor.id}>
                 				<img className='logo' src={contributor.avatar_url} alt="avatar"/>
@@ -99,6 +110,14 @@ function About() {
           			)}
         		</div>
       		</div>
+					<Pagination 
+						firstCardIndex={firstCardIndex}
+						lastCardIndex={lastCardIndex}
+						dataLength={contributors.length}
+						allPagesNumbers={allPagesNumbers} 
+						currentPage={currentPage} 
+						handlePageChange={handlePageChange}
+					/>
     	</div>
   	);
 }
