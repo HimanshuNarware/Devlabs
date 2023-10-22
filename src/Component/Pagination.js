@@ -1,4 +1,5 @@
 import React from 'react'
+import "../style/Pagination.css"
 
 const Pagination = ({ firstPostIndex, lastPostIndex, currentPost1, prePage, numbers, currentPage, changeCPage, nextPage  }) => {
   

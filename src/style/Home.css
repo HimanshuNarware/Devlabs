@@ -81,7 +81,7 @@
   background-color:rgb(10, 142, 102) ;
 }
 
-nav {
+/* nav {
   max-width: fit-content;
   margin: 0 auto;
   padding: 0 10px;
@@ -122,4 +122,4 @@ nav {
     scroll-padding: 0;
     justify-content: flex-start;
   }
-}
+} */
