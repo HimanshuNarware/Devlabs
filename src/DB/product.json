@@ -2644,6 +2644,13 @@
     "description": "DataCamp provides the best learning materials and projects on the topics of Data Science and Machine Learning."
 },
 {
+  "productName": "Illa AI Agent Community",
+    "category": "Artificial intelligence and Machine Learning",
+    "image": "https://blog.illacloud.com/content/images/2023/09/illa_logo_dark.png",
+    "link": "https://illa.ai/",
+    "description": "Open-source AI Agents provided by experts in the field of machine learning and professional prompt engineers, can be run with 1 click."
+},
+{
 "productName": "Amplication",
   "category": "Web Development",
   "image": "https://amplication.com/_next/static/media/logo_desktop.83f8e039.svg",
@@ -2656,5 +2663,6 @@
     "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/orzcboau3y9gmee5gklo",
     "link": "https://www.akto.io/",
     "description": "Akto is Open Source API Security in CI/CD."
+
 }
 ]
