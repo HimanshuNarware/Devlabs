@@ -162,6 +162,7 @@ function Home(props) {
         allPagesNumbers={allPagesNumbers} 
         currentPage={currentPage} 
         handlePageChange={handlePageChange}
+        scrollPosition={'top'}
       />
     </div>
   );
