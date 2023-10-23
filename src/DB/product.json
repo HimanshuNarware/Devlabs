@@ -2644,6 +2644,13 @@
     "description": "DataCamp provides the best learning materials and projects on the topics of Data Science and Machine Learning."
 },
 {
+  "productName": "Illa AI Agent Community",
+    "category": "Artificial intelligence and Machine Learning",
+    "image": "https://blog.illacloud.com/content/images/2023/09/illa_logo_dark.png",
+    "link": "https://illa.ai/",
+    "description": "Open-source AI Agents provided by experts in the field of machine learning and professional prompt engineers, can be run with 1 click."
+},
+{
 "productName": "Amplication",
   "category": "Web Development",
   "image": "https://amplication.com/_next/static/media/logo_desktop.83f8e039.svg",
