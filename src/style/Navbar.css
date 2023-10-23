@@ -16,9 +16,7 @@
   mix-blend-mode:normal;
   
 }
-.darkmode--activated .navbar {
-  mix-blend-mode:multiply;
-}
+
 .navbar-content {
   display: flex;
   align-items: center;

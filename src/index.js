@@ -14,9 +14,9 @@ const options = {
   left: '32px',
   time: '0.5s',
   mixColor: '#fff',
-  backgroundColor: '#f0f0f0',
-  buttonColorDark: '#100f2c',
-  buttonColorLight: '#f0f0f0',
+  backgroundColor: '#101623',
+  buttonColorDark: '#f0f0f0',
+  buttonColorLight: '#100f2c',
   saveInCookies: true,
   label: '🌓',
   autoMatchOsTheme: true,
@@ -24,6 +24,7 @@ const options = {
 
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
+
 
 root.render(
   <React.StrictMode>

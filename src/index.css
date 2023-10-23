@@ -20,6 +20,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
     background: linear-gradient(to left,#04121e,rgb(39, 2, 13),#021f23);
+    color:#8758f6;
 }
 
 body::-webkit-scrollbar {
@@ -36,24 +37,25 @@ body::-webkit-scrollbar-thumb {
   border-radius: 9px;
   background-clip: content-box;
 }
-
-/* .darkmode--activated p, .darkmode--activated li {
-  color: #cc1111;
+.darkmode-toggle {
+  background: #100f2c;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  border-radius: 50%;
+  border: none;
+  right: unset;
+  bottom: 64px;
+  left: 31px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.button {
-  isolation: isolate;
-}
-
-.darkmode--activated .logo {
-  mix-blend-mode: difference;
-} */
 .darkmode-layer, .darkmode-toggle {
-  z-index: 500;
+  z-index: 4;
 }
-
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
