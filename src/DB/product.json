@@ -2642,5 +2642,12 @@
     "image": "https://images.app.goo.gl/Rr59PV8PWq6MU8a49",
     "link": "https://www.datacamp.com/",
     "description": "DataCamp provides the best learning materials and projects on the topics of Data Science and Machine Learning."
+},
+{
+"productName": "Amplication",
+  "category": "Web Development",
+  "image": "https://amplication.com/_next/static/media/logo_desktop.83f8e039.svg",
+  "link": "https://amplication.com/",
+  "description": "Amplication generate production‑ready backend services."
 }
 ]
