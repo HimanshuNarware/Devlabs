@@ -12,11 +12,7 @@ function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
-  // let itemList = "";
-  const [currentPage, setCurrentPage] = useState(1);
-  // const postPerpage = 16;
-  // const lastPostIndex = currentPage * postPerpage;
-  // const firstPostIndex = lastPostIndex - postPerpage;  
+  const [currentPage, setCurrentPage] = useState(1); 
 
   const data = dataBaseData;
   let allvalue = dataBaseData;
@@ -64,13 +60,6 @@ function Home(props) {
 
   const paginationValues = getPaginationData(currentPage, CARDS_PER_PAGE, filteredData)
   const { lastCardIndex, firstCardIndex, allPagesNumbers, currentPageData} = paginationValues
-  // console.log(paginationValues)
-
-  // const currentPageData = filteredData.slice(firstPostIndex, lastPostIndex);
-  // const currentPageData = filteredData.slice(firstCardIndex, lastCardIndex);
-
-  // const npage = Math.ceil(filteredData.length / postPerpage);
-  // const numbers = [...Array(npage + 1).keys()].slice(1);
 
   const handlePageChange = (value) => {
     changePage(value, currentPage, setCurrentPage)
@@ -165,63 +154,17 @@ function Home(props) {
           })
         )}
       </div>
-      {/* pagination */}
+
       <Pagination 
         firstCardIndex={firstCardIndex}
         lastCardIndex={lastCardIndex}
         dataLength={data.length}
-        // prePage={prePage} 
         allPagesNumbers={allPagesNumbers} 
         currentPage={currentPage} 
-        // changeCPage={changeCPage} 
-        // nextPage={nextPage}
         handlePageChange={handlePageChange}
       />
-      {/* <nav>
-        <div className="page-index">
-          Showing {firstPostIndex + 1}-{lastPostIndex} from {data.length} results
-        </div>
-        <ul className="pagination">
-          <li className="page-item">
-            <a href="#" className="page-link" onClick={prePage}>
-              prev
-            </a>
-          </li>
-          {numbers.map((n, i) => (
-            <li
-              className={`page-item ${currentPage === n ? "active" : ""}`}
-              key={i}
-            >
-              <a href="#" className="page-link" onClick={() => changeCPage(n)}>
-                {n}
-              </a>
-            </li>
-          ))}
-          <li className="page-item">
-            <a href="#" className="page-link" onClick={nextPage}>
-              next
-            </a>
-          </li>
-        </ul>
-      </nav> */}
     </div>
   );
-
-  // function prePage() {
-  //   if (currentPage !== firstCardIndex) {
-  //     setCurrentPage(currentPage - 1);
-  //   }
-  // }
-
-  // function nextPage() {
-  //   if (currentPage !== lastCardIndex) {
-  //     setCurrentPage(currentPage + 1);
-  //   }
-  // }
-
-  // function changeCPage(id) {
-  //   setCurrentPage(id);
-  // }
 }
 
 export default Home;
