@@ -2656,5 +2656,12 @@
     "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/orzcboau3y9gmee5gklo",
     "link": "https://www.akto.io/",
     "description": "Akto is Open Source API Security in CI/CD."
+},
+{
+  "productName": "Novu",
+    "category": "Web Development",
+    "image": "https://www.hacksquad.dev/_next/static/media/f3468ffb81ca36a1555eee7ee479c157.svg",
+    "link": "https://novu.co/",
+    "description": "Novu is the open-source notification infrastructure for developers."
 }
 ]
