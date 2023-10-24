@@ -23,7 +23,7 @@ You can clone the project directly from this repo to your local system.
 ### 1. Clone the repo
 
 ```bash
-https://github.com/HimanshuNarware/Devlabs.git
+https://github.com/username/Devlabs.git
 ```
 
 The `.` will clone it to the current directory so make sure you are inside your project folder first.
