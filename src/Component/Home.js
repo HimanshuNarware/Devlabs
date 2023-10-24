@@ -44,6 +44,14 @@ function Home(props) {
       })
   }
 
+  
+  const [currentPage, setCurrentPage] = useState(1);
+  const postPerpage = 16;
+  const lastPostIndex = currentPage * postPerpage;
+  const firstPostIndex = lastPostIndex - postPerpage;
+
+  const currentPost1 = dataBaseData;
+  let allvalue = dataBaseData;
   useEffect(() => {
     const handleStorageChange = () => {
       setLocalStorageValue(localStorage.getItem("filter"));
@@ -59,9 +67,7 @@ function Home(props) {
 
   if (localStorageValue === "undefined" || localStorageValue === "all") {
     allvalue = productsData;
-    console.log("No localstorage item");
   } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
-    console.log(localStorageValue);
     if (localStorage.getItem("filter-2")) {
       allvalue = currentPost1.filter(
         (e) =>
@@ -73,7 +79,6 @@ function Home(props) {
       e.category.toLowerCase().includes(localStorageValue)
     )
     }
-    console.log(allvalue);
   }
 
   const filteredData = allvalue.filter((datalist) => {
@@ -93,9 +98,9 @@ function Home(props) {
     <div className="page-container">
       <div className="main-container">
         {
-          (itemList = currentPost.map((datalist) => {
+          (currentPost.map((datalist) => {
             return (
-              <div className="content-box-home" key={datalist.id}>
+              <div className="content-box-home" key={datalist.productName}>
                 <img
                   className="logo"
                   src={datalist.image}
@@ -182,6 +187,28 @@ function Home(props) {
         <div className="page-index">
           Showing {firstPostIndex + 1}-{lastPostIndex} from {currentPost1.length} results
         </div>
+        <ul className="pagination">
+          <li className="page-item">
+            <button href="#" className="page-link" onClick={prePage}>
+              prev
+            </button>
+          </li>
+          {numbers.map((n, i) => (
+            <li
+              className={`page-item ${currentPage === n ? "active" : ""}`}
+              key={i}
+            >
+              <button href="#" className="page-link" onClick={() => changeCPage(n)}>
+                {n}
+              </button>
+            </li>
+          ))}
+          <li className="page-item">
+            <button href="#" className="page-link" onClick={nextPage}>
+              next
+            </button>
+          </li>
+        </ul>
         <ReactPaginate
           breakLabel="..."
           nextLabel="next >"

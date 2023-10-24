@@ -45,7 +45,7 @@
 }
 
 .sidebar {
-  width: 18rem;
+  width: 16rem;
   height: 100%;
   background-color: #099268;
   position: fixed;
@@ -54,12 +54,14 @@
   display: flex;
   flex-direction: column;
   font-size: 1.4rem;
+  overflow-y: auto;
+  padding-bottom: 20px;
 }
+
 .sidebar-content {
   border-bottom: 1px solid rgb(2, 27, 43);
 
   font-weight: 500;
-  margin-block: 8px;
 }
 .sdbar-logo {
   font-size: 3rem;
@@ -67,6 +69,7 @@
 }
 .sidebar {
   display: flex;
+  flex-direction: column;
 }
 .Link {
   color: black;
@@ -82,8 +85,9 @@
 }
 .sidebar-btns {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
-  font-size: 1.5rem;
+  font-size: 1rem;
   align-items: center;
 }
 .sidebar-btn {
