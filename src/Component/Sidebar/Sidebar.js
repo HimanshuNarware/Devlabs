@@ -5,7 +5,6 @@ import { AiFillHome } from "react-icons/ai";
 import SidebarContent from "./SidebarContent";
 
 function Sidebar() {
-
   return (
     <div className="sidebar">
       <div className="sidebar-content sidebar-btns ">
@@ -24,18 +23,18 @@ function Sidebar() {
           </a>
         </div>
       </div>
-      <SidebarContent name="all" description="All"/>
-      <SidebarContent name="remote" description="Remote Jobs"/>
-      <SidebarContent name="ai" description="AI"/>
-      <SidebarContent name="ethical" description="Ethical Hacking"/>
-      <SidebarContent name="movies" description="Movie | Series"/>
-      <SidebarContent name="extension" description="Extension"/>
-      <SidebarContent name="ui" description="UI Design"/>
-      <SidebarContent name="tools" description="Frontend Tools"/>
-      <SidebarContent name="coding" description="Coding Platforms"/>
-      <SidebarContent name="course" description="Course Platforms"/>
+      <SidebarContent name="all" description="All" />
+      <SidebarContent name="remote" description="Remote Jobs" />
+      <SidebarContent name="ai" description="AI" />
+      <SidebarContent name="ethical" description="Ethical Hacking" />
+      <SidebarContent name="movies" description="Movie | Series" />
+      <SidebarContent name="extension" description="Extension" />
+      <SidebarContent name="ui" description="UI Design" />
+      <SidebarContent name="tools" description="Frontend Tools" />
+      <SidebarContent name="coding" description="Coding Platforms" />
+      <SidebarContent name="course" description="Course Platforms" />
     </div>
   );
-};
+}
 
 export default Sidebar;
