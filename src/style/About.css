@@ -1,12 +1,15 @@
-.container-one {
+.container-one,.container-two {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 5%;
     margin: 40px;
     font-size: 32px;
     margin-top: 8rem;
-    color: aquamarine;
+}
+.container-two .bx-2 p{
+    margin-top: 40px;
 }
 
 .bx-1 {
@@ -15,18 +18,17 @@
 }
 
 .bx-2 {
-    width: 48%;
-    max-width: 450px;
+   max-width: 80%;
 }
 
 @media screen and (max-width: 900px) {
-    .container-one{
+    .container-one,.container-two{
         font-size: 26px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container-one{
+    .container-one,.container-two{
         flex-direction: column;
         font-size: 20px;
         margin-left: 20px;
@@ -41,7 +43,7 @@
 }
 
 @media screen and (max-width: 375px){
-    .container-one{
+    .container-one,.container-two{
         font-size: 16px;
     }
 }
@@ -53,10 +55,18 @@
 .repo-btn {
     font-weight: 500;
     padding: 8px 12px;
-    border-color: none;
-    color: orangered;
+    color: #000000;
     border-radius: 12px;
-    background-color: transparent;
+    background-color: #098268;
+    border: 2px solid #098268;
+}
+
+.repo-btn a{
+    color: #000000;
+}
+
+.repo-btn a:hover{
+    color: #ffffff ;
 }
 
 @media screen and (max-width: 375px) {
@@ -99,12 +109,10 @@
 }
 
 .contributor-container {
-
     gap: 5%;
     margin: 40px;
     font-size: 2rem;
     margin-top: 6rem;
-    color: aquamarine;
 }
 
 @media screen and (max-width: 1300px) {
@@ -165,11 +173,11 @@
 
 
 .profile-btn {
-    color: rgb(226, 43, 122);
+    color: #ffffff;
     font-size: 1.1rem;
-    border: 2px dashed rgb(22, 132, 140);
+    border: 2px solid #099268;
     margin-inline: 10px;
-    background: transparent;
+    background: #099268;
     padding: 6px 13px;
     border-radius: 6px;
 }
@@ -181,7 +189,6 @@
 }
 
 .profile-btn:hover {
-    color: white;
+    background: transparent;
     cursor: pointer;
-    border-color: transparent;
 }
