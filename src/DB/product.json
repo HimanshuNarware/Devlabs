@@ -2665,6 +2665,13 @@
     "description": "Akto is Open Source API Security in CI/CD."
 },
 {
+  "productName": "Wasp",
+    "category": "Web Development",
+    "image": "https://wasp-lang.dev/img/lp/wasp-logo.png",
+    "link": "https://wasp-lang.dev/",
+    "description": "Wasp is a Rails-like framework for React, Node.js and Prisma. Build your app in a day and deploy it with a single CLI command."
+},
+{
   "productName": "Novu",
     "category": "Web Development",
     "image": "https://www.hacksquad.dev/_next/static/media/f3468ffb81ca36a1555eee7ee479c157.svg",
