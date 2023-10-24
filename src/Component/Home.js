@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import axios from "axios";
-import ReactPaginate from "react-paginate";
+import React, { useEffect, useState } from "react";
+import dataBaseData from "./../DB/product.json";
 import "../style/Home.css";
 import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
@@ -13,40 +12,13 @@ function Home(props) {
     localStorage.getItem("filter") || ""
   );
   let itemList = "";
-  const currentPage = useRef();
-  const dispatch = useDispatch();
-  const [limit, setLimit] = useState(16);
-  const [lastPostIndex, setLastPostIndex] = useState(0);
-  const [firstPostIndex, setFirstPostIndex] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const postPerpage = 16;
+  const lastPostIndex = currentPage * postPerpage;
+  const firstPostIndex = lastPostIndex - postPerpage;
 
-  const [productsData,setProductsData] = useState([]);
-  const [currentPost1,setCurrentPost1] = useState([]);
-
-  useEffect(()=>{
-    currentPage.current = 1;
-    getProducts();
-  },[])
-  
-  function handlePageClick(e) {
-    console.log(e);
-    currentPage.current = e.selected+1;
-    getProducts();
-  }
-  function getProducts() {
-    const url2 = `${process.env.REACT_APP_BACKEND_URL}/products`
-    axios
-      .get(url2)
-      .then((response) => {
-        setProductsData(response.data);
-        setFirstPostIndex((currentPage.current-1)*limit);
-        setLastPostIndex(currentPage.current*limit);
-        setCurrentPost1(response.data);
-      })
-      .catch((error) => {
-        console.log(error.message);
-      })
-  }
-
+  const currentPost1 = dataBaseData;
+  let allvalue = dataBaseData;
   useEffect(() => {
     const handleStorageChange = () => {
       setLocalStorageValue(localStorage.getItem("filter"));
@@ -56,12 +28,8 @@ function Home(props) {
       window.removeEventListener("storage", handleStorageChange);
     };
   }, []);
-
-  // const currentPost1 = productsData;
-  let allvalue = productsData;
-
   if (localStorageValue === "undefined" || localStorageValue === "all") {
-    allvalue = productsData;
+    allvalue = dataBaseData;
     console.log("No localstorage item");
   } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
     console.log(localStorageValue);
@@ -70,11 +38,11 @@ function Home(props) {
         (e) =>
           e.category.toLowerCase().includes(localStorageValue) ||
           e.category.includes(localStorage.getItem("filter-2"))
-      )
+      );
     } else {
       allvalue = currentPost1.filter((e) =>
-      e.category.toLowerCase().includes(localStorageValue)
-    )
+        e.category.toLowerCase().includes(localStorageValue)
+      );
     }
     console.log(allvalue);
   }
@@ -89,15 +57,17 @@ function Home(props) {
     );
   });
   const currentPost = filteredData.slice(firstPostIndex, lastPostIndex);
-  const npage = Math.ceil(filteredData.length / limit);
+  const npage = Math.ceil(filteredData.length / postPerpage);
+  const numbers = [...Array(npage + 1).keys()].slice(1);
+  const dispatch = useDispatch();
 
   return (
-    <div className="page-container">
+    <div className="container">
       <div className="main-container">
         {
           (itemList = currentPost.map((datalist) => {
             return (
-              <div className="content-box-home">
+              <div className="content-box">
                 <img
                   className="logo"
                   src={datalist.image}
@@ -111,7 +81,7 @@ function Home(props) {
                 >
                   Link
                 </button>
-                <button 
+                <button
                   className="btn-b-box"
                   onClick={() =>{
                     const bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
@@ -167,33 +137,35 @@ function Home(props) {
         }
       </div>
       {/* pagination */}
-
       <nav>
       <div className="page-index">
             Showing {firstPostIndex+1}-{lastPostIndex} from {currentPost1.length} results
         </div>
-        <ReactPaginate
-          breakLabel="..."
-          nextLabel="next >"
-          pageRangeDisplayed={5}
-          pageCount={npage}
-          previousLabel="< previous"
-          renderOnZeroPageCount={null}
-          marginPagesDisplayed={2}
-          onPageChange={handlePageClick}
-          containerClassName="pagination justify-content-center"
-          pageClassName="page-item"
-          pageLinkClassName="page-link"
-          previousClassName="page-item"
-          previousLinkClassName="page-link"
-          nextClassName="page-item"
-          nextLinkClassName="page-link"
-          activeClassName="active"
-        />
+        <ul className="pagination">
+          <li className="page-item">
+            <a href="#" className="page-link" onClick={prePage}>
+              prev
+            </a>
+          </li>
+          {numbers.map((n, i) => (
+            <li
+              className={`page-item ${currentPage === n ? "active" : ""}`}
+              key={i}
+            >
+              <a href="#" className="page-link" onClick={() => changeCPage(n)}>
+                {n}
+              </a>
+            </li>
+          ))}
+          <li className="page-item">
+            <a href="#" className="page-link" onClick={nextPage}>
+              next
+            </a>
+          </li>
+        </ul>
       </nav>
     </div>
   );
-
   function prePage() {
     if (currentPage !== firstPostIndex) {
       setCurrentPage(currentPage - 1);
