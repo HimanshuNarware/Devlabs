@@ -125,3 +125,7 @@ nav {
     justify-content: flex-start;
   }
 }
+
+.page-item{
+  z-index: 0;
+}
