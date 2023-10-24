@@ -1,7 +1,7 @@
 /* https://codepen.io/himalayasingh/pen/dqjLgO */
 .navbar {
   display: flex;
-  background-color: #099268;
+  background-color: #8b5cf6;
   padding: 8px 10px;
   position: fixed;
   margin-top: -8.5rem;
@@ -51,7 +51,7 @@
 .sidebar {
   width: 18rem;
   height: 100%;
-  background-color: #099268;
+  background-color: #8b5cf6;
   position: fixed;
   top: 4.4rem;
   z-index: 1000;

@@ -37,22 +37,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 9px;
   background-clip: content-box;
 }
-.darkmode-toggle {
-  background: #100f2c;
-  width: 3rem;
-  height: 3rem;
-  position: fixed;
-  border-radius: 50%;
-  border: none;
-  right: unset;
-  bottom: 64px;
-  left: 31px;
-  cursor: pointer;
-  transition: all 0.5s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .darkmode-layer, .darkmode-toggle {
   z-index: 4;
 }
