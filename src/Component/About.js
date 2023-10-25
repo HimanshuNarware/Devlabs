@@ -35,6 +35,7 @@ function About() {
 		fetchContributors();
 	}, []);
 
+
 	const paginationValues = getPaginationData(currentPage, CARDS_PER_PAGE, contributors)
 	const { lastCardIndex, firstCardIndex, allPagesNumbers, currentPageData} = paginationValues
 

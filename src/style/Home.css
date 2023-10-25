@@ -32,12 +32,12 @@
 }
 
 .content-box-home {
-  background-color:rgb(0,0,0,0.5);
-  border: 1px solid rgb(10, 142, 102,0.7);
+  background-color:#101623  ;
+  border: 2px dashed rgba(79,71,125,255);
   margin: 20px;
   padding: 7px 12px;
   border-radius: 12px;
-  box-shadow: 2px 2px 8px rgb(187, 72, 122);
+  box-shadow: 2px 2px 8px rgba(79,71,125,255);
 }
 
 @media screen and (max-width: 950px) {
@@ -45,16 +45,17 @@
     margin: 10px; 
     padding: 5px 8px; 
     border-radius: 8px; 
-    box-shadow: 2px 2px 5px rgba(187, 72, 122); 
+    box-shadow: 2px 2px 5px rgba(79,71,125,255); 
   }
 }
 
 .content-box-home:hover{
   transform: scale(1.05); 
-  box-shadow: 0px 0px 25px rgb(187, 72, 122); 
+  box-shadow: 0px 0px 25px #8b5cf6; 
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .content-box-text{
+  color: white;
   padding: 4px;
 }
 .logo {
@@ -64,7 +65,7 @@
   margin-top: 10px;
 }
 .btn-b-box {
-  color: rgb(226, 43, 122);
+  color: rgb(255, 255, 255);
   font-size: 1.1rem;
   border: 1px solid rgb(10, 142, 102);
   margin-inline: 10px;
@@ -73,10 +74,11 @@
   margin-bottom: 10px;
   border-radius: 6px;
   box-shadow: 1px 1px  rgb(0, 0, 0,0.5);
+  background-color: #8b5cf6;
 }
 .btn-b-box:hover {
   color: white;
   cursor: pointer;
-  border: 1px solid rgb(10, 142, 102);
-  background-color:rgb(10, 142, 102) ;
+  border: 1px solid #101623;
+  background-color:violet ;
 }

@@ -13,6 +13,9 @@ function NavbarCenter(){
           <NavbarItem description="BookMark" to="/bookmark" />
         </li>
         <li className="nav-item">
+          <NavbarItem description="Open Source" to="/open-source"/>
+        </li>
+        <li className="nav-item">
           <NavbarItem description="About Us" to="/about" />
         </li>
       </ul>
