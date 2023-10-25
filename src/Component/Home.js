@@ -8,7 +8,7 @@ function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
-  let itemList = "";
+
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
   const lastPostIndex = currentPage * postPerpage;
@@ -27,9 +27,9 @@ function Home(props) {
   }, []);
   if (localStorageValue === "undefined" || localStorageValue === "all") {
     allvalue = dataBaseData;
-    console.log("No localstorage item");
+    
   } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
-    console.log(localStorageValue);
+    
     if (localStorage.getItem("filter-2")) {
       allvalue = currentPost1.filter(
         (e) =>
@@ -41,7 +41,7 @@ function Home(props) {
         e.category.toLowerCase().includes(localStorageValue)
       );
     }
-    console.log(allvalue);
+    
   }
 
   const filteredData = allvalue.filter((datalist) => {
@@ -63,9 +63,9 @@ function Home(props) {
     <div className="page-container">
       <div className="main-container">
         {
-          (itemList = currentPost.map((datalist) => {
+          (currentPost.map((datalist) => {
             return (
-              <div className="content-box-home" key={datalist.id}>
+              <div className="content-box-home" key={datalist.productName}>
                 <img
                   className="logo"
                   src={datalist.image}
@@ -153,24 +153,24 @@ function Home(props) {
         </div>
         <ul className="pagination">
           <li className="page-item">
-            <a href="#" className="page-link" onClick={prePage}>
+            <button href="#" className="page-link" onClick={prePage}>
               prev
-            </a>
+            </button>
           </li>
           {numbers.map((n, i) => (
             <li
               className={`page-item ${currentPage === n ? "active" : ""}`}
               key={i}
             >
-              <a href="#" className="page-link" onClick={() => changeCPage(n)}>
+              <button href="#" className="page-link" onClick={() => changeCPage(n)}>
                 {n}
-              </a>
+              </button>
             </li>
           ))}
           <li className="page-item">
-            <a href="#" className="page-link" onClick={nextPage}>
+            <button href="#" className="page-link" onClick={nextPage}>
               next
-            </a>
+            </button>
           </li>
         </ul>
       </nav>

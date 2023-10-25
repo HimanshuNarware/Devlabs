@@ -7,21 +7,21 @@ import {AiTwotoneMail}from 'react-icons/ai'
 function Footer() {
   return (
     <div>
-      <div class="card">
-  <div class="card-header">
-    <img  width={300}px src={logo}/>
+      <div className="card">
+  <div className="card-header">
+    <img  width={300} alt={"DevLaps"} src={logo}/>
   </div>
-  <div class="card-body">
-    <h4 class="card-title ">Contact us</h4>
+  <div className="card-body">
+    <h4 className="card-title ">Contact us</h4>
     <div className='contact-link'>
-    <div className='cntc-link'><a href='https://www.linkedin.com/in/himanshunarware/' target='_blank' ><FaLinkedinIn/></a></div>  
-  <div className='cntc-link'><a href='https://twitter.com/N_Himanshu_\' target='_blank' >   <FaTwitter/></a></div>  
-  <div className='cntc-link'><a href='https://github.com/HimanshuNarware' target='_blank' >   <BsGithub/></a></div>  
-  <div className='cntc-link'><a href='mailto:himanshunarware77@gmail.com' target='_blank' >   <AiTwotoneMail/></a></div> 
+    <div className='cntc-link'><a href='https://www.linkedin.com/in/himanshunarware/' target="_blank" rel="noreferrer" ><FaLinkedinIn/></a></div>  
+  <div className='cntc-link'><a href='https://twitter.com/N_Himanshu_\' target="_blank" rel="noreferrer" >   <FaTwitter/></a></div>  
+  <div className='cntc-link'><a href='https://github.com/HimanshuNarware' target="_blank" rel="noreferrer" >   <BsGithub/></a></div>  
+  <div className='cntc-link'><a href='mailto:himanshunarware77@gmail.com' target="_blank" rel="noreferrer" >   <AiTwotoneMail/></a></div> 
     </div>
   
   </div>
-  <div class="card-header copyright">
+  <div className="card-header copyright">
   COPYRIGHT ©  Devlaps 2023   |   MAINTAINED BY  HIMANSHU NARWARE
   </div>
 </div>
