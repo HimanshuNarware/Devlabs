@@ -44,14 +44,7 @@ function Home(props) {
       })
   }
 
-  
-  const [currentPage, setCurrentPage] = useState(1);
-  const postPerpage = 16;
-  const lastPostIndex = currentPage * postPerpage;
-  const firstPostIndex = lastPostIndex - postPerpage;
 
-  const currentPost1 = dataBaseData;
-  let allvalue = dataBaseData;
   useEffect(() => {
     const handleStorageChange = () => {
       setLocalStorageValue(localStorage.getItem("filter"));
