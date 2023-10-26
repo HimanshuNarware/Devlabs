@@ -3,5 +3,6 @@
     "emmet.includeLanguages": {
         "\"javascript\":": "\"javascriptreact\""
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "deepscan.enable": true
 }
