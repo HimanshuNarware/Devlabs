@@ -37,7 +37,7 @@
 .navbar-right {
   display: flex;
   align-items: center;
-  margin-right: 115px;
+  /* margin-right: 115px; */
 }
 
 .logo-img {
@@ -58,33 +58,13 @@
   display: flex;
   flex-direction: column;
   font-size: 1.4rem;
-  overflow: scroll;
 }
-
-/* Sidebar scrollbar styles */
-
-.sidebar::-webkit-scrollbar {
-  width: 1rem;
-}
-
-.sidebar::-webkit-scrollbar-track {
-  background-color: #fff;
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-  background: #099268;
-  border: 3px solid transparent;
-  border-radius: 9px;
-  background-clip: content-box;
-}
-
 .sidebar-content {
   border-bottom: 1px solid rgb(2, 27, 43);
 
   font-weight: 500;
   margin-block: 8px;
 }
-
 .sdbar-logo {
   font-size: 3rem;
   margin-top: -15px;
@@ -178,20 +158,20 @@
   color: rgba(0, 0, 0, 0.84);
 }
 .filter:hover {
-  font-size: 1.8rem;
+  font-size:1.8rem;
   text-decoration: underline;
   transition: all 0.3s;
 }
 
-.search {
+.search{
   /* border-top: 1px solid #ccc; */
   /* margin-top: 130px; */
   position: relative;
 }
 
-.box {
+.box{
   margin-top: 5px;
-  margin-left: 65px;
+  /* margin-left: 65px; */
   outline: none !important;
   border-radius: 20px;
   width: 80% !important;
@@ -201,7 +181,7 @@
   flex-wrap: wrap;
 }
 
-.input {
+.input{
   border: none !important;
   border-radius: 20px !important;
   display: block;
@@ -218,6 +198,7 @@
   width: 1%;
   margin-bottom: 0;
 }
+
 
 .input:focus {
   outline: none;
@@ -244,3 +225,4 @@
     font-weight: bold !important;
     cursor: pointer;
 }
+
