@@ -54,7 +54,7 @@
     background-color: #8b5cf6;
     position: fixed;
     top: 4.4rem;
-    z-index: 1000;
+    z-index: 3;
     display: flex;
     flex-direction: column;
     font-size: 1.4rem;
