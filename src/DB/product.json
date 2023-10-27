@@ -115,7 +115,7 @@
    {
     "productName": "Reduce Images",
     "category": "tools",
-    "image": "https://www.reduceimages.com/favicon.ico",
+    "image": "reducelogo.png",
     "link": "https://www.reduceimages.com/",
     "description": "Reduce images is a free online image resizer that allows you to resize an image, change their format, compress them."
   },
@@ -206,7 +206,7 @@
   {
     "productName": "Contrib Rocks",
     "category": "tools",
-    "image": "https://contrib.rocks/favicon.ico",
+    "image": "contribrocklogo.png",
     "link": "https://contrib.rocks/",
     "description": "Generate an image of contributors to keep your README.md in sync"
   },
@@ -234,7 +234,7 @@
   {
     "productName": "Remotive",
     "category": "remote",
-    "image": "https://remotive.com/remotive_website_layout/static/src/brand/X1/symbol_orange_r20.png",
+    "image": "remotivelogo.jpeg",
     "link": "https://remotive.com/",
     "description": "Remote job board and community for remote workers and employers."
   },
@@ -402,7 +402,7 @@
   {
     "productName": "Hired.com",
     "category": "remote",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvBArzbeV2zTX3UAE9-xModHa9IqG7UthvVufbFAUYf9NaKF1BymI4saCoipyyA6tTa4&usqp=CAU",
+    "image": "hiredimg.jpg",
     "link": "https://hired.com/",
     "description": "Talent marketplace connecting businesses with top tech talent."
   },
@@ -465,7 +465,7 @@
   {
     "productName": "Bugcrowd",
     "category": "ethical",
-    "image": "https://tinyurl.com/hvnmw6rr",
+    "image": "Bugcrowd.png",
     "link": "https://www.bugcrowd.com/",
     "description": "Crowdsourced security testing platform for finding and fixing security vulnerabilities."
   },
@@ -577,7 +577,7 @@
   {
     "productName": "daisyUI",
     "category": "web",
-    "image": "https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg",
+    "image": "daisyui-logomark.png",
     "link": "https://daisyui.com/",
     "description": "daisyUI adds component class names to Tailwind CSS so you can make beautiful websites faster than ever."
   },
@@ -598,7 +598,7 @@
   {
     "productName": "Sass",
     "category": "web",
-    "image": "https://raw.githubusercontent.com/johan-v-r/LibSassBuilder/main/package/sass.png",
+    "image": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
     "link": "https://sass-lang.com/",
     "description": "CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."
   },
@@ -1053,7 +1053,7 @@
   {
     "productName": "Pogo",
     "category": "movies",
-    "image": "https://t.ly/8g29",
+    "image": "POGO-logo.png",
     "link": "https://pogolinks.art/ ",
     "description": "Website to download latest movies and webseries"
   },
@@ -1655,7 +1655,7 @@
   {
     "productName": "resume.io",
     "category": "resume",
-    "image": "https://tinyurl.com/3nuf5tk5",
+    "image": "resumeio.png",
     "link": "https://resume.io/",
     "description": "Beautiful ready-to-use resume templates"
   },
@@ -1676,21 +1676,21 @@
   {
     "productName": "Zarla",
     "category": "tools",
-    "image": "https://bit.ly/42Cp1ot",
+    "image": "Zarla.png",
     "link": "https://www.zarla.com/",
     "description": "Zarla Makes Logo Design Fun, Free, and Easy for Every Type of Business or Brand"
   },
   {
     "productName": "Zety",
     "category": "resume",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT_8lbMObNHMWywP-zvW9llvyDBH9jGnKGsw&usqp=CAU",
+    "image": "zety.png",
     "link": "https://zety.com/resume-builder",
     "description": "Zety Online Resume Builder,Create a Professional Resume for Free"
   },
   {
     "productName": "Animoto",
     "category": "AI",
-    "image": "https://techcrunch.com/wp-content/uploads/2013/06/animoto.png",
+    "image": "animoto.png",
     "link": "https://animoto.com/",
     "description": "Create videos that engage and impress. Animoto's drag-and-drop editing tools and visual effects make it easy. No training or experience necessary"
   },
@@ -1704,7 +1704,7 @@
   {
     "productName": "Trello",
     "category": "tools",
-    "image": "https://rb.gy/z9xu4",
+    "image": "trello-logo.png",
     "link": "https://trello.com/",
     "description": "Project management tool that helps teams organize their work."
   },
@@ -1910,7 +1910,7 @@
   {
     "productName": "Replit",
     "category": "Online Code Editor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png",
+    "image": "replit.png",
     "link": "https://replit.com/",
     "description": "An online IDE that allows users to create,run and share code in a web browser"
   },
@@ -1924,7 +1924,7 @@
   {
     "productName": "frontendpractice",
     "category": "Coding",
-    "image": "https://bit.ly/3CoiUcH",
+    "image": "frontendprac.png",
     "link": "https://www.frontendpractice.com/",
     "description": "You can find a collection of projects with varying levels of difficulty."
   },
@@ -1952,7 +1952,7 @@
   {
     "productName": "cssbattle",
     "category": "Coding",
-    "image": "https://pbs.twimg.com/profile_images/1114446136302084096/BIu19jPP_400x400.png",
+    "image": "cssbattle.png",
     "link": "https://cssbattle.dev/",
     "description": "Write CSS code in real-time"
   },
@@ -1980,28 +1980,28 @@
   {
     "productName": "Slides AI",
     "category": "ai",
-    "image": "https://lh3.googleusercontent.com/-a4FxIjyWb3w/Y68cKBGWwDI/AAAAAAAAO8Y/G_v8J6LYsYM-RSwnNpcg195hxxSS9IoNgCNcBGAsYHQ/s400/icon-128.png",
+    "image": "Slides AI.jpeg",
     "link": "https://www.slidesai.io/",
     "description": "Create and enhance presentation slides"
   },
   {
     "productName": "AutoDraw",
     "category": "ai",
-    "image": "https://www.phototul.com/wp-content/uploads/Auto-Draw.png",
+    "image": "AutoDraw.png",
     "link": "https://www.autodraw.com/",
     "description": "Provides suggestions and predictions to create drawings"
   },
   {
     "productName": "Starrytars",
     "category": "ai",
-    "image": "https://play-lh.googleusercontent.com/7oMTtgeXbC6Kq6aFSEsRIIVmZczdf9yy8fJ0xOEbF_XTjOLCJGAQWC63lmoAqheak4Z-",
+    "image": "Starrytars.jpeg",
     "link": "https://starryai.com/starrytars",
     "description": "Create high-quality avatars with AI in minutes"
   },
   {
     "productName": "Uizard",
     "category": "ai",
-    "image": "https://avatars.githubusercontent.com/u/59011150?s=200&v=4",
+    "image": "Uizard.png",
     "link": "https://uizard.io/",
     "description": "Design wireframes, mockups, and prototypes in minutes"
 },
@@ -2015,14 +2015,14 @@
 {
   "productName": "RESUME WORDED",
   "category": "resume",
-  "image": "https://resumeworded.com/blog/content/images/2021/08/circle-logo.jpg",
+  "image": "RESUME WORDED.png",
   "link": "https://resumeworded.com/",
   "description": "Your personal resume & LinkedIn coach"
 },
 {
   "productName": "These resumes do not exist",
   "category": "resume",
-  "image": "https://thisresumedoesnotexist.com/media/thisresumedoesnotexist-logo.svg",
+  "image": "resumedoenotexist.jpeg",
   "link": "https://thisresumedoesnotexist.com/",
   "description": "Stand out among the competition with over 1000 AI-inspired resume examples."
 },
@@ -2036,7 +2036,7 @@
 {
   "productName": "skillroads",
   "category": "resume",
-  "image": "https://images.saasworthy.com/skillroads_30637_logo_1624873364_unn81.jpg",
+  "image": "skillroad.jpeg",
   "link": "https://skillroads.com/free-online-resume-builder",
   "description": "Creating a modern and sharp resume has never been easier!"
 },
@@ -2050,35 +2050,35 @@
 {
   "productName": "VisualCV",
   "category": "resume",
-  "image": "https://play-lh.googleusercontent.com/GWHQHUkfbmkbbWGj-GAa5EnFLa-lqp9vefH2hDe2IR9KDegbQfP1OX0IzwFn1ShuGtU",
+  "image": "VisualCV.jpeg",
   "link": "https://www.visualcv.com/",
   "description": "Create a job-ready resume in minutes."
 },
 {
   "productName": "resume.com",
   "category": "resume",
-  "image": "https://tinyurl.com/2s4h9942",
+  "image": "resumecom.png",
   "link": "https://www.resume.com/",
   "description": "Build a professional resume for free"
 },
 {
   "productName": "Google bard",
   "category": "ai",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Google_Bard_logo.svg/900px-Google_Bard_logo.svg.png",
+  "image": "googlebard.jpeg",
   "link": "https://bard.google.com/",
   "description": "AI tools "
 },
 {
   "productName": "Otter AI",
   "category": "ai",
-  "image": "https://upload.wikimedia.org/wikipedia/en/5/5f/Otter.ai_company_logo.png",
+  "image": "Otter ai.png",
   "link": "https://otter.ai/",
   "description": "Convert voice to text"
 },
 {
   "productName": "Runway AI",
   "category": "ai",
-  "image": "https://forgeglobal.com/site/assets/files/24029/runway-logo-500w.png",
+  "image": "Runway.png",
   "link": "https://runwayml.com/",
   "description": "Cloud-based video editing and effects platform"
 },
@@ -2099,7 +2099,7 @@
 {
   "productName": "Frontend Mentor",
   "category": "web",
-  "image": "https://pbs.twimg.com/profile_images/1047378912819531776/jg7V1u54_400x400.jpg",
+  "image": "Frontend Mentor.png",
   "link": "https://www.frontendmentor.io/",
   "description": "A platform providing challenges for frontend developers to sharp their skills."
 },
@@ -2163,21 +2163,21 @@
 {  
   "productName": "Text2SQL AI",
   "category": "ai",
-  "image": "bit.ly/3JoQcMD",
+  "image": "Text2SQL.png",
   "link": "https://www.text2sql.ai/",
   "description": "Convert natural language queries into SQL queries"
 },
 {
   "productName": "CodiumL AI",
   "category": "ai",
-  "image": "https://www.codium.ai/wp-content/uploads/2023/01/codium-logo.svg",
+  "image": "CodiumL.jpeg",
   "link": "https://www.codium.ai/",
   "description": "Generate unit tests for your code"
 },
 {
   "productName": "Mind Luster",
   "category": "Useful Tools",
-  "image": "https://www.mindluster.com/resources/main_logo.png?d",
+  "image": "Mind Luster.jpeg",
   "link": "https://www.mindluster.com/",
   "description": "Mind Luster, an innovative learning platform, offers courses to ignite and expand the horizons of curious minds."
 },
@@ -2205,14 +2205,14 @@
 {
   "productName": "Evernote",
   "category": "extensions",
-  "image": "https://logos-world.net/wp-content/uploads/2021/03/Evernote-Logo.png",
+  "image": "Evernote.png",
   "link": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc",
   "description": "Evernote is a cross-platform app designed for note taking, organizing, task lists, and archiving."
 },
 {
   "productName": "Reactplay.io",
   "category": "ai",
-  "image": "https://avatars.githubusercontent.com/u/106463282?s=200&v=4",
+  "image": "Reactplay..png",
   "link": "https://reactplay.io/",
   "description": "Allows to code, run, and debug React code without having to install anything on your computer"
 },
@@ -2226,35 +2226,35 @@
 {
   "productName": "Resume Worded",
   "category": "resume",
-  "image": "",
+  "image": "RESUME WORDED.png",
   "link": "https://resumeworded.com/",
   "description": "Create ATS Friendly Resumes Effectively with ATS Score Provides"
 },
 {
   "productName": "Jobscan",
   "category": "resume",
-  "image": "https://tinyurl.com/mw5s8ys9",
+  "image": "Jobscan.jpeg",
   "link": "https://www.jobscan.co/",
   "description":"Create ATS Friendly Resumes Effectively with ATS Score Provides"
 },
 {
   "productName": "Read Aloud",
   "category": "extensions",
-  "image": "https://tinyurl.com/3t4b7uys",
+  "image": "Read Aloud.png",
   "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
   "description": "Text to speech extension"
 },
 {
   "productName": "Walkccc",
   "category": "tools",
-  "image": "https://avatars.githubusercontent.com/u/14782909?v=4",
+  "image": "walkccc.png",
   "link": "https://walkccc.me/LeetCode/",
   "description": "Leetcode Solutions website"
 },
 {
   "productName": "Image to Text",
   "category": "tools",
-  "image": "https://www.imagetotext.info/web_assets/frontend/img/logo.svg?v=1.2",
+  "image": "Image to Text.jpeg",
   "link": "https://www.imagetotext.info/",
   "description": "Image to text convertor"
 },
@@ -2275,7 +2275,7 @@
 {
   "productName": "GSAP-GreenStock",
   "category": "Useful Tool",
-  "image": "https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg",
+  "image": "GSAP-GreenStock.png",
   "link": "https://greensock.com/gsap/",
   "description": "It's JavaScript library for some really cool animations without actual javascript codes"
 },
@@ -2296,21 +2296,21 @@
 {
   "productName": "W3resource",
   "category": "tools",
-  "image": "https://tinyurl.com/56ujasxe",
+  "image": "W3resource.png",
   "link": "https://www.w3resource.com/",
   "description": "Resources to practice for frontend-developers"
 },
 {
   "productName": "Eventbrite",
   "category": "tools",
-  "image": "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/zes0csh1wv8jf4dn3pmp",
+  "image": "Eventbrite.png",
   "link": "https://www.eventbrite.com/",
   "description": "Get Coding events and Hackathons update."  
 },
 {
   "productName": "Bing",
   "category": "ai",
-  "image": "https://1000logos.net/wp-content/uploads/2023/05/Bing-Chat-Logo-768x432.png",
+  "image": "Bing.png",
   "link": "https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb",
   "description": "Bing Ai extension"   
 },
@@ -2331,7 +2331,7 @@
 {
   "productName": "Javascript.info",
   "category": "tools",
-  "image": "https://cdn-1.webcatalog.io/catalog/javascript-info/javascript-info-icon-filled-256.webp?v=1675592732823",
+  "image": "Javascriptinfo.png",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
 },
@@ -2436,14 +2436,14 @@
 {
   "productName": "Free Weather API",
   "category": "tools",
-  "image": "https://bit.ly/46uHyWQ",
+  "image": "Free Weather API.png",
   "link": "https://openweathermap.org/api",
   "description": "OpenWeather is a team of IT experts and data scientists that has been practising deep weather."
 },
 {
   "productName": "Joke API",
   "category": "tools",
-  "image": "https://bit.ly/3pvhief",
+  "image": "Joke API.jpeg",
   "link": "https://sv443.net/jokeapi/v2/",
   "description": "The JokeAPI is a REST API that serves uniformly and well formatted jokes."
 },
@@ -2499,7 +2499,7 @@
 {
   "productName": "Devfolio",
   "category": "Coding",
-  "image": "https://avatars.githubusercontent.com/u/38809367?s=200&v=4",
+  "image": "Devfolio.png",
   "link": "https://devfolio.co/hackathons",
   "description": "We love software and the people who build them."
 },
@@ -2520,7 +2520,7 @@
 {
   "productName": "MAJOR LEAGUE HACKING",
   "category": "Coding",
-  "image": "https://mlh.io/seasons/2023/events",
+  "image": "MAJOR LEAGUE HACKING.png",
   "link": "https://mlh.io/seasons/2023/events",
   "description": "Find, compete, and earn points at the largest, most diverse hacker events in the world."
 },
@@ -2541,21 +2541,21 @@
 {
   "productName":"Sejda",
   "category": "tools",
-  "image": "https://image.winudf.com/v2/image1/Y29tLnNlamRhLnBkZmVkaXRvci5wZGZ0b3dvcmQuYXBwX2ljb25fMTY0NjU2NTYxM18wMzA/icon.png?w=&fakeurl=1",
+  "image": "Sejda.png",
   "link": "https://www.sejda.com/",
   "description": "Online editing tool to make the tasks with PDF's simple like editing, adding signature, compressing e.t.c"
 },
 {
   "productName":"HD TODAY",
   "category": "movies",
-  "image": "https://play-lh.googleusercontent.com/GptSTTmLaV_I5qYcQ4r_ZXZ9uE8uNc_TKEluzHTxFpSXVfu8mbA25j3KupL3FMWGYLSu",
+  "image": "HD TODAY.jpeg",
   "link": "https://hdtoday.tv/",
   "description": "HDToday is the best site to watch movies and TV series online for free"
 },
 {
   "productName":"MyFlixer",
   "category": "movies",
-  "image": "https://tinyurl.com/24zkus53",
+  "image": "MyFlixer.jpeg",
   "link": "https://myflixer.ru/",
   "description": "My flixer is used to watch Unlimited Movies with Endless Entertainment"
 },
@@ -2583,7 +2583,7 @@
 {
   "productName": "sflix",
   "category": "movies",
-  "image": "https://bark-user-data.s3.eu-west-1.amazonaws.com/avatar_v2/3jjGy1/logo/61ed66234a95e.jpg",
+  "image": "sflix logo.jpg",
   "link": "https://sflix.video/",
   "description": "sflix have old bollywood and hollywood movie which is completely free"
 },
@@ -2639,7 +2639,7 @@
 {
   "productName": "DataCamp",
     "category": "Data Science and Machine Learning",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/hq30ze9287y9ztkmcdhy",
+    "image": "DataCamp.png",
     "link": "https://www.datacamp.com/",
     "description": "DataCamp provides the best learning materials and projects on the topics of Data Science and Machine Learning."
 },
