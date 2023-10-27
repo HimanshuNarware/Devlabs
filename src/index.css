@@ -27,12 +27,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #101623;
 }
 
 body::-webkit-scrollbar-thumb {
   /* background: #74a309; */
-  background: rgb(171, 171, 171);
+  background: rgb(255, 255, 255);
   border: 3px solid transparent;
   border-radius: 9px;
   background-clip: content-box;
