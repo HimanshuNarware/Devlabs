@@ -16,6 +16,8 @@ app.use(cors({
 }));
 
 app.get("/", async (req, res) => { return res.status(200).json({message: "Welcome to DevLabs Backend!"}) });
-// app.use("/", require(""));
+
+app.use("/tools", require("./routes/tools"));
+app.use("/open-source", require("./routes/openSource"));
 
 module.exports = app;
