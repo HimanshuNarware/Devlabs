@@ -5,11 +5,10 @@ import "../style/OpenSource.css";
 import ReactPaginate from 'react-paginate';
 
 const OpenSource = () => {
-	const [currentPage, setCurrentPage] = useState(1);
-	const projectsPerPage = 10;
+	const projectsPerPage = 16;
 
-	let lastProjectIndex = currentPage * projectsPerPage;
-	let firstProjectIndex = lastProjectIndex - projectsPerPage;
+	let lastProjectIndex =  projectsPerPage;
+	let firstProjectIndex = 0;
 
 	const totalPages = Math.ceil(projects.length / projectsPerPage);
 
