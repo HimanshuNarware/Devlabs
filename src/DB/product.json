@@ -661,7 +661,7 @@
   {
     "productName": "CodeSandBox",
     "category": "web",
-    "image": "https://www.saashub.com/images/app/service_logos/9/ae995212f366/large.png?1528180811",
+    "image": "https://seeklogo.com/images/C/code-sandbox-logo-0746E97CA1-seeklogo.com.png",
     "link": "https://codesandbox.io/",
     "description": "Online code editor and developer collaboration platform."
   },
@@ -801,7 +801,7 @@
   {
     "productName": "imgbb",
     "category": "tools",
-    "image": "https://bit.ly/3UaIbyR",
+    "image": "https://pipedream.com/s.v0/app_1M0hkk/logo/orig",
     "link": "https://imgbb.com/",
     "description": "Allows people to upload and share images from their online databases"
   },
@@ -886,56 +886,56 @@
     "productName": "ColorPick Eyedropper",
     "category": "extensions",
     "image": "https://bit.ly/3lNJ3N9",
-    "link": "http://bit.ly/3LZLQNT",
+    "link": "https://bit.ly/3LZLQNT",
     "description": "A color picker that allows you to select color values from webpages."
   },
   {
     "productName": "GoFullPage",
     "category": "extensions",
     "image": "https://bit.ly/3KgAEeA",
-    "link": "http://bit.ly/40K4cXr",
+    "link": "https://bit.ly/40K4cXr",
     "description": "Capture a full page screenshot of your current web page."
   },
   {
     "productName": "JSON Viewer Pro",
     "category": "extensions",
     "image": "https://bit.ly/3LZPKq1",
-    "link": "http://bit.ly/3TOtEJf",
+    "link": "https://bit.ly/3TOtEJf",
     "description": "Beautify Json in Browser, visualize tree, collapse, text highlighting."
   },
   {
     "productName": "Pesticide for Chrome",
     "category": "extensions",
     "image": "https://bit.ly/40pIfxc",
-    "link": "http://bit.ly/3zygQNT",
+    "link": "https://bit.ly/3zygQNT",
     "description": "Injecting CSS, outlining each element to better see placement on the page."
   },
   {
     "productName": "Picture-in-Picture",
     "category": "extensions",
     "image": "https://bit.ly/40LXj8b",
-    "link": "http://bit.ly/3lPZngy",
+    "link": "https://bit.ly/3lPZngy",
     "description": "Watch video using Picture-in-Picture, while doing another work."
   },
   {
     "productName": "Responsive Tester",
     "category": "extensions",
     "image": "https://bit.ly/42RAhi3",
-    "link": "http://bit.ly/40pKccY",
+    "link": "https://bit.ly/40pKccY",
     "description": "Test responsive web designs or mobile pages and see if it is mobile friendly."
   },
   {
     "productName": "Responsive Viewer",
     "category": "extensions",
     "image": "https://bit.ly/3TUIw92",
-    "link": "http://bit.ly/40sgLai",
+    "link": "https://bit.ly/40sgLai",
     "description": "Test multiple screens at once for web designs or mobile pages."
   },
   {
     "productName": "Temp Mail",
     "category": "extensions",
     "image": "https://bit.ly/42RCaeD",
-    "link": "http://bit.ly/40qQZTD",
+    "link": "https://bit.ly/40qQZTD",
     "description": "Provides Temporary disposable email address."
   },
   {
@@ -949,21 +949,21 @@
     "productName": "META SEO inspector",
     "category": "extensions",
     "image": "https://bit.ly/411vfhh",
-    "link": "http://bit.ly/3JUCLTU",
+    "link": "https://bit.ly/3JUCLTU",
     "description": "Inspect meta data of web pages, find issues and get advices to fix them."
   },
   {
     "productName": "React Developer Tools",
     "category": "extensions",
     "image": "https://bit.ly/43031Fo",
-    "link": "http://bit.ly/3LZceHK",
+    "link": "https://bit.ly/3LZceHK",
     "description": "Best developer tool for React developers."
   },
   {
     "productName": "CORS Changer",
     "category": "extensions",
     "image": "https://bit.ly/3LZR6RD",
-    "link": "http://bit.ly/3LZFLBl",
+    "link": "https://bit.ly/3LZFLBl",
     "description": "This plugin allows you to send cross-domain requests."
   },
   {
@@ -1047,7 +1047,7 @@
     "productName": "Wappalyzer",
     "category": "extensions",
     "image": "https://bit.ly/3G1QPtL",
-    "link": "http://bit.ly/3G0OoYB",
+    "link": "https://bit.ly/3G0OoYB",
     "description": "Identify Tech Stack or Web technologies used in any website."
   },
   {
@@ -1480,7 +1480,7 @@
   {
     "productName": "Showwcase",
     "category": "tools",
-    "image": "https://is.gd/3ITVcB",
+    "image": "  https://pbs.twimg.com/profile_images/1420587703779815431/x72PJ031_400x400.jpg",
     "link": "https://bit.ly/424VRh7",
     "description": "Showwcase helps developers connect, build communities, and gain access to new opportunities."
   },
@@ -1747,7 +1747,7 @@
 {
   "productName": "Uiverse.io",
   "category": "UI",
-  "image": "http://bit.ly/3X19kpw",
+  "image": "https://bit.ly/3X19kpw",
   "link": "https://uiverse.io/",
   "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
 },
@@ -1761,7 +1761,7 @@
 {
   "productName": "Atcoder",
   "category": "coding",
-  "image": "http://morningpitch.com/wp-content/uploads/2020/10/download.png",
+  "image": "https://morningpitch.com/wp-content/uploads/2020/10/download.png",
   "link": " https://atcoder.jp/",
   "description": "One of the best platforms for Cp, it was created in Japan"
 },
@@ -2198,7 +2198,7 @@
 {
   "productName": "Replit GhostWriter",
   "category": "ai",
-  "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
+  "image": "://avatars3.githubusercontent.com/u/983194?s=280&v=4",
   "link": "https://replit.com/site/ghostwriter",
   "description": "Replit GhostWriter is an AI coding tool which has tons of code-easing features to help developers"
 },
@@ -2604,7 +2604,7 @@
 {
   "productName": "Planet Scale",
   "category": "tools",
-  "image": "http://bit.ly/3tndBZC",
+  "image": "https://bit.ly/3tndBZC",
   "link": "https://planetscale.com/",
   "description": "MySQL-compatible, serverless platform that makes MySQL near infinitely scalable, easier and safer to manage"
 },
