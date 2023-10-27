@@ -1,23 +1,38 @@
-.card{
+.card {
     background-color: #8b5cf6!important;
-}
-.card-header{
+    transition: background-color 0.3s;
+  }
+  
+  .card:hover {
+    background-color: #6a3ab2!important; 
+  }
+  
+  .card-header {
     border: none;
-}
-.copyright{
+  }
+  
+  .copyright {
     background-color: rgba(0, 0, 0, 0.742);
     color: white;
-}.contact-link{
+  }
+  
+  .contact-link {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
     font-size: 1.4rem;
-}
-.cntc-link a{
+  }
+  
+  .cntc-link a {
     color: black;
-}
-.cntc-link a:hover{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s;
+  }
+  
+  .cntc-link a:hover {
     cursor: pointer;
-    color: white!important;
-}
+    color: white!important; /* Change to your desired color on hover */
+    transform: scale(1.05);
+    box-shadow: 0px 0px 25px #81749f; /* Change to your desired shadow style on hover */
+  }
+  
