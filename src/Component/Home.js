@@ -3,19 +3,27 @@ import dataBaseData from "./../DB/product.json";
 import "../style/Home.css";
 import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
+import Pagination from "./Pagination";
+import { getPaginationData, changePage } from "../utils/paginationData";
+
+const CARDS_PER_PAGE = 16
 
 function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
+ 
   let itemList = "";
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 25;
   const lastPostIndex = currentPage * postPerpage;
   const firstPostIndex = lastPostIndex - postPerpage;
-
-  const currentPost1 = dataBaseData;
+ 
+  const [currentPage, setCurrentPage] = useState(1); 
+ 
+  const data = dataBaseData;
   let allvalue = dataBaseData;
+
   useEffect(() => {
     const handleStorageChange = () => {
       setLocalStorageValue(localStorage.getItem("filter"));
@@ -25,25 +33,27 @@ function Home(props) {
       window.removeEventListener("storage", handleStorageChange);
     };
   }, []);
+
   if (localStorageValue === "undefined" || localStorageValue === "all") {
     allvalue = dataBaseData;
-    console.log("No localstorage item");
+    
   } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
-    console.log(localStorageValue);
+    
     if (localStorage.getItem("filter-2")) {
-      allvalue = currentPost1.filter(
+      allvalue = data.filter(
         (e) =>
           e.category.toLowerCase().includes(localStorageValue) ||
           e.category.includes(localStorage.getItem("filter-2"))
       );
     } else {
-      allvalue = currentPost1.filter((e) =>
+      allvalue = data.filter((e) =>
         e.category.toLowerCase().includes(localStorageValue)
       );
     }
-    console.log(allvalue);
+    
   }
 
+  // filters data from searchbar query 
   const filteredData = allvalue.filter((datalist) => {
     return (
       datalist.productName
@@ -54,18 +64,23 @@ function Home(props) {
         .includes(props.searchQuery.toLowerCase())
     );
   });
-  const currentPost = filteredData.slice(firstPostIndex, lastPostIndex);
-  const npage = Math.ceil(filteredData.length / postPerpage);
-  const numbers = [...Array(npage + 1).keys()].slice(1);
+
+  const paginationValues = getPaginationData(currentPage, CARDS_PER_PAGE, filteredData)
+  const { lastCardIndex, firstCardIndex, allPagesNumbers, currentPageData} = paginationValues
+
+  const handlePageChange = (value) => {
+    changePage(value, currentPage, setCurrentPage)
+  }
+
   const dispatch = useDispatch();
 
   return (
     <div className="page-container">
       <div className="main-container">
         {
-          (itemList = currentPost.map((datalist) => {
+          (currentPageData?.map((datalist) => {
             return (
-              <div className="content-box-home" key={datalist.id}>
+              <div className="content-box-home" key={datalist.productName}>
                 <img
                   className="logo"
                   src={datalist.image}
@@ -192,6 +207,19 @@ function Home(props) {
   function changeCPage(id) {
     setCurrentPage(id);
   }
+ 
+      <Pagination 
+        firstCardIndex={firstCardIndex}
+        lastCardIndex={lastCardIndex}
+        dataLength={data.length}
+        allPagesNumbers={allPagesNumbers} 
+        currentPage={currentPage} 
+        handlePageChange={handlePageChange}
+        scrollPosition={'top'}
+      />
+    </div>
+  );
+ 
 }
 
 export default Home;

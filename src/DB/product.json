@@ -115,7 +115,7 @@
    {
     "productName": "Reduce Images",
     "category": "tools",
-    "image": "https://ibb.co/SmKdz1X",
+    "image": "reducelogo.png",
     "link": "https://www.reduceimages.com/",
     "description": "Reduce images is a free online image resizer that allows you to resize an image, change their format, compress them."
   },
@@ -206,7 +206,7 @@
   {
     "productName": "Contrib Rocks",
     "category": "tools",
-    "image": "https://bit.ly/3Z1Fz7L",
+    "image": "contribrocklogo.png",
     "link": "https://contrib.rocks/",
     "description": "Generate an image of contributors to keep your README.md in sync"
   },
@@ -234,7 +234,7 @@
   {
     "productName": "Remotive",
     "category": "remote",
-    "image": "https://remotive.com/remotive_website_layout/static/src/img/favicon.ico",
+    "image": "remotivelogo.jpeg",
     "link": "https://remotive.com/",
     "description": "Remote job board and community for remote workers and employers."
   },
@@ -402,7 +402,7 @@
   {
     "productName": "Hired.com",
     "category": "remote",
-    "image": "https://bit.ly/3EjH1up",
+    "image": "hiredimg.jpg",
     "link": "https://hired.com/",
     "description": "Talent marketplace connecting businesses with top tech talent."
   },
@@ -465,7 +465,7 @@
   {
     "productName": "Bugcrowd",
     "category": "ethical",
-    "image": "https://bit.ly/3xQvqz9",
+    "image": "Bugcrowd.png",
     "link": "https://www.bugcrowd.com/",
     "description": "Crowdsourced security testing platform for finding and fixing security vulnerabilities."
   },
@@ -577,7 +577,7 @@
   {
     "productName": "daisyUI",
     "category": "web",
-    "image": "https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg",
+    "image": "daisyui-logomark.png",
     "link": "https://daisyui.com/",
     "description": "daisyUI adds component class names to Tailwind CSS so you can make beautiful websites faster than ever."
   },
@@ -661,7 +661,7 @@
   {
     "productName": "CodeSandBox",
     "category": "web",
-    "image": "https://www.saashub.com/images/app/service_logos/9/ae995212f366/large.png?1528180811",
+    "image": "https://seeklogo.com/images/C/code-sandbox-logo-0746E97CA1-seeklogo.com.png",
     "link": "https://codesandbox.io/",
     "description": "Online code editor and developer collaboration platform."
   },
@@ -801,7 +801,7 @@
   {
     "productName": "imgbb",
     "category": "tools",
-    "image": "https://bit.ly/3UaIbyR",
+    "image": "https://pipedream.com/s.v0/app_1M0hkk/logo/orig",
     "link": "https://imgbb.com/",
     "description": "Allows people to upload and share images from their online databases"
   },
@@ -886,56 +886,56 @@
     "productName": "ColorPick Eyedropper",
     "category": "extensions",
     "image": "https://bit.ly/3lNJ3N9",
-    "link": "http://bit.ly/3LZLQNT",
+    "link": "https://bit.ly/3LZLQNT",
     "description": "A color picker that allows you to select color values from webpages."
   },
   {
     "productName": "GoFullPage",
     "category": "extensions",
     "image": "https://bit.ly/3KgAEeA",
-    "link": "http://bit.ly/40K4cXr",
+    "link": "https://bit.ly/40K4cXr",
     "description": "Capture a full page screenshot of your current web page."
   },
   {
     "productName": "JSON Viewer Pro",
     "category": "extensions",
     "image": "https://bit.ly/3LZPKq1",
-    "link": "http://bit.ly/3TOtEJf",
+    "link": "https://bit.ly/3TOtEJf",
     "description": "Beautify Json in Browser, visualize tree, collapse, text highlighting."
   },
   {
     "productName": "Pesticide for Chrome",
     "category": "extensions",
     "image": "https://bit.ly/40pIfxc",
-    "link": "http://bit.ly/3zygQNT",
+    "link": "https://bit.ly/3zygQNT",
     "description": "Injecting CSS, outlining each element to better see placement on the page."
   },
   {
     "productName": "Picture-in-Picture",
     "category": "extensions",
     "image": "https://bit.ly/40LXj8b",
-    "link": "http://bit.ly/3lPZngy",
+    "link": "https://bit.ly/3lPZngy",
     "description": "Watch video using Picture-in-Picture, while doing another work."
   },
   {
     "productName": "Responsive Tester",
     "category": "extensions",
     "image": "https://bit.ly/42RAhi3",
-    "link": "http://bit.ly/40pKccY",
+    "link": "https://bit.ly/40pKccY",
     "description": "Test responsive web designs or mobile pages and see if it is mobile friendly."
   },
   {
     "productName": "Responsive Viewer",
     "category": "extensions",
     "image": "https://bit.ly/3TUIw92",
-    "link": "http://bit.ly/40sgLai",
+    "link": "https://bit.ly/40sgLai",
     "description": "Test multiple screens at once for web designs or mobile pages."
   },
   {
     "productName": "Temp Mail",
     "category": "extensions",
     "image": "https://bit.ly/42RCaeD",
-    "link": "http://bit.ly/40qQZTD",
+    "link": "https://bit.ly/40qQZTD",
     "description": "Provides Temporary disposable email address."
   },
   {
@@ -949,21 +949,21 @@
     "productName": "META SEO inspector",
     "category": "extensions",
     "image": "https://bit.ly/411vfhh",
-    "link": "http://bit.ly/3JUCLTU",
+    "link": "https://bit.ly/3JUCLTU",
     "description": "Inspect meta data of web pages, find issues and get advices to fix them."
   },
   {
     "productName": "React Developer Tools",
     "category": "extensions",
     "image": "https://bit.ly/43031Fo",
-    "link": "http://bit.ly/3LZceHK",
+    "link": "https://bit.ly/3LZceHK",
     "description": "Best developer tool for React developers."
   },
   {
     "productName": "CORS Changer",
     "category": "extensions",
     "image": "https://bit.ly/3LZR6RD",
-    "link": "http://bit.ly/3LZFLBl",
+    "link": "https://bit.ly/3LZFLBl",
     "description": "This plugin allows you to send cross-domain requests."
   },
   {
@@ -1047,13 +1047,13 @@
     "productName": "Wappalyzer",
     "category": "extensions",
     "image": "https://bit.ly/3G1QPtL",
-    "link": "http://bit.ly/3G0OoYB",
+    "link": "https://bit.ly/3G0OoYB",
     "description": "Identify Tech Stack or Web technologies used in any website."
   },
   {
     "productName": "Pogo",
     "category": "movies",
-    "image": "https://t.ly/8g29",
+    "image": "POGO-logo.png",
     "link": "https://pogolinks.art/ ",
     "description": "Website to download latest movies and webseries"
   },
@@ -1480,7 +1480,7 @@
   {
     "productName": "Showwcase",
     "category": "tools",
-    "image": "https://is.gd/3ITVcB",
+    "image": "  https://pbs.twimg.com/profile_images/1420587703779815431/x72PJ031_400x400.jpg",
     "link": "https://bit.ly/424VRh7",
     "description": "Showwcase helps developers connect, build communities, and gain access to new opportunities."
   },
@@ -1655,7 +1655,7 @@
   {
     "productName": "resume.io",
     "category": "resume",
-    "image": "https://tinyurl.com/2s48hfyh",
+    "image": "resumeio.png",
     "link": "https://resume.io/",
     "description": "Beautiful ready-to-use resume templates"
   },
@@ -1676,21 +1676,21 @@
   {
     "productName": "Zarla",
     "category": "tools",
-    "image": "https://bit.ly/42Cp1ot",
+    "image": "Zarla.png",
     "link": "https://www.zarla.com/",
     "description": "Zarla Makes Logo Design Fun, Free, and Easy for Every Type of Business or Brand"
   },
   {
     "productName": "Zety",
     "category": "resume",
-    "image": "https://bit.ly/3CbQwdG",
+    "image": "zety.png",
     "link": "https://zety.com/resume-builder",
     "description": "Zety Online Resume Builder,Create a Professional Resume for Free"
   },
   {
     "productName": "Animoto",
     "category": "AI",
-    "image": "https://bit.ly/3WSfus6",
+    "image": "animoto.png",
     "link": "https://animoto.com/",
     "description": "Create videos that engage and impress. Animoto's drag-and-drop editing tools and visual effects make it easy. No training or experience necessary"
   },
@@ -1704,7 +1704,7 @@
   {
     "productName": "Trello",
     "category": "tools",
-    "image": "https://rb.gy/z9xu4",
+    "image": "trello-logo.png",
     "link": "https://trello.com/",
     "description": "Project management tool that helps teams organize their work."
   },
@@ -1747,7 +1747,7 @@
 {
   "productName": "Uiverse.io",
   "category": "UI",
-  "image": "http://bit.ly/3X19kpw",
+  "image": "https://bit.ly/3X19kpw",
   "link": "https://uiverse.io/",
   "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
 },
@@ -1761,7 +1761,7 @@
 {
   "productName": "Atcoder",
   "category": "coding",
-  "image": "http://morningpitch.com/wp-content/uploads/2020/10/download.png",
+  "image": "https://morningpitch.com/wp-content/uploads/2020/10/download.png",
   "link": " https://atcoder.jp/",
   "description": "One of the best platforms for Cp, it was created in Japan"
 },
@@ -1910,7 +1910,7 @@
   {
     "productName": "Replit",
     "category": "Online Code Editor",
-    "image": "bit.ly/3XasObi",
+    "image": "replit.png",
     "link": "https://replit.com/",
     "description": "An online IDE that allows users to create,run and share code in a web browser"
   },
@@ -1924,7 +1924,7 @@
   {
     "productName": "frontendpractice",
     "category": "Coding",
-    "image": "https://bit.ly/3CoiUcH",
+    "image": "frontendprac.png",
     "link": "https://www.frontendpractice.com/",
     "description": "You can find a collection of projects with varying levels of difficulty."
   },
@@ -1952,7 +1952,7 @@
   {
     "productName": "cssbattle",
     "category": "Coding",
-    "image": "https://bit.ly/3NAzVXv",
+    "image": "cssbattle.png",
     "link": "https://cssbattle.dev/",
     "description": "Write CSS code in real-time"
   },
@@ -1980,28 +1980,28 @@
   {
     "productName": "Slides AI",
     "category": "ai",
-    "image": "bit.ly/3CCVi3S",
+    "image": "Slides AI.jpeg",
     "link": "https://www.slidesai.io/",
     "description": "Create and enhance presentation slides"
   },
   {
     "productName": "AutoDraw",
     "category": "ai",
-    "image": "bit.ly/3Nxb5rj",
+    "image": "AutoDraw.png",
     "link": "https://www.autodraw.com/",
     "description": "Provides suggestions and predictions to create drawings"
   },
   {
     "productName": "Starrytars",
     "category": "ai",
-    "image": "bit.ly/42L7M4b",
+    "image": "Starrytars.jpeg",
     "link": "https://starryai.com/starrytars",
     "description": "Create high-quality avatars with AI in minutes"
   },
   {
     "productName": "Uizard",
     "category": "ai",
-    "image": "bit.ly/3Pi0uSi",
+    "image": "Uizard.png",
     "link": "https://uizard.io/",
     "description": "Design wireframes, mockups, and prototypes in minutes"
 },
@@ -2015,14 +2015,14 @@
 {
   "productName": "RESUME WORDED",
   "category": "resume",
-  "image": "https://resumeworded.com/",
+  "image": "RESUME WORDED.png",
   "link": "https://resumeworded.com/",
   "description": "Your personal resume & LinkedIn coach"
 },
 {
   "productName": "These resumes do not exist",
   "category": "resume",
-  "image": "https://thisresumedoesnotexist.com/",
+  "image": "resumedoenotexist.jpeg",
   "link": "https://thisresumedoesnotexist.com/",
   "description": "Stand out among the competition with over 1000 AI-inspired resume examples."
 },
@@ -2036,7 +2036,7 @@
 {
   "productName": "skillroads",
   "category": "resume",
-  "image": "https://skillroads.com/free-online-resume-builder",
+  "image": "skillroad.jpeg",
   "link": "https://skillroads.com/free-online-resume-builder",
   "description": "Creating a modern and sharp resume has never been easier!"
 },
@@ -2050,35 +2050,35 @@
 {
   "productName": "VisualCV",
   "category": "resume",
-  "image": "https://www.visualcv.com/",
+  "image": "VisualCV.jpeg",
   "link": "https://www.visualcv.com/",
   "description": "Create a job-ready resume in minutes."
 },
 {
   "productName": "resume.com",
   "category": "resume",
-  "image": "https://www.resume.com/",
+  "image": "resumecom.png",
   "link": "https://www.resume.com/",
   "description": "Build a professional resume for free"
 },
 {
   "productName": "Google bard",
   "category": "ai",
-  "image": "bit.ly/3NgYYx9",
+  "image": "googlebard.jpeg",
   "link": "https://bard.google.com/",
   "description": "AI tools "
 },
 {
   "productName": "Otter AI",
   "category": "ai",
-  "image": "bit.ly/3CGspEe",
+  "image": "Otter ai.png",
   "link": "https://otter.ai/",
   "description": "Convert voice to text"
 },
 {
   "productName": "Runway AI",
   "category": "ai",
-  "image": "bit.ly/3NpP7FE",
+  "image": "Runway.png",
   "link": "https://runwayml.com/",
   "description": "Cloud-based video editing and effects platform"
 },
@@ -2099,7 +2099,7 @@
 {
   "productName": "Frontend Mentor",
   "category": "web",
-  "image": "https://www.frontendmentor.io/",
+  "image": "Frontend Mentor.png",
   "link": "https://www.frontendmentor.io/",
   "description": "A platform providing challenges for frontend developers to sharp their skills."
 },
@@ -2163,21 +2163,21 @@
 {  
   "productName": "Text2SQL AI",
   "category": "ai",
-  "image": "bit.ly/3JoQcMD",
+  "image": "Text2SQL.png",
   "link": "https://www.text2sql.ai/",
   "description": "Convert natural language queries into SQL queries"
 },
 {
   "productName": "CodiumL AI",
   "category": "ai",
-  "image": "bit.ly/4461P2W",
+  "image": "CodiumL.jpeg",
   "link": "https://www.codium.ai/",
   "description": "Generate unit tests for your code"
 },
 {
   "productName": "Mind Luster",
   "category": "Useful Tools",
-  "image": "https://bit.ly/42PS5sA",
+  "image": "Mind Luster.jpeg",
   "link": "https://www.mindluster.com/",
   "description": "Mind Luster, an innovative learning platform, offers courses to ignite and expand the horizons of curious minds."
 },
@@ -2198,21 +2198,21 @@
 {
   "productName": "Replit GhostWriter",
   "category": "ai",
-  "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
+  "image": "://avatars3.githubusercontent.com/u/983194?s=280&v=4",
   "link": "https://replit.com/site/ghostwriter",
   "description": "Replit GhostWriter is an AI coding tool which has tons of code-easing features to help developers"
 },
 {
   "productName": "Evernote",
   "category": "extensions",
-  "image": "shorturl.at/elAT5",
+  "image": "Evernote.png",
   "link": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc",
   "description": "Evernote is a cross-platform app designed for note taking, organizing, task lists, and archiving."
 },
 {
   "productName": "Reactplay.io",
   "category": "ai",
-  "image": "bit.ly/3NKcYRs",
+  "image": "Reactplay..png",
   "link": "https://reactplay.io/",
   "description": "Allows to code, run, and debug React code without having to install anything on your computer"
 },
@@ -2226,35 +2226,35 @@
 {
   "productName": "Resume Worded",
   "category": "resume",
-  "image": "",
+  "image": "RESUME WORDED.png",
   "link": "https://resumeworded.com/",
   "description": "Create ATS Friendly Resumes Effectively with ATS Score Provides"
 },
 {
   "productName": "Jobscan",
   "category": "resume",
-  "image": "",
+  "image": "Jobscan.jpeg",
   "link": "https://www.jobscan.co/",
   "description":"Create ATS Friendly Resumes Effectively with ATS Score Provides"
 },
 {
   "productName": "Read Aloud",
   "category": "extensions",
-  "image": "https://imgur.com/a/qDvJF1n",
+  "image": "Read Aloud.png",
   "link": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
   "description": "Text to speech extension"
 },
 {
   "productName": "Walkccc",
   "category": "tools",
-  "image": "https://imgur.com/a/FBEgUZo",
+  "image": "walkccc.png",
   "link": "https://walkccc.me/LeetCode/",
   "description": "Leetcode Solutions website"
 },
 {
   "productName": "Image to Text",
   "category": "tools",
-  "image": "https://imgur.com/a/kLKlkiv",
+  "image": "Image to Text.jpeg",
   "link": "https://www.imagetotext.info/",
   "description": "Image to text convertor"
 },
@@ -2275,7 +2275,7 @@
 {
   "productName": "GSAP-GreenStock",
   "category": "Useful Tool",
-  "image": "https://bit.ly/3NreI0H",
+  "image": "GSAP-GreenStock.png",
   "link": "https://greensock.com/gsap/",
   "description": "It's JavaScript library for some really cool animations without actual javascript codes"
 },
@@ -2296,21 +2296,21 @@
 {
   "productName": "W3resource",
   "category": "tools",
-  "image": "https://imgur.com/a/uy8QlQw",
+  "image": "W3resource.png",
   "link": "https://www.w3resource.com/",
   "description": "Resources to practice for frontend-developers"
 },
 {
   "productName": "Eventbrite",
   "category": "tools",
-  "image": "https://imgur.com/a/FUyjavX",
+  "image": "Eventbrite.png",
   "link": "https://www.eventbrite.com/",
   "description": "Get Coding events and Hackathons update."  
 },
 {
   "productName": "Bing",
   "category": "ai",
-  "image": "https://imgur.com/a/AwM4jXQ",
+  "image": "Bing.png",
   "link": "https://chrome.google.com/webstore/detail/microsoft-bing-homepage-s/ddojnmkongaimkdddgmcccldlfhokcfb",
   "description": "Bing Ai extension"   
 },
@@ -2331,7 +2331,7 @@
 {
   "productName": "Javascript.info",
   "category": "tools",
-  "image": "bit.ly/3r7vPxi",
+  "image": "Javascriptinfo.png",
   "link": "https://javascript.info/",
   "description": "Provides comprehensive tutorials and references on the JavaScript"  
 },
@@ -2436,14 +2436,14 @@
 {
   "productName": "Free Weather API",
   "category": "tools",
-  "image": "https://bit.ly/46uHyWQ",
+  "image": "Free Weather API.png",
   "link": "https://openweathermap.org/api",
   "description": "OpenWeather is a team of IT experts and data scientists that has been practising deep weather."
 },
 {
   "productName": "Joke API",
   "category": "tools",
-  "image": "https://bit.ly/3pvhief",
+  "image": "Joke API.jpeg",
   "link": "https://sv443.net/jokeapi/v2/",
   "description": "The JokeAPI is a REST API that serves uniformly and well formatted jokes."
 },
@@ -2499,7 +2499,7 @@
 {
   "productName": "Devfolio",
   "category": "Coding",
-  "image": "https://devfolio.co/hackathons",
+  "image": "Devfolio.png",
   "link": "https://devfolio.co/hackathons",
   "description": "We love software and the people who build them."
 },
@@ -2520,7 +2520,7 @@
 {
   "productName": "MAJOR LEAGUE HACKING",
   "category": "Coding",
-  "image": "https://mlh.io/seasons/2023/events",
+  "image": "MAJOR LEAGUE HACKING.png",
   "link": "https://mlh.io/seasons/2023/events",
   "description": "Find, compete, and earn points at the largest, most diverse hacker events in the world."
 },
@@ -2541,21 +2541,21 @@
 {
   "productName":"Sejda",
   "category": "tools",
-  "image": "https://bit.ly/44t8eWb",
+  "image": "Sejda.png",
   "link": "https://www.sejda.com/",
   "description": "Online editing tool to make the tasks with PDF's simple like editing, adding signature, compressing e.t.c"
 },
 {
   "productName":"HD TODAY",
   "category": "movies",
-  "image": "https://bit.ly/3CUIDtq",
+  "image": "HD TODAY.jpeg",
   "link": "https://hdtoday.tv/",
   "description": "HDToday is the best site to watch movies and TV series online for free"
 },
 {
   "productName":"MyFlixer",
   "category": "movies",
-  "image": "https://bit.ly/3r8jIQt",
+  "image": "MyFlixer.jpeg",
   "link": "https://myflixer.ru/",
   "description": "My flixer is used to watch Unlimited Movies with Endless Entertainment"
 },
@@ -2583,7 +2583,7 @@
 {
   "productName": "sflix",
   "category": "movies",
-  "image": "https://sflix.video/",
+  "image": "sflix logo.jpg",
   "link": "https://sflix.video/",
   "description": "sflix have old bollywood and hollywood movie which is completely free"
 },
@@ -2604,7 +2604,7 @@
 {
   "productName": "Planet Scale",
   "category": "tools",
-  "image": "http://bit.ly/3tndBZC",
+  "image": "https://bit.ly/3tndBZC",
   "link": "https://planetscale.com/",
   "description": "MySQL-compatible, serverless platform that makes MySQL near infinitely scalable, easier and safer to manage"
 },
@@ -2639,8 +2639,43 @@
 {
   "productName": "DataCamp",
     "category": "Data Science and Machine Learning",
-    "image": "https://images.app.goo.gl/Rr59PV8PWq6MU8a49",
+    "image": "DataCamp.png",
     "link": "https://www.datacamp.com/",
     "description": "DataCamp provides the best learning materials and projects on the topics of Data Science and Machine Learning."
+},
+{
+  "productName": "Illa AI Agent Community",
+    "category": "Artificial intelligence and Machine Learning",
+    "image": "https://blog.illacloud.com/content/images/2023/09/illa_logo_dark.png",
+    "link": "https://illa.ai/",
+    "description": "Open-source AI Agents provided by experts in the field of machine learning and professional prompt engineers, can be run with 1 click."
+},
+{
+"productName": "Amplication",
+  "category": "Web Development",
+  "image": "https://amplication.com/_next/static/media/logo_desktop.83f8e039.svg",
+  "link": "https://amplication.com/",
+  "description": "Amplication generate production‑ready backend services."
+},
+{
+  "productName": "Akto",
+    "category": "Web Development",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/orzcboau3y9gmee5gklo",
+    "link": "https://www.akto.io/",
+    "description": "Akto is Open Source API Security in CI/CD."
+},
+{
+  "productName": "Wasp",
+    "category": "Web Development",
+    "image": "https://wasp-lang.dev/img/lp/wasp-logo.png",
+    "link": "https://wasp-lang.dev/",
+    "description": "Wasp is a Rails-like framework for React, Node.js and Prisma. Build your app in a day and deploy it with a single CLI command."
+},
+{
+  "productName": "Novu",
+    "category": "Web Development",
+    "image": "https://www.hacksquad.dev/_next/static/media/f3468ffb81ca36a1555eee7ee479c157.svg",
+    "link": "https://novu.co/",
+    "description": "Novu is the open-source notification infrastructure for developers."
 }
 ]

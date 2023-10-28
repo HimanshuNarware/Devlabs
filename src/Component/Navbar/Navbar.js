@@ -9,7 +9,7 @@ function Navbar(props) {
   const [showSideNav, setShowSideNav] = useState(false);
 
   return (
-    <header>
+    <header >
       <div className="navbar">
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav}/>
         <NavbarCenter />

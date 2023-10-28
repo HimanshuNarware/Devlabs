@@ -1,7 +1,7 @@
 /* https://codepen.io/himalayasingh/pen/dqjLgO */
 .navbar {
   display: flex;
-  background-color: #099268 !important;
+  background-color: #8b5cf6;
   padding: 8px 10px;
   position: fixed;
   margin-top: -8.5rem;
@@ -10,164 +10,208 @@
   justify-content: space-between;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
-  border-bottom: 3px solid rgb(28, 174, 184);
-  z-index: 5;
+  /* border-bottom: 3px solid rgb(28, 174, 184); */
+  z-index: 1;
+  isolation: isolate;
+  mix-blend-mode: normal;
 }
+
 .navbar-content {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-content li {
-  list-style: none;
-  margin: 0 10px;
-  font-size: 1.3rem;
+    list-style: none;
+    margin: 0 10px;
+    font-size: 1.3rem;
 }
 .navbar-left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .navbar-right {
-  display: flex;
-  align-items: center;
-  margin-right: 115px;
+    display: flex;
+    align-items: center;
+    /* margin-right: 115px; */
 }
 
 .logo-img {
-  width: 200px;
+    width: 200px;
 }
 .navbar-content ul li a.active {
-  color: white;
-  background-color: green;
-}
-
-.sidebar {
-  width: 18rem;
-  height: 100%;
-  background-color: #099268;
-  position: fixed;
-  top: 4.4rem;
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-  font-size: 1.4rem;
-}
-.sidebar-content {
-  border-bottom: 1px solid rgb(2, 27, 43);
-
-  font-weight: 500;
-  margin-block: 8px;
-}
-.sdbar-logo {
-  font-size: 3rem;
-  margin-top: -15px;
-}
-.sidebar {
-  display: flex;
-}
-.Link {
-  color: black;
-  text-decoration: none;
-  font-weight: 500;
+    color: white;
+    background-color: green;
 }
 .nav-item {
-  font-size: 1srem;
+  position: relative;
+  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+}
+
+.nav-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.2s ease-in-out;
+}
+
+.nav-item:hover::before {
+  width: 100%;
+}
+
+
+.sidebar {
+    width: 20rem;
+    height: 91%;
+    background-color: #8b5cf6;
+    position: fixed;
+    top: 4.4rem;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  /* background-color: #fff; */
+  background-color: #8b5cf6;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  /* background: #8b5cf6; */
+  background: rgb(255, 255, 255);
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+  height: 2rem;
+}
+
+.sidebar-content {
+    border-bottom: 1px solid rgb(2, 27, 43);
+
+    font-weight: 500;
+}
+.sdbar-logo {
+    font-size: 3rem;
+    margin-top: -15px;
+}
+.sidebar {
+    display: flex;
+}
+.Link {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-item {
+    font-size: 1rem;
 }
 .Link:hover {
-  color: rgb(38, 3, 3);
-  text-decoration: underline;
-}
+  color: rgb(72, 5, 5);
+  text-decoration: none;
+} 
 .sidebar-btns {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 1.5rem;
-  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1rem;
+    align-items: center;
 }
 .sidebar-btn {
-  padding: 2px 5px;
-  margin: 9px;
-  text-align: center;
-  line-height: 1;
+    padding: 2px 5px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
 }
 
 .sidebar-btn:hover {
-  color: rgba(0, 0, 0, 0.84);
+    color: rgba(0, 0, 0, 0.84);
 }
 .sidebar {
-  color: rgba(0, 0, 0, 0.84);
+    color: rgba(0, 0, 0, 0.84);
 }
 
 @media (max-width: 880px) {
-  .navbar-center {
-    display: none;
-  }
+    .navbar-center {
+        display: none;
+    }
 }
 @media (max-width: 580px) {
-  .navbar-right {
-    display: none;
-  }
-  .logo-img {
-    width: 150px;
-    margin-left: -20px;
-  }
-  .sdbar-logo {
-    font-size: 2.8rem;
-    margin-top: -15px;
-  }
+    .navbar-right {
+        display: none;
+    }
+    .logo-img {
+        width: 150px;
+        margin-left: -20px;
+    }
+    .sdbar-logo {
+        font-size: 2.8rem;
+        margin-top: -15px;
+    }
 }
 
 .sidebar {
-  display: flex;
+    display: flex;
 }
 .Link {
-  color: black;
-  text-decoration: none;
-  font-weight: 500;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
 }
 .nav-item {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
 }
-.Link:hover {
+/* .Link:hover {
   color: rgb(38, 3, 3);
   text-decoration: underline;
-}
+} */
 .sidebar-btns {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 1.5rem;
-  align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    align-items: center;
 }
 .sidebar-btn {
-  padding: 2px 5px;
-  margin: 9px;
-  text-align: center;
-  line-height: 1;
+    padding: 2px 5px;
+    margin: 9px;
+    text-align: center;
+    line-height: 1;
 }
 
 .sidebar-btn:hover {
-  color: rgba(0, 0, 0, 0.84);
+    color: rgba(0, 0, 0, 0.84);
 }
 .sidebar {
-  color: rgba(0, 0, 0, 0.84);
+    color: rgba(0, 0, 0, 0.84);
 }
 .filter:hover {
-  font-size:1.8rem;
+  font-size: 1.8rem;
   text-decoration: underline;
   transition: all 0.3s;
 }
 
-.search{
-  /* border-top: 1px solid #ccc; */
+.search {
+    /* border-top: 1px solid #ccc; */
     /* margin-top: 130px; */
     position: relative;
 }
 
-.box{
-  margin-top: 5px;
-    margin-left: 65px;
+.box {
+    margin-top: 5px;
+    /* margin-left: 65px; */
     outline: none !important;
     border-radius: 20px;
     width: 80% !important;
@@ -177,8 +221,8 @@
     flex-wrap: wrap;
 }
 
-.input{
-  border: none !important;
+.input {
+    border: none !important;
     border-radius: 20px !important;
     display: block;
     height: calc(2.25rem + 2px);
@@ -195,15 +239,14 @@
     margin-bottom: 0;
 }
 
-.input:focus{
-        outline: none;
-        border: none !important;
-        box-shadow: none !important;
-    
+.input:focus {
+    outline: none;
+    border: none !important;
+    box-shadow: none !important;
 }
 
-.span{
-  background: transparent !important;
+.span {
+    background: transparent !important;
     border: none !important;
     display: flex;
     align-items: center;

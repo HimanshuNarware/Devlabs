@@ -8,10 +8,13 @@
     height: 50px;
 }
 
-.box-bk{
-    
+.box-bk p{
+  
+  color: white;
+}
 
-    border: 1px solid forestgreen;
+.box-bk{
+    border: 2px dashed rgba(79,71,125,255);
     margin: 20px;
     padding: 7px 12px;
     border-radius: 12px;
@@ -19,7 +22,7 @@
 .btn-b{
     color: rgb(226, 43, 122);
     font-size: 1.1rem;
-    border: 1px solid rgb(10, 142, 102);
+    border: 2px dashed forestgreen;
     margin-inline: 10px;
     padding: 6px 16px 6px 16px;
     background: transparent;
@@ -30,6 +33,6 @@
     .btn-b:hover{
         color: white;
         cursor: pointer;
-        border: 1px solid rgb(10, 142, 102);
-        background-color:rgb(10, 142, 102) ;
+        border: 1px dashed rgba(79,71,125,255);
+        background-color:rgb(226, 43, 122) ;
     }
