@@ -18,7 +18,11 @@ const Pagination = ({
 
       <ul className="pagination">
         <li className="page-item">
-          <a href={`#${scrollPosition}`} className="page-link" onClick={() => handlePageChange("prev")}>
+          <a 
+            href={`#${scrollPosition}`} 
+            className="page-link" 
+            onClick={() => { currentPage !== 1 && handlePageChange("prev") }}
+          >
             prev
           </a>
         </li>
@@ -28,14 +32,22 @@ const Pagination = ({
             className={`page-item ${currentPage === pageNum ? "active" : ""}`}
             key={`li-${i}`}
           >
-            <a href={`#${scrollPosition}`} className="page-link" onClick={() => handlePageChange(pageNum)}>
+            <a 
+              href={`#${scrollPosition}`}
+              className="page-link" 
+              onClick={() => handlePageChange(pageNum)}
+            >
               {pageNum}
             </a>
           </li>
         ))}
 
         <li className="page-item">
-          <a href={`#${scrollPosition}`} className="page-link" onClick={() => handlePageChange("next")}>
+          <a 
+            href={`#${scrollPosition}`} 
+            className="page-link" 
+            onClick={() => { lastCardIndex < dataLength && handlePageChange("next") }}
+          >
             next
           </a>
         </li>
