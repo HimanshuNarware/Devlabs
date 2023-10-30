@@ -1,6 +1,18 @@
 export const getPaginationData = (currentPage, cardsPerPage, data) => {
-  const lastCardIndex = currentPage * cardsPerPage;
-  const firstCardIndex = lastCardIndex - cardsPerPage;
+  let lastCardIndex
+  let firstCardIndex
+
+  if (data.length === 0) {
+    firstCardIndex = 0
+    lastCardIndex = 0
+  } else if (currentPage * cardsPerPage > data.length) {
+    const difference = currentPage * cardsPerPage - data.length
+    lastCardIndex = data.length
+    firstCardIndex = (currentPage - 1) * cardsPerPage
+  } else {
+    lastCardIndex = currentPage * cardsPerPage
+    firstCardIndex = lastCardIndex - cardsPerPage
+  }
 
   const totalPagesAmount = Math.ceil(data.length / cardsPerPage);
   const allPagesNumbers = [...Array(totalPagesAmount + 1).keys()].slice(1);
