@@ -3,19 +3,19 @@ import dataBaseData from "./../DB/product.json";
 import "../style/Home.css";
 import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
+import Pagination from "./Pagination";
+import { getPaginationData, changePage } from "../utils/paginationData";
+
+const CARDS_PER_PAGE = 16
 
 function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
-  let itemList = "";
   const [currentPage, setCurrentPage] = useState(1);
-  const postPerpage = 16;
-  const lastPostIndex = currentPage * postPerpage;
-  const firstPostIndex = lastPostIndex - postPerpage;
-
-  const currentPost1 = dataBaseData;
+  const data = dataBaseData;
   let allvalue = dataBaseData;
+
   useEffect(() => {
     const handleStorageChange = () => {
       setLocalStorageValue(localStorage.getItem("filter"));
@@ -25,56 +25,50 @@ function Home(props) {
       window.removeEventListener("storage", handleStorageChange);
     };
   }, []);
+
   if (localStorageValue === "undefined" || localStorageValue === "all") {
     allvalue = dataBaseData;
     
   } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
     
     if (localStorage.getItem("filter-2")) {
-      allvalue = currentPost1.filter(
+      allvalue = data.filter(
         (e) =>
           e.category.toLowerCase().includes(localStorageValue) ||
           e.category.includes(localStorage.getItem("filter-2"))
       );
     } else {
-      allvalue = currentPost1.filter((e) =>
+      allvalue = data.filter((e) =>
         e.category.toLowerCase().includes(localStorageValue)
       );
     }
-    
   }
 
+  // filters data from searchbar query
   const filteredData = allvalue.filter((datalist) => {
     return (
-      datalist.productName.toLowerCase().includes(props.searchQuery.toLowerCase()) ||
-      datalist.description.toLowerCase().includes(props.searchQuery.toLowerCase())
+      datalist.productName
+        .toLowerCase()
+        .includes(props.searchQuery.toLowerCase()) ||
+      datalist.description
+        .toLowerCase()
+        .includes(props.searchQuery.toLowerCase())
     );
   });
-  const currentPost = filteredData.slice(firstPostIndex, lastPostIndex);
-  const npage = Math.ceil(filteredData.length / postPerpage);
-  const numbers = [...Array(npage + 1).keys()].slice(1);
+
+  const paginationValues = getPaginationData(currentPage, CARDS_PER_PAGE, filteredData)
+  const { lastCardIndex, firstCardIndex, allPagesNumbers, currentPageData} = paginationValues
+
+  const handlePageChange = (value) => {
+    changePage(value, currentPage, setCurrentPage)
+  }
+
   const dispatch = useDispatch();
-
-  function prePage() {
-    if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
-    }
-  }
-
-  function nextPage() {
-    if (currentPage < npage) {
-      setCurrentPage(currentPage + 1);
-    }
-  }
-
-  function changeCPage(id) {
-    setCurrentPage(id);
-  }
 
   return (
     <div className="page-container">
       <div className="main-container">
-        {(itemList = currentPost.map((datalist) => {
+        {(currentPageData?.map((datalist) => {
           return (
             <div className="content-box-home" key={datalist.id}>
               <img className="logo" src={datalist.image} alt={datalist.category} />
@@ -147,31 +141,16 @@ function Home(props) {
           );
         }))}
       </div>
-      {/* pagination */}
-      <nav>
-        <div className="page-index">
-          Showing {firstPostIndex + 1}-{lastPostIndex} from {currentPost1.length} results
-        </div>
-        <ul className="pagination">
-          <li className="page-item">
-            <a href="#" className="page-link" onClick={prePage}>
-              prev
-            </a>
-          </li>
-          {numbers.map((n, i) => (
-            <li className={`page-item ${currentPage === n ? "active" : ""}`} key={i}>
-              <a href="#" className="page-link" onClick={() => changeCPage(n)}>
-                {n}
-              </a>
-            </li>
-          ))}
-          <li className="page-item">
-            <a href="#" className="page-link" onClick={nextPage}>
-              next
-            </a>
-          </li>
-        </ul>
-      </nav>
+      
+      <Pagination 
+        firstCardIndex={firstCardIndex}
+        lastCardIndex={lastCardIndex}
+        dataLength={filteredData.length}
+        allPagesNumbers={allPagesNumbers} 
+        currentPage={currentPage} 
+        handlePageChange={handlePageChange}
+        scrollPosition={'top'}
+      />
     </div>
   );
 }
