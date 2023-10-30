@@ -4,6 +4,17 @@
 .card-header{
     border: none;
 }
+
+.card-link {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.742);
+}
+
+.card-link:hover {
+    color: whitesmoke
+}
+
 .copyright{
     background-color: rgba(0, 0, 0, 0.742);
     color: white;

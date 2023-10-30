@@ -8,7 +8,7 @@ function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
-  let itemList = "";
+  
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
   const lastPostIndex = currentPage * postPerpage;
@@ -74,9 +74,9 @@ function Home(props) {
   return (
     <div className="page-container">
       <div className="main-container">
-        {(itemList = currentPost.map((datalist) => {
+        {(currentPost.map((datalist) => {
           return (
-            <div className="content-box-home" key={datalist.id}>
+            <div className="content-box-home" key={datalist.productName}>
               <img className="logo" src={datalist.image} alt={datalist.category} />
               <h2>{datalist.productName}</h2>
               <p className="content-box-text">{datalist.description}</p>
@@ -154,21 +154,21 @@ function Home(props) {
         </div>
         <ul className="pagination">
           <li className="page-item">
-            <a href="#" className="page-link" onClick={prePage}>
+            <button href="#" className="page-link" onClick={prePage}>
               prev
-            </a>
+            </button>
           </li>
           {numbers.map((n, i) => (
             <li className={`page-item ${currentPage === n ? "active" : ""}`} key={i}>
-              <a href="#" className="page-link" onClick={() => changeCPage(n)}>
+              <button href="#" className="page-link" onClick={() => changeCPage(n)}>
                 {n}
-              </a>
+              </button>
             </li>
           ))}
           <li className="page-item">
-            <a href="#" className="page-link" onClick={nextPage}>
+            <button href="#" className="page-link" onClick={nextPage}>
               next
-            </a>
+            </button>
           </li>
         </ul>
       </nav>
