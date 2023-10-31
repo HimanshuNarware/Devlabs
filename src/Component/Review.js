@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../style/Review.css';
-import { useState } from 'react';
 
 function Review() {
-	const [reviewData, setReviewData] = useState({email: "", review: ""});
+	const [reviewData, setReviewData] = useState({name: "", email: "", review: ""});
 
 	const onChangeHandler = (event) => {
 		setReviewData({...reviewData, [event.target.id]: event.target.value});
@@ -11,7 +10,7 @@ function Review() {
 	
 	const onSumbitHandler = (event) => {
 		event.preventDefault();
-		alert("Form Submitted!\nWorking On Sending Mail!");
+		alert(`${JSON.stringify(reviewData)}\nForm Submitted!\nWorking On Sending Mail!`);
 		window.location.reload();
 	};
 
@@ -24,42 +23,39 @@ function Review() {
 				</p>
 			</div>
 			<form className='review-form' onSubmit={onSumbitHandler}>
-				<div className='form-div'>
-					<label
-						className="form-input-label"
-					>
-						your Email Here
-					</label>
-					<input
-						className="form-input-field input-email"
-						placeholder="Your Email"
-						type="email"
-						id="email"
-						value={reviewData.email}
-						onChange={onChangeHandler}
-						required={false}
-					/>
+				<input
+					className="form-input-field input-name"
+					placeholder="Your Name"
+					type="text"
+					id="name"
+					value={reviewData.name}
+					onChange={onChangeHandler}
+					required
+				/>
+				<input
+					className="form-input-field input-email"
+					placeholder="Your Email"
+					type="email"
+					id="email"
+					value={reviewData.email}
+					onChange={onChangeHandler}
+					required
+				/>
+				<textarea
+					className="form-input-field input-review"
+					placeholder="Your Message"
+					id="review"
+					cols="30"
+					rows="5"
+					value={reviewData.review}
+					onChange={onChangeHandler}
+					required
+				/>
+				<div className="form-div">
+					<button className="form-button">
+						Submit
+					</button>
 				</div>
-				<div className='form-div'>
-					<label
-						className="form-input-label"
-					>
-						Your Review Here
-					</label>
-					<textarea
-						className="form-input-field input-review"
-						placeholder="review"
-						id="review"
-						cols="30"
-						rows="5"
-						value={reviewData.review}
-						onChange={onChangeHandler}
-						required
-					/>
-				</div>
-				<button className="form-button">
-					Send
-				</button>
 			</form>
 		</div>
 	);
