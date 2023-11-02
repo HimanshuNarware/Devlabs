@@ -1,0 +1,69 @@
+.review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-header {
+    margin-top: 8rem;
+    padding-top: 10px;
+}
+
+.form-subtext {
+    color: #694ad4;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form-div {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    margin: 2px;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.form-input-field {
+    padding: 10px;
+    width: 75%;
+    color: white;
+    background-color: #202020;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* .input-email {
+
+}
+
+.input-review {
+
+} */
+
+.form-button {
+    font-weight: 500;
+    padding: 8px 40px;
+    margin: 5px;
+    color: white;
+    width: max-content;
+    border-radius: 12px;
+    background-color: #ff0050;
+    border: 2px solid #ff0050;
+    transition-duration: 250ms;
+}
+
+.form-button:hover {
+    background-color: transparent;
+    color: #ffffff ;
+}
+
+@media screen and (max-width: 375px) {
+    .form-button {
+        font: 16px;
+    }
+}

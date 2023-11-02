@@ -70,7 +70,7 @@ function Home(props) {
       <div className="main-container">
         {(currentPageData?.map((datalist) => {
           return (
-            <div className="content-box-home" key={datalist.id}>
+            <div className="content-box-home" key={datalist.productName}>
               <img className="logo" src={datalist.image} alt={datalist.category} />
               <h2>{datalist.productName}</h2>
               <p className="content-box-text">{datalist.description}</p>
@@ -141,7 +141,7 @@ function Home(props) {
           );
         }))}
       </div>
-      
+
       <Pagination 
         firstCardIndex={firstCardIndex}
         lastCardIndex={lastCardIndex}
