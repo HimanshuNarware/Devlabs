@@ -57,17 +57,17 @@
     padding: 8px 12px;
     color: #000000;
     border-radius: 12px;
-    background-color: #098268;
-    border: 2px solid #098268;
+    background-color: #8b5cf6;
+    border: 2px solid #8b5cf6;
+}
+
+.repo-btn:hover{
+    background: transparent;
 }
 
 .repo-btn a{
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
-}
-
-.repo-btn a:hover{
-    color: #ffffff ;
 }
 
 @media screen and (max-width: 375px) {
@@ -77,7 +77,7 @@
 }
 
 .content-box {
-    border: 1px solid forestgreen;
+    border: 1px solid  #8b5cf6;
     margin: 20px;
     padding: 7px 12px;
     border-radius: 12px;
@@ -176,9 +176,9 @@
 .profile-btn {
     color: #ffffff;
     font-size: 1.1rem;
-    border: 2px solid #099268;
+    border: 2px solid #8b5cf6;
     margin-inline: 10px;
-    background: #099268;
+    background: #8b5cf6;
     padding: 6px 13px;
     border-radius: 6px;
 }
