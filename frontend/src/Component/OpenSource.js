@@ -1,28 +1,60 @@
-import React, { useState } from 'react';
-import projects from "../DB/openSource.json";
-
+import React, { useState, useEffect } from 'react';
 import "../style/OpenSource.css";
 import ReactPaginate from 'react-paginate';
+import axios from 'axios';
+import ClipLoader from 'react-spinners/ClipLoader';
+
+const BACKEND = process.env.REACT_APP_BACKEND;
 
 const OpenSource = () => {
 	const projectsPerPage = 16;
-
+	
 	let lastProjectIndex =  projectsPerPage;
 	let firstProjectIndex = 0;
-
+	const [projects, setProjects] = useState([]); 
+	
+	let currentPageProjects = projects.slice(firstProjectIndex, lastProjectIndex);
 	const totalPages = Math.ceil(projects.length / projectsPerPage);
 
-	const [currentPageProjects, setCurrentPageProjects] = useState(projects.slice(firstProjectIndex, lastProjectIndex));
+	const [loading, setLoading] = useState(false);
 
 	const handlePageClick = (event) => {
 		firstProjectIndex = (event.selected * projectsPerPage) % projects.length
 		lastProjectIndex = firstProjectIndex + projectsPerPage
-		setCurrentPageProjects(projects.slice(firstProjectIndex, lastProjectIndex));
+		currentPageProjects = projects.slice(firstProjectIndex, lastProjectIndex);
 	}
+
+	useEffect(() => {
+		setLoading(true);
+		const fetchData = async () => {
+			const response = await axios.get(
+				`${BACKEND}/open-source/all`
+			).catch(error => {
+				return error.response;
+			})
+
+			if (response.data.success)
+				setProjects(response.data.openSourceProjects);
+			else
+				alert(response.data.errors.join("\n"));
+			
+			setLoading(false);
+		};
+		fetchData();
+	}, []);
 
   	return (
     	<div className='page-container'>
-			<div className='main-container'>
+			<div className={loading ? "loading-container" : "main-container"}>
+
+				<ClipLoader
+					color='#a0a0a0'
+					loading={loading}
+					size={50}
+					aria-label="Loading Spinner"
+					data-testid="loader"
+				/>
+
 				{
 					currentPageProjects !== undefined && currentPageProjects.map((project) => {
 						return (

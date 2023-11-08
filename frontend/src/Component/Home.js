@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
-import dataBaseData from "./../DB/product.json";
 import "../style/Home.css";
 import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
+import ClipLoader from "react-spinners/ClipLoader";
+import axios from "axios";
+
+const BACKEND = process.env.REACT_APP_BACKEND;
 
 function Home(props) {
   const [localStorageValue, setLocalStorageValue] = useState(
@@ -14,21 +17,40 @@ function Home(props) {
   const lastPostIndex = currentPage * postPerpage;
   const firstPostIndex = lastPostIndex - postPerpage;
 
+  const [dataBaseData, setDataBaseData] = useState([]);
+  const [loading, setLoading] = useState(false);
+
   const currentPost1 = dataBaseData;
-  let allvalue = dataBaseData;
-  useEffect(() => {
-    const handleStorageChange = () => {
-      setLocalStorageValue(localStorage.getItem("filter"));
-    };
-    window.addEventListener("storage", handleStorageChange);
-    return () => {
-      window.removeEventListener("storage", handleStorageChange);
-    };
-  }, []);
-  if (localStorageValue === "undefined" || localStorageValue === "all") {
-    allvalue = dataBaseData;
-    
-  } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
+  let allvalue = [];
+  	useEffect(() => {
+		setLoading(true);
+		const handleStorageChange = () => {
+      		setLocalStorageValue(localStorage.getItem("filter"));
+    	};
+    	window.addEventListener("storage", handleStorageChange);
+
+		const fetchData = async () => {
+			const response = await axios.get(
+				`${BACKEND}/tools/all`
+			).catch(error => {
+				return error.response;
+			});
+			if (response.data.success)
+				setDataBaseData(response.data.tools);
+			else
+				alert(response.data.errors.join("\n"));
+
+			setLoading(false)
+		};
+		fetchData();
+    	return () => {
+      		window.removeEventListener("storage", handleStorageChange);
+    	};
+  	}, []);
+  	
+	if (localStorageValue === "undefined" || localStorageValue === "all") {
+    	allvalue = dataBaseData;
+  	} else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
     
     if (localStorage.getItem("filter-2")) {
       allvalue = currentPost1.filter(
@@ -73,7 +95,16 @@ function Home(props) {
 
   return (
     <div className="page-container">
-      <div className="main-container">
+      <div className={loading ? "loading-container" : "main-container"}>
+
+		<ClipLoader
+			color="#808080"
+			loading={loading}
+			size={50}
+			aria-label="Loading Spinner"
+			data-testid="loader"
+		/>
+
         {(currentPost.map((datalist) => {
           return (
             <div className="content-box-home" key={datalist.productName}>
