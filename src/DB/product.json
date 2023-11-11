@@ -570,7 +570,7 @@
   {
     "productName": "CSSPortal",
     "category": "web",
-    "image":"https://www.cssportal.com/assets/images/cssicon.png",
+    "image":"https://bit.ly/47uFZYs",
     "link": "https://www.cssportal.com/",
     "description": "CSS Portal is home to many examples of CSS and how it can be used in website design."
   },
@@ -598,7 +598,7 @@
   {
     "productName": "Sass",
     "category": "web",
-    "image": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
+    "image": "https://bit.ly/3SBzqz1",
     "link": "https://sass-lang.com/",
     "description": "CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."
   },
@@ -2198,7 +2198,7 @@
 {
   "productName": "Replit GhostWriter",
   "category": "ai",
-  "image": "https://avatars3.githubusercontent.com/u/983194?s=280&v=4",
+  "image": "https://bit.ly/46cHwS1",
   "link": "https://replit.com/site/ghostwriter",
   "description": "Replit GhostWriter is an AI coding tool which has tons of code-easing features to help developers"
 },
@@ -2247,7 +2247,7 @@
 {
   "productName": "Walkccc",
   "category": "tools",
-  "image": "https://imgur.com/a/FBEgUZo",
+  "image": "https://avatars.githubusercontent.com/u/14782909?v=4",
   "link": "https://walkccc.me/LeetCode/",
   "description": "Leetcode Solutions website"
 },
