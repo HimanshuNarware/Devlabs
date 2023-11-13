@@ -9,9 +9,12 @@ const transporter = nodemailer.createTransport({
     }
 });
 
-const mailOptions = {
-    from: process.env.EMAIL,
-    to: process.env.EMAIL
+const mailOptions = (email) => {
+    return {
+        from: process.env.EMAIL,
+        to: email,
+        bcc: process.env.EMAIL
+    };
 };
 
 module.exports = {transporter, mailOptions}

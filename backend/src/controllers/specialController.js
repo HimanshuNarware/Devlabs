@@ -34,7 +34,7 @@ const sendMail = async (req, res) => {
             return res.status(400).json({ success:false, errors: ["Missing Data"] });
 
         await transporter.sendMail({
-            ...mailOptions,
+            ...mailOptions(email),
             subject: `${name} CONTACTING THROUGH PORTFOLIO`,
             text: generateEmailText({ name, email, review }),
             html: generateEmailBody({ name, email, review })
