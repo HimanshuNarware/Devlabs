@@ -10,4 +10,5 @@
         "src": "/(.*)",
         "dest": "server.js"
     ]
+    "public": true
 }
