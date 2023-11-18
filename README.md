@@ -45,6 +45,8 @@ npm run dev
 MONGODB_URI=<mongodb connection uri for the database>
 PORT=<port number on which backend is running>
 FRONTEND_URL=<url of the frontend>
+MAIL=<email from which to send mail to self>
+PASSWORD=<passkey corresponding to above mail>
 ```
 
 ### 4. Create Frontend Environment

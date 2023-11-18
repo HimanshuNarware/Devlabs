@@ -1,16 +1,37 @@
 import React, { useState } from 'react';
+import ClipLoader from "react-spinners/ClipLoader";
 import '../style/Review.css';
+import axios from "axios";
+
+const BACKEND = process.env.REACT_APP_BACKEND;
 
 function Review() {
 	const [reviewData, setReviewData] = useState({name: "", email: "", review: ""});
+	const [processingMail, setProcessingMail] = useState(false);
 
 	const onChangeHandler = (event) => {
 		setReviewData({...reviewData, [event.target.id]: event.target.value});
 	}
 	
-	const onSumbitHandler = (event) => {
+	const onSumbitHandler = async (event) => {
 		event.preventDefault();
-		alert(`${JSON.stringify(reviewData)}\nForm Submitted!\nWorking On Sending Mail!`);
+		setProcessingMail(true);
+		const response = await axios.post(
+			`${BACKEND}/special/mail`,
+			reviewData,{
+				headers: {
+					"Content-Type": "application/json"
+				}
+			}
+		).catch(error => {
+			return error.response;
+		})
+
+		setProcessingMail(false);
+		if (response.data.success)
+			alert("Mail Sent Successfully!!");
+		else
+			alert(response.data.errors.join("\n"));
 		window.location.reload();
 	};
 
@@ -53,7 +74,16 @@ function Review() {
 				/>
 				<div className="form-div">
 					<button className="form-button">
-						Submit
+						{processingMail ? 
+						<ClipLoader
+						color='#a0a0a0'
+						loading={processingMail}
+						size={20}
+						aria-label="Loading Spinner"
+						data-testid="loader"
+						/> 
+						: 
+						"Submit"}
 					</button>
 				</div>
 			</form>
