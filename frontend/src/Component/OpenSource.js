@@ -4,6 +4,8 @@ import ReactPaginate from 'react-paginate';
 import axios from 'axios';
 import ClipLoader from 'react-spinners/ClipLoader';
 
+import jsonProjects from "../DB/openSource.json";
+
 const BACKEND = process.env.REACT_APP_BACKEND;
 
 const OpenSource = () => {
@@ -33,10 +35,14 @@ const OpenSource = () => {
 				return error.response;
 			})
 
-			if (response.data.success)
+			if (response.data.success){
 				setProjects(response.data.openSourceProjects);
-			else
-				alert(response.data.errors.join("\n"));
+				console.log("backend data loaded");
+			}
+			else{
+				setProjects(jsonProjects);
+				console.log("json data loaded");
+			}
 			
 			setLoading(false);
 		};
