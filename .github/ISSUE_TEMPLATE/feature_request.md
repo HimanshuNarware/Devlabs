@@ -23,5 +23,4 @@ Example  Fill x { [x] }  into  bracket
 - [ ] I have checked the existing issues *
 - [ ] I have read the Contributing Guidelines *
 - [ ] I have starred the repository *
-- [ ] Working under DWoC '23*
 - [ ] Working under Slop 3.0 *
