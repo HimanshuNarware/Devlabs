@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../style/BackToTopButton.css'
 
-import customIcon from '../image/double-up-svgrepo-com.svg';
+import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 function BackToTopButton() {
     const [isVisible, setIsVisible] = useState(false);
@@ -43,7 +43,7 @@ function BackToTopButton() {
             onClick={scrollToTop}
             className={`back-to-top-button ${isVisible ? 'visible' : ''}`}
         >
-        <img src={customIcon} alt="Custom Icon" style={iconStyle} />
+        <MdKeyboardDoubleArrowUp style={iconStyle}/>
 
         </button>
     );
