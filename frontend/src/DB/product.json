@@ -1172,7 +1172,7 @@
   {
     "productName": "ChatGPT-sidebar",
     "category": "extensions",
-    "image": "https://bit.ly/41aJCAb",
+    "image": "https://lh3.googleusercontent.com/wTNeFS62yyaqVft_MeRoTbruPhDzswQUidH2fciH0myvLry-aCPcmIuZkEF2WUcyCoHDHxV7Hq0J3DlLgRozkC2IKQ=s60",
     "link": "https://chrome.google.com/webstore/detail/chatgpt-sidebar-support-g/difoiogjjojoaoomphldepapgpbgkhkb",
     "description": "Select any text,  explain it, translate it, summarize it or rewrite it, do anything with the ChatGPT Sidebar!"
   },
@@ -2247,7 +2247,7 @@
 {
   "productName": "Walkccc",
   "category": "tools",
-  "image": "walkccc.png",
+  // "image": "walkccc.png",
   "link": "https://walkccc.me/LeetCode/",
   "description": "Leetcode Solutions website"
 },
