@@ -17,7 +17,11 @@ function NavbarLeft(props) {
         href="/"
         id="logo"
       >
-        {props.showSideNav ? <IoClose /> : <IoReorderThree />}
+        <div className={props.showSideNav?"open":""} id="nav-icon1">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
       </a>
       <a href="/">
         <img className="navbar-brand logo-img" src={logo} alt="this" />

@@ -1,6 +1,6 @@
 import React from "react";
 
-function SidebarContent({name,description}) {
+function SidebarContent({name,description,active}) {
 
   function handleSidebarClick(prop) {
     localStorage.setItem("filter", prop);
@@ -13,7 +13,7 @@ function SidebarContent({name,description}) {
 
   return (
     <div
-      className="sidebar-content filter"
+      className={`sidebar-content filter ${active?"active":""}`}
       onClick={() => handleSidebarClick(name)}
     >
       {description}

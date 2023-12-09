@@ -16,9 +16,9 @@ function Navbar(props) {
         <NavbarRight setSearchQuery={props.setSearchQuery} /> {/* Pass setSearchQuery directly */}
       </div>
 
-      {showSideNav && (
-        <Sidebar />
-      )}
+      
+        <Sidebar showSideNav={showSideNav} />
+      
     </header>
   );
 }
