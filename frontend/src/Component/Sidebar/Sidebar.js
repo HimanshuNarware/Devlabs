@@ -4,41 +4,97 @@ import { BsBookmark } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
 import SidebarContent from "./SidebarContent";
 
-function Sidebar() {
+function Sidebar({ showSideNav }) {
+  const sidebarContent = [
+    {
+      name: "all",
+      description: "All",
+    },
+    {
+      name: "remote",
+      description: "Remote Jobs",
+    },
+    {
+      name: "ai",
+      description: "AI",
+    },
+    {
+      name: "ethical",
+      description: "Ethical Hacking",
+    },
+    {
+      name: "movies",
+      description: "Movie | Series",
+    },
+    {
+      name: "extension",
+      description: "Extension",
+    },
+    {
+      name: "ui",
+      description: "UI Design",
+    },
+    {
+      name: "tools",
+      description: "Frontend Tools",
+    },
+    {
+      name: "coding",
+      description: "Coding Platforms",
+    },
+    {
+      name: "course",
+      description: "Course Platforms",
+    },
+  ];
   return (
-    <div className="sidebar">
-      <div className="sidebar-content sidebar-btns ">
+    <div className={`sidebar ${showSideNav ? "active" : ""}`}>
+      <div className={`sidebar-content sidebar-btns ${showSideNav ? "active" : ""}`} >
         <div className="sidebar-btn home-btn">
-            <Link to="/" className="Link  Bookmark nav-link active" aria-current="page">
-              <AiFillHome /> Home
-            </Link>
+          <Link
+            to="/"
+            className="Link  Bookmark nav-link active"
+            aria-current="page"
+          >
+            <AiFillHome /> Home
+          </Link>
         </div>
         <div className="sidebar-btn bookmark-btn">
-            <Link to="/bookmark" className="Link  Bookmark nav-link active" aria-current="page">
-              <BsBookmark /> BookMark
-            </Link>
+          <Link
+            to="/bookmark"
+            className="Link  Bookmark nav-link active"
+            aria-current="page"
+          >
+            <BsBookmark /> BookMark
+          </Link>
         </div>
         <div className="sidebar-btn home-btn">
-            <Link to="/about" className="Link  Bookmark nav-link active" aria-current="page">
-              About Us
-            </Link>
+          <Link
+            to="/about"
+            className="Link  Bookmark nav-link active"
+            aria-current="page"
+          >
+            About Us
+          </Link>
         </div>
         <div className="sidebar-btn bookmark-btn">
-            <Link to="/open-source" className="Link  Bookmark nav-link active" aria-current="page">
-              Open Source
-            </Link>
+          <Link
+            to="/open-source"
+            className="Link  Bookmark nav-link active"
+            aria-current="page"
+          >
+            Open Source
+          </Link>
         </div>
       </div>
-      <SidebarContent name="all" description="All" />
-      <SidebarContent name="remote" description="Remote Jobs" />
-      <SidebarContent name="ai" description="AI" />
-      <SidebarContent name="ethical" description="Ethical Hacking" />
-      <SidebarContent name="movies" description="Movie | Series" />
-      <SidebarContent name="extension" description="Extension" />
-      <SidebarContent name="ui" description="UI Design" />
-      <SidebarContent name="tools" description="Frontend Tools" />
-      <SidebarContent name="coding" description="Coding Platforms" />
-      <SidebarContent name="course" description="Course Platforms" />
+      {sidebarContent.map((item, index) => (
+        <SidebarContent
+          key={index}
+          name={item.name}
+          description={item.description}
+          active={showSideNav}
+        />
+      ))}
     </div>
   );
 }
