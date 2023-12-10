@@ -25,3 +25,4 @@ Example  Fill x { [x] }  into  bracket
 - [ ] I have starred the repository *
 - [ ] Working under Kwoc*
 - [ ] Working under Dwoc*
+- [ ] Working under Swoc*
