@@ -1,34 +1,40 @@
-.card{
-    background-color: #8b5cf6!important;
+footer {
+  position: sticky;
+  top: 100vh;
 }
-.card-header{
-    border: none;
+
+.card {
+  background-color: #8b5cf6 !important;
+}
+.card-header {
+  border: none;
 }
 
 .card-link {
-    text-decoration: none;
-    font-weight: 700;
-    color: rgba(0, 0, 0, 0.742);
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.742);
 }
 
 .card-link:hover {
-    color: whitesmoke
+  color: whitesmoke;
 }
 
-.copyright{
-    background-color: rgba(0, 0, 0, 0.742);
-    color: white;
-}.contact-link{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    font-size: 1.4rem;
+.copyright {
+  background-color: rgba(0, 0, 0, 0.742);
+  color: white;
 }
-.cntc-link a{
-    color: black;
+.contact-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.4rem;
 }
-.cntc-link a:hover{
-    cursor: pointer;
-    color: white!important;
+.cntc-link a {
+  color: black;
+}
+.cntc-link a:hover {
+  cursor: pointer;
+  color: white !important;
 }

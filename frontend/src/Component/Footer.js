@@ -8,7 +8,7 @@ import { BsGithub } from "react-icons/bs";
 import { AiTwotoneMail } from "react-icons/ai";
 function Footer() {
     return (
-        <div>
+        <footer>
             <div className="card">
                 <div className="card-header">
                     <img width={300} alt={"DevLaps"} src={logo} />
@@ -49,7 +49,7 @@ function Footer() {
                     COPYRIGHT © Devlaps 2023 | MAINTAINED BY HIMANSHU NARWARE
                 </div>
             </div>
-        </div>
+        </footer>
     );
 }
 
