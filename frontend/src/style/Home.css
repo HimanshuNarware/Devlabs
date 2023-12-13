@@ -88,3 +88,43 @@
   background-color:violet ;
 }
 
+.popup {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.checkmark {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  width: 22px;
+  height: 22px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+.checkmark_stem {
+  position: absolute;
+  width: 3px;
+  height: 14px;
+  background-color: #ccc;
+  left: 11px;
+  top: 2.5px;
+}
+
+.checkmark_kick {
+  position: absolute;
+  width: 6px;
+  height: 3px;
+  background-color: #ccc;
+  left: 6px;
+  top: 14px;
+}

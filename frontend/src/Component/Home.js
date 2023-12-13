@@ -18,9 +18,9 @@ function Home(props) {
   	const postPerpage = 16;
   	const lastPostIndex = currentPage * postPerpage;
   	const firstPostIndex = lastPostIndex - postPerpage;
-
   	const [dataBaseData, setDataBaseData] = useState([]);
   	const [loading, setLoading] = useState(false);
+	const [showPopup, setShowPopup] = useState(false);
 
   	const currentPost1 = dataBaseData;
   	let allvalue = [];
@@ -99,6 +99,7 @@ function Home(props) {
   }
 
   	return (
+		<div>
     	<div className="page-container">
       		<div className={loading ? "loading-container" : "main-container"}>
 
@@ -173,6 +174,10 @@ function Home(props) {
 													link: datalist.link,
                         						})
                       						);
+											setShowPopup(true); 
+                  							setTimeout(() => {
+                    							setShowPopup(false);
+                  							}, 2000);
                     					}
 									}
                 				}}
@@ -210,6 +215,16 @@ function Home(props) {
         		</ul>
       		</nav>
     	</div>
+		{showPopup && (
+        	<div className="popup">
+          		<span class="checkmark">
+  					<div class="checkmark_stem"></div>
+  					<div class="checkmark_kick"></div>
+				</span>
+				Bookmark added
+        	</div>
+      	)}
+		</div>
   	);
 }
 
