@@ -1,10 +1,8 @@
 /* https://codepen.io/himalayasingh/pen/dqjLgO */
 .navbar {
-  display: flex;
   background-color: #8b5cf6;
   padding: 8px 10px;
   position: fixed;
-  margin-top: -8.5rem;
   width: 100%;
   align-items: center;
   justify-content: space-between;
