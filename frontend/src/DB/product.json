@@ -2677,5 +2677,12 @@
     "image": "https://www.hacksquad.dev/_next/static/media/f3468ffb81ca36a1555eee7ee479c157.svg",
     "link": "https://novu.co/",
     "description": "Novu is the open-source notification infrastructure for developers."
+}, 
+{
+  "productName": "Codesnap",
+    "category": "Web Development",
+    "image": "https://ibb.co/0F4sxF6",
+    "link": "https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap",
+    "description": "CodeSnap is an extension for Visual Studio Code (VS Code) that allows users to take screenshots of their code"
 }
 ]
