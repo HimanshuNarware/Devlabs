@@ -46,7 +46,7 @@ body::-webkit-scrollbar-thumb {
 
 .darkmode-layer,
 .darkmode-toggle {
-  z-index: 4;
+  z-index: 5;
 }
 
 code {

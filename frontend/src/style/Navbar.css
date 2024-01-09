@@ -143,6 +143,7 @@
     font-size: 1.4rem;
     overflow-y: scroll;
     transition: width 0.3s;
+    z-index: 4;
 }
 .sidebar.active{
     width:20rem;
