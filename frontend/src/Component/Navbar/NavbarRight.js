@@ -12,6 +12,11 @@ function NavbarRight(props) {
   const handleSearch = (e) => {
     e.preventDefault();
     props.setSearchQuery(searchQuery); // Pass the search query to the parent component (App)
+
+    // Remove searchQuery after 1s
+    setTimeout(() => {
+      setSearchQuery("");
+    }, 1000);
   };
 
   return (
