@@ -68,7 +68,7 @@ function Footer() {
           .
         </div>
         <div className="card-header copyright">
-          COPYRIGHT © Devlaps 2023 | MAINTAINED BY HIMANSHU NARWARE
+          COPYRIGHT © Devlaps 2024 | MAINTAINED BY HIMANSHU NARWARE
         </div>
       </div>
     </footer>
