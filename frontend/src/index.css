@@ -3,13 +3,17 @@ body,
 html {
   overflow-x: hidden;
   height: 100%;
-
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* Remove darkmode for images */
+.darkmode--activated .img {
+  mix-blend-mode: difference !important;
 }
 
 body {
