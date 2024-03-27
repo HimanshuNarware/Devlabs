@@ -1,4 +1,11 @@
 :root,
+root {
+  --color-background-green: #74a309;
+  --color-background-dark: #101623;
+  --color-text-dark: #f8fafc;
+  --color-text-light: #222;
+}
+
 body,
 html {
   overflow-x: hidden;
@@ -27,8 +34,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background: linear-gradient(to left, #04121e, rgb(39, 2, 13), #021f23);
-  color: #8758f6;
+  /* background: linear-gradient(to left, #04121e, rgb(39, 2, 13), #021f23); */
+  background-color: #efe9dc;
+  color: #222;
+}
+
+.dark {
+  /* background-color: #0f172a; */
+  background-color: var(--color-background-dark);
+  color: var(--color-text-dark);
 }
 
 body::-webkit-scrollbar {
@@ -46,11 +60,6 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid transparent;
   border-radius: 9px;
   background-clip: content-box;
-}
-
-.dark {
-  background-color: #0f172a;
-  color: #f8fafc;
 }
 
 .darkmode-layer,
