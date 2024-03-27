@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../../style/Navbar.css";
 import { BsSearch } from "react-icons/bs";
+import { DarkModeToggle } from "../Toggle";
 
 function NavbarRight(props) {
   const [searchQuery, setSearchQuery] = useState(""); // Local state to manage search query
@@ -38,6 +39,7 @@ function NavbarRight(props) {
           </div>
         </form>
       </div>
+      <DarkModeToggle />
     </div>
   );
 }

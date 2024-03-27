@@ -12,9 +12,9 @@ html {
 }
 
 /* Remove darkmode for images */
-.darkmode--activated .img {
+/* .darkmode--activated .img {
   mix-blend-mode: difference !important;
-}
+} */
 
 body {
   min-height: 100vh;
@@ -46,6 +46,11 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid transparent;
   border-radius: 9px;
   background-clip: content-box;
+}
+
+.dark {
+  background-color: #0f172a;
+  color: #f8fafc;
 }
 
 .darkmode-layer,
