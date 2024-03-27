@@ -26,12 +26,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background: linear-gradient(to left, #04121e, rgb(39, 2, 13), #021f23);
-  color: #8758f6;
+  /* background: linear-gradient(to left, #04121e, rgb(39, 2, 13), #021f23); */
+  background-color: #efe9dc;
+  color: #eeeeee;
 }
 
 body::-webkit-scrollbar {
   width: 1rem;
+}
+
+body.dark {
+  background-color: #101623;
+  color: #eeeeee;
 }
 
 body::-webkit-scrollbar-track {

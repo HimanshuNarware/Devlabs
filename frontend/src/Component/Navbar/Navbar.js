@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../style/Navbar.css";
+// import "../../index.css";
 import Sidebar from "../Sidebar/Sidebar";
 import NavbarLeft from "./NavbarLeft";
 import NavbarCenter from "./NavbarCenter";
@@ -10,7 +11,7 @@ function Navbar(props) {
 
   return (
     <header>
-      <div className="navbar bg-black">
+      <div className="navbar dark:bg-[#8B5CF6]">
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
         <NavbarCenter />
         <NavbarRight setSearchQuery={props.setSearchQuery} />{" "}
