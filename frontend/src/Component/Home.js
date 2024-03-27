@@ -119,22 +119,29 @@ function Home(props) {
 
           {currentPost.map((datalist) => {
             return (
-              <div className="content-box-home " key={datalist.productName}>
+              <div
+                className="content-box-home dark:bg-[#101623] dark:border-[#8b5cf6] py-2"
+                key={datalist.productName}
+              >
                 <img
                   className="logo"
                   src={datalist.image}
                   alt={datalist.category}
                 />
-                <h2>{datalist.productName}</h2>
-                <p className="content-box-text">{datalist.description}</p>
+                <h2 className="text-2xl font-semibold dark:text-[#8b5cf6] text-[#74A309]">
+                  {datalist.productName}
+                </h2>
+                <p className="content-box-text mb-4 text-slate-900 dark:text-white">
+                  {datalist.description}
+                </p>
                 <button
-                  className="btn-b-box"
+                  className="btn-b-box dark:bg-[#8b5cf6]"
                   onClick={() => window.open(datalist.link)}
                 >
                   Link
                 </button>
                 <button
-                  className="btn-b-box"
+                  className="btn-b-box dark:bg-[#8b5cf6] dark:border-[#0a8e66]"
                   onClick={() => {
                     const bookmarks = JSON.parse(
                       localStorage.getItem("bookmarks")

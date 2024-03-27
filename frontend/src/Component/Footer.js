@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer>
       <div className="card">
-        <div className="card-header">
+        <div className="card-header mx-auto">
           <img width={300} alt={"DevLaps"} src={logo} />
         </div>
         <div className="card-body">
