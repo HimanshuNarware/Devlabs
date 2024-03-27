@@ -1,17 +1,6 @@
 /* https://codepen.io/himalayasingh/pen/dqjLgO */
-root {
-  --color-background-nav: #74a309 !important;
-  /* --color-background-dark: #101623; */
-  --color-text-dark: #f8fafc;
-  --color-text-light: #222;
-}
-
-body.dark {
-  --color-background-nav: #8b5cf6;
-}
-
 .navbar {
-  background-color: var(--color-background-nav);
+  background-color: #8b5cf6;
   padding: 8px 10px;
   position: fixed;
   width: 100%;
@@ -24,7 +13,6 @@ body.dark {
   isolation: isolate;
   mix-blend-mode: normal;
 }
-
 .navbar-content {
   display: flex;
   align-items: center;

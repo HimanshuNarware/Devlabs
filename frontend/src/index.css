@@ -1,11 +1,8 @@
-:root,
-root {
-  --color-background-green: #74a309;
-  --color-background-dark: #101623;
-  --color-text-dark: #f8fafc;
-  --color-text-light: #222;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+:root,
 body,
 html {
   overflow-x: hidden;
@@ -18,11 +15,6 @@ html {
   box-sizing: border-box;
 }
 
-/* Remove darkmode for images */
-/* .darkmode--activated .img {
-  mix-blend-mode: difference !important;
-} */
-
 body {
   min-height: 100vh;
   display: grid;
@@ -34,15 +26,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  /* background: linear-gradient(to left, #04121e, rgb(39, 2, 13), #021f23); */
-  background-color: #efe9dc;
-  color: #222;
-}
-
-.dark {
-  /* background-color: #0f172a; */
-  background-color: var(--color-background-dark);
-  color: var(--color-text-dark);
+  background: linear-gradient(to left, #04121e, rgb(39, 2, 13), #021f23);
+  color: #8758f6;
 }
 
 body::-webkit-scrollbar {
