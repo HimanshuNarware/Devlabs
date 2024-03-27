@@ -11,8 +11,8 @@ import CustomLogo from "../icons/logo.svg";
 function Footer() {
   return (
     <footer>
-      <div className="card">
-        <div className="card-header mx-auto">
+      <div className="card dark:bg-[#8b5cf6]">
+        <div className="card-header mx-auto ">
           <img width={300} alt={"DevLaps"} src={logo} />
         </div>
         <div className="card-body">

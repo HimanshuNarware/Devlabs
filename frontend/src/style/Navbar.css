@@ -134,7 +134,7 @@
 .sidebar {
   width: 0;
   height: 92%;
-  background-color: #8b5cf6;
+  background-color: #74a309;
   position: fixed;
   top: 4.4rem;
   z-index: 3;
@@ -155,7 +155,7 @@
 
 .sidebar::-webkit-scrollbar-track {
   /* background-color: #fff; */
-  background-color: #8b5cf6;
+  background-color: inherit;
 }
 
 .sidebar::-webkit-scrollbar-thumb {

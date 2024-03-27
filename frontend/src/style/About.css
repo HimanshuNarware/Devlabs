@@ -54,6 +54,7 @@
 
 .img {
   width: 98%;
+  margin: 0px auto;
 }
 
 .repo-btn {
@@ -61,8 +62,8 @@
   padding: 8px 12px;
   color: #000000;
   border-radius: 12px;
-  background-color: #8b5cf6;
-  border: 2px solid #8b5cf6;
+  background-color: #74a309;
+  border: 2px solid #74a309;
 }
 
 .repo-btn:hover {
@@ -81,7 +82,7 @@
 }
 
 .content-box {
-  border: 1px solid #8b5cf6;
+  border: 1px solid #74a309;
   margin: 20px;
   padding: 7px 12px;
   border-radius: 12px;
@@ -179,9 +180,10 @@
 .profile-btn {
   color: #ffffff;
   font-size: 1.1rem;
-  border: 2px solid #8b5cf6;
+  border: 2px solid #74a309;
+  /* border: 2px solid #8b5cf6; */
   margin-inline: 10px;
-  background: #8b5cf6;
+  background: #74a309;
   padding: 6px 13px;
   border-radius: 6px;
 }

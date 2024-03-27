@@ -28,7 +28,7 @@ body {
   text-align: center;
   /* background: linear-gradient(to left, #04121e, rgb(39, 2, 13), #021f23); */
   background-color: #efe9dc;
-  color: #101623;
+  color: #74a309;
 }
 
 body::-webkit-scrollbar {
@@ -37,7 +37,7 @@ body::-webkit-scrollbar {
 
 body.dark {
   background-color: #101623;
-  color: #eeeeee;
+  color: #8b5cf6;
 }
 
 body::-webkit-scrollbar-track {
