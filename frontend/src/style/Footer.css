@@ -4,7 +4,8 @@ footer {
 }
 
 .card {
-  background-color: #8b5cf6 !important;
+  /* background-color: # !important; */
+  background-color: #74a309;
 }
 .card-header {
   border: none;

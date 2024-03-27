@@ -48,8 +48,12 @@ function Sidebar({ showSideNav }) {
     },
   ];
   return (
-    <div className={`sidebar ${showSideNav ? "active" : ""}`}>
-      <div className={`sidebar-content sidebar-btns ${showSideNav ? "active" : ""}`} >
+    <div className={`sidebar dark:bg-[#8b5cf6] ${showSideNav ? "active" : ""}`}>
+      <div
+        className={`sidebar-content sidebar-btns ${
+          showSideNav ? "active" : ""
+        }`}
+      >
         <div className="sidebar-btn home-btn">
           <Link
             to="/"
