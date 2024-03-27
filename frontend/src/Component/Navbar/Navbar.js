@@ -11,7 +11,7 @@ function Navbar(props) {
 
   return (
     <header>
-      <div className="navbar dark:bg-[#8B5CF6]">
+      <div className="navbar dark:bg-[#8B5CF6] dark:text-[#0F0F0F]">
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
         <NavbarCenter />
         <NavbarRight setSearchQuery={props.setSearchQuery} />{" "}

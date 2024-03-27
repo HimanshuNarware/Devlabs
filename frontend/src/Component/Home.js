@@ -119,7 +119,7 @@ function Home(props) {
 
           {currentPost.map((datalist) => {
             return (
-              <div className="content-box-home" key={datalist.productName}>
+              <div className="content-box-home " key={datalist.productName}>
                 <img
                   className="logo"
                   src={datalist.image}

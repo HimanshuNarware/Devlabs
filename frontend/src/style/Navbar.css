@@ -13,6 +13,7 @@
   z-index: 1;
   isolation: isolate;
   mix-blend-mode: normal;
+  color: #fff;
 }
 .navbar-content {
   display: flex;
