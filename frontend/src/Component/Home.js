@@ -88,7 +88,7 @@ function Home(props) {
   const numbers = [...Array(npage + 1).keys()].slice(1);
   const dispatch = useDispatch();
 
-  console.log({ filterData: filteredData, npage, numbers, currentPost });
+  // console.log({ filterData: filteredData, npage, numbers, currentPost });
   function prePage() {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
@@ -125,9 +125,14 @@ function Home(props) {
               >
                 <img
                   className="logo"
-                  src={datalist.image}
+                  src={
+                    datalist.image
+                      ? datalist.image
+                      : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk78XDvGdqUfhTP_8wb_XBupzKcwD7dnxzGCFurH7rIg&s"
+                  }
                   alt={datalist.category}
                 />
+
                 <h2 className="text-2xl font-semibold dark:text-[#8b5cf6] text-[#74A309]">
                   {datalist.productName}
                 </h2>
