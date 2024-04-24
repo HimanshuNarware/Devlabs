@@ -39,7 +39,7 @@ function Footer() {
             </div>
             <div className="cntc-link">
               <a
-                href="https://github.com/HimanshuNarware"
+                href="https://github.com/HimanshuNarware/Devlabs"
                 target="_blank"
                 rel="noreferrer"
               >
