@@ -94,7 +94,8 @@ function Sidebar({ showSideNav }) {
           description={item.description}
           active={showSideNav}
         />
-      ))}
+      ))} 
+      <div style={{ marginTop: '20px' }} /> 
     </div>
   );
 }

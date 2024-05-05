@@ -276,9 +276,11 @@
 .filter:hover {
   font-size: 1.8rem;
   text-decoration: underline;
-  transition: all 0.3s;
+  /* transition: all 0.3s; */
 }
-
+.filter {
+  transition: font-size 0.3s ease, text-decoration 0.3s ease; 
+}
 .search {
     /* border-top: 1px solid #ccc; */
     /* margin-top: 130px; */
