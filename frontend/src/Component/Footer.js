@@ -6,7 +6,7 @@ import "../style/Footer.css";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { AiTwotoneMail } from "react-icons/ai";
-import CustomLogo from "../icons/logo.svg";
+import CustomLogo from "../icons/x-logo-w.png";
 
 function Footer() {
   return (
@@ -34,7 +34,7 @@ function Footer() {
                 rel="noreferrer"
               >
                 {" "}
-                <img src={CustomLogo} alt="Twitter" height="22px" width="22" />
+                <img src={CustomLogo} alt="Twitter" height="20px" width="20" />
               </a>
             </div>
             <div className="cntc-link">
