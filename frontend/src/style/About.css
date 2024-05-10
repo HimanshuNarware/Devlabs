@@ -77,19 +77,25 @@
 }
 
 .content-box {
-    border: 1px solid  #8b5cf6;
+    border: 2px dashed rgba(79,71,125,255);
     margin: 20px;
     padding: 7px 12px;
     border-radius: 12px;
     max-width: 20vw;
 }
-
+.content-box:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 0px 25px #8b5cf6; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 .content-box h3 {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
+.content-box h4{
+    color: white;
+}
 .profile-img {
     width: 60%;
     height: auto;
