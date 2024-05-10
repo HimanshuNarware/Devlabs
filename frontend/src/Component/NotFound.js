@@ -10,14 +10,14 @@ function NotFound() {
         <p className="not-found-text">
           The page you are looking for does not exist. It may have been moved or deleted.
         </p>
+        <Link to="/" className="not-found-button">
+          Go back to the Home page
+        </Link>
         <img
           src="https://internetdevels.com/sites/default/files/public/blog_preview/404_page_cover.jpg" 
           alt="404 Error"
           className="not-found-image"
         />
-        <Link to="/" className="not-found-button">
-          Go back to the Home page
-        </Link>
       </div>
     </div>
   );
