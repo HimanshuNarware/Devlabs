@@ -2677,5 +2677,12 @@
     "image": "https://www.hacksquad.dev/_next/static/media/f3468ffb81ca36a1555eee7ee479c157.svg",
     "link": "https://novu.co/",
     "description": "Novu is the open-source notification infrastructure for developers."
+},
+{
+  "productName": "PortSwigger",
+    "category": "ethical",
+    "image": "https://th.bing.com/th/id/OIP.lLWnEhhAbGIE0mVN8wm-fAAAAA?w=168&h=169&c=7&r=0&o=5&dpr=1.6&pid=1.7",
+    "link": "https://portswigger.net/web-security",
+    "description": "The Web Security Academy is a free online training center for web application security"
 }
 ]
