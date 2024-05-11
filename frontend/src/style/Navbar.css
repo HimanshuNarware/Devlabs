@@ -18,6 +18,10 @@
     display: flex;
     align-items: center;
 }
+.card-body img{
+	background: transparent;
+  
+}
 
 .navbar-brand {
 	background: transparent;
