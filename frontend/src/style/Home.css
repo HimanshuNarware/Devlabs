@@ -61,7 +61,15 @@
 }
 .content-box-text{
   color: white;
-  padding: 4px;
+    padding: 4px;
+    min-height: 80px;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    margin-bottom: 1rem;
 }
 .logo {
   width: 80px;
