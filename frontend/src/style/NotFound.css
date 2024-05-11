@@ -2,11 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
   }
   
   .not-found-content {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 100px;
+    gap: 10px;
+
   }
   
   .not-found-heading {
@@ -18,7 +24,6 @@
   .not-found-text {
     font-size: 18px;
     color: #777;
-    margin-bottom: 20px;
   }
   
   .not-found-image {
@@ -28,7 +33,7 @@
   
 .not-found-button {
     display: inline-block;
-    position: absolute;
+    /* position: absolute; */
     top: 70%;
     left: 44%;
     padding: 10px 20px;
