@@ -1,18 +1,10 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-function NavbarItem({ description, to }) {
-  const navigate = useNavigate();
-
-  const handleClick = () => {
-    navigate(to);
-  };
-
+function NavbarItem({description,to}) {
   return (
-    <div className="Link nav-link active" aria-current="page" onClick={handleClick}>
-      {description}
-    </div>
+      <Link to={to} className="Link nav-link active" aria-current="page">
+        {description}
+      </Link>
   );
 }
-
-export default NavbarItem;
