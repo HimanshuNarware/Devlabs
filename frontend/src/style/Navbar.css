@@ -41,8 +41,8 @@
 }
 
 .navbar-left #nav-icon1{
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
   position: relative;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -115,12 +115,16 @@
     width: 200px;
 }
 .navbar-content ul li a.active {
-    color: white;
+  color: red;
     background-color: green;
 }
+
 .nav-item {
   position: relative;
-  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+  color: white;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
 }
 
 .nav-item::before {
@@ -131,13 +135,13 @@
   transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: black;
   transition: width 0.2s ease-in-out;
 }
 
 .nav-item:hover::before {
   width: 100%;
 }
+
 
 
 .sidebar {
@@ -158,23 +162,6 @@
     width:20rem;
 }
 
-.sidebar::-webkit-scrollbar {
-  width: 1rem;
-}
-
-.sidebar::-webkit-scrollbar-track {
-  /* background-color: #fff; */
-  background-color: #8b5cf6;
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-  /* background: #8b5cf6; */
-  background: rgb(255, 255, 255);
-  border: 3px solid transparent;
-  border-radius: 9px;
-  background-clip: content-box;
-  height: 2rem;
-}
 
 .sidebar-content {
     border-bottom: 1px solid rgb(2, 27, 43);
@@ -197,15 +184,15 @@
     display: flex;
 }
 .Link {
-    color: black;
     text-decoration: none;
     font-weight: 500;
+    cursor: pointer;
 }
 .nav-item {
     font-size: 1rem;
 }
 .Link:hover {
-  color: rgb(72, 5, 5);
+  color: black !important;
   text-decoration: none;
 } 
 .sidebar-btns {
@@ -252,7 +239,7 @@
     display: flex;
 }
 .Link {
-    color: black;
+    color: blue;
     text-decoration: none;
     font-weight: 500;
 }

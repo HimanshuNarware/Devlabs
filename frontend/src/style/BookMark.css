@@ -1,7 +1,7 @@
 .container-bk{
     margin-top: 8rem;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    flex-direction: column;
 }
 .logo{
     width: 50px;

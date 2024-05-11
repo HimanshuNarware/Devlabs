@@ -13,7 +13,7 @@ function Footer() {
     <footer>
       <div className="card">
         <div className="card-header">
-          <img width={300} alt={"DevLaps"} src={logo} />
+          <img width={250} alt={"DevLaps"} src={logo} />
         </div>
         <div className="card-body">
           <h4 className="card-title ">Contact us</h4>

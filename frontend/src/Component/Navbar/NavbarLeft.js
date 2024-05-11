@@ -1,5 +1,4 @@
 import React from "react";
-import { IoReorderThree, IoClose } from "react-icons/io5";
 import "../../style/Navbar.css"
 import logo from "../../image/logo.png";
 

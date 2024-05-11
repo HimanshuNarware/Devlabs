@@ -37,11 +37,9 @@ const OpenSource = () => {
 
 			if (response.data.success){
 				setProjects(response.data.openSourceProjects);
-				console.log("backend data loaded");
 			}
 			else{
 				setProjects(jsonProjects);
-				console.log("json data loaded");
 			}
 			
 			setLoading(false);
