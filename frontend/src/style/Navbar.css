@@ -12,11 +12,20 @@
   z-index: 1;
   isolation: isolate;
   mix-blend-mode: normal;
+  padding-left: 30px;
 }
 
 .navbar-content {
     display: flex;
     align-items: center;
+}
+.card-body img{
+	background: transparent;
+  
+}
+
+.navbar-brand {
+	background: transparent;
 }
 
 .navbar-content li {
