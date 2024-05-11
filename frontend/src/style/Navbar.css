@@ -12,6 +12,7 @@
   z-index: 1;
   isolation: isolate;
   mix-blend-mode: normal;
+  padding-left: 30px;
 }
 
 .navbar-content {
