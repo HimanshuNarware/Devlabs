@@ -1,55 +1,65 @@
 :root,
 body,
 html {
-  overflow-x: hidden;
-  height: 100%;
-
+	overflow-x: hidden;
+	height: 100%;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr auto;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  background: linear-gradient(to left, #04121e, rgb(39, 2, 13), #021f23);
-  color: #8758f6;
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr auto;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	background: linear-gradient(to left, #04121e, rgb(39, 2, 13), #021f23);
+	color: #8758f6;
 }
 
 body::-webkit-scrollbar {
-  width: 1rem;
+	width: 1rem;
 }
 
 body::-webkit-scrollbar-track {
-  /* background-color: #fff; */
-  background-color: #101623;
+	/* background-color: #fff; */
+	background-color: #101623;
 }
 
 body::-webkit-scrollbar-thumb {
-  /* background: #74a309; */
-  background: rgb(255, 255, 255);
-  border: 3px solid transparent;
-  border-radius: 9px;
-  background-clip: content-box;
+	/* background: #74a309; */
+	background: rgb(255, 255, 255);
+	border: 3px solid transparent;
+	border-radius: 9px;
+	background-clip: content-box;
 }
 
 .darkmode-layer,
 .darkmode-toggle {
-  z-index: 5;
+	z-index: 5;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+img {
+	background: #fff;
+	padding: 3px;
+	margin: 5px;
+	border-radius: 40px;
+}
+
+.darkmode--activated img {
+	filter: invert(1);
 }

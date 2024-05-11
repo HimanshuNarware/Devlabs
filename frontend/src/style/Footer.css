@@ -9,6 +9,9 @@ footer {
 .card-header {
   border: none;
 }
+.card-header img {
+	background: transparent;
+}
 
 .card-link {
   text-decoration: none;
