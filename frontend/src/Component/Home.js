@@ -40,10 +40,10 @@ function Home(props) {
         });
       if (response.data.success) {
         setDataBaseData(response.data.tools);
-        console.log("backend data loaded");
+        // console.log("backend data loaded");
       } else {
         setDataBaseData(jsonTools);
-        console.log("json data laoded");
+        // console.log("json data laoded");
       }
 
       setLoading(false);
@@ -88,7 +88,7 @@ function Home(props) {
   const numbers = [...Array(npage + 1).keys()].slice(1);
   const dispatch = useDispatch();
 
-  console.log({ filterData: filteredData, npage, numbers, currentPost });
+  // console.log({ filterData: filteredData, npage, numbers, currentPost });
   function prePage() {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
