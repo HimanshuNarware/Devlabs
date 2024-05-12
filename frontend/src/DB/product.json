@@ -500,7 +500,7 @@
   {
     "productName": "Tryhackme",
     "category": "ethical",
-    "image": "https://bit.ly/3SsfjS2",
+    "image": "https://tryhackme-images.s3.amazonaws.com/room-icons/e75903ecb45ecd77c5635918f87e1a08.png",
     "link": "https://tryhackme.com/",
     "description": "Online platform for learning and practicing cybersecurity skills through interactive labs and challenges."
   },
@@ -2684,5 +2684,19 @@
     "image": "https://th.bing.com/th/id/OIP.lLWnEhhAbGIE0mVN8wm-fAAAAA?w=168&h=169&c=7&r=0&o=5&dpr=1.6&pid=1.7",
     "link": "https://portswigger.net/web-security",
     "description": "The Web Security Academy is a free online training center for web application security."
+},
+{
+  "productName": "OverTheWire",
+    "category": "ethical",
+    "image": "https://pbs.twimg.com/profile_images/1188000911962136576/R2j-5pwi_400x400.png",
+    "link": "https://overthewire.org/wargames/",
+    "description": "The wargames offered by OverTheWire help you to learn and practice security concepts"
+},
+{
+  "productName": "picoCTF",
+    "category": "ethical",
+    "image": "https://pbs.twimg.com/profile_images/1170012529113882625/HL2HWq60_400x400.jpg",
+    "link": "https://www.picoctf.org/",
+    "description": "A platform to learn and practice cybersecurity skills through a series of challenges."
 }
 ]
