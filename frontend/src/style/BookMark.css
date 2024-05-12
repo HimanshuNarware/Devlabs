@@ -1,25 +1,26 @@
-.container-bk{
+.container-bk {
     margin-top: 8rem;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
-.logo{
+
+.logo {
     width: 50px;
     height: 50px;
 }
 
-.box-bk p{
-  
-  color: white;
+.box-bk p {
+    color: white;
 }
 
-.box-bk{
-    border: 2px dashed rgba(79,71,125,255);
+.box-bk {
+    border: 2px dashed rgba(79, 71, 125, 255);
     margin: 20px;
     padding: 7px 12px;
     border-radius: 12px;
 }
-.btn-b{
+
+.btn-b {
     color: rgb(226, 43, 122);
     font-size: 1.1rem;
     border: 2px dashed forestgreen;
@@ -28,16 +29,17 @@
     background: transparent;
     margin-bottom: 10px;
     border-radius: 6px;
-    box-shadow: 1px 1px  rgb(0, 0, 0,0.5);
-    }
-    .btn-b:hover{
-        color: white;
-        cursor: pointer;
-        border: 1px dashed rgba(79,71,125,255);
-        background-color:rgb(226, 43, 122) ;
-    }
+    box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
+}
 
-.bk-empty{
+.btn-b:hover {
+    color: white;
+    cursor: pointer;
+    border: 1px dashed rgba(79, 71, 125, 255);
+    background-color: rgb(226, 43, 122);
+}
+
+.bk-empty {
     font-size: 1.5rem;
     font-weight: bold;
     width: max-content;
