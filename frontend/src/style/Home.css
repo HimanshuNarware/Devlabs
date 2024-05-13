@@ -95,7 +95,7 @@
   color: white;
   cursor: pointer;
   border: 1px solid #101623;
-  background-color: violet;
+  box-shadow: 3px 3px purple;
 }
 
 .popup {
