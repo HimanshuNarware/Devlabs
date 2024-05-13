@@ -2686,6 +2686,7 @@
     "description": "The Web Security Academy is a free online training center for web application security."
 },
 {
+
   "productName": "OverTheWire",
     "category": "ethical",
     "image": "https://pbs.twimg.com/profile_images/1188000911962136576/R2j-5pwi_400x400.png",
@@ -2697,6 +2698,12 @@
     "category": "ethical",
     "image": "https://pbs.twimg.com/profile_images/1170012529113882625/HL2HWq60_400x400.jpg",
     "link": "https://www.picoctf.org/",
-    "description": "A platform to learn and practice cybersecurity skills through a series of challenges."
+    "description": "A platform to learn and practice cybersecurity skills through a series of challenges.",
+  "productName": "Elitmus",
+  "category": "Job Portal",
+  "image": "elitmus.png",
+  "link": "https://www.elitmus.com/",
+  "description": "eLitmus has been redefining how fresher and entry-level recruitment is done in India."
+
 }
 ]
