@@ -70,7 +70,7 @@ function Home(props) {
     }
   }
 
-  // In case of `searchQuery` string
+  // In case `searchQuery` string is available, filter the data, if not then show all data
   const filteredData = !!props.searchQuery
     ? allvalue.filter((datalist) => {
         return (
