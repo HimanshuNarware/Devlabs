@@ -63,7 +63,7 @@
 
 .repo-btn:hover{
     background: transparent;
-    box-shadow: 0px 0px 5px purple;
+    box-shadow: 0 0 20px rgb(226, 33, 226);
 }
 
 .repo-btn a{
@@ -193,4 +193,5 @@
 .profile-btn:hover {
     background: transparent;
     cursor: pointer;
+    box-shadow: 0 0 7px #8b5cf6;
 }
