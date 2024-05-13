@@ -1,8 +1,6 @@
 .page-container {
-  width: 95vw;
-  margin: 0 auto;
-  padding-right: 10px;  /* width of the scrollbar to align center */
-  max-width: 1500px;
+  width: 100vw;
+  max-width: 100vw;
 }
 
 .main-container {
@@ -37,38 +35,49 @@
 }
 
 .content-box-home {
-  background-color:#101623  ;
-  border: 2px dashed rgba(79,71,125,255);
+  background-color: #101623;
+  border: 2px dashed rgba(79, 71, 125, 255);
   margin: 20px;
   padding: 7px 12px;
   border-radius: 12px;
-  box-shadow: 2px 2px 8px rgba(79,71,125,255);
+  box-shadow: 2px 2px 8px rgba(79, 71, 125, 255);
 }
 
 @media screen and (max-width: 950px) {
   .content-box-home {
-    margin: 10px; 
-    padding: 5px 8px; 
-    border-radius: 8px; 
-    box-shadow: 2px 2px 5px rgba(79,71,125,255); 
+    margin: 10px;
+    padding: 5px 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(79, 71, 125, 255);
   }
 }
 
-.content-box-home:hover{
-  transform: scale(1.05); 
-  box-shadow: 0px 0px 25px #8b5cf6; 
+.content-box-home:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 25px #8b5cf6;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-.content-box-text{
+
+.content-box-text {
   color: white;
   padding: 4px;
+  min-height: 80px;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 1rem;
 }
+
 .logo {
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 .btn-b-box {
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
@@ -78,14 +87,15 @@
   background: transparent;
   margin-bottom: 10px;
   border-radius: 6px;
-  box-shadow: 1px 1px  rgb(0, 0, 0,0.5);
+  box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
   background-color: #8b5cf6;
 }
+
 .btn-b-box:hover {
   color: white;
   cursor: pointer;
   border: 1px solid #101623;
-  background-color:violet ;
+  background-color: violet;
 }
 
 .popup {
@@ -106,8 +116,10 @@
   top: 5px;
   width: 22px;
   height: 22px;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
   transform: rotate(45deg);
 }
 

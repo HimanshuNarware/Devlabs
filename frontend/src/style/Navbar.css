@@ -12,11 +12,20 @@
   z-index: 1;
   isolation: isolate;
   mix-blend-mode: normal;
+  padding-left: 30px;
 }
 
 .navbar-content {
     display: flex;
     align-items: center;
+}
+.card-body img{
+	background: transparent;
+  
+}
+
+.navbar-brand {
+	background: transparent;
 }
 
 .navbar-content li {
@@ -147,24 +156,6 @@
 }
 .sidebar.active{
     width:20rem;
-}
-
-.sidebar::-webkit-scrollbar {
-  width: 1rem;
-}
-
-.sidebar::-webkit-scrollbar-track {
-  /* background-color: #fff; */
-  background-color: #8b5cf6;
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-  /* background: #8b5cf6; */
-  background: rgb(255, 255, 255);
-  border: 3px solid transparent;
-  border-radius: 9px;
-  background-clip: content-box;
-  height: 2rem;
 }
 
 .sidebar-content {

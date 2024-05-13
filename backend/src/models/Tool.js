@@ -7,7 +7,7 @@ const ToolSchema = new mongoose.Schema({
     },
     category: {
         type: String,
-        enum: ['remote', 'resume', 'tweet', 'ai', 'ethical', 'movies', 'extensions', 'tools'],
+        enum: ['remote', 'resume', 'tweet', 'ai', 'ethical', 'movies', 'extensions', 'tools','coding'],
         required: true
     },
     image: {
@@ -25,4 +25,4 @@ const ToolSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model("tool", ToolSchema);
+module.exports = mongoose.model("Tool", ToolSchema);
