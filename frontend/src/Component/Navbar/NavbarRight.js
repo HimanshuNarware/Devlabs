@@ -30,7 +30,7 @@ function NavbarRight(props) {
               placeholder="Search . . ."
               value={searchQuery} // Set input value to the search query
               onChange={handleInputChange}
-              required
+              
             />
             <button className="span" type="submit">
               <BsSearch />
