@@ -2684,5 +2684,12 @@
     "image": "https://th.bing.com/th/id/OIP.lLWnEhhAbGIE0mVN8wm-fAAAAA?w=168&h=169&c=7&r=0&o=5&dpr=1.6&pid=1.7",
     "link": "https://portswigger.net/web-security",
     "description": "The Web Security Academy is a free online training center for web application security."
+},
+{
+  "productName": "Elitmus",
+  "category": "Job Portal",
+  "image": "elitmus.png",
+  "link": "https://www.elitmus.com/",
+  "description": "eLitmus has been redefining how fresher and entry-level recruitment is done in India."
 }
 ]
