@@ -35,11 +35,8 @@ footer {
 
 /* Copyright */
 .copyright {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
   background-color: rgba(0, 0, 0, 0.742);
   color: white;
-  font-size: 20px;
 }
 
 /* Contact Links */
