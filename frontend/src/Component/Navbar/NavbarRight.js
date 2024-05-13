@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "../../style/Navbar.css";
 import { BsSearch } from "react-icons/bs";
+import { RxCross2 } from "react-icons/rx";
+import "../../style/Navbar.css";
 
 function NavbarRight(props) {
   const [searchQuery, setSearchQuery] = useState(""); // Local state to manage search query
@@ -12,11 +13,12 @@ function NavbarRight(props) {
   const handleSearch = (e) => {
     e.preventDefault();
     props.setSearchQuery(searchQuery); // Pass the search query to the parent component (App)
+  };
 
-    // Remove searchQuery after 1s
-    setTimeout(() => {
-      setSearchQuery("");
-    }, 1000);
+  const clearSearchHandler = (e) => {
+    e.preventDefault();
+    setSearchQuery("");
+    props.setSearchQuery(""); // Pass the empty search query to the parent component (App)
   };
 
   return (
@@ -30,8 +32,11 @@ function NavbarRight(props) {
               placeholder="Search . . ."
               value={searchQuery} // Set input value to the search query
               onChange={handleInputChange}
-              
             />
+
+            <button className="span" type="button" onClick={clearSearchHandler}>
+              <RxCross2 />
+            </button>
             <button className="span" type="submit">
               <BsSearch />
             </button>
