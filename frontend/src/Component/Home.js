@@ -1,9 +1,9 @@
+import axios from "axios";
 import React, { useEffect, useState } from "react";
-import "../style/Home.css";
-import { setSource } from "../Slice/DataSlice";
 import { useDispatch } from "react-redux";
 import ClipLoader from "react-spinners/ClipLoader";
-import axios from "axios";
+import { setSource } from "../Slice/DataSlice";
+import "../style/Home.css";
 
 import jsonTools from "../DB/product.json";
 
@@ -70,16 +70,20 @@ function Home(props) {
     }
   }
 
-  const filteredData = allvalue.filter((datalist) => {
-    return (
-      datalist.productName
-        .toLowerCase()
-        .includes(props.searchQuery.toLowerCase()) ||
-      datalist.description
-        .toLowerCase()
-        .includes(props.searchQuery.toLowerCase())
-    );
-  });
+  // In case `searchQuery` string is available, filter the data, if not then show all data
+  const filteredData = !!props.searchQuery
+    ? allvalue.filter((datalist) => {
+        return (
+          datalist.productName
+            .toLowerCase()
+            .includes(props.searchQuery.toLowerCase()) ||
+          datalist.description
+            .toLowerCase()
+            .includes(props.searchQuery.toLowerCase())
+        );
+      })
+    : allvalue;
+
   const currentPost =
     filteredData.length > 16
       ? filteredData.slice(firstPostIndex, lastPostIndex)
