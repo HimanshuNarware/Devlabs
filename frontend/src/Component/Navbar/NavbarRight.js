@@ -34,7 +34,7 @@ function NavbarRight(props) {
               onChange={handleInputChange}
             />
 
-            <button className={`span ${searchQuery && "invisible"}`} type="button" onClick={clearSearchHandler}>
+            <button className={`span ${!searchQuery && "invisible"}`} type="button" onClick={clearSearchHandler}>
               <RxCross2 />
             </button>
             <button className="span" type="submit">
