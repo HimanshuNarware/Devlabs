@@ -5,11 +5,21 @@
     flex-direction: column;
     gap: 5%;
     margin: 40px;
-    font-size: 32px;
+    font-size: 1.6vmax;
     margin-top: 8rem;
 }
+.container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    margin: 40px;
+    font-size: 1.7vmax;
+    margin-top: 2.5rem;
+}
 .container-two .bx-2 p{
-    margin-top: 40px;
+    margin-top: 38px;
 }
 
 .bx-1 {
@@ -49,12 +59,13 @@
 }
 
 .img {
-    width: 98%;
+    width: 70%;
 }
 
 .repo-btn {
     font-weight: 500;
-    padding: 8px 12px;
+    margin: 0.8vmax 0 .8vmax 0;
+    padding: 8px 2px;
     color: #000000;
     border-radius: 12px;
     background-color: #8b5cf6;
@@ -68,6 +79,7 @@
 .repo-btn a{
     color: #ffffff;
     text-decoration: none;
+   
 }
 
 @media screen and (max-width: 375px) {
