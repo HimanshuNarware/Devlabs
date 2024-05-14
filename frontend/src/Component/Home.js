@@ -199,7 +199,7 @@ function handleBookmark(datalist){
                 >
                   Link
                 </button>
-                {bookmarks.some(item =>item.name.includes(datalist.productName))?
+                {bookmarks?.some(item =>item.name.includes(datalist.productName))?
                 <button
                   className="btn-booked-box">Booked</button>:
                   <button
