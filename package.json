@@ -1,0 +1,12 @@
+{
+  "name": "devlabs",
+  "version": "1.0.0",
+  "description": "- Welcome  DevLabs is a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On DevLabs, you can discover a collection of free tools that can assist you in various aspects of your life. Moreover, you have the opportunity to contribute to this project by adding more tools to the database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
