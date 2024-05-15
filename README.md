@@ -1,8 +1,8 @@
 <div align="center">
-  <h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="50" height="50" /> DevLabs</h1>
-  <p>Welcome to DevLabs, a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On DevLabs, you can discover a collection of free tools that can assist you in various aspects of your life. Moreover, you have the opportunity to contribute to this project by adding more tools to the database.</p>
-  <p>Check out the live project at <a href="https://DevLabs-one.vercel.app">DevLabs</a></p>
-  <img src="https://github.com/HimanshuNarware/Devlabs/assets/83147410/a508cf73-6724-46d3-a66d-6b9a7811bfdd" alt="DevLabs" />
+  <h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="50" height="50" /> DevLaps</h1>
+  <p>Welcome to DevLaps, a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On DevLaps, you can discover a collection of free tools that can assist you in various aspects of your life. Moreover, you have the opportunity to contribute to this project by adding more tools to the database.</p>
+  <p>Check out the live project at <a href="https://DevLabs-one.vercel.app">DevLaps</a></p>
+  <img src="https://github.com/HimanshuNarware/Devlabs/assets/83147410/a508cf73-6724-46d3-a66d-6b9a7811bfdd" alt="DevLaps" />
 </div>
 
 ---
