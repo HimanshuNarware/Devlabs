@@ -12,9 +12,11 @@ Our website provides a platform for contributors from all over the world to shar
 
 ---
 
-## Tech Stack
+## 🚀 Tech Stack
+- **React.js**: A JavaScript library for building user interfaces.
 
-Reactjs - Reactjs is a JavaScript library for building user interfaces.
+---
+
 🚀 Quick start
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
 
