@@ -46,6 +46,10 @@ function Sidebar({ showSideNav }) {
       name: "course",
       description: "Course Platforms",
     },
+    {
+      name: "productivity",
+      description: "Productivity Tools",
+    }
   ];
   return (
     <div className={`sidebar ${showSideNav ? "active" : ""}`}>
