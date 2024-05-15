@@ -22,23 +22,22 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 ---
 
-## Installation
+## 📦 Installation
 
 You can clone the project directly from this repo to your local system.
 
-### 1. Clone the repo
+### 1. Clone the Repo
 
 ```bash
-https://github.com/username/Devlabs.git
+git clone https://github.com/username/Devlabs.git
 ```
-
-The `.` will clone it to the current directory so make sure you are inside your project folder first.
 
 ### 2. Install Dependencies
 
 ```bash
 npm install
-`
+```
+
 ### 3. Start development Server
 
 ```bash
