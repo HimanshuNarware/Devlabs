@@ -102,16 +102,19 @@ Instead, stage your changes for each file/folder specifically.
 git add "<files_you_have_changed>"
 ```
 
-### 8. Commit your changes
+### 9. Commit Your Changes
 
 ```bash
 git commit -m "<your_commit_message>"
 ```
 
-### 9. Push your local commits to the remote repository
+### 10. Push Your Local Commits to the Remote Repository
 
 ```bash
 git push origin YourBranchName
 ```
 
-**10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+### 11. Create a Pull Request
+Create a **[Pull Request]**(https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+
+
