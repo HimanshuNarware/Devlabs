@@ -84,9 +84,9 @@ To add a new tool:
     description: "< Description of product >"
 },
 ```
+  -Ensure that your URLs are short. It is recommended to use bitly for URL shortening.
+  -Descriptions should not exceed 10-12 words.
 
-To ensure that your URLs are short, it is recommended to use bitly for URL shortening.
-Description should not exceed 10-12 words
 
 ### 7. Stage your changes
 
