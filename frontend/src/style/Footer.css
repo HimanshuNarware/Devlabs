@@ -4,19 +4,29 @@ footer {
 }
 
 .card {
-  background-color: #8b5cf6 !important;
+  background-color: #885AEF !important;
 }
-.card-header {
-  border: none;
-}
-.card-header img {
+
+.card-body img {
 	background: transparent;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: left;
 }
 
 .card-link {
   text-decoration: none;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.742);
+}
+.card-title {
+  display: flex;
+  justify-content: right;
+  font-weight: 400;
+  font-size: 2.6rem;
+  margin-top: 4rem;
+  margin-right: 2rem;
 }
 
 .card-link:hover {
@@ -27,15 +37,19 @@ footer {
   background-color: rgba(0, 0, 0, 0.742);
   color: white;
 }
+
 .contact-link {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 20px;
-  font-size: 1.4rem;
+  justify-content: right;
+  gap: 1rem;
+  font-size: 3rem;
+  margin-right: 2rem;
 }
+
 .cntc-link a {
   color: black;
+  background-color: transparent;
 }
 .cntc-link a:hover {
   cursor: pointer;

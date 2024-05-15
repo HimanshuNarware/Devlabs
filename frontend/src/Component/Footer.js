@@ -15,11 +15,13 @@ function Footer() {
   return (
     <footer>
       <div className="card">
-        <div className="card-header">
-          <img width={250} alt={"DevLaps"} src={logo} />
-        </div>
         <div className="card-body">
-          <h4 className="card-title ">Contact us</h4>
+          <table style={{ width: "100%"}}><tr>
+            <td><img width={450} alt={"DevLaps"} src={logo} /></td>
+            <td><h4 className="card-title">Contact us</h4></td>
+          </tr>
+          <tr><td></td>
+          <td>
           <div className="contact-link">
             <div className="cntc-link">
               <a
@@ -63,8 +65,10 @@ function Footer() {
               </a>
             </div>
           </div>
-        </div>
-        <div className="card-header">
+          </td>
+          </tr></table>
+        </div>  
+        <div className="card-body">
           Facing an issue or just enjoying the site ? Tell us now via the
           <Link className="card-link" to="/review">
             {" "}
@@ -72,7 +76,7 @@ function Footer() {
           </Link>
           .
         </div>
-        <div className="card-header copyright">
+        <div className="card-body copyright">
           COPYRIGHT © Devlaps 2024 | MAINTAINED BY HIMANSHU NARWARE
         </div>
       </div>
