@@ -38,7 +38,7 @@ git clone https://github.com/username/Devlabs.git
 npm install
 ```
 
-### 3. Start development Server
+### 3. Start Development Server
 
 ```bash
 npm start
@@ -46,7 +46,7 @@ npm start
 npm run dev
 ```
 
-### 3. Create Backend Environment
+### 4. Create Backend Environment
 
 ```bash
 MONGODB_URI=<mongodb connection uri for the database>
@@ -56,7 +56,7 @@ MAIL=<email from which to send mail to self>
 PASSWORD=<passkey corresponding to above mail>
 ```
 
-### 4. Create Frontend Environment
+### 5. Create Frontend Environment
 
 All the environment variables for react must be prefixed with `REACT_APP_`.
 
@@ -64,15 +64,15 @@ All the environment variables for react must be prefixed with `REACT_APP_`.
 REACT_APP_BACKEND=<url of the backend>
 ```
 
-### 5 Create a new branch
+### 6. Create a New Branch
 
 ```bash
 git checkout -b YourBranchName
 ```
 
-### 6. Make your changes to the source code
+### 7. Make Your Changes to the Source Code
 
- Add new tool :
+To add a new tool:
    > Go to **src > DB > `product.json`** & add your code
 
 ```bash
