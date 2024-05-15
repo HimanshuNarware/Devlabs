@@ -88,15 +88,15 @@ To add a new tool:
   - Descriptions should not exceed 10-12 words.
 
 
-### 7. Stage your changes
+### 8.  Stage Your Changes
 
 ⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
 
 ⚠️ **Make sure** not to run the commands `git add .` or `git add *`
 
-> Instead, stage your changes for each file/folder
->
-> By using public path it means it will add all files and folders under that folder, it is better to be specific
+---
+
+Instead, stage your changes for each file/folder specifically.
 
 ```bash
 git add "<files_you_have_changed>"
