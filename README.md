@@ -17,8 +17,10 @@ Our website provides a platform for contributors from all over the world to shar
 
 ---
 
-🚀 Quick start
+## 🚀 Quick Start
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
+
+---
 
 ## Installation
 
