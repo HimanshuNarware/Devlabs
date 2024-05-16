@@ -1,43 +1,96 @@
-footer {
-  position: sticky;
-  top: 100vh;
-}
-
-.card {
-  background-color: #8b5cf6 !important;
-}
-.card-header {
-  border: none;
-}
-.card-header img {
-	background: transparent;
-}
-
-.card-link {
-  text-decoration: none;
-  font-weight: 700;
-  color: rgba(0, 0, 0, 0.742);
-}
-
-.card-link:hover {
-  color: whitesmoke;
-}
-
-.copyright {
-  background-color: rgba(0, 0, 0, 0.742);
+.Footer {
+  padding: 2rem 0;
+  margin-top: 15rem;
+  background: #74A309;
   color: white;
 }
-.contact-link {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
-  font-size: 1.4rem;
+
+.ft-1 h5{
+  margin-top: 18px;
 }
-.cntc-link a {
-  color: black;
+
+.ft-1 button {
+  margin-top: 3px;
+  width:215px;
+  height: 45px;
+  border-radius: 8px;
+  border-color: white;
+  font-size: 21px;
+  font-weight: 500;
 }
-.cntc-link a:hover {
+
+.ft-1 button:hover{
+  background: #A3094E;
+  color: #fff;
   cursor: pointer;
-  color: white !important;
+}
+
+.ft-2 {
+  margin-top: 3.4375rem;
+  text-decoration: none;
+}
+
+.ft-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-2 ul li {
+  padding: 0.1rem 0;
+}
+
+.ft-2 ul a {
+  text-decoration: none;
+  color:white;
+  font-size: 1rem;
+}
+
+.ft-4 {
+  margin-top: 5.5rem;
+  text-decoration: none;
+}
+
+.ft-4 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-4 ul li {
+  padding: 0.1rem 0;
+}
+
+.ft-4 ul a {
+  text-decoration: none;
+  color:white;
+  font-size: 1rem;
+}
+
+.Last-footer {
+  background: #74A309;
+  border: 1px solid white;
+  text-align: center;
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.Last-footer p {
+  font-size: 0.5rem;
+  margin-right:22rem;
+}
+
+.footer-icons{
+  margin-left:20.14rem;
+}
+.Last-footer i {
+  padding: 0.4rem 0.5rem;
+  background: black;
+  color: white;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+}
+
+.Last-footer i:hover {
+  background: #A3094E;
+  color: #fff;
+  cursor: pointer;
 }

@@ -49,7 +49,11 @@ function Sidebar({ showSideNav }) {
   ];
   return (
     <div className={`sidebar ${showSideNav ? "active" : ""}`}>
-      <div className={`sidebar-content sidebar-btns ${showSideNav ? "active" : ""}`} >
+      <div
+        className={`sidebar-content sidebar-btns ${
+          showSideNav ? "active" : ""
+        }`}
+      >
         <div className="sidebar-btn home-btn">
           <Link
             to="/"
@@ -94,8 +98,8 @@ function Sidebar({ showSideNav }) {
           description={item.description}
           active={showSideNav}
         />
-      ))} 
-      <div style={{ marginTop: '20px' }} /> 
+      ))}
+      <div style={{ marginTop: "20px" }} />
     </div>
   );
 }
