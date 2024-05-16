@@ -10,7 +10,7 @@ footer {
   border: none;
 }
 .card-header img {
-	background: transparent;
+  background: transparent;
 }
 
 .card-link {
@@ -39,5 +39,5 @@ footer {
 }
 .cntc-link a:hover {
   cursor: pointer;
-  color: white !important;
+  color: #474eff !important;
 }
