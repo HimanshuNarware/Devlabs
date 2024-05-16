@@ -8,8 +8,8 @@ import "../style/Home.css";
 import jsonTools from "../DB/product.json";
 
 const BACKEND = process.env.REACT_APP_BACKEND;
-
 function Home(props) {
+const [bookmarks,setBookmark] = useState(null)
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
@@ -24,7 +24,15 @@ function Home(props) {
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
-
+  function handleBookmarks(){
+    const bookmark=JSON.parse(
+      localStorage.getItem("bookmarks")
+    );
+    setBookmark(bookmark)
+  }
+useEffect(()=>{
+   handleBookmarks()
+},[])
   useEffect(() => {
     setLoading(true);
     const handleStorageChange = () => {
@@ -108,7 +116,65 @@ function Home(props) {
   function changeCPage(id) {
     setCurrentPage(id);
   }
+function handleBookmark(datalist){
+  if (bookmarks === null) {
+    localStorage.setItem(
+      "bookmarks",
+      JSON.stringify([
+        {
+          image: datalist.image,
+          name: datalist.productName,
+          desc: datalist.description,
+          link: datalist.link,
+        },
+      ])
+    );
+    dispatch(
+      setSource({
+        image: datalist.image,
+        name: datalist.productName,
+        desc: datalist.description,
+        link: datalist.link,
+      })
+    );
+  } else {
+    let found = false;
+    for (let item of bookmarks) {
+      if (item.name === datalist.productName) {
+        found = true;
+        break;
+      }
+    }
 
+    if (!found) {
+      localStorage.setItem(
+        "bookmarks",
+        JSON.stringify([
+          ...bookmarks,
+          {
+            image: datalist.image,
+            name: datalist.productName,
+            desc: datalist.description,
+            link: datalist.link,
+          },
+        ])
+      );
+      dispatch(
+        setSource({
+          image: datalist.image,
+          name: datalist.productName,
+          desc: datalist.description,
+          link: datalist.link,
+        })
+      );
+      setShowPopup(true);
+      setTimeout(() => {
+        setShowPopup(false);
+      }, 2000);
+    }
+  }
+  handleBookmarks()
+}
   return (
     <div>
       <div className="page-container">
@@ -137,72 +203,15 @@ function Home(props) {
                 >
                   Link
                 </button>
+                {bookmarks?.some(item =>item.name.includes(datalist.productName))?
                 <button
+                  className="btn-booked-box">Booked</button>:
+                  <button
                   className="btn-b-box"
-                  onClick={() => {
-                    const bookmarks = JSON.parse(
-                      localStorage.getItem("bookmarks")
-                    );
-                    if (bookmarks === null) {
-                      localStorage.setItem(
-                        "bookmarks",
-                        JSON.stringify([
-                          {
-                            image: datalist.image,
-                            name: datalist.productName,
-                            desc: datalist.description,
-                            link: datalist.link,
-                          },
-                        ])
-                      );
-                      dispatch(
-                        setSource({
-                          image: datalist.image,
-                          name: datalist.productName,
-                          desc: datalist.description,
-                          link: datalist.link,
-                        })
-                      );
-                    } else {
-                      let found = false;
-                      for (let item of bookmarks) {
-                        if (item.name === datalist.productName) {
-                          found = true;
-                          break;
-                        }
-                      }
-
-                      if (!found) {
-                        localStorage.setItem(
-                          "bookmarks",
-                          JSON.stringify([
-                            ...bookmarks,
-                            {
-                              image: datalist.image,
-                              name: datalist.productName,
-                              desc: datalist.description,
-                              link: datalist.link,
-                            },
-                          ])
-                        );
-                        dispatch(
-                          setSource({
-                            image: datalist.image,
-                            name: datalist.productName,
-                            desc: datalist.description,
-                            link: datalist.link,
-                          })
-                        );
-                        setShowPopup(true);
-                        setTimeout(() => {
-                          setShowPopup(false);
-                        }, 2000);
-                      }
-                    }
-                  }}
-                >
+                  onClick={() => handleBookmark(datalist)} >
                   Bookmark
                 </button>
+          }
               </div>
             );
           })}
