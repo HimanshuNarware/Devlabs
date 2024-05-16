@@ -1,10 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import { RxCross2 } from "react-icons/rx";
 import "../../style/Navbar.css";
 
 function NavbarRight(props) {
   const [searchQuery, setSearchQuery] = useState(""); // Local state to manage search query
+
+  //debounce search query
+  useEffect(() => {
+    let timer = setTimeout(() => {
+      props.setSearchQuery(searchQuery);
+    }, 300);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [searchQuery]);
 
   const handleInputChange = (e) => {
     setSearchQuery(e.target.value); // Update the search query when input changes
@@ -34,7 +44,11 @@ function NavbarRight(props) {
               onChange={handleInputChange}
             />
 
-            <button className={`span ${!searchQuery && "invisible"}`} type="button" onClick={clearSearchHandler}>
+            <button
+              className={`span ${!searchQuery && "invisible"}`}
+              type="button"
+              onClick={clearSearchHandler}
+            >
               <RxCross2 />
             </button>
             <button className="span" type="submit">
