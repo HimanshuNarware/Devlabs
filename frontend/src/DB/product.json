@@ -856,7 +856,7 @@
   },
   {
     "productName": "Notion",
-    "category": "tools",
+    "category": "productivity",
     "image": "https://t.ly/_eHX",
     "link": "https://notion.so/",
     "description": "Productivity tool for everything you need."
@@ -2708,5 +2708,61 @@
   "link": "https://www.elitmus.com/",
   "description": "eLitmus has been redefining how fresher and entry-level recruitment is done in India."
 
+},
+{
+  "productName": "Warp",
+  "category": "productivity",
+  "image": "https://d4.alternativeto.net/qtP9GDgTpLu6XX3v3s374WZmDiEa6d7aladATlM3mG8/rs:fill:280:280:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy93YXJwLXRlcm1pbmFsXzIwMTQwOS5wbmc.png",
+  "link": "https://www.warp.dev/",
+  "description": "Warp is a terminal reimagined with AI and collaborative tools for better productivity."
+
+},
+{
+  "productName": "Unhook",
+  "category": "productivity",
+  "image": "https://chromestores.com/wp-content/uploads/2022/10/unhook-extension.jpg",
+  "link": "https://unhook.app/",
+  "description": "A browser extension to eliminate distractions on YouTube"
+
+},
+{
+  "productName": "Cold Turkey",
+  "category": "productivity",
+  "image": "https://alternative.me/media/256/cold-turkey-icon-a9ifoahq7s33x2qf-c.png",
+  "link": "https://getcoldturkey.com/features/",
+  "description": "The free website blocker designed for studying or focusing on work. Block distractions like social media, games or apps"
+
+},
+{
+  "productName": "Trello",
+  "category": "productivity",
+  "image": "https://pbs.twimg.com/profile_images/1361722806694785027/UY7DlO0a_400x400.png",
+  "link": "https://trello.com/",
+  "description": "Trello is a productivity tool that helps you organize tasks, teams, and tools with boards, lists, and cards"
+
+},
+{
+  "productName": "Postman",
+  "category": "productivity",
+  "image": "https://pbs.twimg.com/profile_images/1534945114807644173/h22f7y8F_400x400.png",
+  "link": "https://www.postman.com/",
+  "description": "A collaboration platform for API development, testing, and documentation."
+},
+{
+  "productName": "Slack",
+  "category": "productivity",
+  "image": "https://freepngdesign.com/content/uploads/images/slack-logo-2397.png",
+  "link": "https://slack.com/intl/en-in/",
+  "description": "Slack is a platform designed to enhance productivity and streamline communication within teams."
+
+},
+{
+  "productName": "Calendly",
+  "category": "productivity",
+  "image": "https://pbs.twimg.com/profile_images/1574482929203351553/J2L9r-Oy_400x400.png",
+  "link": "https://calendly.com/",
+  "description": "Calendly is a scheduling automation platform that makes it easy to schedule meetings."
+
 }
+
 ]

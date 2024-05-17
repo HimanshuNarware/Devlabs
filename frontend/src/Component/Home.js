@@ -2,9 +2,9 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import ClipLoader from "react-spinners/ClipLoader";
+import jsonTools from "../DB/product.json";
 import { setSource } from "../Slice/DataSlice";
 import "../style/Home.css";
-
 import jsonTools from "../DB/product.json";
 import NoResults from "./NoResults";
 
@@ -264,6 +264,10 @@ function Home(props) {
             </ul>
           </nav>
         )}
+
+        {filteredData.length === 0 ? (
+          <h2>There is nothing here to show.</h2>
+        ) : null}
       </div>
       {showPopup && (
         <div className="popup">
