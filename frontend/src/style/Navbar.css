@@ -236,8 +236,11 @@
 }
 @media (max-width: 580px) {
     .navbar-right {
-        display: none;
-    }
+        /* display: none; */
+        width: 100%;
+        justify-content: center;
+        
+      }
     .logo-img {
         width: 150px;
         margin-left: -20px;
