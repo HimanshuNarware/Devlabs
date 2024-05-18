@@ -5,10 +5,12 @@ import ClipLoader from "react-spinners/ClipLoader";
 import jsonTools from "../DB/product.json";
 import { setSource } from "../Slice/DataSlice";
 import "../style/Home.css";
+import jsonTools from "../DB/product.json";
+import NoResults from "./NoResults";
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 function Home(props) {
-const [bookmarks,setBookmark] = useState(null)
+  const [bookmarks, setBookmark] = useState(null)
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
@@ -23,15 +25,15 @@ const [bookmarks,setBookmark] = useState(null)
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
-  function handleBookmarks(){
-    const bookmark=JSON.parse(
+  function handleBookmarks() {
+    const bookmark = JSON.parse(
       localStorage.getItem("bookmarks")
     );
     setBookmark(bookmark)
   }
-useEffect(()=>{
-   handleBookmarks()
-},[])
+  useEffect(() => {
+    handleBookmarks()
+  }, [])
   useEffect(() => {
     setLoading(true);
     const handleStorageChange = () => {
@@ -80,15 +82,15 @@ useEffect(()=>{
   // In case `searchQuery` string is available, filter the data, if not then show all data
   const filteredData = !!props.searchQuery
     ? allvalue.filter((datalist) => {
-        return (
-          datalist.productName
-            .toLowerCase()
-            .includes(props.searchQuery.toLowerCase()) ||
-          datalist.description
-            .toLowerCase()
-            .includes(props.searchQuery.toLowerCase())
-        );
-      })
+      return (
+        datalist.productName
+          .toLowerCase()
+          .includes(props.searchQuery.toLowerCase()) ||
+        datalist.description
+          .toLowerCase()
+          .includes(props.searchQuery.toLowerCase())
+      );
+    })
     : allvalue;
 
   const currentPost =
@@ -115,41 +117,11 @@ useEffect(()=>{
   function changeCPage(id) {
     setCurrentPage(id);
   }
-function handleBookmark(datalist){
-  if (bookmarks === null) {
-    localStorage.setItem(
-      "bookmarks",
-      JSON.stringify([
-        {
-          image: datalist.image,
-          name: datalist.productName,
-          desc: datalist.description,
-          link: datalist.link,
-        },
-      ])
-    );
-    dispatch(
-      setSource({
-        image: datalist.image,
-        name: datalist.productName,
-        desc: datalist.description,
-        link: datalist.link,
-      })
-    );
-  } else {
-    let found = false;
-    for (let item of bookmarks) {
-      if (item.name === datalist.productName) {
-        found = true;
-        break;
-      }
-    }
-
-    if (!found) {
+  function handleBookmark(datalist) {
+    if (bookmarks === null) {
       localStorage.setItem(
         "bookmarks",
         JSON.stringify([
-          ...bookmarks,
           {
             image: datalist.image,
             name: datalist.productName,
@@ -166,14 +138,44 @@ function handleBookmark(datalist){
           link: datalist.link,
         })
       );
-      setShowPopup(true);
-      setTimeout(() => {
-        setShowPopup(false);
-      }, 2000);
+    } else {
+      let found = false;
+      for (let item of bookmarks) {
+        if (item.name === datalist.productName) {
+          found = true;
+          break;
+        }
+      }
+
+      if (!found) {
+        localStorage.setItem(
+          "bookmarks",
+          JSON.stringify([
+            ...bookmarks,
+            {
+              image: datalist.image,
+              name: datalist.productName,
+              desc: datalist.description,
+              link: datalist.link,
+            },
+          ])
+        );
+        dispatch(
+          setSource({
+            image: datalist.image,
+            name: datalist.productName,
+            desc: datalist.description,
+            link: datalist.link,
+          })
+        );
+        setShowPopup(true);
+        setTimeout(() => {
+          setShowPopup(false);
+        }, 2000);
+      }
     }
+    handleBookmarks()
   }
-  handleBookmarks()
-}
   return (
     <div>
       <div className="page-container">
@@ -186,34 +188,41 @@ function handleBookmark(datalist){
             data-testid="loader"
           />
 
-          {currentPost.map((datalist) => {
-            return (
-              <div className="content-box-home" key={datalist.productName}>
-                <img
-                  className="logo"
-                  src={datalist.image}
-                  alt={datalist.category}
-                />
-                <h2>{datalist.productName}</h2>
-                <p className="content-box-text">{datalist.description}</p>
-                <button
-                  className="btn-b-box"
-                  onClick={() => window.open(datalist.link)}
-                >
-                  Link
-                </button>
-                {bookmarks?.some(item =>item.name.includes(datalist.productName))?
-                <button
-                  className="btn-booked-box">Booked</button>:
-                  <button
-                  className="btn-b-box"
-                  onClick={() => handleBookmark(datalist)} >
-                  Bookmark
-                </button>
+          {
+
+            currentPost.length === 0 ?
+              <NoResults message={`Oops! We couldn't find any matches for '${props.searchQuery}.'`}/> : (
+                currentPost.map((datalist) => {
+                  return (
+                    <div className="content-box-home" key={datalist.productName}>
+                      <img
+                        className="logo"
+                        src={datalist.image}
+                        alt={datalist.category}
+                      />
+                      <h2>{datalist.productName}</h2>
+                      <p className="content-box-text">{datalist.description}</p>
+                      <button
+                        className="btn-b-box"
+                        onClick={() => window.open(datalist.link)}
+                      >
+                        Link
+                      </button>
+                      {bookmarks?.some(item => item.name.includes(datalist.productName)) ?
+                        <button
+                          className="btn-booked-box">Booked</button> :
+                        <button
+                          className="btn-b-box"
+                          onClick={() => handleBookmark(datalist)} >
+                          Bookmark
+                        </button>
+                      }
+                    </div>
+                  );
+                })
+              )
+
           }
-              </div>
-            );
-          })}
         </div>
 
         {/* pagination */}
