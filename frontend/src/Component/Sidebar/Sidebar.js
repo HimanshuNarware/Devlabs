@@ -49,6 +49,10 @@ function Sidebar({ showSideNav }) {
     {
       name: "productivity",
       description: "Productivity Tools",
+    },
+    {
+      name: "IDEs",
+      description: "IDEs",
     }
   ];
   return (
@@ -108,7 +112,6 @@ function Sidebar({ showSideNav }) {
       ))}
       <div style={{ marginTop: "20px" }} />
 
-      ))} 
       </Link>
       <div style={{ marginTop: '20px' }} /> 
 
