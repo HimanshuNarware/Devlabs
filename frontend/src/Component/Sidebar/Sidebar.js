@@ -46,6 +46,10 @@ function Sidebar({ showSideNav }) {
       name: "course",
       description: "Course Platforms",
     },
+    {
+      name: "productivity",
+      description: "Productivity Tools",
+    }
   ];
   return (
     <div className={`sidebar ${showSideNav ? "active" : ""}`}>
@@ -87,14 +91,18 @@ function Sidebar({ showSideNav }) {
           </Link>
         </div>
       </div>
+      <Link to="/"
+            className="Link  Bookmark nav-link active"
+            aria-current="page">
       {sidebarContent.map((item, index) => (
         <SidebarContent
-          key={index}
-          name={item.name}
-          description={item.description}
-          active={showSideNav}
+        key={index}
+        name={item.name}
+        description={item.description}
+        active={showSideNav}
         />
       ))} 
+      </Link>
       <div style={{ marginTop: '20px' }} /> 
     </div>
   );
