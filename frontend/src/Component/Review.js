@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import ClipLoader from "react-spinners/ClipLoader";
 import '../style/Review.css';
 import axios from "axios";
+import Rate from './Rate';
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
 function Review() {
+	const [rating, setRating] = useState(0);
 	const [reviewData, setReviewData] = useState({name: "", email: "", review: ""});
 	const [processingMail, setProcessingMail] = useState(false);
 
@@ -72,6 +74,8 @@ function Review() {
 					onChange={onChangeHandler}
 					required
 				/>
+				<h3>Rate us:</h3>
+				<Rate rating={rating} setRating={setRating}/>
 				<div className="form-div">
 					<button className="form-button">
 						{processingMail ? 

@@ -1,4 +1,5 @@
-require("dotenv").config();
+const mongoose = require("mongoose")
+const reviewForm = require("../models/reviewForm");
 
 const {transporter, mailOptions} = require("../config/nodemailer");
 
@@ -39,7 +40,18 @@ const sendMail = async (req, res) => {
             text: generateEmailText({ name, email, review }),
             html: generateEmailBody({ name, email, review })
         });
-
+        const newReview = new reviewForm({ 
+            name,
+            email,
+            msg: review,
+        });
+        console.log(newReview)
+        try {
+            await newReview.save();
+            //console.log("SAVED DATA")
+        } catch (error) {
+            //console.log("ERROR IS SAVING DATA")
+        }
         return res.status(200).json({ success: true });
     }
     catch (error) {
