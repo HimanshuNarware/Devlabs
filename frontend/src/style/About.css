@@ -2,34 +2,55 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5%;
     margin: 40px;
     font-size: 1.6vmax;
     margin-top: 8rem;
+    
 }
-.container-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5%;
-    margin: 40px;
-    font-size: 1.7vmax;
-    margin-top: 2.5rem;
+.container-two .bx-1 p{
+    margin-top: 40px;
+    text-align: justify;
+  
 }
-.container-two .bx-2 p{
-    margin-top: 38px;
+
+.container-one .bx-1 p{
+    margin-top: 40px;
+    text-align: justify;
+
 }
 
 .bx-1 {
-    width: 48%;
-    max-width: 450px;
+    width: 60%;
+    max-width: 600px;
+    height: fit-content;
+    animation:fade-in;
+    animation-timeline: view();
+    
+    
 }
 
 .bx-2 {
-   max-width: 80%;
+   width: 50%;
+   /* height: 100%; */
+   max-height : 500px;
 }
+
+
+    .bx-2 img{
+        width: 80%;
+        max-height: 500px;
+        animation:fade-in;
+        animation-timeline: view();
+       
+    }
+
+
+
+  
+
+
 
 @media screen and (max-width: 900px) {
     .container-one,.container-two{
@@ -38,8 +59,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .container-one,.container-two{
+    .container-two{
         flex-direction: column;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container-one{
+        flex-direction: column-reverse;
         font-size: 20px;
         margin-left: 20px;
         margin-right: 20px;
@@ -58,9 +85,10 @@
     }
 }
 
-.img {
-    width: 70%;
-}
+/* .img {
+    width: 75%;
+    height : 75%;
+} */
 
 .repo-btn {
     font-weight: 500;
@@ -70,10 +98,12 @@
     border-radius: 12px;
     background-color: #8b5cf6;
     border: 2px solid #8b5cf6;
+    transition: 1s;
 }
 
 .repo-btn:hover{
     background: transparent;
+    box-shadow: 4px 4px 2px #8b5cf6;
     box-shadow: 0 0 20px rgb(226, 33, 226);
 }
 
@@ -95,6 +125,10 @@
     padding: 7px 12px;
     border-radius: 12px;
     max-width: 20vw;
+    transition: 0.5s;
+    animation:fade-in;
+    animation-timeline: view();
+
 }
 
 .content-box h3 {
@@ -127,6 +161,11 @@
     margin: 40px;
     font-size: 2rem;
     margin-top: 6rem;
+}
+
+.content-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 6px #8b5cf6;
 }
 
 @media screen and (max-width: 1300px) {
@@ -194,6 +233,7 @@
     background: #8b5cf6;
     padding: 6px 13px;
     border-radius: 6px;
+    transition: 0.5s;
 }
 
 
@@ -205,5 +245,20 @@
 .profile-btn:hover {
     background: transparent;
     cursor: pointer;
+    box-shadow: 2px 2px 1px #8b5cf6;
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0.5;
+        scale : 0.8;
+    }
+    to{
+        opacity: 1;
+        scale:1;
+        
+    }
+}
     box-shadow: 0 0 7px #8b5cf6;
 }
+

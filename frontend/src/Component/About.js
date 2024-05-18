@@ -68,11 +68,11 @@ function About() {
 				</div>
 			</div>
 
-			<div className='container-one'>
-				<div className='bx-1'> 
+			<div className='container-two'>
+				<div className='bx-2'> 
 					<img className="img" src='https://imgs.search.brave.com/pQigBw5L8ODloy7loco05dRT56xI3iAmVRKPCUYYltc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTYw/NTMxMDEyL3ZlY3Rv/ci9vcGVuLXNvdXJj/ZS1pY29uLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1SYUxi/UU1fMjA2bHNHcHRZ/WW1ZUG0zYk42SHVM/WFZlZWFtb3ozZXNL/S0VRPQ' alt='img'/>
 				</div>
-				<div className='bx-2'>
+				<div className='bx-1'>
 					<p>
 						Great things are never created in isolation. Thanks to our amazing Contributors, we've brought this product to life. And with your help, we can continue to make it even better. If you're a Developer or a Tech enthusiast, you can help us create a better experience for everyone. We are excited to hear your thoughts and ideas.
 					</p>
