@@ -1,3 +1,34 @@
+
+.Footer {
+  padding: 2rem 0;
+  margin-top: 15rem;
+  background: #74A309;
+  color: white;
+}
+
+.ft-1 h5{
+  margin-top: 18px;
+}
+
+.ft-1 button {
+  margin-top: 3px;
+  width:215px;
+  height: 45px;
+  border-radius: 8px;
+  border-color: white;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.ft-1 button:hover{
+  background: #A3094E;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ft-2 {
+  margin-top: 3.4375rem;
+
 /* Footer */
 footer {
   position: sticky;
@@ -27,10 +58,73 @@ footer {
 
 .card-link {
   padding-left: 4px;
+
   text-decoration: none;
-  font-weight: 700;
-  color: rgba(0, 0, 0, 0.742);
 }
+
+.ft-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-2 ul li {
+  padding: 0.1rem 0;
+}
+
+.ft-2 ul a {
+  text-decoration: none;
+  color:white;
+  font-size: 1rem;
+}
+
+.ft-4 {
+  margin-top: 5.5rem;
+  text-decoration: none;
+}
+
+.ft-4 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-4 ul li {
+  padding: 0.1rem 0;
+}
+
+.ft-4 ul a {
+  text-decoration: none;
+  color:white;
+  font-size: 1rem;
+}
+
+.Last-footer {
+  background: #74A309;
+  border: 1px solid white;
+  text-align: center;
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.Last-footer p {
+  font-size: 0.5rem;
+  margin-right:22rem;
+}
+
+.footer-icons{
+  margin-left:20.14rem;
+}
+.Last-footer i {
+  padding: 0.4rem 0.5rem;
+  background: black;
+  color: white;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+}
+
+.Last-footer i:hover {
+  background: #A3094E;
+  color: #fff;
+  cursor: pointer;
 
 .card-link:hover {
   color: whitesmoke;
