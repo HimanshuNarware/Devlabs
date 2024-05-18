@@ -1,3 +1,10 @@
+.containerBK{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container-bk {
     margin-top: 8rem;
     display: grid;
@@ -11,10 +18,12 @@
 
 .box-bk p {
     color: white;
+    height: 100px;
+    
 }
 
 .box-bk {
-    border: 2px dashed rgba(79, 71, 125, 255);
+    border: 2px solid rgba(79, 71, 125, 255);
     margin: 20px;
     padding: 7px 12px;
     border-radius: 12px;
@@ -46,3 +55,21 @@
     position: relative;
     left: 10vw;
 }
+
+@media screen and (max-width: 1300px) {
+    .container-bk {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+@media screen and (max-width: 900px) {
+    .container-bk {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .container-bk {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
