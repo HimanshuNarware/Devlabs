@@ -2784,6 +2784,12 @@
   "image": "Apidog.jpg",
   "link": "https://apidog.com/",
   "description": "Apidog is a complete set of tools that connects the entire API lifecycle, helping R&D teams implement best practices for API Design-first development."
+},
+{
+  "productName": "Whimsical",
+  "category": "productivity",
+  "image": "https://i.pinimg.com/736x/ea/2a/b2/ea2ab287b40acfe28348c71eb780d11c.jpg",
+  "link": "https://whimsical.com/",
+  "description": "Whimsical is a collaborative tool for teams to come together to brainstorm ideas for their next big project."
 }
-
 ]
