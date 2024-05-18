@@ -59,6 +59,7 @@ footer {
 
 .contact-link a:hover {
   cursor: pointer;
+  color: #474eff !important;
   color: white;
   transform: scale(1.1);
   animation: pulse 1s infinite alternate;
