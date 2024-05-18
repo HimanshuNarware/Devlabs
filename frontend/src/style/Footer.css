@@ -6,6 +6,10 @@ footer {
 
 /* Card */
 .card {
+  background-color: #8b5cf6 !important;
+  font-family: "Kalam", cursive;
+  font-weight: 900;
+  font-style: normal;
   background-color: #8b5cf6;
   transition: background-color 0.3s ease;
 }
