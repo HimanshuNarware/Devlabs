@@ -1,19 +1,32 @@
+/* Footer */
 footer {
   position: sticky;
   top: 100vh;
 }
 
+/* Card */
 .card {
   background-color: #8b5cf6 !important;
+  font-family: "Kalam", cursive;
+  font-weight: 900;
+  font-style: normal;
+  background-color: #8b5cf6;
+  transition: background-color 0.3s ease;
 }
+
 .card-header {
   border: none;
+  font-size: 1.4rem;
+  color: #e3dede;
+  opacity: 0.85;
 }
+
 .card-header img {
   background: transparent;
 }
 
 .card-link {
+  padding-left: 4px;
   text-decoration: none;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.742);
@@ -21,23 +34,58 @@ footer {
 
 .card-link:hover {
   color: whitesmoke;
+  text-decoration: underline;
 }
 
+/* Copyright */
 .copyright {
   background-color: rgba(0, 0, 0, 0.742);
   color: white;
 }
+
+/* Contact Links */
 .contact-link {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
-.cntc-link a {
-  color: black;
+
+.contact-link a {
+  color: #000;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
-.cntc-link a:hover {
+
+.contact-link a:hover {
   cursor: pointer;
   color: #474eff !important;
+  color: white;
+  transform: scale(1.1);
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.contact-link a:hover {
+  border: 2px solid #fff;
+}
+
+.card-title{
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: underline;
 }
