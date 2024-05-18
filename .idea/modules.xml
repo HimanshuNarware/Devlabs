@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Devlabs-copy.iml" filepath="$PROJECT_DIR$/.idea/Devlabs-copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Devlabs.iml" filepath="$PROJECT_DIR$/.idea/Devlabs.iml" />
     </modules>
   </component>
 </project>
