@@ -1,3 +1,10 @@
+.containerBK{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container-bk {
     margin-top: 8rem;
     display: grid;
@@ -48,3 +55,21 @@
     position: relative;
     left: 10vw;
 }
+
+@media screen and (max-width: 1300px) {
+    .container-bk {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+@media screen and (max-width: 900px) {
+    .container-bk {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .container-bk {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
