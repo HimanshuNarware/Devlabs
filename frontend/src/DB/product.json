@@ -13,6 +13,13 @@
     "link": "https://www.pikashows.download/",
     "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
   },
+  {
+    "productName": "Coursera",
+    "category": "coding",
+    "image": "http://bit.ly/4dMPPZY",
+    "link": "https://www.coursera.org/",
+    "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
+  },
 
   {
     "productName": "Scaler",
@@ -2762,6 +2769,21 @@
   "image": "framer.svg",
   "link": "https://www.framer.com/",
   "description": "Framer is no-code web-designing tool where teams design and publish stunning sites"
+},
+  {
+  "productName": "Calendly",
+  "category": "productivity",
+  "image": "https://pbs.twimg.com/profile_images/1574482929203351553/J2L9r-Oy_400x400.png",
+  "link": "https://calendly.com/",
+  "description": "Calendly is a scheduling automation platform that makes it easy to schedule meetings."
+
+},
+{
+  "productName": "Apidog",
+  "category": "tools",
+  "image": "Apidog.jpg",
+  "link": "https://apidog.com/",
+  "description": "Apidog is a complete set of tools that connects the entire API lifecycle, helping R&D teams implement best practices for API Design-first development."
 }
 
 ]
