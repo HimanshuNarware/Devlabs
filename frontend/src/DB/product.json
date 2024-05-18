@@ -2764,6 +2764,13 @@
 
 },
 {
+  "productName": "Framer",
+  "category": "UI",
+  "image": "framer.svg",
+  "link": "https://www.framer.com/",
+  "description": "Framer is no-code web-designing tool where teams design and publish stunning sites"
+},
+  {
   "productName": "Calendly",
   "category": "productivity",
   "image": "https://pbs.twimg.com/profile_images/1574482929203351553/J2L9r-Oy_400x400.png",
