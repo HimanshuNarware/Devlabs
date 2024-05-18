@@ -46,3 +46,50 @@ img {
 .darkmode--activated img {
 	filter: invert(1);
 }
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+	width: 6px; 
+	height: 12px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #34495e; /* Track color */
+	border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: #2980b9; /* Scrollbar thumb color */
+	border-radius: 6px;
+	border: 3px solid #34495e; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background-color: #3498db; /* Thumb color on hover */
+  }
+  
+  /* Firefox Scrollbar */
+  * {
+	scrollbar-width: thin;
+	scrollbar-color: #2980b9 #34495e; /* Thumb color and track color */
+  }
+  
+  /* Edge Scrollbar */
+  *::-ms-scrollbar {
+	width: 12px;
+	height: 12px;
+  }
+  
+  *::-ms-scrollbar-track {
+	background: #34495e;
+	border-radius: 6px;
+  }
+  
+  *::-ms-scrollbar-thumb {
+	background-color: #2980b9;
+	border-radius: 6px;
+	border: 3px solid #34495e;
+  }
+  
+  *::-ms-scrollbar-thumb:hover {
+	background-color: #3498db;
+  }
