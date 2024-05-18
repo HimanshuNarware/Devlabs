@@ -53,9 +53,19 @@
 }
 
 .content-box-home:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   box-shadow: 0px 0px 25px #8b5cf6;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.content-box-home {
+  transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.container-box-home {
+  transition: 1s ease;
 }
 
 .content-box-text {
@@ -102,7 +112,7 @@
   color: white;
   cursor: pointer;
   border: 1px solid #101623;
-  background-color: violet;
+  box-shadow: 0px 0px 10px rgba(173, 128, 255, 0.5);
 }
 
 .popup {
