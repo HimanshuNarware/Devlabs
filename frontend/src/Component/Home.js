@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import ClipLoader from "react-spinners/ClipLoader";
+import jsonTools from "../DB/product.json";
 import { setSource } from "../Slice/DataSlice";
 import "../style/Home.css";
 
@@ -227,43 +228,34 @@ function Home(props) {
 
         {/* pagination */}
         {filteredData.length > 16 && (
-          <nav>
-            {currentPost.length >= 16 && (
-              <div className="page-index">
-                Showing {firstPostIndex + 1}-{lastPostIndex} from{" "}
-                {currentPost1.length} results
-              </div>
-            )}
-            <ul className="pagination">
-              <li className="page-item">
-                {currentPage > 1 && (
-                  <button href="#" className="page-link" onClick={prePage}>
-                    prev
-                  </button>
-                )}
-              </li>
-              {numbers.map((n, i) => (
-                <li
-                  className={`page-item ${currentPage === n ? "active" : ""}`}
-                  key={i}
-                >
-                  <button
-                    href="#"
-                    className="page-link"
-                    onClick={() => changeCPage(n)}
-                  >
-                    {n}
-                  </button>
-                </li>
-              ))}
-              <li className="page-item">
-                <button href="#" className="page-link" onClick={nextPage}>
-                  next
-                </button>
-              </li>
-            </ul>
-          </nav>
+  <nav>
+    <ul className="pagination">
+      <li className="page-item">
+        {currentPage > 1 && (
+          <button href="#" className="page-link" onClick={prePage}>
+            prev
+          </button>
         )}
+      </li>
+      <li className={`page-item active`}>
+        <button href="#" className="page-link" onClick={() => changeCPage(currentPage)}>
+          {currentPage}
+        </button>
+      </li>
+      <li className="page-item">
+        <button href="#" className="page-link" onClick={nextPage}>
+          next
+        </button>
+      </li>
+    </ul>
+  </nav>
+)}
+
+
+        {filteredData.length === 0 ? (
+          <h2>There is nothing here to show.</h2>
+        ) : null}
+
       </div>
       {showPopup && (
         <div className="popup">
