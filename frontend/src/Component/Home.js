@@ -190,8 +190,8 @@ function Home(props) {
 
           {
 
-            currentPost.length === 0 ?
-              <NoResults message={`Oops! We couldn't find any matches for '${props.searchQuery}.'`}/> : (
+            currentPost.length === 0 && !loading ?
+              <NoResults message={`Oops! We couldn't find any matches for '${props.searchQuery}'.`}/> : (
                 currentPost.map((datalist) => {
                   return (
                     <div className="content-box-home" key={datalist.productName}>
