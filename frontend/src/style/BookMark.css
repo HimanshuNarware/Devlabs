@@ -18,10 +18,12 @@
 
 .box-bk p {
     color: white;
+    height: 100px;
+    
 }
 
 .box-bk {
-    border: 2px dashed rgba(79, 71, 125, 255);
+    border: 2px solid rgba(79, 71, 125, 255);
     margin: 20px;
     padding: 7px 12px;
     border-radius: 12px;
