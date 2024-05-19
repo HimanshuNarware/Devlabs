@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { BsBookmark } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
+import { BsBookmark } from "react-icons/bs";
+import { Link } from "react-router-dom";
 import SidebarContent from "./SidebarContent";
 
 function Sidebar({ showSideNav }) {
@@ -49,6 +49,10 @@ function Sidebar({ showSideNav }) {
     {
       name: "productivity",
       description: "Productivity Tools",
+    },
+    {
+      name: "Collaboration",
+      description: "Collaboration Tools",
     }
   ];
   return (
