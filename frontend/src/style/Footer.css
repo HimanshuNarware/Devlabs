@@ -28,6 +28,7 @@
 
 .ft-2 {
   margin-top: 3.4375rem;
+}
 
 /* Footer */
 footer {
@@ -125,6 +126,7 @@ footer {
   background: #A3094E;
   color: #fff;
   cursor: pointer;
+}
 
 .card-link:hover {
   color: whitesmoke;
