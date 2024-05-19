@@ -26,8 +26,13 @@
 }
 
 .ft-2 {
+
 	margin-top: 3.4375rem;
 }
+
+  margin-top: 3.4375rem;
+}
+
 /* Footer */
 footer {
 	position: sticky;
@@ -121,10 +126,17 @@ footer {
 }
 
 .Last-footer i:hover {
+
 	background: #a3094e;
 	color: #fff;
 	cursor: pointer;
 }
+
+  background: #A3094E;
+  color: #fff;
+  cursor: pointer;
+}
+
 .card-link:hover {
 	color: whitesmoke;
 	text-decoration: underline;
