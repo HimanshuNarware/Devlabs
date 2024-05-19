@@ -142,21 +142,20 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20px;
+  margin-top: 24px;
+  gap: 33px;
   font-size: 1.8rem;
 }
 
 .contact-link a {
   color: #000;
-  transition: transform 0.3s ease, color 0.3s ease;
+  font-size: 24px;
+  transition: transform 0.5s ease, color 0.5s ease;
 }
 
 .contact-link a:hover {
-  cursor: pointer;
-  color: #474eff !important;
-  color: white;
-  transform: scale(1.1);
-  animation: pulse 1s infinite alternate;
+ cursor: pointer;
+ font-size: 33px;
 }
 
 @keyframes pulse {
@@ -172,10 +171,6 @@ footer {
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
-}
-
-.contact-link a:hover {
-  border: 2px solid #fff;
 }
 
 .card-title{
