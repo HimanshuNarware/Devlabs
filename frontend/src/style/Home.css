@@ -9,6 +9,7 @@
   margin: 10px;
   margin-top: 8rem;
   gap: 20px;
+  animation: zoomIn 1s ease forwards;
 }
 
 .loading-container {

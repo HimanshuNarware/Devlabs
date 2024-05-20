@@ -46,7 +46,7 @@ function About() {
 	return (
 		<div>
 			<div className='container-one'>
-				<div className='bx-1'>
+				<div className='bx-1' data-aos="flip-left">
 					<p>
 						Devlabs is an application that is used to search for free tools that are both free and helpful for our needs. It is built by the amazing open-source community.
 					</p>
@@ -60,7 +60,7 @@ function About() {
 						</a>
 					</button>
 				</div>
-				<div className='bx-2'>
+				<div className='bx-2 aos-init' data-aos="flip-left">
 					<img className="img "
 						src='https://imgs.search.brave.com/QKiV2kjLLbCo5yYmlXGywHNk3CbfEVQPXvl7zoMhR3s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9vcGVu/c291cmNlLmd1aWRl/L2Fzc2V0cy9pbWFn/ZXMvaWxsb3MvYmFs/YW5jZS5zdmc.svg'
 						alt='img' 
