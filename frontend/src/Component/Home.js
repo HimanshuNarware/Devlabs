@@ -79,18 +79,25 @@ useEffect(()=>{
   }
 
   // In case `searchQuery` string is available, filter the data, if not then show all data
+  // const filteredData = !!props.searchQuery
+  //   ? allvalue.filter((datalist) => {
+  //       return (
+  //         datalist.productName
+  //           .toLowerCase()
+  //           .includes(props.searchQuery.toLowerCase())
+  //       );
+  //     })
+  //   : allvalue;
+
   const filteredData = !!props.searchQuery
-    ? allvalue.filter((datalist) => {
+      ? allvalue.filter((datalist) => {
         return (
-          datalist.productName
-            .toLowerCase()
-            .includes(props.searchQuery.toLowerCase()) ||
-          datalist.description
-            .toLowerCase()
-            .includes(props.searchQuery.toLowerCase())
+            datalist.productName
+                .toLowerCase()
+                .includes(props.searchQuery.toLowerCase())
         );
       })
-    : allvalue;
+      : allvalue;
 
   const currentPost =
     filteredData.length > 16
