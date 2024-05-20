@@ -10,9 +10,12 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
+  AOS.init();
   return (
     <>
       <Navbar setSearchQuery={setSearchQuery} />
