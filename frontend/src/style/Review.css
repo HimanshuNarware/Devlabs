@@ -39,11 +39,12 @@
 
 /* .input-email {
 
-}
+}*/
 
 .input-review {
-
-} */
+    resize: none;
+    height: 100%;
+  }
 
 .form-button {
     font-weight: 500;
