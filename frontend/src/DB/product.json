@@ -2791,5 +2791,13 @@
   "image": "https://i.pinimg.com/736x/ea/2a/b2/ea2ab287b40acfe28348c71eb780d11c.jpg",
   "link": "https://whimsical.com/",
   "description": "Whimsical is a collaborative tool for teams to come together to brainstorm ideas for their next big project."
-}
+},
+
+{
+  "productName": "Hashnode",
+  "category": "blogging",
+  "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png",
+  "link": "https://hashnode.com/",
+  "description": "Hashnode is a free blogging platform for developers that enables them to create content, share knowledge, and grow their network within the tech community."
+  }
 ]
