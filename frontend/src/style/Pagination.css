@@ -4,6 +4,10 @@ nav {
   padding: 0 10px;
 }
 
+.active>.page-link{
+  z-index: 0;
+}
+
 .pagination {
   display: flex;
   justify-content: center;
