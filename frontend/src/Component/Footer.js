@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {faGithub, faLinkedin,faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 function Footer() {
   return (
@@ -123,21 +126,21 @@ function Footer() {
               <div className="footer-icons">
                 <a
                   href="https://www.linkedin.com/in/himanshunarware/"
-                  rel="noreferrer"
+                  rel="noreferrer" className="m-3"
                 >
-                  <i class="fa-brands fa-linkedin-in"></i>
+                  <FontAwesomeIcon icon={faLinkedin} size="xl" style={{color: "#000000",}} />
                 </a>
-                <a href="https://twitter.com/N_Himanshu_\" rel="noreferrer">
-                  <i class="fa-brands fa-twitter"></i>
+                <a href="https://twitter.com/N_Himanshu_\" rel="noreferrer" className="m-3">
+                <FontAwesomeIcon icon={faTwitter} size="xl" style={{color: "#000000",}} />
                 </a>
-                <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
-                  <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer" className="m-3">
+                <FontAwesomeIcon icon={faEnvelope}  size="xl" style={{color: "#000000",}}/>
                 </a>
                 <a
                   href="https://github.com/HimanshuNarware/Devlabs"
-                  rel="noreferrer"
+                  rel="noreferrer" className="m-3"
                 >
-                  <i class="fa-brands fa-github"></i>
+                  <FontAwesomeIcon icon={faGithub} size="xl" style={{color: "#000000",}}/>
                 </a>
               </div>
             </div>
