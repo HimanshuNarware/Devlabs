@@ -373,12 +373,13 @@
 }
 
 .span {
-    background: transparent !important;
+    /* background: transparent !important; */
     border: none !important;
+    border-radius: 2px 100px 100px 2px; 
+    margin:1.5px ;
     display: flex;
     align-items: center;
     padding: 0.375rem 0.75rem;
-    margin-bottom: 0;
     font-size: 1.5rem;
     font-weight: b;
     line-height: 1.5;
@@ -387,7 +388,7 @@
     white-space: nowrap;
     background-color: #e9ecef;
     border: 1px solid #ced4da;
-    border-radius: 0.25rem;
+    /* border-radius: 0.25rem; */
     font-weight: bold !important;
     cursor: pointer;
 }
