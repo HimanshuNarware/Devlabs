@@ -2861,6 +2861,12 @@
   "image": "https://www.offsec.com/wp-content/uploads/2023/03/offsec-icon-author.png",
   "link": "https://www.offsec.com/labs/",
   "description": "OffSec Proving Grounds (PG) Play and Practice is a modern network for practicing penetration testing skills on exploitable, real-world vectors."
+  "productName": "Colormind",
+  "category": "UI",
+  "image": "colormind.png",
+  "link": "http://colormind.io/",
+  "description": "Colormind is a color scheme generator that uses deep learning. It can learn color styles from photographs, movies, and popular art."
+
 }
 
 ]
