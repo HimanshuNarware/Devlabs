@@ -32,6 +32,14 @@ const sampleData = [
     description: "Scaler is an outcome-focused, ed-tech platform for techies.",
   }),
   new Tool({
+    productName: "JupyterLab",
+    category: "coding and computing",
+    image: "https://bit.ly/3WOMe7i",
+    link: "https://bit.ly/3ymayTW",
+    description:
+      "JupyterLab is an interactive development environment (IDE) for notebooks, code, and data.",
+  }),
+  new Tool({
     productName: "InterviewBit",
     category: "coding",
     image: "https://bit.ly/3NH8dIt",
