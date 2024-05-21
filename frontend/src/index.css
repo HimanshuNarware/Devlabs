@@ -29,6 +29,9 @@ body {
 .darkmode-layer,
 .darkmode-toggle {
 	z-index: 5;
+  display: fixed;
+  top:15px;
+  right: 15px;
 }
 
 code {
@@ -37,12 +40,14 @@ code {
 }
 
 img {
-	background: #fff;
+	background: #ffffff;
 	padding: 3px;
 	margin: 5px;
 	border-radius: 40px;
+  
 }
 
 .darkmode--activated img {
+
 	filter: invert(1);
 }
