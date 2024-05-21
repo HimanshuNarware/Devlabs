@@ -347,7 +347,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+.box:hover{
+  border: 1.5px solid #495057;
 
+}
 .input {
     border: none !important;
     border-radius: 20px !important;
@@ -391,4 +394,15 @@
     /* border-radius: 0.25rem; */
     font-weight: bold !important;
     cursor: pointer;
+}
+.false{
+  background-color: #ffffff;
+}
+.span:hover{
+  background-color: #000;
+  color:#fff;
+}
+.false:hover{
+  background-color: #ffffff;
+  color:#000;
 }
