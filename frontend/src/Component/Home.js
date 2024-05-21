@@ -200,6 +200,25 @@ function showBookmarkAdded() {
 
   return (
     <div>
+    {/* hero section starts*/}
+    <div className="hero">
+            <div className="hero-text">
+              <div className="hero-container">
+                <div className="hero-content">
+                <h1 className="hero-heading">
+                  <span>Welcome to</span><br/> Devlabs!
+                  <h1 className="hero-subheading">Discover Free Tools,<br/>
+                  Empower Your Projects.<br/>
+                  <span className="hero-end"> -Built by open-source community</span>
+                  </h1>  
+                  </h1>
+                  <button className="hero-button"><NavbarItem description="Get Started" to="/open-source" /></button>
+                </div>
+                <img src={Devlabs} alt="devlabs-removebg-preview" className="hero-image"/>
+              </div>
+            </div>
+          </div>
+       {/* hero section ends */}
       <div className="page-container">
         <div className={loading ? "loading-container" : "main-container"}>
           <ClipLoader

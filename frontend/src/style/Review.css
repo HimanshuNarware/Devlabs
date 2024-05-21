@@ -39,11 +39,12 @@
 
 /* .input-email {
 
-}
+}*/
 
-.input-review {
-
-} */
+.input-review {  /* I have added this feature so that the text area size is fixed*/
+    resize: none;
+    height: 100%;
+  }
 
 .form-button {
     font-weight: 500;

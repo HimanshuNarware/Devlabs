@@ -46,7 +46,7 @@ function About() {
 	return (
 		<div>
 			<div className='container-one'>
-				<div className='bx-1'>
+				<div className='bx-1' data-aos="flip-left">
 					<p>
 						Devlabs is an application that is used to search for free tools that are both free and helpful for our needs. It is built by the amazing open-source community.
 					</p>
@@ -60,9 +60,9 @@ function About() {
 						</a>
 					</button>
 				</div>
-				<div className='bx-2'>
+				<div className='bx-2 aos-init' data-aos="flip-left">
 					<img className="img "
-						src='https://imgs.search.brave.com/QKiV2kjLLbCo5yYmlXGywHNk3CbfEVQPXvl7zoMhR3s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9vcGVu/c291cmNlLmd1aWRl/L2Fzc2V0cy9pbWFn/ZXMvaWxsb3MvYmFs/YW5jZS5zdmc.svg'
+						src='https://civicopilot.com/wp-content/uploads/2022/11/searching_training.svg'
 						alt='img' 
 					/>
 				</div>
@@ -70,7 +70,7 @@ function About() {
 
 			<div className='container-two'>
 				<div className='bx-2'> 
-					<img className="img" src='https://imgs.search.brave.com/pQigBw5L8ODloy7loco05dRT56xI3iAmVRKPCUYYltc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTYw/NTMxMDEyL3ZlY3Rv/ci9vcGVuLXNvdXJj/ZS1pY29uLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1SYUxi/UU1fMjA2bHNHcHRZ/WW1ZUG0zYk42SHVM/WFZlZWFtb3ozZXNL/S0VRPQ' alt='img'/>
+					<img className="img" src='https://media.istockphoto.com/id/1276643671/vector/tiny-programmers-programming-website-for-internet-platform.jpg?s=612x612&w=0&k=20&c=7k24K8DYdSRxVHj3roqR_f4wkk-a_fG3WlT4hN-VJUg='/>
 				</div>
 				<div className='bx-1'>
 					<p>
