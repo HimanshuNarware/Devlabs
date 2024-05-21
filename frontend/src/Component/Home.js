@@ -7,6 +7,8 @@ import { setSource } from "../Slice/DataSlice";
 import "../style/Home.css";
 import { ToastContainer, toast,Slide } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Devlabs from "../image/devlabshero.png";
+import NavbarItem from "./Navbar/NavbarItem";
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 function Home(props) {
