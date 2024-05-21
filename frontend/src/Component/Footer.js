@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
+import {FaGithubSquare, FaLinkedin, FaTwitter} from "react-icons/fa";
+import {BsLinkedin} from "react-icons/bs";
+import {SiGmail} from "react-icons/si";
 
 function Footer() {
   return (
@@ -120,24 +123,24 @@ function Footer() {
               <p>COPYRIGHT © Devlaps 2024 | MAINTAINED BY HIMANSHU NARWARE</p>
             </div>
             <div className="col-md-6 col-12 ft-1">
-              <div className="footer-icons">
+              <div className="footer-icons " >
                 <a
                   href="https://www.linkedin.com/in/himanshunarware/"
                   rel="noreferrer"
                 >
-                  <i class="fa-brands fa-linkedin-in"></i>
+                  <BsLinkedin className="text-dark mx-1"/>
                 </a>
                 <a href="https://twitter.com/N_Himanshu_\" rel="noreferrer">
-                  <i class="fa-brands fa-twitter"></i>
+                  <FaTwitter className="text-dark mx-1"/>
                 </a>
                 <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
-                  <i class="fa-solid fa-envelope"></i>
+                  <SiGmail className="text-dark mx-1"/>
                 </a>
                 <a
                   href="https://github.com/HimanshuNarware/Devlabs"
                   rel="noreferrer"
                 >
-                  <i class="fa-brands fa-github"></i>
+                  <FaGithubSquare className="text-dark mx-1"/>
                 </a>
               </div>
             </div>

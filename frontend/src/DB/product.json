@@ -2800,4 +2800,13 @@
   "link": "https://hashnode.com/",
   "description": "Hashnode is a free blogging platform for developers that enables them to create content, share knowledge, and grow their network within the tech community."
   }
+
+{
+  "productName": "SpinBot",
+  "category": "AI",
+  "image": "spinbot.png",
+  "link": "https://spinbot.com/",
+  "description": "SpinBot is a free, automatic article spinner that will rewrite human readable text into additional, intelligent, readable text. Similarly, it is also a paraphrasing tool."
+}
+
 ]
