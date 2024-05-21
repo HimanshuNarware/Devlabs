@@ -4,7 +4,7 @@ import NavbarItem from "./NavbarItem";
 
 function NavbarCenter(){
   return (
-    <span className="navbar-center">
+    <span className="navbar-center" style={{marginRight:'5%'}}>
       <ul className="mb-2 navbar-content">
         <li className="nav-item">
           <NavbarItem description="Home" to="/" />
