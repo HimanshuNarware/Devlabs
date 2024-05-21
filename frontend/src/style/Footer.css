@@ -31,6 +31,7 @@
 }
 
 
+
 /* Footer */
 footer {
 	position: sticky;
@@ -130,7 +131,7 @@ footer {
 	cursor: pointer;
 }
 
- 
+
 
 .card-link:hover {
 	color: whitesmoke;
