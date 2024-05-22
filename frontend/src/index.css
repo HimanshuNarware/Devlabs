@@ -30,8 +30,8 @@ body {
 .darkmode-toggle {
   z-index: 35;
   display: fixed;
-  bottom: 12px !important;
-  left: 20px !important;
+  bottom: 18px !important;
+/*   left: 20px !important; */
 }
 
 code {
