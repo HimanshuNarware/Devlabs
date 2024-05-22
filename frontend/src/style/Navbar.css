@@ -383,7 +383,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+.box:hover{
+  border: 1.5px solid #495057;
 
+}
 .input {
   border: none !important;
   border-radius: 20px !important;
@@ -409,6 +412,36 @@
 }
 
 .span {
+    /* background: transparent !important; */
+    border: none !important;
+    border-radius: 2px 100px 100px 2px; 
+    margin:1.5px ;
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.5rem;
+    font-weight: b;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    /* border-radius: 0.25rem; */
+    font-weight: bold !important;
+    cursor: pointer;
+}
+.false{
+  background-color: #ffffff;
+}
+.span:hover{
+  background-color: #000;
+  color:#fff;
+}
+.false:hover{
+  background-color: #ffffff;
+  color:#000;
+
   background: transparent !important;
   border: none !important;
   display: flex;
