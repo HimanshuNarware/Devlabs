@@ -146,11 +146,11 @@
   .hero-image {
     display: block; 
     position: absolute;
-    top: 50%;
-    left:50%;
+    top: 40%;
+    left: 55%;
     right: 0;
-    transform: translateY(-50%);
-    width: 60%;
+    transform: translateY(-30%);
+    width: 45%;
     height: auto;
     background: none;
   }

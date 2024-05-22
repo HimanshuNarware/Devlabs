@@ -2800,6 +2800,67 @@
   "description": "SpinBot is a free, automatic article spinner that will rewrite human readable text into additional, intelligent, readable text. Similarly, it is also a paraphrasing tool."
 },
 {
+  "productName": "Intigriti",
+  "category": "ethical",
+  "image": "https://media.licdn.com/dms/image/D4E0BAQGuEpu0Xrph4w/company-logo_200_200/0/1702904021395/intigriti_logo?e=1724284800&v=beta&t=ZHMwYaL3urZ-MvaH4LdBCR5TIMLx2Sl2e3SarSUgae8",
+  "link": "https://www.intigriti.com/",
+  "description": "The Intigriti platform is built for bug bounty hunters, by bug bounty hunters."
+},
+{
+  "productName": "CyberChef",
+  "category": "ethical",
+  "image": "https://th.bing.com/th/id/OIP.KyzPtjDERPwHh2gXV8U2SwHaHa?rs=1&pid=ImgDetMain",
+  "link": "https://cyberchef.org/",
+  "description": "CyberChef is a simple, intuitive and powerful tool for exploring data formats, encryption and compression."
+},
+{
+  "productName": "RootMe",
+  "category": "ethical",
+  "image": "https://pbs.twimg.com/profile_images/925763062837252096/43MyHYBN_400x400.jpg",
+  "link": "https://www.root-me.org/?lang=en",
+  "description": "Root Me is a website where you can train your hacking skills on various exercises and virtual environments."
+},
+{
+  "productName": "CTFtime",
+  "category": "ethical",
+  "image": "https://www.securitynewspaper.com/snews-up/2019/10/Icons_CTF.png",
+  "link": " https://ctftime.org/",
+  "description": "A great website to have all the records of upcoming and live CTF events"
+},
+{
+  "productName": "PentesterLab",
+  "category": "ethical",
+  "image": "https://th.bing.com/th/id/OIP.Xzp0HEEbnkjHrWJehpksPgHaHy?rs=1&pid=ImgDetMain",
+  "link": "https://www.pentesterlab.com/",
+  "description": "It is a fantastic platform to develop strong fonudation of web app security."
+},
+{
+  "productName": "Linux Journey",
+  "category": "ethical",
+  "image": "https://linuxjourney.com/assets/jumbotron-60c93c2fc6bb16079b70fe2eccacaa05f2d6b002af4ff0667ddd8e283cbf81fd.png",
+  "link": "https://linuxjourney.com/",
+  "description": "Linux journey is one of the best platform to learn linux commands."
+},
+{
+  "productName": "Cybrary",
+  "category": "ethical",
+  "image": "https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/62142569-dd07-4797-96e6-4ba2f2956c13.png?auto=format&ixlib=react-9.0.3&w=4742",
+  "link": "https://www.cybrary.it/",
+  "description": "Cybrary offers accessible, affordable, and curated courses and paths for cybersecurity professionals at all levels."
+},
+{
+  "productName": "Exploit Database",
+  "category": "ethical",
+  "image": "https://www.mitchellpest.com/images/cta/pest.2403081343359.png",
+  "link": "https://www.exploit-db.com/",
+  "description": "A website curated a large list of exploits, bug and web-based vulnerability reported by security reesearcher"
+},
+{
+  "productName": "Proving Grounds",
+  "category": "ethical",
+  "image": "https://www.offsec.com/wp-content/uploads/2023/03/offsec-icon-author.png",
+  "link": "https://www.offsec.com/labs/",
+  "description": "OffSec Proving Grounds (PG) Play and Practice is a modern network for practicing penetration testing skills on exploitable, real-world vectors."
   "productName": "Colormind",
   "category": "UI",
   "image": "colormind.png",
