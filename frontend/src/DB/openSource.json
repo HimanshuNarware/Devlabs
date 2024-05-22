@@ -4,7 +4,7 @@
         "ownerUsername": "HimanshuNarware",
         "tags": ["JS", "CSS", "HTML", "React.JS"],
         "link": "https://github.com/HimanshuNarware/Devlabs",
-        "description": "Devlabs is an application that is used to search for free tools that are both free and helpful for our needs. It is built by the amazing open-source community."
+        "description": "Devlabs is an application that is used to search for free tools that are both free and helpful for our needs."
     },
     {
         "projectName": "Desktop-Assistant",
@@ -19,5 +19,846 @@
         "tags": ["python", "cryptography"],
         "link": "https://github.com/vihar-s1/Ciphers",
         "description": "Cryptographic Ciphers implemented all at one place."
+    },
+    {
+        "projectName": "Jarvis - Decentralised Expense Tracker",
+        "ownerUsername": "Joy Almeida",
+        "tags": [
+            "TypeScript",
+            "Next.Js",
+            "Solidity",
+            "Ethereum",
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ],
+        "link": "https://github.com/J0SAL/Decentralized-Expense-Tracker",
+        "description": "Web app to assist users in managing and maintaining their transactions using decentralization."
+    },
+    {
+        "projectName": "ProjectsHut",
+        "ownerUsername": "Priyankar Pal",
+        "tags": ["React.JS", "Tailwind CSS"],
+        "link": "https://github.com/priyankarpal/ProjectsHut",
+        "description": "Platform to showcase work and connect with a global audience."
+    },
+    {
+        "projectName": "Sal-Dapp",
+        "ownerUsername": "Sal-Dapp",
+        "tags": ["Web3", "Polygon", "Solidity", "IPFS", "Blockchain"],
+        "link": "https://github.com/Vikash-8090-Yadav/SaL--dApp",
+        "description": "Platform to manage and give salaries to employees."
+    },
+    {
+        "projectName": "Face-X",
+        "ownerUsername": "Akshita Gupta",
+        "tags": ["ML", "ANN", "CNN", "OpenCV", "Python", "IoT"],
+        "link": "https://github.com/akshitagupta15june/Face-X",
+        "description": "Repository of algorithms and operations related to facial recognition."
+    },
+    {
+        "projectName": "Dev Geeks",
+        "ownerUsername": "Pranjay Poddar",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "link": "https://github.com/pranjay-poddar/Dev-Geeks",
+        "description": "Collection of projects for learning and improving development skills."
+    },
+    {
+        "projectName": "Moksh",
+        "ownerUsername": "Akshita Gupta",
+        "tags": ["HTML", "CSS", "JS", "React.JS", "echo3d"],
+        "link": "https://github.com/akshitagupta15june/Moksh",
+        "description": "Spiritual productivity tool to achieve balance in life."
+    },
+    {
+        "projectName": "Stoccoin-Website",
+        "ownerUsername": "Royal Simpson Pinto",
+        "tags": ["MongoDB", "Express", "React.JS", "Node.JS"],
+        "link": "https://github.com/Stoccoin-Official/Stoccoin-Website",
+        "description": "Web app for trading stocks and crypto, displaying news feeds and real-time data."
+    },
+    {
+        "projectName": "StichHub",
+        "ownerUsername": "Naresh Chandanbatve",
+        "tags": ["ReactThreeFibre", "Tailwind CSS", "MERN stack"],
+        "link": "https://github.com/UBA-GCOEN/StichHub",
+        "description": "Platform to connect tailors and customers."
+    },
+    {
+        "projectName": "PetMe",
+        "ownerUsername": "Akshita Gupta",
+        "tags": ["React.JS", "Node.JS", "HTML", "CSS", "JS"],
+        "link": "https://github.com/akshitagupta15june/PetMe",
+        "description": "Platform for animal adoption, donation, and emergency medical care."
+    },
+    {
+        "projectName": "Project-Amupedia",
+        "ownerUsername": "Anmol Agrawal",
+        "tags": ["Next.JS", "MongoDB", "Node.JS", "CSS", "HTML", "JS"],
+        "link": "https://github.com/amupedia2021/Project-Amupedia",
+        "description": "Project providing notes and assignments to college students."
+    },
+    {
+        "projectName": "CrazyCoder",
+        "ownerUsername": "Yash Parsana",
+        "tags": ["Kotlin", "Firebase", "Node.JS", "Express.JS"],
+        "link": "https://github.com/Yash-Parsana/CrazyCoderApp",
+        "description": "Competitive programming platform for algorithms, data structures, and Mathematics."
+    },
+    {
+        "projectName": "BlogWeet",
+        "ownerUsername": "Anjali Kumari Dubey",
+        "tags": ["JavaScript", "React.JS", "CSS", "Firebase"],
+        "link": "https://github.com/AKD-01/blogweet",
+        "description": "Social media app for creating, posting, and sharing blogs."
+    },
+    {
+        "projectName": "ExtraSpace-Cloud",
+        "ownerUsername": "Ritik Kumar",
+        "tags": ["React.JS", "JavaScript", "CSS3", "Firebase"],
+        "link": "https://github.com/srivastavaritik/Extraspace-Cloud",
+        "description": "Cloud platform for creating folders, uploading files, and links."
+    },
+    {
+        "projectName": "Umatter",
+        "ownerUsername": "Monalika Patnaik",
+        "tags": ["HTML", "CSS", "JavaScript", "React", "Bootstrap"],
+        "link": "https://github.com/MonalikaPatnaik/UMatter",
+        "description": "Platform to assist individuals in quitting bad habits through personalized sessions."
+    },
+    {
+        "projectName": "Dummygram",
+        "ownerUsername": "Narayan Soni",
+        "tags": ["React.JS", "Firebase", "Material-UI", "JavaScript"],
+        "link": "https://github.com/narayan954/dummygram",
+        "description": "Instagram clone with features like authentication, comments, and likes."
+    },
+    {
+        "projectName": "Scene - OTT platform",
+        "ownerUsername": "Sourabh Sikarwar",
+        "tags": ["React.JS", "Firebase"],
+        "link": "https://github.com/sourabhsikarwar/Scene-Movie-Platform",
+        "description": "Movie showcase/OTT platform clone with authentication and other features."
+    },
+    {
+        "projectName": "AEC Library",
+        "ownerUsername": "Saurav Mukherjee",
+        "tags": ["HTML", "CSS", "JavaScript", "Bootstrap", "API"],
+        "link": "https://github.com/SauravMukherjee44/Aec-Library-Website",
+        "description": "Open-source library website with resources and book donation section."
+    },
+    {
+        "projectName": "Engineering Notes",
+        "ownerUsername": "Nagesh Mandal",
+        "tags": ["HTML", "CSS", "JavaScript", "Bootstrap", "JS"],
+        "link": "https://github.com/NageshMandal/Engineering-Notes-Website",
+        "description": "Website providing free handwritten notes to engineering students."
+    },
+    {
+        "projectName": "DevEmpire",
+        "ownerUsername": "Swapnil Srivastava",
+        "tags": ["Next.JS", "Sass/SCSS"],
+        "link": "https://github.com/swapnilsparsh/DevEmpire",
+        "description": "Platform for finding resources and details on ambassador/fellowship programs, events, and toolkits."
+    },
+    {
+        "projectName": "Sampark",
+        "ownerUsername": "Gaurav Verma",
+        "tags": ["MERN", "Firebase"],
+        "link": "https://github.com/Gaurav-Verma07/sampark",
+        "description": "Sampark is a social platform that connects seekers from orphanages and NGOs with college students who provide assistance and resources related to education, clothes, sanitation and health."
+    },
+    {
+        "projectName": "CropForesight Frontend",
+        "ownerUsername": "Abhijeet Sinha",
+        "tags": ["ReactJs", "FastAPI", "Machine Learning"],
+        "link": "https://github.com/abhijeet141/CropForesight-FrontEnd",
+        "description": "CropForesight is a crop recommendation website that uses machine learning model to predict the best crop for a given land based on certain parameters."
+    },
+    {
+        "projectName": "CropForesight Backend",
+        "ownerUsername": "Abhijeet Sinha",
+        "tags": ["Python"],
+        "link": "https://github.com/abhijeet141/CropForesight_BackEnd",
+        "description": "The repository for the backend of the Cropforesight"
+    },
+    {
+        "projectName": "Animating-Buttons",
+        "ownerUsername": "Om Gawande",
+        "tags": ["HTML", "CSS", "JS", "JSON", "ReactJS"],
+        "link": "https://github.com/Spyware007/Animating-Buttons",
+        "description": "Explore Amazing Buttons animation for your next project."
+    },
+    {
+        "projectName": "Amazing-Python-Scripts",
+        "ownerUsername": "Avinash Kr. Ranjan",
+        "tags": [
+            "Python",
+            "Jupyter Notebook",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Shell"
+        ],
+        "link": "https://github.com/avinashkranjan/Amazing-Python-Scripts",
+        "description": "A curated collection of Amazing Python scripts from Basics to Advance with automation task scripts."
+    },
+    {
+        "projectName": "Friday",
+        "ownerUsername": "Avinash Kumar Ranjan",
+        "tags": ["Flutter", "Dart", "Firebase", "Figma"],
+        "link": "https://github.com/avinashkranjan/Friday",
+        "description": "Friday - Your Personal Class Manager Assistant, It'll never let you miss another assignment deadline or upcoming test."
+    },
+    {
+        "projectName": "Pentesting-and-Hacking-Scripts",
+        "ownerUsername": "Avinash Ranjan",
+        "tags": ["Python", "Shell", "HTML", "CSS", "JS"],
+        "link": "https://github.com/avinashkranjan/Pentesting-and-Hacking-Scripts",
+        "description": "A curated collection of Pentesting and Hacking Scripts for Script Kiddie to Advanced Pentesters."
+    },
+    {
+        "projectName": "GyanaGuru",
+        "ownerUsername": "Piyush Kalyan",
+        "tags": [
+            "Next.js",
+            "React",
+            "Tailwind CSS",
+            "Firebase",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "GitHub",
+            "VS Code",
+            "NPM"
+        ],
+        "link": "https://github.com/PiyushKalyanpy/GyanaGuru",
+        "description": "The GyanaGuru website is an online learning platform that provides access to high-quality educational resources in a wide range of subjects."
+    },
+    {
+        "projectName": "Bookingjini Icons Pack",
+        "ownerUsername": "Ashutosh Dash",
+        "tags": ["HTML", "CSS", "JavaScript", "React", "Figma"],
+        "link": "https://github.com/Bookingjini-Labs/bookingjini-icons",
+        "description": "Bookingjini Icons Pack is a collection of 50 icons designed specifically for the hospitality industry."
+    },
+    {
+        "projectName": "3D T-shirt Designer",
+        "ownerUsername": "Aman Jaiman",
+        "tags": ["React", "three.js", "tailwindCSS", "express"],
+        "link": "https://github.com/amanjaiman1/Product_3D",
+        "description": "https://github.com/amanjaiman1/Product_3D"
+    },
+    {
+        "projectName": "Coding Contests Companion",
+        "ownerUsername": "Roshan Dash",
+        "tags": [
+            "Javascript",
+            "Node.js",
+            "Discord.js",
+            "Puppeteer",
+            "Axios",
+            "jsDom",
+            "MonogDB",
+            "Moongoose",
+            "Azure"
+        ],
+        "link": "https://github.com/roshan1337d/coding-contests-companion",
+        "description": "Coding Contests Companion is a discord bot for the competitive coding enthusiasts."
+    },
+
+    {
+        "projectName": "EdgeChains",
+        "ownerUsername": "Sandeep Srinivasa",
+        "tags": [
+            "Java",
+            "Spring",
+            "RxJava",
+            "Spring Lambda",
+            "Apache TVM Machine Learning Compiler"
+        ],
+        "link": "https://github.com/arakoodev/edgechains",
+        "description": "chain-of-thought engineering for LLM and OpenAI GPT"
+    },
+    {
+        "projectName": "Blogzen",
+        "ownerUsername": "Piyush Gupta",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "link": "https://github.com/DSC-JSS-NOIDA/blogzen",
+        "description": "A collection of resources categorized by tech domains, languages, expertise and much more. Blogzen gives you quick access to all the resources that you could need at a single place, with a click!"
+    },
+    {
+        "projectName": "ApnaBharat-Bus-Booking-Reservation-System",
+        "ownerUsername": "Pranjal Agarwal",
+        "tags": ["Python", "Sqlite3", "Tkinter", "GUI", "Javascript"],
+        "link": "https://github.com/Pranjal360Agarwal/ApnaBharat-Bus-Booking-Reservation-System",
+        "description": "Bus Reservation System is a pretty fully functional system developed using Tkinter (GUI), SQLite, Python, which is designed to automate the online ticket purchasing through an easy online bus booking system."
+    },
+    {
+        "projectName": "GitHub Automation scripts",
+        "ownerUsername": "Sahil Sagwekar",
+        "tags": ["Python", "Bash", "Git", "GitHub"],
+        "link": "https://github.com/sahil-sagwekar2652/GitHub-Automation-scripts",
+        "description": "Bash and Python scripts to automate your Git & GitHub workflow."
+    },
+    {
+        "projectName": "informatician",
+        "ownerUsername": "Rohan Sharma",
+        "tags": ["Reactjs", "express js", "nodejs", "mongodb"],
+        "link": "https://github.com/rohansx/informatician",
+        "description": "An open source book listing and reading platform like kindle and scribd"
+    },
+    {
+        "projectName": "dcr",
+        "ownerUsername": "Shubh Karman Singh",
+        "tags": [
+            "Golang",
+            "Docker",
+            "Linux-SGX",
+            "OLAP Databases",
+            "SQL Databases"
+        ],
+        "link": "https://github.com/qascade/dcr",
+        "description": "A proof of concept framework to orchestrate Interoperable Differentially Private Data Clean Room Services on Intel SGX."
+    },
+    {
+        "projectName": "GameZone",
+        "ownerUsername": "Kunj Patel",
+        "tags": ["HTML", "JavaScript", "CSS", "Bootstrap"],
+        "link": "https://github.com/kunjgit/GameZone",
+        "description": "This open source repository contains collection of games build on basic tech stacks in web development like HTML,CSS,JS,Bootstrap ."
+    },
+    {
+        "projectName": "MindWave",
+        "ownerUsername": "Khushee Kapoor",
+        "tags": [
+            "Python",
+            "NumPy",
+            "Pandas",
+            "Scikit-Learn",
+            "Tensorflow",
+            "OpenAI"
+        ],
+        "link": "https://github.com/The-Data-Alchemists-Manipal/MindWave",
+        "description": "MindWave is an Open-Source project designed for beginners to learn about Data Science, Machine Learning, Deep Learning, and Reinforcement Learning algorithms using Python."
+    },
+    {
+        "projectName": "Pluto UI",
+        "ownerUsername": "Purnima Sharma",
+        "tags": ["React", "SCSS/CSS", "Javascript"],
+        "link": "https://github.com/purnima143/Pluto-UI",
+        "description": "Pluto UI is a comprehensive React UI component library designed for e-commerce websites."
+    },
+    {
+        "projectName": "World of AI",
+        "ownerUsername": "Adithya S Kolavi",
+        "tags": [
+            "Python",
+            "Tensorflow",
+            "Keras",
+            "Scikit Learn",
+            "Pytorch",
+            "Langchain",
+            "Gradio",
+            "Streamlit"
+        ],
+        "link": "https://github.com/CognitiveLab-tech/World-of-AI",
+        "description": "An open-source repository for AI-based projects, from beginner to expert level, helping contributors start their journey in Artificial Intelligence and Deep Learning."
+    },
+    {
+        "projectName": "DevFeed",
+        "ownerUsername": "Ayush Gupta",
+        "tags": ["NodeJS", "ExpressJs", "ReactJs", "MySQL", "Taiwlind Css"],
+        "link": "https://github.com/DevFeed404/DevFeed-1.0",
+        "description": "With DevFeed, you'll never miss out on an opportunity to not only expand your skills but also connect with other tech professionals in your community."
+    },
+    {
+        "projectName": "GameSphere",
+        "ownerUsername": "Aman Kumar Singh",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap",
+            "WebSocket",
+            "jQuery",
+            "PHP",
+            "MySQL",
+            "Laravel"
+        ],
+        "link": "https://github.com/GameSphere-MultiPlayer/GameSphere",
+        "description": "Our primary goal is to create a website where two or more friends can gather and play games online."
+    },
+    {
+        "projectName": "Taaveez",
+        "ownerUsername": "Suryansh Prajapati",
+        "tags": ["Kotlin", "Android Studio", "Room Database", "XML", "Git"],
+        "link": "https://github.com/Taaveez/Taaveez-android",
+        "description": "Say hello to Taaveez, the innovative and thrilling mobile app tailored for artists and entertainers."
+    },
+    {
+        "projectName": "Code Canvas",
+        "ownerUsername": "Shreya Rajpal",
+        "tags": ["HTML", "CSS", "JS", "MONGO DB", "Node js"],
+        "link": "https://github.com/ssitvit/Code-Canvas",
+        "description": "CodeCanvas is an innovative platform where developers can collaborate and contribute their frontend expertise."
+    },
+    {
+        "projectName": "Tur1ng",
+        "ownerUsername": "Atri Sukul",
+        "tags": ["MongoDB", "ExpressJs", "ReactJs", "NodeJs"],
+        "link": "https://github.com/AtriSukul1508/Njack_Hack_It_Out-Tur1ng-",
+        "description": "It is a blog website which contains updated tags to bring you relevant information directly to your homepage"
+    },
+    {
+        "projectName": "API Dash",
+        "ownerUsername": "Ankit Mahato",
+        "tags": ["Dart", "Flutter"],
+        "link": "https://github.com/foss42/api-dash",
+        "description": "API Dash built using Flutter which helps create & customize API requests, visually inspect responses and generate code on the go."
+    },
+    {
+        "projectName": "user-auth-microservice",
+        "ownerUsername": "Md Shadab Azam Ansari",
+        "tags": ["Javascript", "Node.js", "MongoDb", "Express.js"],
+        "link": "https://github.com/sazamansari/node.js-_microservices",
+        "description": "User_Auth Microservices aims to provide an application architecture out of the box."
+    },
+    {
+        "projectName": "AISKCON-CONSTRUCTION",
+        "ownerUsername": "Abhi Patel",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "link": "https://github.com/AbhiPatel10/AISKCON-CONSTRUCTION",
+        "description": "AISKCON-CONSTRUCTION is a construction website that provides building and renovation services."
+    },
+    {
+        "projectName": "project-annapurna",
+        "ownerUsername": "SUBHASHIS PAUL",
+        "tags": [
+            "Node.js",
+            "Mongodb",
+            "EJS",
+            "Tailwind CSS",
+            "Sendgrid",
+            "Azure"
+        ],
+        "link": "https://github.com/subhashis2204/project-annapurna",
+        "description": "A food donation application connecting NGOs and restaurants."
+    },
+    {
+        "projectName": "Resource Gallery",
+        "ownerUsername": "Amitesh Anand",
+        "tags": ["JAVASCRIPT", "ASTRO", "TAILWINDCSS"],
+        "link": "https://github.com/ZeroOctave/resource-gallery",
+        "description": "Resource Gallery provides the tools and resources you need to evolve into a skilled developer."
+    },
+    {
+        "projectName": "Scrape Up",
+        "ownerUsername": "Nikhil  Raj",
+        "tags": ["Python"],
+        "link": "https://github.com/Clueless-Community/scrape-up",
+        "description": "An alternative to APIs,its enables you to scrape data from various platforms like GitHub, Twitter, Instagram, or any useful website."
+    },
+    {
+        "projectName": "love simple ui",
+        "ownerUsername": "Kavikumar M",
+        "tags": ["Node JS", "CSS", "React Js"],
+        "link": "https://github.com/thekavikumar/love-simple-ui",
+        "description": "Welcome to love-simple-ui, it is a lightweight and fast library that provides a set of simple and easy-to-use UI components for React applications."
+    },
+    {
+        "projectName": "Community Website",
+        "ownerUsername": "Sahitya Roy",
+        "tags": ["HTML", "CSS", "JS", "Bootstrap", "React"],
+        "link": "https://github.com/Eduhub-Community/Eduhub-Community.github.io",
+        "description": "It’s a community for the people by the people. The vision of the community is to build an environment where people can learn together and implement together."
+    },
+    {
+        "projectName": "CodeSetGo Website",
+        "ownerUsername": "Agamjot Singh",
+        "tags": ["HTML", "css", "javascript", "bootstrap"],
+        "link": "https://github.com/agamjotsingh18/codesetgo",
+        "description": "CodeSetGo is a place for Tech Enthusiasts to learn the latest technology in the comfort and convenience of their homes."
+    },
+    {
+        "projectName": "Pollitup",
+        "ownerUsername": "Agamjot Singh",
+        "tags": ["ReactJS", "mongodb", "Chakra UI"],
+        "link": "https://github.com/agamjotsingh18/pollitup",
+        "description": "Pollitup is an WebApp for people about problems they are facing to get opinions on the best method to approach the problem."
+    },
+    {
+        "projectName": "Milan",
+        "ownerUsername": "Tamal Das",
+        "tags": [
+            "MERN",
+            "CSS",
+            "Bootstrap5",
+            "StripeAPI",
+            "React",
+            "Express",
+            "MongoDB",
+            "Node",
+            "YAML"
+        ],
+        "link": "https://github.com/MilanCommunity/Milan",
+        "description": "Milan is a hub to connect users, charities, and NGOs thus connecting help and need for a good cause."
+    },
+    {
+        "projectName": "Spectrum UI",
+        "ownerUsername": "Roshan Kumar",
+        "tags": ["Flutter", "Dart"],
+        "link": "https://github.com/Clueless-Community/Spectrum-UI",
+        "description": "Spectrum UI is a user-friendly Flutter UI library that offers a variety of beautifully designed widgets."
+    },
+    {
+        "projectName": "group-patronage",
+        "ownerUsername": "Lakshay",
+        "tags": [
+            "Solidity",
+            "React.js",
+            "MetaMask",
+            "Ethereum",
+            "Auth0",
+            "ThirdWeb",
+            "TailWind CSS"
+        ],
+        "link": "https://github.com/group-patronage/group-patronage",
+        "description": "A revolutionised fundraising platform for startups with transparency and accessibility."
+    },
+    {
+        "projectName": "Bring the menu",
+        "ownerUsername": "Mohit Kumar",
+        "tags": ["Flutter", "Firebase"],
+        "link": "https://github.com/m0hit-kumar/Bring-The-Menu",
+        "description": "Bring The Menu is a comprehensive Restaurant Management System that aims to enhance the dining experience for customers and streamline the process for restaurant owners."
+    },
+    {
+        "projectName": "FintechAPI",
+        "ownerUsername": "Nikhil Raj",
+        "tags": ["Python", "FastAPI"],
+        "link": "https://github.com/Clueless-Community/fintech-api",
+        "description": "API for financial calculations."
+    },
+    {
+        "projectName": "ML Project Drug Review Dataset",
+        "ownerUsername": "Rakesh Roshan",
+        "tags": ["Python"],
+        "link": "https://github.com/Rakesh9100/ML-Project-Drug-Review-Dataset",
+        "description": "Machine learning project analyzing drug effectiveness."
+    },
+    {
+        "projectName": "Project Marketplace",
+        "ownerUsername": "Aniket Kumar",
+        "tags": ["MongoDB", "Express", "Node.js", "React"],
+        "link": "https://github.com/ak736/project-marketplace",
+        "description": "Freelance marketplace platform with web3 login and crypto payments."
+    },
+    {
+        "projectName": "Food recipes website",
+        "ownerUsername": "Anup Kumar jha",
+        "tags": ["HTML", "CSS", "JavaScript", "Azure", "UX/UI Designing"],
+        "link": "https://github.com/Anupkjha2601/food-recipes-website",
+        "description": "Food store website helping customers find recipes and genuine products."
+    },
+    {
+        "projectName": "Opentek",
+        "ownerUsername": "Anirudh Panda",
+        "tags": ["HTML", "CSS", "JS", "Netlify", "JSON"],
+        "link": "https://github.com/Opentek-Org/opentek",
+        "description": "Source for open source development tools and projects."
+    },
+    {
+        "projectName": "DevsInTech",
+        "ownerUsername": "Susmita Dey",
+        "tags": ["Next.js", "React.js", "TailwindCSS", "Framer-motion"],
+        "link": "https://github.com/devs-in-tech/DevsInTech",
+        "description": "Community website to help techies level up their skills."
+    },
+    {
+        "projectName": "Imagine_AI",
+        "ownerUsername": "Suraj Pratap",
+        "tags": [
+            "Node.js",
+            "Express JS",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "OpenAI",
+            "Postman"
+        ],
+        "link": "https://github.com/SurajPratap10/Imagine_AI",
+        "description": "AI image generator using DALL-E 2."
+    },
+    {
+        "projectName": "GrabBits",
+        "ownerUsername": "Bhushan Kale",
+        "tags": ["MERN", "CSS Modules", "Google Analytics"],
+        "link": "https://github.com/GrabBits/GrabBits_Website",
+        "description": "Student-led community sharing internship and coding resources."
+    },
+    {
+        "projectName": "Vritant",
+        "ownerUsername": "Abhishek Bhatt",
+        "tags": ["Flutter", "Firebase"],
+        "link": "https://github.com/bhattabhi013/Vritant",
+        "description": "Interactive nursery rhymes learning app."
+    },
+    {
+        "projectName": "EthUnwrapped",
+        "ownerUsername": "Advaita Saha",
+        "tags": [
+            "Node.js",
+            "Express.js",
+            "Ethereum",
+            "Ethers.js",
+            "TypeScript"
+        ],
+        "link": "https://github.com/metafy-social/eth-unwrapped",
+        "description": "Web app for Ethereum blockchain analysis."
+    },
+    {
+        "projectName": "WHILE",
+        "ownerUsername": "Anurag verma",
+        "tags": ["Flutter", "Dart", "NodeJS", "Express", "Firebase"],
+        "link": "https://github.com/vermaanurag1532/WHILE_APP",
+        "description": "Education-based social media platform."
+    },
+    {
+        "projectName": "VigyBag",
+        "ownerUsername": "Vivek Kumar",
+        "tags": ["HTML", "CSS", "JavaScript", "Django", "Android", "Kotlin"],
+        "link": "https://github.com/codervivek5/VigyBag/",
+        "description": "Location-based e-commerce platform."
+    },
+    {
+        "projectName": "LinksHub",
+        "ownerUsername": "Rupali Haldiya",
+        "tags": ["TypeScript", "Next.js", "TailwindCSS"],
+        "link": "https://github.com/rupali-codes/LinksHub",
+        "description": "Hub of ready-to-use tech resources."
+    },
+    {
+        "projectName": "Algo-Media",
+        "ownerUsername": "Harshvardhan singh",
+        "tags": ["React.js", "JavaScript", "Redux toolkit"],
+        "link": "https://github.com/Fenrir-04/Algo-Media",
+        "description": "Web app for watching online videos."
+    },
+    {
+        "projectName": "Carbonops v2",
+        "ownerUsername": "Srijan Shovit",
+        "tags": [
+            "NextJS",
+            "JavaScript",
+            "TailwindCSS",
+            "OAuth",
+            "MongoDB",
+            "Postman"
+        ],
+        "link": "https://github.com/SrijanShovit/carbonops-v2",
+        "description": "Platform promoting environmental awareness."
+    },
+    {
+        "projectName": "DoctorVerse",
+        "ownerUsername": "Rishabh Jain",
+        "tags": [
+            "Blockchain",
+            "Solidity",
+            "Ethereum",
+            "MERN",
+            "NodeJs",
+            "AWS",
+            "Postman",
+            "Jest",
+            "Github Actions"
+        ],
+        "link": "https://github.com/jain-rishabh-21/DoctorVerse",
+        "description": "Decentralized database for patient information."
+    },
+    {
+        "projectName": "DataTech",
+        "ownerUsername": "Aniket Sinha",
+        "tags": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+        "link": "https://github.com/aniketsinha2002/DataScienceWebsite.github.io",
+        "description": "Educational website for data science learners."
+    },
+    {
+        "projectName": "Games and Go",
+        "ownerUsername": "Shreya Rajpal",
+        "tags": ["HTML", "CSS", "ReactJs"],
+        "link": "https://github.com/ssitvit/Games-and-Go",
+        "description": "Collection of 90s games."
+    },
+    {
+        "projectName": "Bot-Collection",
+        "ownerUsername": "Neel Shah",
+        "tags": ["Python"],
+        "link": "https://github.com/neelshah2409/Bot-Collection",
+        "description": "Collection of automation bots."
+    },
+    {
+        "projectName": "Resume Builder",
+        "ownerUsername": "Tushar Zalte",
+        "tags": ["MongoDB", "ReactJs", "NodeJs", "ExpressJs"],
+        "link": "https://github.com/tusharzalte/tusharesume",
+        "description": "App for creating ATS-friendly resumes."
+    },
+    {
+        "projectName": "Zeabur Pack",
+        "ownerUsername": "Yuanlin Lin",
+        "tags": ["Go Lang"],
+        "link": "https://github.com/zeabur/zbpack",
+        "description": "Tool for deploying source code to Zeabur's cloud platform."
+    },
+    {
+        "projectName": "Enigma Protocol",
+        "ownerUsername": "Pradyumna Krishna",
+        "tags": ["Vue.js", "Python", "Go Lang", "JavaScript", "Node.js"],
+        "link": "https://github.com/PradyumnaKrishna/Enigma-Protocol",
+        "description": "End-to-end encrypted chat messenger."
+    },
+    {
+        "projectName": "Vibey",
+        "ownerUsername": "Deependra Kumar",
+        "tags": ["Reactjs", "Next.js", "Appwrite", "TailwindCSS", "Typescript"],
+        "link": "https://github.com/UniKonf/vibey",
+        "description": "Community-driven initiative to find online conferences and events for developers."
+    },
+    {
+        "projectName": "Resourcio Community Website",
+        "ownerUsername": "Abhirup Saha",
+        "tags": ["React"],
+        "link": "https://github.com/Resourcio-Community/Resourcio_Community-Website",
+        "description": "Platform for bringing together resources related to software development."
+    },
+    {
+        "projectName": "WebX DAO -Community Website",
+        "ownerUsername": "Vincent Villafuerte",
+        "tags": ["Next.js", "Tailwind"],
+        "link": "https://github.com/WebXDAO/WebXDAO.github.io",
+        "description": "Main website of WebX DAO built with Next.js and Tailwind."
+    },
+    {
+        "projectName": "OSCode Website",
+        "ownerUsername": "Harsh",
+        "tags": ["ReactJs", "JavaScript", "HTML", "CSS"],
+        "link": "https://github.com/OSCode-Community/OSCodeCommunitySite",
+        "description": "Community of learners, creators, and contributors."
+    },
+    {
+        "projectName": "Web Resources Hub",
+        "ownerUsername": "Jay Kumar Gupta",
+        "tags": ["React", "Tailwind CSS"],
+        "link": "https://github.com/jayk-gupta/web-resources-project",
+        "description": "Comprehensive collection of frontend web resources."
+    },
+    {
+        "projectName": "Admin Panel",
+        "ownerUsername": "Swarnavo Pramanik",
+        "tags": [
+            "React Js",
+            "Javascript",
+            "Metrial UI",
+            "Tailwind CSS",
+            "Postcss"
+        ],
+        "link": "https://github.com/swarnavopramanik/Admin-Panel/tree/main",
+        "description": "Responsive and interactive Admin Dashboard using React."
+    },
+    {
+        "projectName": "PaperBrain",
+        "ownerUsername": "Md Anzar Ahmad",
+        "tags": [
+            "Next.js",
+            "Flask",
+            "GPT-3",
+            "Tailwind CSS",
+            "Firebase",
+            "Vercel",
+            "Auth0"
+        ],
+        "link": "https://github.com/nawed2611/paperbrain",
+        "description": "Platform for accessing and understanding research papers."
+    },
+    {
+        "projectName": "DoggoNation",
+        "ownerUsername": "AKASH UDAY",
+        "tags": ["React", "Flask"],
+        "link": "https://github.com/akashgreninja/Doggonation",
+        "description": "Social media platform for dog owners and enthusiasts."
+    },
+    {
+        "projectName": "GitHub ReadMe Generator",
+        "ownerUsername": "Praveen Kumar Purushothaman",
+        "tags": ["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS"],
+        "link": "https://github.com/CatsInTech/GitHub-ReadMe",
+        "description": "Project for customizing GitHub ReadMe with various features."
+    },
+    {
+        "projectName": "Free-Hit",
+        "ownerUsername": "Jason Dsouza",
+        "tags": ["React"],
+        "link": "https://github.com/JasonDsouza212/free-hit",
+        "description": "Application for searching free tools that are helpful."
+    },
+    {
+        "projectName": "Counsellor",
+        "ownerUsername": "Sahil Ali",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "ReactJS",
+            "NodeJS",
+            "MongoDB",
+            "Firebase"
+        ],
+        "link": "https://github.com/Counselllor/Counsellor-Web",
+        "description": "Web application to assist students in making informed decisions regarding their undergraduate studies."
+    },
+    {
+        "projectName": "Grabtern-frontend",
+        "ownerUsername": "Anmol Agrawal",
+        "tags": ["NextJS", "MongoDB", "CI/CD", "Docker"],
+        "link": "https://github.com/anmode/grabtern-frontend",
+        "description": "Project aiming to establish mentor-mentee connections through session bookings."
+    },
+    {
+        "projectName": "Shorty - Link Shortener",
+        "ownerUsername": "Apoorv Aron",
+        "tags": [
+            "JavaScript",
+            "MySQL",
+            "Bootstrap",
+            "JQuery",
+            "PHP",
+            "HTML5",
+            "CSS3"
+        ],
+        "link": "https://github.com/apoorvaron/Shorty",
+        "description": "Platform for personalizing, sharing, and tracking content links."
+    },
+    {
+        "projectName": "RDJ",
+        "ownerUsername": "Loki",
+        "tags": ["MERN", "Tailwind CSS", "API"],
+        "link": "https://github.com/LokeshKumar-Dev/Rdj.exe",
+        "description": "Web application for mixing music using ReactJS and the YouTube API."
+    },
+    {
+        "projectName": "AR Webstore",
+        "ownerUsername": "Shwet Khatri",
+        "tags": ["HTML", "CSS", "TypeScript", "three.js"],
+        "link": "https://github.com/ShwetKhatri2001/AR-Webstore",
+        "description": "Webstore for ecommerce products with AR visualization."
+    },
+    {
+        "projectName": "Juspay - Hyperswitch",
+        "ownerUsername": "Narayana Aaditya",
+        "tags": ["RUST"],
+        "link": "https://github.com/juspay/hyperswitch",
+        "description": "Open Source Financial Switch for fast and reliable payments."
     }
 ]

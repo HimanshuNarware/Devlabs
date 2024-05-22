@@ -119,6 +119,16 @@
   border-radius:30px;
   font-weight:600;
   margin-top:3px;
+  border: none;
+}
+.hero-button:hover{
+  background: #101623;
+  border: 2px solid #8b5cf6;
+  color: white;
+  box-shadow: 4px 4px 2px #8b5cf6;
+}
+.hero-button a:hover{
+  color: white;
 }
 .hero-end{
   margin-top:5%;
@@ -146,17 +156,18 @@
   .hero-image {
     display: block; 
     position: absolute;
-    top: 50%;
-    left:50%;
+    top: 40%;
+    left: 55%;
     right: 0;
-    transform: translateY(-50%);
-    width: 60%;
+    transform: translateY(-30%);
+    width: 45%;
     height: auto;
     background: none;
   }
 }
 /* hero section ends */
 .page-container {
+  padding-top: 5%;
   width: 100vw;
   max-width: 100vw;
 }
@@ -250,7 +261,7 @@
 .btn-booked-box,.btn-b-box {
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
-  border: 1px solid rgb(10, 142, 102);
+  border: 1px solid #8b5cf6;
   margin-inline: 10px;
   padding: 6px 16px 6px 16px;
   background: transparent;
@@ -268,10 +279,9 @@
   background-color: #ff6b6be3;
 }
 .btn-b-box:hover {
-  color: white;
+  background: transparent;
   cursor: pointer;
-  border: 1px solid #101623;
-  box-shadow: 0px 0px 10px rgba(173, 128, 255, 0.5);
+  box-shadow: 2px 2px 1px #8b5cf6;
 }
 
 .popup {
