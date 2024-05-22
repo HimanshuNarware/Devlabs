@@ -28,10 +28,10 @@ body {
 
 .darkmode-layer,
 .darkmode-toggle {
-	z-index: 5;
+  z-index: 35;
   display: fixed;
-  top:15px;
-  right: 15px;
+  bottom: 12px !important;
+  left: 20px !important;
 }
 
 code {
