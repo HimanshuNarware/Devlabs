@@ -58,7 +58,7 @@ function About() {
   return (
     <div>
       <div className="container-one">
-        <div className="bx-1" data-aos="flip-left">
+        <div className="bx-1" data-aos="">
           <p >
             Devlabs is an application that is used to search for free tools that
             are both free and helpful for our needs. It is built by the amazing
