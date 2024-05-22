@@ -382,9 +382,10 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  border: none;
 }
 .box:hover{
-  border: 1.5px solid #495057;
+  border: 2.5px solid black;
 
 }
 .input {

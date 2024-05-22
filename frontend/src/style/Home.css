@@ -119,6 +119,16 @@
   border-radius:30px;
   font-weight:600;
   margin-top:3px;
+  border: none;
+}
+.hero-button:hover{
+  background: #101623;
+  border: 2px solid #8b5cf6;
+  color: white;
+  box-shadow: 4px 4px 2px #8b5cf6;
+}
+.hero-button a:hover{
+  color: white;
 }
 .hero-end{
   margin-top:5%;
@@ -251,7 +261,7 @@
 .btn-booked-box,.btn-b-box {
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
-  border: 1px solid rgb(10, 142, 102);
+  border: 1px solid #8b5cf6;
   margin-inline: 10px;
   padding: 6px 16px 6px 16px;
   background: transparent;
@@ -269,10 +279,9 @@
   background-color: #ff6b6be3;
 }
 .btn-b-box:hover {
-  color: white;
+  background: transparent;
   cursor: pointer;
-  border: 1px solid #101623;
-  box-shadow: 0px 0px 10px rgba(173, 128, 255, 0.5);
+  box-shadow: 2px 2px 1px #8b5cf6;
 }
 
 .popup {
