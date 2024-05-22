@@ -64,6 +64,13 @@
 		"description": " Provides information about Open Web technologies including HTML, CSS, and APIs"
 	},
 	{
+		"productName": "Hashnode",
+		"category": "blogging",
+		"image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png",
+		"link": "https://hashnode.com/",
+		"description": "Hashnode is a free blogging platform for developers that enables them to create content, share knowledge, and grow their network within the tech community."
+	},
+	{
 		"productName": "Magic Eraser",
 		"category": "tools",
 		"image": "https://play-lh.googleusercontent.com/tVEiGmoOyq3qwQUdkYYbD43DlZWe2jaTq4vkJqVWl5LrHYmhBOmbK8kqvF2ja6aZl1M",
