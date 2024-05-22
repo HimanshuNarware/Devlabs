@@ -1,3 +1,5 @@
+import { ToastContainer, toast,Slide } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
@@ -20,6 +22,7 @@ const [bookmarks,setBookmark] = useState(null)
   const [dataBaseData, setDataBaseData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
+  const [bookMarkData,setBookMarkData]=useState(null);
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
@@ -173,13 +176,22 @@ function handleBookmark(datalist){
           link: datalist.link,
         })
       );
-      setShowPopup(true);
-      setTimeout(() => {
-        setShowPopup(false);
+      setBookMarkData(datalist);
+      setTimeout(() => { 
+        setBookMarkData(null);
       }, 2000);
     }
   }
   handleBookmarks()
+}
+useEffect(() => {
+  if (bookMarkData) {
+    showBookmarkAdded(bookMarkData);
+  }
+}, [bookMarkData]);
+
+function showBookmarkAdded() {
+  toast.success(` ${bookMarkData.productName} Bookmark Added`);
 }
   return (
     <div>
@@ -254,15 +266,7 @@ function handleBookmark(datalist){
         ) : null}
 
       </div>
-      {showPopup && (
-        <div className="popup">
-          <span class="checkmark">
-            <div class="checkmark_stem"></div>
-            <div class="checkmark_kick"></div>
-          </span>
-          Bookmark added
-        </div>
-      )}
+      <ToastContainer className="custom-toast-container" position="top-center" transition={Slide}  />
     </div>
   );
 }
