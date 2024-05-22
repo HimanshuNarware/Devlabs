@@ -1,9 +1,10 @@
+import { ToastContainer, toast,Slide } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { deleteSource } from "../Slice/DataSlice";
 import "../style/BookMark.css";
-import { ToastContainer, toast,Slide } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 
 function BookMark() {
   const sourceData = useSelector((state) => state.SourceReducer.sourceData);

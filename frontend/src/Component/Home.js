@@ -1,3 +1,5 @@
+import { ToastContainer, toast,Slide } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
@@ -5,10 +7,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import jsonTools from "../DB/product.json";
 import { setSource } from "../Slice/DataSlice";
 import "../style/Home.css";
-import { ToastContainer, toast,Slide } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import Devlabs from "../image/devlabshero.png";
-import NavbarItem from "./Navbar/NavbarItem";
+
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 function Home(props) {
@@ -264,6 +263,8 @@ function showBookmarkAdded() {
     </ul>
   </nav>
 )}
+
+
         {filteredData.length === 0 ? (
           <h2>There is nothing here to show.</h2>
         ) : null}
