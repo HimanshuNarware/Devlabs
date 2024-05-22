@@ -1,13 +1,14 @@
+import { ToastContainer, toast,Slide } from 'react-toastify';
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import ClipLoader from "react-spinners/ClipLoader";
 import jsonTools from "../DB/product.json";
 import { setSource } from "../Slice/DataSlice";
-import "../style/Home.css";
-import { ToastContainer, toast,Slide } from 'react-toastify';
+import "../style/Home.css
 import 'react-toastify/dist/ReactToastify.css';
 import Devlabs from "../image/devlabshero.png";
+import Devlabs from "../image/hero_img.svg";
 import NavbarItem from "./Navbar/NavbarItem";
 
 const BACKEND = process.env.REACT_APP_BACKEND;

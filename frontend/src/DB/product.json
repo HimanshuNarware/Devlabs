@@ -2791,5 +2791,20 @@
   "image": "https://i.pinimg.com/736x/ea/2a/b2/ea2ab287b40acfe28348c71eb780d11c.jpg",
   "link": "https://whimsical.com/",
   "description": "Whimsical is a collaborative tool for teams to come together to brainstorm ideas for their next big project."
+},
+{
+  "productName": "SpinBot",
+  "category": "AI",
+  "image": "spinbot.png",
+  "link": "https://spinbot.com/",
+  "description": "SpinBot is a free, automatic article spinner that will rewrite human readable text into additional, intelligent, readable text. Similarly, it is also a paraphrasing tool."
+},
+{
+  "productName": "Colormind",
+  "category": "UI",
+  "image": "colormind.png",
+  "link": "http://colormind.io/",
+  "description": "Colormind is a color scheme generator that uses deep learning. It can learn color styles from photographs, movies, and popular art."
 }
+
 ]
