@@ -326,3 +326,6 @@
   left: 6px;
   top: 14px;
 }
+nav li{
+  z-index: 0;
+}
