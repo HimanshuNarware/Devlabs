@@ -5,7 +5,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import jsonTools from "../DB/product.json";
 import { setSource } from "../Slice/DataSlice";
 import "../style/Home.css";
-import Devlabs from "../image/devlabshero.png";
+import Devlabs from "../image/hero_img.svg";
 import NavbarItem from "./Navbar/NavbarItem";
 const BACKEND = process.env.REACT_APP_BACKEND;
 function Home(props) {
