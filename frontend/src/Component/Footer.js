@@ -93,7 +93,7 @@ function Footer() {
               <ul>
                 <li className="nav-item">
                   <a className="" href="/">
-                    Fronted Tools
+                    Frontend Tools
                   </a>
                 </li>
                 <li className="nav-item">
