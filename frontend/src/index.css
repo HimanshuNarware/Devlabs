@@ -31,7 +31,7 @@ body {
   z-index: 35;
   display: fixed;
   bottom: 18px !important;
-/*   left: 20px !important; */
+  left: 0px !important;
 }
 
 code {
