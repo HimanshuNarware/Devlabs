@@ -157,6 +157,7 @@
 }
 /* hero section ends */
 .page-container {
+  padding-top: 5%;
   width: 100vw;
   max-width: 100vw;
 }

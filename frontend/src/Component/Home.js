@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 import ClipLoader from "react-spinners/ClipLoader";
 import jsonTools from "../DB/product.json";
@@ -13,6 +13,16 @@ const [bookmarks,setBookmark] = useState(null)
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
+  // to scroll the pagedown when we search for tool
+  const ref = useRef();
+  if(props.searchQuery!==""){
+    ref.current?.scrollIntoView(
+      {
+        'behavior' : 'smooth',
+      }
+    )
+  }
+
 
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
@@ -203,7 +213,7 @@ function handleBookmark(datalist){
             </div>
           </div>
        {/* hero section ends */}
-      <div className="page-container">
+      <div ref={ref} className="page-container">
         <div className={loading ? "loading-container" : "main-container"}>
           <ClipLoader
             color="#808080"
