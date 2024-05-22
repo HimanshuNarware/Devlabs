@@ -6,6 +6,7 @@ import Footer from "./Component/Footer";
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar/Navbar";
 import BookMark from "./Component/BookMark";
+import ChatAssistant from "./ChatAssistant/ChatAssistant";
 import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
@@ -26,6 +27,7 @@ function App() {
       </Routes>
       <BackToTopButton />
       <Footer />
+      <ChatAssistant/>
     </>
   );
 }

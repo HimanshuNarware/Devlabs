@@ -12,6 +12,8 @@ const options = {
   bottom: '64px',
   right: 'unset',
   left: '32px',
+  bottom: 'unset',
+  right: '10px',
   time: '0.5s',
   mixColor: '#fff',
   backgroundColor: '#101623',
