@@ -2801,5 +2801,12 @@
 		"image": "https://www.shutterstock.com/image-vector/vinnytsia-ukraine-may-7-2023-600nw-2299584421.jpg",
 		"link": "https://discord.com/",
 		"description": "A place where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often."
+	},
+	{
+		"productName": "Slidesgo",
+		"category": "AI",
+		"image": "slidesgo.png",
+		"link": "https://slidesgo.com/",
+		"description":"Slidesgo offers an extensive catalog of free Google Slides themes and PowerPoint templates for creative presentations."
 	}
 ]
