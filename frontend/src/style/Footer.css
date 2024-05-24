@@ -8,6 +8,9 @@
 .ft-1 h5 {
 	margin-top: 18px;
 }
+.setFooterSize{
+	font-size: 0.75rem !important;
+}
 
 .ft-1 button {
 	margin-top: 3px;
