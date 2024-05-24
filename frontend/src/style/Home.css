@@ -1,5 +1,6 @@
 /* hero section starts */
 .hero {
+  margin-top: 9.8vh;
   width: 100%;
   height: 90vh;
   position: relative;
@@ -175,7 +176,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 10px;
-  margin-top: 8rem;
+  margin-top: 5rem;
   gap: 20px;
   animation: zoomIn 1s ease forwards;
 }
