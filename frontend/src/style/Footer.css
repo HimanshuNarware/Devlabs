@@ -1,7 +1,7 @@
 .Footer {
 	padding: 2rem 0;
 	margin-top: 15rem;
-	background: #74a309;
+	background: #8b5cf6;
 	color: white;
 }
 
@@ -101,7 +101,7 @@ footer {
 }
 
 .Last-footer {
-	background: #74a309;
+	background: #8b5cf6;
 	border: 1px solid white;
 	text-align: center;
 	padding: 1rem 0;
@@ -116,6 +116,7 @@ footer {
 .footer-icons {
 	margin-left: 20.14rem;
 }
+
 .Last-footer i {
 	padding: 0.4rem 0.5rem;
 	background: black;
@@ -131,7 +132,6 @@ footer {
 	cursor: pointer;
 }
 
-  
 
 .card-link:hover {
 	color: whitesmoke;
@@ -171,10 +171,12 @@ footer {
 		transform: scale(1);
 		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
 	}
+
 	50% {
 		transform: scale(1.05);
 		box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
 	}
+
 	100% {
 		transform: scale(1);
 		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);

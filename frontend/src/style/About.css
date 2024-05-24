@@ -16,7 +16,7 @@
 }
 
 .container-one .bx-1 p{
-    margin-top: 40px;
+    margin-top: 42px;
     text-align: justify;
 
 }
@@ -37,7 +37,9 @@
 
 
     .bx-2 img{
-        width: 80%;
+        margin:40px 20px;
+        width: 90%;
+        height:60vh;
         max-height: 500px;
         animation:fade-in;
 
@@ -91,7 +93,9 @@
 .repo-btn {
     font-weight: 500;
     margin: 0.8vmax 0 .8vmax 0;
-    padding: 8px 2px;
+    padding: 8px 8px;
+
+    padding: 8px 22px;
     color: #000000;
     border-radius: 12px;
     background-color: #8b5cf6;
@@ -120,7 +124,7 @@
 .content-box {
     border: 1px solid  #8b5cf6;
     margin: 20px;
-    padding: 7px 12px;
+    padding: 12px 12px;
     border-radius: 12px;
     max-width: 20vw;
     transition: 0.5s;

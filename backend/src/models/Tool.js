@@ -7,7 +7,7 @@ const ToolSchema = new mongoose.Schema({
     },
     category: {
         type: String,
-        enum: ['remote', 'resume', 'tweet', 'ai', 'ethical', 'movies', 'extensions', 'tools','coding', 'productivity'],
+        enum: ['remote', 'resume', 'tweet', 'ai', 'ethical', 'movies', 'extensions', 'tools','coding', 'productivity','collaboration'],
         required: true
     },
     image: {
