@@ -52,7 +52,7 @@ function Sidebar({ showSideNav }) {
     }
     ,
     {
-      name: "Collaboration",
+      name: "collaboration",
       description: "Collaboration Tools",
     }
   ];
