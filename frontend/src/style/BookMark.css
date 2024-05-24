@@ -67,14 +67,12 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
-  
+
   @media screen and (max-width: 550px) {
     .container-bk {
       grid-template-columns: repeat(1, 1fr);
     }
   }
-
   .custom-toast-container {
     top: 75px !important; 
   }
-  
