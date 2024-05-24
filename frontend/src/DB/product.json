@@ -2803,6 +2803,14 @@
 		"description": "A place where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often."
 	},
 	{
+
+		"productName": "Slidesgo",
+		"category": "AI",
+		"image": "slidesgo.png",
+		"link": "https://slidesgo.com/",
+		"description":"Slidesgo offers an extensive catalog of free Google Slides themes and PowerPoint templates for creative presentations."
+	}
+
 		"productName": "Intigriti",
 		"category": "ethical",
 		"image": "https://media.licdn.com/dms/image/D4E0BAQGuEpu0Xrph4w/company-logo_200_200/0/1702904021395/intigriti_logo?e=1724284800&v=beta&t=ZHMwYaL3urZ-MvaH4LdBCR5TIMLx2Sl2e3SarSUgae8",
@@ -2865,4 +2873,5 @@
 		"link": "https://www.offsec.com/labs/",
 		"description": "OffSec Proving Grounds (PG) Play and Practice is a modern network for practicing penetration testing skills on exploitable, real-world vectors."
 	  }	
+
 ]
