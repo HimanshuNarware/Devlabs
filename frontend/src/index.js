@@ -9,9 +9,8 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const options = {
-  bottom: '64px',
-  right: 'unset',
-  left: '32px',
+  bottom: 'unset',
+  right: '10px',
   time: '0.5s',
   mixColor: '#fff',
   backgroundColor: '#101623',
@@ -24,6 +23,8 @@ const options = {
 
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
+
+
 
 
 root.render(
