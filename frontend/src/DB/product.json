@@ -2815,13 +2815,15 @@
 		"image": "drawio.jpg",
 		"link": "https://www.drawio.com/",
 		"description": "Free online Diagram software that allows you to create various types of diagrams and charts."
-
+	},
+	{
 		"productName": "Slidesgo",
 		"category": "AI",
 		"image": "slidesgo.png",
 		"link": "https://slidesgo.com/",
 		"description":"Slidesgo offers an extensive catalog of free Google Slides themes and PowerPoint templates for creative presentations."
-	}
+	},
+	{
 
 		"productName": "Intigriti",
 		"category": "ethical",
