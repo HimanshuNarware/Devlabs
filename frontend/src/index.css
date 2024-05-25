@@ -24,14 +24,15 @@ body {
 	text-align: center;
 	background: linear-gradient(to left, #04121e, rgb(39, 2, 13), #021f23);
 	color: #8758f6;
+	position:relative;
 }
 
 .darkmode-layer,
 .darkmode-toggle {
   z-index: 35;
-  display: fixed;
+  position: absolute;
   bottom: 18px !important;
-  left: 0px !important;
+  
 }
 
 code {
