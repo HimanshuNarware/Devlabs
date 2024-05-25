@@ -10,6 +10,29 @@
   text-align: start;
   background-image:url('https://t3.ftcdn.net/jpg/04/57/92/32/360_F_457923238_8zmuShXTsS2CdsXisZSIutaBqKzl5haw.jpg');
 }
+:root {
+  --scrollbar-bg: white;          /* Background color of the scrollbar track */
+  --scrollbar-thumb: #0D6EFD;       /* Color of the scrollbar thumb */
+}
+
+/* Custom scrollbar for webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px;                      /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-bg);  /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);  /* Color of the scrollbar thumb */
+}
+
+/* Custom scrollbar for Firefox */
+* {
+  scrollbar-width: thin;                                /* Makes the scrollbar thin */
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-bg);  /* Custom colors */
+}
 
 @media (min-width: 768px) {
   .hero {
