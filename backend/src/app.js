@@ -12,7 +12,8 @@ app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL.replace(/"/g, ""),
+    // origin: process.env.FRONTEND_URL.replace(/"/g, ""),
+    origin:"*",
     credentials: true,
   })
 );
