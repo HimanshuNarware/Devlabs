@@ -158,3 +158,6 @@
   left: 6px;
   top: 14px;
 }
+.custom-toast-container {
+	top: 75px !important; 
+  }

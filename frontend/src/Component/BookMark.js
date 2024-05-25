@@ -1,3 +1,5 @@
+import { ToastContainer, toast,Slide } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { deleteSource } from "../Slice/DataSlice";
@@ -12,6 +14,7 @@ function BookMark() {
 
   const handleDeleteBookmark = (name) => {
     dispatch(deleteSource({ name }));
+    toast.success(`${name} Removed`);
 
     const bookmarksInStorage =
       JSON.parse(localStorage.getItem("bookmarks")) || [];
@@ -87,6 +90,7 @@ function BookMark() {
         </ul>
       )}
       </div>
+      <ToastContainer className="custom-toast-container" position="top-center" transition={Slide} />
     </div>
   );
 }
