@@ -191,7 +191,13 @@ useEffect(() => {
 }, [bookMarkData]);
 
 function showBookmarkAdded() {
-  toast.success(` ${bookMarkData.productName} Bookmark Added`);
+  toast.success(` ${bookMarkData.productName} Bookmark Added`,{autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      closeButton: true });
 }
   return (
     <div>

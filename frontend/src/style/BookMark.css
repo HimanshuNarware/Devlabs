@@ -73,6 +73,23 @@
       grid-template-columns: repeat(1, 1fr);
     }
   }
-  .custom-toast-container {
-    top: 75px !important; 
-  }
+.Toastify__toast {
+  background-color: #f6e4e4;
+  color: #1c1b1b;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  top:56px;
+}
+
+.Toastify__toast-body {
+  display: flex;
+  align-items: center;
+}
+
+.Toastify__close-button {
+  color: #0e0d0d;
+  position: absolute; 
+  top: 5px; 
+  right: 10px; 
+}
