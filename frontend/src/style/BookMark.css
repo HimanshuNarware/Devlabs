@@ -29,6 +29,12 @@
     border-radius: 12px;
 }
 
+.box-bk:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 25px #8b5cf6;
+  transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
 .btn-b {
     color: rgb(226, 43, 122);
     font-size: 1.1rem;
