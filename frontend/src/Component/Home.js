@@ -1,19 +1,30 @@
 import { ToastContainer, toast,Slide } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 import ClipLoader from "react-spinners/ClipLoader";
 import jsonTools from "../DB/product.json";
 import { setSource } from "../Slice/DataSlice";
 import "../style/Home.css";
-
+import Devlabs from "../image/hero_img.svg";
+import NavbarItem from "./Navbar/NavbarItem";
 const BACKEND = process.env.REACT_APP_BACKEND;
 function Home(props) {
 const [bookmarks,setBookmark] = useState(null)
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
   );
+  // to scroll the pagedown when we search for tool
+  const ref = useRef();
+  if(props.searchQuery!==""){
+    ref.current?.scrollIntoView(
+      {
+        'behavior' : 'smooth',
+      }
+    )
+  }
+
 
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
@@ -201,7 +212,26 @@ function showBookmarkAdded() {
 }
   return (
     <div>
-      <div className="page-container">
+    {/* hero section starts*/}
+    <div className="hero">
+            <div className="hero-text">
+              <div className="hero-container">
+                <div className="hero-content">
+                <h1 className="hero-heading">
+                  <span>Welcome to</span><br/> Devlabs!
+                  <h1 className="hero-subheading">Discover Free Tools,<br/>
+                  Empower Your Projects.<br/>
+                  <span className="hero-end"> -Built by open-source community</span>
+                  </h1>  
+                  </h1>
+                  <button className="hero-button"><NavbarItem description="Get Started" to="/open-source" /></button>
+                </div>
+                <img src={Devlabs} alt="devlabs-removebg-preview" className="hero-image"/>
+              </div>
+            </div>
+          </div>
+       {/* hero section ends */}
+      <div ref={ref} className="page-container">
         <div className={loading ? "loading-container" : "main-container"}>
           <ClipLoader
             color="#808080"

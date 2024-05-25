@@ -35,7 +35,7 @@ function NavbarRight(props) {
     <div className="navbar-right" id="navbarTogglerDemo03">
       <div className="search">
         <form role="search" className="search-bar" onSubmit={handleSearch}>
-          <div className="box">
+          <div className="box" focus>
             <input
               type="text"
               className="input"
