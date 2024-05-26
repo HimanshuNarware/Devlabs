@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import logo from "../image/logo.png";
 import "../style/Footer.css";
 import {FaGithubSquare, FaLinkedin, FaTwitter} from "react-icons/fa";
@@ -126,10 +127,11 @@ function Footer() {
                 <a
                   href="https://www.linkedin.com/in/himanshunarware/"
                   rel="noreferrer"
+                  target="_blank"
                 >
                   <BsLinkedin className="text-white mx-1 fs-4"/>
                 </a>
-                <a href="https://twitter.com/N_Himanshu_/" rel="noreferrer">
+                <a href="https://twitter.com/N_Himanshu_/" rel="noreferrer" target="_blank">
                   <FaTwitter className="text-white mx-1 fs-4"/>
                 </a>
                 <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
@@ -138,6 +140,7 @@ function Footer() {
                 <a
                   href="https://github.com/HimanshuNarware/Devlabs"
                   rel="noreferrer"
+                  target="_blank"
                 >
                   <FaGithubSquare className="text-white mx-1 fs-4"/>
                 </a>
