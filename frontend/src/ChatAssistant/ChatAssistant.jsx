@@ -6,6 +6,7 @@ import ActionProvider from '../ChatBot/ActionProvider';
 import "./ChatAssistant.css"
 import React, { useState } from 'react';
 import chatbotLogo from '../assets/chatbotLogo.jpeg'
+import chatbotLogo1 from '../assets/logo1.png'
 
 const ChatAssistant = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,10 @@ const ChatAssistant = () => {
   };
     return (
       <div className="chatbot">
-        <img className="Logo" src={chatbotLogo} alt="Logo" onClick={toggleChatbot} />
+        <img className="Logo" src={chatbotLogo} alt="Logo" onClick={toggleChatbot} 
+        onMouseEnter={() => (document.querySelector(".Logo").src = chatbotLogo1)} 
+        onMouseLeave={() => (document.querySelector(".Logo").src = chatbotLogo)}
+        />
       {isOpen && 
         <Chatbot
           config={config}
