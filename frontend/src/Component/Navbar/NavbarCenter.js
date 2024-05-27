@@ -1,8 +1,10 @@
 import React from "react";
-import "../../style/Navbar.css";
+import { useSelector } from "react-redux";
 import NavbarItem from "./NavbarItem";
 
-function NavbarCenter(){
+function NavbarCenter() {
+  const totalBookmarks = useSelector((state) => state.SourceReducer.totalBookmarks);
+
   return (
     <span className="navbar-center">
       <ul className="mb-2 navbar-content">
@@ -10,10 +12,10 @@ function NavbarCenter(){
           <NavbarItem description="Home" to="/" />
         </li>
         <li className="nav-item">
-          <NavbarItem description="BookMark" to="/bookmark" />
+          <NavbarItem description={`BookMark (${totalBookmarks})`} to="/bookmark" />
         </li>
         <li className="nav-item">
-          <NavbarItem description="Open Source" to="/open-source"/>
+          <NavbarItem description="Open Source" to="/open-source" />
         </li>
         <li className="nav-item">
           <NavbarItem description="About Us" to="/about" />
@@ -21,6 +23,6 @@ function NavbarCenter(){
       </ul>
     </span>
   );
-};
+}
 
 export default NavbarCenter;
