@@ -22,8 +22,7 @@ const [bookmarks,setBookmark] = useState(null)
       }
     )
   }
-
-
+  
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
   const lastPostIndex = currentPage * postPerpage;
@@ -231,7 +230,7 @@ function handleBookmark(datalist){
                   src={datalist.image}
                   alt={datalist.category}
                 />
-                <h2>{datalist.productName}</h2>
+                <h2 className="product-name">{datalist.productName}</h2>
                 <p className="content-box-text">{datalist.description}</p>
                 <button
                   className="btn-b-box"

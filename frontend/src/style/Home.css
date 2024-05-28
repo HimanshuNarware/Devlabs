@@ -8,7 +8,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: start;
-  background-image:url('https://t3.ftcdn.net/jpg/04/57/92/32/360_F_457923238_8zmuShXTsS2CdsXisZSIutaBqKzl5haw.jpg');
+  background-image:url('');
 }
 :root {
   --scrollbar-bg: white;          /* Background color of the scrollbar track */
@@ -51,7 +51,7 @@
 .hero-text {
   width: 100%; 
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(7, 8, 43);
 }
 
 .hero-container {
@@ -113,9 +113,10 @@
 }
 
 .hero-heading {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 500; 
   font-size: 2.5rem; 
-  color:   #8b5cf6;
+  color:   #ffffff;
   padding-top: 0.5rem; 
   padding-bottom: 0.5rem; 
   padding-left: 0.5rem; 
@@ -137,22 +138,22 @@
   }
 }
 .hero-button{
-  background-color:#8b5cf6;
+  background-color:#bfff00b9;
   height:3.5rem;
   font-size: 2rem;
   border-radius:30px;
   font-weight:600;
-  margin-top:3px;
   border: none;
 }
 .hero-button:hover{
-  background: #101623;
-  border: 2px solid #8b5cf6;
-  color: white;
+  background: #ffffff;
+  font-size:25px;
+  border: 2px solid #ff9900;
+  color: rgb(0, 0, 0);
   box-shadow: 4px 4px 2px #8b5cf6;
 }
 .hero-button a:hover{
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .hero-end{
   margin-top:5%;
@@ -227,13 +228,17 @@
   }
 }
 
+.product-name{
+  color:#91fd0d;
+}
+
 .content-box-home {
-  background-color: #101623;
-  border: 2px solid rgba(79, 71, 125, 255);
+  background-color: #4f600c;
+  border: 2px solid rgba(79, 20, 105, 255);
   margin: 20px;
   padding: 7px 12px;
   border-radius: 12px;
-  box-shadow: 2px 2px 8px rgba(79, 71, 125, 255);
+  box-shadow: 2px 2px 8px rgba(79, 20, 105, 255);
 }
 
 @media screen and (max-width: 950px) {
@@ -285,14 +290,14 @@
 .btn-booked-box,.btn-b-box {
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
-  border: 1px solid #8b5cf6;
+  border: 1px solid #200c4e;
   margin-inline: 10px;
   padding: 6px 16px 6px 16px;
   background: transparent;
   margin-bottom: 10px;
   border-radius: 6px;
   box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
-  background-color: #8b5cf6;
+  background-color: #000000;
   cursor: pointer;
 }
 .btn-booked-box{
@@ -300,12 +305,12 @@
 }
 .btn-booked-box:hover{
   cursor: pointer;
-  background-color: #ff6b6be3;
+  background-color: #371212e3;
 }
 .btn-b-box:hover {
   background: transparent;
   cursor: pointer;
-  box-shadow: 2px 2px 1px #8b5cf6;
+  box-shadow: 2px 2px 1px #983131;
 }
 
 .popup {

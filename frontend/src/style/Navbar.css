@@ -1,6 +1,6 @@
 /* https://codepen.io/himalayasingh/pen/dqjLgO */
 .navbar {
-  background-color: #8b5cf6;
+  background-color: #85c918;
   padding: 8px 10px;
   position: fixed;
   width: 100%;
@@ -124,7 +124,7 @@
   position: absolute;
   height: 5px;
   width: 100%;
-  background: #000;
+  background: #000000;
   border-radius: 9px;
   opacity: 1;
   left: 0;
