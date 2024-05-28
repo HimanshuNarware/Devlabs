@@ -126,11 +126,12 @@ function Footer() {
                 <a
                   href="https://www.linkedin.com/in/himanshunarware/"
                   rel="noreferrer"
+                  target="_blank"
                 >
                   <BsLinkedin className="text-white mx-1 fs-4"/>
                 </a>
-                <a href="https://twitter.com/N_Himanshu_/" rel="noreferrer">
-                  <FaTwitter className="text-white mx-1 fs-4"/>
+                <a href="https://twitter.com/N_Himanshu_/" rel="noreferrer" target="_blank">
+                  <i class="fa-brands fa-square-x-twitter text-white mx-1 fs-4"></i>
                 </a>
                 <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
                   <SiGmail className="text-white mx-1 fs-4"/>
@@ -138,6 +139,7 @@ function Footer() {
                 <a
                   href="https://github.com/HimanshuNarware/Devlabs"
                   rel="noreferrer"
+                  target="_blank"
                 >
                   <FaGithubSquare className="text-white mx-1 fs-4"/>
                 </a>

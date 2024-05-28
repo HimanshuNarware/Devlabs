@@ -2,7 +2,7 @@
 .navbar {
   background-color: #8b5cf6;
   padding: 8px 10px;
-  position: fixed;
+  position: sticky;
   width: 100%;
   align-items: center;
   justify-content: space-between;
