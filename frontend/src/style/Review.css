@@ -31,8 +31,8 @@
     padding: 10px;
     width: 75%;
     color: white;
-    background-color: #202020;
-    border: none;
+    background: none;
+    border: 2px solid #8b5cf6;
     border-radius: 10px;
     margin: 10px;
 }
@@ -50,17 +50,19 @@
     font-weight: 500;
     padding: 8px 40px;
     margin: 5px;
-    color: white;
+    color: black;
     width: max-content;
-    border-radius: 12px;
-    background-color: #ff0050;
-    border: 2px solid #ff0050;
+    border-radius: 20px;
+    background-color: #8b5cf6;
+    border:none;
     transition-duration: 250ms;
+    margin-top: -90px;
 }
 
 .form-button:hover {
-    background-color: transparent;
-    color: #ffffff ;
+    background: #101623;
+    border: 2px solid #8b5cf6;
+    color: white;
 }
 
 @media screen and (max-width: 375px) {

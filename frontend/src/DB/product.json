@@ -64,6 +64,13 @@
 		"description": " Provides information about Open Web technologies including HTML, CSS, and APIs"
 	},
 	{
+		"productName": "Hashnode",
+		"category": "blogging",
+		"image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png",
+		"link": "https://hashnode.com/",
+		"description": "Hashnode is a free blogging platform for developers that enables them to create content, share knowledge, and grow their network within the tech community."
+	},
+	{
 		"productName": "Magic Eraser",
 		"category": "tools",
 		"image": "https://play-lh.googleusercontent.com/tVEiGmoOyq3qwQUdkYYbD43DlZWe2jaTq4vkJqVWl5LrHYmhBOmbK8kqvF2ja6aZl1M",
@@ -666,13 +673,7 @@
 		"description": "SVG wave generator for web design backgrounds."
 	},
 	{
-		"productName": "CodeSandBox",
-		"category": "web",
-		"image": "https://seeklogo.com/images/C/code-sandbox-logo-0746E97CA1-seeklogo.com.png",
-		"link": "https://codesandbox.io/",
-		"description": "Online code editor and developer collaboration platform."
-	},
-	{
+
 		"productName": "Mesh Gradient",
 		"category": "web",
 		"image": "https://bit.ly/3KUNHDt",
@@ -1915,7 +1916,7 @@
 	},
 	{
 		"productName": "Replit",
-		"category": "Online Code Editor",
+		"category": "web",
 		"image": "replit.png",
 		"link": "https://replit.com/",
 		"description": "An online IDE that allows users to create,run and share code in a web browser"
@@ -2801,5 +2802,112 @@
 		"image": "https://www.shutterstock.com/image-vector/vinnytsia-ukraine-may-7-2023-600nw-2299584421.jpg",
 		"link": "https://discord.com/",
 		"description": "A place where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often."
+	},
+	{
+		"productName": "Draw.io",
+		"category": "productivity",
+		"image": "drawio.jpg",
+		"link": "https://www.drawio.com/",
+		"description": "Free online Diagram software that allows you to create various types of diagrams and charts."
+	},
+
+	{	"productName": "Slidesgo",
+
+		"category": "AI",
+		"image": "slidesgo.png",
+		"link": "https://slidesgo.com/",
+		"description":"Slidesgo offers an extensive catalog of free Google Slides themes and PowerPoint templates for creative presentations."
+
 	}
+,
+		{"productName": "Intigriti",
+
+		"category": "ethical",
+		"image": "https://media.licdn.com/dms/image/D4E0BAQGuEpu0Xrph4w/company-logo_200_200/0/1702904021395/intigriti_logo?e=1724284800&v=beta&t=ZHMwYaL3urZ-MvaH4LdBCR5TIMLx2Sl2e3SarSUgae8",
+		"link": "https://www.intigriti.com/",
+		"description": "The Intigriti platform is built for bug bounty hunters, by bug bounty hunters."
+	},
+	{
+		"productName": "CyberChef",
+		"category": "ethical",
+		"image": "https://th.bing.com/th/id/OIP.KyzPtjDERPwHh2gXV8U2SwHaHa?rs=1&pid=ImgDetMain",
+		"link": "https://cyberchef.org/",
+		"description": "CyberChef is a simple, intuitive and powerful tool for exploring data formats, encryption and compression."
+	},
+	{
+		"productName": "RootMe",
+		"category": "ethical",
+		"image": "https://pbs.twimg.com/profile_images/925763062837252096/43MyHYBN_400x400.jpg",
+		"link": "https://www.root-me.org/?lang=en",
+		"description": "Root Me is a website where you can train your hacking skills on various exercises and virtual environments."
+	},
+	{
+		"productName": "CTFtime",
+		"category": "ethical",
+		"image": "https://www.securitynewspaper.com/snews-up/2019/10/Icons_CTF.png",
+		"link": " https://ctftime.org/",
+		"description": "A great website to have all the records of upcoming and live CTF events"
+	},
+	{
+		"productName": "PentesterLab",
+		"category": "ethical",
+		"image": "https://th.bing.com/th/id/OIP.Xzp0HEEbnkjHrWJehpksPgHaHy?rs=1&pid=ImgDetMain",
+		"link": "https://www.pentesterlab.com/",
+		"description": "It is a fantastic platform to develop strong fonudation of web app security."
+	},
+	{
+		"productName": "Linux Journey",
+		"category": "ethical",
+		"image": "https://linuxjourney.com/assets/jumbotron-60c93c2fc6bb16079b70fe2eccacaa05f2d6b002af4ff0667ddd8e283cbf81fd.png",
+		"link": "https://linuxjourney.com/",
+		"description": "Linux journey is one of the best platform to learn linux commands."
+	},
+	{
+		"productName": "Cybrary",
+		"category": "ethical",
+		"image": "https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/62142569-dd07-4797-96e6-4ba2f2956c13.png?auto=format&ixlib=react-9.0.3&w=4742",
+		"link": "https://www.cybrary.it/",
+		"description": "Cybrary offers accessible, affordable, and curated courses and paths for cybersecurity professionals at all levels."
+	},
+	{
+		"productName": "Exploit Database",
+		"category": "ethical",
+		"image": "https://www.mitchellpest.com/images/cta/pest.2403081343359.png",
+		"link": "https://www.exploit-db.com/",
+		"description": "A website curated a large list of exploits, bug and web-based vulnerability reported by security reesearcher"
+	},
+	{
+		"productName": "Proving Grounds",
+		"category": "ethical",
+		"image": "https://media.licdn.com/dms/image/C4E0BAQHaN2i1_8U4rw/company-logo_200_200/0/1677689983147/offensive_security_logo?e=1724284800&v=beta&t=cPqiAgwp7lSpLkoykY3iQNfKjMYSmUYqgnowysqsvmk",
+		"link": "https://www.offsec.com/labs/",
+		"description": "OffSec Proving Grounds (PG) Play and Practice is a modern network for practicing penetration testing skills on exploitable, real-world vectors."
+	},
+	{
+		"productName": "Github",
+		"category": "collaboration",
+		"image": "https://media.licdn.com/dms/image/C560BAQFmuLSyL1nlPA/company-logo_200_200/0/1678231359043/github_logo?e=1724889600&v=beta&t=7s2Ecmtlw5lBbIZb8EcO3SyhBnQmv2jXEhsUyZE0zLo",
+		"link": "https://github.com/",
+		"description": "GitHub is a widely used platform among developers, providing a space to create, store, manage and collaborate on code."
+	},
+	{
+		"productName": "GitLab",
+		"category": "collaboration",
+		"image": "https://media.licdn.com/dms/image/D560BAQEMpW43u_veYQ/company-logo_200_200/0/1707968675381/gitlab_com_logo?e=2147483647&v=beta&t=RrAmlbjTh7l6Rui9JjI4fObymrhYl-SRsc1sO_ek1QY",
+		"description": "It is more than just a Git repository manager it is a complete DevOps platform that enables development teams to collaborate productively, automate repetitive tasks, and deliver software faster and with better quality."
+	},
+	{
+		"productName": "BitBucket",
+		"category": "collaboration",
+		"image": "https://media.licdn.com/dms/image/C5633AQE2Tg6KNJfrLA/productpage-logo-image_200_200/0/1630996699471/null_logo?e=1717174800&v=beta&t=IVJKM1umGhSUFlUhur3RqaeOm4TtZtVZNXO7uCBaLQ4",
+		"link": "https://bitbucket.org/",
+		"description": "Bitbucket is more than just Git code management. Bitbucket gives teams one place to plan projects, collaborate on code, test, and deploy."
+	},
+	{
+		"productName": "CodeSandBox",
+		"category": "collaboration",
+		"link": "https://media.licdn.com/dms/image/C4E0BAQFdNU256OlLZA/company-logo_200_200/0/1645108917187/codesandbox_logo?e=1724889600&v=beta&t=WGUpOGdWMdMQzZjaVwnV_STywCwPm6fiYZXt2PwTK-U",
+		"description": "CodeSandbox is a platform that lets you create, review and collaborate on code in the cloud. It offers fast, consistent and secure environments."
+	}
+
 ]
