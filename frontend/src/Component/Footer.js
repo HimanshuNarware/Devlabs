@@ -131,7 +131,7 @@ function Footer() {
                   <BsLinkedin className="text-white mx-1 fs-4"/>
                 </a>
                 <a href="https://twitter.com/N_Himanshu_/" rel="noreferrer" target="_blank">
-                  <FaTwitter className="text-white mx-1 fs-4"/>
+                  <i class="fa-brands fa-square-x-twitter text-white mx-1 fs-4"></i>
                 </a>
                 <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
                   <SiGmail className="text-white mx-1 fs-4"/>
