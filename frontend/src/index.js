@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const options = {
   bottom: 'unset',
-  right: '10px',
+  left:'15px' ,
   time: '0.5s',
   mixColor: '#fff',
   backgroundColor: '#101623',

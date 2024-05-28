@@ -218,9 +218,17 @@ function showBookmarkAdded() {
                   <span className="hero-end"> -Built by open-source community</span>
                   </h1>  
                   </h1>
-                  <button className="hero-button"><NavbarItem description="Get Started" to="/open-source" /></button>
+                 
+      <div className="hero-button-container"> 
+      <button className="hero-button"><NavbarItem description="Get Started" to="/open-source" /></button>
+      </div>    
                 </div>
-                <img src={Devlabs} alt="devlabs-removebg-preview" className="hero-image"/>
+                <div className="hero-image">
+                <img src={Devlabs} alt="devlabs-removebg-preview" />
+                </div>
+
+
+             
               </div>
             </div>
           </div>
