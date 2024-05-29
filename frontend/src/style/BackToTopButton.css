@@ -1,7 +1,6 @@
 .back-to-top-button {
-    display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     right: 20px;
     z-index: 99;
     background-color: #00c68a;
