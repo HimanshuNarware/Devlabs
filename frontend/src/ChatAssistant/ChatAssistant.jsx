@@ -21,11 +21,19 @@ const ChatAssistant = () => {
         onMouseLeave={() => (document.querySelector(".Logo").src = chatbotLogo)}
         />
       {isOpen && 
+
+        <img className="Logo" src={chatbotLogo} alt="Logo" onClick={toggleChatbot} />
+        <div className={`${isOpen?"chatbot-animation":"chatbot-close-animation"}`}>
+
+       {isOpen && 
         <Chatbot
           config={config}
           messageParser={MessageParser}
           actionProvider={ActionProvider}
-        />}
+          />
+          
+        }
+        </div>
       </div>
     );
   }
