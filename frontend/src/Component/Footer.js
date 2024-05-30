@@ -90,6 +90,7 @@ function Footer() {
               </ul>
             </div>
             <div className="col-md-6 col-lg-2 col-12 ft-4">
+              <h5>Explore</h5>
               <ul>
                 <li className="nav-item">
                   <a className="" href="/">
