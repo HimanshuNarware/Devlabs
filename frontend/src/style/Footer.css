@@ -81,7 +81,7 @@ footer {
 }
 
 .ft-4 {
-	margin-top: 5.5rem;
+	margin-top: 3.5rem;
 	text-decoration: none;
 }
 
@@ -98,6 +98,10 @@ footer {
 	text-decoration: none;
 	color: white;
 	font-size: 1rem;
+}
+
+.fa-brands.fa-square-x-twitter {
+	transform: translateY(4px); 
 }
 
 .Last-footer {

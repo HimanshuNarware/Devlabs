@@ -2,7 +2,7 @@
 .navbar {
   background-color: #85c918;
   padding: 8px 10px;
-  position: fixed;
+  position: sticky;
   width: 100%;
   align-items: center;
   justify-content: space-between;
@@ -189,7 +189,7 @@
 
 .nav-item {
   position: relative;
-  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  color: #fff;
 }
 
 .nav-item::before {

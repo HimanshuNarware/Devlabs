@@ -60,7 +60,7 @@ function About() {
       <div className="container-one">
         <div className="bx-1" data-aos="">
           <p >
-            Devlabs is an application that is used to search for free tools that
+            Devlabs is an application used to search for tools that
             are both free and helpful for our needs. It is built by the amazing
             open-source community.
           </p>
@@ -93,8 +93,8 @@ function About() {
         <div className="bx-1">
           <p>
             Great things are never created in isolation. Thanks to our amazing
-            Contributors, we've brought this product to life. And with your
-            help, we can continue to make it even better. If you're a Developer
+            contributors, we've brought this product to life. With your
+            help, we can continue to make it even better. If you're a developer
             or a Tech enthusiast, you can help us create a better experience for
             everyone. We are excited to hear your thoughts and ideas.
           </p>

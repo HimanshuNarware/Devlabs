@@ -20,7 +20,13 @@
 		"link": "https://www.coursera.org/",
 		"description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
 	},
-
+	{
+		"productName": "Seowriting.AI",
+		"category": "tools",
+		"image": "https://bit.ly/4bSrO1A",
+		"link": "https://seowriting.ai/",
+		"description": "SEO WRITING is an AI writing tool for 1-click SEO-optimized articles, blog posts & affiliate content."
+	},
 	{
 		"productName": "Scaler",
 		"category": "coding",
@@ -2810,15 +2816,18 @@
 		"link": "https://www.drawio.com/",
 		"description": "Free online Diagram software that allows you to create various types of diagrams and charts."
 	},
-	{
-		"productName": "Slidesgo",
+
+	{	"productName": "Slidesgo",
+
 		"category": "AI",
 		"image": "slidesgo.png",
 		"link": "https://slidesgo.com/",
 		"description":"Slidesgo offers an extensive catalog of free Google Slides themes and PowerPoint templates for creative presentations."
-	},
-	{
-		"productName": "Intigriti",
+
+	}
+,
+		{"productName": "Intigriti",
+
 		"category": "ethical",
 		"image": "https://media.licdn.com/dms/image/D4E0BAQGuEpu0Xrph4w/company-logo_200_200/0/1702904021395/intigriti_logo?e=1724284800&v=beta&t=ZHMwYaL3urZ-MvaH4LdBCR5TIMLx2Sl2e3SarSUgae8",
 		"link": "https://www.intigriti.com/",
