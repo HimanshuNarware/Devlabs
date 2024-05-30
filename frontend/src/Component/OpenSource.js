@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../style/OpenSource.css";
 import ReactPaginate from "react-paginate";
 import axios from "axios";
+import Tilt from "react-parallax-tilt";
 import ClipLoader from "react-spinners/ClipLoader";
 import jsonProjects from "../DB/openSource.json";
 
@@ -56,6 +57,7 @@ const OpenSource = () => {
                 />
 
                 {currentPageProjects.map((project) => (
+                    <Tilt>
                     <div className="content-box-home" key={project.projectName}>
                         <h2>{project.projectName}</h2>
                         <span className="content-box-subtitle">
@@ -81,6 +83,7 @@ const OpenSource = () => {
                                 ))}
                         </div>
                     </div>
+                    </Tilt>
                 ))}
             </div>
 

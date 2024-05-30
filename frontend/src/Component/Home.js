@@ -3,6 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 import ClipLoader from "react-spinners/ClipLoader";
 import jsonTools from "../DB/product.json";
+import Tilt from "react-parallax-tilt";
 import { deleteSource, setSource } from "../Slice/DataSlice";
 import "../style/Home.css";
 import Devlabs from "../image/hero_img.svg";
@@ -248,6 +249,7 @@ function Home(props) {
 
                     {currentPost.map((datalist) => {
                         return (
+                            <Tilt>
                             <div
                                 className="content-box-home"
                                 key={datalist.productName}>
@@ -289,6 +291,7 @@ function Home(props) {
                                     </button>
                                 )}
                             </div>
+                            </Tilt>
                         );
                     })}
                 </div>

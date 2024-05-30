@@ -11,6 +11,7 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
+import AnimatedCursor from "react-animated-cursor";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -19,6 +20,28 @@ function App() {
   AOS.init();
   return (
     <>
+    <AnimatedCursor 
+        innerSize={9}
+        outerSize={40}
+        color="102,106,109"
+        outerAlpha={.2}
+        innerScale={0.7}
+        outerScale={3}
+        clickables={[
+          
+          'a',
+          'input[type="text"]',
+          'input[type="email"]',
+          'input[type="number"]',
+          'input[type="submit"]',
+          'input[type="image"]',
+          'label[for]',
+          'select',
+          'textarea',
+          'button',
+          '.link'
+        ]}
+      />
       <Navbar setSearchQuery={setSearchQuery} />
       <Routes>
         <Route path="/" element={<Home searchQuery={searchQuery} />}></Route>

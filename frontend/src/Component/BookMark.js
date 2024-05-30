@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { deleteSource } from "../Slice/DataSlice";
+import Tilt from "react-parallax-tilt";
 import "../style/BookMark.css";
 
 function BookMark() {
@@ -32,10 +33,13 @@ function BookMark() {
   const prevPage = () => setCurrentPage(currentPage - 1);
 
   return (
+    
     <div className="containerBK">
+  
     <div className="container-bk">
       {currentBookmarks.length > 0 ? (
         currentBookmarks.map((data, index) => (
+          <Tilt>
           <div className="box-bk" key={index}>
             <img className="logo" src={data.image} alt={data.name} />
             <h2>{data.name}</h2>
@@ -50,6 +54,7 @@ function BookMark() {
               Remove
             </button>
           </div>
+          </Tilt>
         ))
       ) : (
         <div className="bk-empty">
@@ -57,6 +62,7 @@ function BookMark() {
         </div>
       )}
       </div>
+      {/* </Tilt> */}
       <div>
         {/* Pagination */}
       {sourceData.length > postPerPage && currentBookmarks.length > 0 && (
@@ -88,6 +94,7 @@ function BookMark() {
       )}
       </div>
     </div>
+    
   );
 }
 
