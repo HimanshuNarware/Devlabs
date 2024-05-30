@@ -16,12 +16,17 @@ const ChatAssistant = () => {
     return (
       <div className="chatbot">
         <img className="Logo" src={chatbotLogo} alt="Logo" onClick={toggleChatbot} />
-      {isOpen && 
+        <div className={`${isOpen?"chatbot-animation":"chatbot-close-animation"}`}>
+
+       {isOpen && 
         <Chatbot
           config={config}
           messageParser={MessageParser}
           actionProvider={ActionProvider}
-        />}
+          />
+          
+        }
+        </div>
       </div>
     );
   }

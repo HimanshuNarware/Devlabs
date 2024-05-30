@@ -5,7 +5,32 @@
   margin-right: 20px;
   margin-bottom: 12px;
 }
+.chatbot-close-animation{
+  animation: animate-close ease-in 0.3s forwards;
 
+}
+.chatbot-animation{
+  
+  animation: animate ease-in 0.3s forwards;
+}
+@keyframes animate {
+  from{
+    height: 0px;
+    /* width: 250px; */
+  }to{
+    height: 450px;
+    width: 350px;
+  }
+}
+@keyframes animate-close {
+  from{
+    height: 450px;
+    width: 350px;
+  }to{
+    height: 0px;
+    width: 0px;
+  }
+}
 .react-chatbot-kit-chat-input {
   outline: none;
 }
