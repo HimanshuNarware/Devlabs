@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 import store from './Store/store'
 import Darkmode from 'darkmode-js';
 import { BrowserRouter } from 'react-router-dom';
+import Preloader from './Component/Preloader';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const options = {
@@ -13,7 +14,7 @@ const options = {
   left:'15px' ,
   time: '0.5s',
   mixColor: '#fff',
-  backgroundColor: '#101623',
+  backgroundColor: '#fff',
   buttonColorDark: '#f0f0f0',
   buttonColorLight: '#100f2c',
   saveInCookies: true,
@@ -31,7 +32,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
-        <App />
+        {/* <App /> */}
+        <Preloader/>
       </Provider>
     </BrowserRouter>
   </React.StrictMode>
