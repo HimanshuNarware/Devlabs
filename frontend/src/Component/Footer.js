@@ -21,7 +21,6 @@ function Footer() {
                 enjoying the site ?{" "}
               </h5>
               <button>
-                {" "}
                 <Link to='/review'>Tell us now</Link>
               </button>
             </div>

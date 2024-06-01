@@ -28,6 +28,7 @@
     "react-router-dom": "^6.16.0",
     "react-scripts": "^5.0.1",
     "react-spinners": "^0.13.8",
+    "react-toastify": "^10.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
