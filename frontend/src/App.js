@@ -15,10 +15,6 @@ import Review from "./Component/Review";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
-
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from "./Component/ScrollToTop";
 function App() {
