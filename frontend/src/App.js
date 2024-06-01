@@ -15,40 +15,33 @@ import Review from "./Component/Review";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
-
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./Component/ScrollToTop";
+
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
   AOS.init();
   return (
     <>
       <BrowserRouter>
-      <ScrollToTop/>
-      <Navbar setSearchQuery={setSearchQuery} />
-    
-      
-      <Routes>
-        <Route path="/" element={<Home searchQuery={searchQuery} />}></Route>
-        <Route path="/bookmark" element={<BookMark />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/open-source" element={<OpenSource />}></Route>
-        <Route path="/review" element={<Review />}></Route>
-        <Route path="*" element={<NotFound />} /> {/* 404 route */}
-      </Routes>
-      
-      <BackToTopButton />
-      <Footer />
+        <ScrollToTop />
+        <Navbar setSearchQuery={setSearchQuery} />
 
-      <Toaster />
-      <ChatAssistant />
+        <Routes>
+          <Route path="/" element={<Home searchQuery={searchQuery} />} />
+          <Route path="/bookmark" element={<BookMark />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/open-source" element={<OpenSource />} />
+          <Route path="/review" element={<Review />} />
+          <Route path="*" element={<NotFound />} /> {/* 404 route */}
+        </Routes>
 
-      <ChatAssistant/>
+        <BackToTopButton />
+        <Footer />
+
+        <Toaster />
+        <ChatAssistant />
       </BrowserRouter>
-
     </>
   );
 }

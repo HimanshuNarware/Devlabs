@@ -32,6 +32,7 @@ function Home(props) {
   const [loading, setLoading] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [showRemovePopup, setShowRemovePopup] = useState(false);
+  const [contributors, setContributors] = useState([]);
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
@@ -65,7 +66,17 @@ function Home(props) {
       }
       setLoading(false);
     };
+
+    const fetchContributors = async () => {
+      const response = await axios.get(
+        "https://api.github.com/repos/HimanshuNarware/Devlabs/contributors"
+      );
+      setContributors(response.data);
+    };
+
     fetchData();
+    fetchContributors();
+
     return () => {
       window.removeEventListener("storage", handleStorageChange);
     };
@@ -141,7 +152,6 @@ function Home(props) {
         })
       );
       toast.success("Bookmark added successfully");
-
     } else {
       let found = false;
       for (let item of bookmarks) {
@@ -283,38 +293,44 @@ function Home(props) {
             );
           })}
         </div>
-
-        {filteredData.length > 16 && (
-          <nav>
-            <ul className="pagination">
-              <li className="page-item">
-                {currentPage > 1 && (
-                  <button href="#" className="page-link" onClick={prePage}>
-                    prev
-                  </button>
-                )}
+        <div className="pagination">
+          <ul>
+            <li>
+              <a href="#!" onClick={prePage}>
+                &lt;
+              </a>
+            </li>
+            {numbers.map((n, i) => (
+              <li key={i} className={`${currentPage === n ? "active" : ""}`}>
+                <a href="#!" onClick={() => changeCPage(n)}>
+                  {n}
+                </a>
               </li>
-              <li className={`page-item active`}>
-                <button
-                  href="#"
-                  className="page-link"
-                  onClick={() => changeCPage(currentPage)}
-                >
-                  {currentPage}
-                </button>
-              </li>
-              <li className="page-item">
-                <button href="#" className="page-link" onClick={nextPage}>
-                  next
-                </button>
-              </li>
-            </ul>
-          </nav>
-        )}
-
-        {filteredData.length === 0 ? (
-          <h2>There is nothing here to show.</h2>
-        ) : null}
+            ))}
+            <li>
+              <a href="#!" onClick={nextPage}>
+                &gt;
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="contributors-section">
+        <h2>Faces of Dedication: Our Contributing Heroes</h2>
+        <div className="contributors-grid">
+          {contributors.map((contributor) => (
+            <a
+              key={contributor.id}
+              href={contributor.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contributor"
+            >
+              <img src={contributor.avatar_url} alt={contributor.login} />
+              <p>{contributor.login}</p>
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   );
