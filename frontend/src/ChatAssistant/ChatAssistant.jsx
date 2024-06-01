@@ -14,6 +14,11 @@ const ChatAssistant = () => {
   const toggleChatbot = () => {
     setIsOpen(!isOpen);
   };
+
+  const closeChatbot = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="chatbot">
       <img
@@ -34,6 +39,9 @@ const ChatAssistant = () => {
             alt="Logo"
             onClick={toggleChatbot}
           />
+          <button className="close-button" onClick={closeChatbot}>
+            X
+          </button>
           <div
             className={`${
               isOpen ? "chatbot-animation" : "chatbot-close-animation"
