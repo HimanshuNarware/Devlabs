@@ -205,7 +205,7 @@ function Home(props) {
     <div>
       <div className="hero">
         <div className="hero-text">
-          <div className="hero-container">
+          <div id="hero" className="hero-container">
             <div className="hero-content">
               <h1 className="hero-heading">
                 <span>Welcome to</span>
