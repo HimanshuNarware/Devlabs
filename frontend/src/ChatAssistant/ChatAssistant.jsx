@@ -15,7 +15,6 @@ const ChatAssistant = () => {
     setIsOpen(!isOpen);
   };
 
-
         <img className="Logo" src={chatbotLogo} alt="Logo" onClick={toggleChatbot} />}
         <div className={`${isOpen?"chatbot-animation":"chatbot-close-animation"}`}>
 
@@ -36,6 +35,19 @@ const ChatAssistant = () => {
         onMouseLeave={() => (document.querySelector(".Logo").src = chatbotLogo)}
       />
       {isOpen && (
+
+        <div
+          className={`${
+            isOpen ? "chatbot-animation" : "chatbot-close-animation"
+          }`}
+        >
+          <Chatbot
+            config={config}
+            messageParser={MessageParser}
+            actionProvider={ActionProvider}
+          />
+        </div>
+
         <div>
           <img
             className="Logo"

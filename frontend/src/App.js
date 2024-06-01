@@ -11,6 +11,12 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Toaster } from "react-hot-toast";
+
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { BrowserRouter } from 'react-router-dom';
@@ -36,8 +42,13 @@ function App() {
       
       <BackToTopButton />
       <Footer />
+
+      <Toaster />
+      <ChatAssistant />
+
       <ChatAssistant/>
       </BrowserRouter>
+
     </>
   );
 }
