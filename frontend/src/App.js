@@ -1,6 +1,6 @@
+import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import React, { useState } from "react";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
 import Home from "./Component/Home";
@@ -11,7 +11,6 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
@@ -44,8 +43,6 @@ function App() {
 
       <Toaster />
       <ChatAssistant />
-
-      <ChatAssistant/>
       </BrowserRouter>
 
     </>
