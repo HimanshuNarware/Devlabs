@@ -30,16 +30,13 @@
 .form-input-field {
     padding: 10px;
     width: 75%;
-    color: white;
+    color: black; /* I have changed color so that it is visible on website*/
     background: none;
     border: 2px solid #8b5cf6;
     border-radius: 10px;
     margin: 10px;
 }
 
-/* .input-email {
-
-}*/
 
 .input-review {  /* I have added this feature so that the text area size is fixed*/
     resize: none;

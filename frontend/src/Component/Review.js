@@ -15,8 +15,16 @@ function Review() {
 		setReviewData({...reviewData, [event.target.id]: event.target.value});
 	}
 	
-	const onSumbitHandler = async (event) => {
+	const onSubmitHandler = async (event) => {
 		event.preventDefault();
+
+		const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+		const email = document.getElementById("email").value;
+		if (!emailPattern.test(email)) {
+			alert("Please enter a valid email address.");
+			return;
+		}
+
 		setProcessingMail(true);
 		const response = await axios.post(
 			`${BACKEND}/special/mail`,
@@ -32,8 +40,11 @@ function Review() {
 		setProcessingMail(false);
 		if (response.data.success)
 			alert("Mail Sent Successfully!!");
-		else
+		else if (response.data && response.data.errors) {
 			alert(response.data.errors.join("\n"));
+		} else {
+			alert("An unknown error occurred.");
+		}
 		window.location.reload();
 	};
 
@@ -45,7 +56,7 @@ function Review() {
 					Thank you for visiting the website! Please tell us how can we improve your experience. Provide your email in case you want the owner to contact you.
 				</p>
 			</div>
-			<form className='review-form' onSubmit={onSumbitHandler}>
+			<form className='review-form' onSubmit={onSubmitHandler}>
 				<input
 					className="form-input-field input-name"
 					placeholder="Your Name"
