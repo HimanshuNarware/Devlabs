@@ -2921,6 +2921,42 @@
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2xUJL8-tRkOh1SURqNOKxFiAopIuMMTfDCvWKdjqwoQ32dAY4dzJIlMNyCl86J0vXqRU&usqp=CAU",
 		"link": "https://www.eraser.io/",
 		"description": "An online whiteboard, diagramming, and documentation tool designed and built by engineers for engineers."
+	},
+	{
+		"productName": "Kaggle",
+		"category": "coding",
+		"image": "kaggle.webp",
+		"link": "https://www.kaggle.com/",
+		"description": "An online community platform for data scientists and machine learning enthusiasts."
+	},
+	{
+		"productName": "Byte-by-Byte",
+		"category": "coding",
+		"image": "bytebybyte.png",
+		"link": "https://www.byte-by-byte.com/",
+		"description": "Byte-by-Byte is a platform which provides valuable resource for anyone preparing for coding interviews."
+	},
+	{
+		"productName": "CodinGame",
+		"category": "coding",
+		"image": "Codingame.png",
+		"link": "https://www.codingame.com/start/",
+		"description": "CodinGame lets you play with the hottest programming topics in games and AI bots."
+	},
+	{
+		"productName": "Kattis",
+		"category": "coding",
+		"image": "kattis.png",
+		"link": "https://open.kattis.com/",
+		"description": "Kattis is a programming platform with problems on many algorithms and data structures."
+	},
+	{
+		"productName": "CodeSignal",
+		"category": "collaboration",
+		"image": "Codesignal.png",
+		"link": "https://codesignal.com/products/interview/",
+		"description": "Delivers the best candidate experience in a realistic coding environment, while accurately evaluating skill and fit."
 	}
+
 
 ]
