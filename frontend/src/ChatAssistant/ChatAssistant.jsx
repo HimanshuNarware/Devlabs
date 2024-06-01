@@ -18,7 +18,6 @@ const ChatAssistant = () => {
   const closeChatbot = () => {
     setIsOpen(false);
   };
-
   return (
     <div className="chatbot">
       <img
