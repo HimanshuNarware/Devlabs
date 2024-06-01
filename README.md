@@ -24,7 +24,10 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 ## 📦 Installation
 
-You can clone the project directly from this repo to your local system.
+Star the Main Repository and Then You can clone the project directly from this repo to your local system.
+
+> [!NOTE]
+> **Best practise:** To fork the main repository and Clone from the your repository
 
 ### 1. Clone the Repo
 
@@ -32,21 +35,32 @@ You can clone the project directly from this repo to your local system.
 git clone https://github.com/username/Devlabs.git
 ```
 
-### 2. Install Dependencies
+### 2. Change Directory
 
 ```bash
+cd Devlabs
+```
+
+### 3. Setting up Frontend
+
+```bash
+cd frontend
 npm install
+npm start
 ```
 
-### 3. Start Development Server
+### 4. Setting Frontend Environment Variables
+
+All the environment variables for react must be prefixed with `REACT_APP_`.
 
 ```bash
-npm start
-#or
-npm run dev
+REACT_APP_BACKEND=<url of the backend>
 ```
+> [!NOTE]
+> The .env file must be outside the src file
 
-### 4. Create Backend Environment
+
+### 5. Setting Backend Environment Variables
 
 ```bash
 MONGODB_URI=<mongodb connection uri for the database>
@@ -55,22 +69,21 @@ FRONTEND_URL=<url of the frontend>
 MAIL=<email from which to send mail to self>
 PASSWORD=<passkey corresponding to above mail>
 ```
-
-### 5. Create Frontend Environment
-
-All the environment variables for react must be prefixed with `REACT_APP_`.
+### 6. Setting up Backend 
 
 ```bash
-REACT_APP_BACKEND=<url of the backend>
+cd backend
+npm install
+nodemon index.js
 ```
 
-### 6. Create a New Branch
+### 7. Create a New Branch
 
 ```bash
 git checkout -b YourBranchName
 ```
 
-### 7. Make Your Changes to the Source Code
+### 8. Make Your Changes to the Source Code
 
 To add a new tool:
    > Go to **src > DB > `product.json`** & add your code
@@ -88,7 +101,7 @@ To add a new tool:
   - Descriptions should not exceed 10-12 words.
 
 
-### 8.  Stage Your Changes
+### 9.  Stage Your Changes
 
 ⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
 
@@ -102,19 +115,19 @@ Instead, stage your changes for each file/folder specifically.
 git add "<files_you_have_changed>"
 ```
 
-### 9. Commit Your Changes
+### 10. Commit Your Changes
 
 ```bash
 git commit -m "<your_commit_message>"
 ```
 
-### 10. Push Your Local Commits to the Remote Repository
+### 11. Push Your Local Commits to the Remote Repository
 
 ```bash
 git push origin YourBranchName
 ```
 
-### 11. Create a Pull Request
+### 12. Create a Pull Request
 Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
 <div align="center">
