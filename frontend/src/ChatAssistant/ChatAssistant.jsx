@@ -15,6 +15,10 @@ const ChatAssistant = () => {
     setIsOpen(!isOpen);
   };
 
+
+        <img className="Logo" src={chatbotLogo} alt="Logo" onClick={toggleChatbot} />}
+        <div className={`${isOpen?"chatbot-animation":"chatbot-close-animation"}`}>
+
   const closeChatbot = () => {
     setIsOpen(false);
   };
@@ -56,6 +60,15 @@ const ChatAssistant = () => {
             )}
           </div>
         </div>
+
+      </div>
+
+    );
+  }
+
+  
+export default ChatAssistant;
+
       )}
     </div>
   );

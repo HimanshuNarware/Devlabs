@@ -5,8 +5,8 @@ import App from './App';
 import { Provider } from 'react-redux';
 import store from './Store/store'
 import Darkmode from 'darkmode-js';
-import { BrowserRouter } from 'react-router-dom';
 import Preloader from './Component/Preloader';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const options = {
@@ -29,12 +29,8 @@ darkmode.showWidget();
 
 
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
       <Provider store={store}>
-        {/* <App /> */}
+        { /*<App />*/ }
         <Preloader/>
       </Provider>
-    </BrowserRouter>
-  </React.StrictMode>
 );
