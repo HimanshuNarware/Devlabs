@@ -13,6 +13,7 @@ import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Faq from "./Component/Faq";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -26,6 +27,8 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/open-source" element={<OpenSource />}></Route>
         <Route path="/review" element={<Review />}></Route>
+        <Route path="/faq" element={<Faq />}></Route>
+
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
       <BackToTopButton />
