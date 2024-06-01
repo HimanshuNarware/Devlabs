@@ -22,7 +22,7 @@ const ChatAssistant = () => {
         />
       {isOpen && 
 
-        <img className="Logo" src={chatbotLogo} alt="Logo" onClick={toggleChatbot} />
+        <img className="Logo" src={chatbotLogo} alt="Logo" onClick={toggleChatbot} />}
         <div className={`${isOpen?"chatbot-animation":"chatbot-close-animation"}`}>
 
        {isOpen && 
@@ -35,7 +35,9 @@ const ChatAssistant = () => {
         }
         </div>
       </div>
+
     );
   }
+
   
 export default ChatAssistant;
