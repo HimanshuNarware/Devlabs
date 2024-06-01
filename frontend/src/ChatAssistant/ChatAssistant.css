@@ -90,7 +90,15 @@
   width: 50px;
   border-radius: 50px;
 }
-
+.close-button {
+  background-color: #55a0ea;
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
 @media only screen and (max-width: 425px) {
   .chatbot {
     margin-right: 5px;
