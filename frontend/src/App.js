@@ -11,8 +11,9 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -30,7 +31,8 @@ function App() {
       </Routes>
       <BackToTopButton />
       <Footer />
-      <ChatAssistant/>
+      <Toaster />
+      <ChatAssistant />
     </>
   );
 }
