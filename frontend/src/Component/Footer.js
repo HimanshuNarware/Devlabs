@@ -14,11 +14,11 @@ function Footer() {
           <div className='row'>
             <div className='col-md-6 col-lg-4 col-12 ft-1'>
               <a href='https://www.devlabsstore.tech/'>
-                <img width={209} src={logo} alt='devlaps'></img>
+                <img width={209} src={logo} alt='devlaps' />
               </a>
               <h5>
                 Facing an issue or just <br />
-                enjoying the site ?{" "}
+                enjoying the site?
               </h5>
               <button>
                 <Link to='/review'>Tell us now</Link>
@@ -28,35 +28,19 @@ function Footer() {
               <h5>Company</h5>
               <ul>
                 <li className='nav-item'>
-                  <a className='' href='https://www.devlabsstore.tech/'>
-                    Home
-                  </a>
+                  <a href='https://www.devlabsstore.tech/'>Home</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='https://www.devlabsstore.tech/about'>
-                    About Us
-                  </a>
+                  <a href='https://www.devlabsstore.tech/about'>About Us</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='https://www.devlabsstore.tech/bookmark'>
-                    Bookmark
-                  </a>
+                  <a href='https://www.devlabsstore.tech/bookmark'>Bookmark</a>
                 </li>
                 <li className='nav-item'>
-                  <a
-                    className=''
-                    href='https://www.linkedin.com/in/himanshunarware/'
-                  >
-                    Contact
-                  </a>
+                  <a href='https://www.linkedin.com/in/himanshunarware/'>Contact</a>
                 </li>
                 <li className='nav-item'>
-                  <a
-                    className=''
-                    href='https://www.devlabsstore.tech/open-source'
-                  >
-                    Open Source
-                  </a>
+                  <a href='https://www.devlabsstore.tech/open-source'>Open Source</a>
                 </li>
               </ul>
             </div>
@@ -64,52 +48,19 @@ function Footer() {
               <h5>Quick Links</h5>
               <ul>
                 <li className='nav-item'>
-                  <a className='' href='/'>
-                    Remote Jobs
-                  </a>
+                  <a href='/remote-jobs'>Remote Jobs</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
-                    AI
-                  </a>
+                  <a href='/ai'>AI</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
-                    Movie/Series
-                  </a>
-                </li>                <li className='nav-item'>
-                  <a className='' href='/'>
-                    Extension
-                  </a>
+                  <a href='/movies-series'>Movie/Series</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
-
-                <li className="nav-item">
-                  <a className="" href="/remote-jobs">
-                    Remote Jobs
-                  </a>
+                  <a href='/extension'>Extension</a>
                 </li>
-                <li className="nav-item">
-                  <a className="" href="/ai">
-                    AI
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/movies-series">
-                    Movie/Series
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/extension">
-                    Extension
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/ui-design">
-
-                    Ui Design
-                  </a>
+                <li className='nav-item'>
+                  <a href='/ui-design'>UI Design</a>
                 </li>
               </ul>
             </div>
@@ -117,43 +68,16 @@ function Footer() {
               <h5>Explore</h5>
               <ul>
                 <li className='nav-item'>
-                  <a className='' href='/'>
-                    Frontend Tools
-                  </a>
+                  <a href='/front-end-tools'>Frontend Tools</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
-                    Ethical Hacking
-                  </a>
+                  <a href='/ethical-hacking'>Ethical Hacking</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
-                    Coding Platforms
-                  </a>
+                  <a href='/coding-platform'>Coding Platforms</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
-
-                <li className="nav-item">
-                  <a className="" href="/front-end-tools">
-                    Frontend Tools
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/ethical-hacking">
-                    Ethical Hacking
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/coding-platform">
-                    Coding Platforms
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/cources-platform">
-
-                    Course Platforms
-                  </a>
+                  <a href='/courses-platform'>Course Platforms</a>
                 </li>
               </ul>
             </div>
@@ -167,7 +91,6 @@ function Footer() {
               <p className='text-center fs-6'>
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </p>
-
               <div className='footer-icon mb-2'>
                 <a
                   href='https://www.linkedin.com/in/himanshunarware/'
@@ -181,7 +104,7 @@ function Footer() {
                   rel='noreferrer'
                   target='_blank'
                 >
-                  <i class='fa-brands fa-square-x-twitter text-white mx-1 fs-4'></i>
+                  <FaTwitter className='text-white mx-1 fs-4' />
                 </a>
                 <a href='mailto:himanshunarware77@gmail.com' rel='noreferrer'>
                   <SiGmail className='text-white mx-1 fs-4' />
