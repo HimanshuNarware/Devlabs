@@ -63,27 +63,27 @@ function Footer() {
               <h5>Quick Links</h5>
               <ul>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="/remote-jobs">
                     Remote Jobs
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="/ai">
                     AI
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="/movies-series">
                     Movie/Series
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="/extension">
                     Extension
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="/ui-design">
                     Ui Design
                   </a>
                 </li>
@@ -93,22 +93,22 @@ function Footer() {
               <h5>Explore</h5>
               <ul>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="/front-end-tools">
                     Frontend Tools
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="/ethical-hacking">
                     Ethical Hacking
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="/coding-platform">
                     Coding Platforms
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="/cources-platform">
                     Course Platforms
                   </a>
                 </li>
