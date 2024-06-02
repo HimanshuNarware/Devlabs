@@ -15,6 +15,9 @@ const ChatAssistant = () => {
     setIsOpen(!isOpen);
   };
 
+       
+
+
   const closeChatbot = () => {
     setIsOpen(false);
   };
@@ -31,6 +34,37 @@ const ChatAssistant = () => {
         }
         onMouseLeave={() => (document.querySelector(".Logo").src = chatbotLogo)}
       />
+      {isOpen && 
+
+     <> 
+   
+
+        <div>
+         
+          <div
+            className={`${
+              isOpen ? "chatbot-animation" : "chatbot-close-animation"
+            }`}
+          >
+            {isOpen && (
+              <Chatbot
+                config={config}
+                messageParser={MessageParser}
+                actionProvider={ActionProvider}
+              />
+            )}
+          </div>
+        </div>
+        </> 
+      }
+      </div>
+
+    );
+  }
+
+  
+
+
       {isOpen && (
         <div className="chatbot-wrapper">
           <button className="close-button" onClick={closeChatbot}>
