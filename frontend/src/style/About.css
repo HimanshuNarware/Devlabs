@@ -110,7 +110,8 @@
 }
 
 .repo-btn a{
-    color: #ffffff;
+/*     color: #ffffff; */
+    color: #212529;
     text-decoration: none;
    
 }
@@ -227,7 +228,8 @@
 
 
 .profile-btn {
-    color: #ffffff;
+/*     color: #ffffff; */
+    color: #212529;
     font-size: 1.1rem;
     border: 2px solid #8b5cf6;
     margin-inline: 10px;
