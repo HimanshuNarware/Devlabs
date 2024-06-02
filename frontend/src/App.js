@@ -11,6 +11,7 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
@@ -24,12 +25,19 @@ import EthicalHacking from "./pages/EthicalHacking";
 import CodingPlateform from "./pages/CodingPlateform";
 import CourcesPlatform from "./pages/CourcesPlatform";
 
+
+import { BrowserRouter } from 'react-router-dom';
+import ScrollToTop from "./Component/ScrollToTop";
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
   AOS.init();
   return (
     <>
+      <BrowserRouter>
+      <ScrollToTop/>
       <Navbar setSearchQuery={setSearchQuery} />
+    
+      
       <Routes>
         <Route path="/" element={<Home searchQuery={searchQuery} />}></Route>
         <Route path="/bookmark" element={<BookMark />}></Route>
@@ -47,10 +55,16 @@ function App() {
         <Route path="/cources-platform" element={<CourcesPlatform />}></Route>
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
+      
       <BackToTopButton />
       <Footer />
+
       <Toaster />
       <ChatAssistant />
+
+      <ChatAssistant/>
+      </BrowserRouter>
+
     </>
   );
 }

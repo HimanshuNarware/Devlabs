@@ -4,29 +4,30 @@
   right: 0;
   margin-right: 20px;
   margin-bottom: 12px;
+  z-index: 999;
 }
-.chatbot-close-animation{
+.chatbot-close-animation {
   animation: animate-close ease-in 0.3s forwards;
-
 }
-.chatbot-animation{
-  
+.chatbot-animation {
   animation: animate ease-in 0.3s forwards;
 }
 @keyframes animate {
-  from{
+  from {
     height: 0px;
     /* width: 250px; */
-  }to{
+  }
+  to {
     height: 450px;
     width: 350px;
   }
 }
 @keyframes animate-close {
-  from{
+  from {
     height: 450px;
     width: 350px;
-  }to{
+  }
+  to {
     height: 0px;
     width: 0px;
   }
@@ -65,8 +66,9 @@
   height: 45px;
 }
 
-.Logo{
+.Logo {
   cursor: pointer;
+
   height:50px;
   width:50px;
 }
@@ -90,7 +92,15 @@
   width: 50px;
   border-radius: 50px;
 }
-
+.close-button {
+  background-color: #55a0ea;
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
 @media only screen and (max-width: 425px) {
   .chatbot {
     margin-right: 5px;

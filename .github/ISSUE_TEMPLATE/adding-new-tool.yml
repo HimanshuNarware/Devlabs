@@ -1,0 +1,62 @@
+name: 🛠️ Adding New Tool
+description: Want to add new tool on the Devlabs
+title: "[New Tool]: "
+body:
+  - type: checkboxes
+    id: existing-issue
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists related to this new tool.
+      options:
+        - label: I have searched the existing issues
+          required: true
+  - type: textarea
+    id: Tool-description
+    attributes:
+      label: New Tool Description
+      description: Please provide a detailed description of the tool you wanna add.
+      placeholder: "Describe the new tool or enhancement you'd like to see."
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: How would this tool enhance your use of the project?
+      placeholder: Describe a specific use case or scenario where this tool would be beneficial.
+    validations:
+      required: true
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Benefits
+      description: What benefits would this tool bring to the project or community?
+      placeholder: Explain the advantages of implementing this new tool.
+  - type: textarea
+    id: screenShots
+    attributes:
+      label: Add ScreenShots
+      description: If any...
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this new tool to you?
+      options:
+        - High
+        - Medium
+        - Low
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Record
+      options:
+        - label: "I have read the Contributing Guidelines"
+          required: true
+        - label: "I'm a GSSOC'24 contributor"
+          required: true
+        - label: "I have starred the repository"
+          required: true
