@@ -77,14 +77,37 @@ function Footer() {
                   <a className='' href='/'>
                     Movie/Series
                   </a>
-                </li>
-                <li className='nav-item'>
+                </li>                <li className='nav-item'>
                   <a className='' href='/'>
                     Extension
                   </a>
                 </li>
                 <li className='nav-item'>
                   <a className='' href='/'>
+
+                <li className="nav-item">
+                  <a className="" href="/remote-jobs">
+                    Remote Jobs
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="" href="/ai">
+                    AI
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="" href="/movies-series">
+                    Movie/Series
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="" href="/extension">
+                    Extension
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="" href="/ui-design">
+
                     Ui Design
                   </a>
                 </li>
@@ -110,6 +133,25 @@ function Footer() {
                 </li>
                 <li className='nav-item'>
                   <a className='' href='/'>
+
+                <li className="nav-item">
+                  <a className="" href="/front-end-tools">
+                    Frontend Tools
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="" href="/ethical-hacking">
+                    Ethical Hacking
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="" href="/coding-platform">
+                    Coding Platforms
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="" href="/cources-platform">
+
                     Course Platforms
                   </a>
                 </li>

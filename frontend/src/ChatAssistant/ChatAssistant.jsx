@@ -4,6 +4,8 @@ import "react-chatbot-kit/build/main.css";
 import config from "../ChatBot/config.jsx";
 import MessageParser from "../ChatBot/MessageParser";
 import ActionProvider from "../ChatBot/ActionProvider";
+
+import "./ChatAssistant.css";
 import chatbotLogo from "../assets/chatbotLogo.jpeg";
 import chatbotLogo1 from "../assets/logo1.png";
 import "./ChatAssistant.css";
@@ -15,6 +17,14 @@ const ChatAssistant = () => {
     setIsOpen(!isOpen);
   };
 
+
+       
+
+
+  const closeChatbot = () => {
+    setIsOpen(false);
+  };
+  
   return (
     <div className='chatbot'>
       <img
@@ -40,6 +50,52 @@ const ChatAssistant = () => {
           />
         )}
       </div>
+
+      {isOpen && 
+
+     <> 
+   
+
+        <div>
+         
+          <div
+            className={`${
+              isOpen ? "chatbot-animation" : "chatbot-close-animation"
+            }`}
+          >
+            {isOpen && (
+              <Chatbot
+                config={config}
+                messageParser={MessageParser}
+                actionProvider={ActionProvider}
+              />
+            )}
+          </div>
+        </div>
+        </> 
+      }
+      </div>
+
+    );
+  }
+
+  
+
+
+      {isOpen && (
+        <div className="chatbot-wrapper">
+          <button className="close-button" onClick={closeChatbot}>
+            X
+          </button>
+          <div className="chatbot-animation">
+            <Chatbot
+              config={config}
+              messageParser={MessageParser}
+              actionProvider={ActionProvider}
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

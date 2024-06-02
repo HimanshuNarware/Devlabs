@@ -19,6 +19,7 @@
     "mongodb": "^6.2.0",
     "pagination": "^0.4.6",
     "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
     "react-chatbot-kit": "^2.2.2",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",

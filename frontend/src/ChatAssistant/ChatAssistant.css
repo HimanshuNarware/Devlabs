@@ -70,6 +70,17 @@
   height: 50px;
   width: 50px;
   cursor: pointer;
+  cursor: pointer;
+
+  height:50px;
+  width:50px;
+}
+
+
+.Logo {
+  height: 50px;
+  width: 50px;
+
   border-radius: 50px;
   right: 12px;
 }
