@@ -28,6 +28,8 @@ import CourcesPlatform from "./pages/CourcesPlatform";
 
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from "./Component/ScrollToTop";
+import Productivity from "./pages/Productivity";
+import Collaboration from "./pages/Collaboration";
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
   AOS.init();
@@ -53,6 +55,8 @@ function App() {
         <Route path="/ethical-hacking" element={<EthicalHacking />}></Route>
         <Route path="/coding-platform" element={<CodingPlateform />}></Route>
         <Route path="/cources-platform" element={<CourcesPlatform />}></Route>
+        <Route path="/productivity-tools" element={<Productivity />}></Route>
+        <Route path="/collaboration-tools" element={<Collaboration />}></Route>
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
       
