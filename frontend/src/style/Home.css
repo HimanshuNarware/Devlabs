@@ -34,6 +34,73 @@
   ); /* Background color of the scrollbar track */
   border-radius: 15px;
 }
+/* contributor style */
+.contributors-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.contributors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contributor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contributor img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contributor p {
+  margin: 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.pagination li {
+  display: inline;
+}
+
+.pagination a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #ffb347; /* Light orange text color */
+  background-color: #333; /* Dark background color */
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #555; /* Slightly lighter dark background on hover */
+  color: #fff; /* White text color on hover */
+}
+
+.pagination .active a {
+  background-color: #ffb347; /* Light orange background color for active page */
+  color: #333; /* Dark text color for active page */
+}
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-thumb); /* Color of the scrollbar thumb */

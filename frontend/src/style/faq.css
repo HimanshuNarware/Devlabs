@@ -1,0 +1,164 @@
+.faq {
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+    width: 380px; /* Default width for small screens */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 768px) {
+    .faq {
+      width: 520px; /* Width for medium screens */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .faq {
+      width: 720px; /* Width for large screens */
+    }
+  }
+  .faq1 {
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    gap: 2rem; /* Only for the vertical gap (use row-gap in addition if needed) */
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.375rem;
+    flex-wrap: wrap;
+    margin-top: 46px;
+    border: 1px solid #D1D5DB;
+  }
+
+  .faq1 > * {
+    margin-bottom: 2rem; /* Add this if vertical gap isn't applied correctly */
+  }
+  .yet-another-custom-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .text{
+    color:#A855F7;
+  }
+  .text-white{
+    color: white;
+  }
+  .text-gray-500-text-sm {
+    color: #6B7280;
+    font-size: 0.875rem; /* or 14px */
+  }
+  .border-none {
+    border: none;
+  }
+
+  .mt-8 {
+    margin-top: 2rem; 
+    width: 100%;
+  }
+  .border-2 {
+    border-width: 2px;
+  }
+
+  .border-gray-400 {
+    border-color: #CBD5E0; /* Adjust color as needed */
+  }
+
+  .rounded-lg {
+    border-radius: 0.75rem; /* Adjust radius as needed */
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .mb-5 {
+    margin-bottom: 1.25rem; /* Adjust margin as needed */
+  }
+  .custom-flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem; /* Adjust gap as needed */
+  }
+  .custom-flex-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 0.5rem; /* Adjust padding as needed */
+    padding-bottom: 0.5rem; /* Adjust padding as needed */
+    padding-left: 2rem; /* Adjust padding as needed */
+    padding-right: 2rem; /* Adjust padding as needed */
+  }
+  .custom-flex-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.5rem; /* Adjust padding as needed */
+    background-color: #2D3748; /* Adjust background color as needed */
+    border-radius: 0.375rem; /* Adjust border radius as needed */
+  }
+  .custom-text {
+    color: #fff; /* Adjust text color as needed */
+    font-size: 0.875rem; /* Adjust font size for the default (xs) */
+  }
+
+  @media (min-width: 768px) {
+    .custom-text {
+      font-size: 1rem; /* Adjust font size for medium screens (md) */
+    }
+  }
+
+  .custom-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.5rem; /* Adjust padding as needed */
+    background-color: #2D3748; /* Adjust background color as needed */
+    border-radius: 0.375rem; /* Adjust border radius as needed */
+  }
+  .custom-text1 {
+    color: #6B7280; /* Adjust text color as needed */
+    font-size: 0.875rem; /* Adjust font size for the default (xs) */
+  }
+
+  @media (min-width: 768px) {
+    .custom-text1 {
+      font-size: 1rem; /* Adjust font size for medium screens (md) */
+    }
+  }
+
+  .close {
+    animation: close-animation 1s forwards;
+  }
+  .open {
+    animation: open-animation 1s forwards;
+  }
+  @keyframes open-animation {
+    from {
+      height: 55px;
+    }
+    to {
+      height: 140px;
+    }
+  }
+
+  @keyframes close-animation {
+    from {
+      height: 140px;
+    }
+    to {
+      height: 55px;
+    }
+  }
