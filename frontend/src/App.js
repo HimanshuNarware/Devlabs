@@ -19,6 +19,10 @@ import Review from "./Component/Review";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
+import { BrowserRouter } from "react-router-dom";
+import ScrollToTop from "./Component/ScrollToTop";
+
+
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
@@ -39,6 +43,21 @@ function App() {
   AOS.init();
   return (
     <>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Navbar setSearchQuery={setSearchQuery} />
+
+        <Routes>
+          <Route path="/" element={<Home searchQuery={searchQuery} />} />          <Route path="/bookmark" element={<BookMark />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/open-source" element={<OpenSource />} />
+          <Route path="/review" element={<Review />} />
+          <Route path="*" element={<NotFound />} /> {/* 404 route */}
+        </Routes>
+
+        <BackToTopButton />
+        <Footer />
+
       <Navbar setSearchQuery={setSearchQuery} />
       <Routes>
         <Route path='/' element={<Home searchQuery={searchQuery} />}></Route>
@@ -71,6 +90,10 @@ function App() {
 
       </BrowserRouter>
 
+
+        <Toaster />
+        <ChatAssistant />
+      </BrowserRouter>
     </>
   );
 }
