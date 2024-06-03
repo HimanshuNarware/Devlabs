@@ -25,7 +25,7 @@ function Home(props) {
   }
 
   const [currentPage, setCurrentPage] = useState(1);
-  const postPerpage = 16;
+  const postPerpage = 15;
   const lastPostIndex = currentPage * postPerpage;
   const firstPostIndex = lastPostIndex - postPerpage;
   const [dataBaseData, setDataBaseData] = useState([]);
@@ -47,9 +47,11 @@ function Home(props) {
   }, []);
 
   useEffect(() => {
+    // setCurrentPage(1);
     setLoading(true);
     const handleStorageChange = () => {
       setLocalStorageValue(localStorage.getItem("filter"));
+      setCurrentPage(1);
     };
     window.addEventListener("storage", handleStorageChange);
 
@@ -79,6 +81,7 @@ function Home(props) {
 
     return () => {
       window.removeEventListener("storage", handleStorageChange);
+      console.log('unmounting home...')
     };
   }, []);
 
@@ -107,12 +110,46 @@ function Home(props) {
     : allvalue;
 
   const currentPost =
-    filteredData.length > 16
+    filteredData.length > postPerpage
       ? filteredData.slice(firstPostIndex, lastPostIndex)
       : filteredData;
   const npage = Math.ceil(filteredData.length / postPerpage);
-  const numbers = [...Array(npage + 1).keys()].slice(1);
+  const numbers = updatePaginationNumber(currentPage, npage);
   const dispatch = useDispatch();
+
+  function updatePaginationNumber(currentPage, totalPage){
+    if(totalPage < 5)
+      return generateArrayOfNaturalNumber(1,totalPage);
+
+    const paginationListWith5Number = Math.floor(totalPage / 5);
+    const paginationMaxValue = 5 * paginationListWith5Number;
+
+    let startingPage = 0;
+
+    if(currentPage > paginationMaxValue){
+        const remainingPage = totalPage - paginationMaxValue;
+        startingPage = paginationMaxValue - (5 - remainingPage) + 1;
+    }else{
+      for(let ind = 1; ind <= paginationListWith5Number; ind++){
+        if(currentPage <= 5*ind){
+          startingPage = 5*(ind-1) + 1;
+          break;
+        }
+      }
+    }
+
+    return generateArrayOfNaturalNumber(startingPage);
+  }
+
+  function generateArrayOfNaturalNumber(pageNo, pageCount = 5){
+    const result = [];
+
+    while(pageCount --){
+      result.push(pageNo++);
+    }
+
+    return result;
+  }
 
   function prePage() {
     if (currentPage > 1) {
@@ -295,7 +332,7 @@ function Home(props) {
         </div>
         <div className="pagination">
           <ul>
-            <li>
+            <li className={`${currentPage === 1 ? "disable" : ""}`} title="No Previous Page">
               <a href="#!" onClick={prePage}>
                 &lt;
               </a>
@@ -307,8 +344,8 @@ function Home(props) {
                 </a>
               </li>
             ))}
-            <li>
-              <a href="#!" onClick={nextPage}>
+            <li className={`${currentPage === npage ? "disable" : ""}`} title="No Next Page">
+              <a href="#!" onClick={nextPage} >
                 &gt;
               </a>
             </li>
