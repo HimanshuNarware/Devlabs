@@ -1,3 +1,4 @@
+// index.js
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -8,6 +9,7 @@ import Preloader from "./Component/Preloader";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { BrowserRouter } from "react-router-dom";
+import App from './App'; // Import the App component
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -30,8 +32,8 @@ darkmode.showWidget();
 root.render(
   <Provider store={store}>
     <BrowserRouter>
-      {/*<App />*/}
       <Preloader />
+      {/* <App /> Render the App component */}
       <ToastContainer />
     </BrowserRouter>
   </Provider>

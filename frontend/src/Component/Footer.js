@@ -9,82 +9,54 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer>
-      <div className='Footer'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-md-6 col-lg-4 col-12 ft-1'>
-              <a href='https://www.devlabsstore.tech/'>
-                <img width={209} src={logo} alt='devlaps'></img>
+      <div className="Footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 col-lg-4 col-12 ft-1">
+              <a href="https://www.devlabsstore.tech/">
+                <img width={209} src={logo} alt="devlaps" />
               </a>
               <h5>
                 Facing an issue or just <br />
-                enjoying the site ?{" "}
+                enjoying the site?
               </h5>
               <button>
-                <Link to='/review'>Tell us now</Link>
+                <Link to="/review">Tell us now</Link>
               </button>
             </div>
-            <div className='col-md-6 col-lg-3 col-12 ft-2'>
+            <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5>Company</h5>
               <ul>
-                <li className='nav-item'>
-                  <a className='' href='https://www.devlabsstore.tech/'>
+                <li className="nav-item">
+                  <a className="" href="https://www.devlabsstore.tech/">
                     Home
                   </a>
                 </li>
-                <li className='nav-item'>
-                  <a className='' href='https://www.devlabsstore.tech/about'>
+                <li className="nav-item">
+                  <a className="" href="https://www.devlabsstore.tech/about">
                     About Us
                   </a>
                 </li>
-                <li className='nav-item'>
-                  <a className='' href='https://www.devlabsstore.tech/bookmark'>
+                <li className="nav-item">
+                  <a className="" href="https://www.devlabsstore.tech/bookmark">
                     Bookmark
                   </a>
                 </li>
-                <li className='nav-item'>
-                  <a
-                    className=''
-                    href='https://www.linkedin.com/in/himanshunarware/'
-                  >
+                <li className="nav-item">
+                  <a className="" href="https://www.linkedin.com/in/himanshunarware/">
                     Contact
                   </a>
                 </li>
-                <li className='nav-item'>
-                  <a
-                    className=''
-                    href='https://www.devlabsstore.tech/open-source'
-                  >
+                <li className="nav-item">
+                  <a className="" href="https://www.devlabsstore.tech/open-source">
                     Open Source
                   </a>
                 </li>
               </ul>
             </div>
-            <div className='col-md-6 col-lg-3 col-12 ft-2'>
+            <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5>Quick Links</h5>
               <ul>
-                <li className='nav-item'>
-                  <a className='' href='/'>
-                    Remote Jobs
-                  </a>
-                </li>
-                <li className='nav-item'>
-                  <a className='' href='/'>
-                    AI
-                  </a>
-                </li>
-                <li className='nav-item'>
-                  <a className='' href='/'>
-                    Movie/Series
-                  </a>
-                </li>                <li className='nav-item'>
-                  <a className='' href='/'>
-                    Extension
-                  </a>
-                </li>
-                <li className='nav-item'>
-                  <a className='' href='/'>
-
                 <li className="nav-item">
                   <a className="" href="/remote-jobs">
                     Remote Jobs
@@ -107,33 +79,14 @@ function Footer() {
                 </li>
                 <li className="nav-item">
                   <a className="" href="/ui-design">
-
-                    Ui Design
+                    UI Design
                   </a>
                 </li>
               </ul>
             </div>
-            <div className='col-md-6 col-lg-2 col-12 ft-4'>
+            <div className="col-md-6 col-lg-2 col-12 ft-4">
               <h5>Explore</h5>
               <ul>
-                <li className='nav-item'>
-                  <a className='' href='/'>
-                    Frontend Tools
-                  </a>
-                </li>
-                <li className='nav-item'>
-                  <a className='' href='/'>
-                    Ethical Hacking
-                  </a>
-                </li>
-                <li className='nav-item'>
-                  <a className='' href='/'>
-                    Coding Platforms
-                  </a>
-                </li>
-                <li className='nav-item'>
-                  <a className='' href='/'>
-
                 <li className="nav-item">
                   <a className="" href="/front-end-tools">
                     Frontend Tools
@@ -150,8 +103,7 @@ function Footer() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/cources-platform">
-
+                  <a className="" href="/course-platform">
                     Course Platforms
                   </a>
                 </li>
@@ -160,38 +112,38 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className='Last-foote'>
-        <div className='container'>
-          <div className='row justify-content-center'>
-            <div className='col-md-6 col-12 ft-1'>
-              <p className='text-center fs-6'>
+      <div className="Last-footer">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-6 col-12 ft-1">
+              <p className="text-center fs-6">
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </p>
 
-              <div className='footer-icon mb-2'>
+              <div className="footer-icon mb-2">
                 <a
-                  href='https://www.linkedin.com/in/himanshunarware/'
-                  rel='noreferrer'
-                  target='_blank'
+                  href="https://www.linkedin.com/in/himanshunarware/"
+                  rel="noreferrer"
+                  target="_blank"
                 >
-                  <BsLinkedin className='text-white mx-1 fs-4' />
+                  <BsLinkedin className="text-white mx-1 fs-4" />
                 </a>
                 <a
-                  href='https://twitter.com/N_Himanshu_/'
-                  rel='noreferrer'
-                  target='_blank'
+                  href="https://twitter.com/N_Himanshu_/"
+                  rel="noreferrer"
+                  target="_blank"
                 >
-                  <i class='fa-brands fa-square-x-twitter text-white mx-1 fs-4'></i>
+                  <FaTwitter className="text-white mx-1 fs-4" />
                 </a>
-                <a href='mailto:himanshunarware77@gmail.com' rel='noreferrer'>
-                  <SiGmail className='text-white mx-1 fs-4' />
+                <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
+                  <SiGmail className="text-white mx-1 fs-4" />
                 </a>
                 <a
-                  href='https://github.com/HimanshuNarware/Devlabs'
-                  rel='noreferrer'
-                  target='_blank'
+                  href="https://github.com/HimanshuNarware/Devlabs"
+                  rel="noreferrer"
+                  target="_blank"
                 >
-                  <FaGithubSquare className='text-white mx-1 fs-4' />
+                  <FaGithubSquare className="text-white mx-1 fs-4" />
                 </a>
               </div>
             </div>
