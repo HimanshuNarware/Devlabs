@@ -2,10 +2,30 @@ import React, { useEffect, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import { RxCross2 } from "react-icons/rx";
 import "../../style/Navbar.css";
-
+import jsonProjects from "./DB/openSource.json";
+import axios from "axios";
+const BACKEND = process.env.REACT_APP_BACKEND;
 function NavbarRight(props) {
+  const [projects,setProjects]=useState([])
   const [searchQuery, setSearchQuery] = useState(""); // Local state to manage search query
   const [searchResult,setSearchResult]=useState([])
+  useEffect(() => {
+    const fetchData = async () => {
+        const response = await axios
+            .get(`${BACKEND}/open-source/all`)
+            .catch((error) => {
+                return error.response;
+            });
+
+        if (response.data && response.data.success) {
+            setProjects(response.data.openSourceProjects);
+        } 
+       else{
+        setProjects(jsonProjects)
+       }
+    };
+    fetchData();
+}, []);
   //debounce search query
   useEffect(() => {
     let timer = setTimeout(() => {
@@ -21,7 +41,7 @@ function NavbarRight(props) {
       setSearchResult([])
     }
     else if(searchQuery.length>0){
-      let filter=props.project_details.filter(ele=>ele.projectName.toLowerCase().includes(searchQuery.toLowerCase()))
+      let filter=projects.filter(ele=>ele.projectName.toLowerCase().includes(searchQuery.toLowerCase()))
       setSearchResult(filter)
      }
      else{
