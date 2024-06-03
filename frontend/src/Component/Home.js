@@ -8,31 +8,6 @@ import "../style/Home.css";
 import Devlabs from "../image/hero_img.svg";
 import NavbarItem from "./Navbar/NavbarItem";
 const BACKEND = process.env.REACT_APP_BACKEND;
-function Home(props) {
-const [bookmarks,setBookmark] = useState(null)
-  const [localStorageValue, setLocalStorageValue] = useState(
-    localStorage.getItem("filter") || ""
-  );
-  // to scroll the pagedown when we search for tool
-  const ref = useRef();
-  if(props.searchQuery!==""){
-    ref.current?.scrollIntoView(
-      {
-        'behavior' : 'smooth',
-      }
-    )
-  }
-  
-  const [currentPage, setCurrentPage] = useState(1);
-  const postPerpage = 16;
-  const lastPostIndex = currentPage * postPerpage;
-  const firstPostIndex = lastPostIndex - postPerpage;
-  const [dataBaseData, setDataBaseData] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [showPopup, setShowPopup] = useState(false);
-
-
-const BACKEND = process.env.REACT_APP_BACKEND;
 
 function Home(props) {
     const [bookmarks, setBookmark] = useState(null);
@@ -145,9 +120,9 @@ function Home(props) {
         setCurrentPage(id);
     }
 
-          {currentPost.map((datalist) => {
-            return (
-              <div className="content-box-home" key={datalist.productName}>
+    currentPost.map((datalist) => {
+        return (
+            <div className="content-box-home" key={datalist.productName}>
                 <img
                   className="logo"
                   src={datalist.image}
@@ -169,9 +144,10 @@ function Home(props) {
                   onClick={() => handleBookmark(datalist)} >
                   Bookmark
                 </button>
-          }
-              </div>
-
+                }
+            </div>
+        )});
+    
     function handleBookmark(datalist) {
         if (bookmarks === null) {
             localStorage.setItem(
