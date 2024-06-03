@@ -34,6 +34,7 @@
 		"link": "https://bit.ly/3plUFZw",
 		"description": "Scaler is an outcome-focused, ed-tech platform for techies."
 	},
+	
 	{
 		"productName": "InterviewBit",
 		"category": "coding",
@@ -82,6 +83,13 @@
 		"image": "https://play-lh.googleusercontent.com/tVEiGmoOyq3qwQUdkYYbD43DlZWe2jaTq4vkJqVWl5LrHYmhBOmbK8kqvF2ja6aZl1M",
 		"link": "https://magicstudio.com/magiceraser",
 		"description": "Powerful graphics designing tool which allows designers to remove unwanted elements in an image without messing with remaining part of the image."
+	},
+	{
+		"productName": "Strivers A2Z DSA Course",
+		"category": "coding",
+		"image": "https://cdn5.cdn-telegram.org/file/avQobKS8v_VNb-rA71EUvjd909zSnm1Puf2oXVkOQ63aZWAcss0_TdVpDS_PwDSYbhi4OfQCCUhZru0BFAklxYnknWmbN9tCqqH6RogvTC1A9rcNuUqcSBojH5EU7mGSVH03dm3RO-qFTl_m4A5x1Vm1dc56gmU4rL2QpiqAmKd9ZiDmRP3apK0uqFWsU0JFS8yVyiqgAlOKzrLq9TZl_pcEjA9QkgEMTRx50Il9iQIB5NzRllA3gJpSpCr0VYjWvVnXFeb0vAa4_PxWgCoj-umdowz-jRggL2A9pyqGeSppHjD8OxVRWfq2j1e4iB3eqRacxvM5-2iJLbafFutHnw.jpg",
+		"link": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+		"description": "DSA tool for beginners to advance level with the practice sheet on each topic."
 	},
 	{
 		"productName": "Overleaf",
