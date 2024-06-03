@@ -5,7 +5,7 @@ import "../../style/Navbar.css";
 
 function NavbarRight(props) {
   const [searchQuery, setSearchQuery] = useState(""); // Local state to manage search query
-
+  const [searchResult,setSearchResult]=useState([])
   //debounce search query
   useEffect(() => {
     let timer = setTimeout(() => {
@@ -15,7 +15,20 @@ function NavbarRight(props) {
       clearTimeout(timer);
     };
   }, [searchQuery]);
-
+  useEffect(()=>{
+    console.log(searchResult)
+    if(searchResult?.[0]?.data===null){
+      setSearchResult([])
+    }
+    else if(searchQuery.length>0){
+      let filter=props.project_details.filter(ele=>ele.projectName.toLowerCase().includes(searchQuery.toLowerCase()))
+      setSearchResult(filter)
+     }
+     else{
+       setSearchResult([])
+     }
+  },[searchQuery])
+  console.log(searchResult.length)
   const handleInputChange = (e) => {
     setSearchQuery(e.target.value); // Update the search query when input changes
   };
@@ -43,12 +56,21 @@ function NavbarRight(props) {
               value={searchQuery} // Set input value to the search query
               onChange={handleInputChange}
             />
-
+            {searchResult.length>0?
+            <div  className="searhcResults">
+              {
+                searchResult.map((item,index)=>(
+                  <p onClick={()=>{setSearchQuery(item.projectName);setSearchResult([{data:null}])}} key={index}>{item.projectName}</p>
+                ))
+              }
+            </div>
+             :<></>}
             <button
               className={`span ${!searchQuery && "invisible"}`}
               type="button"
               onClick={clearSearchHandler}
-            >
+            >.
+
               <RxCross2 />
             </button>
             <button className="span" type="submit">

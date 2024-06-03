@@ -1,37 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "../style/OpenSource.css";
 import ReactPaginate from "react-paginate";
-import axios from "axios";
 import ClipLoader from "react-spinners/ClipLoader";
-import jsonProjects from "../DB/openSource.json";
 
-const BACKEND = process.env.REACT_APP_BACKEND;
 
-const OpenSource = () => {
+const OpenSource = ({project_details}) => {
     const projectsPerPage = 16;
-    const [projects, setProjects] = useState([]);
+    const projects=project_details
     const [currentPage, setCurrentPage] = useState(0);
     const [loading, setLoading] = useState(false);
 
-    useEffect(() => {
-        setLoading(true);
-        const fetchData = async () => {
-            const response = await axios
-                .get(`${BACKEND}/open-source/all`)
-                .catch((error) => {
-                    return error.response;
-                });
-
-            if (response.data && response.data.success) {
-                setProjects(response.data.openSourceProjects);
-            } else {
-                setProjects(jsonProjects);
-            }
-
-            setLoading(false);
-        };
-        fetchData();
-    }, []);
 
     const handlePageClick = (event) => {
         setCurrentPage(event.selected);

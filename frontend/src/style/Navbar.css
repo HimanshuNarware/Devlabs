@@ -370,7 +370,6 @@
   /* margin-top: 130px; */
   position: relative;
 }
-
 .box {
   margin-top: 5px;
   /* margin-left: 65px; */
@@ -382,6 +381,22 @@
   display: flex;
   flex-wrap: wrap;
   border: none;
+  align-items: center;
+}
+.searhcResults{
+  position: absolute;
+    top: 4rem;
+    background: white;
+    text-align: left;
+    max-height: 50vh;
+    overflow: scroll;
+    border-radius: 0.6rem;
+    min-width: 15rem;
+}
+.searhcResults p{
+  border-bottom: 0.1rem solid black;
+  padding: 1rem;
+  cursor: pointer;
 }
 .box:hover {
   border: 2.5px solid black;

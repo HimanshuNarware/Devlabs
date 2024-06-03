@@ -7,13 +7,12 @@ import NavbarRight from "./NavbarRight";
 
 function Navbar(props) {
   const [showSideNav, setShowSideNav] = useState(false);
-
   return (
     <header >
       <div className="navbar">
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav}/>
         <NavbarCenter />
-        <NavbarRight setSearchQuery={props.setSearchQuery} /> {/* Pass setSearchQuery directly */}
+        <NavbarRight setSearchQuery={props.setSearchQuery} project_details={props.project_details} /> {/* Pass setSearchQuery directly */}
       </div>
 
       
