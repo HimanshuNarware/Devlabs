@@ -332,7 +332,7 @@ function Home(props) {
         </div>
         <div className="pagination">
           <ul>
-            <li className={`${currentPage === 1 ? "disable" : ""}`} title="No Previous Page">
+            <li className={`${currentPage === 1 ? "disable" : ""}`} title={`${currentPage === 1 ? "No Previous Page": ''}`}>
               <a href="#!" onClick={prePage}>
                 &lt;
               </a>
@@ -344,7 +344,7 @@ function Home(props) {
                 </a>
               </li>
             ))}
-            <li className={`${currentPage === npage ? "disable" : ""}`} title="No Next Page">
+            <li className={`${currentPage === npage ? "disable" : ""}`} title={`${currentPage === npage ? "No Next Page" : ''}`}>
               <a href="#!" onClick={nextPage} >
                 &gt;
               </a>
