@@ -39,6 +39,8 @@ function BackToTopButton() {
     
 
     return (
+        <a href='#hero'>
+
         <button
             onClick={scrollToTop}
             className={`back-to-top-button ${isVisible ? 'visible' : ''}`}
@@ -46,6 +48,7 @@ function BackToTopButton() {
         <MdKeyboardDoubleArrowUp style={iconStyle}/>
 
         </button>
+        </a>
     );
 }
 

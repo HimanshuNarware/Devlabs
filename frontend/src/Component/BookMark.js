@@ -4,6 +4,7 @@ import { deleteSource } from "../Slice/DataSlice";
 import bookmarkAnimation from "../lottie/bookmark.json";
 import "../style/BookMark.css";
 import Lottie from "lottie-react";
+import toast from "react-hot-toast";
 
 function BookMark() {
   const sourceData = useSelector((state) => state.SourceReducer.sourceData);
@@ -21,6 +22,7 @@ function BookMark() {
       (bookmark) => bookmark.name !== name
     );
     localStorage.setItem("bookmarks", JSON.stringify(updatedBookmarks));
+    toast.success("Bookmark removed successfully");
   };
 
   // Get current bookmarks
