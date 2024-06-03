@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
-import { FaGithubSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
@@ -14,11 +14,11 @@ function Footer() {
           <div className='row'>
             <div className='col-md-6 col-lg-4 col-12 ft-1'>
               <a href='https://www.devlabsstore.tech/'>
-                <img width={209} src={logo} alt='devlaps'></img>
+                <img width={209} src={logo} alt='devlaps' />
               </a>
               <h5>
                 Facing an issue or just <br />
-                enjoying the site ?{" "}
+                enjoying the site?
               </h5>
               <button>
                 <Link to='/review'>Tell us now</Link>
@@ -64,52 +64,29 @@ function Footer() {
               <h5>Quick Links</h5>
               <ul>
                 <li className='nav-item'>
-                  <a className='' href='/'>
+                  <Link className='' to='/remote-jobs'>
                     Remote Jobs
-                  </a>
+                  </Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
+                  <Link className='' to='/ai'>
                     AI
-                  </a>
+                  </Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
+                  <Link className='' to='/movies-series'>
                     Movie/Series
-                  </a>
-                </li>                <li className='nav-item'>
-                  <a className='' href='/'>
-                    Extension
-                  </a>
+                  </Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
-
-                <li className="nav-item">
-                  <a className="" href="/remote-jobs">
-                    Remote Jobs
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/ai">
-                    AI
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/movies-series">
-                    Movie/Series
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/extension">
+                  <Link className='' to='/extension'>
                     Extension
-                  </a>
+                  </Link>
                 </li>
-                <li className="nav-item">
-                  <a className="" href="/ui-design">
-
-                    Ui Design
-                  </a>
+                <li className='nav-item'>
+                  <Link className='' to='/ui-design'>
+                    UI Design
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -117,57 +94,37 @@ function Footer() {
               <h5>Explore</h5>
               <ul>
                 <li className='nav-item'>
-                  <a className='' href='/'>
+                  <Link className='' to='/front-end-tools'>
                     Frontend Tools
-                  </a>
+                  </Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
+                  <Link className='' to='/ethical-hacking'>
                     Ethical Hacking
-                  </a>
+                  </Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
+                  <Link className='' to='/coding-platform'>
                     Coding Platforms
-                  </a>
+                  </Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='' href='/'>
-
-                <li className="nav-item">
-                  <a className="" href="/front-end-tools">
-                    Frontend Tools
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/ethical-hacking">
-                    Ethical Hacking
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/coding-platform">
-                    Coding Platforms
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/cources-platform">
-
+                  <Link className='' to='/course-platform'>
                     Course Platforms
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div className='Last-foote'>
+      <div className='Last-footer'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-md-6 col-12 ft-1'>
               <p className='text-center fs-6'>
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </p>
-
               <div className='footer-icon mb-2'>
                 <a
                   href='https://www.linkedin.com/in/himanshunarware/'
@@ -181,7 +138,7 @@ function Footer() {
                   rel='noreferrer'
                   target='_blank'
                 >
-                  <i class='fa-brands fa-square-x-twitter text-white mx-1 fs-4'></i>
+                  <i className='fa-brands fa-square-x-twitter text-white mx-1 fs-4'></i>
                 </a>
                 <a href='mailto:himanshunarware77@gmail.com' rel='noreferrer'>
                   <SiGmail className='text-white mx-1 fs-4' />
