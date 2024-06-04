@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Route, Routes } from "react-router-dom"; // Correct import
 import "./App.css";
 
 //components
@@ -15,16 +15,20 @@ import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review.js";
 
 
+
+import Review from "./Component/Review";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./Component/ScrollToTop";
 
 //cards
+
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
-import { Extension } from "./pages/Extension";
+import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
@@ -32,11 +36,13 @@ import CodingPlateform from "./pages/CodingPlateform";
 import CourcesPlatform from "./pages/CourcesPlatform";
 
 
+import CodingPlatform from "./pages/CodingPlatform";
+import CoursesPlatform from "./pages/CoursesPlatform";
 import Faq from "./Component/Faq";
+
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
-  AOS.init();
-  return (
+  AOS.init();  return (
     <>
         <ScrollToTop />
         <Navbar setSearchQuery={setSearchQuery} />
@@ -70,6 +76,40 @@ function App() {
         <ChatAssistant />
         <Footer />
       </>
+
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  return (
+    <div>
+      <ScrollToTop />
+      <Navbar setSearchQuery={setSearchQuery} />
+      <Routes>
+        <Route path="/" element={<Home searchQuery={searchQuery} />} />
+        <Route path="/bookmark" element={<BookMark />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/open-source" element={<OpenSource />} />
+        <Route path="/review" element={<Review />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/remote-jobs" element={<RemoteJobs />} />
+        <Route path="/ai" element={<AI />} />
+        <Route path="/movies-series" element={<Movie />} />
+        <Route path="/extension" element={<Extension />} />
+        <Route path="/ui-design" element={<UI />} />
+        <Route path="/front-end-tools" element={<FrontendTools />} />
+        <Route path="/ethical-hacking" element={<EthicalHacking />} />
+        <Route path="/coding-platform" element={<CodingPlatform />} />
+        <Route path="/courses-platform" element={<CoursesPlatform />} />
+        <Route path="*" element={<NotFound />} /> {/* 404 route */}
+      </Routes>
+      <BackToTopButton />
+      <Footer />
+      <ChatAssistant />
+      <Toaster />
+    </div>
+
   );
 }
 
