@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect  } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "./App.css";
+
+//components
 import About from "./Component/About";
 import Footer from "./Component/Footer";
 import Home from "./Component/Home";
@@ -11,6 +13,7 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
@@ -34,6 +37,21 @@ function App() {
 
   return (
     <>
+
+
+import CodingPlatform from "./pages/CodingPlatform";
+import CoursesPlatform from "./pages/CoursesPlatform";
+import Faq from "./Component/Faq";
+
+function App() {
+  const [searchQuery, setSearchQuery] = useState("");
+
+    useEffect(() => {
+    AOS.init();
+  }, []);
+
+  return (
+    <div>
       <ScrollToTop />
       <Navbar setSearchQuery={setSearchQuery} />
       <Routes>
@@ -54,13 +72,17 @@ function App() {
         <Route path="/cources-platform" element={<CourcesPlatform />} />
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/coding-platform" element={<CodingPlatform />} />
+        <Route path="/courses-platform" element={<CoursesPlatform />} />
+        <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
       <BackToTopButton />
       <Toaster />
       <Footer />
       <ChatAssistant />
+
     </>
+
   );
 }
 

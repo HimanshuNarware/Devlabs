@@ -22,9 +22,9 @@ function NavbarCenter() {
           <NavbarItem description="About Us" to="/about" />
         </li>
         <li className="nav-item">
-
           <NavbarItem description="FAQ's" to="/faq" />
-
+        </li>
+        <li>
           <NavbarItem description="Contact" to="https://www.linkedin.com/in/himanshunarware/" />
         </li>
       </ul>
