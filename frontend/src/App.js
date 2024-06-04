@@ -15,12 +15,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 
-import Review from "./Component/Review";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import Review from "./Component/Review";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
-import { BrowserRouter } from "react-router-dom";
-import ScrollToTop from "./Component/ScrollToTop";
+// import { BrowserRouter } from "react-router-dom";
+// import ScrollToTop from "./Component/ScrollToTop";
 
 
 import RemoteJobs from "./pages/RemoteJobs";
@@ -87,10 +87,6 @@ function App() {
       <BackToTopButton />
       <Footer />
       <ChatAssistant />
-
-      </BrowserRouter>
-
-
         <Toaster />
         <ChatAssistant />
       </BrowserRouter>
