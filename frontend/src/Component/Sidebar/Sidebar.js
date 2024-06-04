@@ -112,7 +112,6 @@ function Sidebar({ showSideNav }) {
         ))}
         <div style={{ marginTop: "20px" }} />
 
-        ))
       </Link>
       <div style={{ marginTop: '20px' }} />
 
