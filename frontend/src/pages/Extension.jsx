@@ -5,3 +5,5 @@ export const Extension = () => {
     <div style={{marginTop: "200px"}}>Extension</div>
   )
 }
+
+export default Extension
