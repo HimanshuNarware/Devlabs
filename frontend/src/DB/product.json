@@ -1,5 +1,12 @@
 [
 	{
+		"productName": "edX",
+		"category": "course",
+		"image": "http://bit.ly/4aK9dDT",
+		"link": "https://www.edx.org/",
+		"description": "Global online learning platform with courses, degrees, and certificates."
+	},
+	{
 		"productName": "Carousel Hero",
 		"category": "tools",
 		"image": "https://i.ibb.co/7rRW6TW/logo-social-large.png",
@@ -15,7 +22,7 @@
 	},
 	{
 		"productName": "Coursera",
-		"category": "coding",
+		"category": "course",
 		"image": "http://bit.ly/4dMPPZY",
 		"link": "https://www.coursera.org/",
 		"description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
@@ -29,7 +36,7 @@
 	},
 	{
 		"productName": "Scaler",
-		"category": "coding",
+		"category": "course",
 		"image": "https://bit.ly/3XoZKgc",
 		"link": "https://bit.ly/3plUFZw",
 		"description": "Scaler is an outcome-focused, ed-tech platform for techies."
@@ -1796,7 +1803,7 @@
 	},
 	{
 		"productName": "BitDegree",
-		"category": "coding",
+		"category": "course",
 		"image": "https://logos-download.com/wp-content/uploads/2019/01/BitDegree_Logo.png",
 		"link": "https://www.bitdegree.org/",
 		"description": "Offers high quality Web3 courses."
