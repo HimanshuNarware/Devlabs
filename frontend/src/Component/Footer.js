@@ -165,7 +165,7 @@ function Footer() {
           <div className='row justify-content-center'>
             <div className='col-md-6 col-12 ft-1'>
               <p className='text-center fs-6'>
-                COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
+                COPYRIGHT © Devlaps 2024 | <br/> MAINTAINED BY HIMANSHU NARWARE
               </p>
 
               <div className='footer-icon mb-2'>
