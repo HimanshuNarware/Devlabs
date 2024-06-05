@@ -105,6 +105,15 @@
 		"link": "https://w3schools.com/",
 		"description": "Tutorials on web development, programming languages, and other related technologies"
 	},
+
+	{
+		"productName": "TakeUForward",
+		"category": "coding",
+		"image": "striver.jpeg",
+		"link": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+		"description": "Strivers A2Z DSA Course/Sheet helpful to coders."
+	},
+
 	{
 		"productName": "MyEmulator",
 		"category": "Gaming",
