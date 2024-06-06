@@ -9,9 +9,6 @@ import "react-toastify/dist/ReactToastify.css";
 import App from "./App";
 
 import { BrowserRouter } from "react-router-dom";
-import App from "./App";
-
-import { BrowserRouter } from "react-router-dom"; // Ensure BrowserRouter is imported here
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -35,9 +32,6 @@ root.render(
   <Provider store={store}>
 
     <BrowserRouter>
-      <App />
-      <Preloader />
-    <BrowserRouter> {/* Ensure BrowserRouter is only here */}
       <App /> 
       <ToastContainer />
     </BrowserRouter>
