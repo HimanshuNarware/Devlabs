@@ -10,6 +10,8 @@ import App from "./App";
 
 import { BrowserRouter } from "react-router-dom";
 
+import { BrowserRouter } from "react-router-dom"; // Ensure BrowserRouter is imported here
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const options = {
@@ -30,8 +32,7 @@ darkmode.showWidget();
 
 root.render(
   <Provider store={store}>
-
-    <BrowserRouter>
+    <BrowserRouter> {/* Ensure BrowserRouter is only here */}
       <App /> 
       <ToastContainer />
     </BrowserRouter>

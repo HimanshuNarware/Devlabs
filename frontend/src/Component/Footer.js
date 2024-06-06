@@ -19,6 +19,7 @@ function Footer() {
               <h5>
                 Facing an issue or just <br />
                 enjoying the site?{" "}
+
               </h5>
               <button>
                 <Link to="/review">Tell us now</Link>
@@ -57,6 +58,29 @@ function Footer() {
             <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5>Quick Links</h5>
               <ul>
+                <li className='nav-item'>                  
+                <Link className='' to='/remote-jobs'>
+                    Remote Jobs
+                  </Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='' to='/ai'>
+                    AI
+                  </Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='' to='/movies-series'>
+                    Movie/Series
+                  </Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='' to='/extension'>
+                    Extension
+                  </Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='' to='/ui-design'>
+
                 <li className="nav-item">
                   <Link className="" to="/remote-jobs">
                     Remote Jobs
@@ -87,6 +111,21 @@ function Footer() {
             <div className="col-md-6 col-lg-2 col-12 ft-4">
               <h5>Explore</h5>
               <ul>
+                <li className='nav-item'>
+                  <Link className='' to='/front-end-tools'>
+                    Frontend Tools
+                  </Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='' to='/ethical-hacking'>
+                    Ethical Hacking
+                  </Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='' to='/coding-platform'>
+                    Coding Platforms
+                  </Link>
+                </li>
                 <li className="nav-item">
                   <Link className="" to="/front-end-tools">
                     Frontend Tools
@@ -104,7 +143,7 @@ function Footer() {
                 </li>
                 <li className="nav-item">
                   <Link className="" to="/courses-platform">
-                    Course Platforms
+>>                    Course Platforms
                   </Link>
                 </li>
               </ul>
@@ -135,6 +174,7 @@ function Footer() {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </footer>
