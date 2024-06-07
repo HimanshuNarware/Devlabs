@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import "./index.css";
 import { Provider } from "react-redux";
 import store from "./Store/store";
@@ -7,10 +7,7 @@ import Darkmode from "darkmode-js";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import App from "./App";
-
 import { BrowserRouter } from "react-router-dom";
-
-import { BrowserRouter } from "react-router-dom"; // Ensure BrowserRouter is imported here
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -32,12 +29,9 @@ darkmode.showWidget();
 
 root.render(
   <Provider store={store}>
-
     <BrowserRouter>
       <App />
-      <Preloader />
-    <BrowserRouter> {/* Ensure BrowserRouter is only here */}
-      <App /> 
+      {/* <Preloader /> */}
       <ToastContainer />
     </BrowserRouter>
   </Provider>
