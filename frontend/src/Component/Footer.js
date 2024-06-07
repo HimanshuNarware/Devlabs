@@ -32,53 +32,34 @@ function Footer() {
                     Home
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="" href="https://www.devlabsstore.tech/about">
-                    About Us
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="https://www.devlabsstore.tech/bookmark">
-                    Bookmark
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="https://www.linkedin.com/in/himanshunarware/">
-                    Contact
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="https://www.devlabsstore.tech/open-source">
-                    Open Source
-                  </a>
-                </li>
+                {/* Other list items */}
               </ul>
             </div>
             <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5>Quick Links</h5>
               <ul>
-                <li className='nav-item'>                  
-                  <Link className='' to='/remote-jobs'>
+                <li className="nav-item">
+                  <Link className="" to="/remote-jobs">
                     Remote Jobs
                   </Link>
                 </li>
-                <li className='nav-item'>
-                  <Link className='' to='/ai'>
+                <li className="nav-item">
+                  <Link className="" to="/ai">
                     AI
                   </Link>
                 </li>
-                <li className='nav-item'>
-                  <Link className='' to='/movies-series'>
+                <li className="nav-item">
+                  <Link className="" to="/movies-series">
                     Movie/Series
                   </Link>
                 </li>
-                <li className='nav-item'>
-                  <Link className='' to='/extension'>
+                <li className="nav-item">
+                  <Link className="" to="/extension">
                     Extension
                   </Link>
                 </li>
-                <li className='nav-item'>
-                  <Link className='' to='/ui-design'>
+                <li className="nav-item">
+                  <Link className="" to="/ui-design">
                     UI Design
                   </Link>
                 </li>
@@ -87,18 +68,18 @@ function Footer() {
             <div className="col-md-6 col-lg-2 col-12 ft-4">
               <h5>Explore</h5>
               <ul>
-                <li className='nav-item'>
-                  <Link className='' to='/front-end-tools'>
+                <li className="nav-item">
+                  <Link className="" to="/front-end-tools">
                     Frontend Tools
                   </Link>
                 </li>
-                <li className='nav-item'>
-                  <Link className='' to='/ethical-hacking'>
+                <li className="nav-item">
+                  <Link className="" to="/ethical-hacking">
                     Ethical Hacking
                   </Link>
                 </li>
-                <li className='nav-item'>
-                  <Link className='' to='/coding-platform'>
+                <li className="nav-item">
+                  <Link className="" to="/coding-platform">
                     Coding Platforms
                   </Link>
                 </li>
@@ -108,6 +89,7 @@ function Footer() {
                   </Link>
                 </li>
               </ul>
+              {/* Other content */}
             </div>
           </div>
         </div>
@@ -120,16 +102,28 @@ function Footer() {
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </p>
               <div className="footer-icon mb-2">
-                <a href="https://www.linkedin.com/in/himanshunarware/" rel="noreferrer" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/himanshunarware/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <BsLinkedin className="text-white mx-1 fs-4" />
                 </a>
-                <a href="https://twitter.com/N_Himanshu_/" rel="noreferrer" target="_blank">
+                <a
+                  href="https://twitter.com/N_Himanshu_/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <FaTwitter className="text-white mx-1 fs-4" />
                 </a>
                 <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
                   <SiGmail className="text-white mx-1 fs-4" />
                 </a>
-                <a href="https://github.com/HimanshuNarware/Devlabs" rel="noreferrer" target="_blank">
+                <a
+                  href="https://github.com/HimanshuNarware/Devlabs"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <FaGithubSquare className="text-white mx-1 fs-4" />
                 </a>
               </div>

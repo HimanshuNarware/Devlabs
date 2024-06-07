@@ -21,17 +21,6 @@ const ChatAssistant = () => {
 
   return (
     <div className='chatbot'>
-
-      <img
-        className="Logo"
-        src={chatbotLogo}
-        alt="Logo"
-        onClick={toggleChatbot}
-        onMouseEnter={() => (document.querySelector(".Logo").src = chatbotLogo1)}
-        onMouseLeave={() => (document.querySelector(".Logo").src = chatbotLogo)}
-      />
-
-
       {!isOpen && ( // Conditionally render the logo if the chatbot is closed
         <img
           className='Logo'

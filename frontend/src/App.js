@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import "./App.css";
-
 //components
 import About from "./Component/About";
 import Footer from "./Component/Footer";
+import Rateus from "./Component/Rateus";
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar/Navbar";
 import BookMark from "./Component/BookMark";
@@ -14,13 +14,11 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./Component/ScrollToTop";
 //cards
-
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
@@ -28,6 +26,7 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
+import CodingPlatform from "./pages/CodingPlatform";
 import CoursesPlatform from "./pages/CoursesPlatform";
 import Faq from "./Component/Faq";
 import CodingPlateform from "./pages/CodingPlateform";
@@ -63,6 +62,7 @@ function App() {
         <ChatAssistant />
         <Footer />
       </>
+
   );
 }
 
