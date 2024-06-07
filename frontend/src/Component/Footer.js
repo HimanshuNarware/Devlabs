@@ -15,6 +15,13 @@ function Footer() {
             <div className='col-md-6 col-lg-4 col-12 ft-1'>
               <a href='https://www.devlabsstore.tech/'>
                 <img width={209} src={logo} alt='devlaps' />
+      <div className="Footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 col-lg-4 col-12 ft-1">
+              <a href="https://www.devlabsstore.tech/">
+                <img width={209} src={logo} alt="devlaps" />
+
               </a>
               <h5>
                 Facing an issue or just <br />
@@ -83,6 +90,14 @@ function Footer() {
                   <Link to='/courses-platform'>Course Platforms</Link>
                 </li>
               </ul>
+                {/* Other list items */}
+              </ul>
+            </div>
+            <div className="col-md-6 col-lg-3 col-12 ft-2">
+              {/* Other content */}
+            </div>
+            <div className="col-md-6 col-lg-2 col-12 ft-4">
+              {/* Other content */}
             </div>
           </div>
         </div>
@@ -100,6 +115,19 @@ function Footer() {
                 </a>
                 <a href='https://twitter.com/N_Himanshu_/' target='_blank' rel='noreferrer'>
                   <FaTwitter className='text-white mx-1 fs-4' />
+      <div className="Last-footer">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-6 col-12 ft-1">
+              <p className="text-center fs-6">
+                COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
+              </p>
+              <div className="footer-icon mb-2">
+                <a href="https://www.linkedin.com/in/himanshunarware/" rel="noreferrer" target="_blank">
+                  <BsLinkedin className="text-white mx-1 fs-4" />
+                </a>
+                <a href="https://twitter.com/N_Himanshu_/" rel="noreferrer" target="_blank">
+                  <FaTwitter className="text-white mx-1 fs-4" />
                 </a>
                 <a href='mailto:himanshunarware77@gmail.com' rel='noreferrer'>
                   <SiGmail className='text-white mx-1 fs-4' />

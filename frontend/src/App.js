@@ -4,9 +4,9 @@ import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// Components
 import About from "./Component/About";
 import Footer from "./Component/Footer";
+import Rateus from "./Component/Rateus";
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar/Navbar";
 import BookMark from "./Component/BookMark";
@@ -20,6 +20,11 @@ import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./Component/ScrollToTop";
 
 // Pages
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Toaster } from "react-hot-toast";
+import ScrollToTop from "./Component/ScrollToTop";
+//cards
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
@@ -48,6 +53,7 @@ function App() {
         <Route path="/open-source" element={<OpenSource />} />
         <Route path="/review" element={<Review />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/rateus" element={<Rateus />} />
         <Route path="/remote-jobs" element={<RemoteJobs />} />
         <Route path="/ai" element={<AI />} />
         <Route path="/movies-series" element={<Movie />} />
