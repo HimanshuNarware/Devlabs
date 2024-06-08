@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import "./App.css";
+//components
 import About from "./Component/About";
 import Footer from "./Component/Footer";
+import Rateus from "./Component/Rateus";
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar/Navbar";
 import BookMark from "./Component/BookMark";
@@ -30,7 +33,10 @@ import Collaboration from "./pages/Collaboration";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
-  AOS.init();
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <>
@@ -43,6 +49,7 @@ function App() {
         <Route path="/open-source" element={<OpenSource />} />
         <Route path="/review" element={<Review />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/rateus" element={<Rateus />} />
         <Route path="/remote-jobs" element={<RemoteJobs />} />
         <Route path="/ai" element={<AI />} />
         <Route path="/movies-series" element={<Movie />} />
@@ -55,7 +62,10 @@ function App() {
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
         <Route path="*" element={<NotFound />} />
-      </Routes>
+        <Route path="/coding-platform" element={<CodingPlatform />} />
+        <Route path="/courses-platform" element={<CoursesPlatform />} />
+        <Route path="*" element={<NotFound />} /> {/* 404 route */}
+        </Routes>
       <BackToTopButton />
       <Toaster />
       <Footer />
