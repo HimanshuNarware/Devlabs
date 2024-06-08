@@ -7,4 +7,3 @@ const Extension = () => {
 }
 
 export default Extension;
-

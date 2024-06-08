@@ -1,8 +1,6 @@
-
-import { Route, Routes, BrowserRouter } from "react-router-dom";
 import React, { useState, useEffect } from "react";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "./App.css";
-//components
 import About from "./Component/About";
 import Footer from "./Component/Footer";
 import Rateus from "./Component/Rateus";
@@ -63,11 +61,10 @@ function App() {
         <Route path="/cources-platform" element={<CourcesPlatform />} />
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
-        <Route path="*" element={<NotFound />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
         <Route path="/courses-platform" element={<CoursesPlatform />} />
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
-        </Routes>
+      </Routes>
       <BackToTopButton />
       <Toaster />
       <Footer />
