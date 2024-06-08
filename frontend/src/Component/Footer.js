@@ -18,7 +18,7 @@ function Footer() {
               </a>
               <h5>
                 Facing an issue or just <br />
-                enjoying the site?
+                enjoying the site?{" "}
               </h5>
               <button>
                 <Link to="/review">Tell us now</Link>
@@ -36,9 +36,59 @@ function Footer() {
               </ul>
             </div>
             <div className="col-md-6 col-lg-3 col-12 ft-2">
-              {/* Other content */}
+              <h5>Quick Links</h5>
+              <ul>
+                <li className="nav-item">
+                  <Link className="" to="/remote-jobs">
+                    Remote Jobs
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="" to="/ai">
+                    AI
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="" to="/movies-series">
+                    Movie/Series
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="" to="/extension">
+                    Extension
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="" to="/ui-design">
+                    UI Design
+                  </Link>
+                </li>
+              </ul>
             </div>
             <div className="col-md-6 col-lg-2 col-12 ft-4">
+              <h5>Explore</h5>
+              <ul>
+                <li className="nav-item">
+                  <Link className="" to="/front-end-tools">
+                    Frontend Tools
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="" to="/ethical-hacking">
+                    Ethical Hacking
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="" to="/coding-platform">
+                    Coding Platforms
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="" to="/courses-platform">
+                    Course Platforms
+                  </Link>
+                </li>
+              </ul>
               {/* Other content */}
             </div>
           </div>
@@ -52,16 +102,28 @@ function Footer() {
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </div>
               <div className="footer-icon mb-2">
-                <a href="https://www.linkedin.com/in/himanshunarware/" rel="noreferrer" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/himanshunarware/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <BsLinkedin className="text-white mx-1 fs-4" />
                 </a>
-                <a href="https://twitter.com/N_Himanshu_/" rel="noreferrer" target="_blank">
+                <a
+                  href="https://twitter.com/N_Himanshu_/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <FaTwitter className="text-white mx-1 fs-4" />
                 </a>
                 <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
                   <SiGmail className="text-white mx-1 fs-4" />
                 </a>
-                <a href="https://github.com/HimanshuNarware/Devlabs" rel="noreferrer" target="_blank">
+                <a
+                  href="https://github.com/HimanshuNarware/Devlabs"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <FaGithubSquare className="text-white mx-1 fs-4" />
                 </a>
               </div>

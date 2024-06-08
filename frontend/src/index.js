@@ -29,6 +29,7 @@ darkmode.showWidget();
 
 root.render(
   <Provider store={store}>
+
     <BrowserRouter>
       <App />
       {/* <Preloader /> */}
