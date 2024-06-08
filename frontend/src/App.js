@@ -25,11 +25,13 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
-import CodingPlateform from "./pages/CodingPlateform";
-import CourcesPlatform from "./pages/CourcesPlatform";
+import CodingPlateform from "./pages/CodingPlatform.jsx";
+import CourcesPlatform from "./pages/CoursesPlatform";
 import Faq from "./Component/Faq";
 import Productivity from "./pages/Productivity";
 import Collaboration from "./pages/Collaboration";
+import CodingPlatform from "./pages/CodingPlatform.jsx";
+import CoursesPlatform from "./pages/CoursesPlatform";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
