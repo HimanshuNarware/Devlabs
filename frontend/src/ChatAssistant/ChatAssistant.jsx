@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Chatbot from "react-chatbot-kit";
 import "react-chatbot-kit/build/main.css";
-import config from "../ChatBot/config.jsx";
+import config from "../ChatBot/config";
 import MessageParser from "../ChatBot/MessageParser";
 import ActionProvider from "../ChatBot/ActionProvider";
 import "./ChatAssistant.css";
@@ -21,19 +21,6 @@ const ChatAssistant = () => {
 
   return (
     <div className='chatbot'>
-
-      <img
-        className='Logo'
-        src={chatbotLogo}
-        alt='Logo'
-        onClick={toggleChatbot}
-        onMouseEnter={() => (document.querySelector(".Logo").src = chatbotLogo1)}
-        onMouseLeave={() => (document.querySelector(".Logo").src = chatbotLogo)}
-      />
-      {isOpen && (
-        <div className='chatbot-wrapper'>
-          <button className="close-button" onClick={closeChatbot}>
-
       {!isOpen && ( // Conditionally render the logo if the chatbot is closed
         <img
           className='Logo'
@@ -47,7 +34,6 @@ const ChatAssistant = () => {
       {isOpen && (
         <div className='chatbot-wrapper'>
           <button className='close-button' onClick={closeChatbot}>
-
             X
           </button>
           <div className='chatbot-animation'>
