@@ -16,9 +16,9 @@ const options = {
   left: "15px",
   time: "0.5s",
   mixColor: "#fff",
-  backgroundColor: "#fff",
-  buttonColorDark: "#f0f0f0",
-  buttonColorLight: "#100f2c",
+  backgroundColor: "#051626",
+  buttonColorDark: "#8758f6",
+  buttonColorLight: "#FFFBF5",
   saveInCookies: true,
   label: "🌓",
   autoMatchOsTheme: true,
@@ -29,6 +29,7 @@ darkmode.showWidget();
 
 root.render(
   <Provider store={store}>
+
     <BrowserRouter>
       <App />
       {/* <Preloader /> */}

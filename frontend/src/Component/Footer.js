@@ -18,7 +18,7 @@ function Footer() {
               </a>
               <h5>
                 Facing an issue or just <br />
-                enjoying the site?
+                enjoying the site?{" "}
               </h5>
               <button>
                 <Link to='/review'>Tell us now</Link>
@@ -81,6 +81,7 @@ function Footer() {
                 </li>
               </ul>
 
+
             </div>
           </div>
         </div>
@@ -94,7 +95,11 @@ function Footer() {
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </div>
               <div className="footer-icon mb-2">
-                <a href="https://www.linkedin.com/in/himanshunarware/" rel="noreferrer" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/himanshunarware/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <BsLinkedin className="text-white mx-1 fs-4" />
                 </a>
                 <a
@@ -103,6 +108,7 @@ function Footer() {
                   target='_blank'
                 >
                   <FaTwitter className='text-white mx-1 fs-4' />
+
                 </a>
                 <a href='mailto:himanshunarware77@gmail.com' rel='noreferrer'>
                   <SiGmail className='text-white mx-1 fs-4' />
@@ -113,6 +119,7 @@ function Footer() {
                   target='_blank'
                 >
                   <FaGithubSquare className='text-white mx-1 fs-4' />
+
                 </a>
               </div>
             </div>

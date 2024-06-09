@@ -138,7 +138,7 @@
   padding-left: 3px;
   padding-right: 3px;
   padding-top: 3px;
-  padding-bottom: 3px;
+  padding-bottom: 10px;
   height: 100%;
 }
 
@@ -252,9 +252,17 @@
   }
 }
 
-/* .hero-image {
-  display: none; 
-} */
+.hero-image img {
+  animation: float 6s ease-out infinite;
+
+}
+@keyframes float {
+  0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+
 
 @media (max-width: 768px) {
   .hero-image {

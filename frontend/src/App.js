@@ -33,12 +33,7 @@ import CoursesPlatform from "./pages/CoursesPlatform";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  return (
+  AOS.init();  return (
     <>
       <ScrollToTop />
       <Navbar setSearchQuery={setSearchQuery} />

@@ -36,7 +36,10 @@
   font-size: 1.3rem;
   animation: slideTop 1s ease forwards;
 }
-
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
 @keyframes slideRight {
   0% {
     transform: translateX(100px);
