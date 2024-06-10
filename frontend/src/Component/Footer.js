@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
+
+import { FaGithubSquare, FaTwitter } from "react-icons/fa";
 import { FaGithubSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
@@ -18,6 +20,7 @@ function Footer() {
               </a>
               <h5>
                 Facing an issue or just <br />
+
                 enjoying the site?
 
       <div className='Footer'>
@@ -30,7 +33,6 @@ function Footer() {
               <h5>
                 Facing an issue or just <br />
                 enjoying the site?{" "}
-
               </h5>
               <button>
                 <Link to="/review">Tell us now</Link>
@@ -56,7 +58,10 @@ function Footer() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="https://www.linkedin.com/in/himanshunarware/">
+                  <a
+                    className=""
+                    href="https://www.linkedin.com/in/himanshunarware/"
+                  >
                     Contact
                   </a>
                 </li>
@@ -79,12 +84,14 @@ function Footer() {
                 </li>
                 <li className='nav-item'>
                   <a href='https://www.devlabsstore.tech/open-source'>Open Source</a>
+
                 </li>
               </ul>
             </div>
             <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5>Quick Links</h5>
               <ul>
+
 
                 <li className="nav-item">
                   <a className="" href="/remote-jobs">
@@ -107,6 +114,9 @@ function Footer() {
                   </a>
                 </li>
                 <li className="nav-item">
+                  <Link className="" to="/ui-design">
+                    UI Design
+                  </Link>
                   <a className="" href="/ui-design">
                     UI Design
                   </a>
@@ -125,6 +135,7 @@ function Footer() {
                 </li>
                 <li className='nav-item'>
                   <a href='/ui-design'>UI Design</a>
+
 
                 </li>
               </ul>
@@ -149,6 +160,7 @@ function Footer() {
                   </a>
                 </li>
                 <li className="nav-item">
+                  <Link className="" to="/courses-platform">
                   <a className="" href="/course-platform">
                     Course Platforms
                   </a>
@@ -205,7 +217,10 @@ function Footer() {
                   <FaTwitter className='text-white mx-1 fs-4' />
 
                 </a>
-                <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
+                <a
+                  href="mailto:himanshunarware77@gmail.com"
+                  rel="noreferrer"
+                >
                   <SiGmail className="text-white mx-1 fs-4" />
                 </a>
                 <a

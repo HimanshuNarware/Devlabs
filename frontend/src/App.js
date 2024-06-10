@@ -5,6 +5,9 @@ import { Route, Routes } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
+
+// Components
+
 import "./App.css";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
@@ -16,6 +19,7 @@ import ChatAssistant from "./ChatAssistant/ChatAssistant";
 import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
+import Review from "./Component/Review";
 
 import Review from "./Component/Review.js";
 import AOS from "aos";
@@ -28,7 +32,12 @@ import Review from "./Component/Review";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
+
 import ScrollToTop from "./Component/ScrollToTop";
+import Faq from "./Component/Faq";
+
+// Pages
+
 
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
@@ -37,6 +46,22 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
+import CodingPlatform from "./pages/CodingPlatform";
+import CoursesPlatform from "./pages/CoursesPlatform";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Toaster } from "react-hot-toast";
+
+function App() {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  return (
+    <div>
 
 import CodingPlateform from "./pages/CodingPlateform";
 import CourcesPlatform from "./pages/CourcesPlatform";
@@ -93,6 +118,8 @@ function App() {
       <ChatAssistant />
 
       <Toaster />
+
+    </div>
 
     </>
   );
