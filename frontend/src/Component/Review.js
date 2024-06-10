@@ -23,11 +23,14 @@ function Review() {
   const onSubmitHandler = async (event) => {
     event.preventDefault();
 
-    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    const emailPattern = /^[a-zA-Z0-9._-]+@gmail.com$/;
     const email = document.getElementById("email").value;
     if (!emailPattern.test(email)) {
       toast.error("Please enter a valid email address.");
       return;
+    }
+    else{
+      toast.success("Review Submitted");
     }
 
     setProcessingMail(true);
