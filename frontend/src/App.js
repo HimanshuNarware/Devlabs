@@ -1,5 +1,10 @@
+
+// App.js
+import React, { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+
 import "./App.css";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
@@ -11,11 +16,20 @@ import ChatAssistant from "./ChatAssistant/ChatAssistant";
 import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
+
+import Review from "./Component/Review.js";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import { Toaster } from "react-hot-toast";
+
+
 import Review from "./Component/Review";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./Component/ScrollToTop";
+
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
@@ -23,6 +37,18 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
+
+import CodingPlateform from "./pages/CodingPlateform";
+import CourcesPlatform from "./pages/CourcesPlatform";
+
+import ScrollToTop from "./Component/ScrollToTop";
+import Faq from "./Component/Faq";
+
+function App() {
+  const [searchQuery, setSearchQuery] = useState("");
+  AOS.init();
+
+  return (
 import CodingPlateform from "./pages/CodingPlatform.jsx";
 import CourcesPlatform from "./pages/CoursesPlatform";
 import Faq from "./Component/Faq";
@@ -45,6 +71,7 @@ function App() {
         <Route path="/review" element={<Review />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/rateus" element={<Rateus />} />
+
         <Route path="/remote-jobs" element={<RemoteJobs />} />
         <Route path="/ai" element={<AI />} />
         <Route path="/movies-series" element={<Movie />} />
@@ -64,6 +91,9 @@ function App() {
       <Toaster />
       <Footer />
       <ChatAssistant />
+
+      <Toaster />
+
     </>
   );
 }
