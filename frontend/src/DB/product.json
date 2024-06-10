@@ -2933,6 +2933,13 @@
     
   },
 	{
+		"productName": "copy.io",
+		"category": "AI",
+        "image":"copy-ai.jpg",
+		"link": "https://www.copy.ai/",
+		"description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
+  },
+  {
 		"productName": "Webflow",
 		"category": "UI",
 		"image": "webflow.jpg",
