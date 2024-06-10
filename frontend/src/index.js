@@ -11,9 +11,6 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
 
-import App from './App'; // Import the App component
-
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const options = {
@@ -34,19 +31,8 @@ darkmode.showWidget();
 
 root.render(
   <Provider store={store}>
-
     <BrowserRouter>
       <App />
-      {/* <Preloader /> */}
-      <App /> 
-
-
-      <Preloader />
-      {/* <App /> Render the App component */}
-
-      <App />
-      {/* <Preloader /> */}
-
       <ToastContainer />
     </BrowserRouter>
   </Provider>
