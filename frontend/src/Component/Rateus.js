@@ -50,5 +50,4 @@ function RateUsComponent({ previousContent }) {
     </div>
   );
 }
-
 export default RateUsComponent;
