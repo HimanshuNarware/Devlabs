@@ -1,5 +1,6 @@
 // index.js
 import React from "react";
+import App from './App'; // Import the App component
 import ReactDOM from "react-dom";
 import "./index.css";
 import { Provider } from "react-redux";
@@ -7,12 +8,8 @@ import store from "./Store/store";
 import Darkmode from "darkmode-js";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import App from "./App";
+import Preloader from "./Component/Preloader";
 import { BrowserRouter } from "react-router-dom";
-
-
-import App from './App'; // Import the App component
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -36,16 +33,12 @@ root.render(
   <Provider store={store}>
 
     <BrowserRouter>
+      {/* <App /> Render the App component */}
       <App />
       {/* <Preloader /> */}
-      <App /> 
-
 
       <Preloader />
-      {/* <App /> Render the App component */}
 
-      <App />
-      {/* <Preloader /> */}
 
       <ToastContainer />
     </BrowserRouter>

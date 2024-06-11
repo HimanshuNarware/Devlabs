@@ -2,10 +2,9 @@ import React from 'react'
 
 export default function Rate({ rating, setRating }) {
   return (
-   
-       <div>
+    <div>
       {[1, 2, 3, 4, 5].map((star) => {
-        return (  
+        return (
           <span
             className='star'
             style={{
@@ -23,6 +22,6 @@ export default function Rate({ rating, setRating }) {
         )
       })}
     </div>
-   
+
   )
 }

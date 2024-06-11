@@ -1,8 +1,6 @@
 import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
-
-import { FaGithubSquare, FaTwitter } from "react-icons/fa";
 import { FaGithubSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
@@ -11,18 +9,6 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer>
-      <div className="Footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6 col-lg-4 col-12 ft-1">
-              <a href="https://www.devlabsstore.tech/">
-                <img width={209} src={logo} alt="devlaps" />
-              </a>
-              <h5>
-                Facing an issue or just <br />
-
-                enjoying the site?
-
       <div className='Footer'>
         <div className='container'>
           <div className='row'>
@@ -41,7 +27,6 @@ function Footer() {
             <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5>Company</h5>
               <ul>
-
                 <li className="nav-item">
                   <a className="" href="https://www.devlabsstore.tech/">
                     Home
@@ -69,7 +54,7 @@ function Footer() {
                   <a className="" href="https://www.devlabsstore.tech/open-source">
                     Open Source
                   </a>
-
+                </li>
                 <li className='nav-item'>
                   <a href='https://www.devlabsstore.tech/'>Home</a>
                 </li>
@@ -84,15 +69,12 @@ function Footer() {
                 </li>
                 <li className='nav-item'>
                   <a href='https://www.devlabsstore.tech/open-source'>Open Source</a>
-
                 </li>
               </ul>
             </div>
             <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5>Quick Links</h5>
               <ul>
-
-
                 <li className="nav-item">
                   <a className="" href="/remote-jobs">
                     Remote Jobs
@@ -114,13 +96,10 @@ function Footer() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <Link className="" to="/ui-design">
-                    UI Design
-                  </Link>
                   <a className="" href="/ui-design">
                     UI Design
                   </a>
-
+                </li>
                 <li className='nav-item'>
                   <a href='/remote-jobs'>Remote Jobs</a>
                 </li>
@@ -135,15 +114,12 @@ function Footer() {
                 </li>
                 <li className='nav-item'>
                   <a href='/ui-design'>UI Design</a>
-
-
                 </li>
               </ul>
             </div>
             <div className="col-md-6 col-lg-2 col-12 ft-4">
               <h5>Explore</h5>
               <ul>
-
                 <li className="nav-item">
                   <a className="" href="/front-end-tools">
                     Frontend Tools
@@ -160,11 +136,10 @@ function Footer() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <Link className="" to="/courses-platform">
                   <a className="" href="/course-platform">
                     Course Platforms
                   </a>
-
+                </li>
                 <li className='nav-item'>
                   <a href='/front-end-tools'>Frontend Tools</a>
                 </li>
@@ -178,21 +153,10 @@ function Footer() {
                   <a href='/courses-platform'>Course Platforms</a>
                 </li>
               </ul>
-
-
             </div>
           </div>
         </div>
       </div>
-      <div className="Last-footer">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-md-6 col-12 ft-1">
-              <p className="text-center fs-6">
-                COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
-              </p>
-
-
       <div className="Last-footer">
         <div className="container">
           <div className="row justify-content-center">

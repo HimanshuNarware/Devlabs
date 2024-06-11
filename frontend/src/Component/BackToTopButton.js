@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../style/BackToTopButton.css'
-
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 function BackToTopButton() {
