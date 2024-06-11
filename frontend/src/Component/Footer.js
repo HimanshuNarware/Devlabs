@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
 
-import { FaGithubSquare, FaTwitter } from "react-icons/fa";
 import { FaGithubSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
@@ -22,7 +21,11 @@ function Footer() {
                 Facing an issue or just <br />
 
                 enjoying the site?
-
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
       <div className='Footer'>
         <div className='container'>
           <div className='row'>
@@ -69,7 +72,7 @@ function Footer() {
                   <a className="" href="https://www.devlabsstore.tech/open-source">
                     Open Source
                   </a>
-
+                  </li>
                 <li className='nav-item'>
                   <a href='https://www.devlabsstore.tech/'>Home</a>
                 </li>
@@ -120,7 +123,7 @@ function Footer() {
                   <a className="" href="/ui-design">
                     UI Design
                   </a>
-
+                </li>
                 <li className='nav-item'>
                   <a href='/remote-jobs'>Remote Jobs</a>
                 </li>
@@ -135,8 +138,6 @@ function Footer() {
                 </li>
                 <li className='nav-item'>
                   <a href='/ui-design'>UI Design</a>
-
-
                 </li>
               </ul>
             </div>
@@ -164,7 +165,8 @@ function Footer() {
                   <a className="" href="/course-platform">
                     Course Platforms
                   </a>
-
+                  </Link>
+                </li>
                 <li className='nav-item'>
                   <a href='/front-end-tools'>Frontend Tools</a>
                 </li>
@@ -178,8 +180,6 @@ function Footer() {
                   <a href='/courses-platform'>Course Platforms</a>
                 </li>
               </ul>
-
-
             </div>
           </div>
         </div>
@@ -191,8 +191,10 @@ function Footer() {
               <p className="text-center fs-6">
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </p>
-
-
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="Last-footer">
         <div className="container">
           <div className="row justify-content-center">
