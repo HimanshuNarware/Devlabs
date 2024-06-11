@@ -2897,6 +2897,13 @@
 		"description": "OffSec Proving Grounds (PG) Play and Practice is a modern network for practicing penetration testing skills on exploitable, real-world vectors."
 	},
 	{
+		"productName": "SQL Police Department",
+		"category": "Database",
+		"image": "https://sqlpd.com/images/logo.svg",
+		"link": "https://sqlpd.com/",
+		"description": "It is an online game where you solve crimes using SQL (and learn SQL in the process). Learn SQL while playing a game!"
+	},
+	{
 		"productName": "Github",
 		"category": "collaboration",
 		"image": "https://media.licdn.com/dms/image/C560BAQFmuLSyL1nlPA/company-logo_200_200/0/1678231359043/github_logo?e=1724889600&v=beta&t=7s2Ecmtlw5lBbIZb8EcO3SyhBnQmv2jXEhsUyZE0zLo",
