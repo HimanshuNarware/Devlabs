@@ -315,23 +315,6 @@ function Home(props) {
           </ul>
         </div>
       </div>
-      <div className="contributors-section">
-        <h2>Faces of Dedication: Our Contributing Heroes</h2>
-        <div className="contributors-grid">
-          {contributors.map((contributor) => (
-            <a
-              key={contributor.id}
-              href={contributor.html_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contributor"
-            >
-              <img src={contributor.avatar_url} alt={contributor.login} />
-              <p>{contributor.login}</p>
-            </a>
-          ))}
-        </div>
-      </div>
     </div>
   );
 }
