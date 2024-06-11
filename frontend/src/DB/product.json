@@ -1453,7 +1453,7 @@
 		"productName": "Tab Colorizer",
 		"category": "extensions",
 		"image": "https://rb.gy/zx7r2",
-		"link": "https://rb.gy/wgsql",
+		"link": "https://rb.gy/wg",
 		"description": "Helps you customize your browser's tab icon."
 	},
 	{
@@ -2180,11 +2180,11 @@
 		"description": "Coding Ninjas Studio Unleash your coding potential with interactive learning and practice."
 	},
 	{
-		"productName": "Text2SQL AI",
+		"productName": "Text2 AI",
 		"category": "ai",
-		"image": "Text2SQL.png",
-		"link": "https://www.text2sql.ai/",
-		"description": "Convert natural language queries into SQL queries"
+		"image": "Text2.png",
+		"link": "https://www.text2.ai/",
+		"description": "Convert natural language queries into  queries"
 	},
 	{
 		"productName": "CodiumL AI",
@@ -2625,7 +2625,7 @@
 		"category": "tools",
 		"image": "https://bit.ly/3tndBZC",
 		"link": "https://planetscale.com/",
-		"description": "MySQL-compatible, serverless platform that makes MySQL near infinitely scalable, easier and safer to manage"
+		"description": "My-compatible, serverless platform that makes My near infinitely scalable, easier and safer to manage"
 	},
 	{
 		"productName": "Azure",
@@ -2899,7 +2899,7 @@
 	{
 		"productName": "SQL Police Department",
 		"category": "Database",
-		"image": "https://sqlpd.com/images/logo.svg",
+		"image": "https://pd.com/images/logo.svg",
 		"link": "https://sqlpd.com/",
 		"description": "It is an online game where you solve crimes using SQL (and learn SQL in the process). Learn SQL while playing a game!"
 	},
