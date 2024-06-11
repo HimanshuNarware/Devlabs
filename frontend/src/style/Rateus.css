@@ -11,6 +11,12 @@
   border: 1px solid #210202;
   border-radius: 5px;
   background-color: black;
+  transition: transform 0.3s, box-shadow 0.3s; /* Add box-shadow to transition */
+}
+
+.rate-us-container:hover {
+  transform: scale(1.05); /* Increase the size on hover */
+  box-shadow: 0 0 10px 5px #7c1de2; /* Add a lighting effect */
 }
 
 .rate-us-heading {
