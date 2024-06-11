@@ -35,6 +35,8 @@ import { Toaster } from "react-hot-toast";
 
 import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
+import TrailingCursor from "./Component/TrailingCursor/TrailingCursor.jsx"
+
 
 // Pages
 
@@ -87,6 +89,7 @@ function App() {
   AOS.init();  return (
     <>
       <ScrollToTop />
+      <TrailingCursor />
       <Navbar setSearchQuery={setSearchQuery} />
       <Routes>
         <Route path="/" element={<Home searchQuery={searchQuery} />} />
