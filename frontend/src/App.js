@@ -1,4 +1,3 @@
-
 // App.js
 import React, { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
@@ -19,15 +18,8 @@ import Review from "./Component/Review";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Toaster } from "react-hot-toast";
-
-import "aos/dist/aos.css";
 
 import { Toaster } from "react-hot-toast";
-
-
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
@@ -45,16 +37,11 @@ import Productivity from "./pages/Productivity";
 import Collaboration from "./pages/Collaboration";
 import CodingPlatform from "./pages/CodingPlateform";
 
-
 import "aos/dist/aos.css";
 
-import CodingPlateform from "./pages/CodingPlateform";
-import Productivity from "./pages/Productivity";
-import Collaboration from "./pages/Collaboration";
-
-  function App() {
+function App() {
   const [searchQuery, setSearchQuery] = useState("");
-  AOS.init();  
+  AOS.init();
   return (
     <>
       <ScrollToTop />
@@ -67,7 +54,6 @@ import Collaboration from "./pages/Collaboration";
         <Route path="/review" element={<Review />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/rateus" element={<Rateus />} />
-
         <Route path="/remote-jobs" element={<RemoteJobs />} />
         <Route path="/ai" element={<AI />} />
         <Route path="/movies-series" element={<Movie />} />
@@ -75,7 +61,6 @@ import Collaboration from "./pages/Collaboration";
         <Route path="/ui-design" element={<UI />} />
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
-
         <Route path="/coding-platform" element={<CodingPlatform />} />
         <Route path="/courses-platform" element={<CoursesPlatform />} />
         <Route path="/productivity-tools" element={<Productivity />} />
@@ -86,8 +71,6 @@ import Collaboration from "./pages/Collaboration";
       <Toaster />
       <Footer />
       <ChatAssistant />
-
-
     </>
   );
 }
