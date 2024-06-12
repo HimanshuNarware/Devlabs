@@ -7,11 +7,9 @@ import store from "./Store/store";
 import Darkmode from "darkmode-js";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import App from "./App";
+import App from "./App.js";
 import { BrowserRouter } from "react-router-dom";
-
-
-import App from './App'; // Import the App component
+import Preloader from "./Component/Preloader.js";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -36,16 +34,12 @@ root.render(
   <Provider store={store}>
 
     <BrowserRouter>
-      <App />
-      {/* <Preloader /> */}
-      <App /> 
+     
 
 
       <Preloader />
       {/* <App /> Render the App component */}
 
-      <App />
-      {/* <Preloader /> */}
 
       <ToastContainer />
     </BrowserRouter>
