@@ -69,11 +69,7 @@
 .Logo {
   height: 50px;
   width: 50px;
-  cursor: pointer;
-  cursor: pointer;
-
-  height:50px;
-  width:50px;
+  cursor: none;
 }
 
 
@@ -106,7 +102,7 @@
   border-radius: 50px;
   color: white;
   font-size: 20px;
-  cursor: pointer;
+  cursor:none;
 }
 @media only screen and (max-width: 425px) {
   .chatbot {
