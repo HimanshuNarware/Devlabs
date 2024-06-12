@@ -21,8 +21,10 @@ const ChatAssistant = () => {
   };
 
   return (
-    <div className='chatbot'>
+    <div className='chatbot'>l
+      {!isOpen && ( // Conditionally render the logo if the chatbot is closed
       {!isOpen && (
+
         <img
           className='Logo'
           src={logoSrc}
