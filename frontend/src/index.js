@@ -9,6 +9,8 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+
+
 import Preloader from "./Component/Preloader";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -31,19 +33,8 @@ darkmode.showWidget();
 
 root.render(
   <Provider store={store}>
-
     <BrowserRouter>
       <App />
-      {/* <Preloader /> */}
-      <App /> 
-
-
-      <Preloader />
-      {/* <App /> Render the App component */}
-
-      <App />
-      {/* <Preloader /> */}
-
       <ToastContainer />
     </BrowserRouter>
   </Provider>
