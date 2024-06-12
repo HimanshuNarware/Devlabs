@@ -2952,6 +2952,13 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+	},
+	{
+		"productName": "Lighthouse",
+		"category": "extensions",
+		"image": "https://res.cloudinary.com/dslzeoxj7/image/upload/v1718101659/xiermgidrkdcjzuzstee.png",
+		"link": "https://bit.ly/3KFPmes",
+		"description": "Lighthouse is an open-source, automated tool for improving the quality of web pages."
 	}
 	
 
