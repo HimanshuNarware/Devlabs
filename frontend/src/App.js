@@ -1,7 +1,5 @@
 
 // App.js
-import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
@@ -21,17 +19,13 @@ import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
 
-import Review from "./Component/Review.js";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { Toaster } from "react-hot-toast";
 
 
-import Review from "./Component/Review";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Toaster } from "react-hot-toast";
 
 import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
@@ -49,38 +43,11 @@ import EthicalHacking from "./pages/EthicalHacking";
 import CodingPlatform from "./pages/CodingPlatform";
 import CoursesPlatform from "./pages/CoursesPlatform";
 
-import AOS from "aos";
 import "aos/dist/aos.css";
-import { Toaster } from "react-hot-toast";
-
-function App() {
-  const [searchQuery, setSearchQuery] = useState("");
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  return (
-    <div>
 
 import CodingPlateform from "./pages/CodingPlateform";
-import CourcesPlatform from "./pages/CourcesPlatform";
-
-import ScrollToTop from "./Component/ScrollToTop";
-import Faq from "./Component/Faq";
-
-function App() {
-  const [searchQuery, setSearchQuery] = useState("");
-  AOS.init();
-
-  return (
-import CodingPlateform from "./pages/CodingPlatform.jsx";
-import CourcesPlatform from "./pages/CoursesPlatform";
-import Faq from "./Component/Faq";
 import Productivity from "./pages/Productivity";
 import Collaboration from "./pages/Collaboration";
-import CodingPlatform from "./pages/CodingPlatform.jsx";
-import CoursesPlatform from "./pages/CoursesPlatform";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -105,7 +72,6 @@ function App() {
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
         <Route path="/coding-platform" element={<CodingPlateform />} />
-        <Route path="/cources-platform" element={<CourcesPlatform />} />
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
@@ -118,8 +84,6 @@ function App() {
       <ChatAssistant />
 
       <Toaster />
-
-    </div>
 
     </>
   );
