@@ -686,7 +686,6 @@
 		"description": "SVG wave generator for web design backgrounds."
 	},
 	{
-
 		"productName": "Mesh Gradient",
 		"category": "web",
 		"image": "https://bit.ly/3KUNHDt",
@@ -1743,7 +1742,6 @@
 		"link": "https://openai.com/dall-e-2",
 		"description": "An AI system that can create realistic images and art from a description in natural language."
 	},
-
 	{
 		"productName": "Novoresume",
 		"category": "resume",
@@ -1793,7 +1791,6 @@
 		"link": " https://codeforces.com/",
 		"description": "A competitive programming platform with challenging contests and an active community."
 	},
-
 	{
 		"productName": "Codechef",
 		"category": "coding",
@@ -2823,18 +2820,15 @@
 		"link": "https://www.drawio.com/",
 		"description": "Free online Diagram software that allows you to create various types of diagrams and charts."
 	},
-
-	{	"productName": "Slidesgo",
-
+	{
+		"productName": "Slidesgo",
 		"category": "AI",
 		"image": "slidesgo.png",
 		"link": "https://slidesgo.com/",
-		"description":"Slidesgo offers an extensive catalog of free Google Slides themes and PowerPoint templates for creative presentations."
-
-	}
-,
-		{"productName": "Intigriti",
-
+		"description": "Slidesgo offers an extensive catalog of free Google Slides themes and PowerPoint templates for creative presentations."
+	},
+	{
+		"productName": "Intigriti",
 		"category": "ethical",
 		"image": "https://media.licdn.com/dms/image/D4E0BAQGuEpu0Xrph4w/company-logo_200_200/0/1702904021395/intigriti_logo?e=1724284800&v=beta&t=ZHMwYaL3urZ-MvaH4LdBCR5TIMLx2Sl2e3SarSUgae8",
 		"link": "https://www.intigriti.com/",
@@ -2929,24 +2923,21 @@
 		"link": "https://www.eraser.io/",
 		"description": "An online whiteboard, diagramming, and documentation tool designed and built by engineers for engineers."
 	},
-  
-  {
-    
-    "productName": "100Days Css",
+	{
+		"productName": "100Days Css",
 		"category": "web",
 		"image": "https://100dayscss.com/assets/svg/coding.svg",
 		"link": "https://100dayscss.com/",
 		"description": "It is a free online resource that provides a 100-day CSS challenge, offering daily exercises and projects to help users improve their CSS skills."
-    
-  },
+	},
 	{
 		"productName": "copy.io",
 		"category": "AI",
-        "image":"copy-ai.jpg",
+		"image": "copy-ai.jpg",
 		"link": "https://www.copy.ai/",
 		"description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
-  },
-  {
+	},
+	{
 		"productName": "Webflow",
 		"category": "UI",
 		"image": "webflow.jpg",
@@ -2960,7 +2951,4 @@
 		"link": "https://bit.ly/3KFPmes",
 		"description": "Lighthouse is an open-source, automated tool for improving the quality of web pages."
 	}
-	
-
-
 ]
