@@ -2953,7 +2953,11 @@
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
 	}
-	
-
-
+	{
+		"productName":"Magic UI",
+		"category":"UI",
+		"image":"magicUI.png",
+		"link": "https://magicui.design/",
+		"description":"Magic UI is a collection of re-usable components that you can add to your websites. It primarily features components, blocks, and templates geared towards creating landing pages and user-facing marketing materials."
+	}
 ]
