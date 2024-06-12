@@ -1,13 +1,9 @@
 
 // App.js
-import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
-
 // Components
-
 import "./App.css";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
@@ -21,24 +17,22 @@ import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
 
-import Review from "./Component/Review.js";
 import AOS from "aos";
+import "aos/dist/aos.css";
+import { Toaster } from "react-hot-toast";
+
 import "aos/dist/aos.css";
 
 import { Toaster } from "react-hot-toast";
 
 
-import Review from "./Component/Review";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Toaster } from "react-hot-toast";
 
 import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
 
 // Pages
-
-
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
@@ -46,45 +40,22 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
-import CodingPlatform from "./pages/CodingPlatform";
 import CoursesPlatform from "./pages/CoursesPlatform";
-
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { Toaster } from "react-hot-toast";
-
-function App() {
-  const [searchQuery, setSearchQuery] = useState("");
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  return (
-    <div>
-
-import CodingPlateform from "./pages/CodingPlateform";
-import CourcesPlatform from "./pages/CourcesPlatform";
-
-import ScrollToTop from "./Component/ScrollToTop";
-import Faq from "./Component/Faq";
-
-function App() {
-  const [searchQuery, setSearchQuery] = useState("");
-  AOS.init();
-
-  return (
-import CodingPlateform from "./pages/CodingPlatform.jsx";
-import CourcesPlatform from "./pages/CoursesPlatform";
-import Faq from "./Component/Faq";
 import Productivity from "./pages/Productivity";
 import Collaboration from "./pages/Collaboration";
-import CodingPlatform from "./pages/CodingPlatform.jsx";
-import CoursesPlatform from "./pages/CoursesPlatform";
+import CodingPlatform from "./pages/CodingPlateform";
 
-function App() {
+
+import "aos/dist/aos.css";
+
+import CodingPlateform from "./pages/CodingPlateform";
+import Productivity from "./pages/Productivity";
+import Collaboration from "./pages/Collaboration";
+
+  function App() {
   const [searchQuery, setSearchQuery] = useState("");
-  AOS.init();  return (
+  AOS.init();  
+  return (
     <>
       <ScrollToTop />
       <Navbar setSearchQuery={setSearchQuery} />
@@ -104,12 +75,13 @@ function App() {
         <Route path="/ui-design" element={<UI />} />
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
+
+        <Route path="/coding-platform" element={<CodingPlatform />} />
+        <Route path="/cources-platform" element={<CoursesPlatform />} />
         <Route path="/coding-platform" element={<CodingPlateform />} />
-        <Route path="/cources-platform" element={<CourcesPlatform />} />
+
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
-        <Route path="/coding-platform" element={<CodingPlatform />} />
-        <Route path="/courses-platform" element={<CoursesPlatform />} />
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
       <BackToTopButton />
@@ -118,8 +90,6 @@ function App() {
       <ChatAssistant />
 
       <Toaster />
-
-    </div>
 
     </>
   );
