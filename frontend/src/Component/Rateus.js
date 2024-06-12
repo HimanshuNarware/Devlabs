@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./../style/Rateus.css";
 
 function RateUsComponent({ previousContent }) {
   const [rating, setRating] = useState(0);
   const [feedback, setFeedback] = useState("");
-  const [showModal, setShowModal] = useState(false);
 
   const handleStarClick = (star) => {
     setRating(star);
@@ -15,10 +16,20 @@ function RateUsComponent({ previousContent }) {
   };
 
   const handleSubmit = () => {
-    // Reset the state after submitting
-    setRating(0);
-    setFeedback("");
-    setShowModal(false); // Hide the modal after submitting
+    // Check if both rating and feedback are provided
+    if (rating !== 0 && feedback.trim() !== "") {
+      // Reset the state after submitting
+      setRating(0);
+      setFeedback("");
+      // Show toast message
+      toast.success("Thanks For Your Feedback :)", {
+        position: "top-center"
+      });
+    } else {
+      toast.error("Please Enter All Details :(", {
+        position: "top-center"
+      });
+    }
   };
 
   return (
@@ -43,11 +54,12 @@ function RateUsComponent({ previousContent }) {
             value={feedback}
             onChange={handleFeedbackChange}
           ></textarea>
-          <button className="submit-button" onClick={() => setShowModal(true)}>
+          <button className="submit-button" onClick={handleSubmit}>
             Submit
           </button>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }

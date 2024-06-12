@@ -5,7 +5,6 @@ import logo from "../../image/logo.png";
 
 function NavbarLeft(props) {
   useEffect(() => {
-    // Added event listener to handle clicks outside the navbar
     const handleDocumentClick = (e) => {
       if (!e.target.closest('.navbar-left')) {
         props.setShowSideNav(false);
