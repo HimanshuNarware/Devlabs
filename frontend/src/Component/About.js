@@ -11,6 +11,7 @@ function About() {
   const [contributors, setContributors] = useState([]);
   const [founder, setFounder] = useState({});
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchQuery, setSearchQuery] = useState("");
   const repoOwner = "HimanshuNarware";
   const repoName = "Devlabs";
 
@@ -43,10 +44,16 @@ function About() {
     fetchContributors();
   }, []);
 
+  //filtering out
+  const filteredContributors = contributors.filter((contributor) =>
+    contributor.login.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   const paginationValues = getPaginationData(
     currentPage,
     CARDS_PER_PAGE,
-    contributors
+    // contributors
+    filteredContributors
   );
   const { lastCardIndex, firstCardIndex, allPagesNumbers, currentPageData } =
     paginationValues;
@@ -135,6 +142,16 @@ function About() {
           </div>
         </div>
         <h1 id="contributors">Our Contributors</h1>
+        
+        {/* input bar */}
+        <input
+          type="text"
+          className="searchbar-contributors"
+          placeholder="Search your name here..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+
         <div className="grid-container">
           {currentPageData?.map((contributor) => {
             return (
@@ -164,7 +181,7 @@ function About() {
       <Pagination
         firstCardIndex={firstCardIndex}
         lastCardIndex={lastCardIndex}
-        dataLength={contributors.length}
+        dataLength={filteredContributors.length}
         allPagesNumbers={allPagesNumbers}
         currentPage={currentPage}
         scrollPosition={"contributors"}
