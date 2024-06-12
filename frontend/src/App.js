@@ -16,9 +16,19 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
+
+import "aos/dist/aos.css";
+
+import { Toaster } from "react-hot-toast";
+
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
 
@@ -34,6 +44,13 @@ import CoursesPlatform from "./pages/CoursesPlatform";
 import Productivity from "./pages/Productivity";
 import Collaboration from "./pages/Collaboration";
 import CodingPlatform from "./pages/CodingPlateform";
+
+
+import "aos/dist/aos.css";
+
+import CodingPlateform from "./pages/CodingPlateform";
+import Productivity from "./pages/Productivity";
+import Collaboration from "./pages/Collaboration";
 
   function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -58,8 +75,11 @@ import CodingPlatform from "./pages/CodingPlateform";
         <Route path="/ui-design" element={<UI />} />
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
+
         <Route path="/coding-platform" element={<CodingPlatform />} />
         <Route path="/cources-platform" element={<CoursesPlatform />} />
+        <Route path="/coding-platform" element={<CodingPlateform />} />
+
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
