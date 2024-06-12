@@ -59,7 +59,7 @@ import CodingPlatform from "./pages/CodingPlateform";
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
-        <Route path="/cources-platform" element={<CoursesPlatform />} />
+        <Route path="/courses-platform" element={<CoursesPlatform />} />
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
