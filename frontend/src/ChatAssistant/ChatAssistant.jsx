@@ -10,6 +10,7 @@ import chatbotLogo1 from "../assets/logo1.png";
 
 const ChatAssistant = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [logoSrc, setLogoSrc] = useState(chatbotLogo);
 
   const toggleChatbot = () => {
     setIsOpen(!isOpen);
@@ -21,28 +22,26 @@ const ChatAssistant = () => {
 
   return (
     <div className='chatbot'>
-      {!isOpen && ( // Conditionally render the logo if the chatbot is closed
+      {!isOpen && (
         <img
           className='Logo'
-          src={chatbotLogo}
+          src={logoSrc}
           alt='Logo'
           onClick={toggleChatbot}
-          onMouseEnter={() => (document.querySelector(".Logo").src = chatbotLogo1)}
-          onMouseLeave={() => (document.querySelector(".Logo").src = chatbotLogo)}
+          onMouseEnter={() => setLogoSrc(chatbotLogo1)}
+          onMouseLeave={() => setLogoSrc(chatbotLogo)}
         />
       )}
       {isOpen && (
-        <div className='chatbot-wrapper'>
+        <div className={`chatbot-wrapper ${isOpen ? 'chatbot-animation' : 'chatbot-close-animation'}`}>
           <button className='close-button' onClick={closeChatbot}>
             X
           </button>
-          <div className='chatbot-animation'>
-            <Chatbot
-              config={config}
-              messageParser={MessageParser}
-              actionProvider={ActionProvider}
-            />
-          </div>
+          <Chatbot
+            config={config}
+            messageParser={MessageParser}
+            actionProvider={ActionProvider}
+          />
         </div>
       )}
     </div>
