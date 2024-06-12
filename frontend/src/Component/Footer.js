@@ -9,6 +9,23 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer>
+
+      <div className="Footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 col-lg-4 col-12 ft-1">
+              <a href="https://www.devlabsstore.tech/">
+                <img width={209} src={logo} alt="devlaps" />
+              </a>
+              <h5>
+                Facing an issue or just <br />
+
+                enjoying the site?
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
       <div className='Footer'>
         <div className='container'>
           <div className='row'>
@@ -55,6 +72,8 @@ function Footer() {
                     Open Source
                   </a>
                 </li>
+
+                  </li>
                 <li className='nav-item'>
                   <a href='https://www.devlabsstore.tech/'>Home</a>
                 </li>
@@ -139,6 +158,7 @@ function Footer() {
                   <a className="" href="/course-platform">
                     Course Platforms
                   </a>
+                  </Link>
                 </li>
                 <li className='nav-item'>
                   <a href='/front-end-tools'>Frontend Tools</a>
@@ -161,6 +181,19 @@ function Footer() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-6 col-12 ft-1">
+
+              <p className="text-center fs-6">
+                COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="Last-footer">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-6 col-12 ft-1">
+
               <div className="text-center fs-6 my-3 ">
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </div>

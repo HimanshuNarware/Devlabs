@@ -28,6 +28,10 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import AOS from "aos";
+
+import Review from "./Component/Review";
+
+
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
 import Review from "./Component/Review";
@@ -38,6 +42,37 @@ function App() {
   const [searchQuery, setSearchQuery] = useState("");
   AOS.init();
   return (
+
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import ScrollToTop from "./Component/ScrollToTop";
+import Faq from "./Component/Faq";
+
+// Pages
+
+
+import RemoteJobs from "./pages/RemoteJobs";
+import AI from "./pages/AI";
+import Movie from "./pages/Movie";
+import Extension from "./pages/Extension";
+import UI from "./pages/UI";
+import FrontendTools from "./pages/FrontendTools";
+import EthicalHacking from "./pages/EthicalHacking";
+import CodingPlatform from "./pages/CodingPlatform";
+import CoursesPlatform from "./pages/CoursesPlatform";
+
+import "aos/dist/aos.css";
+
+import CodingPlateform from "./pages/CodingPlateform";
+import Productivity from "./pages/Productivity";
+import Collaboration from "./pages/Collaboration";
+
+function App() {
+  const [searchQuery, setSearchQuery] = useState("");
+  AOS.init();  return (
+
     <>
       <ScrollToTop />
       <Navbar setSearchQuery={setSearchQuery} />
@@ -56,6 +91,9 @@ function App() {
         <Route path="/ui-design" element={<UI />} />
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
+
+        <Route path="/coding-platform" element={<CodingPlateform />} />
+
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
@@ -68,6 +106,9 @@ function App() {
       <ChatAssistant />
 
       <Toaster />
+
+
+
     </>
   );
 }

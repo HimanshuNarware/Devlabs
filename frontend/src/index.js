@@ -10,6 +10,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Preloader from "./Component/Preloader";
 import { BrowserRouter } from "react-router-dom";
+import Preloader from "./Component/Preloader";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
