@@ -1,8 +1,7 @@
 import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
-import { FaGithubSquare, FaTwitter } from "react-icons/fa";
-import { BsLinkedin } from "react-icons/bs";
+import { FaGithubSquare, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
 
@@ -60,11 +59,9 @@ function Footer() {
                   <Link to="/movies-series">Movie/Series</Link>
                 </li>
                 <li>
-                  <Link to="/extension">Extension</Link>
-                </li>
+                  <Link to="/extension">Extension</li>
                 <li>
-                  <Link to="/ui-design">UI Design</Link>
-                </li>
+                  <Link to="/ui-design">UI Design</li>
               </ul>
             </div>
             <div className="col-md-6 col-lg-2 col-12 ft-4">
@@ -100,7 +97,7 @@ function Footer() {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <BsLinkedin className="text-white mx-1 fs-4" />
+                  <FaLinkedin className="text-white mx-1 fs-4" />
                 </a>
                 <a
                   href="https://twitter.com/N_Himanshu_/"

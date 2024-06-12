@@ -21,20 +21,20 @@ const ChatAssistant = () => {
   };
 
   return (
-    <div className="chatbot">
-      {!isOpen && (
+    <div className='chatbot'>
+      {!isOpen && ( // Conditionally render the logo if the chatbot is closed
         <img
-          className="Logo"
+          className='Logo'
           src={logoSrc}
-          alt="Logo"
+          alt='Logo'
           onClick={toggleChatbot}
           onMouseEnter={() => setLogoSrc(chatbotLogo1)}
           onMouseLeave={() => setLogoSrc(chatbotLogo)}
         />
       )}
       {isOpen && (
-        <div className={`chatbot-wrapper ${isOpen ? "chatbot-animation" : "chatbot-close-animation"}`}>
-          <button className="close-button" onClick={closeChatbot}>
+        <div className={`chatbot-wrapper ${isOpen ? 'chatbot-animation' : 'chatbot-close-animation'}`}>
+          <button className='close-button' onClick={closeChatbot}>
             X
           </button>
           <Chatbot

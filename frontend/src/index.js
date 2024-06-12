@@ -1,4 +1,3 @@
-// index.js
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -7,10 +6,9 @@ import store from "./Store/store";
 import Darkmode from "darkmode-js";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import App from "./App.js";
+import App from "./App";
 import { BrowserRouter } from "react-router-dom";
-import Preloader from "./Component/Preloader.js";
-
+import Preloader from "./Component/Preloader";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -32,15 +30,9 @@ darkmode.showWidget();
 
 root.render(
   <Provider store={store}>
-
     <BrowserRouter>
-     
-
-
       <Preloader />
-      {/* <App /> Render the App component */}
-
-
+      <App />
       <ToastContainer />
     </BrowserRouter>
   </Provider>
