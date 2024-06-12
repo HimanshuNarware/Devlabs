@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   text-align: start;
   background-image: url("https://t3.ftcdn.net/jpg/04/57/92/32/360_F_457923238_8zmuShXTsS2CdsXisZSIutaBqKzl5haw.jpg");
+  cursor: none;
 }
 :root {
   --scrollbar-bg: white; /* Background color of the scrollbar track */
@@ -403,24 +404,24 @@
   border-radius: 6px;
   box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
   background-color: #8b5cf6;
-  cursor: pointer;
+  cursor: none;
 }
 .btn-booked-box {
   border: 2px dashed #8b5cf6;
   color: white;
-  cursor: pointer;
+  cursor: none;
   background: transparent;
 }
 
 .btn-booked-box:hover {
   color: white;
-  cursor: pointer;
+  cursor: none;
   background-color: #8b5cf6;
 }
 
 .btn-b-box:hover {
   background: transparent;
-  cursor: pointer;
+  cursor: none;
   box-shadow: 2px 2px 1px #8b5cf6;
 }
 
