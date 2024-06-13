@@ -1,4 +1,5 @@
-.container-one,.container-two {
+.container-one,
+.container-two {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,15 +8,16 @@
     margin: 40px;
     font-size: 1.6vmax;
     margin-top: 8rem;
-    
-}
-.container-two .bx-1 p{
-    margin-top: 40px;
-    text-align: justify;
-  
+
 }
 
-.container-one .bx-1 p{
+.container-two .bx-1 p {
+    margin-top: 40px;
+    text-align: justify;
+
+}
+
+.container-one .bx-1 p {
     margin-top: 42px;
     text-align: justify;
 
@@ -25,62 +27,69 @@
     width: 60%;
     max-width: 600px;
     height: fit-content;
-    animation:fade-in;
-    
+    animation: fade-in;
+
 }
 
 .bx-2 {
-   width: 50%;
-   /* height: 100%; */
-   max-height : 500px;
+    width: 50%;
+    /* height: 100%; */
+    max-height: 500px;
 }
 
 
-    .bx-2 img{
-        margin:40px 20px;
-        width: 90%;
-        height:60vh;
-        max-height: 500px;
-        animation:fade-in;
-
-       
-    }
+.bx-2 img {
+    margin: 40px 20px;
+    width: 90%;
+    height: 60vh;
+    max-height: 500px;
+    animation: fade-in;
 
 
+}
 
-  
+
+
+
 
 
 
 @media screen and (max-width: 900px) {
-    .container-one,.container-two{
+
+    .container-one,
+    .container-two {
         font-size: 26px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container-two{
+    .container-two {
         flex-direction: column;
         font-size: 20px;
         margin-left: 20px;
         margin-right: 20px;
     }
-    .container-one{
+
+    .container-one {
         flex-direction: column-reverse;
         font-size: 20px;
         margin-left: 20px;
         margin-right: 20px;
     }
-    .bx-1{
+
+    .bx-1 {
         width: auto;
     }
-    .bx-2{
+
+    .bx-2 {
         width: auto;
     }
 }
 
-@media screen and (max-width: 375px){
-    .container-one,.container-two{
+@media screen and (max-width: 375px) {
+
+    .container-one,
+    .container-two {
         font-size: 16px;
     }
 }
@@ -103,32 +112,32 @@
     transition: 1s;
 }
 
-.repo-btn:hover{
+.repo-btn:hover {
     background: transparent;
     box-shadow: 4px 4px 2px #8b5cf6;
     box-shadow: 0 0 20px rgb(226, 33, 226);
 }
 
-.repo-btn a{
+.repo-btn a {
     color: #ffffff;
     text-decoration: none;
-   
+
 }
 
 @media screen and (max-width: 375px) {
-    .repo-btn{
+    .repo-btn {
         font-size: 16px;
     }
 }
 
 .content-box {
-    border: 1px solid  #8b5cf6;
+    border: 1px solid #8b5cf6;
     margin: 20px;
     padding: 12px 12px;
     border-radius: 12px;
     max-width: 20vw;
     transition: 0.5s;
-    animation:fade-in;
+    animation: fade-in;
 
 }
 
@@ -183,27 +192,29 @@
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .content-box {
         max-width: 33vw;
     }
 }
 
-@media screen and (max-width: 650px){
-    .contributor-container{
+@media screen and (max-width: 650px) {
+    .contributor-container {
         margin: 20px;
     }
 }
 
-@media screen and (max-width: 500px) {
-}
+@media screen and (max-width: 500px) {}
 
 @media screen and (max-width: 425px) {
-    .contributor-container{
+    .contributor-container {
         margin: 1%;
     }
+
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .content-box {
         max-width: 100vw;
     }
@@ -249,14 +260,39 @@
     box-shadow: 2px 2px 1px #8b5cf6;
 }
 
-@keyframes fade-in{
-    from{
+@keyframes fade-in {
+    from {
         opacity: 0.5;
         scale: 0.8;
     }
-    to{
+
+    to {
         opacity: 1;
-        scale:1;
-        
+        scale: 1;
+
     }
+}
+
+.searchbar-contributors {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(149, 147, 147, 0.1);
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.searchbar-contributors::placeholder {
+    color: white;
+}
+
+.searchbar-contributors:focus {
+    border-color: #642beb;
+    box-shadow: 0 2px 5px rgb(237, 23, 237);
+    outline: none;
 }

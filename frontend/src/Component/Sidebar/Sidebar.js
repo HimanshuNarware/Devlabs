@@ -9,58 +9,70 @@ function Sidebar({ showSideNav }) {
     {
       name: "all",
       description: "All",
+      url: "/",
     },
     {
       name: "remote",
       description: "Remote Jobs",
+      url: "/remote-jobs",
     },
     {
       name: "ai",
       description: "AI",
+      url: "/ai",
     },
     {
       name: "ethical",
       description: "Ethical Hacking",
+      url: "/ethical-hacking",
     },
     {
       name: "movies",
       description: "Movie | Series",
+      url: "/movies-series",
     },
     {
       name: "extension",
       description: "Extension",
+      url: "/extension",
     },
     {
       name: "ui",
       description: "UI Design",
+      url: "/ui-design",
     },
     {
       name: "tools",
       description: "Frontend Tools",
+      url: "/front-end-tools",
     },
     {
       name: "coding",
       description: "Coding Platforms",
+      url: "/coding-platform",
     },
     {
       name: "course",
       description: "Course Platforms",
+      url: "/cources-platform",
     },
     {
       name: "productivity",
       description: "Productivity Tools",
-    }
-    ,
+      url: "/productivity-tools",
+    },
     {
       name: "collaboration",
       description: "Collaboration Tools",
-    }
+      url: "/collaboration-tools",
+    },
   ];
   return (
     <div className={`sidebar ${showSideNav ? "active" : ""}`}>
       <div
-        className={`sidebar-content sidebar-btns ${showSideNav ? "active" : ""
-          }`}
+        className={`sidebar-content sidebar-btns ${
+          showSideNav ? "active" : ""
+        }`}
       >
         <div className="sidebar-btn home-btn">
           <Link
@@ -99,23 +111,24 @@ function Sidebar({ showSideNav }) {
           </Link>
         </div>
       </div>
-      <Link to="/"
-        className="Link  Bookmark nav-link active"
-        aria-current="page">
-        {sidebarContent.map((item, index) => (
+      {sidebarContent.map((item, index) => (
+        <Link
+          to={item.url}
+          id={index}
+          className="Link  Bookmark nav-link active"
+          aria-current="page"
+        >
           <SidebarContent
             key={index}
             name={item.name}
             description={item.description}
             active={showSideNav}
           />
-        ))}
-        <div style={{ marginTop: "20px" }} />
-
-        ))
-      </Link>
-      <div style={{ marginTop: '20px' }} />
-
+        </Link>
+      ))}
+      <div style={{ marginTop: "20px" }} />
+      ))
+      <div style={{ marginTop: "20px" }} />
     </div>
   );
 }
