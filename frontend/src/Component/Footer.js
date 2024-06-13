@@ -175,18 +175,6 @@ function Footer() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-6 col-12 ft-1">
-              <p className="text-center fs-6">
-                COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
-              </p>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="Last-footer">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-md-6 col-12 ft-1">
               <div className="text-center fs-6 my-3 ">
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </div>

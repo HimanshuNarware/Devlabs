@@ -40,6 +40,7 @@ const ChatAssistant = () => {
       //{!isOpen && (
 
 
+
         <img
           className='Logo'
           src={logoSrc}
