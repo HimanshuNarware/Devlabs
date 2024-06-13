@@ -1,6 +1,6 @@
 import React from 'react';
-import './TrailingCursor.css'; // Ensure you have a CSS file for styling the ripple effect
-import cursorImage from '../../assets/mouse-cursor.png'; // Import your cursor image
+import './TrailingCursor.css'; 
+import cursorImage from '../../assets/mouse-cursor.png'; 
 
 const TrailingCursor = () => {
     const [cursorPosition, setCursorPosition] = React.useState({ x: 0, y: 0 });
