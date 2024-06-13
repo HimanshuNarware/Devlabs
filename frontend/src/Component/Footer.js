@@ -12,23 +12,6 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer>
-      <div className="Footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6 col-lg-4 col-12 ft-1">
-              <a href="https://www.devlabsstore.tech/">
-                <img width={209} src={logo} alt="devlaps" />
-              </a>
-              <h5>
-                Facing an issue or just <br />
-
-                enjoying the site?
-
-                </h5>
-              </div>
-            </div>
-          </div>
-        </div>
       <div className='Footer'>
         <div className='container'>
           <div className='row'>
