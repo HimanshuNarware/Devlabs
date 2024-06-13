@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
 
+import { FaGithubSquare, FaTwitter } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
 
 import { FaGithubSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
@@ -9,7 +11,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer>
+  <footer>
       <div className="Footer">
         <div className="container">
           <div className="row">
@@ -36,7 +38,6 @@ function Footer() {
               <h5>
                 Facing an issue or just <br />
                 enjoying the site?{" "}
-
               </h5>
               <button>
                 <Link to="/review">Tell us now</Link>
@@ -80,6 +81,7 @@ function Footer() {
                 <li className='nav-item'>
                   <a href='https://www.devlabsstore.tech/open-source'>Open Source</a>
 
+
                 </li>
               </ul>
             </div>
@@ -107,6 +109,7 @@ function Footer() {
                     UI Design
                   </a>
                 </li>
+
                 <li className='nav-item'>
                   <a href='/remote-jobs'>Remote Jobs</a>
                 </li>
@@ -141,7 +144,9 @@ function Footer() {
 
                   <a href="/courses-platform">Course Platforms</a>
                   <Link className="" to="/courses-platform">
+
                   <a className="" href="/course-platform">
+
                     Course Platforms
                   </a>
                   </Link>
@@ -164,18 +169,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="Last-footer">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-md-6 col-12 ft-1">
-              <p className="text-center fs-6">
-                COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
-              </p>
 
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="Last-footer">
         <div className="container">
           <div className="row justify-content-center">
