@@ -21,8 +21,25 @@ const ChatAssistant = () => {
   };
 
   return (
+    <div className='chatbot'>
+
+      <img
+        className='Logo'
+        src={chatbotLogo}
+        alt='Logo'
+        onClick={toggleChatbot}
+        onMouseEnter={() => (document.querySelector(".Logo").src = chatbotLogo1)}
+        onMouseLeave={() => (document.querySelector(".Logo").src = chatbotLogo)}
+      />
+
+      {/* {!isOpen && ( // Conditionally render the logo if the chatbot is closed
     <div className='chatbot'>l
       {!isOpen && ( // Conditionally render the logo if the chatbot is closed
+
+
+      //{!isOpen && (
+
+
 
         <img
           className='Logo'
@@ -32,7 +49,7 @@ const ChatAssistant = () => {
           onMouseEnter={() => setLogoSrc(chatbotLogo1)}
           onMouseLeave={() => setLogoSrc(chatbotLogo)}
         />
-      )}
+      )} */}
       {isOpen && (
         <div className={`chatbot-wrapper ${isOpen ? 'chatbot-animation' : 'chatbot-close-animation'}`}>
           <button className='close-button' onClick={closeChatbot}>
