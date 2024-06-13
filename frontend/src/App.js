@@ -3,9 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
-
 // Components
-
 import "./App.css";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
@@ -19,6 +17,10 @@ import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Toaster } from "react-hot-toast";
+
 import "aos/dist/aos.css";
 
 import { Toaster } from "react-hot-toast";
@@ -31,8 +33,6 @@ import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
 
 // Pages
-
-
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
@@ -40,8 +40,11 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
-import CodingPlatform from "./pages/CodingPlatform";
 import CoursesPlatform from "./pages/CoursesPlatform";
+import Productivity from "./pages/Productivity";
+import Collaboration from "./pages/Collaboration";
+import CodingPlatform from "./pages/CodingPlateform";
+
 
 import "aos/dist/aos.css";
 
@@ -49,9 +52,10 @@ import CodingPlateform from "./pages/CodingPlateform";
 import Productivity from "./pages/Productivity";
 import Collaboration from "./pages/Collaboration";
 
-function App() {
+  function App() {
   const [searchQuery, setSearchQuery] = useState("");
-  AOS.init();  return (
+  AOS.init();  
+  return (
     <>
       <ScrollToTop />
       <Navbar setSearchQuery={setSearchQuery} />
@@ -71,11 +75,13 @@ function App() {
         <Route path="/ui-design" element={<UI />} />
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
+
+        <Route path="/coding-platform" element={<CodingPlatform />} />
+        <Route path="/cources-platform" element={<CoursesPlatform />} />
         <Route path="/coding-platform" element={<CodingPlateform />} />
+
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
-        <Route path="/coding-platform" element={<CodingPlatform />} />
-        <Route path="/courses-platform" element={<CoursesPlatform />} />
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
       <BackToTopButton />
