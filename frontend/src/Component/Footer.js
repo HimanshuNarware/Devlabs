@@ -2,9 +2,8 @@ import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
 
-import { FaGithubSquare, FaTwitter } from "react-icons/fa";
+
 import { FaGithubSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
 
@@ -20,9 +19,13 @@ function Footer() {
               </a>
               <h5>
                 Facing an issue or just <br />
-
                 enjoying the site?
 
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
       <div className='Footer'>
         <div className='container'>
           <div className='row'>
@@ -33,6 +36,7 @@ function Footer() {
               <h5>
                 Facing an issue or just <br />
                 enjoying the site?{" "}
+
               </h5>
               <button>
                 <Link to="/review">Tell us now</Link>
@@ -41,35 +45,26 @@ function Footer() {
             <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5>Company</h5>
               <ul>
+                <li className="nav-item">
+                  <a href="https://www.devlabsstore.tech/">Home</a>
+                </li>
+                <li className="nav-item">
+                  <a href="https://www.devlabsstore.tech/about">About Us</a>
+                </li>
+                <li className="nav-item">
+                  <a href="https://www.devlabsstore.tech/bookmark">Bookmark</a>
+                </li>
+                <li className="nav-item">
+                  <a href="https://www.linkedin.com/in/himanshunarware/">Contact</a>
+                </li>
+                <li className="nav-item">
 
-                <li className="nav-item">
-                  <a className="" href="https://www.devlabsstore.tech/">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="https://www.devlabsstore.tech/about">
-                    About Us
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="https://www.devlabsstore.tech/bookmark">
-                    Bookmark
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className=""
-                    href="https://www.linkedin.com/in/himanshunarware/"
-                  >
-                    Contact
-                  </a>
-                </li>
-                <li className="nav-item">
+                  <a href="https://www.devlabsstore.tech/open-source">Open Source</a>
+
                   <a className="" href="https://www.devlabsstore.tech/open-source">
                     Open Source
                   </a>
-
+                  </li>
                 <li className='nav-item'>
                   <a href='https://www.devlabsstore.tech/'>Home</a>
                 </li>
@@ -91,36 +86,27 @@ function Footer() {
             <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5>Quick Links</h5>
               <ul>
-
-
                 <li className="nav-item">
-                  <a className="" href="/remote-jobs">
-                    Remote Jobs
-                  </a>
+                  <a href="/remote-jobs">Remote Jobs</a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/ai">
-                    AI
-                  </a>
+                  <a href="/ai">AI</a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/movies-series">
-                    Movie/Series
-                  </a>
+                  <a href="/movies-series">Movie/Series</a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/extension">
-                    Extension
-                  </a>
+                  <a href="/extension">Extension</a>
                 </li>
                 <li className="nav-item">
+                  <a href="/ui-design">UI Design</a>
                   <Link className="" to="/ui-design">
                     UI Design
                   </Link>
                   <a className="" href="/ui-design">
                     UI Design
                   </a>
-
+                </li>
                 <li className='nav-item'>
                   <a href='/remote-jobs'>Remote Jobs</a>
                 </li>
@@ -136,35 +122,30 @@ function Footer() {
                 <li className='nav-item'>
                   <a href='/ui-design'>UI Design</a>
 
-
                 </li>
               </ul>
             </div>
             <div className="col-md-6 col-lg-2 col-12 ft-4">
               <h5>Explore</h5>
               <ul>
+                <li className="nav-item">
+                  <a href="/front-end-tools">Frontend Tools</a>
+                </li>
+                <li className="nav-item">
+                  <a href="/ethical-hacking">Ethical Hacking</a>
+                </li>
+                <li className="nav-item">
+                  <a href="/coding-platform">Coding Platforms</a>
+                </li>
+                <li className="nav-item">
 
-                <li className="nav-item">
-                  <a className="" href="/front-end-tools">
-                    Frontend Tools
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/ethical-hacking">
-                    Ethical Hacking
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/coding-platform">
-                    Coding Platforms
-                  </a>
-                </li>
-                <li className="nav-item">
+                  <a href="/courses-platform">Course Platforms</a>
                   <Link className="" to="/courses-platform">
                   <a className="" href="/course-platform">
                     Course Platforms
                   </a>
-
+                  </Link>
+                </li>
                 <li className='nav-item'>
                   <a href='/front-end-tools'>Frontend Tools</a>
                 </li>
@@ -176,10 +157,9 @@ function Footer() {
                 </li>
                 <li className='nav-item'>
                   <a href='/courses-platform'>Course Platforms</a>
+
                 </li>
               </ul>
-
-
             </div>
           </div>
         </div>
@@ -192,7 +172,10 @@ function Footer() {
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </p>
 
-
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="Last-footer">
         <div className="container">
           <div className="row justify-content-center">
@@ -206,7 +189,7 @@ function Footer() {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <BsLinkedin className="text-white mx-1 fs-4" />
+                  <FaLinkedin className="text-white mx-1 fs-4" />
                 </a>
                 <a
                   href="https://twitter.com/N_Himanshu_/"
@@ -214,8 +197,6 @@ function Footer() {
                   target="_blank"
                 >
                   <FaTwitter className="text-white mx-1 fs-4" />
-                  <FaTwitter className='text-white mx-1 fs-4' />
-
                 </a>
                 <a
                   href="mailto:himanshunarware77@gmail.com"
@@ -229,8 +210,6 @@ function Footer() {
                   target="_blank"
                 >
                   <FaGithubSquare className="text-white mx-1 fs-4" />
-                  <FaGithubSquare className='text-white mx-1 fs-4' />
-
                 </a>
               </div>
             </div>
