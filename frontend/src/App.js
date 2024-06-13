@@ -35,6 +35,7 @@ import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
 
 // Pages
+import CodingPlatform from "./pages/CodingPlatform.jsx";
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
@@ -64,7 +65,7 @@ function App() {
           <Route path='/review' element={<Review />} />
           <Route path='*' element={<NotFound />} /> {/* 404 route */}
           <Route path="/faq" element={<Faq />}></Route>
-
+          <Route path="/coding-platform" element={<CodingPlatform />}></Route>
           <Route path="/remote-jobs" element={<RemoteJobs />}></Route>
           <Route path="/ai" element={<AI />}></Route>
           <Route path="/movies-series" element={<Movie />}></Route>
