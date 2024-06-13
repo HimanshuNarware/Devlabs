@@ -1,4 +1,3 @@
-
 // App.js
 import React, { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
@@ -15,8 +14,14 @@ import ChatAssistant from "./ChatAssistant/ChatAssistant";
 import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
+import Review from "./Component/Review";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 import Review from "./Component/Review.js";
+
 
 import Review from "./Component/Review";
 
@@ -78,11 +83,15 @@ import Productivity from "./pages/Productivity";
 import Collaboration from "./pages/Collaboration";
 import CodingPlatform from "./pages/CodingPlateform";
 
+import "aos/dist/aos.css";
+
+function App() {
+
 import CodingPlateform from "./pages/CodingPlateform";
 
   function App() {
   const [searchQuery, setSearchQuery] = useState("");
-  AOS.init();  
+  AOS.init();
   return (
     <>
       <ScrollToTop />
@@ -95,7 +104,6 @@ import CodingPlateform from "./pages/CodingPlateform";
         <Route path="/review" element={<Review />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/rateus" element={<Rateus />} />
-
         <Route path="/remote-jobs" element={<RemoteJobs />} />
         <Route path="/ai" element={<AI />} />
         <Route path="/movies-series" element={<Movie />} />
@@ -103,11 +111,8 @@ import CodingPlateform from "./pages/CodingPlateform";
         <Route path="/ui-design" element={<UI />} />
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
-
         <Route path="/coding-platform" element={<CodingPlatform />} />
-        <Route path="/cources-platform" element={<CoursesPlatform />} />
-        <Route path="/coding-platform" element={<CodingPlateform />} />
-
+        <Route path="/courses-platform" element={<CoursesPlatform />} />
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
@@ -116,9 +121,6 @@ import CodingPlateform from "./pages/CodingPlateform";
       <Toaster />
       <Footer />
       <ChatAssistant />
-
-      <Toaster />
-
     </>
 
   );
