@@ -120,6 +120,15 @@ footer {
 .footer-icons {
 	margin-left: 20.14rem;
 }
+.footer-icon a {
+	color: white;
+	transition: color 0.3s ease;
+  }
+  
+  .footer-icon a:hover {
+	color: #433df3; /* Change this to the desired hover color */
+  }
+  
 
 .Last-footer i {
 	padding: 0.4rem 0.5rem;

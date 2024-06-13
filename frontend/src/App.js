@@ -19,15 +19,12 @@ import Review from "./Component/Review";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+
 import { Toaster } from "react-hot-toast";
 
-import "aos/dist/aos.css";
-
-import { Toaster } from "react-hot-toast";
 
 
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
@@ -41,9 +38,9 @@ import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
 import CoursesPlatform from "./pages/CoursesPlatform";
-import Productivity from "./pages/Productivity";
-import Collaboration from "./pages/Collaboration";
-import CodingPlatform from "./pages/CodingPlateform";
+// import Productivity from "./pages/Productivity";
+// import Collaboration from "./pages/Collaboration";
+// import CodingPlatform from "./pages/CodingPlateform";
 
 
 import "aos/dist/aos.css";

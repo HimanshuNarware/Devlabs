@@ -15,7 +15,7 @@ function Footer() {
           <div className="row">
             <div className="col-md-6 col-lg-4 col-12 ft-1">
               <a href="https://www.devlabsstore.tech/">
-                <img width={209} src={logo} alt="devlaps" />
+                <img width={215} src={logo} alt="devlaps" />
               </a>
               <h5>
                 Facing an issue or just <br />
@@ -183,35 +183,7 @@ function Footer() {
               <div className="text-center fs-6 my-3 ">
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </div>
-              <div className="footer-icon mb-2">
-                <a
-                  href="https://www.linkedin.com/in/himanshunarware/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <FaLinkedin className="text-white mx-1 fs-4" />
-                </a>
-                <a
-                  href="https://twitter.com/N_Himanshu_/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <FaTwitter className="text-white mx-1 fs-4" />
-                </a>
-                <a
-                  href="mailto:himanshunarware77@gmail.com"
-                  rel="noreferrer"
-                >
-                  <SiGmail className="text-white mx-1 fs-4" />
-                </a>
-                <a
-                  href="https://github.com/HimanshuNarware/Devlabs"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <FaGithubSquare className="text-white mx-1 fs-4" />
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>
