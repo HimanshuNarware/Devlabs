@@ -2952,6 +2952,13 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+	},
+	{
+		"productName":"Edx",
+		"category":"course",
+		"image":"https://play-lh.googleusercontent.com/y7_Fws2dAIXamBjYWganflbhHmfZys7KUWCvDnvAey346BMLfB3NvuR4niv07EosJ9lE",
+		"link":"https://www.edx.org/",
+		"description":"EDX stands as a beacon of accessible education, bridging the gap between learners and prestigious institutions worldwide. Its versatile platform cultivates a culture of continuous learning"
 	}
 	
 
