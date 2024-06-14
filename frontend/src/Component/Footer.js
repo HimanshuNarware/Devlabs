@@ -1,10 +1,6 @@
 import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
-
-import { FaGithubSquare, FaTwitter } from "react-icons/fa";
-import { BsLinkedin } from "react-icons/bs";
-
 import { FaGithubSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
