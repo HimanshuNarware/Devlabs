@@ -2952,7 +2952,14 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
-	}
+	},
+	{
+		"productName": "Spline3D",
+		"category": "UI",
+		"image": "https://www.bookmarks.design/media/image/spline-design.jpg",
+		"link": "https://spline3d.com/",
+		"description": "Spline3D is a cutting-edge UI design tool that enables you to create stunning 3D interfaces effortlessly. It offers a range of powerful features for building interactive and visually captivating 3D designs, making it perfect for enhancing user engagement and experience."
+		}
 	
 
 
