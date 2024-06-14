@@ -38,8 +38,6 @@ darkmode.showWidget();
 root.render(
   <Provider store={store}>p
     <BrowserRouter> {/* Ensure BrowserRouter is only here */}
-      <App /> 
-    <BrowserRouter>
       <App />
 
       <ToastContainer />
