@@ -2952,6 +2952,13 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+	},
+	{
+		"productName":"takeUforward",
+		"category":"Coding Platform",
+		"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpVVsPIXuyp9lquMz8FVp36w_sf1YeCBu5Fg&s",
+		"link":"https://takeuforward.org/",
+		"description":"takeuforward is the best place to learn data structures, algorithms, most asked coding interview questions, real interview experiences free of cost."
 	}
 	
 
