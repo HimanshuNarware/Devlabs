@@ -2952,6 +2952,13 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+	},
+	{
+		"productName":"Canva",
+		"category":"UI design",
+		"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz3AzfdiYQl7ECWE8rISAMG5gx8kxcp5pKoQ&s",
+		"link":"https://www.canva.com/",
+		"description":"Canva is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos and more."
 	}
 	
 
