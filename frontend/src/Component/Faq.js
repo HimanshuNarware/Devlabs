@@ -53,7 +53,7 @@ export default function Faq() {
                       <div className="custom-flex-container2">
                         {item.icon}
                       </div>
-                      <span style={{color:'black'}}>
+                      <span className='font-bold'>
                         {item.heading}
                       </span>
                       <div className="custom-container2" onClick={() => {
@@ -70,7 +70,7 @@ export default function Faq() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p className="custom-text1">
-                   {item.detail}
+                    {item.detail}
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>

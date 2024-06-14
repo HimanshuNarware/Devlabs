@@ -9,15 +9,15 @@ const data = [
   },
   {
     icon: <MdAnalytics />,
-    heading: 'how to get a new Tool ?',
+    heading: 'How do I get a new tool?',
     detail:
-      'The Link of Evry tool is given from where you can click on the linki to get the link and also add it to the bookmark .',
+      'Each tool has a link that you can click to access it and also add it to your bookmarks.',
   },
   {
     icon: <MdCancel />,
-    heading: 'How do I get started with contributing to DevLabs ?',
+    heading: 'How do I get started with contributing to DevLabs?',
     detail:
-      "For Contributing you need to go on the github repository and then create a new repository clone the project and start Contributing",
+      "To contribute, go to the GitHub repository, create a new repository, clone the project, and start contributing",
   },
 ];
 export default data;
