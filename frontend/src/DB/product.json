@@ -14,13 +14,6 @@
 		"description": "Create social media carousels for free and with no signup."
 	},
 	{
-		"productName": "SQL Police Department",
-		"category": "web",
-		"image": "https://sqlpd.com/images/logo.svg",
-		"link": "https://sqlpd.com/",
-		"description": "It is an online game where you solve crimes using SQL (and learn SQL in the process). Learn SQL while playing a game!"
-	},
-	{
 		"productName": "PikaShows",
 		"category": "movies",
 		"image": "https://tinyurl.com/37csr8my",
@@ -2437,6 +2430,13 @@
 		"image": "https://bit.ly/46vxjkU",
 		"link": "https://rapidapi.com",
 		"description": "RapidAPI is the world's largest API marketplace with over 1,000,000 developers and 10,000 APIs."
+	},
+		{
+		"productName": "SQL Police Department",
+		"category": "web",
+		"image": "https://sqlpd.com/images/logo.svg",
+		"link": "https://sqlpd.com/",
+		"description": "It is an online game where you solve crimes using SQL (and learn SQL in the process). Learn SQL while playing a game!"
 	},
 	{
 		"productName": "Movie API",
