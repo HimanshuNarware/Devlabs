@@ -2952,13 +2952,20 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
-	}
+	},
   {
 		"productName": "AdobeXD",
 		"category": "UI",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS80OChMU7lMUMwU7CVu4ZJl1irvee4jmFfjw&s",
 		"link": "https://helpx.adobe.com/xd/get-started.html",
 		"description": "Adobe XD is a vector-based ux design tool for web and mobile applications, enabling designers to create wireframes, prototypes, and screen designs efficiently."
+	},
+  {
+		"productName": "AceternityUI",
+		"category": "UI",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmuvw3fgizE49LqWGDkNAyU2Df3xRcNwACA&s",
+		"link": "https://ui.aceternity.com/",
+		"description": "Aceternity UI is a sleek and modern user interface framework designed to streamline the development of web applications."
 	}
 	
 
