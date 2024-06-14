@@ -2952,6 +2952,13 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+	},
+	{
+		"productName":"Copilot AI",
+		"category":"AI",
+		"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvWMv2bJgjDkO3nHH23Yij0bANOF4EynROVw&s",
+		"link":"https://copilot.microsoft.com/",
+		"description":"Microsoft Copilot leverages the power of AI to boost productivity, unlock creativity, and helps you understand information better with a simple chat ..s"
 	}
 	
 
