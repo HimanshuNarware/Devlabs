@@ -2952,6 +2952,13 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+	},
+	{
+		"productName":"Material UI",
+		"category":"UI",
+		"image":"https://miro.medium.com/v2/resize:fit:493/1*HHGc3cQgpSVes0maUAnYog.png",
+		"link":"https://mui.com/material-ui/",
+		"description":"Material UI is an open-source React component library that implements Google's Material Design. It's comprehensive and can be used in production out of the box."
 	}
 	
 
