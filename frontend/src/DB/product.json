@@ -2952,8 +2952,8 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
-	}
-  {
+	},
+	{
 		"productName": "AdobeXD",
 		"category": "UI",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS80OChMU7lMUMwU7CVu4ZJl1irvee4jmFfjw&s",
