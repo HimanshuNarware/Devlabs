@@ -2952,7 +2952,14 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
-	}
+	},
+	{
+		"productName": "Iconfinder",
+		"category": "Icon Library",
+		"image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
+		"link": "https://www.iconfinder.com/",
+		"description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
+		}
 	
 
 
