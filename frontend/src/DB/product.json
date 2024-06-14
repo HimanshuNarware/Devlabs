@@ -2952,8 +2952,14 @@
 		"image": "webflow.jpg",
 		"link": "https://webflow.com/",
 		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+	},
+	{
+		"productName":"Udemy",
+		"category":"course",
+		"image":"https://s.udemycdn.com/meta/default-meta-image-v2.png",
+		"link":"https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=Brand-Udemy_la.EN_cc.INDIA_dev.&campaigntype=Search&portfolio=BrandDirect&language=EN&product=Course&test=&audience=Keyword&topic=&priority=&utm_content=deal4584&utm_term=_._ag_133043842301_._ad_595460368494_._kw_udemy_._de_c_._dm__._pl__._ti_aud-1738475842996:kwd-296956216253_._li_9147463_._pd__._&matchtype=b&gad_source=1&gclid=CjwKCAjw1K-zBhBIEiwAWeCOF-xD6TC259XyeNWX_DQ0OlbDPGlfj6B5Zqate7OVzb0bZMXoCoiUUhoCz1IQAvD_BwE",
+		"description":"Udemy democratizes education by providing a vast array of online courses, catering to diverse interests and skill levels. Its self-paced learning model"
 	}
-	
 
 
 ]
