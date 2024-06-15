@@ -39,6 +39,7 @@ root.render(
   <Provider store={store}>
     <BrowserRouter> {/* Ensure BrowserRouter is only here */}
       <App />
+ </BrowserRouter>
  <ToastContainer />
   </Provider>
 );
