@@ -29,10 +29,10 @@ import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
 
 import CodingPlatform from "./pages/CodingPlateform"; // Corrected import
-
+import CoursesPlatform from "./pages/CoursesPlatform";
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
-
+ AOS.init(); 
   return (
     <>
       <ScrollToTop />
@@ -53,6 +53,7 @@ function App() {
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
+        <Route path="/courses-platform" element={<CoursesPlatform />}/>
         {/* Define other routes as needed */}
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
