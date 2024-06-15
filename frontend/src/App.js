@@ -53,7 +53,7 @@ function App() {
         <Route path="/review" element={<Review />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/rateus" element={<Rateus />} />
-        <Route path="/remote-jobs" element={<RemoteJobs />} />
+        // <Route path="/remote-jobs" element={<RemoteJobs />} />
         <Route path="/ai" element={<AI />} />
         <Route path="/movies-series" element={<Movie />} />
         <Route path="/extension" element={<Extension />} />
