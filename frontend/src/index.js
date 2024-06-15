@@ -16,9 +16,9 @@ const options = {
   left: "15px",
   time: "0.5s",
   mixColor: "#fff",
-  backgroundColor: "#051626",
-  buttonColorDark: "#8758f6",
-  buttonColorLight: "#FFFBF5",
+  backgroundColor: "#fff",
+  buttonColorDark: "#f0f0f0",
+  buttonColorLight: "#100f2c",
   saveInCookies: true,
   label: "🌓",
   autoMatchOsTheme: true,
@@ -28,12 +28,11 @@ const darkmode = new Darkmode(options);
 darkmode.showWidget();
 
 root.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </Provider>
-    <ToastContainer />
-  </React.StrictMode>,
+  <Provider store={store}>
+    <BrowserRouter>
+      <App />
+      {/* <Preloader /> */}
+      <ToastContainer />
+    </BrowserRouter>
+  </Provider>
 );
