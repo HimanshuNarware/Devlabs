@@ -24,9 +24,9 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
-import CodingPlatform from "./pages/CodingPlateform";
 import CoursesPlatform from "./pages/CoursesPlatform";
 import Faq from "./Component/Faq";
+import CodingPlatform from "./pages/CodingPlateform"; // Corrected import
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
