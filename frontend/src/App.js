@@ -75,41 +75,7 @@ function App() {
         <Toaster />
         <ChatAssistant />        <Footer />
       </>
-
-  AOS.init();
-  return (
-    <>
-      <ScrollToTop />
-      <Navbar setSearchQuery={setSearchQuery} />
-      <Routes>
-        <Route path="/" element={<Home searchQuery={searchQuery} />} />
-        <Route path="/bookmark" element={<BookMark />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/open-source" element={<OpenSource />} />
-        <Route path="/review" element={<Review />} />
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/rateus" element={<Rateus />} />
-        // <Route path="/remote-jobs" element={<RemoteJobs />} />
-        <Route path="/ai" element={<AI />} />
-        <Route path="/movies-series" element={<Movie />} />
-        <Route path="/extension" element={<Extension />} />
-        <Route path="/ui-design" element={<UI />} />
-        <Route path="/front-end-tools" element={<FrontendTools />} />
-        <Route path="/ethical-hacking" element={<EthicalHacking />} />
-        <Route path="/coding-platform" element={<CodingPlatform />} />
-        <Route path="/courses-platform" element={<CoursesPlatform />} />
-        <Route path="/productivity-tools" element={<Productivity />} />
-        <Route path="/collaboration-tools" element={<Collaboration />} />
-        <Route path="" element={<NotFound />} /> {/ 404 route */}
-      </Routes>
-      <BackToTopButton />
-      <Toaster />
-      <Footer />
-      <ChatAssistant />
-    </>
-
-
-  );
+ )
 }
 
 export default App;
