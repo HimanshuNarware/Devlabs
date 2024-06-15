@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Route, Routes } from "react-router-dom"; // Correct import
 import "./App.css";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
@@ -12,11 +12,11 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./Component/ScrollToTop";
-import Faq from "./Component/Faq";
-
-// Pages
+//cards
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
@@ -24,10 +24,16 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
-import CodingPlatform from "./pages/CodingPlateform"; // Corrected import
+import CodingPlatform from "./pages/CodingPlateform";
+import CoursesPlatform from "./pages/CoursesPlatform";
+import Faq from "./Component/Faq";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <>
@@ -49,13 +55,13 @@ function App() {
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
-        {/* Define other routes as needed */}
+        <Route path="/courses-platform" element={<CoursesPlatform />} />
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
       <BackToTopButton />
-      <Toaster />
-      <ChatAssistant />
       <Footer />
+      <ChatAssistant />
+      <Toaster />
     </>
   );
 }

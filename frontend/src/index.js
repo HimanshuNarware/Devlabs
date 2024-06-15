@@ -1,4 +1,3 @@
-// index.js
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -10,13 +9,6 @@ import "react-toastify/dist/ReactToastify.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
- // Ensure BrowserRouter is imported here
-
-
-
-import Preloader from "./Component/Preloader";
-
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const options = {
@@ -24,9 +16,9 @@ const options = {
   left: "15px",
   time: "0.5s",
   mixColor: "#fff",
-  backgroundColor: "#051626",
-  buttonColorDark: "#8758f6",
-  buttonColorLight: "#FFFBF5",
+  backgroundColor: "#fff",
+  buttonColorDark: "#f0f0f0",
+  buttonColorLight: "#100f2c",
   saveInCookies: true,
   label: "🌓",
   autoMatchOsTheme: true,
@@ -37,8 +29,10 @@ darkmode.showWidget();
 
 root.render(
   <Provider store={store}>
+    <BrowserRouter>
+      <App />
+      {/* <Preloader /> */}
+      <ToastContainer />
     </BrowserRouter>
-      <App /> 
-      <ToastContainer/>
   </Provider>
 );
