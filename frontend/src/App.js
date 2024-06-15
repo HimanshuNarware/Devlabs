@@ -4,10 +4,9 @@ import "./App.css";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
 import Rateus from "./Component/Rateus";
+import ChatAssistant from "./ChatAssistant/ChatAssistant";
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar/Navbar";
-import BookMark from "./Component/BookMark";
-import ChatAssistant from "./ChatAssistant/ChatAssistant";
 import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
@@ -15,17 +14,18 @@ import Review from "./Component/Review";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
+import BookMark from "./Component/BookMark";
 import ScrollToTop from "./Component/ScrollToTop";
 //cards
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
+import UI from "./pages/UI";
 import Movie from "./pages/Movie";
 import Extension from "./pages/Extension";
-import UI from "./pages/UI";
-import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
 import CodingPlatform from "./pages/CodingPlateform";
 import CoursesPlatform from "./pages/CoursesPlatform";
+import FrontendTools from "./pages/FrontendTools";
 import Faq from "./Component/Faq";
 
 function App() {
