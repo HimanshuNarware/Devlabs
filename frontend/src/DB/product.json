@@ -2959,7 +2959,7 @@
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
 		"link": "https://www.framer.com/motion/",
 		"description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
-  }
+  },
   {
 		"productName": "Iconfinder",
 		"category": "Icon Library",
@@ -2967,7 +2967,4 @@
 		"link": "https://www.iconfinder.com/",
 		"description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
   }
-	
-
-
 ]
