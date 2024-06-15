@@ -37,9 +37,8 @@ darkmode.showWidget();
 
 root.render(
   <Provider store={store}>
+    </BrowserRouter>
       <App /> 
       <ToastContainer/>
-
-    </BrowserRouter>
   </Provider>
 );
