@@ -9,13 +9,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
-
- // Ensure BrowserRouter is imported here
-
-
-
 import Preloader from "./Component/Preloader";
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -36,12 +30,9 @@ const darkmode = new Darkmode(options);
 darkmode.showWidget();
 
 root.render(
-  <Provider store={store}>p
+  <Provider store={store}>
     <BrowserRouter> {/* Ensure BrowserRouter is only here */}
-      <App /> 
-    <BrowserRouter>
       <App />
-
       <ToastContainer />
     </BrowserRouter>
   </Provider>
