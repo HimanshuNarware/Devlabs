@@ -359,8 +359,6 @@
   font-weight: 500;
 }
 
-
-
 .sidebar-btns {
   display: flex;
   justify-content: space-evenly;
@@ -452,7 +450,7 @@
   color: #495057;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
+  background-color: #ebeff4;
   border: 1px solid #ced4da;
   /* border-radius: 0.25rem; */
   font-weight: bold !important;
@@ -501,8 +499,6 @@
 .box {
   position: relative;
 }
-
-
 
 .invisible {
   display: none;
