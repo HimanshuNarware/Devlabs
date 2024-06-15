@@ -95,6 +95,7 @@ function About() {
           <img
             className="img"
             src="https://media.istockphoto.com/id/1276643671/vector/tiny-programmers-programming-website-for-internet-platform.jpg?s=612x612&w=0&k=20&c=7k24K8DYdSRxVHj3roqR_f4wkk-a_fG3WlT4hN-VJUg="
+            alt="img"
           />
         </div>
         <div className="bx-1">
