@@ -30,10 +30,10 @@ import CodingPlatform from "./pages/CodingPlateform"; // Fixed import
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
 
-  useEffect(() => {
+  // useEffect(() => {
     // Initialize AOS once when the component mounts
     AOS.init();
-  }, []);
+  // }, []);
 
   return (
     <>
