@@ -28,7 +28,6 @@ import CoursesPlatform from "./pages/CoursesPlatform";
 import CodingPlatform from "./pages/CodingPlateform";
 import Productivity from "./pages/Productivity";
 import Collaboration from "./pages/Collaboration";
-
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
   useEffect(() => {
@@ -58,7 +57,7 @@ function App() {
         <Route path="/courses-platform" element={<CoursesPlatform />} />
         <Route path="/productivity-tools" element={<Productivity />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
-        <Route path="*" element={<NotFound />} /> {/* 404 route */}
+        <Route path="" element={<NotFound />} /> {/ 404 route */}
       </Routes>
       <BackToTopButton />
       <Toaster />

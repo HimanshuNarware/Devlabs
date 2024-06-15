@@ -1,4 +1,3 @@
-// index.js
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -28,12 +27,11 @@ const options = {
 
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
-
 root.render(
   <Provider store={store}>
     <BrowserRouter> {/* Ensure BrowserRouter is only here */}
-      <App />
-      <ToastContainer />
+      <App /> 
+      <ToastContainer/>
     </BrowserRouter>
   </Provider>
 );
