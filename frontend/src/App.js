@@ -25,7 +25,7 @@ import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
 
 // Pages
-import RemoteJobs from "./pages/RemoteJobs";
+// import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
 import Extension from "./pages/Extension";
