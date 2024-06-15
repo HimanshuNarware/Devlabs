@@ -1,8 +1,5 @@
-// App.js
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-
-// Components
 import "./App.css";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
@@ -17,14 +14,21 @@ import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
 
 import "aos/dist/aos.css";
+import AOS from "aos";
+
+
+import "aos/dist/aos.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Toaster } from "react-hot-toast";
 
+import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./Component/ScrollToTop";
 
+import Faq from "./Component/Faq";
+
 // Pages
+
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
@@ -39,8 +43,15 @@ import CourcesPlatform from "./pages/CoursesPlatform.jsx";
 import Faq from "./Component/Faq";
 
 import CoursesPlatform from "./pages/CoursesPlatform";
+import CodingPlatform from "./pages/CodingPlateform";
 import Productivity from "./pages/Productivity";
 import Collaboration from "./pages/Collaboration";
+
+function App() {
+  const [searchQuery, setSearchQuery] = useState("");
+  useEffect(() => {
+    AOS.init();
+  }, []);
 import CodingPlatform from "./pages/CodingPlateform";
 
 
@@ -94,5 +105,4 @@ function App() {
     </>
   );
 }
-
 export default App;
