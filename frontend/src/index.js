@@ -36,11 +36,7 @@ const darkmode = new Darkmode(options);
 darkmode.showWidget();
 
 root.render(
-  <Provider store={store}>p
-    <BrowserRouter> {/* Ensure BrowserRouter is only here */}
-      <App />
-
-      <ToastContainer />
+  <Provider store={store}>
       <App /> 
       <ToastContainer/>
 
