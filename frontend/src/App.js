@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
-
-// Components
 import "./App.css";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
@@ -19,21 +17,17 @@ import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
 
 // Pages
+import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
 import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
-import CodingPlatform from "./pages/CodingPlateform"; // Fixed import
+import CodingPlatform from "./pages/CodingPlateform"; // Corrected import
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
-
-  // useEffect(() => {
-    // Initialize AOS once when the component mounts
-    AOS.init();
-  // }, []);
 
   return (
     <>
@@ -47,7 +41,7 @@ function App() {
         <Route path="/review" element={<Review />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/rateus" element={<Rateus />} />
-        {/* Uncomment if needed: <Route path="/remote-jobs" element={<RemoteJobs />} /> */}
+        <Route path="/remote-jobs" element={<RemoteJobs />} />
         <Route path="/ai" element={<AI />} />
         <Route path="/movies-series" element={<Movie />} />
         <Route path="/extension" element={<Extension />} />
@@ -55,9 +49,7 @@ function App() {
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
-        <Route path="/courses-platform" element={<CoursesPlatform />} />
-        <Route path="/productivity-tools" element={<Productivity />} />
-        <Route path="/collaboration-tools" element={<Collaboration />} />
+        {/* Define other routes as needed */}
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
       <BackToTopButton />
