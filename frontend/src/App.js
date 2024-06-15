@@ -12,6 +12,9 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./Component/ScrollToTop";
 import Faq from "./Component/Faq";
@@ -24,6 +27,7 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
+
 import CodingPlatform from "./pages/CodingPlateform"; // Corrected import
 
 function App() {
