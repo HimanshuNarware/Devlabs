@@ -41,6 +41,9 @@ root.render(
       <App />
 
       <ToastContainer />
+      <App /> 
+      <ToastContainer/>
+
     </BrowserRouter>
   </Provider>
 );

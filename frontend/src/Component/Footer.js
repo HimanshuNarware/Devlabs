@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../image/logo.png";
 import "../style/Footer.css";
 
+
 import { BsLinkedin } from "react-icons/bs";
 
 import { FaGithubSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
