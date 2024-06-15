@@ -93,8 +93,7 @@ function Review() {
           onChange={onChangeHandler}
           required
         />
-        <h3>Rate us:</h3>
-        <Rate rating={rating} setRating={setRating} />
+        
         <div className='form-div'>
           <button className='form-button'>
             {processingMail ? (
@@ -110,7 +109,10 @@ function Review() {
             )}
           </button>
         </div>
+        
       </form>
+      <h3>Rate us:</h3>
+        <Rate rating={rating} setRating={setRating} />
     </div>
   );
 }
