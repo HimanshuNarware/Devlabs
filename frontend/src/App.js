@@ -61,7 +61,7 @@ function App() {
           <Route path='*' element={<NotFound />} /> {/* 404 route */}
           <Route path="/faq" element={<Faq />}></Route>
 
-          <Route path="/remote-jobs" element={<RemoteJobs />}></Route>
+          {/*<Route path="/remote-jobs" element={<RemoteJobs />}></Route>*/}
           <Route path="/ai" element={<AI />}></Route>
           <Route path="/movies-series" element={<Movie />}></Route>
           <Route path="/extension" element={<Extension />}></Route>
