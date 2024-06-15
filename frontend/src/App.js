@@ -1,6 +1,6 @@
 // App.js
-import React, { useState, useEffect } from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import React, { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 
 // Components
 import "./App.css";
@@ -32,10 +32,18 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
+
 import CodingPlateform from "./pages/CodingPlateform.jsx";
 import CourcesPlatform from "./pages/CoursesPlatform.jsx";
 
 import Faq from "./Component/Faq";
+
+import CoursesPlatform from "./pages/CoursesPlatform";
+import Productivity from "./pages/Productivity";
+import Collaboration from "./pages/Collaboration";
+import CodingPlatform from "./pages/CodingPlateform";
+
+
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -51,6 +59,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/open-source" element={<OpenSource />}></Route>
         <Route path="/review" element={<Review />} />
+          
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
         <Route path="/faq" element={<Faq />}></Route>
         <Route path="/remote-jobs" element={<RemoteJobs />}></Route>
@@ -62,6 +71,22 @@ function App() {
         <Route path="/ethical-hacking" element={<EthicalHacking />}></Route>
         <Route path="/coding-platform" element={<CodingPlateform />}></Route>
         <Route path="/cources-platform" element={<CourcesPlatform />}></Route>
+
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/rateus" element={<Rateus />} />
+        <Route path="/remote-jobs" element={<RemoteJobs />} />
+        <Route path="/ai" element={<AI />} />
+        <Route path="/movies-series" element={<Movie />} />
+        <Route path="/extension" element={<Extension />} />
+        <Route path="/ui-design" element={<UI />} />
+        <Route path="/front-end-tools" element={<FrontendTools />} />
+        <Route path="/ethical-hacking" element={<EthicalHacking />} />
+        <Route path="/coding-platform" element={<CodingPlatform />} />
+        <Route path="/courses-platform" element={<CoursesPlatform />} />
+        <Route path="/productivity-tools" element={<Productivity />} />
+        <Route path="/collaboration-tools" element={<Collaboration />} />
+        <Route path="" element={<NotFound />} /> {/ 404 route */}
+
       </Routes>
       <BackToTopButton />
       <Toaster />

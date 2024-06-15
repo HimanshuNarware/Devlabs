@@ -5,7 +5,11 @@ import "../ChatAssistant/ChatAssistant.css"
 export default function Avatar() {
   return (
     <div>
-      <img className="Avatar" src={chatbotLogo}/>
+      <img
+        className="Avatar"
+        src={chatbotLogo}
+        alt="chatbot_avatar"
+      />
     </div>
   )
 }
