@@ -5,6 +5,7 @@
   width: 100%;
   top: 0px;
   left: 0px;
+  height : 80px;
   align-items: center;
   justify-content: space-between;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -15,6 +16,12 @@
   padding-left: 30px;
 }
 
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -10px; /* Adjust the value as needed */
+}
 
 .navbar-content {
   display: flex;
@@ -263,7 +270,6 @@
 
 .sidebar-content {
   border-bottom: 1px solid rgb(2, 27, 43);
-
   font-weight: 500;
   transform: translateY(40px);
   opacity: 0;
@@ -352,8 +358,6 @@
   text-decoration: none;
   font-weight: 500;
 }
-
-
 
 .sidebar-btns {
   display: flex;
@@ -446,7 +450,7 @@
   color: #495057;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
+  background-color: #ebeff4;
   border: 1px solid #ced4da;
   /* border-radius: 0.25rem; */
   font-weight: bold !important;
@@ -491,16 +495,10 @@
   position: relative;
 }
 
-.search-bar {
-  display: flex;
-  align-items: center;
-}
 
 .box {
   position: relative;
 }
-
-
 
 .invisible {
   display: none;
