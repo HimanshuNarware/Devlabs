@@ -2936,6 +2936,28 @@
     "link": "https://100dayscss.com/",
     "description": "It is a free online resource that provides a 100-day CSS challenge, offering daily exercises and projects to help users improve their CSS skills."
   },
+	{
+		"productName": "copy.io",
+		"category": "AI",
+        "image":"copy-ai.jpg",
+		"link": "https://www.copy.ai/",
+		"description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
+  },
+  {
+		"productName": "Webflow",
+		"category": "UI",
+		"image": "webflow.jpg",
+		"link": "https://webflow.com/",
+		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+	},
+	{
+		"productName": "Framer Motion",
+		"category": "UI",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
+		"link": "https://www.framer.com/motion/",
+		"description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
+
+  },
   {
     "productName": "copy.io",
     "category": "AI",
