@@ -16,7 +16,7 @@ function Footer() {
           <div className='row'>
             <div className='col-md-6 col-lg-4 col-12 ft-1'>
               <a href='https://www.devlabsstore.tech/'>
-                <img width={209} src={logo} alt='devlaps' />
+                <img width={209} src={logo} alt='devlabs' />
               </a>
               <h5>
                 Facing an issue or just <br />
