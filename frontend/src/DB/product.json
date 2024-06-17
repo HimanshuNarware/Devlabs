@@ -2909,6 +2909,14 @@
     "description": "It is more than just a Git repository manager it is a complete DevOps platform that enables development teams to collaborate productively, automate repetitive tasks, and deliver software faster and with better quality."
   },
   {
+    "productName": "SQL Police Department",
+		"category": "web",
+		"image": "https://sqlpd.com/images/logo.svg",
+		"link": "https://sqlpd.com/",
+		"description": "It is an online game where you solve crimes using SQL (and learn SQL in the process). Learn SQL while playing a game!"
+
+  },
+  {
     "productName": "BitBucket",
     "category": "collaboration",
     "image": "https://media.licdn.com/dms/image/C5633AQE2Tg6KNJfrLA/productpage-logo-image_200_200/0/1630996699471/null_logo?e=1717174800&v=beta&t=IVJKM1umGhSUFlUhur3RqaeOm4TtZtVZNXO7uCBaLQ4",
