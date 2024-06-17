@@ -1,51 +1,71 @@
-import React from 'react';
-import './TrailingCursor.css'; 
-import cursorImage from '../../assets/mouse-cursor.png'; 
+import React, { useEffect, useState } from 'react';
+import Styles from './TrailingCursor.module.css';
+import { PiCursorFill } from "react-icons/pi";
+import { FaHandPointer } from "react-icons/fa";
 
 const TrailingCursor = () => {
-    const [cursorPosition, setCursorPosition] = React.useState({ x: 0, y: 0 });
+    const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+    const [isPointer, setIsPointer] = useState(false);
 
     const handleMouseMove = (event) => {
-        setCursorPosition({ x: event.clientX, y: event.clientY });
-        createRipple(event.clientX+30, event.clientY+30);
+        const scrollLeft = window.pageXOffset;
+        const scrollTop = window.pageYOffset;
+        setCursorPosition({ x: event.clientX + scrollLeft, y: event.clientY + scrollTop });
+        createTrailing(event.clientX + 40, event.clientY + 40);
     };
 
-    const createRipple = (x, y) => {
-        const rippleContainer = document.createElement('div');
-        let scrollLeft = window.pageXOffset;
-        let scrollTop = window.pageYOffset;
-        rippleContainer.className = 'ripple-container';
+    const handleMouseOver = (event) => {
+        console.log(event.target.tagName)
+        if (event.target.tagName === 'A' || event.target.tagName === 'BUTTON') {
+            setIsPointer(true);
+        } else {
+            setIsPointer(false);
+        }
+    };
 
-        for (let i = 0; i<2; i++) {
-            const ripple = document.createElement('div');
-            ripple.className = 'ripple';
-            let relativeX = x + scrollLeft + Math.random() * 20 - 10; // Randomize position within a range
-            let relativeY = y + scrollTop + Math.random() * 20 - 10; // Randomize position within a range
-            ripple.style.left = `${relativeX - 5}px`;
-            ripple.style.top = `${relativeY - 5}px`;
-            rippleContainer.appendChild(ripple);
+    const createTrailing = (x, y) => {
+        const trailingContainer = document.createElement('div');
+        const scrollLeft = window.pageXOffset;
+        const scrollTop = window.pageYOffset;
+        trailingContainer.className = 'trailing-container';
+
+        for (let i = 0; i < 2; i++) {
+            const trailing = document.createElement('div');
+            trailing.className = Styles['trailing'];
+            const relativeX = x + scrollLeft + Math.random() * 20 - 10; // Randomize position within a range
+            const relativeY = y + scrollTop + Math.random() * 20 - 10; // Randomize position within a range
+            trailing.style.left = `${relativeX - 5}px`;
+            trailing.style.top = `${relativeY - 5}px`;
+            trailingContainer.appendChild(trailing);
         }
 
-        document.body.appendChild(rippleContainer);
+        document.body.appendChild(trailingContainer);
 
-        // Remove the ripple elements after the animation ends
+        // Remove the trailing elements after the animation ends
         setTimeout(() => {
-            rippleContainer.remove();
+            trailingContainer.remove();
         }, 400);
     };
 
-    React.useEffect(() => {
+    useEffect(() => {
         document.addEventListener('mousemove', handleMouseMove);
+        document.addEventListener('mouseover', handleMouseOver);
 
         return () => {
             document.removeEventListener('mousemove', handleMouseMove);
+            document.removeEventListener('mouseover', handleMouseOver);
         };
     }, []);
 
     return (
         <div>
-            <div className="cursor-container" style={{ left: cursorPosition.x, top: cursorPosition.y + 32 }}>
-                <img src={cursorImage} alt="custom cursor" className="custom-cursor" />
+            <div className={Styles["cursor-container"]} 
+                style={{ 
+                    left: `${cursorPosition.x}px`, 
+                    top: `${cursorPosition.y}px`, 
+                    position: 'absolute',  
+                }}>
+                {isPointer ?<FaHandPointer className={Styles["custom-cursor"]}/> :<PiCursorFill className={Styles["custom-cursor"]} style={{transform: 'rotate(12deg)'}}/>}
             </div>
         </div>
     );
