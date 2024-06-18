@@ -3093,6 +3093,13 @@
 	"image": "https://image.winudf.com/v2/image/Y29tLmZyZWV0b3JyZW50LlZpZGVvc19pY29uX3BwNXFlbWk5/icon.png?w=184&fakeurl=1",
 	"link": "https://www.13377x.tw/",
 	"description": "An effective tool to Download Original Games, Movies, Applications, Documentaries, Anime and lot more all for FREE"
+},
+{
+  "productName": "Magic UI",
+  "category": "UI",
+  "image": "https://magicui.design/icon.png",
+  "link": "https://magicui.design/",
+  "description": "Open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. Easily use them in your websites without having to worry about styling and animations."
 }
 
 ]
