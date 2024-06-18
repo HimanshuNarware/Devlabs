@@ -3,10 +3,10 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import { Provider } from "react-redux";
 import store from "./Store/store";
+import Darkmode from "darkmode-js";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import App from "./App";
-import { ToastContainer } from "react-toastify";
-import Darkmode from "darkmode-js";
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -31,6 +31,7 @@ root.render(
   <Provider store={store}>
     <BrowserRouter>
       <App />
+      {/* <Preloader /> */}
       <ToastContainer />
     </BrowserRouter>
   </Provider>
