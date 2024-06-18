@@ -2974,6 +2974,20 @@
 
   },
   {
+		"productName": "Iconfinder",
+		"category": "Icon Library",
+		"image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
+		"link": "https://www.iconfinder.com/",
+		"description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
+  },
+  {
+	"productName":"Blender 3D",
+	"category":"UI",
+	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmueb9JiaohqoMehnD8GMj0RlSfgdlgi3ITg&s",
+	"link":"https://www.blender.org/",
+	"description":"Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation"
+},
+  {
     "productName": "copy.io",
     "category": "AI",
     "image": "copy-ai.jpg",
