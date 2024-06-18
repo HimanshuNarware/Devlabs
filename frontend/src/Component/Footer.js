@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../image/logo.png";
+import logo from "../image/logo1.png";
 import "../style/Footer.css";
 
 import { BsLinkedin } from "react-icons/bs";
