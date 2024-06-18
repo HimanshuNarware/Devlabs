@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/CodingPlateform.css";
+import "../style/CodingPlatform.css";
 
 const tools = [
   { name: "CodeSandbox", description: "An online code editor and prototyping tool", link: "https://codesandbox.io/", image: "https://i.pinimg.com/564x/82/14/0e/82140ec1a4bc53413b6c9150b1e3bab3.jpg" },

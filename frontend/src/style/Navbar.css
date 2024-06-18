@@ -5,7 +5,7 @@
   width: 100%;
   top: 0px;
   left: 0px;
-  height : 80px;
+  height: 100px;
   align-items: center;
   justify-content: space-between;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -16,20 +16,13 @@
   padding-left: 30px;
 }
 
-.search-bar {
-  display: flex;
-  align-items: center;
-  position: relative;
-  top: -10px; /* Adjust the value as needed */
-}
-
 .navbar-content {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
   justify-content: space-between; /* Add space between items */
-  width: 109%; /* Make the navbar items stretch along the width */
+  width: 100%; /* Make the navbar items stretch along the width */
 }
 
 .navbar-content .nav-item {
@@ -37,7 +30,6 @@
   text-align: center;
   margin: 0 15px; /* Add space between items */
 }
-
 
 .navbar-content li {
   flex-grow: 1; /* Make the navbar items stretch to fill the width */
@@ -50,7 +42,6 @@
   width: 150px;
   margin-right: auto; /* Move the logo to the left */
 }
-
 
 .card-body img {
   background: transparent;
@@ -203,13 +194,6 @@
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
-}
-
-.navbar-right {
-  display: flex;
-  align-items: center;
-  animation: slideRight 1s ease forwards;
-  /* margin-right: 115px; */
 }
 
 .logo-img {
@@ -391,14 +375,9 @@
   transition: font-size 0.3s ease, text-decoration 0.3s ease;
 }
 
-.search {
-   margin-top: 0px; 
-  position: relative;
-}
-
 .box {
   margin-top: 15px;
-  margin-left: 65px; 
+  margin-left: 65px;
   outline: none !important;
   border-radius: 20px;
   width: 80% !important;
@@ -435,7 +414,9 @@
   border: none !important;
   box-shadow: none !important;
 }
-
+.navbar-right {
+  margin-top: -11%;
+}
 .span {
   /* background: transparent !important; */
   border: none !important;
@@ -486,15 +467,11 @@
 }
 
 .navbar-right {
-  position: absolute;
-  top: 0;
-  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
 }
-
-.search {
-  position: relative;
-}
-
 
 .box {
   position: relative;
@@ -503,5 +480,3 @@
 .invisible {
   display: none;
 }
-
-
