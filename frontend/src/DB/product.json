@@ -2993,23 +2993,30 @@
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
 	"link":"https://www.codingninjas.com/",
 	"description":"Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
+
 },
 {
-
 	"productName":"takeUforward",
 	"category":"coding",
 	"image":"https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
 	"link":"https://takeuforward.org/",
 	"description":"takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
-},
-{
 
+},
+
+
+
+
+{
 	"productName":"Canva",
 	"category":"design",
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
 	"link":"https://www.canva.com/",
 	"description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
+
 },
+
+
 
  {
 	"productName":"Magic UI",
@@ -3018,7 +3025,10 @@
 	"link":"https://magicui.design/",
 	"description":"UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
  },
- {
+
+
+
+	{
 	"productName":"React Boostrap",
 	"category":"UI",
 	"image":"https://avatars.githubusercontent.com/u/6853419?s=200&v=4",
@@ -3026,6 +3036,8 @@
 	"description":"React Bootstrap is also one of the most popular React UI libraries. Built on top of the popular Bootstrap framework,"
 
  },
+
+
 {
 	"productName":"Flexbox Froggy",
 	"category":"Web Development",
@@ -3038,6 +3050,8 @@
   },
 
 {
+
+
 
 	"productName":"Blender 3D",
 	"category":"UI",
