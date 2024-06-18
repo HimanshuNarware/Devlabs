@@ -14,11 +14,11 @@
     "description": "Create social media carousels for free and with no signup."
   },
   {
-    "productName":"Coded Pad",
-    "category":"tools",
-    "image":"https://shorturl.at/uRx8f",
-    "link":"https://www.codedpad.com/",
-    "description":"Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
+    "productName": "Coded Pad",
+    "category": "tools",
+    "image": "https://shorturl.at/uRx8f",
+    "link": "https://www.codedpad.com/",
+    "description": "Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
   },
   {
     "productName": "PikaShows",
@@ -2917,11 +2917,10 @@
   },
   {
     "productName": "SQL Police Department",
-		"category": "web",
-		"image": "https://sqlpd.com/images/logo.svg",
-		"link": "https://sqlpd.com/",
-		"description": "It is an online game where you solve crimes using SQL (and learn SQL in the process). Learn SQL while playing a game!"
-
+    "category": "web",
+    "image": "https://sqlpd.com/images/logo.svg",
+    "link": "https://sqlpd.com/",
+    "description": "It is an online game where you solve crimes using SQL (and learn SQL in the process). Learn SQL while playing a game!"
   },
   {
     "productName": "BitBucket",
@@ -2951,97 +2950,6 @@
     "link": "https://100dayscss.com/",
     "description": "It is a free online resource that provides a 100-day CSS challenge, offering daily exercises and projects to help users improve their CSS skills."
   },
-	{
-		"productName": "copy.io",
-		"category": "AI",
-        "image":"copy-ai.jpg",
-		"link": "https://www.copy.ai/",
-		"description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
-  },
-  {
-		"productName": "Webflow",
-		"category": "UI",
-		"image": "webflow.jpg",
-		"link": "https://webflow.com/",
-		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
-	},
-	{
-		"productName": "Framer Motion",
-		"category": "UI",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
-		"link": "https://www.framer.com/motion/",
-		"description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
-  },
-  {
-		"productName": "Iconfinder",
-		"category": "Icon Library",
-		"image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
-		"link": "https://www.iconfinder.com/",
-		"description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
-  },
-  {
-
-	"productName":"Copilot ai",
-	"category":"AI",
-	"image":"https://media.licdn.com/dms/image/D5612AQF5A1Rn3_bJ7A/article-cover_image-shrink_600_2000/0/1707467579292?e=2147483647&v=beta&t=gJnnSsgaykZhGWwXDvgIt66ghzLeURyF8YT9yaKNv90",
-	"link":"https://copilot.microsoft.com/",
-	"description":"Microsoft's Copilot AI fosters collaboration, streamlining coding processes with innovative suggestions and insights."
-
-
-	"productName":"Coding Ninjas",
-	"category":"Coding",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
-	"link":"https://www.codingninjas.com/",
-	"description":"Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
-
-
-	"productName":"takeUforward",
-	"category":"coding",
-	"image":"https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
-	"link":"https://takeuforward.org/",
-	"description":"takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
-
-
-	"productName":"Canva",
-	"category":"design",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
-	"link":"https://www.canva.com/",
-	"description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
-
-
- 
-	"productName":"Magic UI",
-	"category":"UI",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
-	"link":"https://magicui.design/",
-	"description":"UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
-
-	"productName":"React Boostrap",
-	"category":"UI",
-	"image":"https://avatars.githubusercontent.com/u/6853419?s=200&v=4",
-	"link":"https://react-bootstrap.netlify.app/",
-	"description":"React Bootstrap is also one of the most popular React UI libraries. Built on top of the popular Bootstrap framework,"
-
-
-
-	"productName":"Flexbox Froggy",
-	"category":"Web Development",
-	"link":"https://flexboxfroggy.com/",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe4LjwVvqlzIm95ZKPyxIbdMRWgi6eZhalEw&s",
-	"description":"In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox. This helps users to master flexbox css"
-
-
-
-  }
-
-
-
-	"productName":"Blender 3D",
-	"category":"UI",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmueb9JiaohqoMehnD8GMj0RlSfgdlgi3ITg&s",
-	"link":"https://www.blender.org/",
-	"description":"Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation"
-},
   {
     "productName": "copy.io",
     "category": "AI",
@@ -3071,11 +2979,95 @@
     "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
   },
   {
-	"productName": "1337x",
-	"category": "Gaming",
-	"image": "https://image.winudf.com/v2/image/Y29tLmZyZWV0b3JyZW50LlZpZGVvc19pY29uX3BwNXFlbWk5/icon.png?w=184&fakeurl=1",
-	"link": "https://www.13377x.tw/",
-	"description": "An effective tool to Download Original Games, Movies, Applications, Documentaries, Anime and lot more all for FREE"
-}
+    "productName": "Copilot ai",
+    "category": "AI",
+    "image": "https://media.licdn.com/dms/image/D5612AQF5A1Rn3_bJ7A/article-cover_image-shrink_600_2000/0/1707467579292?e=2147483647&v=beta&t=gJnnSsgaykZhGWwXDvgIt66ghzLeURyF8YT9yaKNv90",
+    "link": "https://copilot.microsoft.com/",
+    "description": "Microsoft's Copilot AI fosters collaboration, streamlining coding processes with innovative suggestions and insights."
+  },
+  {
+    "productName": "Coding Ninjas",
+    "category": "Coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
+    "link": "https://www.codingninjas.com/",
+    "description": "Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
+  },
+  {
+    "productName": "takeUforward",
+    "category": "coding",
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
+    "link": "https://takeuforward.org/",
+    "description": "takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
+  },
+  {
+    "productName": "Canva",
+    "category": "design",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
+    "link": "https://www.canva.com/",
+    "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
+  },
+  {
+    "productName": "Magic UI",
+    "category": "UI",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
+    "link": "https://magicui.design/",
+    "description": "UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
+  },
+  {
+    "productName": "React Boostrap",
+    "category": "UI",
+    "image": "https://avatars.githubusercontent.com/u/6853419?s=200&v=4",
+    "link": "https://react-bootstrap.netlify.app/",
+    "description": "React Bootstrap is also one of the most popular React UI libraries. Built on top of the popular Bootstrap framework,"
+  },
+  {
+    "productName": "Flexbox Froggy",
+    "category": "Web Development",
+    "link": "https://flexboxfroggy.com/",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe4LjwVvqlzIm95ZKPyxIbdMRWgi6eZhalEw&s",
+    "description": "In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox. This helps users to master flexbox css"
+  },
 
+  {
+    "productName": "Blender 3D",
+    "category": "UI",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmueb9JiaohqoMehnD8GMj0RlSfgdlgi3ITg&s",
+    "link": "https://www.blender.org/",
+    "description": "Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation"
+  },
+  {
+    "productName": "copy.io",
+    "category": "AI",
+    "image": "copy-ai.jpg",
+    "link": "https://www.copy.ai/",
+    "description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
+  },
+  {
+    "productName": "Webflow",
+    "category": "UI",
+    "image": "webflow.jpg",
+    "link": "https://webflow.com/",
+    "description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+  },
+  {
+    "productName": "Framer Motion",
+    "category": "UI",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
+    "link": "https://www.framer.com/motion/",
+    "description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
+  },
+  {
+    "productName": "Iconfinder",
+    "category": "Icon Library",
+    "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
+    "link": "https://www.iconfinder.com/",
+    "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
+  },
+  {
+    "productName": "1337x",
+    "category": "Gaming",
+    "image": "https://image.winudf.com/v2/image/Y29tLmZyZWV0b3JyZW50LlZpZGVvc19pY29uX3BwNXFlbWk5/icon.png?w=184&fakeurl=1",
+    "link": "https://www.13377x.tw/",
+    "description": "An effective tool to Download Original Games, Movies, Applications, Documentaries, Anime and lot more all for FREE"
+  }
 ]
