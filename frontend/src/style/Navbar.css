@@ -5,7 +5,7 @@
   width: 100%;
   top: 0px;
   left: 0px;
-  height : 80px;
+  height: 80px;
   align-items: center;
   justify-content: space-between;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -25,6 +25,7 @@
 
 .navbar-content {
   display: flex;
+  text-decoration: none; /* Ensures no underline */
   list-style: none;
   padding: 0;
   margin: 0;
@@ -35,22 +36,21 @@
 .navbar-content .nav-item {
   flex-grow: 1; /* Allow items to stretch */
   text-align: center;
+  text-decoration: none; /* Ensures no underline */
   margin: 0 15px; /* Add space between items */
 }
-
 
 .navbar-content li {
   flex-grow: 1; /* Make the navbar items stretch to fill the width */
   margin: 0 15px; /* Add margin to create space between nav items */
   font-size: 1.3rem;
-  animation: slideTop 1s ease forwards;
+  text-decoration: none; /* Ensures no underline */
 }
 
 .logo-img {
   width: 150px;
   margin-right: auto; /* Move the logo to the left */
 }
-
 
 .card-body img {
   background: transparent;
@@ -64,71 +64,30 @@
   list-style: none;
   margin: 0 10px;
   font-size: 1.3rem;
+  text-decoration: none; /* Ensures no underline */
   animation: slideTop 1s ease forwards;
 }
+
 .navbar-content {
   display: flex;
   align-items: center;
 }
-@keyframes slideRight {
-  0% {
-    transform: translateX(100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+/* Define hover effect for nav-items */
+/* Define hover effect for nav-items */
+.nav-item {
+  position: relative;
+  color: #fff;
+  transition: transform 0.3s, filter 0.3s, box-shadow 0.3s; /* Add box-shadow to transition */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0); /* Initially no shadow */
 }
 
-@keyframes slideLeft {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+.nav-item:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+  filter: brightness(1.2); /* Brighten on hover for shine effect */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Add glowing effect */
 }
 
-@keyframes slideTop {
-  0% {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
 
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideBottom {
-  0% {
-    transform: translateY(100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes zoomIn {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
 
 .navbar-left {
   display: flex;
@@ -216,6 +175,7 @@
   width: 150px;
   margin-right: 140px; /* Move the logo to the right */
 }
+
 .nav-item a {
   color: #0e0303;
   text-decoration: none;
@@ -251,6 +211,7 @@
   transition: width 0.3s;
   z-index: 4;
 }
+
 .nav-item::before {
   content: "";
   position: absolute;
@@ -262,6 +223,7 @@
   background-color: black;
   transition: width 0.2s ease-in-out;
 }
+
 .sidebar.active {
   width: 20rem;
 }
@@ -356,6 +318,7 @@
   text-decoration: none;
   font-weight: 500;
 }
+
 .input {
   border: none !important;
   border-radius: 20px !important;
@@ -424,6 +387,7 @@
   flex-wrap: wrap;
   border: none;
 }
+
 .box:hover {
   border: 2.5px solid black;
 }
@@ -454,13 +418,16 @@
   font-weight: bold !important;
   cursor: pointer;
 }
+
 .false {
   background-color: #ffffff;
 }
+
 .span:hover {
   background-color: #000;
   color: #fff;
 }
+
 .false:hover {
   background-color: #ffffff;
   color: #000;
@@ -493,7 +460,6 @@
   position: relative;
 }
 
-
 .box {
   position: relative;
 }
@@ -502,4 +468,7 @@
   display: none;
 }
 
-
+/* Ensure no underline under nav items */
+.nav-item a, .navbar-content ul li a {
+  text-decoration: none !important;
+}
