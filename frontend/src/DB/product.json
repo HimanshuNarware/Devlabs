@@ -35,6 +35,13 @@
     "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
   },
   {
+    "productName":"Sololearn",
+    "category":"coding",
+    "image":"https://pbs.twimg.com/profile_images/1410707398021550084/MmGTT4dY_400x400.jpg",
+    "link":"https://www.sololearn.com/",
+    "description":"SoloLearn is an interactive platform offering a variety of coding courses to help users learn and practice programming skills through bite-sized lessons and community engagement."
+  },
+  {
     "productName": "Seowriting.AI",
     "category": "tools",
     "image": "https://bit.ly/4bSrO1A",
