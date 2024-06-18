@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh; /* Ensure the component is centered vertically */
 }
 
 .rate-us-container {
@@ -25,36 +26,21 @@
   color: #7c1de2;
 }
 
-.star-rating {
+.icon-rating {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
 }
 
-.star {
-  font-size: 24px;
-  color: #f0fafd;
+.icon {
+  font-size: 2rem; /* Increase emoji size */
   cursor: pointer;
-  transition: color 0.3s;
-  position: relative;
+  transition: transform 0.3s, filter 0.3s;
 }
 
-.star:before {
-  content: '★';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  color: transparent;
-  transition: text-shadow 0.3s, transform 0.3s;
-}
-
-.star:hover:before,
-.star.filled:before {
-  color: #f7b731;
-  text-shadow: 0 0 20px #f7b731;
-  transform: scale(1.2);
+.icon.selected {
+  transform: scale(1.0); /* Make selected emoji bigger */
+  filter: brightness(1.5); /* Shine effect */
 }
 
 .feedback-textarea {
@@ -65,6 +51,7 @@
   border-radius: 5px;
   resize: none;
   margin-bottom: 20px;
+  font-size: 1rem; /* Adjust textarea font size */
 }
 
 .submit-button {
