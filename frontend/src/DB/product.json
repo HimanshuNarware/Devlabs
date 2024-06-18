@@ -2982,6 +2982,13 @@
   },
   {
 
+	"productName":"takeUforward",
+	"category":"coding",
+	"image":"https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
+	"link":"https://takeuforward.org/",
+	"description":"takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
+
+
 	"productName":"Canva",
 	"category":"design",
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
@@ -3010,9 +3017,7 @@
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe4LjwVvqlzIm95ZKPyxIbdMRWgi6eZhalEw&s",
 	"description":"In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox. This helps users to master flexbox css"
 
-
   }
-	
 
 
 
