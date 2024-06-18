@@ -2982,6 +2982,13 @@
   },
   {
 
+	"productName":"Copilot ai",
+	"category":"AI",
+	"image":"https://media.licdn.com/dms/image/D5612AQF5A1Rn3_bJ7A/article-cover_image-shrink_600_2000/0/1707467579292?e=2147483647&v=beta&t=gJnnSsgaykZhGWwXDvgIt66ghzLeURyF8YT9yaKNv90",
+	"link":"https://copilot.microsoft.com/",
+	"description":"Microsoft's Copilot AI fosters collaboration, streamlining coding processes with innovative suggestions and insights."
+
+
 	"productName":"Coding Ninjas",
 	"category":"Coding",
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
@@ -3023,6 +3030,7 @@
 	"link":"https://flexboxfroggy.com/",
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe4LjwVvqlzIm95ZKPyxIbdMRWgi6eZhalEw&s",
 	"description":"In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox. This helps users to master flexbox css"
+
 
 
   }
