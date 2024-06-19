@@ -22,6 +22,12 @@
   position: relative;
   top: -10px; /* Adjust the value as needed */
 }
+.navbar-content li {
+  flex-grow: 1; /* Make the navbar items stretch to fill the width */
+  margin: 0 15px; /* Add margin to create space between nav items */
+  font-size: 1.3rem;
+  text-decoration: none; /* Ensures no underline */
+}
 
 .navbar-content {
   display: flex;
@@ -32,12 +38,7 @@
   justify-content: space-between; /* Add space between items */
   width: 109%; /* Make the navbar items stretch along the width */
 }
-.navbar-content li {
-  flex-grow: 1; /* Make the navbar items stretch to fill the width */
-  margin: 0 15px; /* Add margin to create space between nav items */
-  font-size: 1.3rem;
-  text-decoration: none; /* Ensures no underline */
-}
+
 
 .navbar-content .nav-item {
   flex-grow: 1; /* Allow items to stretch */
