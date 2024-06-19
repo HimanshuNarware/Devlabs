@@ -3072,7 +3072,14 @@
     "link":"https://www.canva.com/",
     "description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
   
-  }, 
+  },
+	{
+	 "productName":"Magic UI",
+	 "category":"UI",
+	 "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
+	 "link":"https://magicui.design/",
+	 "description":"UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
+  },
 {
 	 "productName":"React Boostrap",
 	 "category":"UI",
