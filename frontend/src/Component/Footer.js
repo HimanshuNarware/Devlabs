@@ -1,10 +1,11 @@
 import React from "react";
-import logo from "../image/logo.png";
+import logo from "../image/logo1.png";
 import "../style/Footer.css";
 
 import { BsLinkedin } from "react-icons/bs";
 
-import { FaGithubSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
 
@@ -95,7 +96,7 @@ function Footer() {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <FaTwitter className="text-white mx-1 fs-4" />
+                  <FaSquareXTwitter className="text-white mx-1 fs-4" />
                 </a>
                 <a
                   href="mailto:himanshunarware77@gmail.com"
