@@ -3121,5 +3121,12 @@
    "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
    "link": "https://www.iconfinder.com/",
    "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
+  },
+  {
+   "productName": "Acertinity UI",
+   "category": "UI",
+   "image": "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75",
+   "link": "https://ui.aceternity.com/",
+   "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
   }
 ]
