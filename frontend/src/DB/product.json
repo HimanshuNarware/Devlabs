@@ -386,7 +386,7 @@
   },
   {
     "productName": "Code Pen",
-    "category": "tools",
+    "category": "web",
     "image": "https://bit.ly/2I9FxYw",
     "link": "https://codepen.io/",
     "description": "Front-end web development and code sharing."
@@ -474,13 +474,6 @@
     "image": "https://bit.ly/3Slt9FG",
     "link": "https://www.kickresume.com/en/",
     "description": "Online resume builder and career advice platform."
-  },
-  {
-    "productName": "Resume Maker.AI",
-    "category": "resume",
-    "image": "https://bit.ly/3XNlQHP",
-    "link": "https://resumaker.ai/",
-    "description": "AI-powered online resume builder."
   },
   {
     "productName": "Resumai",
@@ -848,7 +841,7 @@
   },
   {
     "productName": "jwt",
-    "category": "tools",
+    "category": "web",
     "image": "https://bit.ly/3XWzjx3",
     "link": "https://jwt.io/",
     "description": "JSON Web Tokens for authentication and authorization in web applications."
@@ -1729,13 +1722,6 @@
     "description": "Offers free assets with no watermark for your next video project."
   },
   {
-    "productName": "Trello",
-    "category": "tools",
-    "image": "trello-logo.png",
-    "link": "https://trello.com/",
-    "description": "Project management tool that helps teams organize their work."
-  },
-  {
     "productName": "favicon.cc",
     "category": "tools",
     "image": "https://www.favicon.cc/images/favicon.cc/logo.png",
@@ -2037,13 +2023,6 @@
     "image": "https://media.licdn.com/dms/image/C510BAQGUMZ9orIbsXw/company-logo_200_200/0/1630573724151/designs_ai_logo?e=2147483647&v=beta&t=nbkyEmINIZXx1URuwI_sXK7z8L_VFzWS3nYBWkiU9iM",
     "link": "https://designs.ai/design-types/resumes",
     "description": "Build Professional resumes effortlessly with Designs.AI"
-  },
-  {
-    "productName": "RESUME WORDED",
-    "category": "resume",
-    "image": "RESUME WORDED.png",
-    "link": "https://resumeworded.com/",
-    "description": "Your personal resume & LinkedIn coach"
   },
   {
     "productName": "These resumes do not exist",
@@ -2656,7 +2635,7 @@
   },
   {
     "productName": "The Odin Project",
-    "category": "Web Development",
+    "category": "web",
     "image": "https://shorturl.at/gozNR",
     "link": "https://www.theodinproject.com",
     "description": "The Odin Project provides the best learning material and projects on web development."
@@ -2677,28 +2656,28 @@
   },
   {
     "productName": "Amplication",
-    "category": "Web Development",
+    "category": "web",
     "image": "https://pbs.twimg.com/profile_images/1543488626037665792/ve4iiXMj_400x400.jpg",
     "link": "https://amplication.com/",
     "description": "Amplication generate production‑ready backend services."
   },
   {
     "productName": "Akto",
-    "category": "Web Development",
+   "category": "web",
     "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/orzcboau3y9gmee5gklo",
     "link": "https://www.akto.io/",
     "description": "Akto is Open Source API Security in CI/CD."
   },
   {
     "productName": "Wasp",
-    "category": "Web Development",
+    "category": "web",
     "image": "https://wasp-lang.dev/img/lp/wasp-logo.png",
     "link": "https://wasp-lang.dev/",
     "description": "Wasp is a Rails-like framework for React, Node.js and Prisma. Build your app in a day and deploy it with a single CLI command."
   },
   {
     "productName": "Novu",
-    "category": "Web Development",
+    "category": "web",
     "image": "https://vercel.com/_next/image?url=https:%2F%2Fvercel.com%2Fapi%2Fv1%2Fintegrations%2Fassets%2Foac_vIEcgfhtwtsajoGbWWRTD5zK%2Fimages%2F480788a60d130657c3f675f4d000b7978f8b6309.jpeg&w=828&q=75",
     "link": "https://novu.co/",
     "description": "Novu is the open-source notification infrastructure for developers."
@@ -2761,7 +2740,7 @@
   },
   {
     "productName": "Postman",
-    "category": "productivity",
+    "category": "api",
     "image": "https://pbs.twimg.com/profile_images/1534945114807644173/h22f7y8F_400x400.png",
     "link": "https://www.postman.com/",
     "description": "A collaboration platform for API development, testing, and documentation."
@@ -2789,7 +2768,7 @@
   },
   {
     "productName": "Apidog",
-    "category": "tools",
+    "category": "api",
     "image": "Apidog.jpg",
     "link": "https://apidog.com/",
     "description": "Apidog is a complete set of tools that connects the entire API lifecycle, helping R&D teams implement best practices for API Design-first development."
@@ -3036,20 +3015,27 @@
     "link": "https://www.blender.org/",
     "description": "Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation"
   },
-
+	"productName": "Lighthouse",
+	"category": "extensions",
+	"image": "https://res.cloudinary.com/dslzeoxj7/image/upload/v1718101659/xiermgidrkdcjzuzstee.png",
+	"link": "https://bit.ly/3KFPmes",
+	"description": "Lighthouse is an open-source, automated tool for improving the quality of web pages."
+},
+	
+{
 	"productName":"Copilot ai",
 	"category":"AI",
 	"image":"https://media.licdn.com/dms/image/D5612AQF5A1Rn3_bJ7A/article-cover_image-shrink_600_2000/0/1707467579292?e=2147483647&v=beta&t=gJnnSsgaykZhGWwXDvgIt66ghzLeURyF8YT9yaKNv90",
 	"link":"https://copilot.microsoft.com/",
 	"description":"Microsoft's Copilot AI fosters collaboration, streamlining coding processes with innovative suggestions and insights."
-  },
-{
+},
+  {
+
 	"productName":"Coding Ninjas",
 	"category":"Coding",
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
 	"link":"https://www.codingninjas.com/",
 	"description":"Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
-
 },
 {
 	"productName":"takeUforward",
@@ -3057,44 +3043,31 @@
 	"image":"https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
 	"link":"https://takeuforward.org/",
 	"description":"takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
-
 },
-
-
-
-
 {
 	"productName":"Canva",
 	"category":"design",
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
 	"link":"https://www.canva.com/",
 	"description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
-
 },
+{
 
-
-
- {
 	"productName":"Magic UI",
 	"category":"UI",
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
 	"link":"https://magicui.design/",
 	"description":"UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
- },
-
-
-
-	{
+},
+  {
 	"productName":"React Boostrap",
 	"category":"UI",
 	"image":"https://avatars.githubusercontent.com/u/6853419?s=200&v=4",
 	"link":"https://react-bootstrap.netlify.app/",
 	"description":"React Bootstrap is also one of the most popular React UI libraries. Built on top of the popular Bootstrap framework,"
-
- },
-
-
+},
 {
+
 	"productName":"Flexbox Froggy",
 	"category":"Web Development",
 	"link":"https://flexboxfroggy.com/",
@@ -3106,8 +3079,6 @@
   },
 
 {
-
-
 
 	"productName":"Blender 3D",
 	"category":"UI",
@@ -3123,31 +3094,88 @@
     "description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
   },
   {
-    "productName": "Webflow",
-    "category": "UI",
-    "image": "webflow.jpg",
-    "link": "https://webflow.com/",
-    "description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+	 "productName":"Copilot ai",
+	 "category":"AI",
+	 "image":"https://media.licdn.com/dms/image/D5612AQF5A1Rn3_bJ7A/article-cover_image-shrink_600_2000/0/1707467579292?e=2147483647&v=beta&t=gJnnSsgaykZhGWwXDvgIt66ghzLeURyF8YT9yaKNv90",
+	 "link":"https://copilot.microsoft.com/",
+	 "description":"Microsoft's Copilot AI fosters collaboration, streamlining coding processes with innovative suggestions and insights."
   },
   {
-    "productName": "Framer Motion",
-    "category": "UI",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
-    "link": "https://www.framer.com/motion/",
-    "description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
+	 "productName":"Coding Ninjas",
+	 "category":"Coding",
+	 "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
+	 "link":"https://www.codingninjas.com/",
+	 "description":"Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
   },
   {
-    "productName": "Iconfinder",
-    "category": "Icon Library",
-    "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
-    "link": "https://www.iconfinder.com/",
-    "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
+	 "productName":"takeUforward",
+	 "category":"coding",
+	 "image":"https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
+	 "link":"https://takeuforward.org/",
+	 "description":"takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
   },
   {
+
     "productName": "1337x",
     "category": "Gaming",
     "image": "https://image.winudf.com/v2/image/Y29tLmZyZWV0b3JyZW50LlZpZGVvc19pY29uX3BwNXFlbWk5/icon.png?w=184&fakeurl=1",
     "link": "https://www.13377x.tw/",
     "description": "An effective tool to Download Original Games, Movies, Applications, Documentaries, Anime and lot more all for FREE"
+
+    "productName":"Canva",
+    "category":"design",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
+    "link":"https://www.canva.com/",
+    "description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
+  
+  },  {
+	 "productName":"Magic UI",
+	 "category":"UI",
+	 "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
+	 "link":"https://magicui.design/",
+	 "description":"UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
+  },
+	{
+	 "productName":"React Boostrap",
+	 "category":"UI",
+	 "image":"https://avatars.githubusercontent.com/u/6853419?s=200&v=4",
+	 "link":"https://react-bootstrap.netlify.app/",
+	 "description":"React Bootstrap is also one of the most popular React UI libraries. Built on top of the popular Bootstrap framework,"
+  },
+  {
+	 "productName":"Flexbox Froggy",
+	 "category":"web",
+	 "link":"https://flexboxfroggy.com/",
+	 "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe4LjwVvqlzIm95ZKPyxIbdMRWgi6eZhalEw&s",
+	 "description":"In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox. This helps users to master flexbox css"
+  },
+  {
+	 "productName":"Blender 3D",
+	 "category":"UI",
+	 "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmueb9JiaohqoMehnD8GMj0RlSfgdlgi3ITg&s",
+	 "link":"https://www.blender.org/",
+	 "description":"Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation"
+  }, 
+  {
+   "productName": "Webflow",
+   "category": "UI",
+   "image": "webflow.jpg",
+   "link": "https://webflow.com/",
+   "description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+  },
+  {
+   "productName": "Framer Motion",
+   "category": "UI",
+   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
+   "link": "https://www.framer.com/motion/",
+   "description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
+  },
+  {
+   "productName": "Iconfinder",
+   "category": "Icon Library",
+   "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
+   "link": "https://www.iconfinder.com/",
+   "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
+
   }
 ]
