@@ -4,6 +4,10 @@
   align-items: center;
   height: 100vh; /* Ensure the component is centered vertically */
 }
+.rate-us-container:hover {
+  box-shadow: 0 0 20px #7c1de2;
+  transform: scale(1.05);
+}
 
 .rate-us-container {
   width: 70%;
@@ -13,11 +17,6 @@
   border-radius: 5px;
   background-color: black;
   transition: box-shadow 0.3s, transform 0.3s;
-}
-
-.rate-us-container:hover {
-  box-shadow: 0 0 20px #7c1de2;
-  transform: scale(1.05);
 }
 
 .rate-us-heading {
@@ -37,6 +36,21 @@
   cursor: pointer;
   transition: transform 0.3s, filter 0.3s;
 }
+.submit-button {
+  width: 30%;
+  padding: 10px;
+  background-color: #7c1de2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #5f129f;
+}
+
 
 .icon.selected {
   transform: scale(1.0); /* Make selected emoji bigger */
@@ -54,17 +68,3 @@
   font-size: 1rem; /* Adjust textarea font size */
 }
 
-.submit-button {
-  width: 30%;
-  padding: 10px;
-  background-color: #7c1de2;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.submit-button:hover {
-  background-color: #5f129f;
-}
