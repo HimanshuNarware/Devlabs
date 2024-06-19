@@ -4,10 +4,7 @@
   align-items: center;
   height: 100vh; /* Ensure the component is centered vertically */
 }
-.rate-us-container:hover {
-  box-shadow: 0 0 20px #7c1de2;
-  transform: scale(1.05);
-}
+
 
 .rate-us-container {
   width: 70%;
@@ -24,18 +21,17 @@
   margin-bottom: 20px;
   color: #7c1de2;
 }
-
+.rate-us-container:hover {
+  box-shadow: 0 0 20px #7c1de2;
+  transform: scale(1.05);
+}
 .icon-rating {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
 }
 
-.icon {
-  font-size: 2rem; /* Increase emoji size */
-  cursor: pointer;
-  transition: transform 0.3s, filter 0.3s;
-}
+
 .submit-button {
   width: 30%;
   padding: 10px;
@@ -46,7 +42,11 @@
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
+.icon {
+  font-size: 2rem; /* Increase emoji size */
+  cursor: pointer;
+  transition: transform 0.3s, filter 0.3s;
+}
 .submit-button:hover {
   background-color: #5f129f;
 }
