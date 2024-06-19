@@ -28,10 +28,10 @@ import Extension from "./pages/Extension";
 import UI from "./pages/UI";
 import FrontendTools from "./pages/FrontendTools";
 import EthicalHacking from "./pages/EthicalHacking";
+import CodingPlatform from "./pages/CodingPlatform";
 import CoursesPlatform from "./pages/CoursesPlatform";
 import Productivity from "./pages/Productivity";
 import Collaboration from "./pages/Collaboration";
-import CodingPlatform from "./pages/CodingPlatform";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -66,9 +66,9 @@ function App() {
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
       <BackToTopButton />
-      <Toaster />
       <Footer />
       <ChatAssistant />
+      <Toaster />
     </>
   );
 }

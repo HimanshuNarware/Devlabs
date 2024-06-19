@@ -11,6 +11,12 @@
   border: 1px solid #210202;
   border-radius: 5px;
   background-color: black;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.rate-us-container:hover {
+  box-shadow: 0 0 20px #7c1de2;
+  transform: scale(1.05);
 }
 
 .rate-us-heading {
@@ -21,16 +27,34 @@
 
 .star-rating {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .star {
   font-size: 24px;
   color: #f0fafd;
   cursor: pointer;
+  transition: color 0.3s;
+  position: relative;
 }
 
-.filled {
+.star:before {
+  content: '★';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: transparent;
+  transition: text-shadow 0.3s, transform 0.3s;
+}
+
+.star:hover:before,
+.star.filled:before {
   color: #f7b731;
+  text-shadow: 0 0 20px #f7b731;
+  transform: scale(1.2);
 }
 
 .feedback-textarea {

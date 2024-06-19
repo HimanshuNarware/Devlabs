@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../image/logo.png";
+import logo from "../image/logo1.png";
 import "../style/Footer.css";
 import { FaGithubSquare, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
@@ -13,7 +13,7 @@ function Footer() {
           <div className="row">
             <div className="col-md-6 col-lg-4 col-12 ft-1">
               <a href="https://www.devlabsstore.tech/">
-                <img width={209} src={logo} alt="devlaps" />
+                <img width={209} src={logo} alt="devlabs" />
               </a>
               <h5>
                 Facing an issue or just <br />
@@ -59,9 +59,11 @@ function Footer() {
                   <Link to="/movies-series">Movie/Series</Link>
                 </li>
                 <li>
-                  <Link to="/extension">Extension</li>
+                  <Link to="/extension">Extension</Link>
+                </li>
                 <li>
-                  <Link to="/ui-design">UI Design</li>
+                  <Link to="/ui-design">UI Design</Link>
+                </li>
               </ul>
             </div>
             <div className="col-md-6 col-lg-2 col-12 ft-4">
