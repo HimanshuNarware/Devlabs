@@ -8,52 +8,79 @@
   width: 70%;
   max-width: 600px;
   padding: 20px;
-  border: 1px solid #210202;
   border-radius: 5px;
-  background-color: black;
+  background-color: #8B5CF6;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.rate-us-container:hover {
+  box-shadow: 0 0 20px #8B5CF6;
+  transform: scale(1.05);
 }
 
 .rate-us-heading {
   text-align: center;
   margin-bottom: 20px;
-  color: #7c1de2;
+  color: #000;
 }
 
 .star-rating {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .star {
   font-size: 24px;
   color: #f0fafd;
   cursor: pointer;
+  transition: color 0.3s;
+  position: relative;
 }
 
-.filled {
-  color: #f7b731;
+.star:before {
+  content: '★';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: transparent;
+  transition: text-shadow 0.3s, transform 0.3s;
+}
+
+.star:hover:before,
+.star.filled:before {
+  color: #184ce9;
+  text-shadow: 0 0 20px #f7b731;
+  transform: scale(1.2);
 }
 
 .feedback-textarea {
   width: 100%;
   height: 180px;
   padding: 10px;
-  border: 1px solid #060404;
+  background-color: #101623;
   border-radius: 5px;
   resize: none;
   margin-bottom: 20px;
+  color: white;
 }
 
 .submit-button {
   width: 30%;
   padding: 10px;
-  background-color: #7c1de2;
+  background-color:#101623 ;
   color: white;
+  font-weight: 600;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .submit-button:hover {
-  background-color: #5f129f;
+  background: #101623;
+  border: 2px solid #fff;
+  color: white;
 }

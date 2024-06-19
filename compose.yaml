@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  devlab-frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./frontend/.env
+
+  devlab-backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
