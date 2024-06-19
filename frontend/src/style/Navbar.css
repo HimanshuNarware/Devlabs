@@ -32,6 +32,12 @@
   justify-content: space-between; /* Add space between items */
   width: 109%; /* Make the navbar items stretch along the width */
 }
+.navbar-content li {
+  flex-grow: 1; /* Make the navbar items stretch to fill the width */
+  margin: 0 15px; /* Add margin to create space between nav items */
+  font-size: 1.3rem;
+  text-decoration: none; /* Ensures no underline */
+}
 
 .navbar-content .nav-item {
   flex-grow: 1; /* Allow items to stretch */
@@ -40,16 +46,17 @@
   margin: 0 15px; /* Add space between items */
 }
 
-.navbar-content li {
-  flex-grow: 1; /* Make the navbar items stretch to fill the width */
-  margin: 0 15px; /* Add margin to create space between nav items */
-  font-size: 1.3rem;
-  text-decoration: none; /* Ensures no underline */
-}
 
 .logo-img {
   width: 150px;
   margin-right: auto; /* Move the logo to the left */
+}
+.navbar-content li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  text-decoration: none; /* Ensures no underline */
+  animation: slideTop 1s ease forwards;
 }
 
 .card-body img {
@@ -58,14 +65,6 @@
 
 .navbar-brand {
   background: transparent;
-}
-
-.navbar-content li {
-  list-style: none;
-  margin: 0 10px;
-  font-size: 1.3rem;
-  text-decoration: none; /* Ensures no underline */
-  animation: slideTop 1s ease forwards;
 }
 
 .navbar-content {
