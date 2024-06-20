@@ -13,11 +13,17 @@ function Review() {
     name: "",
     email: "",
     review: "",
+    feedbackType: "",
+    otherFeedback: ""
   });
   const [processingMail, setProcessingMail] = useState(false);
 
   const onChangeHandler = (event) => {
     setReviewData({ ...reviewData, [event.target.id]: event.target.value });
+  };
+
+  const onFeedbackTypeChange = (event) => {
+    setReviewData({ ...reviewData, feedbackType: event.target.value, otherFeedback: "" });
   };
 
   const onSubmitHandler = async (event) => {
@@ -59,7 +65,7 @@ function Review() {
       <h2 className='form-header'>Here's the Review Form</h2>
       <div>
         <p className='form-subtext'>
-          Thank you for visiting the website! Please tell us how can we improve
+          Thank you for visiting the website! Please tell us how we can improve
           your experience. Provide your email in case you want the owner to
           contact you.
         </p>
@@ -83,6 +89,33 @@ function Review() {
           onChange={onChangeHandler}
           required
         />
+        <div className='form-input-field' style={{ align: 'Left', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+          <label htmlFor='feedbackType' style={{ marginBottom: '10px' }}>Feedback Type:</label>
+          <select
+            id='feedbackType'
+            value={reviewData.feedbackType}
+            onChange={onFeedbackTypeChange}
+            style={{ width: '100%' }}
+            required
+          >
+            <option value=''>Select feedback type</option>
+            <option value='complaint'>Complaint</option>
+            <option value='suggestion'>Suggestion</option>
+            <option value='question'>Question</option>
+            <option value='other'>Other</option>
+          </select>
+        </div>
+        {reviewData.feedbackType === 'other' && (
+          <input
+            className='form-input-field'
+            placeholder='Please specify'
+            type='text'
+            id='otherFeedback'
+            value={reviewData.otherFeedback}
+            onChange={onChangeHandler}
+            required
+          />
+        )}
         <textarea
           className='form-input-field input-review'
           placeholder='Your Message'
@@ -93,6 +126,7 @@ function Review() {
           onChange={onChangeHandler}
           required
         />
+        
         <h3>Rate us:</h3>
         <Rate rating={rating} setRating={setRating} />
         <div className='form-div'>
