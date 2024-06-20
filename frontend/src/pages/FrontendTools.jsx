@@ -4,6 +4,7 @@ import "../style/FrontendTools.css";
 const tools = [
   { name: "React", description: "A JavaScript library for building user interfaces", link: "https://reactjs.org/", image: "https://i.pinimg.com/564x/cb/a0/b8/cba0b89d2bf2d96a1ed26edb5849f804.jpg" },
   { name: "Vue.js", description: "The Progressive JavaScript Framework", link: "https://vuejs.org/", image: "https://i.pinimg.com/564x/81/53/7d/81537d4d5b76f89d653db2bed33b85ed.jpg" },
+  { name: "Next.js", description: "Next.js is a React framework for building full-stack web applications. ", link: "https://nextjs.org/", image: "https://i.pinimg.com/564x/3f/f5/f9/3ff5f96fafaf0dacf5e6a8e69072f2dc.jpg" },
   { name: "Angular", description: "One framework. Mobile & desktop.", link: "https://angular.io/", image: "https://i.pinimg.com/564x/21/77/78/2177788cdee5c706d5b119a42d0d8d85.jpg" },
   { name: "Svelte", description: "Cybernetically enhanced web apps", link: "https://svelte.dev/", image: "https://sourcebae.com/blog/wp-content/uploads/2023/08/9969f494-sveltelogo.png" },
   { name: "Bootstrap", description: "The most popular HTML, CSS, and JS library", link: "https://getbootstrap.com/", image: "https://i.pinimg.com/564x/92/d6/60/92d660adb69ff63b4d133cda9592d848.jpg" },
