@@ -3128,5 +3128,33 @@
    "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
    "link": "https://www.iconfinder.com/",
    "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
-  }
+  },
+  {
+		"productName": "HeroIcons",
+		"category": "tools",
+		"image": "heroicon.png",
+		"link": "https://heroicons.com/",
+		"description": "HeroIcons you embed SVGs into your project with having to use any CDNs or install any node modules"
+	},
+	{
+		"productName": "Icons8",
+		"category": "tools",
+		"image": "icons8.png",
+		"link": "https://icons8.com/",
+		"description": "It provides you with a wide range of icons that can be used in your project in any format be it PNG, JPG or SVG."
+	},
+	{
+		"productName": "Docker playground",
+		"category": "coding",
+		"image": "docker_playground.png",
+		"link": "https://labs.play-with-docker.com/",
+		"description": "A simple, interactive and fun playground to learn Docker, without having to install docker"
+	},
+	{
+		"productName": "React Icons",
+		"category": "tools",
+		"image": "react_icons.png",
+		"link": "https://react-icons.github.io/react-icons/",
+		"description": "Include popular icons in your React projects easily with react-icons."
+	}
 ]
