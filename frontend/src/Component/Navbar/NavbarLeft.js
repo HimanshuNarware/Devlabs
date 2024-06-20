@@ -42,7 +42,7 @@ function NavbarLeft(props) {
           <span></span>
         </div>
       </a>
-      <a href="/" onClick={handleItemClick}> {/* Added onClick handler */}
+      <a href="/" class="brand-link" onClick={handleItemClick}> {/* Added onClick handler */}
         <img className="navbar-brand logo-img" src={logo} alt="this" />
       </a>
     </span>
