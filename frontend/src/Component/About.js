@@ -59,7 +59,7 @@ function About() {
     paginationValues;
 
   const handlePageChange = (value) => {
-    changePage(value, currentPage, setCurrentPage);
+    changePage(value, currentPage, setCurrentPage, allPagesNumbers);
   };
 
   return (
