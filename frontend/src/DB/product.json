@@ -35,6 +35,13 @@
     "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
   },
   {
+    "productName":"Sololearn",
+    "category":"coding",
+    "image":"https://rb.gy/7e5bda",
+    "link":"https://www.sololearn.com/",
+    "description":"SoloLearn is an interactive platform offering a variety of coding courses to help users learn and practice programming skills through bite-sized lessons and community engagement."
+  },
+  {
     "productName": "Seowriting.AI",
     "category": "tools",
     "image": "https://bit.ly/4bSrO1A",
@@ -3065,14 +3072,15 @@
     "link":"https://www.canva.com/",
     "description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
   
-  },  {
+  },
+	{
 	 "productName":"Magic UI",
 	 "category":"UI",
 	 "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
 	 "link":"https://magicui.design/",
 	 "description":"UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
   },
-	{
+{
 	 "productName":"React Boostrap",
 	 "category":"UI",
 	 "image":"https://avatars.githubusercontent.com/u/6853419?s=200&v=4",

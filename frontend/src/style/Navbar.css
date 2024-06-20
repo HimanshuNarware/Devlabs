@@ -1,4 +1,5 @@
 .navbar {
+  display: flex;
   background-color: #8b5cf6;
   /* padding: 5px 10px; Decreased padding to reduce height */
   position: fixed;
@@ -36,14 +37,18 @@
 }
 
 .navbar-content .nav-item {
-  flex-grow: 1; /* Allow items to stretch */
+  flex-grow: 1;
+  /* Allow items to stretch */
   text-align: center;
-  margin: 0 15px; /* Add space between items */
+  margin: 0 15px;
+  /* Add space between items */
 }
 
 .navbar-content li {
-  flex-grow: 1; /* Make the navbar items stretch to fill the width */
-  margin: 0 15px; /* Add margin to create space between nav items */
+  flex-grow: 1;
+  /* Make the navbar items stretch to fill the width */
+  margin: 0 15px;
+  /* Add margin to create space between nav items */
   font-size: 1.3rem;
   animation: slideTop 1s ease forwards;
 }
@@ -67,10 +72,12 @@
   font-size: 1.3rem;
   animation: slideTop 1s ease forwards;
 }
+
 .navbar-content {
   display: flex;
   align-items: center;
 }
+
 @keyframes slideRight {
   0% {
     transform: translateX(100px);
@@ -138,6 +145,14 @@
   align-items: center;
   gap: 5px;
   animation: slideLeft 1s ease forwards;
+  height: 100%;
+}
+
+.navbar-left #logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar-left #nav-icon1 {
@@ -153,6 +168,7 @@
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  margin-top: -10px;
 }
 
 .navbar-left #nav-icon1 span {
@@ -207,14 +223,15 @@
   transform: rotate(-135deg);
 }
 
-.logo-img {
-  width: 150px;
-  margin-right: 140px; /* Move the logo to the right */
+.navbar-brand .open {
+  animation: unset;
 }
+
 .nav-item a {
   color: #0e0303;
   text-decoration: none;
-  font-size: 1.2rem; /* Adjust font size as needed */
+  font-size: 1.2rem;
+  /* Adjust font size as needed */
   transition: color 0.3s;
 }
 
@@ -260,6 +277,7 @@
 }
 
 .sidebar.active {
+  top: 6.2rem;
   width: 20rem;
 }
 
@@ -279,7 +297,6 @@
 
 .sdbar-logo {
   font-size: 3rem;
-  margin-top: -15px;
 }
 
 .sidebar {
@@ -320,7 +337,7 @@
   color: rgba(0, 0, 0, 0.84);
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1200px) {
   .navbar-center {
     display: none;
   }
@@ -403,9 +420,11 @@
   flex-wrap: wrap;
   border: none;
 }
+
 .box:hover {
   border: 2.5px solid black;
 }
+
 .input {
   border: none !important;
   border-radius: 20px !important;
@@ -453,13 +472,16 @@
   font-weight: bold !important;
   cursor: pointer;
 }
+
 .false {
   background-color: #ffffff;
 }
+
 .span:hover {
   background-color: #000;
   color: #fff;
 }
+
 .false:hover {
   background-color: #ffffff;
   color: #000;
