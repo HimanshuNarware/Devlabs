@@ -16,7 +16,6 @@ const CustomCursor = () => {
     };
 
     const handleMouseOver = (event) => {
-        console.log(event.target.tagName)
         if (event.target.tagName === 'A' || event.target.tagName === 'BUTTON') {
             setIsPointer('pointer');
         }
