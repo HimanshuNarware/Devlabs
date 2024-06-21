@@ -160,7 +160,7 @@
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  cursor: pointer;
+  cursor: none;
   margin-top: -10px;
 }
 
@@ -455,7 +455,7 @@
   border: 1px solid #ced4da;
   /* border-radius: 0.25rem; */
   font-weight: bold !important;
-  cursor: pointer;
+  cursor: none;
 }
 
 .false {
@@ -486,7 +486,7 @@
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   font-weight: bold !important;
-  cursor: pointer;
+  cursor: none;
 }
 
 .navbar-right {

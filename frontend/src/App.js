@@ -27,6 +27,7 @@ import EthicalHacking from "./pages/EthicalHacking";
 import Faq from "./Component/Faq";
 import CodingPlatform from "./pages/CodingPlatform"; // Corrected import
 import CoursesPlatform from "./pages/CoursesPlatform";
+import TrailingCursor from "./Component/TrailingCursor/TrailingCursor";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -36,6 +37,7 @@ function App() {
   return (
     <>
       <ScrollToTop />
+      <TrailingCursor/>
       <Navbar setSearchQuery={setSearchQuery} />
       <Routes>
         <Route path="/" element={<Home searchQuery={searchQuery} />} />
