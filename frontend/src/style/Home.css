@@ -232,6 +232,7 @@
   border: 2px solid #8b5cf6;
   color: white;
   box-shadow: 4px 4px 2px #8b5cf6;
+  cursor: none;
 }
 .hero-button a:hover {
   color: white;

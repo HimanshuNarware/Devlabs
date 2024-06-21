@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 80px;
     right: 20px;
-    z-index: 35;
+    /* z-index: 35; */
     background-color: #00c68a;
     color: white;
     border: 2px solid #93FFD8;
@@ -21,5 +21,6 @@
 .back-to-top-button:hover {
     background-color: rgba(17, 99, 76, 0.856);
     transform: scale(1.1);
+    cursor: none;
 }
 

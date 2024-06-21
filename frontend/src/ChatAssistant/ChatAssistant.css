@@ -4,7 +4,8 @@
   right: 0;
   margin-right: 20px;
   margin-bottom: 12px;
-  z-index: 999;
+  /* z-index: 999; */
+  cursor:none;
 }
 .chatbot-close-animation {
   animation: animate-close ease-in 0.3s forwards;
