@@ -1,14 +1,12 @@
 import React, { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import "./../style/Rateus.css";
 
 function RateUsComponent({ previousContent }) {
   const [rating, setRating] = useState(0);
   const [feedback, setFeedback] = useState("");
 
-  const handleStarClick = (star) => {
-    setRating(star);
+  const handleIconClick = (iconIndex) => {
+    setRating(iconIndex + 1);
   };
 
   const handleFeedbackChange = (e) => {
@@ -16,19 +14,10 @@ function RateUsComponent({ previousContent }) {
   };
 
   const handleSubmit = () => {
-    // Check if both rating and feedback are provided
     if (rating !== 0 && feedback.trim() !== "") {
-      // Reset the state after submitting
       setRating(0);
       setFeedback("");
-      // Show toast message
-      toast.success("Thanks For Your Feedback :)", {
-        position: "top-center"
-      });
     } else {
-      toast.error("Please Enter All Details :(", {
-        position: "top-center"
-      });
     }
   };
 
@@ -37,14 +26,18 @@ function RateUsComponent({ previousContent }) {
       <div className="rate-us-page">
         <div className="rate-us-container">
           <h2 className="rate-us-heading">Rate Our Website</h2>
-          <div className="star-rating">
-            {[1, 2, 3, 4, 5].map((star) => (
+          <div className="icon-rating">
+            {[0, 1, 2, 3, 4].map((index) => (
               <span
-                key={star}
-                className={star <= rating ? "star filled" : "star"}
-                onClick={() => handleStarClick(star)}
+                key={index}
+                className={`icon ${index === rating - 1 ? "selected" : ""}`}
+                onClick={() => handleIconClick(index)}
               >
-                ★
+                {index === 0 && "😞"}
+                {index === 1 && "😐"}
+                {index === 2 && "😊"}
+                {index === 3 && "😃"}
+                {index === 4 && "😍"}
               </span>
             ))}
           </div>
@@ -59,7 +52,6 @@ function RateUsComponent({ previousContent }) {
           </button>
         </div>
       </div>
-      <ToastContainer />
     </>
   );
 }

@@ -17,8 +17,12 @@
 }
 
 /* Custom scrollbar for webkit browsers (Chrome, Safari, Edge) */
-::-webkit-scrollbar {
-  width: 6px; /* Width of the scrollbar */
+
+::-webkit-scrollbar-track {
+  background-color: var(
+    --scrollbar-bg
+  ); /* Background color of the scrollbar track */
+  border-radius: 15px;
 }
 
 /* Custom scrollbar for Firefox */
@@ -26,13 +30,7 @@
   scrollbar-width: thin; /* Makes the scrollbar thin */
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-bg); /* Custom colors */
   border-radius: 15px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: var(
-    --scrollbar-bg
-  ); /* Background color of the scrollbar track */
-  border-radius: 15px;
+  width: 6px; /* Width of the scrollbar */
 }
 /* contributor style */
 .contributors-section {
