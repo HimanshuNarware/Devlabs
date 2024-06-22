@@ -33,7 +33,7 @@
 .star {
   font-size: 24px;
   color: #f0fafd;
-  cursor: pointer;
+  cursor: none;
   transition: color 0.3s;
   position: relative;
 }
@@ -75,7 +75,7 @@
   font-weight: 600;
   border: none;
   border-radius: 25px;
-  cursor: pointer;
+  cursor: none;
   transition: background-color 0.3s;
 }
 
