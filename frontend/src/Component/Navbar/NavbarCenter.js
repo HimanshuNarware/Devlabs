@@ -37,7 +37,7 @@ function NavbarCenter() {
           <NavbarItem description={<><FontAwesomeIcon icon={faStar} /> Rate Us</>} to="#" />
         </li>
         <li className="nav-item">
-          <NavbarItem description={<><FontAwesomeIcon icon={faEnvelope} /> Contact</>} to="https://www.linkedin.com/in/himanshunarware/" />
+          <NavbarItem description={<><FontAwesomeIcon icon={faEnvelope} /> Contact</>} to="/contact" />
         </li>
       </ul>
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>

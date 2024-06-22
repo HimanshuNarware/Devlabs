@@ -16,6 +16,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./Component/ScrollToTop";
+import Contact from "./Component/Contact";
 //cards
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
@@ -47,6 +48,7 @@ function App() {
         <Route path="/review" element={<Review />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/rateus" element={<Rateus />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/remote-jobs" element={<RemoteJobs />} />
         <Route path="/ai" element={<AI />} />
         <Route path="/movies-series" element={<Movie />} />
@@ -55,10 +57,9 @@ function App() {
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
-
-        <Route path="/courses-platform" element={<CoursesPlatform />}/>
+        <Route path="/courses-platform" element={<CoursesPlatform />} />
         {/* Define other routes as needed */}
-<Route path="*" element={<NotFound />} /> {/* 404 route */}
+        <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
       <BackToTopButton />
       <Footer />
