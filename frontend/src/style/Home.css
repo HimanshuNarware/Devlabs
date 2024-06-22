@@ -21,6 +21,8 @@
   width: 6px; /* Width of the scrollbar */
 }
 
+
+
 /* Custom scrollbar for Firefox */
 ::-webkit-scrollbar {
   scrollbar-width: thin; /* Makes the scrollbar thin */

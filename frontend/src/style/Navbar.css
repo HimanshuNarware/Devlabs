@@ -1,5 +1,5 @@
 .navbar {
-  display: flex;
+  display: relative;
   background-color: #8b5cf6;
   padding: 5px 10px;
   /* Decreased padding to reduce height */
@@ -502,4 +502,70 @@
 
 .invisible {
   display: none;
+}
+
+
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  top:10px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%; /* Adjust the width as needed */
+  max-width: 500px; /* Maximum width for larger screens */
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  top:10px;
+
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.clear-button,
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.clear-button.invisible {
+  display: none;
+}
+
+.search-button {
+  margin-left: 10px;
+  color: #007bff; /* Change color to your preference */
 }
