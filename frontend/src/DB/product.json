@@ -3156,5 +3156,12 @@
 		"image": "react_icons.png",
 		"link": "https://react-icons.github.io/react-icons/",
 		"description": "Include popular icons in your React projects easily with react-icons."
+	},
+  {
+		"productName": "Careerflow AI",
+		"category": "extensions ",
+		"image": "https://bit.ly/3VRSavy",
+		"link": "https://bit.ly/4ezO0j4",
+		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
 	}
 ]
