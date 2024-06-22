@@ -256,7 +256,7 @@
 
 .profile-btn:hover {
     background: transparent;
-    cursor: pointer;
+    cursor: none;
     box-shadow: 2px 2px 1px #8b5cf6;
 }
 

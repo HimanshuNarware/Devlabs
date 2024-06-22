@@ -4,41 +4,34 @@
   align-items: center;
   height: 100vh; /* Ensure the component is centered vertically */
 }
-.rate-us-container:hover {
-  box-shadow: 0 0 20px #7c1de2;
-  transform: scale(1.05);
-}
+
 
 .rate-us-container {
   width: 70%;
   max-width: 600px;
   padding: 20px;
+  border: 1px solid #210202;
   border-radius: 5px;
-  background-color: #8B5CF6;
+  background-color: black;
   transition: box-shadow 0.3s, transform 0.3s;
 }
 
-.rate-us-container:hover {
-  box-shadow: 0 0 20px #8B5CF6;
-  transform: scale(1.05);
-}
 .rate-us-heading {
   text-align: center;
   margin-bottom: 20px;
-  color: #000;
+  color: #7c1de2;
 }
-
+.rate-us-container:hover {
+  box-shadow: 0 0 20px #7c1de2;
+  transform: scale(1.05);
+}
 .icon-rating {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
 }
 
-.icon {
-  font-size: 2rem; /* Increase emoji size */
-  cursor: pointer;
-  transition: transform 0.3s, filter 0.3s;
-}
+
 .submit-button {
   width: 30%;
   padding: 10px;
@@ -49,7 +42,11 @@
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
+.icon {
+  font-size: 2rem; /* Increase emoji size */
+  cursor: pointer;
+  transition: transform 0.3s, filter 0.3s;
+}
 .submit-button:hover {
   background-color: #5f129f;
 }
@@ -57,41 +54,17 @@
 
 .icon.selected {
   transform: scale(1.0); /* Make selected emoji bigger */
-  filter: brightness(1.5); 
-}/* Shine effect */
-.star:hover:before,
-.star.filled:before {
-  color: #184ce9;
-  text-shadow: 0 0 20px #f7b731;
-  transform: scale(1.2);
+  filter: brightness(1.5); /* Shine effect */
 }
 
 .feedback-textarea {
   width: 100%;
   height: 180px;
   padding: 10px;
-  background-color: #101623;
+  border: 1px solid #060404;
   border-radius: 5px;
   resize: none;
   margin-bottom: 20px;
   font-size: 1rem; /* Adjust textarea font size */
-  color: white;
 }
 
-.submit-button {
-  width: 30%;
-  padding: 10px;
-  background-color:#101623 ;
-  color: white;
-  font-weight: 600;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.submit-button:hover {
-  background: #101623;
-  border: 2px solid #fff;
-  color: white;
-}

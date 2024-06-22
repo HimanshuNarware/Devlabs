@@ -19,8 +19,10 @@ function RateUsComponent({ previousContent }) {
       // Reset the state after submitting
       setRating(0);
       setFeedback("");
-      // Provide feedback here (you can replace this with your custom feedback mechanism)
+      // Show success message (console.log or any other method you prefer)
+      console.log("Thanks For Your Feedback :)");
     } else {
+      console.error("Please Enter All Details :(");
     }
   };
 
