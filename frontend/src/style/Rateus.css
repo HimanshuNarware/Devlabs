@@ -2,7 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh; /* Ensure the component is centered vertically */
 }
+
 
 .rate-us-container {
   width: 70%;
@@ -23,32 +25,48 @@
   margin-bottom: 20px;
   color: #000;
 }
-
-.star-rating {
+.rate-us-container:hover {
+  box-shadow: 0 0 20px #7c1de2;
+  transform: scale(1.05);
+}
+.icon-rating {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
 }
 
+
+.submit-button {
+  width: 30%;
+  padding: 10px;
+  background-color: #7c1de2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 .star {
   font-size: 24px;
   color: #f0fafd;
-  cursor: pointer;
+  cursor: none;
   transition: color 0.3s;
   position: relative;
 }
-
-.star:before {
-  content: '★';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  color: transparent;
-  transition: text-shadow 0.3s, transform 0.3s;
+.icon {
+  font-size: 2rem; /* Increase emoji size */
+  cursor: pointer;
+  transition: transform 0.3s, filter 0.3s;
+}
+.submit-button:hover {
+  background-color: #5f129f;
 }
 
+
+.icon.selected {
+  transform: scale(1.0); /* Make selected emoji bigger */
+  filter: brightness(1.5); 
+}/* Shine effect */
 .star:hover:before,
 .star.filled:before {
   color: #184ce9;
@@ -64,6 +82,7 @@
   border-radius: 5px;
   resize: none;
   margin-bottom: 20px;
+  font-size: 1rem; /* Adjust textarea font size */
   color: white;
 }
 
@@ -75,7 +94,7 @@
   font-weight: 600;
   border: none;
   border-radius: 25px;
-  cursor: pointer;
+  cursor: none;
   transition: background-color 0.3s;
 }
 
