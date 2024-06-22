@@ -1,7 +1,7 @@
 .chatbot {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 70px;
+  right: 70px;
   margin-right: 20px;
   margin-bottom: 12px;
   z-index: 999;
