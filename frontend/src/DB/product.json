@@ -3123,6 +3123,13 @@
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
 		"link": "https://www.onlinegdb.com/",
-		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser.
-	}
+		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
+	},
+  {
+    "productName":"CoderByte",
+    "category":"coding",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5LxE-uun9fafHBVzasYXShkaugIsCtqTReg&s",
+    "link":"https://coderbyte.com/",
+    "description":"Coderbyte is a popular platform for coding challenges and algorithm practice, designed to help developers improve their programming skills."
+  }
 ]
