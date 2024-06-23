@@ -3084,6 +3084,13 @@
 		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
 	},
   {
+    "productName":"Udemy",
+    "category":"course",
+    "image":"https://s.udemycdn.com/meta/default-meta-image-v2.png",
+    "link":"https://www.udemy.com/",
+    "description":"Udemy democratizes education by providing a vast array of online courses, catering to diverse interests and skill levels. Its self-paced learning model enables individuals worldwide to acquire new skills and advance their careers conveniently and affordably."
+  },
+  {
 		"productName": "GitHub Copilot",
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGV3bTwpP8eTBE19it3Gc2_8n_W6LQhLmJUg&s",
