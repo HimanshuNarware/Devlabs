@@ -246,7 +246,7 @@ function Home(props) {
           </div>
         </div>
       </div>
-
+      <br/>
       <h3> Lets Get, What You seek!</h3>
       <NavbarRight setSearchQuery={setSearchQuery} />
 

@@ -449,46 +449,49 @@
   font-weight: bold !important;
   cursor: none;
 }
+
+
+
 /* Navbar.css */
 
 .navbar-right {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .search {
-  width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  align-items: center;
+  width: 100%;
 }
 
 .search-bar {
   display: flex;
+  justify-content: center;
   align-items: center;
-  border: 1px solid #ccc;
+  width: 50%; /* Adjust the width as needed */
+  max-width: 500px; /* Maximum width for larger screens */
+  background-color: white;
   border-radius: 25px;
-  overflow: hidden;
-  padding: 5px 5px;
-  background-color: #fff;
-  max-width: 500px;
-  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
 }
 
-.search-bar .box {
+.box {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 5px 5px;
 }
 
 .input {
+  flex: 1;
   border: none;
   outline: none;
   padding: 10px;
-  font-size: 16px;
-  width: 10%;
+  border-radius: 25px;
 }
 
 .clear-button,
@@ -496,11 +499,12 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding: 5px 10px;
-}
-
-.clear-button {
-  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: #333;
 }
 
 .clear-button.invisible {
@@ -508,9 +512,6 @@
 }
 
 .search-button {
-  color: #333;
-}
-
-.search-bar .box .input::placeholder {
-  color: #aaa;
+  margin-left: 10px;
+  color: #007bff; /* Change color to your preference */
 }
