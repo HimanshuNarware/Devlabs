@@ -3074,5 +3074,12 @@
 		"image": "https://bit.ly/3VRSavy",
 		"link": "https://bit.ly/4ezO0j4",
 		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
+	},
+  {
+		"productName": "Google Gemini",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SufvcG1AFpUBwB8uZs6UNNAUiWkgMC5rqA&s",
+		"link": "https://gemini.google.com/app?utm_source=google&utm_medium=cpc&utm_campaign=2024enIN_gemfeb&gad_source=1&gclid=CjwKCAjw7NmzBhBLEiwAxrHQ-SgEf-M4MZksGDDhhR7BYmnhldDobfXovsl7pf3gPCtSgZRBI5_73hoCWOUQAvD_BwE",
+		"description": "AI chatbot to answer your queries regarding any field."
 	}
 ]
