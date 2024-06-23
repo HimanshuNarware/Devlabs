@@ -32,6 +32,7 @@ root.render(
   <Provider store={store}>
     <BrowserRouter>
       <Preloader />
+
       <App />
       <ToastContainer />
     </BrowserRouter>

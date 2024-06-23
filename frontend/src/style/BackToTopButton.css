@@ -2,14 +2,14 @@
     position: fixed;
     bottom: 80px;
     right: 20px;
-    z-index: 99;
+    /* z-index: 35; */
     background-color: #00c68a;
     color: white;
     border: 2px solid #93FFD8;
     border-radius: 50px;
     padding: 8px;
     box-shadow: 0 4px 6px rgba(14, 14, 14, 0.1);
-    cursor: pointer;
+    cursor: none;
     transition: background-color 0.3s, transform 0.3s;
 }
 
@@ -21,5 +21,6 @@
 .back-to-top-button:hover {
     background-color: rgba(17, 99, 76, 0.856);
     transform: scale(1.1);
+    cursor: none;
 }
 
