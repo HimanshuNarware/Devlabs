@@ -3074,5 +3074,12 @@
 		"image": "https://bit.ly/3VRSavy",
 		"link": "https://bit.ly/4ezO0j4",
 		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
+	},
+  {
+		"productName": "Microsoft Copliot",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuV5rSW7ki5EBj3Lt8yMGAEixhcvzsa2GYUg&s",
+		"link": "https://copilot.microsoft.com/",
+		"description": "Microsoft Copilot is an AI-powered productivity tool that assists users through a simple chat experience."
 	}
 ]
