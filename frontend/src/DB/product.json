@@ -3074,5 +3074,12 @@
 		"image": "https://bit.ly/3VRSavy",
 		"link": "https://bit.ly/4ezO0j4",
 		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
-	}
+	},
+  {
+    "productName": "Sphinx",
+    "category": "documentation",
+    "image": "https://www.jetbrains.com/guide/assets/sphinxdoc-ca1beff5.png",
+    "link": "https://www.sphinx-doc.org/en/master/",
+    "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects."
+  }
 ]
