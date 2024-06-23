@@ -67,6 +67,7 @@ function Sidebar({ showSideNav }) {
       url: "/collaboration-tools",
     },
   ];
+
   return (
     <div className={`sidebar ${showSideNav ? "active" : ""}`}>
       <div
@@ -74,7 +75,7 @@ function Sidebar({ showSideNav }) {
           showSideNav ? "active" : ""
         }`}
       >
-        <div className="sidebar-btn home-btn">
+        <div className="sidebar-btn home-btn" key="home">
           <Link
             to="/"
             className="Link  Bookmark nav-link active"
@@ -83,7 +84,7 @@ function Sidebar({ showSideNav }) {
             <AiFillHome /> Home
           </Link>
         </div>
-        <div className="sidebar-btn bookmark-btn">
+        <div className="sidebar-btn bookmark-btn" key="bookmark">
           <Link
             to="/bookmark"
             className="Link  Bookmark nav-link active"
@@ -92,7 +93,7 @@ function Sidebar({ showSideNav }) {
             <BsBookmark /> BookMark
           </Link>
         </div>
-        <div className="sidebar-btn home-btn">
+        <div className="sidebar-btn home-btn" key="about">
           <Link
             to="/about"
             className="Link  Bookmark nav-link active"
@@ -101,7 +102,7 @@ function Sidebar({ showSideNav }) {
             About Us
           </Link>
         </div>
-        <div className="sidebar-btn bookmark-btn">
+        <div className="sidebar-btn bookmark-btn" key="open-source">
           <Link
             to="/open-source"
             className="Link  Bookmark nav-link active"
@@ -111,23 +112,22 @@ function Sidebar({ showSideNav }) {
           </Link>
         </div>
       </div>
-      {sidebarContent.map((item, index) => (
+
+      {sidebarContent.map((item) => (
         <Link
           to={item.url}
-          id={index}
           className="Link  Bookmark nav-link active"
           aria-current="page"
+          key={item.name}
         >
           <SidebarContent
-            key={index}
             name={item.name}
             description={item.description}
             active={showSideNav}
           />
         </Link>
       ))}
-      <div style={{ marginTop: "20px" }} />
-      ))
+      
       <div style={{ marginTop: "20px" }} />
     </div>
   );
