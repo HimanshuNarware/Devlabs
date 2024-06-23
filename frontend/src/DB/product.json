@@ -3077,7 +3077,7 @@
 	},
   {
 		"productName": "Kubernetes",
-		"category": "extensions ",
+		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKm7lzQd9nJiH3a-pq38dUp-6_5pjggo8ADA&s",
 		"link": "https://kubernetes.io/",
 		"description": "Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications."
