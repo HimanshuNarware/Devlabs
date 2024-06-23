@@ -3084,6 +3084,13 @@
 		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
 	},
   {
+		"productName": "GitHub Copilot",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGV3bTwpP8eTBE19it3Gc2_8n_W6LQhLmJUg&s",
+		"link": "https://github.com/features/copilot",
+		"description": "GitHub Copilot is an AI-powered code completion tool developed by GitHub, designed to assist developers in writing code faster and more efficiently."
+  },
+  {
 		"productName": "Docker",
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOfEB4GoogpeK364MtDqpqMOZ0FGTujj8Pw&s",
