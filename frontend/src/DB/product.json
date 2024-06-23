@@ -3074,5 +3074,12 @@
 		"image": "https://bit.ly/3VRSavy",
 		"link": "https://bit.ly/4ezO0j4",
 		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
+	},
+  {
+		"productName": "Jenkins",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_S6Pj6tPYg3UrirWqCoN01x1xGUU97FFIHg&s",
+		"link": "https://www.jenkins.io/",
+		"description": "Jenkins is an open-source automation server used for building, testing, and deploying software projects."
 	}
 ]
