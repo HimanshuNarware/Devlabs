@@ -3074,5 +3074,12 @@
 		"image": "https://bit.ly/3VRSavy",
 		"link": "https://bit.ly/4ezO0j4",
 		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
+	},
+  {
+		"productName": "Algo Monster",
+		"category": "education",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYkjP22Wq_5rfNPzeR0H6ozBfxZcwPUJZxg&s",
+		"link": "https://algo.monster/",
+		"description": "Algo Monster is a comprehensive tool designed to help users learn, implement, and optimize algorithms efficiently."
 	}
 ]
