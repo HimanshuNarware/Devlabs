@@ -3034,6 +3034,13 @@
    "description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
   },
   {
+	  "productName": "JupyterLab",
+	  "category": "tools",
+	  "image": "https://seeklogo.com/images/J/jupyter-logo-A91705F539-seeklogo.com.png",
+	  "link": "https://jupyter.org/",
+	  "description":"latest web-based interactive development environment for notebooks, code, and data."
+  },
+  {
    "productName": "Iconfinder",
    "category": "Icon Library",
    "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
@@ -3054,6 +3061,7 @@
 		"link": "https://icons8.com/",
 		"description": "It provides you with a wide range of icons that can be used in your project in any format be it PNG, JPG or SVG."
 	},
+	
 	{
 		"productName": "Docker playground",
 		"category": "coding",
@@ -3068,7 +3076,7 @@
 		"link": "https://react-icons.github.io/react-icons/",
 		"description": "Include popular icons in your React projects easily with react-icons."
 	},
-  {
+  	{
 		"productName": "Careerflow AI",
 		"category": "extensions ",
 		"image": "https://bit.ly/3VRSavy",
@@ -3081,5 +3089,26 @@
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGV3bTwpP8eTBE19it3Gc2_8n_W6LQhLmJUg&s",
 		"link": "https://github.com/features/copilot",
 		"description": "GitHub Copilot is an AI-powered code completion tool developed by GitHub, designed to assist developers in writing code faster and more efficiently."
+  },
+  {
+		"productName": "Docker",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOfEB4GoogpeK364MtDqpqMOZ0FGTujj8Pw&s",
+		"link": "https://www.docker.com/",
+		"description": "Docker is an open platform for developing, shipping, and running applications in containers."
+  },
+  {
+		"productName": "Programiz",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl32oipFnDU1mIr5Hdmb_1u5BpzQ7LHlvzLw&s",
+		"link": "https://www.programiz.com/",
+		"description": "Programiz is an online platform providing tutorials and practice exercises for learning programming languages and concepts."
+	},
+  {
+		"productName": "GDB Complier",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
+		"link": "https://www.onlinegdb.com/",
+		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser.
 	}
 ]

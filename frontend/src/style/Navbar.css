@@ -462,6 +462,7 @@
 
 .box {
   position: relative;
+  top: 80px;
 }
 
 .invisible {
