@@ -3084,18 +3084,24 @@
 		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
 	},
   {
+		"productName": "Docker",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOfEB4GoogpeK364MtDqpqMOZ0FGTujj8Pw&s",
+		"link": "https://www.docker.com/",
+		"description": "Docker is an open platform for developing, shipping, and running applications in containers."
+  },
+  {
 		"productName": "Programiz",
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl32oipFnDU1mIr5Hdmb_1u5BpzQ7LHlvzLw&s",
 		"link": "https://www.programiz.com/",
 		"description": "Programiz is an online platform providing tutorials and practice exercises for learning programming languages and concepts."
-	}
-  ,
+	},
   {
 		"productName": "GDB Complier",
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
 		"link": "https://www.onlinegdb.com/",
-		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
+		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser.
 	}
 ]
