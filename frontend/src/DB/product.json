@@ -1,13 +1,13 @@
 [
   {
-    "productName": "remove.bg",
+    "productName": "removebg",
     "category": "tools",
     "image": "https://ibb.co/bQ7KyH8",
     "link": "https://www.remove.bg/",
     "description": "Remove image backgrounds automatically in 5 seconds with one click."
   },
   {
-    "productName":"unscreen.com",
+    "productName":"unscreen",
     "category":"tools", 
     "image":"https://ibb.co/6NRSf1T",
     "link":"https://www.unscreen.com/",
@@ -3133,10 +3133,10 @@
 		"description": "Programiz is an online platform providing tutorials and practice exercises for learning programming languages and concepts."
 	},
   {
-		"productName": "GDB Complier",
+    "productName": "GDB Complier",
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
 		"link": "https://www.onlinegdb.com/",
-		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser.
-	}
+		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
+  }
 ]

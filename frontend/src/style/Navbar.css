@@ -450,7 +450,6 @@
   cursor: none;
 }
 
-
 /* Navbar.css */
 
 .navbar-right {
@@ -472,8 +471,7 @@
   justify-content: center;
   align-items: center;
   width: 50%; /* Adjust the width as needed */
-  max-width: 500px; /* Maximum width for larger screens */
-  background-color: white;
+  background-color: rgb(93, 93, 93);
   border-radius: 25px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 5px 10px;
@@ -482,16 +480,19 @@
 .box {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 50%;
   position: relative;
-  top: 80px;
 }
 
 .input {
   flex: 1;
   border: none;
   outline: none;
+  padding: 10px 10px; /* Adjust padding as needed */
   border-radius: 25px;
+  width: 50px;
+  background-color: #fff; /* Ensure input background matches overall design */
+  color: #333; /* Ensure input text color matches overall design */
 }
 
 .clear-button,
