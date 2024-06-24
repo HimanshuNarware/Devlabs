@@ -451,7 +451,6 @@
 }
 
 
-
 /* Navbar.css */
 
 .navbar-right {
@@ -484,13 +483,13 @@
   display: flex;
   align-items: center;
   width: 100%;
+  position: relative;
 }
 
 .input {
   flex: 1;
   border: none;
   outline: none;
-  padding: 10px;
   border-radius: 25px;
 }
 
