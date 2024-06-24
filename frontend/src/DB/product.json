@@ -13,6 +13,13 @@
     "link": "https://carouselhero.com",
     "description": "Create social media carousels for free and with no signup."
   },
+    {
+    "productName": "InstaHire",
+    "category": "tools",
+    "image": "https://shorturl.at/gj1LR",
+    "link": "https://www.instahyre.com/",
+    "description": "Showcase yourself to a curated list of top companies."
+  },
   {
     "productName":"Coded Pad",
     "category":"tools",
@@ -3123,6 +3130,6 @@
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
 		"link": "https://www.onlinegdb.com/",
-		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser.
+		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
 	}
 ]
