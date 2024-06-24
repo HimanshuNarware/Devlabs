@@ -147,6 +147,13 @@
     "description": "Free downloads of legally licensed fonts that are perfect for your design projects."
   },
   {
+    "productName": "Relight",
+    "category": "tools",
+    "image": "https://shorturl.at/aehFs",
+    "link": "https://clipdrop.co/relight",
+    "description": "Relight your photos & drawings in seconds using various AI tools"
+  },
+  {
     "productName": "Cuvette",
     "category": "remote",
     "image": "https://bit.ly/3Nl5t3o",
@@ -3123,6 +3130,6 @@
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
 		"link": "https://www.onlinegdb.com/",
-		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser.
+		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
 	}
 ]
