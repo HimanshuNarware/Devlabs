@@ -18,6 +18,10 @@ import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
 import Faq from "./Component/Faq";
 import ScrollToTop from "./Component/ScrollToTop";
+import TrailingCursor from "./Component/TrailingCursor/TrailingCursor.jsx";
+import BookMark from "./Component/BookMark";
+import Contact from "./Component/Contact";
+import FrontendTools from "./pages/FrontendTools.jsx";
 
 // Pages
 import RemoteJobs from "./pages/RemoteJobs";
@@ -41,7 +45,7 @@ function App() {
   return (
     <>
       <ScrollToTop />
-      <TrailingCursor/>
+      <TrailingCursor />
       <Navbar setSearchQuery={setSearchQuery} />
       <Routes>
         <Route path="/" element={<Home searchQuery={searchQuery} />} />
