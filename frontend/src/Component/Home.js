@@ -34,14 +34,6 @@ function Home(props) {
   const [showRemovePopup, setShowRemovePopup] = useState(false);
   const [contributors, setContributors] = useState([]);
 
-  const currentPost1 = dataBaseData;
-  let allvalue = [];
-
-  function handleBookmarks() {
-    const bookmark = JSON.parse(localStorage.getItem("bookmarks"));
-    setBookmark(bookmark);
-  }
-
   useEffect(() => {
     handleBookmarks();
   }, []);
@@ -54,14 +46,10 @@ function Home(props) {
     window.addEventListener("storage", handleStorageChange);
 
     const fetchData = async () => {
-      const response = await axios
-        .get(`${BACKEND}/tools/all`)
-        .catch((error) => {
-          return error.response;
-        });
-      if (response.data.success) {
-        setDataBaseData(response.data.tools);
-      } else {
+      try {
+        const response = await axios.get(`${BACKEND}/tools/all`);
+        setDataBaseData(response.data.success ? response.data.tools : jsonTools);
+      } catch (error) {
         setDataBaseData(jsonTools);
       }
       setLoading(false);
@@ -80,58 +68,19 @@ function Home(props) {
     return () => {
       window.removeEventListener("storage", handleStorageChange);
     };
-  }, []);
+  }, [localStorageValue]); // Ensure useEffect dependencies are specified correctly
 
-  if (localStorageValue === "undefined" || localStorageValue === "all") {
-    allvalue = dataBaseData;
-  } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
-    if (localStorage.getItem("filter-2")) {
-      allvalue = currentPost1.filter(
-        (e) =>
-          e.category.toLowerCase().includes(localStorageValue) ||
-          e.category.includes(localStorage.getItem("filter-2"))
-      );
-    } else {
-      allvalue = currentPost1.filter((e) =>
-        e.category.toLowerCase().includes(localStorageValue)
-      );
-    }
-  }
+  useEffect(() => {
+    handleBookmarks();
+  }, [bookmarks]); // Ensure useEffect dependencies are specified correctly
 
-  const filteredData = !!props.searchQuery
-    ? allvalue.filter((datalist) => {
-        return datalist.productName
-          .toLowerCase()
-          .includes(props.searchQuery.toLowerCase());
-      })
-    : allvalue;
+  const handleBookmarks = () => {
+    const bookmark = JSON.parse(localStorage.getItem("bookmarks"));
+    setBookmark(bookmark);
+  };
 
-  const currentPost =
-    filteredData.length > 16
-      ? filteredData.slice(firstPostIndex, lastPostIndex)
-      : filteredData;
-  const npage = Math.ceil(filteredData.length / postPerpage);
-  const numbers = [...Array(npage + 1).keys()].slice(1);
-  const dispatch = useDispatch();
-
-  function prePage() {
-    if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
-    }
-  }
-
-  function nextPage() {
-    if (currentPage < npage) {
-      setCurrentPage(currentPage + 1);
-    }
-  }
-
-  function changeCPage(id) {
-    setCurrentPage(id);
-  }
-
-  function handleBookmark(datalist) {
-    if (bookmarks === null) {
+  const handleBookmark = (datalist) => {
+    if (!bookmarks) {
       localStorage.setItem(
         "bookmarks",
         JSON.stringify([
@@ -190,8 +139,8 @@ function Home(props) {
         }, 2000);
       }
     }
-    handleBookmarks();
-  }
+    handleBookmarks(); // Ensure no state update loop here
+  };
 
   const handleDeleteBookmark = (name) => {
     dispatch(deleteSource({ name }));
@@ -208,7 +157,37 @@ function Home(props) {
     setTimeout(() => {
       setShowRemovePopup(false);
     }, 2000);
-    handleBookmarks();
+    handleBookmarks(); // Ensure no state update loop here
+  };
+
+  const filteredData = !!props.searchQuery
+    ? dataBaseData.filter((datalist) =>
+        datalist.productName.toLowerCase().includes(props.searchQuery.toLowerCase())
+      )
+    : dataBaseData;
+
+  const currentPost =
+    filteredData.length > 16
+      ? filteredData.slice(firstPostIndex, lastPostIndex)
+      : filteredData;
+  const npage = Math.ceil(filteredData.length / postPerpage);
+  const numbers = [...Array(npage + 1).keys()].slice(1);
+  const dispatch = useDispatch();
+
+  const prePage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const nextPage = () => {
+    if (currentPage < npage) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const changeCPage = (id) => {
+    setCurrentPage(id);
   };
 
   return (
@@ -225,7 +204,7 @@ function Home(props) {
                   <br />
                   Empower Your Projects.
                   <br />
-                  <span className="hero-end">
+                  <span className="hero-end"> 
                     {" "}
                     -Built by open-source community
                   </span>
@@ -245,6 +224,19 @@ function Home(props) {
         </div>
       </div>
       <div ref={ref} className="page-container">
+        
+        <div className="button-container">
+          {filters.map((category, idx) => (
+            <button
+              key={`filters-${idx}`}
+              className={`button_filter ${selectedFilters.includes(category) ? "active_filter" : ""}`}
+              onClick={() => handleFilterButtonClick(category)}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
+
         <div className={loading ? "loading-container" : "main-container"}>
           <ClipLoader
             color="#808080"
@@ -254,25 +246,18 @@ function Home(props) {
             data-testid="loader"
           />
 
-          {currentPost.map((datalist) => {
-            return (
+          {filteredItems.length === 0 ? (
+            <p>No items found.</p>
+          ) : (
+            filteredItems.map((datalist) => (
               <div className="content-box-home" key={datalist.productName}>
-                <img
-                  className="logo"
-                  src={datalist.image}
-                  alt={datalist.category}
-                />
+                <img className="logo" src={datalist.image} alt={datalist.category} />
                 <h2>{datalist.productName}</h2>
                 <p className="content-box-text">{datalist.description}</p>
-                <button
-                  className="btn-b-box"
-                  onClick={() => window.open(datalist.link)}
-                >
+                <button className="btn-b-box" onClick={() => window.open(datalist.link)}>
                   Link
                 </button>
-                {bookmarks?.some((item) =>
-                  item.name.includes(datalist.productName)
-                ) ? (
+                {bookmarks?.some((item) => item.name.includes(datalist.productName)) ? (
                   <>
                     <button
                       className="btn-booked-box"
@@ -282,16 +267,13 @@ function Home(props) {
                     </button>
                   </>
                 ) : (
-                  <button
-                    className="btn-b-box"
-                    onClick={() => handleBookmark(datalist)}
-                  >
+                  <button className="btn-b-box" onClick={() => handleBookmark(datalist)}>
                     Bookmark
                   </button>
                 )}
               </div>
-            );
-          })}
+            ))
+          )}
         </div>
         <div className="pagination">
           <ul>

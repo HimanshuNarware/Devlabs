@@ -17,12 +17,8 @@
 }
 
 /* Custom scrollbar for webkit browsers (Chrome, Safari, Edge) */
-
-::-webkit-scrollbar-track {
-  background-color: var(
-    --scrollbar-bg
-  ); /* Background color of the scrollbar track */
-  border-radius: 15px;
+::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
 }
 
 /* Custom scrollbar for Firefox */
@@ -30,7 +26,13 @@
   scrollbar-width: thin; /* Makes the scrollbar thin */
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-bg); /* Custom colors */
   border-radius: 15px;
-  width: 6px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(
+    --scrollbar-bg
+  ); /* Background color of the scrollbar track */
+  border-radius: 15px;
 }
 /* contributor style */
 .contributors-section {
@@ -100,6 +102,27 @@
   color: #333; /* Dark text color for active page */
 }
 
+.button_filter{
+  color: #8b5cf6;
+  font-size: 1.1rem;
+  border: 1px solid #8b5cf6;
+  margin-inline: 10px;
+  padding: 6px 16px 6px 16px;
+  background: transparent;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.active_filter{
+  background: transparent;
+  cursor: pointer;
+  background-color: #101623;
+  color: white;
+  box-shadow: 2px 2px 1px #8b5cf6;
+}
 ::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-thumb); /* Color of the scrollbar thumb */
   border-radius: 15px;
@@ -230,7 +253,6 @@
   border: 2px solid #8b5cf6;
   color: white;
   box-shadow: 4px 4px 2px #8b5cf6;
-  cursor: none;
 }
 .hero-button a:hover {
   color: white;
@@ -402,24 +424,24 @@
   border-radius: 6px;
   box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
   background-color: #8b5cf6;
-  cursor: none;
+  cursor: pointer;
 }
 .btn-booked-box {
   border: 2px dashed #8b5cf6;
   color: white;
-  cursor: none;
+  cursor: pointer;
   background: transparent;
 }
 
 .btn-booked-box:hover {
   color: white;
-  cursor: none;
+  cursor: pointer;
   background-color: #8b5cf6;
 }
 
 .btn-b-box:hover {
   background: transparent;
-  cursor: none;
+  cursor: pointer;
   box-shadow: 2px 2px 1px #8b5cf6;
 }
 

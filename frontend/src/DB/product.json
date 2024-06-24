@@ -2963,13 +2963,6 @@
 	"link": "https://bit.ly/3KFPmes",
 	"description": "Lighthouse is an open-source, automated tool for improving the quality of web pages."
 },
-{
-	"productName":"Canva",
-	"category":"design",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
-	"link":"https://www.canva.com/",
-	"description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
-},
   {
 	"productName":"React Boostrap",
 	"category":"UI",
@@ -3004,13 +2997,6 @@
 	 "image":"https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
 	 "link":"https://takeuforward.org/",
 	 "description":"takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
-  },
-  {
-    "productName":"Canva",
-    "category":"design",
-    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
-    "link":"https://www.canva.com/",
-    "description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
   },
 	{
 	 "productName":"Magic UI",
@@ -3123,6 +3109,6 @@
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
 		"link": "https://www.onlinegdb.com/",
-		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser.
+		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
 	}
 ]
