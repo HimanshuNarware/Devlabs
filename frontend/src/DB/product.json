@@ -13,12 +13,40 @@
     "link": "https://carouselhero.com",
     "description": "Create social media carousels for free and with no signup."
   },
+    {
+    "productName": "InstaHire",
+    "category": "tools",
+    "image": "https://shorturl.at/gj1LR",
+    "link": "https://www.instahyre.com/",
+    "description": "Showcase yourself to a curated list of top companies."
+  },
+  {
+    "productName": "National Digital Library",
+    "category": "tools",
+    "image": "https://ndl.iitkgp.ac.in/assets/img/landing-devel-iitkgp.svg",
+    "link": "https://ndl.iitkgp.ac.in/",
+    "description": "One Library All of India. The national digital library of India"
+  },
   {
     "productName":"Coded Pad",
     "category":"tools",
     "image":"https://shorturl.at/uRx8f",
     "link":"https://www.codedpad.com/",
     "description":"Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
+  },
+  {
+    "productName":"Maths GPT",
+    "category":"tools",
+    "image":"https://rb.gy/fvbm1r",
+    "link":"https://www.mathgptpro.com/",
+    "description":"Ultimate AI Maths solver tool"
+  },
+  {
+    "productName": "Unsplash",
+    "category": "tools",
+    "image": "https://rb.gy/vknfx0",
+    "link": "https://unsplash.com/",
+    "description": "Source for free stack visuals"
   },
   {
     "productName": "PikaShows",
@@ -140,6 +168,13 @@
     "description": "Find and download the best high-quality photos, vectors, videos, and mockups."
   },
   {
+    "productName": "I Love Img",
+    "category": "tools",
+    "image": "https://www.iloveimg.com/img/iloveimg.svg",
+    "link": "https://www.iloveimg.com/",
+    "description": "Every tool you could want to edit images in bulk"
+  },
+  {
     "productName": "Fontspace",
     "category": "tools",
     "image": "https://tinyurl.com/bdeapp7t",
@@ -147,11 +182,25 @@
     "description": "Free downloads of legally licensed fonts that are perfect for your design projects."
   },
   {
+    "productName": "Relight",
+    "category": "tools",
+    "image": "https://shorturl.at/aehFs",
+    "link": "https://clipdrop.co/relight",
+    "description": "Relight your photos & drawings in seconds using various AI tools"
+  },
+  {
     "productName": "Cuvette",
     "category": "remote",
     "image": "https://bit.ly/3Nl5t3o",
     "link": "https://bit.ly/3oXcaPL",
     "description": "The #1 way college students & early graduates get Internships & Jobs"
+  },
+  {
+    "productName": "Over API",
+    "category": "remote",
+    "image": "https://overapi.com/static/images/overapi-logo.png",
+    "link": "https://overapi.com/",
+    "description": "Collection of cheet sheets of mutilple techs."
   },
   {
     "productName": "Reduce Images",
@@ -3048,6 +3097,13 @@
    "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
   },
   {
+   "productName": "Acertinity UI",
+   "category": "UI",
+   "image": "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75",
+   "link": "https://ui.aceternity.com/",
+   "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
+  },
+  {
 		"productName": "HeroIcons",
 		"category": "tools",
 		"image": "heroicon.png",
@@ -3132,4 +3188,5 @@
     "link":"https://infyspringboard.onwingspan.com/web/en/login",
     "description":"Infosys Springboard is a digital learning platform offering a wide range of courses and resources to help individuals upskill and enhance their career prospects"
   }
+	}
 ]

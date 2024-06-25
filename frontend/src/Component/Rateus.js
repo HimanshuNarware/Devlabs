@@ -14,10 +14,15 @@ function RateUsComponent({ previousContent }) {
   };
 
   const handleSubmit = () => {
+    // Check if both rating and feedback are provided
     if (rating !== 0 && feedback.trim() !== "") {
+      // Reset the state after submitting
       setRating(0);
       setFeedback("");
+      // Show success message (console.log or any other method you prefer)
+      console.log("Thanks For Your Feedback :)");
     } else {
+      console.error("Please Enter All Details :(");
     }
   };
 
