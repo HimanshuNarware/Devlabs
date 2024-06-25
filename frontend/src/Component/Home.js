@@ -24,6 +24,9 @@ function Home(props) {
     });
   }
 
+  const [selectedFilters, setSelectedFilters] = useState([]);
+  const [filteredItems, setFilteredItems] = useState(jsonTools); // Use jsonTools as initial state
+
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
   const lastPostIndex = currentPage * postPerpage;
@@ -33,6 +36,14 @@ function Home(props) {
   const [showPopup, setShowPopup] = useState(false);
   const [showRemovePopup, setShowRemovePopup] = useState(false);
   const [contributors, setContributors] = useState([]);
+
+  const currentPost1 = dataBaseData;
+  let allvalue = [];
+
+  function handleBookmarks() {
+    const bookmark = JSON.parse(localStorage.getItem("bookmarks"));
+    setBookmark(bookmark);
+  }
 
   useEffect(() => {
     handleBookmarks();
@@ -46,10 +57,14 @@ function Home(props) {
     window.addEventListener("storage", handleStorageChange);
 
     const fetchData = async () => {
-      try {
-        const response = await axios.get(`${BACKEND}/tools/all`);
-        setDataBaseData(response.data.success ? response.data.tools : jsonTools);
-      } catch (error) {
+      const response = await axios
+        .get(`${BACKEND}/tools/all`)
+        .catch((error) => {
+          return error.response;
+        });
+      if (response.data.success) {
+        setDataBaseData(response.data.tools);
+      } else {
         setDataBaseData(jsonTools);
       }
       setLoading(false);
@@ -68,19 +83,58 @@ function Home(props) {
     return () => {
       window.removeEventListener("storage", handleStorageChange);
     };
-  }, [localStorageValue]); // Ensure useEffect dependencies are specified correctly
+  }, []);
 
-  useEffect(() => {
-    handleBookmarks();
-  }, [bookmarks]); // Ensure useEffect dependencies are specified correctly
+  if (localStorageValue === "undefined" || localStorageValue === "all") {
+    allvalue = dataBaseData;
+  } else if (localStorageValue !== "all" && localStorageValue !== "undefined") {
+    if (localStorage.getItem("filter-2")) {
+      allvalue = currentPost1.filter(
+        (e) =>
+          e.category.toLowerCase().includes(localStorageValue) ||
+          e.category.includes(localStorage.getItem("filter-2"))
+      );
+    } else {
+      allvalue = currentPost1.filter((e) =>
+        e.category.toLowerCase().includes(localStorageValue)
+      );
+    }
+  }
 
-  const handleBookmarks = () => {
-    const bookmark = JSON.parse(localStorage.getItem("bookmarks"));
-    setBookmark(bookmark);
-  };
+  const filteredData = !!props.searchQuery
+    ? allvalue.filter((datalist) => {
+        return datalist.productName
+          .toLowerCase()
+          .includes(props.searchQuery.toLowerCase());
+      })
+    : allvalue;
 
-  const handleBookmark = (datalist) => {
-    if (!bookmarks) {
+  const currentPost =
+    filteredData.length > 16
+      ? filteredData.slice(firstPostIndex, lastPostIndex)
+      : filteredData;
+  const npage = Math.ceil(filteredData.length / postPerpage);
+  const numbers = [...Array(npage + 1).keys()].slice(1);
+  const dispatch = useDispatch();
+
+  function prePage() {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  }
+
+  function nextPage() {
+    if (currentPage < npage) {
+      setCurrentPage(currentPage + 1);
+    }
+  }
+
+  function changeCPage(id) {
+    setCurrentPage(id);
+  }
+
+  function handleBookmark(datalist) {
+    if (bookmarks === null) {
       localStorage.setItem(
         "bookmarks",
         JSON.stringify([
@@ -139,8 +193,8 @@ function Home(props) {
         }, 2000);
       }
     }
-    handleBookmarks(); // Ensure no state update loop here
-  };
+    handleBookmarks();
+  }
 
   const handleDeleteBookmark = (name) => {
     dispatch(deleteSource({ name }));
@@ -157,37 +211,35 @@ function Home(props) {
     setTimeout(() => {
       setShowRemovePopup(false);
     }, 2000);
-    handleBookmarks(); // Ensure no state update loop here
+    handleBookmarks();
   };
 
-  const filteredData = !!props.searchQuery
-    ? dataBaseData.filter((datalist) =>
-        datalist.productName.toLowerCase().includes(props.searchQuery.toLowerCase())
-      )
-    : dataBaseData;
+  const filters = ["AI", "Ethical", "Extensions", "Web", "Movies", "Remote", "Resume", "UI", "Coding", "Course", "Tools"];
 
-  const currentPost =
-    filteredData.length > 16
-      ? filteredData.slice(firstPostIndex, lastPostIndex)
-      : filteredData;
-  const npage = Math.ceil(filteredData.length / postPerpage);
-  const numbers = [...Array(npage + 1).keys()].slice(1);
-  const dispatch = useDispatch();
-
-  const prePage = () => {
-    if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
+  const handleFilterButtonClick = (selectedCategory) => {
+    if (selectedFilters.includes(selectedCategory)) {
+      setSelectedFilters([]);
+    } else {
+      setSelectedFilters([selectedCategory]);
     }
   };
 
-  const nextPage = () => {
-    if (currentPage < npage) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
+  useEffect(() => {
+    filterItems();
+  });
 
-  const changeCPage = (id) => {
-    setCurrentPage(id);
+  const filterItems = () => {
+    if (selectedFilters.length > 0) {
+      const tempItems = selectedFilters.map((selectedCategory) =>
+        jsonTools.filter(
+          (jsonTool) =>
+            jsonTool.category.toLowerCase() === selectedCategory.toLowerCase()
+        )
+      );
+      setFilteredItems(tempItems.flat());
+    } else {
+      setFilteredItems([...jsonTools]);
+    }
   };
 
   return (
@@ -204,10 +256,7 @@ function Home(props) {
                   <br />
                   Empower Your Projects.
                   <br />
-                  <span className="hero-end"> 
-                    {" "}
-                    -Built by open-source community
-                  </span>
+                  <span className="hero-end"> -Built by open-source community</span>
                 </h1>
               </h1>
 
@@ -224,7 +273,9 @@ function Home(props) {
         </div>
       </div>
       <div ref={ref} className="page-container">
-        
+        {/* Loader and content */}
+
+        {/* Loader and content */}
         <div className="button-container">
           {filters.map((category, idx) => (
             <button
