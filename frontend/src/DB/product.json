@@ -3180,5 +3180,12 @@
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
 		"link": "https://www.onlinegdb.com/",
 		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
-	}
+	},
+  {
+		"productName": "Spline3D",
+		"category": "UI",
+		"image": "https://www.bookmarks.design/media/image/spline-design.jpg",
+		"link": "https://spline3d.com/",
+		"description": "Spline3D is a cutting-edge UI design tool that enables you to create stunning 3D interfaces effortlessly. It offers a range of powerful features for building interactive and visually captivating 3D designs, making it perfect for enhancing user engagement and experience."
+		}
 ]
