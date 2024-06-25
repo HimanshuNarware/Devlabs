@@ -3062,6 +3062,13 @@
    "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
   },
   {
+   "productName": "Acertinity UI",
+   "category": "UI",
+   "image": "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75",
+   "link": "https://ui.aceternity.com/",
+   "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
+  },
+  {
 		"productName": "HeroIcons",
 		"category": "tools",
 		"image": "heroicon.png",
