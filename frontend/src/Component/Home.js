@@ -8,6 +8,7 @@ import "../style/Home.css";
 import Devlabs from "../image/hero_img.svg";
 import NavbarItem from "./Navbar/NavbarItem";
 import toast from "react-hot-toast";
+import Tilt from 'react-parallax-tilt';
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -239,7 +240,9 @@ function Home(props) {
               </div>
             </div>
             <div className="hero-image">
-              <img src={Devlabs} alt="devlabs-removebg-preview" />
+            <Tilt>
+                <img src={Devlabs} alt="devlabs-removebg-preview" />
+              </Tilt>
             </div>
           </div>
         </div>
