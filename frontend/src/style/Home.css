@@ -17,8 +17,12 @@
 }
 
 /* Custom scrollbar for webkit browsers (Chrome, Safari, Edge) */
-::-webkit-scrollbar {
-  width: 6px; /* Width of the scrollbar */
+
+::-webkit-scrollbar-track {
+  background-color: var(
+    --scrollbar-bg
+  ); /* Background color of the scrollbar track */
+  border-radius: 15px;
 }
 
 /* Custom scrollbar for Firefox */
@@ -26,13 +30,7 @@
   scrollbar-width: thin; /* Makes the scrollbar thin */
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-bg); /* Custom colors */
   border-radius: 15px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: var(
-    --scrollbar-bg
-  ); /* Background color of the scrollbar track */
-  border-radius: 15px;
+  width: 6px; /* Width of the scrollbar */
 }
 /* contributor style */
 .contributors-section {
@@ -232,6 +230,7 @@
   border: 2px solid #8b5cf6;
   color: white;
   box-shadow: 4px 4px 2px #8b5cf6;
+  cursor: none;
 }
 .hero-button a:hover {
   color: white;
@@ -403,24 +402,24 @@
   border-radius: 6px;
   box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
   background-color: #8b5cf6;
-  cursor: pointer;
+  cursor: none;
 }
 .btn-booked-box {
   border: 2px dashed #8b5cf6;
   color: white;
-  cursor: pointer;
+  cursor: none;
   background: transparent;
 }
 
 .btn-booked-box:hover {
   color: white;
-  cursor: pointer;
+  cursor: none;
   background-color: #8b5cf6;
 }
 
 .btn-b-box:hover {
   background: transparent;
-  cursor: pointer;
+  cursor: none;
   box-shadow: 2px 2px 1px #8b5cf6;
 }
 

@@ -13,6 +13,13 @@
     "link": "https://carouselhero.com",
     "description": "Create social media carousels for free and with no signup."
   },
+    {
+    "productName": "InstaHire",
+    "category": "tools",
+    "image": "https://shorturl.at/gj1LR",
+    "link": "https://www.instahyre.com/",
+    "description": "Showcase yourself to a curated list of top companies."
+  },
   {
     "productName":"Coded Pad",
     "category":"tools",
@@ -154,6 +161,13 @@
     "description": "The #1 way college students & early graduates get Internships & Jobs"
   },
   {
+    "productName": "Over API",
+    "category": "remote",
+    "image": "https://overapi.com/static/images/overapi-logo.png",
+    "link": "https://overapi.com/",
+    "description": "Collection of cheet sheets of mutilple techs."
+  },
+  {
     "productName": "Reduce Images",
     "category": "tools",
     "image": "reducelogo.png",
@@ -166,6 +180,13 @@
     "image": "https://bit.ly/3MxAlNU",
     "link": "https://devresourc.es/",
     "description": "A collaborative list of resources for developers"
+  },
+  {
+    "productName":"Invideo Ai",
+    "category":"AI",
+    "image":"https://shorturl.at/GXgoW",
+    "link":"https://shorturl.at/bfYei",
+    "description":""
   },
   {
     "productName": "ABBYY FineReader",
@@ -2712,7 +2733,7 @@
   },
   {
     "productName": "Elitmus",
-    "category": "Job Portal",
+    "category": "remote",
     "image": "elitmus.png",
     "link": "https://www.elitmus.com/",
     "description": "eLitmus has been redefining how fresher and entry-level recruitment is done in India."
@@ -2747,7 +2768,7 @@
   },
   {
     "productName": "Postman",
-    "category": "api",
+    "category": "web",
     "image": "https://pbs.twimg.com/profile_images/1534945114807644173/h22f7y8F_400x400.png",
     "link": "https://www.postman.com/",
     "description": "A collaboration platform for API development, testing, and documentation."
@@ -2818,7 +2839,6 @@
 
   {
     "productName": "Slidesgo",
-
     "category": "AI",
     "image": "slidesgo.png",
     "link": "https://slidesgo.com/",
@@ -2826,7 +2846,6 @@
   },
   {
     "productName": "Intigriti",
-
     "category": "ethical",
     "image": "https://media.licdn.com/dms/image/D4E0BAQGuEpu0Xrph4w/company-logo_200_200/0/1702904021395/intigriti_logo?e=1724284800&v=beta&t=ZHMwYaL3urZ-MvaH4LdBCR5TIMLx2Sl2e3SarSUgae8",
     "link": "https://www.intigriti.com/",
@@ -2944,13 +2963,6 @@
 		"link": "https://www.copy.ai/",
 		"description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
   },
-  {
-		"productName": "Webflow",
-		"category": "UI",
-		"image": "webflow.jpg",
-		"link": "https://webflow.com/",
-		"description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
-	},
 	{
 		"productName": "Framer Motion",
 		"category": "UI",
@@ -2959,41 +2971,11 @@
 		"description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
   },
   {
-		"productName": "Iconfinder",
-		"category": "Icon Library",
-		"image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
-		"link": "https://www.iconfinder.com/",
-		"description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
-  },
-  {
 	"productName": "Lighthouse",
 	"category": "extensions",
 	"image": "https://res.cloudinary.com/dslzeoxj7/image/upload/v1718101659/xiermgidrkdcjzuzstee.png",
 	"link": "https://bit.ly/3KFPmes",
 	"description": "Lighthouse is an open-source, automated tool for improving the quality of web pages."
-},
-	
-{
-	"productName":"Copilot ai",
-	"category":"AI",
-	"image":"https://media.licdn.com/dms/image/D5612AQF5A1Rn3_bJ7A/article-cover_image-shrink_600_2000/0/1707467579292?e=2147483647&v=beta&t=gJnnSsgaykZhGWwXDvgIt66ghzLeURyF8YT9yaKNv90",
-	"link":"https://copilot.microsoft.com/",
-	"description":"Microsoft's Copilot AI fosters collaboration, streamlining coding processes with innovative suggestions and insights."
-},
-  {
-
-	"productName":"Coding Ninjas",
-	"category":"Coding",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
-	"link":"https://www.codingninjas.com/",
-	"description":"Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
-},
-{
-	"productName":"takeUforward",
-	"category":"coding",
-	"image":"https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
-	"link":"https://takeuforward.org/",
-	"description":"takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
 },
 {
 	"productName":"Canva",
@@ -3001,14 +2983,6 @@
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
 	"link":"https://www.canva.com/",
 	"description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
-},
-{
-
-	"productName":"Magic UI",
-	"category":"UI",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
-	"link":"https://magicui.design/",
-	"description":"UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
 },
   {
 	"productName":"React Boostrap",
@@ -3018,32 +2992,12 @@
 	"description":"React Bootstrap is also one of the most popular React UI libraries. Built on top of the popular Bootstrap framework,"
 },
 {
-
-	"productName":"Flexbox Froggy",
-	"category":"Web Development",
-	"link":"https://flexboxfroggy.com/",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe4LjwVvqlzIm95ZKPyxIbdMRWgi6eZhalEw&s",
-	"description":"In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox. This helps users to master flexbox css"
-
-
-
-  },
-
-{
-
 	"productName":"Blender 3D",
 	"category":"UI",
 	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmueb9JiaohqoMehnD8GMj0RlSfgdlgi3ITg&s",
 	"link":"https://www.blender.org/",
 	"description":"Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation"
 },
-  {
-    "productName": "copy.io",
-    "category": "AI",
-    "image": "copy-ai.jpg",
-    "link": "https://www.copy.ai/",
-    "description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
-  },
   {
 	 "productName":"Copilot ai",
 	 "category":"AI",
@@ -3071,7 +3025,6 @@
     "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
     "link":"https://www.canva.com/",
     "description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
-  
   },
 	{
 	 "productName":"Magic UI",
@@ -3080,26 +3033,12 @@
 	 "link":"https://magicui.design/",
 	 "description":"UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
   },
-{
-	 "productName":"React Boostrap",
-	 "category":"UI",
-	 "image":"https://avatars.githubusercontent.com/u/6853419?s=200&v=4",
-	 "link":"https://react-bootstrap.netlify.app/",
-	 "description":"React Bootstrap is also one of the most popular React UI libraries. Built on top of the popular Bootstrap framework,"
-  },
   {
 	 "productName":"Flexbox Froggy",
 	 "category":"web",
 	 "link":"https://flexboxfroggy.com/",
 	 "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe4LjwVvqlzIm95ZKPyxIbdMRWgi6eZhalEw&s",
 	 "description":"In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox. This helps users to master flexbox css"
-  },
-  {
-	 "productName":"Blender 3D",
-	 "category":"UI",
-	 "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmueb9JiaohqoMehnD8GMj0RlSfgdlgi3ITg&s",
-	 "link":"https://www.blender.org/",
-	 "description":"Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation"
   }, 
   {
    "productName": "Webflow",
@@ -3109,11 +3048,11 @@
    "description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
   },
   {
-   "productName": "Framer Motion",
-   "category": "UI",
-   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
-   "link": "https://www.framer.com/motion/",
-   "description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
+	  "productName": "JupyterLab",
+	  "category": "tools",
+	  "image": "https://seeklogo.com/images/J/jupyter-logo-A91705F539-seeklogo.com.png",
+	  "link": "https://jupyter.org/",
+	  "description":"latest web-based interactive development environment for notebooks, code, and data."
   },
   {
    "productName": "Iconfinder",
@@ -3128,5 +3067,83 @@
    "image": "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75",
    "link": "https://ui.aceternity.com/",
    "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
-  }
+  },
+  {
+		"productName": "HeroIcons",
+		"category": "tools",
+		"image": "heroicon.png",
+		"link": "https://heroicons.com/",
+		"description": "HeroIcons you embed SVGs into your project with having to use any CDNs or install any node modules"
+	},
+	{
+		"productName": "Icons8",
+		"category": "tools",
+		"image": "icons8.png",
+		"link": "https://icons8.com/",
+		"description": "It provides you with a wide range of icons that can be used in your project in any format be it PNG, JPG or SVG."
+	},
+	
+	{
+		"productName": "Docker playground",
+		"category": "coding",
+		"image": "docker_playground.png",
+		"link": "https://labs.play-with-docker.com/",
+		"description": "A simple, interactive and fun playground to learn Docker, without having to install docker"
+	},
+	{
+		"productName": "React Icons",
+		"category": "tools",
+		"image": "react_icons.png",
+		"link": "https://react-icons.github.io/react-icons/",
+		"description": "Include popular icons in your React projects easily with react-icons."
+	},
+  	{
+		"productName": "Careerflow AI",
+		"category": "extensions ",
+		"image": "https://bit.ly/3VRSavy",
+		"link": "https://bit.ly/4ezO0j4",
+		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
+	},
+  {
+		"productName": "Google Gemini",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SufvcG1AFpUBwB8uZs6UNNAUiWkgMC5rqA&s",
+		"link": "https://gemini.google.com/app?utm_source=google&utm_medium=cpc&utm_campaign=2024enIN_gemfeb&gad_source=1&gclid=CjwKCAjw7NmzBhBLEiwAxrHQ-SgEf-M4MZksGDDhhR7BYmnhldDobfXovsl7pf3gPCtSgZRBI5_73hoCWOUQAvD_BwE",
+		"description": "AI chatbot to answer your queries regarding any field."
+  },
+  {
+    "productName":"Udemy",
+    "category":"course",
+    "image":"https://s.udemycdn.com/meta/default-meta-image-v2.png",
+    "link":"https://www.udemy.com/",
+    "description":"Udemy democratizes education by providing a vast array of online courses, catering to diverse interests and skill levels. Its self-paced learning model enables individuals worldwide to acquire new skills and advance their careers conveniently and affordably."
+  },
+  {
+		"productName": "GitHub Copilot",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGV3bTwpP8eTBE19it3Gc2_8n_W6LQhLmJUg&s",
+		"link": "https://github.com/features/copilot",
+		"description": "GitHub Copilot is an AI-powered code completion tool developed by GitHub, designed to assist developers in writing code faster and more efficiently."
+  },
+  {
+		"productName": "Docker",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOfEB4GoogpeK364MtDqpqMOZ0FGTujj8Pw&s",
+		"link": "https://www.docker.com/",
+		"description": "Docker is an open platform for developing, shipping, and running applications in containers."
+  },
+  {
+		"productName": "Programiz",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl32oipFnDU1mIr5Hdmb_1u5BpzQ7LHlvzLw&s",
+		"link": "https://www.programiz.com/",
+		"description": "Programiz is an online platform providing tutorials and practice exercises for learning programming languages and concepts."
+	},
+  {
+		"productName": "GDB Complier",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
+		"link": "https://www.onlinegdb.com/",
+		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
+	}
 ]
