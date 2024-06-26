@@ -382,7 +382,7 @@
 }
 
 .content-box-home:hover .content-box-text {
-  transform: translateZ(40px) translateY(-3px) translateZ(40px);
+  transform:translateZ(40px);
   letter-spacing:1px;
   text-wrap: none !important;
   text-shadow: 
@@ -394,6 +394,7 @@
     0 -6px 6px rgba(0, 0, 0, 0.3),
     0 -7px 7px rgba(0, 0, 0, 0.2),
     0 -8px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px !important;
 }
 
 .content-box-home:hover h2 {
