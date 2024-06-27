@@ -10,7 +10,8 @@ import NavbarItem from "./Navbar/NavbarItem";
 import toast from "react-hot-toast";
 import NavbarRight from "./Navbar/NavbarRight";
 import Tilt from 'react-parallax-tilt';
-
+import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 const BACKEND = process.env.REACT_APP_BACKEND;
 
 function Home(props) {
@@ -67,7 +68,9 @@ function Home(props) {
       } else {
         setDataBaseData(jsonTools);
       }
+     setTimeout(() => {
       setLoading(false);
+     }, 2000); 
     };
 
     const fetchContributors = async () => {
@@ -215,7 +218,8 @@ function Home(props) {
   };
 
   return (
-    <div>
+    <SkeletonTheme>
+      <div>
       <div className="hero">
         <div className="hero-text">
           <div id="hero" className="hero-container">
@@ -255,15 +259,46 @@ function Home(props) {
 
       <div ref={ref} className="page-container">
         <div className={loading ? "loading-container" : "main-container"}>
-          <ClipLoader
-            color="#808080"
-            loading={loading}
-            size={50}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-          />
+      {loading &&    <div style={{display:"flex",gap:"100px",width:"100vw",height:"300px",justifyContent:"center"}}>
+          <div style={{width:"250px",height:"300px",border:"gray solid 2px",borderRadius:"20px",padding:"40px"}}>
 
-          {currentPost.map((datalist) => {
+<Skeleton  circle={"true"} height={90} width={90}/>
+<Skeleton  width={130}/>
+<Skeleton count={5}/>
+
+</div>
+            <div style={{width:"250px",height:"300px",border:"gray solid 2px",borderRadius:"20px",padding:"40px"}}>
+
+                <Skeleton  circle={"true"} height={90} width={90}/>
+                <Skeleton  width={130}/>
+                <Skeleton count={5}/>
+
+            </div>
+            <div style={{width:"250px",height:"300px",border:"gray solid 2px",borderRadius:"20px",padding:"40px"}}>
+
+                <Skeleton  circle={"true"} height={90} width={90}/>
+                <Skeleton  width={130}/>
+                <Skeleton count={5}/>
+
+            </div>
+            <div style={{width:"250px",height:"300px",border:"gray solid 2px",borderRadius:"20px",padding:"40px"}}>
+
+                <Skeleton  circle={"true"} height={90} width={90}/>
+                <Skeleton  width={130}/>
+                <Skeleton count={5}/>
+
+            </div>
+            <div style={{width:"250px",height:"300px",border:"gray solid 2px",borderRadius:"20px",padding:"40px"}}>
+
+                <Skeleton  circle={"true"} height={90} width={90}/>
+                <Skeleton  width={130}/>
+                <Skeleton count={5}/>
+
+            </div>
+          </div>}
+
+        
+      {!loading && currentPost.map((datalist) => {
             return (
               <div className="content-box-home" key={datalist.productName}>
                 <img
@@ -300,7 +335,7 @@ function Home(props) {
                 )}
               </div>
             );
-          })}
+          })} 
         </div>
         <div className="pagination">
           <ul>
@@ -325,6 +360,8 @@ function Home(props) {
         </div>
       </div>
     </div>
+    </SkeletonTheme>
+    
   );
 }
 
