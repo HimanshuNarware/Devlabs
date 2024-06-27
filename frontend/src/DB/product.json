@@ -63,6 +63,13 @@
     "description": "Award-winning proxy networks, AI-powered web scrapers, and business-ready datasets for download. "
   },
   {
+    "productName": "Oh My Git",
+    "category": "tools",
+    "image": "https://ohmygit.org/assets/images/oh-my-git.png",
+    "link": "https://ohmygit.org/",
+    "description": "An open source game about learning Git!"
+  },
+  {
     "productName":"Coded Pad",
     "category":"tools",
     "image":"https://shorturl.at/uRx8f",
@@ -3215,7 +3222,9 @@
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
 		"link": "https://www.onlinegdb.com/",
-		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
+		"desciption": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
+	
+
 
 	
 
