@@ -7,7 +7,7 @@ import NavbarRight from "./NavbarRight";
 
 function Navbar(props) {
   const [showSideNav, setShowSideNav] = useState(false);
-
+  
   return (
     <header>
       <div className="navbar">
