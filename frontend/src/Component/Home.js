@@ -8,6 +8,8 @@ import "../style/Home.css";
 import Devlabs from "../image/hero_img.svg";
 import NavbarItem from "./Navbar/NavbarItem";
 import toast from "react-hot-toast";
+import NavbarRight from "./Navbar/NavbarRight";
+import Tilt from 'react-parallax-tilt';
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -36,6 +38,7 @@ function Home(props) {
   const [showPopup, setShowPopup] = useState(false);
   const [showRemovePopup, setShowRemovePopup] = useState(false);
   const [contributors, setContributors] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
@@ -101,11 +104,11 @@ function Home(props) {
     }
   }
 
-  const filteredData = !!props.searchQuery
+  const filteredData = !!searchQuery
     ? allvalue.filter((datalist) => {
         return datalist.productName
           .toLowerCase()
-          .includes(props.searchQuery.toLowerCase());
+          .includes(searchQuery.toLowerCase());
       })
     : allvalue;
 
@@ -267,11 +270,17 @@ function Home(props) {
               </div>
             </div>
             <div className="hero-image">
-              <img src={Devlabs} alt="devlabs-removebg-preview" />
+            <Tilt>
+                <img src={Devlabs} alt="devlabs-removebg-preview" />
+              </Tilt>
             </div>
           </div>
         </div>
       </div>
+      <br/>
+      <h3> Lets Get, What You seek!</h3>
+      <NavbarRight setSearchQuery={setSearchQuery} />
+
       <div ref={ref} className="page-container">
         {/* Loader and content */}
 
