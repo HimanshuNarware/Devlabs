@@ -3203,6 +3203,13 @@
 		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
 	},
   {
+		"productName": "AceternityUI",
+		"category": "UI",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmuvw3fgizE49LqWGDkNAyU2Df3xRcNwACA&s",
+		"link": "https://ui.aceternity.com/",
+		"description": "Aceternity UI is a sleek and modern user interface framework designed to streamline the development of web applications."
+	},
+{
 		"productName": "Spline3D",
 		"category": "UI",
 		"image": "https://www.bookmarks.design/media/image/spline-design.jpg",
