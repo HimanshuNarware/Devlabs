@@ -42,6 +42,13 @@
     "description": "One Library All of India. The national digital library of India"
   },
   {
+    "productName":"Codedamn",
+    "category":"coding",
+    "image":"https://shorturl.at/cBGBo",
+    "link":"https://codedamn.com/",
+    "description":"codedamn is an interactive platform for learning to code, offering hands-on coding practice and tutorials for various programming languages and technologies."
+  },
+  {
     "productName":"Coded Pad",
     "category":"tools",
     "image":"https://shorturl.at/uRx8f",
