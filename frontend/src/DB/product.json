@@ -1,5 +1,19 @@
 [
   {
+    "productName": "removebg",
+    "category": "tools",
+    "image": "https://bit.ly/4binGHA",
+    "link": "https://www.remove.bg/",
+    "description": "Remove image backgrounds automatically in 5 seconds with one click."
+  },
+  {
+    "productName":"unscreen",
+    "category":"tools", 
+    "image":"https://bit.ly/3KXZGi3",
+    "link":"https://www.unscreen.com/",
+    "description":"Remove video backgrounds 100% automatically in 5 seconds with one click."
+  },
+  {
     "productName": "edX",
     "category": "course",
     "image": "http://bit.ly/4aK9dDT",
@@ -12,6 +26,48 @@
     "image": "https://i.ibb.co/7rRW6TW/logo-social-large.png",
     "link": "https://carouselhero.com",
     "description": "Create social media carousels for free and with no signup."
+  },
+   {
+    "productName": "BootStrap",
+    "category": "tool",
+    "image": "https://shorturl.at/YeZSW",
+    "link": "https://getbootstrap.com/",
+    "description": "Build fast, responsive sites with Bootstrap"
+},
+    {
+    "productName": "InstaHire",
+    "category": "tools",
+    "image": "https://shorturl.at/gj1LR",
+    "link": "https://www.instahyre.com/",
+    "description": "Showcase yourself to a curated list of top companies."
+  },
+  {
+    "productName": "National Digital Library",
+    "category": "tools",
+    "image": "https://ndl.iitkgp.ac.in/assets/img/landing-devel-iitkgp.svg",
+    "link": "https://ndl.iitkgp.ac.in/",
+    "description": "One Library All of India. The national digital library of India"
+  },
+  {
+    "productName":"Codedamn",
+    "category":"coding",
+    "image":"https://shorturl.at/cBGBo",
+    "link":"https://codedamn.com/",
+    "description":"codedamn is an interactive platform for learning to code, offering hands-on coding practice and tutorials for various programming languages and technologies."
+  },
+  {
+    "productName": "Bright Data",
+    "category": "tools",
+    "image": "https://rb.gy/n84sgp",
+    "link": "https://brightdata.com/",
+    "description": "Award-winning proxy networks, AI-powered web scrapers, and business-ready datasets for download. "
+  },
+  {
+    "productName": "Oh My Git",
+    "category": "tools",
+    "image": "https://ohmygit.org/assets/images/oh-my-git.png",
+    "link": "https://ohmygit.org/",
+    "description": "An open source game about learning Git!"
   },
   {
     "productName":"Coded Pad",
@@ -26,6 +82,20 @@
     "image":"https://rb.gy/4z4lkj",
     "link":"https://grow.google/certificates/interview-warmup/",
     "description":"A quick way to prepare for your next interview using this google interview warmup"
+},
+  {
+    "productName":"Maths GPT",
+    "category":"tools",
+    "image":"https://rb.gy/fvbm1r",
+    "link":"https://www.mathgptpro.com/",
+    "description":"Ultimate AI Maths solver tool"
+  },
+  {
+    "productName": "Unsplash",
+    "category": "tools",
+    "image": "https://rb.gy/vknfx0",
+    "link": "https://unsplash.com/",
+    "description": "Source for free stack visuals"
   },
   {
     "productName": "PikaShows",
@@ -118,6 +188,7 @@
     "link": "https://bit.ly/42xjijx",
     "description": "Produce beautiful documents starting from gallery of LaTeX templates for CVs."
   },
+ 
   {
     "productName": "w3schools",
     "category": "coding",
@@ -147,6 +218,13 @@
     "description": "Find and download the best high-quality photos, vectors, videos, and mockups."
   },
   {
+    "productName": "I Love Img",
+    "category": "tools",
+    "image": "https://www.iloveimg.com/img/iloveimg.svg",
+    "link": "https://www.iloveimg.com/",
+    "description": "Every tool you could want to edit images in bulk"
+  },
+  {
     "productName": "Fontspace",
     "category": "tools",
     "image": "https://tinyurl.com/bdeapp7t",
@@ -154,11 +232,25 @@
     "description": "Free downloads of legally licensed fonts that are perfect for your design projects."
   },
   {
+    "productName": "Relight",
+    "category": "tools",
+    "image": "https://shorturl.at/aehFs",
+    "link": "https://clipdrop.co/relight",
+    "description": "Relight your photos & drawings in seconds using various AI tools"
+  },
+  {
     "productName": "Cuvette",
     "category": "remote",
     "image": "https://bit.ly/3Nl5t3o",
     "link": "https://bit.ly/3oXcaPL",
     "description": "The #1 way college students & early graduates get Internships & Jobs"
+  },
+  {
+    "productName": "Over API",
+    "category": "remote",
+    "image": "https://overapi.com/static/images/overapi-logo.png",
+    "link": "https://overapi.com/",
+    "description": "Collection of cheet sheets of mutilple techs."
   },
   {
     "productName": "Reduce Images",
@@ -3041,11 +3133,25 @@
    "description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
   },
   {
+	  "productName": "JupyterLab",
+	  "category": "tools",
+	  "image": "https://seeklogo.com/images/J/jupyter-logo-A91705F539-seeklogo.com.png",
+	  "link": "https://jupyter.org/",
+	  "description":"latest web-based interactive development environment for notebooks, code, and data."
+  },
+  {
    "productName": "Iconfinder",
    "category": "Icon Library",
    "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
    "link": "https://www.iconfinder.com/",
    "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
+  },
+  {
+   "productName": "Acertinity UI",
+   "category": "UI",
+   "image": "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75",
+   "link": "https://ui.aceternity.com/",
+   "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
   },
   {
 		"productName": "HeroIcons",
@@ -3061,6 +3167,7 @@
 		"link": "https://icons8.com/",
 		"description": "It provides you with a wide range of icons that can be used in your project in any format be it PNG, JPG or SVG."
 	},
+	
 	{
 		"productName": "Docker playground",
 		"category": "coding",
@@ -3075,11 +3182,112 @@
 		"link": "https://react-icons.github.io/react-icons/",
 		"description": "Include popular icons in your React projects easily with react-icons."
 	},
-  {
+  	{
 		"productName": "Careerflow AI",
 		"category": "extensions ",
 		"image": "https://bit.ly/3VRSavy",
 		"link": "https://bit.ly/4ezO0j4",
 		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
-	}
+	},
+  {
+		"productName": "Google Gemini",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SufvcG1AFpUBwB8uZs6UNNAUiWkgMC5rqA&s",
+		"link": "https://gemini.google.com/app?utm_source=google&utm_medium=cpc&utm_campaign=2024enIN_gemfeb&gad_source=1&gclid=CjwKCAjw7NmzBhBLEiwAxrHQ-SgEf-M4MZksGDDhhR7BYmnhldDobfXovsl7pf3gPCtSgZRBI5_73hoCWOUQAvD_BwE",
+		"description": "AI chatbot to answer your queries regarding any field."
+  },
+  {
+    "productName":"Udemy",
+    "category":"course",
+    "image":"https://s.udemycdn.com/meta/default-meta-image-v2.png",
+    "link":"https://www.udemy.com/",
+    "description":"Udemy democratizes education by providing a vast array of online courses, catering to diverse interests and skill levels. Its self-paced learning model enables individuals worldwide to acquire new skills and advance their careers conveniently and affordably."
+  },
+  {
+		"productName": "GitHub Copilot",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGV3bTwpP8eTBE19it3Gc2_8n_W6LQhLmJUg&s",
+		"link": "https://github.com/features/copilot",
+		"description": "GitHub Copilot is an AI-powered code completion tool developed by GitHub, designed to assist developers in writing code faster and more efficiently."
+  },
+  {
+		"productName": "Docker",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOfEB4GoogpeK364MtDqpqMOZ0FGTujj8Pw&s",
+		"link": "https://www.docker.com/",
+		"description": "Docker is an open platform for developing, shipping, and running applications in containers."
+  },
+  {
+		"productName": "Programiz",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl32oipFnDU1mIr5Hdmb_1u5BpzQ7LHlvzLw&s",
+		"link": "https://www.programiz.com/",
+		"description": "Programiz is an online platform providing tutorials and practice exercises for learning programming languages and concepts."
+	},
+  {
+    "productName": "GDB Complier",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
+		"link": "https://www.onlinegdb.com/",
+		"desciption": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
+	
+
+
+	
+
+	},
+  {
+    "productName":"CoderByte",
+    "category":"coding",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5LxE-uun9fafHBVzasYXShkaugIsCtqTReg&s",
+    "link":"https://coderbyte.com/",
+    "description":"Coderbyte is a popular platform for coding challenges and algorithm practice, designed to help developers improve their programming skills."
+},
+  {
+    "productName":"Infosys SpringBoard",
+    "category":"course",
+    "image":"https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/springboard-logo.png",
+    "link":"https://infyspringboard.onwingspan.com/web/en/login",
+    "description":"Infosys Springboard is a digital learning platform offering a wide range of courses and resources to help individuals upskill and enhance their career prospects"
+  },
+	
+
+
+
+  {
+
+		"productName": "AdobeXD",
+		"category": "UI",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS80OChMU7lMUMwU7CVu4ZJl1irvee4jmFfjw&s",
+		"link": "https://helpx.adobe.com/xd/get-started.html",
+		"description": "Adobe XD is a vector-based ux design tool for web and mobile applications, enabling designers to create wireframes, prototypes, and screen designs efficiently."
+	},
+   {
+		"productName": "AceternityUI",
+		"category": "UI",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmuvw3fgizE49LqWGDkNAyU2Df3xRcNwACA&s",
+		"link": "https://ui.aceternity.com/",
+		"description": "Aceternity UI is a sleek and modern user interface framework designed to streamline the development of web applications."
+	},
+{
+		"productName": "Spline3D",
+		"category": "UI",
+		"image": "https://www.bookmarks.design/media/image/spline-design.jpg",
+		"link": "https://spline3d.com/",
+		"description": "Spline3D is a cutting-edge UI design tool that enables you to create stunning 3D interfaces effortlessly. It offers a range of powerful features for building interactive and visually captivating 3D designs, making it perfect for enhancing user engagement and experience."
+  },
+  {
+		"productName": "Vercel",
+		"category": "Web Development Platform",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAuKrVgOa4BJxUnH4gdJ5TV0m2IFEMjLJ2g&s",
+		"link": "https://vercel.com/",
+		"description": "Vercel is a powerful platform for frontend developers, enabling seamless deployment and scaling of web applications. With its intuitive interface and robust features, Vercel simplifies the process of building, previewing, and shipping high-performance websites."
+},
+  {
+		"productName": "Jasper AI",
+		"category": "AI Writing Assistant",
+		"image": "https://store-images.s-microsoft.com/image/apps.47595.9a5b943f-887a-4fe7-b1c6-d44a90c658fe.31db5641-66e6-4f64-9ab4-2a3ba66c2d73.9653c625-a855-4a91-bc32-ab984fa9bd91.png",
+		"link": "https://www.jasper.ai/",
+		"description": "Jasper AI is an advanced AI-powered writing assistant that helps you create high-quality content quickly and efficiently. It leverages natural language processing to generate articles, blog posts, marketing copy, and more, providing creative assistance and saving you time on writing tasks."
+		}
 ]
