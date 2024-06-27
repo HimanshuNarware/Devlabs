@@ -3187,5 +3187,19 @@
 		"image": "https://www.bookmarks.design/media/image/spline-design.jpg",
 		"link": "https://spline3d.com/",
 		"description": "Spline3D is a cutting-edge UI design tool that enables you to create stunning 3D interfaces effortlessly. It offers a range of powerful features for building interactive and visually captivating 3D designs, making it perfect for enhancing user engagement and experience."
+  },
+  {
+		"productName": "Vercel",
+		"category": "Web Development Platform",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAuKrVgOa4BJxUnH4gdJ5TV0m2IFEMjLJ2g&s",
+		"link": "https://vercel.com/",
+		"description": "Vercel is a powerful platform for frontend developers, enabling seamless deployment and scaling of web applications. With its intuitive interface and robust features, Vercel simplifies the process of building, previewing, and shipping high-performance websites."
+},
+  {
+		"productName": "Jasper AI",
+		"category": "AI Writing Assistant",
+		"image": "https://store-images.s-microsoft.com/image/apps.47595.9a5b943f-887a-4fe7-b1c6-d44a90c658fe.31db5641-66e6-4f64-9ab4-2a3ba66c2d73.9653c625-a855-4a91-bc32-ab984fa9bd91.png",
+		"link": "https://www.jasper.ai/",
+		"description": "Jasper AI is an advanced AI-powered writing assistant that helps you create high-quality content quickly and efficiently. It leverages natural language processing to generate articles, blog posts, marketing copy, and more, providing creative assistance and saving you time on writing tasks."
 		}
 ]
