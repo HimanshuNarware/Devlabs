@@ -56,6 +56,13 @@
     "description":"codedamn is an interactive platform for learning to code, offering hands-on coding practice and tutorials for various programming languages and technologies."
   },
   {
+    "productName": "Bright Data",
+    "category": "tools",
+    "image": "https://rb.gy/n84sgp",
+    "link": "https://brightdata.com/",
+    "description": "Award-winning proxy networks, AI-powered web scrapers, and business-ready datasets for download. "
+  },
+  {
     "productName":"Coded Pad",
     "category":"tools",
     "image":"https://shorturl.at/uRx8f",
@@ -3209,6 +3216,9 @@
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
 		"link": "https://www.onlinegdb.com/",
 		"description": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
+
+	
+
 	},
   {
     "productName":"CoderByte",
