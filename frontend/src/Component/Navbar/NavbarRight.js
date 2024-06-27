@@ -4,9 +4,8 @@ import { RxCross2 } from "react-icons/rx";
 import "../../style/Navbar.css";
 
 function NavbarRight(props) {
-  const [searchQuery, setSearchQuery] = useState(""); // Local state to manage search query
+  const [searchQuery, setSearchQuery] = useState("");
 
-  //debounce search query
   useEffect(() => {
     let timer = setTimeout(() => {
       props.setSearchQuery(searchQuery);
@@ -17,22 +16,22 @@ function NavbarRight(props) {
   }, [searchQuery]);
 
   const handleInputChange = (e) => {
-    setSearchQuery(e.target.value); // Update the search query when input changes
+    setSearchQuery(e.target.value);
   };
 
   const handleSearch = (e) => {
     e.preventDefault();
-    props.setSearchQuery(searchQuery); // Pass the search query to the parent component (App)
+    props.setSearchQuery(searchQuery);
   };
 
   const clearSearchHandler = (e) => {
     e.preventDefault();
     setSearchQuery("");
-    props.setSearchQuery(""); // Pass the empty search query to the parent component (App)
+    props.setSearchQuery("");
   };
 
   return (
-    <div className="navbar-right" id="navbarTogglerDemo03">
+    <div className="navbar-right">
       <div className="search">
         <form role="search" className="search-bar" onSubmit={handleSearch}>
           <div className="box" focus={toString()}>
@@ -40,18 +39,17 @@ function NavbarRight(props) {
               type="text"
               className="input"
               placeholder="Search . . ."
-              value={searchQuery} // Set input value to the search query
+              value={searchQuery}
               onChange={handleInputChange}
             />
-
             <button
-              className={`span ${!searchQuery && "invisible"}`}
+              className={`clear-button ${!searchQuery && "invisible"}`}
               type="button"
               onClick={clearSearchHandler}
             >
               <RxCross2 />
             </button>
-            <button className="span" type="submit">
+            <button className="search-button" type="submit">
               <BsSearch />
             </button>
           </div>
