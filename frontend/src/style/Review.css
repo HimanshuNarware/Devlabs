@@ -32,7 +32,6 @@
     width: 75%;
     color: rgb(0, 0, 0);
     /* I have changed color so that it is visible on website*/
-    /* background: #9ff65c47; */
     border: 2px solid #8b5cf6;
     border-radius: 15px;
     margin: 10px;
@@ -41,18 +40,6 @@
     letter-spacing: 1.5px;
 }
 
-/* .form-input-field>select{
-    background: #9ff65c47
-} */
-
-/* .form-input-field>select>option {
-    background: #d6c8c856;
-} */
-
-/* .form-input-field:focus{
-    outline:2px solid #9ff65ce6 ;
-    border: none;
-} */
 
 
 .input-review {
