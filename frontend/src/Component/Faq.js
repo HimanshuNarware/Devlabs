@@ -19,15 +19,7 @@ export default function Faq() {
     <section className="faq">
     <div className=" faq1">
       <div className="yet-another-custom-class">
-        <span className=" text">Our Value</span>
-        <span className=" text-white">
-          MyStory - Next.js Blog/Story telling Template
-        </span>
-        <span className=" text-gray-500-text-sm">
-          MyStory aims to provide a platform where individuals can share their
-          stories without the pressure of revealing their identities.
-          It&apos;s a safe space for expression and connection.
-        </span>
+        <span className=" text">Frequently Asked Questions</span>
         <Accordion
           className=" border-none mt-8 "
           allowMultipleExpanded={false}
@@ -53,7 +45,7 @@ export default function Faq() {
                       <div className="custom-flex-container2">
                         {item.icon}
                       </div>
-                      <span style={{color:'black'}}>
+                      <span className='font-bold'>
                         {item.heading}
                       </span>
                       <div className="custom-container2" onClick={() => {
@@ -70,7 +62,7 @@ export default function Faq() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p className="custom-text1">
-                   {item.detail}
+                    {item.detail}
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>

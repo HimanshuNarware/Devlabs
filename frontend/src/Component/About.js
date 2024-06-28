@@ -11,6 +11,7 @@ function About() {
   const [contributors, setContributors] = useState([]);
   const [founder, setFounder] = useState({});
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchQuery, setSearchQuery] = useState("");
   const repoOwner = "HimanshuNarware";
   const repoName = "Devlabs";
 
@@ -43,16 +44,22 @@ function About() {
     fetchContributors();
   }, []);
 
+  //filtering out
+  const filteredContributors = contributors.filter((contributor) =>
+    contributor.login.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   const paginationValues = getPaginationData(
     currentPage,
     CARDS_PER_PAGE,
-    contributors
+    // contributors
+    filteredContributors
   );
   const { lastCardIndex, firstCardIndex, allPagesNumbers, currentPageData } =
     paginationValues;
 
   const handlePageChange = (value) => {
-    changePage(value, currentPage, setCurrentPage);
+    changePage(value, currentPage, setCurrentPage, allPagesNumbers);
   };
 
   return (
@@ -88,6 +95,7 @@ function About() {
           <img
             className="img"
             src="https://media.istockphoto.com/id/1276643671/vector/tiny-programmers-programming-website-for-internet-platform.jpg?s=612x612&w=0&k=20&c=7k24K8DYdSRxVHj3roqR_f4wkk-a_fG3WlT4hN-VJUg="
+            alt="img"
           />
         </div>
         <div className="bx-1">
@@ -135,6 +143,16 @@ function About() {
           </div>
         </div>
         <h1 id="contributors">Our Contributors</h1>
+        
+        {/* input bar */}
+        <input
+          type="text"
+          className="searchbar-contributors"
+          placeholder="Search your name here..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+
         <div className="grid-container">
           {currentPageData?.map((contributor) => {
             return (
@@ -164,7 +182,7 @@ function About() {
       <Pagination
         firstCardIndex={firstCardIndex}
         lastCardIndex={lastCardIndex}
-        dataLength={contributors.length}
+        dataLength={filteredContributors.length}
         allPagesNumbers={allPagesNumbers}
         currentPage={currentPage}
         scrollPosition={"contributors"}

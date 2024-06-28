@@ -3,12 +3,14 @@ body,
 html {
   scrollbar-width: none; 
   height: 100%;
+  cursor:none;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 body {

@@ -17,9 +17,8 @@
 }
 
 .box-bk p {
-    color: white;
+    color: #000;
     height: 100px;
-    
 }
 
 .box-bk {
@@ -49,7 +48,7 @@
 
 .btn-b:hover {
     color: white;
-    cursor: pointer;
+    cursor: none;
     border: 1px dashed rgba(79, 71, 125, 255);
     background-color: rgb(226, 43, 122);
 }
