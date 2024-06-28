@@ -131,4 +131,50 @@ Create a [Pull Request](https://help.github.com/en/github/collaborating-with-iss
   <h2>Let's Collaborate and Make DevLabs Even Better! 💻🌟</h2>
 </div>
 
+### ✨ Features
+
+1. User Authentication:
+Secure user registration and login using JWT.
+OAuth integration for social logins (Google, Facebook).
+
+2. User Profiles:
+Customizable user profiles.
+Profile picture upload and bio section.
+
+3. Tool Rating & Reviews
+Users can rate and review tools.
+Aggregate ratings for each tool displayed.
+
+4. Favorites & Bookmarking
+Users can bookmark their favorite tools.
+Quick access to bookmarked tools from the profile.
+
+5. Tool Categories & Tags
+Tools categorized for easy browsing.
+Tagging system for quick filtering and searching.
+
+6. Advanced Search
+Search tools by name, category, or tags.
+Filter results by ratings and reviews.
+
+7. Responsive Design
+Fully responsive design for mobile, tablet, and desktop.
+
+8. Notifications
+Email notifications for new tools, reviews, and updates.
+
+9. Admin Dashboard
+Manage users, tools, and reviews.
+Analytics on tool usage and user engagement.
+
+10. Documentation
+Comprehensive documentation for developers.
+API documentation for integrating with other platforms.
+
+### 🌍 Community
+### 🏆 Contributors
+Recognize the individuals who have contributed to the project. You can use tools like All Contributors to automatically generate a list of contributors.
+``` bash
+npx all-contributors-cli add <username> <contribution>
+```
 
