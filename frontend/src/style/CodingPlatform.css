@@ -8,10 +8,11 @@ body {
 .coding-platform {
   text-align: center;
   padding: 80px 20px;
+  margin-top: 50px !important;
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-bottom: 20px;
   color: #333;
 }
@@ -32,13 +33,25 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
-
+.tool-link{
+  
+  transform: translateY(150px);
+}
 .tool-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
 
+}
+h1{
+  font-size: 3.5rem !important;
+}
+.tool-card:hover .tool-link{
+  transform: translateY(0px );
+  transition: transform ease-in 0.3s;
+}
 .tool-image {
   width: 80px;
   height: 80px;
@@ -82,4 +95,10 @@ body {
   .tool-card {
     width: 90%;
   }
+}
+.tool-card{
+  border: solid 13px white !important;
+}
+.tool-link:hover{
+  background-image: linear-gradient(to right , rgb(97, 97, 231) 8.01%,blue 50% ) !important;
 }
