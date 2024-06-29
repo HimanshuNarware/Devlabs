@@ -13,7 +13,7 @@ const tools = [
   { name: "jQuery", description: "A fast, small, and feature-rich JavaScript library", link: "https://jquery.com/", image: "https://i.pinimg.com/564x/ca/b6/c7/cab6c762e02a0b4fe89ab3c977928398.jpg" },
   { name: "Bulma", description: "Bulma is a free, open source framework that provides ready-to-use frontend components ", link: "https://bulma.io/", image: "https://i.pinimg.com/564x/d7/5e/98/d75e986f0e4d9bcb4d11dacd4556fd40.jpg" },
   { name: "Foundation", description: "Foundation is a free, open source framework that provides ready-to-use frontend components and css classes for the direct use  ", link: "https://get.foundation/", image: "https://i.pinimg.com/236x/e7/77/1a/e7771ae79843be99e0cdacefd1c561ac.jpg" },
-  { name: "Foundation", description: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.", link: "https://sass-lang.com/", image: "https://w7.pngwing.com/pngs/1009/249/png-transparent-logo-sass-logos-and-brands-icon-thumbnail.png" },
+  { name: "Sass", description: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.", link: "https://sass-lang.com/", image: "https://w7.pngwing.com/pngs/1009/249/png-transparent-logo-sass-logos-and-brands-icon-thumbnail.png" },
 ];
 
 
