@@ -7,11 +7,11 @@
     "description": "Remove image backgrounds automatically in 5 seconds with one click."
   },
   {
-    "productName":"unscreen",
-    "category":"tools", 
-    "image":"https://bit.ly/3KXZGi3",
-    "link":"https://www.unscreen.com/",
-    "description":"Remove video backgrounds 100% automatically in 5 seconds with one click."
+    "productName": "unscreen",
+    "category": "tools",
+    "image": "https://bit.ly/3KXZGi3",
+    "link": "https://www.unscreen.com/",
+    "description": "Remove video backgrounds 100% automatically in 5 seconds with one click."
   },
   {
     "productName": "edX",
@@ -27,14 +27,14 @@
     "link": "https://carouselhero.com",
     "description": "Create social media carousels for free and with no signup."
   },
-   {
+  {
     "productName": "BootStrap",
     "category": "tool",
     "image": "https://shorturl.at/YeZSW",
     "link": "https://getbootstrap.com/",
     "description": "Build fast, responsive sites with Bootstrap"
-},
-    {
+  },
+  {
     "productName": "InstaHire",
     "category": "tools",
     "image": "https://shorturl.at/gj1LR",
@@ -49,11 +49,11 @@
     "description": "One Library All of India. The national digital library of India"
   },
   {
-    "productName":"Codedamn",
-    "category":"coding",
-    "image":"https://shorturl.at/cBGBo",
-    "link":"https://codedamn.com/",
-    "description":"codedamn is an interactive platform for learning to code, offering hands-on coding practice and tutorials for various programming languages and technologies."
+    "productName": "Codedamn",
+    "category": "coding",
+    "image": "https://shorturl.at/cBGBo",
+    "link": "https://codedamn.com/",
+    "description": "codedamn is an interactive platform for learning to code, offering hands-on coding practice and tutorials for various programming languages and technologies."
   },
   {
     "productName": "Bright Data",
@@ -77,11 +77,18 @@
     "description": "Separate voice and music from any song free with powerful AI technology"
   },
   {
-    "productName":"Coded Pad",
+    "productName": "Coded Pad",
+    "category": "tools",
+    "image": "https://shorturl.at/uRx8f",
+    "link": "https://www.codedpad.com/",
+    "description": "Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
+  },
+  {
+    "productName":"Video Compressor",
     "category":"tools",
-    "image":"https://shorturl.at/uRx8f",
-    "link":"https://www.codedpad.com/",
-    "description":"Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
+    "image":"https://shorturl.at/mHcN2",
+    "link":"https://shorturl.at/jofAl",
+    "description":"FreeConvert's video compressor is a user-friendly tool that helps you reduce the file size of your videos without compromising on quality."
   },
   {
     "productName":"Interview warmup Google",
@@ -91,11 +98,18 @@
     "description":"A quick way to prepare for your next interview using this google interview warmup"
 },
   {
-    "productName":"Maths GPT",
-    "category":"tools",
-    "image":"https://rb.gy/fvbm1r",
-    "link":"https://www.mathgptpro.com/",
-    "description":"Ultimate AI Maths solver tool"
+    "productName": "Interview warmup Google",
+    "category": "tools",
+    "image": "https://rb.gy/4z4lkj",
+    "link": "https://grow.google/certificates/interview-warmup/",
+    "description": "A quick way to prepare for your next interview using this google interview warmup"
+  },
+  {
+    "productName": "Maths GPT",
+    "category": "tools",
+    "image": "https://rb.gy/fvbm1r",
+    "link": "https://www.mathgptpro.com/",
+    "description": "Ultimate AI Maths solver tool"
   },
   {
     "productName": "Unsplash",
@@ -119,11 +133,11 @@
     "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
   },
   {
-    "productName":"Sololearn",
-    "category":"coding",
-    "image":"https://rb.gy/7e5bda",
-    "link":"https://www.sololearn.com/",
-    "description":"SoloLearn is an interactive platform offering a variety of coding courses to help users learn and practice programming skills through bite-sized lessons and community engagement."
+    "productName": "Sololearn",
+    "category": "coding",
+    "image": "https://rb.gy/7e5bda",
+    "link": "https://www.sololearn.com/",
+    "description": "SoloLearn is an interactive platform offering a variety of coding courses to help users learn and practice programming skills through bite-sized lessons and community engagement."
   },
   {
     "productName": "Seowriting.AI",
@@ -195,7 +209,7 @@
     "link": "https://bit.ly/42xjijx",
     "description": "Produce beautiful documents starting from gallery of LaTeX templates for CVs."
   },
- 
+
   {
     "productName": "w3schools",
     "category": "coding",
@@ -274,11 +288,11 @@
     "description": "A collaborative list of resources for developers"
   },
   {
-    "productName":"Invideo Ai",
-    "category":"AI",
-    "image":"https://shorturl.at/GXgoW",
-    "link":"https://shorturl.at/bfYei",
-    "description":""
+    "productName": "Invideo Ai",
+    "category": "AI",
+    "image": "https://shorturl.at/GXgoW",
+    "link": "https://shorturl.at/bfYei",
+    "description": ""
   },
   {
     "productName": "ABBYY FineReader",
@@ -2783,7 +2797,7 @@
   },
   {
     "productName": "Akto",
-   "category": "web",
+    "category": "web",
     "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/orzcboau3y9gmee5gklo",
     "link": "https://www.akto.io/",
     "description": "Akto is Open Source API Security in CI/CD."
@@ -3014,11 +3028,10 @@
   },
   {
     "productName": "SQL Police Department",
-		"category": "web",
-		"image": "https://sqlpd.com/images/logo.svg",
-		"link": "https://sqlpd.com/",
-		"description": "It is an online game where you solve crimes using SQL (and learn SQL in the process). Learn SQL while playing a game!"
-
+    "category": "web",
+    "image": "https://sqlpd.com/images/logo.svg",
+    "link": "https://sqlpd.com/",
+    "description": "It is an online game where you solve crimes using SQL (and learn SQL in the process). Learn SQL while playing a game!"
   },
   {
     "productName": "BitBucket",
@@ -3048,48 +3061,13 @@
     "link": "https://100dayscss.com/",
     "description": "It is a free online resource that provides a 100-day CSS challenge, offering daily exercises and projects to help users improve their CSS skills."
   },
-	{
-		"productName": "copy.io",
-		"category": "AI",
-        "image":"copy-ai.jpg",
-		"link": "https://www.copy.ai/",
-		"description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
-  },
-	{
-		"productName": "Framer Motion",
-		"category": "UI",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
-		"link": "https://www.framer.com/motion/",
-		"description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
-  },
   {
-	"productName": "Lighthouse",
-	"category": "extensions",
-	"image": "https://res.cloudinary.com/dslzeoxj7/image/upload/v1718101659/xiermgidrkdcjzuzstee.png",
-	"link": "https://bit.ly/3KFPmes",
-	"description": "Lighthouse is an open-source, automated tool for improving the quality of web pages."
-},
-{
-	"productName":"Canva",
-	"category":"design",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
-	"link":"https://www.canva.com/",
-	"description":"Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
-},
-  {
-	"productName":"React Boostrap",
-	"category":"UI",
-	"image":"https://avatars.githubusercontent.com/u/6853419?s=200&v=4",
-	"link":"https://react-bootstrap.netlify.app/",
-	"description":"React Bootstrap is also one of the most popular React UI libraries. Built on top of the popular Bootstrap framework,"
-},
-{
-	"productName":"Blender 3D",
-	"category":"UI",
-	"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmueb9JiaohqoMehnD8GMj0RlSfgdlgi3ITg&s",
-	"link":"https://www.blender.org/",
-	"description":"Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation"
-},
+    "productName": "copy.io",
+    "category": "AI",
+    "image": "copy-ai.jpg",
+    "link": "https://www.copy.ai/",
+    "description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
+  },
   {
 	 "productName":"Copilot ai",
 	 "category":"AI",
@@ -3204,6 +3182,12 @@
     "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects."
   },
   {
+		"productName": "Jenkins",
+		"category": "tools",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_S6Pj6tPYg3UrirWqCoN01x1xGUU97FFIHg&s",
+		"link": "https://www.jenkins.io/",
+		"description": "Jenkins is an open-source automation server used for building, testing, and deploying software projects."
+  },  {
 		"productName": "Google Gemini",
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SufvcG1AFpUBwB8uZs6UNNAUiWkgMC5rqA&s",
@@ -3238,70 +3222,257 @@
 		"link": "https://www.programiz.com/",
 		"description": "Programiz is an online platform providing tutorials and practice exercises for learning programming languages and concepts."
 	},
+{
+    "productName": "Framer Motion",
+    "category": "UI",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
+    "link": "https://www.framer.com/motion/",
+    "description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
+  },
+
+  {
+    "productName": "Lighthouse",
+    "category": "extensions",
+    "image": "https://res.cloudinary.com/dslzeoxj7/image/upload/v1718101659/xiermgidrkdcjzuzstee.png",
+    "link": "https://bit.ly/3KFPmes",
+    "description": "Lighthouse is an open-source, automated tool for improving the quality of web pages."
+  },
+  {
+    "productName": "Canva",
+    "category": "design",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
+    "link": "https://www.canva.com/",
+    "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
+  },
+  {
+    "productName": "React Boostrap",
+    "category": "UI",
+    "image": "https://avatars.githubusercontent.com/u/6853419?s=200&v=4",
+    "link": "https://react-bootstrap.netlify.app/",
+    "description": "React Bootstrap is also one of the most popular React UI libraries. Built on top of the popular Bootstrap framework,"
+  },
+  {
+    "productName": "Blender 3D",
+    "category": "UI",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmueb9JiaohqoMehnD8GMj0RlSfgdlgi3ITg&s",
+    "link": "https://www.blender.org/",
+    "description": "Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation"
+  },
+  {
+    "productName": "Copilot ai",
+    "category": "AI",
+    "image": "https://media.licdn.com/dms/image/D5612AQF5A1Rn3_bJ7A/article-cover_image-shrink_600_2000/0/1707467579292?e=2147483647&v=beta&t=gJnnSsgaykZhGWwXDvgIt66ghzLeURyF8YT9yaKNv90",
+    "link": "https://copilot.microsoft.com/",
+    "description": "Microsoft's Copilot AI fosters collaboration, streamlining coding processes with innovative suggestions and insights."
+  },
+  {
+    "productName": "Coding Ninjas",
+    "category": "Coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
+    "link": "https://www.codingninjas.com/",
+    "description": "Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
+  },
+  {
+    "productName": "takeUforward",
+    "category": "coding",
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
+    "link": "https://takeuforward.org/",
+    "description": "takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
+  },
+  {
+    "productName": "Canva",
+    "category": "design",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
+    "link": "https://www.canva.com/",
+    "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
+  },
+  {
+    "productName": "Magic UI",
+    "category": "UI",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
+    "link": "https://magicui.design/",
+    "description": "UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
+  },
+  {
+    "productName": "Flexbox Froggy",
+    "category": "web",
+    "link": "https://flexboxfroggy.com/",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe4LjwVvqlzIm95ZKPyxIbdMRWgi6eZhalEw&s",
+    "description": "In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox. This helps users to master flexbox css"
+  },
+  {
+    "productName": "Webflow",
+    "category": "UI",
+    "image": "webflow.jpg",
+    "link": "https://webflow.com/",
+    "description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
+  },
+  {
+    "productName": "JupyterLab",
+    "category": "tools",
+    "image": "https://seeklogo.com/images/J/jupyter-logo-A91705F539-seeklogo.com.png",
+    "link": "https://jupyter.org/",
+    "description": "latest web-based interactive development environment for notebooks, code, and data."
+  },
+  {
+    "productName": "Iconfinder",
+    "category": "Icon Library",
+    "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
+    "link": "https://www.iconfinder.com/",
+    "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
+  },
+  {
+    "productName": "Acertinity UI",
+    "category": "UI",
+    "image": "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75",
+    "link": "https://ui.aceternity.com/",
+    "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
+  },
+  {
+    "productName": "HeroIcons",
+    "category": "tools",
+    "image": "heroicon.png",
+    "link": "https://heroicons.com/",
+    "description": "HeroIcons you embed SVGs into your project with having to use any CDNs or install any node modules"
+  },
+  {
+    "productName": "Icons8",
+    "category": "tools",
+    "image": "icons8.png",
+    "link": "https://icons8.com/",
+    "description": "It provides you with a wide range of icons that can be used in your project in any format be it PNG, JPG or SVG."
+  },
+
+  {
+    "productName": "Docker playground",
+    "category": "coding",
+    "image": "docker_playground.png",
+    "link": "https://labs.play-with-docker.com/",
+    "description": "A simple, interactive and fun playground to learn Docker, without having to install docker"
+  },
+  {
+    "productName": "React Icons",
+    "category": "tools",
+    "image": "react_icons.png",
+    "link": "https://react-icons.github.io/react-icons/",
+    "description": "Include popular icons in your React projects easily with react-icons."
+  },
+  {
+    "productName": "Careerflow AI",
+    "category": "extensions ",
+    "image": "https://bit.ly/3VRSavy",
+    "link": "https://bit.ly/4ezO0j4",
+    "description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
+  },
+  {
+    "productName": "Google Gemini",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SufvcG1AFpUBwB8uZs6UNNAUiWkgMC5rqA&s",
+    "link": "https://gemini.google.com/app?utm_source=google&utm_medium=cpc&utm_campaign=2024enIN_gemfeb&gad_source=1&gclid=CjwKCAjw7NmzBhBLEiwAxrHQ-SgEf-M4MZksGDDhhR7BYmnhldDobfXovsl7pf3gPCtSgZRBI5_73hoCWOUQAvD_BwE",
+    "description": "AI chatbot to answer your queries regarding any field."
+  },
+  {
+    "productName": "Udemy",
+    "category": "course",
+    "image": "https://s.udemycdn.com/meta/default-meta-image-v2.png",
+    "link": "https://www.udemy.com/",
+    "description": "Udemy democratizes education by providing a vast array of online courses, catering to diverse interests and skill levels. Its self-paced learning model enables individuals worldwide to acquire new skills and advance their careers conveniently and affordably."
+  },
+  {
+    "productName": "GitHub Copilot",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGV3bTwpP8eTBE19it3Gc2_8n_W6LQhLmJUg&s",
+    "link": "https://github.com/features/copilot",
+    "description": "GitHub Copilot is an AI-powered code completion tool developed by GitHub, designed to assist developers in writing code faster and more efficiently."
+  },
+  {
+    "productName": "Docker",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOfEB4GoogpeK364MtDqpqMOZ0FGTujj8Pw&s",
+    "link": "https://www.docker.com/",
+    "description": "Docker is an open platform for developing, shipping, and running applications in containers."
+  },
+  {
+    "productName": "Programiz",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl32oipFnDU1mIr5Hdmb_1u5BpzQ7LHlvzLw&s",
+    "link": "https://www.programiz.com/",
+    "description": "Programiz is an online platform providing tutorials and practice exercises for learning programming languages and concepts."
+  },
   {
     "productName": "GDB Complier",
-		"category": "tools",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
-		"link": "https://www.onlinegdb.com/",
-		"desciption": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
-	
-
-
-	
-
-	},
-  {
-    "productName":"CoderByte",
-    "category":"coding",
-    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5LxE-uun9fafHBVzasYXShkaugIsCtqTReg&s",
-    "link":"https://coderbyte.com/",
-    "description":"Coderbyte is a popular platform for coding challenges and algorithm practice, designed to help developers improve their programming skills."
-},
-  {
-    "productName":"Infosys SpringBoard",
-    "category":"course",
-    "image":"https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/springboard-logo.png",
-    "link":"https://infyspringboard.onwingspan.com/web/en/login",
-    "description":"Infosys Springboard is a digital learning platform offering a wide range of courses and resources to help individuals upskill and enhance their career prospects"
-  },
-	
-
-
-
-  {
-
-		"productName": "AdobeXD",
-		"category": "UI",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS80OChMU7lMUMwU7CVu4ZJl1irvee4jmFfjw&s",
-		"link": "https://helpx.adobe.com/xd/get-started.html",
-		"description": "Adobe XD is a vector-based ux design tool for web and mobile applications, enabling designers to create wireframes, prototypes, and screen designs efficiently."
-	},
-   {
-		"productName": "AceternityUI",
-		"category": "UI",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmuvw3fgizE49LqWGDkNAyU2Df3xRcNwACA&s",
-		"link": "https://ui.aceternity.com/",
-		"description": "Aceternity UI is a sleek and modern user interface framework designed to streamline the development of web applications."
-	},
-{
-		"productName": "Spline3D",
-		"category": "UI",
-		"image": "https://www.bookmarks.design/media/image/spline-design.jpg",
-		"link": "https://spline3d.com/",
-		"description": "Spline3D is a cutting-edge UI design tool that enables you to create stunning 3D interfaces effortlessly. It offers a range of powerful features for building interactive and visually captivating 3D designs, making it perfect for enhancing user engagement and experience."
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoVkGVMy_0IqO3kAufaY9AC_JAsvlo9DfAbg&s",
+    "link": "https://www.onlinegdb.com/",
+    "desciption": "The GDB Online Compiler provides an interactive platform to compile and debug programs using the GNU Debugger (GDB) directly in a web browser."
   },
   {
-		"productName": "Vercel",
-		"category": "Web Development Platform",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAuKrVgOa4BJxUnH4gdJ5TV0m2IFEMjLJ2g&s",
-		"link": "https://vercel.com/",
-		"description": "Vercel is a powerful platform for frontend developers, enabling seamless deployment and scaling of web applications. With its intuitive interface and robust features, Vercel simplifies the process of building, previewing, and shipping high-performance websites."
-},
+    "productName": "CoderByte",
+    "category": "coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5LxE-uun9fafHBVzasYXShkaugIsCtqTReg&s",
+    "link": "https://coderbyte.com/",
+    "description": "Coderbyte is a popular platform for coding challenges and algorithm practice, designed to help developers improve their programming skills."
+  },
+  {
+    "productName": "Infosys SpringBoard",
+    "category": "course",
+    "image": "https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/springboard-logo.png",
+    "link": "https://infyspringboard.onwingspan.com/web/en/login",
+    "description": "Infosys Springboard is a digital learning platform offering a wide range of courses and resources to help individuals upskill and enhance their career prospects"
+  },
+
   {
 		"productName": "Jasper AI",
 		"category": "AI Writing Assistant",
 		"image": "https://store-images.s-microsoft.com/image/apps.47595.9a5b943f-887a-4fe7-b1c6-d44a90c658fe.31db5641-66e6-4f64-9ab4-2a3ba66c2d73.9653c625-a855-4a91-bc32-ab984fa9bd91.png",
 		"link": "https://www.jasper.ai/",
 		"description": "Jasper AI is an advanced AI-powered writing assistant that helps you create high-quality content quickly and efficiently. It leverages natural language processing to generate articles, blog posts, marketing copy, and more, providing creative assistance and saving you time on writing tasks."
-		}
+		},
+    {
+   "productName": "Careerflow Ai",
+   "category": "extension",
+   "image": "https://cdn.prod.website-files.com/635c591378332f38be25d45f/63a1152ff687d737b6b93250_Careerflow%20logo%20240x240.png",
+   "link": "https://www.careerflow.ai/",
+   "description": "AI Career Copilot. Automated Job Tracking, Optimize your LinkedIn Profile, AI Resume Builder and more. Keep track of all your jobs opportunities, applications, notes, contacts, in one single dashboard."=======
+    "productName": "AdobeXD",
+    "category": "UI",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS80OChMU7lMUMwU7CVu4ZJl1irvee4jmFfjw&s",
+    "link": "https://helpx.adobe.com/xd/get-started.html",
+    "description": "Adobe XD is a vector-based ux design tool for web and mobile applications, enabling designers to create wireframes, prototypes, and screen designs efficiently."
+  },
+  {
+    "productName": "AceternityUI",
+    "category": "UI",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmuvw3fgizE49LqWGDkNAyU2Df3xRcNwACA&s",
+    "link": "https://ui.aceternity.com/",
+    "description": "Aceternity UI is a sleek and modern user interface framework designed to streamline the development of web applications."
+  },
+  {
+    "productName": "Spline3D",
+    "category": "UI",
+    "image": "https://www.bookmarks.design/media/image/spline-design.jpg",
+    "link": "https://spline3d.com/",
+    "description": "Spline3D is a cutting-edge UI design tool that enables you to create stunning 3D interfaces effortlessly. It offers a range of powerful features for building interactive and visually captivating 3D designs, making it perfect for enhancing user engagement and experience."
+  },
+  {
+    "productName": "Vercel",
+    "category": "Web Development Platform",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAuKrVgOa4BJxUnH4gdJ5TV0m2IFEMjLJ2g&s",
+    "link": "https://vercel.com/",
+    "description": "Vercel is a powerful platform for frontend developers, enabling seamless deployment and scaling of web applications. With its intuitive interface and robust features, Vercel simplifies the process of building, previewing, and shipping high-performance websites."
+  },
+  {
+    "productName": "Jasper AI",
+    "category": "AI Writing Assistant",
+    "image": "https://store-images.s-microsoft.com/image/apps.47595.9a5b943f-887a-4fe7-b1c6-d44a90c658fe.31db5641-66e6-4f64-9ab4-2a3ba66c2d73.9653c625-a855-4a91-bc32-ab984fa9bd91.png",
+    "link": "https://www.jasper.ai/",
+    "description": "Jasper AI is an advanced AI-powered writing assistant that helps you create high-quality content quickly and efficiently. It leverages natural language processing to generate articles, blog posts, marketing copy, and more, providing creative assistance and saving you time on writing tasks."
+  },
+  {
+    "productName": "Array-explorer",
+    "category": "tools",
+    "image": "https://imgur.com/NAVhlcT.png",
+    "link": "https://codepen.io/sdras/full/gogVRX",
+    "description": "A resource to help figure out what JavaScript array method would be best to use at any given time"
+  }
 ]
