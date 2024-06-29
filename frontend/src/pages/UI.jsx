@@ -27,7 +27,7 @@ const UI = () => {
         "https://media.geeksforgeeks.org/wp-content/uploads/20231011121732/Importance-of-UIUX-Design-copy.webp",
     },
     {
-      title: " How to establish a Career in AI",
+      title: " How to establish a Career in UI",
       date: "August 15, 2024",
       summary:
         "A step-by-step guide on how to begin a career in UI, including necessary skills and certifications.",
