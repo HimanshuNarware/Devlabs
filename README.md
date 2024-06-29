@@ -1,7 +1,7 @@
 <div align="center">
-  <h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="50" height="50" /> DevLaps</h1>
-  <p>Welcome to DevLaps, a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On DevLaps, you can discover a collection of free tools that can assist you in various aspects of your life. Moreover, you have the opportunity to contribute to this project by adding more tools to the database.</p>
-  <p>Check out the live project at <a href="https://DevLabs-one.vercel.app">DevLaps</a></p>
+  <h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="50" height="50" /> DevLabs</h1>
+  <p>Welcome to DevLabs, a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On DevLaps, you can discover a collection of free tools that can assist you in various aspects of your life. Moreover, you have the opportunity to contribute to this project by adding more tools to the database.</p>
+  <p>Check out the live project at <a href="https://DevLabs-one.vercel.app">DevLabs</a></p>
   <img src="https://github.com/HimanshuNarware/Devlabs/assets/83147410/a508cf73-6724-46d3-a66d-6b9a7811bfdd" alt="DevLaps" />
 </div>
 
@@ -12,8 +12,18 @@ Our website provides a platform for contributors from all over the world to shar
 
 ---
 
-## 🚀 Tech Stack
-- **React.js**: A JavaScript library for building user interfaces.
+## 💻 Tech Stack
+<!-- JavaScript -->
+<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript logo">
+
+<!-- HTML5 -->
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 logo">
+
+<!-- CSS3 -->
+<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 logo">
+
+<!-- React.js -->
+<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React.js logo">
 
 ---
 
@@ -118,7 +128,53 @@ git push origin YourBranchName
 Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
 <div align="center">
-  <h2>Let's Collaborate and Make DevLaps Even Better! 💻🌟</h2>
+  <h2>Let's Collaborate and Make DevLabs Even Better! 💻🌟</h2>
 </div>
 
+### ✨ Features
+
+1. User Authentication:
+Secure user registration and login using JWT.
+OAuth integration for social logins (Google, Facebook).
+
+2. User Profiles:
+Customizable user profiles.
+Profile picture upload and bio section.
+
+3. Tool Rating & Reviews
+Users can rate and review tools.
+Aggregate ratings for each tool displayed.
+
+4. Favorites & Bookmarking
+Users can bookmark their favorite tools.
+Quick access to bookmarked tools from the profile.
+
+5. Tool Categories & Tags
+Tools categorized for easy browsing.
+Tagging system for quick filtering and searching.
+
+6. Advanced Search
+Search tools by name, category, or tags.
+Filter results by ratings and reviews.
+
+7. Responsive Design
+Fully responsive design for mobile, tablet, and desktop.
+
+8. Notifications
+Email notifications for new tools, reviews, and updates.
+
+9. Admin Dashboard
+Manage users, tools, and reviews.
+Analytics on tool usage and user engagement.
+
+10. Documentation
+Comprehensive documentation for developers.
+API documentation for integrating with other platforms.
+
+### 🌍 Community
+### 🏆 Contributors
+Recognize the individuals who have contributed to the project. You can use tools like All Contributors to automatically generate a list of contributors.
+``` bash
+npx all-contributors-cli add <username> <contribution>
+```
 
