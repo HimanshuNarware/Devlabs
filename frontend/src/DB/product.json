@@ -3175,6 +3175,13 @@
 		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
 	},
   {
+		"productName": "SoapUI",
+		"category": "tools",
+		"image": "https://img.stackshare.io/service/3891/-AvocOY1_400x400.jpg",
+		"link": "https://www.soapui.org/",
+		"description": "SoapUI is an open-source tool for testing and validating API interfaces."
+  },
+  {
 		"productName": "Jenkins",
 		"category": "tools",
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_S6Pj6tPYg3UrirWqCoN01x1xGUU97FFIHg&s",
