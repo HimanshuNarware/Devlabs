@@ -71,9 +71,9 @@ const CustomCursor = () => {
                     top: `${cursorPosition.y}px`,
                     position: 'absolute',
                 }}>
-                {isPointer == 'pointer' ?
+                {isPointer === 'pointer' ?
                 <FaHandPointer className={Styles["custom-cursor"]} /> :
-                (isPointer == 'default' ? <PiCursorFill className={Styles["custom-cursor"]} style={{ transform: 'rotate(13deg)' }} /> :
+                (isPointer === 'default' ? <PiCursorFill className={Styles["custom-cursor"]} style={{ transform: 'rotate(13deg)' }} /> :
                 <LuTextCursor className={Styles["custom-cursor"]} />
                 )}
             </div>
