@@ -44,7 +44,7 @@ function About() {
     fetchContributors();
   }, []);
 
-  //filtering out
+  // Filtering out
   const filteredContributors = contributors.filter((contributor) =>
     contributor.login.toLowerCase().includes(searchQuery.toLowerCase())
   );
@@ -52,7 +52,6 @@ function About() {
   const paginationValues = getPaginationData(
     currentPage,
     CARDS_PER_PAGE,
-    // contributors
     filteredContributors
   );
   const { lastCardIndex, firstCardIndex, allPagesNumbers, currentPageData } =
@@ -64,14 +63,14 @@ function About() {
 
   return (
     <div>
-      <div className="container-one">
-        <div className="bx-1" data-aos="">
-          <p >
+      <div className="container__one">
+        <div className="container__box--one" data-aos="">
+          <p>
             Devlabs is an application used to search for tools that
             are both free and helpful for our needs. It is built by the amazing
             open-source community.
           </p>
-          <button className="repo-btn">
+          <button className="button--repo">
             <a
               href="https://github.com/HimanshuNarware/Devlabs"
               target="_blank"
@@ -81,24 +80,24 @@ function About() {
             </a>
           </button>
         </div>
-        <div className="bx-2 aos-init" data-aos="flip-left">
+        <div className="container__box--two aos-init" data-aos="flip-left">
           <img
-            className="img "
+            className="img"
             src="https://civicopilot.com/wp-content/uploads/2022/11/searching_training.svg"
             alt="img"
           />
         </div>
       </div>
 
-      <div className="container-two">
-        <div className="bx-2">
+      <div className="container__two">
+        <div className="container__box--two">
           <img
             className="img"
             src="https://media.istockphoto.com/id/1276643671/vector/tiny-programmers-programming-website-for-internet-platform.jpg?s=612x612&w=0&k=20&c=7k24K8DYdSRxVHj3roqR_f4wkk-a_fG3WlT4hN-VJUg="
             alt="img"
           />
         </div>
-        <div className="bx-1">
+        <div className="container__box--one">
           <p>
             Great things are never created in isolation. Thanks to our amazing
             contributors, we've brought this product to life. With your
@@ -106,7 +105,7 @@ function About() {
             or a Tech enthusiast, you can help us create a better experience for
             everyone. We are excited to hear your thoughts and ideas.
           </p>
-          <button className="repo-btn">
+          <button className="button--repo">
             <a
               href="https://github.com/HimanshuNarware"
               target="_blank"
@@ -118,23 +117,23 @@ function About() {
         </div>
       </div>
 
-      <div className="contributor-container">
+      <div className="contributors__container">
         <h1>Founder</h1>
-        <div className="founder-container">
-          <div className="content-box">
+        <div className="founder__container">
+          <div className="content">
             <img
-              className="profile-img"
+              className="content__profile-img"
               src={founder.avatar_url}
               alt="profile"
             />
-            <h3 className="founder-username">{founder.login}</h3>
-            <div className="buttons-container">
-              <button className="profile-btn">
+            <h3 className="content__username">{founder.login}</h3>
+            <div className="founder__buttons-container">
+              <button className="button--profile">
                 <a href={founder.html_url} target="_blank" rel="noreferrer">
                   GitHub
                 </a>
               </button>
-              <button className="profile-btn">
+              <button className="button--profile">
                 <a href={LINKEDIN_URL} target="_blank" rel="noreferrer">
                   Linkedin
                 </a>
@@ -143,28 +142,28 @@ function About() {
           </div>
         </div>
         <h1 id="contributors">Our Contributors</h1>
-        
-        {/* input bar */}
+
+        {/* Input bar */}
         <input
           type="text"
-          className="searchbar-contributors"
+          className="searchbar--contributors"
           placeholder="Search your name here..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
 
-        <div className="grid-container">
+        <div className="grid__container">
           {currentPageData?.map((contributor) => {
             return (
-              <div className="content-box" key={contributor.id}>
+              <div className="content" key={contributor.id}>
                 <img
-                  className="logo"
+                  className="content__profile-img"
                   src={contributor.avatar_url}
                   alt="avatar"
                 />
-                <h3>{contributor.login}</h3>
+                <h3 className="content__username">{contributor.login}</h3>
                 <h4>{contributor.contributions} commits</h4>
-                <button className="profile-btn">
+                <button className="button--profile">
                   <a
                     href={contributor.html_url}
                     target="_blank"

@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "../style/Contact.css";
+
 const Contact = () => {
   return (
     <div className="contact-container">
@@ -10,29 +11,29 @@ const Contact = () => {
         Please fill out the form below to get in touch with us.
       </p>
       <form className="contact-form">
-        <div className="form-group">
-          <label htmlFor="name" className="form-label">
+        <div className="contact-form__group">
+          <label htmlFor="name" className="contact-form__label">
             Name:
           </label>
-          <input type="text" id="name" name="name" className="form-input" />
+          <input type="text" id="name" name="name" className="contact-form__input" />
         </div>
 
-        <div className="form-group">
-          <label htmlFor="email" className="form-label">
+        <div className="contact-form__group">
+          <label htmlFor="email" className="contact-form__label">
             Email:
           </label>
-          <input type="email" id="email" name="email" className="form-input" />
+          <input type="email" id="email" name="email" className="contact-form__input" />
         </div>
 
-        <div className="form-group">
-          <label htmlFor="message" className="form-label">
+        <div className="contact-form__group">
+          <label htmlFor="message" className="contact-form__label">
             Message:
           </label>
           <textarea
             id="message"
             name="message"
             rows="4"
-            className="form-textarea"
+            className="contact-form__textarea"
           />
         </div>
 
@@ -48,7 +49,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="social-link"
         >
-          <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
+          <FontAwesomeIcon icon={faLinkedin} className="social-link__icon" />
         </a>
         <a
           href="https://github.com/HimanshuNarware/Devlabs"
@@ -56,7 +57,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="social-link"
         >
-          <FontAwesomeIcon icon={faGithub} className="social-icon" />
+          <FontAwesomeIcon icon={faGithub} className="social-link__icon" />
         </a>
       </div>
     </div>

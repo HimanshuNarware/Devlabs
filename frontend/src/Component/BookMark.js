@@ -42,13 +42,13 @@ function BookMark() {
           currentBookmarks?.map((data, index) => (
             <div className="box-bk" key={index}>
               <img className="logo" src={data.image} alt={data.name} />
-              <h2>{data.name}</h2>
-              <p>{data.desc}</p>
+              <h2 className="box-bk__name">{data.name}</h2>
+              <p className="box-bk__desc">{data.desc}</p>
               <button className="btn-b" onClick={() => window.open(data.link)}>
                 Link
               </button>
               <button
-                className="btn-b"
+                className="btn-b btn-b--remove"
                 onClick={() => handleDeleteBookmark(data.name)}
               >
                 Remove
@@ -64,8 +64,8 @@ function BookMark() {
         {sourceData.length > postPerPage && currentBookmarks.length > 0 && (
           <ul className="pagination">
             {currentPage !== 1 && (
-              <li className="page-item">
-                <button onClick={prevPage} className="page-link">
+              <li className="pagination-item">
+                <button onClick={prevPage} className="pagination-link">
                   Prev
                 </button>
               </li>
@@ -75,21 +75,21 @@ function BookMark() {
             }).map((_, index) => (
               <li
                 key={index}
-                className={`page-item ${
+                className={`pagination-item ${
                   currentPage === index + 1 ? "active" : ""
                 }`}
               >
                 <button
                   onClick={() => paginate(index + 1)}
-                  className="page-link"
+                  className="pagination-link"
                 >
                   {index + 1}
                 </button>
               </li>
             ))}
             {currentPage !== Math.ceil(sourceData.length / postPerPage) && (
-              <li className="page-item">
-                <button onClick={nextPage} className="page-link">
+              <li className="pagination-item">
+                <button onClick={nextPage} className="pagination-link">
                   Next
                 </button>
               </li>

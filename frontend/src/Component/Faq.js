@@ -22,6 +22,7 @@ export default function Faq() {
         <span className=" text">Frequently Asked Questions</span>
         <Accordion
           className=" border-none mt-8 "
+          style={{display:"flex",flexDirection:"column"}}
           allowMultipleExpanded={false}
           preExpanded={[0]}
         >
@@ -31,6 +32,7 @@ export default function Faq() {
                 className={` border-2 border-gray-400 rounded-lg overflow-hidden mb-5 ${index == i ? 'open' : 'close'}`}
                 key={i}
                 uuid={i}
+                style={{fontSize:"1rem"}}
               >
                 <AccordionItemHeading>
                   <AccordionItemButton className="custom-flex-container ">
