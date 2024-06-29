@@ -2,13 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #f0f0f0;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  height: auto;
   padding: 20px;
 }
 
@@ -37,25 +36,29 @@ body {
   transform: translateY(-10px);
 }
 
-.blog-image {
+.extension-image {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
   border-radius: 8px;
 }
 
-.blog-title {
+.extension-title {
   font-size: 1.5rem;
   color: #007bff;
   margin-top: 15px;
 }
 
-.blog-date {
-  font-size: 0.9rem;
-  color: #888;
-  margin-bottom: 10px;
+.extension-category,
+.extension-version,
+.extension-developer,
+.extension-releaseDate,
+.extension-price {
+  font-size: 1rem;
+  color: #333;
 }
 
-.blog-summary {
+.extension-description {
   font-size: 1rem;
   color: #555;
 }
