@@ -30,9 +30,25 @@ function Footer() {
             <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5>Company</h5>
               <ul>
-                
-                <li className="nav-item">
-                  </li>
+                <li class="nav-item">
+                  <a href="https://www.devlabsstore.tech/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.devlabsstore.tech/about">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.devlabsstore.tech/bookmark">Bookmark</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.linkedin.com/in/himanshunarware/">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.devlabsstore.tech/open-source">Open Source</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://github.com/HimanshuNarware/Devlabs">Contribute Here</a>
+                </li>
+
               </ul>
             </div>
             <div className="col-md-6 col-lg-3 col-12 ft-2">
