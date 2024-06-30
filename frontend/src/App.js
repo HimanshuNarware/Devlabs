@@ -20,7 +20,7 @@ import Contact from "./Component/Contact";
 //cards
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
-import UI from "./pages/Ui";
+import UI from "./pages/Ui-design";
 import Movie from "./pages/Movie";
 import Extension from "./pages/Extension";
 import EthicalHacking from "./pages/EthicalHacking";
