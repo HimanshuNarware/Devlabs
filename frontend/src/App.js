@@ -18,7 +18,7 @@ import BookMark from "./Component/BookMark";
 import ScrollToTop from "./Component/ScrollToTop";
 import Contact from "./Component/Contact";
 //cards
-import RemoteJobs from "./pages/RemoteJobs";
+import RemoteJobs from "./pages/Remotejob.jsx";
 import AI from "./pages/AI";
 import UI from "./pages/UI";
 import Movie from "./pages/Movie";
