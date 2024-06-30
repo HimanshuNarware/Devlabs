@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Ui.css";
+import "../style/UI.css";
 
 const design = [
   { name: "Onsen UI", description: "Onsen UI is a UI framework for developing hybrid and online mobile apps. It includes all of the necessary UI components for a mobile app's user experience. To support ALL frameworks, the CSS Components are written in cssnext, while the Web Components are written in native JavaScript. The Framework Bindings were intended to make it easier to integrate popular frameworks like Vue.js, AngularJS 1, Angular 2+, and React with each other.", link: "https://onsen.io/?utm_source=startupstash.com&utm_medium=startupstash.com&utm_campaign=alternative_page", image: "https://startupstash.com/wp-content/uploads/2022/04/b3UUdakh_400x400.png" },
