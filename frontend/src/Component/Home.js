@@ -12,13 +12,12 @@ import NavbarRight from "./Navbar/NavbarRight";
 import Tilt from 'react-parallax-tilt';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
+
 const BACKEND = process.env.REACT_APP_BACKEND;
 
 function Home(props) {
   const [bookmarks, setBookmark] = useState(null);
-  const [localStorageValue, setLocalStorageValue] = useState(
-    localStorage.getItem("filter") || ""
-  );
+  const [localStorageValue, setLocalStorageValue] = useState(localStorage.getItem("filter") || "");
   const ref = useRef();
 
   if (props.searchQuery !== "") {
@@ -27,6 +26,8 @@ function Home(props) {
     });
   }
 
+  const [selectedFilters, setSelectedFilters] = useState([]);
+  const [filteredItems, setFilteredItems] = useState(jsonTools);
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
   const lastPostIndex = currentPage * postPerpage;
@@ -68,9 +69,9 @@ function Home(props) {
       } else {
         setDataBaseData(jsonTools);
       }
-     setTimeout(() => {
-      setLoading(false);
-     }, 2000); 
+      setTimeout(() => {
+        setLoading(false);
+      }, 2000); 
     };
 
     const fetchContributors = async () => {
@@ -104,11 +105,11 @@ function Home(props) {
     }
   }
 
-  const filteredData = !!searchQuery
+  const filteredData = !!props.searchQuery
     ? allvalue.filter((datalist) => {
         return datalist.productName
           .toLowerCase()
-          .includes(searchQuery.toLowerCase());
+          .includes(props.searchQuery.toLowerCase());
       })
     : allvalue;
 
@@ -217,151 +218,232 @@ function Home(props) {
     handleBookmarks();
   };
 
+  const filters = ["AI", "Ethical", "Extensions", "Web", "Movies", "Remote", "Resume", "UI", "Coding", "Course", "Tools"];
+
+  const handleFilterButtonClick = (selectedCategory) => {
+    if (selectedFilters.includes(selectedCategory)) {
+      setSelectedFilters([]);
+    } else {
+      setSelectedFilters([selectedCategory]);
+    }
+  };
+
+  useEffect(() => {
+    filterItems();
+  }, [selectedFilters]);
+
+  const filterItems = () => {
+    if (selectedFilters.length > 0) {
+      const tempItems = selectedFilters.map((selectedCategory) =>
+        jsonTools.filter(
+          (jsonTool) =>
+            jsonTool.category.toLowerCase() === selectedCategory.toLowerCase()
+        )
+      );
+      setFilteredItems(tempItems.flat());
+    } else {
+      setFilteredItems([...jsonTools]);
+    }
+  };
+
   return (
     <SkeletonTheme>
       <div>
-      <div className="hero">
-        <div className="hero-text">
-          <div id="hero" className="hero-container">
-            <div className="hero-content">
-              <h1 className="hero-heading">
-                <span>Welcome to</span>
-                <br /> Devlabs!
-                <h1 className="hero-subheading">
-                  Discover Free Tools,
-                  <br />
-                  Empower Your Projects.
-                  <br />
-                  <span className="hero-end">
-                    {" "}
-                    -Built by open-source community
-                  </span>
+        <div className="hero">
+          <div className="hero-text">
+            <div id="hero" className="hero-container">
+              <div className="hero-content">
+                <h1 className="hero-heading">
+                  <span>Welcome to</span>
+                  <br /> Devlabs!
+                  <h1 className="hero-subheading">
+                    Discover Free Tools,
+                    <br />
+                    Empower Your Projects.
+                    <br />
+                    <span className="hero-end">
+                      {" "}
+                      -Built by open-source community
+                    </span>
+                  </h1>
                 </h1>
-              </h1>
 
-              <div className="hero-button-container">
-                <button className="hero-button">
-                  <NavbarItem description="Get Started" to="/open-source" />
-                </button>
+                <div className="hero-button-container">
+                  <button className="hero-button">
+                    <NavbarItem description="Get Started" to="/open-source" />
+                  </button>
+                </div>
               </div>
-            </div>
-            <div className="hero-image">
-            <Tilt>
-                <img src={Devlabs} alt="devlabs-removebg-preview" />
-              </Tilt>
+              <div className="hero-image">
+                <Tilt>
+                  <img src={Devlabs} alt="devlabs-removebg-preview" />
+                </Tilt>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <br/>
-      <h3> Lets Get, What You seek!</h3>
-      <NavbarRight setSearchQuery={setSearchQuery} />
+        <br />
+        <h3> Lets Get, What You seek!</h3>
+        <NavbarRight setSearchQuery={setSearchQuery} />
+        <br />
 
-      <div ref={ref} className="page-container">
-        <div className={loading ? "loading-container" : "main-container"}>
-      {loading &&    <div style={{display:"flex",gap:"100px",width:"100vw",height:"300px",justifyContent:"center"}}>
-          <div style={{width:"250px",height:"300px",border:"gray solid 2px",borderRadius:"20px",padding:"40px"}}>
-
-<Skeleton  circle={"true"} height={90} width={90}/>
-<Skeleton  width={130}/>
-<Skeleton count={5}/>
-
-</div>
-            <div style={{width:"250px",height:"300px",border:"gray solid 2px",borderRadius:"20px",padding:"40px"}}>
-
-                <Skeleton  circle={"true"} height={90} width={90}/>
-                <Skeleton  width={130}/>
-                <Skeleton count={5}/>
-
-            </div>
-            <div style={{width:"250px",height:"300px",border:"gray solid 2px",borderRadius:"20px",padding:"40px"}}>
-
-                <Skeleton  circle={"true"} height={90} width={90}/>
-                <Skeleton  width={130}/>
-                <Skeleton count={5}/>
-
-            </div>
-            <div style={{width:"250px",height:"300px",border:"gray solid 2px",borderRadius:"20px",padding:"40px"}}>
-
-                <Skeleton  circle={"true"} height={90} width={90}/>
-                <Skeleton  width={130}/>
-                <Skeleton count={5}/>
-
-            </div>
-            <div style={{width:"250px",height:"300px",border:"gray solid 2px",borderRadius:"20px",padding:"40px"}}>
-
-                <Skeleton  circle={"true"} height={90} width={90}/>
-                <Skeleton  width={130}/>
-                <Skeleton count={5}/>
-
-            </div>
-          </div>}
-
-        
-      {!loading && currentPost.map((datalist) => {
-            return (
-              <div className="content-box-home" key={datalist.productName}>
-                <img
-                  className="logo"
-                  src={datalist.image}
-                  alt={datalist.category}
-                />
-                <h2>{datalist.productName}</h2>
-                <p className="content-box-text">{datalist.description}</p>
-                <button
-                  className="btn-b-box"
-                  onClick={() => window.open(datalist.link)}
+        <div className="main" ref={ref}>
+          <div className="filter-container">
+            {filters.map((category) => (
+              <button
+                key={category}
+                className={`filter-button ${
+                  selectedFilters.includes(category) ? "active_filter" : ""
+                }`}
+                onClick={() => handleFilterButtonClick(category)}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
+          <div className={loading ? "loading-container" : "main-container"}>
+            {loading && (
+              <div
+                style={{
+                  display: "flex",
+                  gap: "100px",
+                  width: "100vw",
+                  height: "300px",
+                  justifyContent: "center",
+                }}
+              >
+                <div
+                  style={{
+                    width: "250px",
+                    height: "300px",
+                    border: "gray solid 2px",
+                    borderRadius: "20px",
+                    padding: "40px",
+                  }}
                 >
-                  Link
-                </button>
-                {bookmarks?.some((item) =>
-                  item.name.includes(datalist.productName)
-                ) ? (
-                  <>
-                    <button
-                      className="btn-booked-box"
-                      onClick={() => handleDeleteBookmark(datalist.productName)}
-                    >
-                      Remove
-                    </button>
-                  </>
-                ) : (
-                  <button
-                    className="btn-b-box"
-                    onClick={() => handleBookmark(datalist)}
-                  >
-                    Bookmark
-                  </button>
-                )}
+                  <Skeleton circle={"true"} height={90} width={90} />
+                  <Skeleton width={130} />
+                  <Skeleton count={5} />
+                </div>
+                <div
+                  style={{
+                    width: "250px",
+                    height: "300px",
+                    border: "gray solid 2px",
+                    borderRadius: "20px",
+                    padding: "40px",
+                  }}
+                >
+                  <Skeleton circle={"true"} height={90} width={90} />
+                  <Skeleton width={130} />
+                  <Skeleton count={5} />
+                </div>
+                <div
+                  style={{
+                    width: "250px",
+                    height: "300px",
+                    border: "gray solid 2px",
+                    borderRadius: "20px",
+                    padding: "40px",
+                  }}
+                >
+                  <Skeleton circle={"true"} height={90} width={90} />
+                  <Skeleton width={130} />
+                  <Skeleton count={5} />
+                </div>
+                <div
+                  style={{
+                    width: "250px",
+                    height: "300px",
+                    border: "gray solid 2px",
+                    borderRadius: "20px",
+                    padding: "40px",
+                  }}
+                >
+                  <Skeleton circle={"true"} height={90} width={90} />
+                  <Skeleton width={130} />
+                  <Skeleton count={5} />
+                </div>
+                <div
+                  style={{
+                    width: "250px",
+                    height: "300px",
+                    border: "gray solid 2px",
+                    borderRadius: "20px",
+                    padding: "40px",
+                  }}
+                >
+                  <Skeleton circle={"true"} height={90} width={90} />
+                  <Skeleton width={130} />
+                  <Skeleton count={5} />
+                </div>
               </div>
-            );
-          })} 
-        </div>
-        <div className="pagination">
-          <ul>
-            <li>
-              <a href="#!" onClick={prePage}>
-                &lt;
-              </a>
-            </li>
-            {numbers.map((n, i) => (
-              <li key={i} className={`${currentPage === n ? "active" : ""}`}>
-                <a href="#!" onClick={() => changeCPage(n)}>
-                  {n}
+            )}
+
+            {!loading &&
+              filteredItems.slice(firstPostIndex, lastPostIndex).map((datalist) => {
+                return (
+                  <div className="content-box-home" key={datalist.productName}>
+                    <img
+                      className="logo"
+                      src={datalist.image}
+                      alt={datalist.category}
+                    />
+                    <h2>{datalist.productName}</h2>
+                    <p className="content-box-text">{datalist.description}</p>
+                    <button
+                      className="btn-b-box"
+                      onClick={() => window.open(datalist.link)}
+                    >
+                      Link
+                    </button>
+                    {bookmarks?.some((item) =>
+                      item.name.includes(datalist.productName)
+                    ) ? (
+                      <>
+                        <button
+                          className="btn-booked-box"
+                          onClick={() => handleDeleteBookmark(datalist.productName)}
+                        >
+                          Remove
+                        </button>
+                      </>
+                    ) : (
+                      <button
+                        className="btn-b-box"
+                        onClick={() => handleBookmark(datalist)}
+                      >
+                        Bookmark
+                      </button>
+                    )}
+                  </div>
+                );
+              })}
+          </div>
+          <div className="pagination">
+            <ul>
+              <li>
+                <a href="#!" onClick={prePage}>
+                  &lt;
                 </a>
               </li>
-            ))}
-            <li>
-              <a href="#!" onClick={nextPage}>
-                &gt;
-              </a>
-            </li>
-          </ul>
+              {numbers.map((n, i) => (
+                <li key={i} className={`${currentPage === n ? "active" : ""}`}>
+                  <a href="#!" onClick={() => changeCPage(n)}>
+                    {n}
+                  </a>
+                </li>
+              ))}
+              <li>
+                <a href="#!" onClick={nextPage}>
+                  &gt;
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
     </SkeletonTheme>
-    
   );
 }
 
