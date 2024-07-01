@@ -1,19 +1,33 @@
 /* Contact.css */
 
 .contact-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-  }
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+.lottie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:100px;
+  width:500px;
+}
+
   .contact-heading {
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
   
   .contact-description {
-    margin-top: 10%;
+    /* margin-top: 10%; */
     font-size: 1.2rem;
     margin-bottom: 2rem;
   }
