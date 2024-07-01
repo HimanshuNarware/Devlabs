@@ -28,35 +28,36 @@ function RateUsComponent({ previousContent }) {
 
   return (
     <>
-      <div className="rate-us-page">
-        <div className="rate-us-container">
-          <h2 className="rate-us-heading">Rate Our Website</h2>
-          <div className="icon-rating">
+      <div className="rate-us">
+    <div className="rate-us__container">
+        <h2 className="rate-us__heading">Rate Our Website</h2>
+        <div className="rate-us__icon-rating">
             {[0, 1, 2, 3, 4].map((index) => (
-              <span
-                key={index}
-                className={`icon ${index === rating - 1 ? "selected" : ""}`}
-                onClick={() => handleIconClick(index)}
-              >
-                {index === 0 && "😞"}
-                {index === 1 && "😐"}
-                {index === 2 && "😊"}
-                {index === 3 && "😃"}
-                {index === 4 && "😍"}
-              </span>
+                <span
+                    key={index}
+                    className={`rate-us__icon ${index === rating - 1 ? "rate-us__icon--selected" : ""}`}
+                    onClick={() => handleIconClick(index)}
+                >
+                    {index === 0 && "😞"}
+                    {index === 1 && "😐"}
+                    {index === 2 && "😊"}
+                    {index === 3 && "😃"}
+                    {index === 4 && "😍"}
+                </span>
             ))}
-          </div>
-          <textarea
-            className="feedback-textarea"
+        </div>
+        <textarea
+            className="rate-us__feedback"
             placeholder="Write your feedback here..."
             value={feedback}
             onChange={handleFeedbackChange}
-          ></textarea>
-          <button className="submit-button" onClick={handleSubmit}>
+        ></textarea>
+        <button className="rate-us__submit" onClick={handleSubmit}>
             Submit
-          </button>
-        </div>
-      </div>
+        </button>
+    </div>
+</div>
+
     </>
   );
 }
