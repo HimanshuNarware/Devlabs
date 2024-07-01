@@ -1,3 +1,16 @@
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -10px; /* Adjust the value as needed */
+}
+.navbar-content li {
+  flex-grow: 1; /* Make the navbar items stretch to fill the width */
+  margin: 0 15px; /* Add margin to create space between nav items */
+  font-size: 1.3rem;
+  text-decoration: none; /* Ensures no underline */
+}
 .navbar {
   background-color: #8b5cf6;
   padding: 5px 10px; /* Decreased padding to reduce height */
@@ -15,33 +28,6 @@
   mix-blend-mode: normal;
   padding-left: 30px;
 }
-
-.search-bar {
-  display: flex;
-  align-items: center;
-  position: relative;
-  top: -10px; /* Adjust the value as needed */
-}
-.navbar-content li {
-  flex-grow: 1; /* Make the navbar items stretch to fill the width */
-  margin: 0 15px; /* Add margin to create space between nav items */
-  font-size: 1.3rem;
-  text-decoration: none; /* Ensures no underline */
-}
-
-
-.navbar-content .nav-item {
-  flex-grow: 1; /* Allow items to stretch */
-  text-align: center;
-  text-decoration: none; /* Ensures no underline */
-  margin: 0 15px; /* Add space between items */
-}
-
-
-.logo-img {
-  width: 150px;
-  margin-right: auto; /* Move the logo to the left */
-}
 .navbar-content li {
   list-style: none;
   margin: 0 10px;
@@ -57,6 +43,18 @@
   margin: 0;
   justify-content: space-between; /* Add space between items */
   width: 109%; /* Make the navbar items stretch along the width */
+}
+.navbar-content .nav-item {
+  flex-grow: 1; /* Allow items to stretch */
+  text-align: center;
+  text-decoration: none; /* Ensures no underline */
+  margin: 0 15px; /* Add space between items */
+}
+
+
+.logo-img {
+  width: 150px;
+  margin-right: auto; /* Move the logo to the left */
 }
 
 .card-body img {

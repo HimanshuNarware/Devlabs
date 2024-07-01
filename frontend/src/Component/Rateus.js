@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./../style/Rateus.css";
 
 function RateUsComponent({ previousContent }) {
@@ -19,10 +21,14 @@ function RateUsComponent({ previousContent }) {
       // Reset the state after submitting
       setRating(0);
       setFeedback("");
-      // Show success message (console.log or any other method you prefer)
-      console.log("Thanks For Your Feedback :)");
+      // Show success toast message
+      toast.success("Thanks For Your Feedback :)", {
+        position: "top-center"
+      });
     } else {
-      console.error("Please Enter All Details :(");
+      toast.error("Please Enter All Details :(", {
+        position: "top-center"
+      });
     }
   };
 
@@ -57,6 +63,7 @@ function RateUsComponent({ previousContent }) {
           </button>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }
