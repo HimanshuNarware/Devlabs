@@ -3477,5 +3477,12 @@
     "image": "https://imgur.com/NAVhlcT.png",
     "link": "https://codepen.io/sdras/full/gogVRX",
     "description": "A resource to help figure out what JavaScript array method would be best to use at any given time"
+  },
+  {
+    "productName":"Babbel",
+    "category":"tools",
+    "image":"https://i.pcmag.com/imagery/reviews/04R5bOdZzEXHXXUx5tZz4lr-5..v1569480104.png",
+    "link":"https://www.babbel.com/",
+    "desciption":"Babbel is a language learning app that offers interactive courses designed for practical language skills. It focuses on real-life conversations and cultural insights to help learners quickly grasp and apply new languages."
   }
 ]
