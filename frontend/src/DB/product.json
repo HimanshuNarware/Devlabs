@@ -3477,5 +3477,13 @@
     "image": "https://imgur.com/NAVhlcT.png",
     "link": "https://codepen.io/sdras/full/gogVRX",
     "description": "A resource to help figure out what JavaScript array method would be best to use at any given time"
+  },
+  {
+    "productName":"Google colab",
+    "category":"tools",
+    "image":"https://colab.research.google.com/img/colab_favicon_256px.png",
+    "link":"https://colab.research.google.com/",
+    "desciption":"A cloud-based platform for running Python code, particularly suited for machine learning and deep learning."
+
   }
 ]
