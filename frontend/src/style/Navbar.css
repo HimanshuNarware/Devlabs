@@ -466,14 +466,14 @@
 }
 
 .search-bar {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   width: 50%; /* Adjust the width as needed */
-  background-color: rgb(93, 93, 93);
+  background-color: rgb(233, 2, 2);
   border-radius: 25px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 5px 10px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  padding: 5px 10px; */
 }
 
 .box {
