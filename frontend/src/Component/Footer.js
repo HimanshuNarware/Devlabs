@@ -1,135 +1,120 @@
-import React from "react";
-import logo from "../image/logo.png";
-import "../style/Footer.css";
-import { FaGithubSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { AiFillHome, AiOutlineInfoCircle, AiOutlineMessage, AiOutlineTeam } from 'react-icons/ai';
+import { FaNewspaper, FaStar } from 'react-icons/fa';
+import { FiMail } from 'react-icons/fi';
+import LinkedInIcon from "../assets/images/linkedin.jpg";
+import TwitterIcon from "../assets/images/X.png";
+import GitHubIcon from "../assets/images/github.png";
+import EmailIcon from "../assets/images/GMail.webp";
+import RateUs from './Rateus'; // Import the RateUs component
 
-function Footer() {
+const Footer = () => {
+  const [showRateUs, setShowRateUs] = useState(false);
+
+  const toggleRateUs = () => {
+    setShowRateUs(!showRateUs);
+  };
+
   return (
-    <footer>
-      <div className="Footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6 col-lg-4 col-12 ft-1">
-              <a href="https://www.devlabsstore.tech/">
-                <img width={209} src={logo} alt="devlaps" />
-              </a>
-              <h5>
-                Facing an issue or just <br />
-                enjoying the site?
-              </h5>
-              <button>
-                <Link to="/review">Tell us now</Link>
-              </button>
-            </div>
-            <div className="col-md-6 col-lg-3 col-12 ft-2">
-              <h5>Company</h5>
-              <ul>
-                <li className="nav-item">
-                  <a href="https://www.devlabsstore.tech/">Home</a>
-                </li>
-                <li className="nav-item">
-                  <a href="https://www.devlabsstore.tech/about">About Us</a>
-                </li>
-                <li className="nav-item">
-                  <a href="https://www.devlabsstore.tech/bookmark">Bookmark</a>
-                </li>
-                <li className="nav-item">
-                  <a href="https://www.linkedin.com/in/himanshunarware/">Contact</a>
-                </li>
-                <li className="nav-item">
-                  <a href="https://www.devlabsstore.tech/open-source">Open Source</a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-6 col-lg-3 col-12 ft-2">
-              <h5>Quick Links</h5>
-              <ul>
-                <li className="nav-item">
-                  <a href="/remote-jobs">Remote Jobs</a>
-                </li>
-                <li className="nav-item">
-                  <a href="/ai">AI</a>
-                </li>
-                <li className="nav-item">
-                  <a href="/movies-series">Movie/Series</a>
-                </li>
-                <li className="nav-item">
-                  <a href="/extension">Extension</a>
-                </li>
-                <li className="nav-item">
-                  <a href="/ui-design">UI Design</a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-6 col-lg-2 col-12 ft-4">
-              <h5>Explore</h5>
-              <ul>
-                <li className="nav-item">
-                  <a href="/front-end-tools">Frontend Tools</a>
-                </li>
-                <li className="nav-item">
-                  <a href="/ethical-hacking">Ethical Hacking</a>
-                </li>
-                <li className="nav-item">
-                  <a href="/coding-platform">Coding Platforms</a>
-                </li>
-                <li className="nav-item">
-                  <a href="/courses-platform">Course Platforms</a>
-                </li>
-              </ul>
-            </div>
+    <>
+      <footer className="bg-black">
+        <div className="flex justify-between items-center py-4 px-8">
+          <div className="footerNav">
+            <ul className="flex gap-4">
+              <li>
+                <a href="#" className="text-white flex items-center hover:text-gray-600">
+                  <AiFillHome className="h-6 w-6" />
+                  <span className="ml-2">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white flex items-center hover:text-gray-600">
+                  <FaNewspaper className="h-6 w-6" />
+                  <span className="ml-2">News</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white flex items-center hover:text-gray-600">
+                  <AiOutlineInfoCircle className="h-6 w-6" />
+                  <span className="ml-2">About Us</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white flex items-center hover:text-gray-600">
+                  <AiOutlineMessage className="h-6 w-6" />
+                  <span className="ml-2">Contact Us</span>
+                </a>
+              </li>
+              <li>
+                <a onClick={toggleRateUs} className="text-white flex items-center hover:text-gray-600 cursor-pointer">
+                  <FaStar className="h-6 w-6" />
+                  <span className="ml-2">Rate Us</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white flex items-center hover:text-gray-600">
+                  <AiOutlineTeam className="h-6 w-6" />
+                  <span className="ml-2">Our Team</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="socialicons flex gap-4">
+            <a
+              href="https://www.linkedin.com/in/singodiyashubham87/"
+              className="hover:bg-blue-300 p-1 rounded-full"
+            >
+              <img
+                src={LinkedInIcon}
+                alt="LinkedIn"
+                className="rounded-full w-8 h-8 hover:bg-blue-500"
+              />
+            </a>
+            <a
+              href="https://twitter.com/_master_mickey"
+              className="hover:bg-blue-300 p-1 rounded-full"
+            >
+              <img
+                src={TwitterIcon}
+                alt="Twitter"
+                className="rounded-full w-8 h-8 hover:bg-blue-500"
+              />
+            </a>
+            <a
+              href="https://github.com/singodiyashubham87"
+              className="hover:bg-blue-300 p-1 rounded-full"
+            >
+              <img
+                src={GitHubIcon}
+                alt="GitHub"
+                className="rounded-full w-8 h-8 hover:bg-blue-500"
+              />
+            </a>
+            <a
+              href="mailto:singodiyashubham87@gmail.com"
+              className="hover:bg-blue-300 p-1 rounded-full"
+            >
+              <FiMail className="text-white h-6 w-6 hover:bg-blue-500" />
+            </a>
           </div>
         </div>
-      </div>
+        <div className="text-center mt-4">
+          <p className="text-white">
+            Made with 💝 by <a href="https://shubham-s-socials.vercel.app/" className="decoration-none font-semibold hover:underline">Master Mickey</a> Copyright &copy;{(new Date().getFullYear())}
+          </p>
+        </div>
+      </footer>
 
-      <div className="Last-footer">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-md-6 col-12 ft-1">
-              <div className="text-center fs-6 my-3">
-                COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
-              </div>
-              <div className="footer-icons mb-2">
-                <a
-                  href="https://www.linkedin.com/in/himanshunarware/"
-                  rel="noreferrer"
-                  target="_blank"
-                  className="footer-icon"
-                >
-                  <FaLinkedin className="text-white mx-1 fs-4" />
-                </a>
-                <a
-                  href="https://twitter.com/N_Himanshu_/"
-                  rel="noreferrer"
-                  target="_blank"
-                  className="footer-icon"
-                >
-                  <FaTwitter className="text-white mx-1 fs-4" />
-                </a>
-                <a
-                  href="mailto:himanshunarware77@gmail.com"
-                  rel="noreferrer"
-                  className="footer-icon"
-                >
-                  <SiGmail className="text-white mx-1 fs-4" />
-                </a>
-                <a
-                  href="https://github.com/HimanshuNarware/Devlabs"
-                  rel="noreferrer"
-                  target="_blank"
-                  className="footer-icon"
-                >
-                  <FaGithubSquare className="text-white mx-1 fs-4" />
-                </a>
-              </div>
-            </div>
+      {showRateUs && (
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close" onClick={toggleRateUs}>&times;</span>
+            <RateUs />
           </div>
         </div>
-      </div>
-    </footer>
+      )}
+    </>
   );
-}
+};
 
 export default Footer;
