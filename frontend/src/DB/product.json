@@ -3477,5 +3477,13 @@
     "image": "https://imgur.com/NAVhlcT.png",
     "link": "https://codepen.io/sdras/full/gogVRX",
     "description": "A resource to help figure out what JavaScript array method would be best to use at any given time"
+  },
+  {
+    "productName": "Video DownloadHelper",
+    "category": "tools",
+    "image": "https://lh3.googleusercontent.com/iUmZFfH0L0eydAiFWVuQMbcyiUx32X4aiy8mGinrOyTD0y2sOc_jkbi97Q4gCz7Z9hqP5Yl41lRJYLdLaG-SGDaK=s60",
+    "link": "https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk",
+    "description": "Download HD videos from the web. Easy, smart, no tracking. 1000+ websites supported. Extract audio from videos"
   }
+
 ]
