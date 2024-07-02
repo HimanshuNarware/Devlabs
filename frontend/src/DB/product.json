@@ -3478,10 +3478,18 @@
     "description": "A resource to help figure out what JavaScript array method would be best to use at any given time"
   },
   {
+<<<<<<< issue-1124
     "productName": "Forage",
     "category": "remote",
     "image": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/139/2022/05/Forage_Logo_Icon_Vert_Green_RGB.png",
     "link": "https://www.theforage.com/",
     "description": "A resource which helps the users to gain virtual internship experience."
+=======
+    "productName": "Perplexity AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.j_46DDENRisOFr1rg6LiOAHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.perplexity.ai/",
+    "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question."
+>>>>>>> main
   }
 ]
