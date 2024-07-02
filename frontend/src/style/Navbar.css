@@ -81,9 +81,9 @@
 }
 
 .nav-item:hover {
-  transform: scale(1.05); /* Scale up slightly on hover */
-  filter: brightness(1.2); /* Brighten on hover for shine effect */
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Add glowing effect */
+   transform: scale(1.05); /*Scale up slightly on hover */
+   filter: brightness(1.2); /* Brighten on hover for shine effect */
+   /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); Add glowing effect */
 }
 
 
@@ -180,6 +180,10 @@
   text-decoration: none;
   font-size: 1.2rem; /* Adjust font size as needed */
   transition: color 0.3s;
+}
+.nav-item a:hover{
+  color: black;
+  font-weight: 700;
 }
 
 .navbar-content ul li a.active {
