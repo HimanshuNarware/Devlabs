@@ -3483,7 +3483,7 @@
     "category":"tools",
     "image":"https://colab.research.google.com/img/colab_favicon_256px.png",
     "link":"https://colab.research.google.com/",
-    "desciption":"A cloud-based platform for running Python code, particularly suited for machine learning and deep learning."
+    "description":"A cloud-based platform for running Python code, particularly suited for machine learning and deep learning."
 
   }
 ]
