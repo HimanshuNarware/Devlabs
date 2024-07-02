@@ -189,6 +189,28 @@
   }
 }
 
+.filter-button{
+  color: #8b5cf6;
+  font-size: 1.1rem;
+  border: 1px solid #8b5cf6;
+  margin-inline: 10px;
+  padding: 6px 16px 6px 16px;
+  background: transparent;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.active_filter{
+  background: transparent;
+  cursor: pointer;
+  background-color: #101623;
+  color: white;
+  box-shadow: 2px 2px 1px #8b5cf6;
+}
+
 .hero-heading {
   font-weight: 500;
   font-size: 2.5rem;
