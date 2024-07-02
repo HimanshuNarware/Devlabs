@@ -3484,5 +3484,12 @@
     "image": "https://th.bing.com/th/id/OIP.j_46DDENRisOFr1rg6LiOAHaHa?rs=1&pid=ImgDetMain",
     "link": "https://www.perplexity.ai/",
     "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question."
+  },
+  {
+    "productName": "GSSoC",
+    "category": "tools",
+    "image": "https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png",
+    "link": "https://gssoc.girlscript.tech/",
+    "description": "A three-month-long Open-Source Program conducted every summer by the Girlscript Foundation."
   }
 ]
