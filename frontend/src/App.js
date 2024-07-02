@@ -21,7 +21,7 @@ import Contact from "./Component/Contact";
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import UI from "./pages/UI";
-import Movie from "./pages/Movie";
+import Movie from "./pages/Movies";
 import Extension from "./pages/Extension";
 import EthicalHacking from "./pages/EthicalHacking";
 import FrontendTools from "./pages/FrontendTools";
