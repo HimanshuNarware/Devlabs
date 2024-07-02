@@ -3485,5 +3485,10 @@
     "link":"https://colab.research.google.com/",
     "description":"A cloud-based platform for running Python code, particularly suited for machine learning and deep learning."
 
+    "productName": "Perplexity AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.j_46DDENRisOFr1rg6LiOAHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.perplexity.ai/",
+    "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question."
   }
 ]
