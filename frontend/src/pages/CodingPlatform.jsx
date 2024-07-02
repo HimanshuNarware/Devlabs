@@ -12,6 +12,7 @@ const tools = [
   { name: "Glitch", description: "A community-driven platform for creating, remixing, and hosting web apps and websites", link: "https://glitch.com/", image: "https://logos-world.net/wp-content/uploads/2021/03/Glitch-Logo-2018-present.png" },
   { name: "Stack Overflow Code Snippet", description: "A feature of Stack Overflow that allows users to create, test, and share code snippets directly on the site", link: "https://stackoverflow.com/", image: "https://i.pinimg.com/564x/2e/30/2d/2e302de0ac09bc7085c45f03abc72472.jpg" },
   { name: "GitHub Gists", description: "A service provided by GitHub that allows users to share code snippets and files", link: "https://gist.github.com/", image: "https://k9982874.gallerycdn.vsassets.io/extensions/k9982874/github-gist-explorer/0.2.3/1638842316475/Microsoft.VisualStudio.Services.Icons.Default" },
+  { name: "Programiz", description: "A platform in which write a code in this online compiler without depend on any software or compiler", link: "https://www.programiz.com/python-programming/online-compiler/", image: "https://i.ibb.co/K0M4T5y/Screenshot-2024-07-02-170050.png" },
 ];
 
 const CodingPlatform = () => {
