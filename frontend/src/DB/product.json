@@ -3484,5 +3484,12 @@
     "image": "https://th.bing.com/th/id/OIP.j_46DDENRisOFr1rg6LiOAHaHa?rs=1&pid=ImgDetMain",
     "link": "https://www.perplexity.ai/",
     "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question."
+  },
+  {
+    "productName":"skill share",
+    "category":"tool",
+    "image":"https://play-lh.googleusercontent.com/Lfh8g5kPONfSNL7R4s8itnMMdj3lhmHU9tb4gp7eoOaXkJo0dOcwB6iWPdNGZMRDMVs",
+    "link":"https://www.skillshare.com/en/",
+    "description":"Skillshare is an online learning community offering thousands of classes across creative and entrepreneurial skills. It allows users to learn at their own pace with access to diverse topics taught by industry experts."
   }
 ]
