@@ -91,6 +91,13 @@
     "description": "Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
   },
   {
+    "productName": "GitLab",
+    "category": "tools",
+    "image": "https://www.pngfind.com/pngs/m/94-945757_gitlab-logo-hd-png-download.png",
+    "link": "https://about.gitlab.com/",
+    "description": "Web-based DevOps platform.Helps to manage the software development lifecycle. "
+  },
+  {
     "productName":"Video Compressor",
     "category":"tools",
     "image":"https://shorturl.at/mHcN2",
