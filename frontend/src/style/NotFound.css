@@ -41,7 +41,7 @@
     border: none;
     border-radius: 4px;
     font-size: 16px;
-    cursor: pointer;
+    cursor: none;
   }
   
   .not-found-button:hover {
