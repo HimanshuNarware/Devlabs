@@ -9,9 +9,9 @@ import Devlabs from "../image/hero_img.svg";
 import NavbarItem from "./Navbar/NavbarItem";
 import toast from "react-hot-toast";
 import NavbarRight from "./Navbar/NavbarRight";
-import Tilt from 'react-parallax-tilt';
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
-import 'react-loading-skeleton/dist/skeleton.css'
+import Tilt from "react-parallax-tilt";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -71,7 +71,7 @@ function Home(props) {
       }
       setTimeout(() => {
         setLoading(false);
-      }, 2000); 
+      }, 2000);
     };
 
     const fetchContributors = async () => {
@@ -253,10 +253,10 @@ function Home(props) {
           <div className="hero-text">
             <div id="hero" className="hero-container">
               <div className="hero-content">
-                <h1 className="hero-heading">
+                <div className="hero-heading">
                   <span>Welcome to</span>
                   <br /> Devlabs!
-                  <h1 className="hero-subheading">
+                  <div className="hero-subheading">
                     Discover Free Tools,
                     <br />
                     Empower Your Projects.
@@ -265,9 +265,8 @@ function Home(props) {
                       {" "}
                       -Built by open-source community
                     </span>
-                  </h1>
-                </h1>
-
+                  </div>
+                </div>
                 <div className="hero-button-container">
                   <button className="hero-button">
                     <NavbarItem description="Get Started" to="/open-source" />
@@ -286,7 +285,6 @@ function Home(props) {
         <h3> Lets Get, What You seek!</h3>
         <NavbarRight setSearchQuery={setSearchQuery} />
         <br />
-
         <div className="main" ref={ref}>
           <div className="filter-container">
             {filters.map((category) => (
@@ -312,19 +310,6 @@ function Home(props) {
                   justifyContent: "center",
                 }}
               >
-                <div
-                  style={{
-                    width: "250px",
-                    height: "300px",
-                    border: "gray solid 2px",
-                    borderRadius: "20px",
-                    padding: "40px",
-                  }}
-                >
-                  <Skeleton circle={"true"} height={90} width={90} />
-                  <Skeleton width={130} />
-                  <Skeleton count={5} />
-                </div>
                 <div
                   style={{
                     width: "250px",
