@@ -33,9 +33,9 @@
     color: rgb(0, 0, 0);
     /* I have changed color so that it is visible on website*/
     border: 2px solid #8b5cf6;
-    border-radius: 15px;
-    margin: 10px;
-    font-weight: bold;
+    border-radius: 20px;
+    margin: 12px;
+    font-weight: 600;
     font-size: 18px;
     letter-spacing: 1.5px;
 }
