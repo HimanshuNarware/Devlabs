@@ -3539,6 +3539,13 @@
     "image": "https://www.jwoc.tech/_next/static/media/jwoc-2024.652c49b8.svg",
     "link": "https://www.jwoc.tech/",
     "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
+  },
+  {
+    "productName": "Bollyflix",
+    "category": "movies",
+    "image": "https://bollyflix-cdn.store/wp-content/uploads/2023/05/Bollyflix-movies.png",
+    "link": "https://bollyflix.band/",
+    "description": "Bollyflix is a popular website to download movies, webshows, anime and much more."
   }
 
 ]
