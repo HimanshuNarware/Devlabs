@@ -133,6 +133,13 @@
     "description": "Source for free stack visuals"
   },
   {
+    "productName": "Udemy",
+    "category": "tools",
+    "image": "https://logowik.com/content/uploads/images/udemy-new-20212512.jpg",
+    "link": "https://www.udemy.com/",
+    "description": "Introductions to material you want to learn or as a refresher for something you previously knew."
+  },
+  {
     "productName": "PikaShows",
     "category": "movies",
     "image": "https://tinyurl.com/37csr8my",
