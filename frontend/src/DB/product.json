@@ -3534,11 +3534,18 @@
     "description": "A three-month-long Open-Source Program conducted every summer by the Girlscript Foundation."
   },
   {
-    "productName": "JWoC ",
+    "productName": "JWoC",
     "category": "tools",
     "image": "https://www.jwoc.tech/_next/static/media/jwoc-2024.652c49b8.svg",
     "link": "https://www.jwoc.tech/",
     "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
+  },
+  {
+    "productName": "1Flix",
+    "category": "movies",
+    "image": "https://img.1flix.to/xxrz/400x400/100/e4/ca/e4ca1fc10cda9cf762f7b51876dc917b/e4ca1fc10cda9cf762f7b51876dc917b.png",
+    "link": "https://1flix.to/",
+    "description": "1Flix is one of the most visited sites for free movie streaming."
   }
 
 ]
