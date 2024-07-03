@@ -3539,6 +3539,13 @@
     "image": "https://www.jwoc.tech/_next/static/media/jwoc-2024.652c49b8.svg",
     "link": "https://www.jwoc.tech/",
     "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
+  },
+  {
+    "productName": "Binged",
+    "category": "movies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Binge_logo.png",
+    "link": "https://binged.live/",
+    "description": "Binged is a popular website to stream movies, webshows, anime and much more."
   }
 
 ]
