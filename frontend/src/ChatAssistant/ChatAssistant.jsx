@@ -14,7 +14,6 @@ const ChatAssistant = () => {
   const toggleChatbot = () => {
     setIsOpen(!isOpen);
   };
-
   const closeChatbot = () => {
     setIsOpen(false);
   };
