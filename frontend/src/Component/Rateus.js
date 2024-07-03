@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./../style/Rateus.css";
+import "./../style/Modal.css";
 
-function RateUsComponent({ previousContent }) {
+
+function RateUsComponent({ previousContent, onClose }) {
   const [rating, setRating] = useState(0);
   const [feedback, setFeedback] = useState("");
 
@@ -30,6 +32,10 @@ function RateUsComponent({ previousContent }) {
     <>
       <div className="rate-us-page">
         <div className="rate-us-container">
+          <button className="close-buttoned" onClick={onClose}>
+            &times;
+          </button>
+
           <h2 className="rate-us-heading">Rate Our Website</h2>
           <div className="icon-rating">
             {[0, 1, 2, 3, 4].map((index) => (
