@@ -3433,10 +3433,9 @@
    "category": "extension",
    "image": "https://cdn.prod.website-files.com/635c591378332f38be25d45f/63a1152ff687d737b6b93250_Careerflow%20logo%20240x240.png",
    "link": "https://www.careerflow.ai/",
-   "description": "AI Career Copilot. Automated Job Tracking, Optimize your LinkedIn Profile, AI Resume Builder and more. Keep track of all your jobs opportunities, applications, notes, contacts, in one single dashboard."
+   "description": "AI Career Copilot. Automated Job Tracking, Optimize your LinkedIn Profile, AI Resume Builder and more. Keep track of all your jobs opportunities, applications, notes, contacts, in one single dashboard.",
     },
     {
-
     "productName": "AdobeXD",
     "category": "UI",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS80OChMU7lMUMwU7CVu4ZJl1irvee4jmFfjw&s",
@@ -3478,6 +3477,13 @@
     "link": "https://codepen.io/sdras/full/gogVRX",
     "description": "A resource to help figure out what JavaScript array method would be best to use at any given time"
   },
+  {
+    "productName": "MangaReader",
+    "category": "manga",
+    "image": "https://bit.ly/3W06WjY",
+    "link": "https://mangareader.to/",
+    "description": "MangaReader is a free manga reading site."
+},
   {
     "productName":"Babbel",
     "category":"tools",
