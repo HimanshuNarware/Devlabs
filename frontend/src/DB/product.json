@@ -3518,5 +3518,13 @@
     "image": "https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png",
     "link": "https://gssoc.girlscript.tech/",
     "description": "A three-month-long Open-Source Program conducted every summer by the Girlscript Foundation."
+  },
+  {
+    "productName": "JWoC ",
+    "category": "tools",
+    "image": "https://www.jwoc.tech/_next/static/media/jwoc-2024.652c49b8.svg",
+    "link": "https://www.jwoc.tech/",
+    "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
   }
+
 ]
