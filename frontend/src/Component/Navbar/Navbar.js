@@ -12,7 +12,7 @@ function Navbar(props) {
     <header>
       <div className="navbar">
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
-        <NavbarCenter />
+        <NavbarCenter showSideNav={showSideNav} />
         
         {/* Pass setSearchQuery directly 
         <NavbarRight setSearchQuery={props.setSearchQuery} />
