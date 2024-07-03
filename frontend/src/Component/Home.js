@@ -257,6 +257,13 @@ function Home(props) {
         <h3> Lets Get, What You seek!</h3>
         <NavbarRight setSearchQuery={setSearchQuery} />
 
+        {!loading && currentPost.length === 0 && (
+            <div className="empty-state " style={{width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
+              <img src="https://i.pinimg.com/originals/5d/35/e3/5d35e39988e3a183bdc3a9d2570d20a9.gif" height={400} width={400} alt="no post" />
+              <p>No posts found.</p>
+            </div>
+          )}
+
         <div ref={ref} className="page-container">
           <div className={loading ? "loading-container" : "main-container"}>
             {loading && (
