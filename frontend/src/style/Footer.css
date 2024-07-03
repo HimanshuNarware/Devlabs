@@ -22,7 +22,7 @@
 .ft-1 button:hover {
 	background: #a3094e;
 	color: #fff;
-	cursor: pointer;
+	cursor: none;
 }
 
 .ft-2 {
@@ -135,7 +135,7 @@ footer {
 
 	background: #a3094e;
 	color: #fff;
-	cursor: pointer;
+	cursor: none;
 }
 
 
@@ -166,7 +166,7 @@ footer {
 }
 
 .contact-link a:hover {
-	cursor: pointer;
+	cursor: none;
 	color: #474eff !important;
 	color: white;
 	transform: scale(1.1);

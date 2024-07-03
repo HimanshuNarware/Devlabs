@@ -1,15 +1,15 @@
 import React from 'react'
 import "../style/Pagination.css"
 
-const Pagination = ({ 
-  firstCardIndex, 
-  lastCardIndex, 
-  dataLength, 
-  allPagesNumbers, 
-  currentPage, 
+const Pagination = ({
+  firstCardIndex,
+  lastCardIndex,
+  dataLength,
+  allPagesNumbers,
+  currentPage,
   handlePageChange,
-  scrollPosition 
-}) => {  
+  scrollPosition
+}) => {
   return (
     <nav>
       <div className="page-index">
@@ -17,11 +17,13 @@ const Pagination = ({
       </div>
 
       <ul className="pagination">
-        <li className="page-item">
-          <a href={`#${scrollPosition}`} className="page-link" onClick={() => handlePageChange("prev")}>
-            prev
-          </a>
-        </li>
+        {(currentPage > 1) &&
+          <li className="page-item">
+            <a href={`#${scrollPosition}`} className="page-link" onClick={() => handlePageChange("prev")}>
+              prev
+            </a>
+          </li>
+        }
 
         {allPagesNumbers.map((pageNum, i) => (
           <li
@@ -34,11 +36,13 @@ const Pagination = ({
           </li>
         ))}
 
-        <li className="page-item">
-          <a href={`#${scrollPosition}`} className="page-link" onClick={() => handlePageChange("next")}>
-            next
-          </a>
-        </li>
+        {(currentPage < allPagesNumbers[allPagesNumbers.length - 1]) &&
+          <li className="page-item">
+            <a href={`#${scrollPosition}`} className="page-link" onClick={() => handlePageChange("next")}>
+              next
+            </a>
+          </li>
+        }
       </ul>
     </nav>
   )
