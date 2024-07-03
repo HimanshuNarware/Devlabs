@@ -3,7 +3,7 @@ import "../style/Movie.css";
 
 const movies = [
   {
-    title: "React Basics",
+    title: 'React Basics',
     category: "Computer Science",
     description:
       "Learn the basics of React, a powerful JavaScript library for building user interfaces.",
@@ -12,8 +12,8 @@ const movies = [
     releaseDate: "2024-09-01",
   },
   {
-    title: "Advanced React",
-    category: "Computer Science",
+    title: 'Advanced React',
+    category: 'Computer Science',
     description:
       "Dive deeper into React and learn about advanced concepts and patterns.",
     image:
@@ -58,7 +58,7 @@ const movies = [
   },
   {
     title: "Django Development",
-    category: "Computer Science",
+    category: 'Computer Science',
     description:
       "Learn how to build web applications using Django, a high-level Python web framework.",
     image:
@@ -87,15 +87,15 @@ const movies = [
 
 const Movie = () => {
   return (
-    <div className="container">
-      <h1 className="title" style={{ marginTop: "60px" }}>
+    <div className='container'>
+      <h1 className='title' style={{ marginTop: "60px" }}>
         Movies & Series
       </h1>
-      <div className="grid-container">
+      <div className='grid-container'>
         {movies.map((movie, index) => (
           <div key={index} className="grid-item">
             <img src={movie.image} alt={movie.title} className="movie-image" />
-            <h2 className="movie-title">{movie.title}</h2>
+            <h2 className='movie-title'>{movie.title}</h2>
             <p className="movie-category">{movie.category}</p>
             <p className="movie-description">{movie.description}</p>
             <p className="movie-releaseDate">
