@@ -30,9 +30,6 @@ function Home(props) {
   const firstPostIndex = lastPostIndex - postPerpage;
   const [dataBaseData, setDataBaseData] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [showPopup, setShowPopup] = useState(false);
-  const [showRemovePopup, setShowRemovePopup] = useState(false);
-  const [contributors, setContributors] = useState([]);
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
@@ -67,15 +64,7 @@ function Home(props) {
       setLoading(false);
     };
 
-    const fetchContributors = async () => {
-      const response = await axios.get(
-        "https://api.github.com/repos/HimanshuNarware/Devlabs/contributors"
-      );
-      setContributors(response.data);
-    };
-
     fetchData();
-    fetchContributors();
 
     return () => {
       window.removeEventListener("storage", handleStorageChange);
@@ -184,10 +173,6 @@ function Home(props) {
             link: datalist.link,
           })
         );
-        setShowPopup(true);
-        setTimeout(() => {
-          setShowPopup(false);
-        }, 2000);
       }
     }
     handleBookmarks();
@@ -204,10 +189,6 @@ function Home(props) {
       (bookmark) => bookmark.name !== name
     );
     localStorage.setItem("bookmarks", JSON.stringify(updatedBookmarks));
-    setShowRemovePopup(true);
-    setTimeout(() => {
-      setShowRemovePopup(false);
-    }, 2000);
     handleBookmarks();
   };
 

@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { IoReorderThree, IoClose } from "react-icons/io5";
 import "../../style/Navbar.css"
 import logo from "../../image/logo1.png";
 
