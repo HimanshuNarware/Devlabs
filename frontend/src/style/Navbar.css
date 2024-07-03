@@ -415,7 +415,7 @@
   border: 1px solid #ced4da;
   /* border-radius: 0.25rem; */
   font-weight: bold !important;
-  cursor: none;
+  cursor: pointer;
 }
 
 .false {
@@ -446,72 +446,28 @@
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   font-weight: bold !important;
-  cursor: none;
+  cursor: pointer;
 }
 
-/* Navbar.css */
-
 .navbar-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .search {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.search-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%; /* Adjust the width as needed */
-  background-color: rgb(93, 93, 93);
-  border-radius: 25px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 5px 10px;
-}
-
-.box {
-  display: flex;
-  align-items: center;
-  width: 50%;
   position: relative;
 }
 
-.input {
-  flex: 1;
-  border: none;
-  outline: none;
-  padding: 10px 10px; /* Adjust padding as needed */
-  border-radius: 25px;
-  width: 50px;
-  background-color: #fff; /* Ensure input background matches overall design */
-  color: #333; /* Ensure input text color matches overall design */
+.box {
+  position: relative;
 }
 
-.clear-button,
-.search-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-  font-size: 1.2rem;
-  color: #333;
-}
-
-.clear-button.invisible {
+.invisible {
   display: none;
 }
 
-.search-button {
-  margin-left: 10px;
-  color: #007bff; /* Change color to your preference */
+/* Ensure no underline under nav items */
+.nav-item a, .navbar-content ul li a {
+  text-decoration: none !important;
 }
