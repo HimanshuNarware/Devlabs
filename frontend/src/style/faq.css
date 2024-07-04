@@ -163,10 +163,21 @@
   from {
     height: 55px;
   }
+
   to {
     height: 140px;
   }
+  @keyframes open-animation {
+    from {
+      height: 60px;
+    }
+    to {
+      height: 60px;
+    }
+
+  
 }
+
 
 @keyframes faq__close-animation {
   from {
@@ -176,3 +187,13 @@
     height: 55px;
   }
 }
+
+  @keyframes close-animation {
+    from {
+      height: 60px;
+    }
+    to {
+      height: 60px;
+    }
+  }
+

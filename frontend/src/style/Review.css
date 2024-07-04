@@ -30,14 +30,23 @@
 .review__form-input {
     padding: 10px;
     width: 75%;
-    color: black; /* I have changed color so that it is visible on website*/
-    background: none;
+    color: black;
+    /* I have changed color so that it is visible on website*/
     border: 2px solid #8b5cf6;
     border-radius: 10px;
-    margin: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 12px;
+    letter-spacing: 1.5px;
 }
 
-.review__input-review {  /* I have added this feature so that the text area size is fixed*/
+
+  /* I have added this feature so that the text area size is fixed*/
+
+
+.input-review {
+    /* I have added this feature so that the text area size is fixed*/
+
     resize: none;
     height: 100%;
 }
@@ -50,7 +59,7 @@
     width: max-content;
     border-radius: 20px;
     background-color: #8b5cf6;
-    border:none;
+    border: none;
     transition-duration: 250ms;
     margin-top: -90px;
 }

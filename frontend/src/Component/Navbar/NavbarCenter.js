@@ -15,7 +15,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Modal, Backdrop, Box } from "@mui/material";
 
-function NavbarCenter() {
+function NavbarCenter( ) {
   const totalBookmarks =
     useSelector((state) => state.SourceReducer.totalBookmarks) || 0;
   const [isModalOpen, setIsModalOpen] = useState(false);
