@@ -10,19 +10,43 @@ import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const divStyle = {
+    color: "white",
+    backgroundColor: "black",
+    padding: "20px",
+    fontFamily: "Arial",
+    textAlign: "center",
+    animation: "colorChange 2s infinite",
+  };
   return (
     <footer>
-      <div className='Footer'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-md-6 col-lg-4 col-12 ft-1'>
-              <a href='https://www.devlabsstore.tech/'>
-                <img width={209} src={logo} alt='devlabs' />
+      <div className="Footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 col-lg-4 col-12 ft-1">
+              <a href="https://www.devlabsstore.tech/">
+                <img width={209} src={logo} alt="devlabs" />
               </a>
-              <h5>
+              <p>
+                Welcome to DevLabs, a website where you can search for free
+                tools that are useful for your daily needs. This application is
+                created by the incredible open-source community. On DevLaps, you
+                can discover a collection of free tools that can assist you in
+                various aspects of your life.{" "}
+              </p>
+              <h5 style={divStyle}>
                 Facing an issue or just <br />
                 enjoying the site?{" "}
               </h5>
+              <style>
+                {`
+          @keyframes colorChange {
+            0% { color: white; }
+            50% { color: red; }
+            100% { color: blue; }
+          }
+        `}
+              </style>
               <button>
                 <Link to="/review">Tell us now</Link>
               </button>
@@ -40,15 +64,20 @@ function Footer() {
                   <a href="https://www.devlabsstore.tech/bookmark">Bookmark</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://www.linkedin.com/in/himanshunarware/">Contact</a>
+                  <a href="https://www.linkedin.com/in/himanshunarware/">
+                    Contact
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://www.devlabsstore.tech/open-source">Open Source</a>
+                  <a href="https://www.devlabsstore.tech/open-source">
+                    Open Source
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://github.com/HimanshuNarware/Devlabs">Contribute Here</a>
+                  <a href="https://github.com/HimanshuNarware/Devlabs">
+                    Contribute Here
+                  </a>
                 </li>
-
               </ul>
             </div>
             <div className="col-md-6 col-lg-3 col-12 ft-2">
@@ -125,10 +154,7 @@ function Footer() {
                 >
                   <FaSquareXTwitter className="text-white mx-1 fs-4" />
                 </a>
-                <a
-                  href="mailto:himanshunarware77@gmail.com"
-                  rel="noreferrer"
-                >
+                <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
                   <SiGmail className="text-white mx-1 fs-4" />
                 </a>
                 <a
