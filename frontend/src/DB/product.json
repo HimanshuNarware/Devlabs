@@ -3637,6 +3637,13 @@
     "image": "https://aflcio.org/sites/default/files/2020-03/Zoom-Pro-Annually-2.jpg",
     "link": "https://zoom.us/",
     "description": "Zoom is a videoconferencing service that allows users to connect with others through video and audio calls. It supports both one-on-one calls and group meetings, and is widely used for remote work, education, and collaboration."
+},
+  {
+    "productName": "Forage",
+    "category": "remote",
+    "image": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/139/2022/05/Forage_Logo_Icon_Vert_Green_RGB.png",
+    "link": "https://www.theforage.com/",
+    "description": "A resource which helps the users to gain virtual internship experience."
   }
 
 ]
