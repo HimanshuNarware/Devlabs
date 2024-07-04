@@ -64,17 +64,33 @@
 
 .pagination {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   margin-top: 20px;
+  margin-left: 30%;
 }
 
 .pagination ul {
   list-style-type: none;
   padding: 0;
   display: flex;
-  gap: 5px;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.pagination .page-wrapper{
+  width: 500px;
+  max-width: 500px;
+  /* overflow-x: scroll; */
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: start;
+  align-items: center;
+  /* margin-left: 50px; */
+}
+
 
 .pagination li {
   display: inline;
@@ -98,6 +114,15 @@
 .pagination .active a {
   background-color: #ffb347; /* Light orange background color for active page */
   color: #333; /* Dark text color for active page */
+}
+
+.pagination .page-item-prev, .pagination .page-item-next{
+  /* position: absolute; */
+
+}
+
+.pagination .page-item-next{
+  /* margin-left: 505px; */
 }
 
 ::-webkit-scrollbar-thumb {

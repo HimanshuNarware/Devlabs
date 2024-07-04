@@ -381,23 +381,61 @@ function Home(props) {
           </div>
           <div className="pagination">
             <ul>
-              <li>
-                <a href="#!" onClick={prePage}>
-                  &lt;
-                </a>
-              </li>
-              {numbers.map((n, i) => (
-                <li key={i} className={`${currentPage === n ? "active" : ""}`}>
-                  <a href="#!" onClick={() => changeCPage(n)}>
-                    {n}
+              <div className="page-item-prev">
+                <li>
+                  <a href="#!" onClick={prePage}>
+                    &lt;
                   </a>
                 </li>
-              ))}
-              <li>
-                <a href="#!" onClick={nextPage}>
-                  &gt;
-                </a>
-              </li>
+              </div>
+              <div className="page-wrapper">
+                {numbers.map((n, i) => {
+                  // Calculate range of visible page numbers around current page
+                  const start = Math.max(1, currentPage - 4); 
+                  const end = Math.min(npage, start + 8); 
+
+                  // Show ellipsis if start is greater than 1
+                  if (start > 1 && i === 1) {
+                    return (
+                      <li key={i}>
+                        <span>...</span>
+                      </li>
+                    );
+                  }
+
+                  // Show ellipsis if end is less than npage
+                  if (end < npage && i === numbers.length - 1) {
+                    return (
+                      <li key={i}>
+                        <span>...</span>
+                      </li>
+                    );
+                  }
+
+                  // Display the page number if within the visible range
+                  if (n >= start && n <= end) {
+                    return (
+                      <li
+                        key={i}
+                        className={`${currentPage === n ? "active" : ""}`}
+                      >
+                        <a href="#!" onClick={() => changeCPage(n)}>
+                          {n}
+                        </a>
+                      </li>
+                    );
+                  }
+
+                  return null; // Hide pages outside the visible range
+                })}
+              </div>
+              <div className="page-item-next">
+                <li>
+                  <a href="#!" onClick={nextPage}>
+                    &gt;
+                  </a>
+                </li>
+              </div>
             </ul>
           </div>
         </div>
