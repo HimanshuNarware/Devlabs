@@ -24,8 +24,6 @@ function Home(props) {
     });
   }
 
-  const [selectedFilters, setSelectedFilters] = useState([]);
-  const [filteredItems, setFilteredItems] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
   const lastPostIndex = currentPage * postPerpage;
@@ -194,34 +192,6 @@ function Home(props) {
     handleBookmarks();
   };
 
-  const filters = ["AI", "Ethical", "Extensions", "Web", "Movies", "Remote", "Resume", "UI", "Coding", "Course", "Tools"];
-
-  const handleFilterButtonClick = (selectedCategory) => {
-    if (selectedFilters.includes(selectedCategory)) {
-      setSelectedFilters([]);
-    } else {
-      setSelectedFilters([selectedCategory]);
-    }
-  };
-
-  useEffect(() => {
-    filterItems();
-  }, [selectedFilters]);
-
-  const filterItems = () => {
-    if (selectedFilters.length > 0) {
-      const tempItems = selectedFilters.map((selectedCategory) =>
-        jsonTools.filter(
-          (jsonTool) =>
-            jsonTool.category.toLowerCase() === selectedCategory.toLowerCase()
-        )
-      );
-      setFilteredItems(tempItems.flat());
-    } else {
-      setFilteredItems([...jsonTools]);
-    }
-  };
-
   return (
     <div>
       <div className="hero">
@@ -256,19 +226,6 @@ function Home(props) {
         </div>
       </div>
       <div ref={ref} className="page-container">
-        <div className="filter-container">
-          {filters.map((category) => (
-            <button
-              key={category}
-              className={`filter-button ${
-                selectedFilters.includes(category) ? "active_filter" : ""
-              }`}
-              onClick={() => handleFilterButtonClick(category)}
-            >
-              {category}
-            </button>
-          ))}
-        </div>
         <div className={loading ? "loading-container" : "main-container"}>
           <ClipLoader
             color="#808080"
@@ -278,8 +235,8 @@ function Home(props) {
             data-testid="loader"
           />
 
-          {filteredItems.length > 0 ? (
-            filteredItems.map((datalist) => (
+          {currentPost.map((datalist) => {
+            return (
               <div className="content-box-home" key={datalist.productName}>
                 <img
                   className="logo"
@@ -294,13 +251,17 @@ function Home(props) {
                 >
                   Link
                 </button>
-                {bookmarks?.some((item) => item.name === datalist.productName) ? (
-                  <button
-                    className="btn-booked-box"
-                    onClick={() => handleDeleteBookmark(datalist.productName)}
-                  >
-                    Remove
-                  </button>
+                {bookmarks?.some((item) =>
+                  item.name.includes(datalist.productName)
+                ) ? (
+                  <>
+                    <button
+                      className="btn-booked-box"
+                      onClick={() => handleDeleteBookmark(datalist.productName)}
+                    >
+                      Remove
+                    </button>
+                  </>
                 ) : (
                   <button
                     className="btn-b-box"
@@ -310,12 +271,9 @@ function Home(props) {
                   </button>
                 )}
               </div>
-            ))
-          ) : (
-            <p>No items found.</p>
-          )}
+            );
+          })}
         </div>
-
         <div className="pagination">
           <ul>
             <li>
