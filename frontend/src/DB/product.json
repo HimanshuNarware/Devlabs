@@ -3633,6 +3633,14 @@
   },
   {
 
+    "productName": "Supabase",
+    "category": "tools",
+    "image": "https://shorturl.at/4hhFI",
+    "link": "https://supabase.com/",
+    "description": "Supabase is an open source Firebase alternative."
+  },
+
+{
   "productName": "Leonardo AI",
   "category": "Tool",
   "image": "https://user-images.githubusercontent.com/6267663/230025738-42a4980e-a5ea-4d00-a591-65e8de14de85.png",
