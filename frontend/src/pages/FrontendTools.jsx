@@ -14,6 +14,12 @@ const tools = [
   { name: "Bulma", description: "Bulma is a free, open source framework that provides ready-to-use frontend components ", link: "https://bulma.io/", image: "https://i.pinimg.com/564x/d7/5e/98/d75e986f0e4d9bcb4d11dacd4556fd40.jpg" },
   { name: "Foundation", description: "Foundation is a free, open source framework that provides ready-to-use frontend components and css classes for the direct use  ", link: "https://get.foundation/", image: "https://i.pinimg.com/236x/e7/77/1a/e7771ae79843be99e0cdacefd1c561ac.jpg" },
   {
+    name: "Grommet",
+    description: "A React-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package.",
+    link: "https://v2.grommet.io/",
+    image: "https://i.ibb.co/6RrD7hw/Screenshot-2024-06-29-131941.png"
+  },
+  {
     name: "Ant Design",
     description: "A design system for enterprise-level products, offering a set of high-quality React components out of the box.",
     link: "https://ant.design/",
