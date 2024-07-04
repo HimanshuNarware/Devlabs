@@ -3513,6 +3513,13 @@
     "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question."
   },
   {
+    "productName":"Edabit",
+    "category":"course",
+    "image":"https://s3.amazonaws.com/edabit-images/logo_wide_large.png",
+    "link":"https://edabit.com/",
+    "description":"Edabit is a learning platform designed to improve coding skills through interactive challenges across various programming languages. It emphasizes hands-on practice and problem-solving techniques to enhance programming proficiency."
+  },
+  {
     "productName":"skill share",
     "category":"tool",
     "image":"https://play-lh.googleusercontent.com/Lfh8g5kPONfSNL7R4s8itnMMdj3lhmHU9tb4gp7eoOaXkJo0dOcwB6iWPdNGZMRDMVs",
