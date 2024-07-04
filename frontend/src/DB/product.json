@@ -3630,6 +3630,13 @@
     "image": "https://bollyflix-cdn.store/wp-content/uploads/2023/05/Bollyflix-movies.png",
     "link": "https://bollyflix.band/",
     "description": "Bollyflix is a popular website to download movies, webshows, anime and much more."
+  },
+  {
+    "productName": "Forage",
+    "category": "remote",
+    "image": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/139/2022/05/Forage_Logo_Icon_Vert_Green_RGB.png",
+    "link": "https://www.theforage.com/",
+    "description": "A resource which helps the users to gain virtual internship experience."
   }
 
 ]
