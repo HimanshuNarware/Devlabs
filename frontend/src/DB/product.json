@@ -3576,12 +3576,19 @@
     "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
   },
   {
+    "productName": "123Movies ",
+    "category": "movies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Movies_123movies.png",
+    "link": "https://ww4.123moviesfree.net/",
+    "description": "123Movies is a popular website to stream movies, webshows, anime and much more."
+  },
+  {
     "productName": "HiAnime ",
     "category": "anime",
     "image": "https://hianime.to/images/logo.png",
     "link": "https://hianime.to/",
     "description": "HiAnime is a very popular free site to watch anime."
-    {,
+  },
     {
     "productName": "Bollyflix",
     "category": "movies",
