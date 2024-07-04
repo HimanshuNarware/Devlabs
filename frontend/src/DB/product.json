@@ -3632,6 +3632,14 @@
     "description": "Bollyflix is a popular website to download movies, webshows, anime and much more."
   },
   {
+
+  "productName": "Sharly",
+  "category": "Tool",
+  "image": "https://atai-main.b-cdn.net/tools/sharly-ai-icon.jpeg",
+  "link": "https://sharly.ai/",
+  "description": "Sharly is a tool which helps you to chat with PDF documents and more."
+},
+{
     "productName": "Zoom",
     "category": "tools",
     "image": "https://aflcio.org/sites/default/files/2020-03/Zoom-Pro-Annually-2.jpg",
