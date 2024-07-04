@@ -18,6 +18,12 @@ const tools = [
     description: "A React-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package.",
     link: "https://v2.grommet.io/",
     image: "https://i.ibb.co/6RrD7hw/Screenshot-2024-06-29-131941.png"
+  },
+  {
+    name: "Sass",
+    description: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
+    link: "https://sass-lang.com/",
+    image: "https://shorturl.at/CYiF9"
   }
 ];
 
