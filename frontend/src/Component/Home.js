@@ -8,6 +8,10 @@ import "../style/Home.css";
 import Devlabs from "../image/hero_img.svg";
 import NavbarItem from "./Navbar/NavbarItem";
 import toast from "react-hot-toast";
+import NavbarRight from "./Navbar/NavbarRight";
+import Tilt from 'react-parallax-tilt';
+import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -26,12 +30,18 @@ function Home(props) {
     }
   }, [props.searchQuery]);
 
+  const [selectedFilters, setSelectedFilters] = useState([]);
+  const [filteredItems, setFilteredItems] = useState(jsonTools);
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
   const lastPostIndex = currentPage * postPerpage;
   const firstPostIndex = lastPostIndex - postPerpage;
   const [dataBaseData, setDataBaseData] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
+  const [showRemovePopup, setShowRemovePopup] = useState(false);
+  const [contributors, setContributors] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
@@ -64,10 +74,20 @@ function Home(props) {
         console.error(error);
         setDataBaseData(jsonTools);
       }
-      setLoading(false);
+      setTimeout(() => {
+        setLoading(false);
+      }, 2000); 
+    };
+
+    const fetchContributors = async () => {
+      const response = await axios.get(
+        "https://api.github.com/repos/HimanshuNarware/Devlabs/contributors"
+      );
+      setContributors(response.data);
     };
 
     fetchData();
+    fetchContributors();
 
     return () => {
       window.removeEventListener("storage", handleStorageChange);
@@ -145,6 +165,42 @@ function Home(props) {
       );
     } else {
       toast.error("Already bookmarked");
+      let found = false;
+      for (let item of bookmarks) {
+        if (item.name === datalist.productName) {
+          found = true;
+          break;
+        }
+      }
+
+      if (!found) {
+        localStorage.setItem(
+          "bookmarks",
+          JSON.stringify([
+            ...bookmarks,
+            {
+              image: datalist.image,
+              name: datalist.productName,
+              desc: datalist.description,
+              link: datalist.link,
+            },
+          ])
+        );
+        toast.success("Bookmark added successfully");
+
+        dispatch(
+          setSource({
+            image: datalist.image,
+            name: datalist.productName,
+            desc: datalist.description,
+            link: datalist.link,
+          })
+        );
+        setShowPopup(true);
+        setTimeout(() => {
+          setShowPopup(false);
+        }, 2000);
+      }
     }
     handleBookmarks();
   };
@@ -160,38 +216,74 @@ function Home(props) {
       (bookmark) => bookmark.name !== name
     );
     localStorage.setItem("bookmarks", JSON.stringify(updatedBookmarks));
+    setShowRemovePopup(true);
+    setTimeout(() => {
+      setShowRemovePopup(false);
+    }, 2000);
     handleBookmarks();
   };
 
-  return (
-    <div>
-      <div className="hero">
-        <div className="hero-text">
-          <div id="hero" className="hero-container">
-            <div className="hero-content">
-              <h1 className="hero-heading">
-                <span>Welcome to</span>
-                <br /> Devlabs!
-                <h1 className="hero-subheading">
-                  Discover Free Tools,
-                  <br />
-                  Empower Your Projects.
-                  <br />
-                  <span className="hero-end">
-                    {" "}
-                    -Built by open-source community
-                  </span>
-                </h1>
-              </h1>
+  const filters = ["AI", "Ethical", "Extensions", "Web", "Movies", "Remote", "Resume", "UI", "Coding", "Course", "Tools"];
 
-              <div className="hero-button-container">
-                <button className="hero-button">
-                  <NavbarItem description="Get Started" to="/open-source" />
-                </button>
+  const handleFilterButtonClick = (selectedCategory) => {
+    if (selectedFilters.includes(selectedCategory)) {
+      setSelectedFilters([]);
+    } else {
+      setSelectedFilters([selectedCategory]);
+    }
+  };
+
+  useEffect(() => {
+    filterItems();
+  }, [selectedFilters]);
+
+  const filterItems = () => {
+    if (selectedFilters.length > 0) {
+      const tempItems = selectedFilters.map((selectedCategory) =>
+        jsonTools.filter(
+          (jsonTool) =>
+            jsonTool.category.toLowerCase() === selectedCategory.toLowerCase()
+        )
+      );
+      setFilteredItems(tempItems.flat());
+    } else {
+      setFilteredItems([...jsonTools]);
+    }
+  };
+
+  return (
+    <SkeletonTheme>
+      <div>
+        <div className="hero">
+          <div className="hero-text">
+            <div id="hero" className="hero-container">
+              <div className="hero-content">
+                <h1 className="hero-heading">
+                  <span>Welcome to</span>
+                  <br /> Devlabs!
+                  <h1 className="hero-subheading">
+                    Discover Free Tools,
+                    <br />
+                    Empower Your Projects.
+                    <br />
+                    <span className="hero-end">
+                      {" "}
+                      -Built by open-source community
+                    </span>
+                  </h1>
+                </h1>
+
+                <div className="hero-button-container">
+                  <button className="hero-button">
+                    <NavbarItem description="Get Started" to="/open-source" />
+                  </button>
+                </div>
               </div>
-            </div>
-            <div className="hero-image">
-              <img src={Devlabs} alt="devlabs-removebg-preview" />
+              <div className="hero-image">
+                <Tilt>
+                  <img src={Devlabs} alt="devlabs-removebg-preview" />
+                </Tilt>
+              </div>
             </div>
           </div>
         </div>
@@ -226,10 +318,106 @@ function Home(props) {
               <p>No posts found.</p>
             </div>
           )}
+        <br />
+        <h3> Lets Get, What You seek!</h3>
+        <NavbarRight setSearchQuery={setSearchQuery} />
+        <br />
 
-          <div ref={ref} className="page-container">
-            <div className={loading ? "loading-container" : "main-container"}>
-              {currentPost.map((datalist) => {
+        <div className="main" ref={ref}>
+          <div className="filter-container">
+            {filters.map((category) => (
+              <button
+                key={category}
+                className={`filter-button ${
+                  selectedFilters.includes(category) ? "active_filter" : ""
+                }`}
+                onClick={() => handleFilterButtonClick(category)}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
+          <div className={loading ? "loading-container" : "main-container"}>
+            {loading && (
+              <div
+                style={{
+                  display: "flex",
+                  gap: "100px",
+                  width: "100vw",
+                  height: "300px",
+                  justifyContent: "center",
+                }}
+              >
+                <div
+                  style={{
+                    width: "250px",
+                    height: "300px",
+                    border: "gray solid 2px",
+                    borderRadius: "20px",
+                    padding: "40px",
+                  }}
+                >
+                  <Skeleton circle={"true"} height={90} width={90} />
+                  <Skeleton width={130} />
+                  <Skeleton count={5} />
+                </div>
+                <div
+                  style={{
+                    width: "250px",
+                    height: "300px",
+                    border: "gray solid 2px",
+                    borderRadius: "20px",
+                    padding: "40px",
+                  }}
+                >
+                  <Skeleton circle={"true"} height={90} width={90} />
+                  <Skeleton width={130} />
+                  <Skeleton count={5} />
+                </div>
+                <div
+                  style={{
+                    width: "250px",
+                    height: "300px",
+                    border: "gray solid 2px",
+                    borderRadius: "20px",
+                    padding: "40px",
+                  }}
+                >
+                  <Skeleton circle={"true"} height={90} width={90} />
+                  <Skeleton width={130} />
+                  <Skeleton count={5} />
+                </div>
+                <div
+                  style={{
+                    width: "250px",
+                    height: "300px",
+                    border: "gray solid 2px",
+                    borderRadius: "20px",
+                    padding: "40px",
+                  }}
+                >
+                  <Skeleton circle={"true"} height={90} width={90} />
+                  <Skeleton width={130} />
+                  <Skeleton count={5} />
+                </div>
+                <div
+                  style={{
+                    width: "250px",
+                    height: "300px",
+                    border: "gray solid 2px",
+                    borderRadius: "20px",
+                    padding: "40px",
+                  }}
+                >
+                  <Skeleton circle={"true"} height={90} width={90} />
+                  <Skeleton width={130} />
+                  <Skeleton count={5} />
+                </div>
+              </div>
+            )}
+
+            {!loading &&
+              filteredItems.slice(firstPostIndex, lastPostIndex).map((datalist) => {
                 return (
                   <div className="content-box-home" key={datalist.productName}>
                     <img
@@ -248,12 +436,14 @@ function Home(props) {
                     {bookmarks?.some((item) =>
                       item.name.includes(datalist.productName)
                     ) ? (
-                      <button
-                        className="btn-booked-box"
-                        onClick={() => handleDeleteBookmark(datalist.productName)}
-                      >
-                        Remove
-                      </button>
+                      <>
+                        <button
+                          className="btn-booked-box"
+                          onClick={() => handleDeleteBookmark(datalist.productName)}
+                        >
+                          Remove
+                        </button>
+                      </>
                     ) : (
                       <button
                         className="btn-b-box"
@@ -265,32 +455,31 @@ function Home(props) {
                   </div>
                 );
               })}
-            </div>
-            <div className="pagination">
-              <ul>
-                <li>
-                  <a href="#!" onClick={prePage}>
-                    &lt;
+          </div>
+          <div className="pagination">
+            <ul>
+              <li>
+                <a href="#!" onClick={prePage}>
+                  &lt;
+                </a>
+              </li>
+              {numbers.map((n, i) => (
+                <li key={i} className={`${currentPage === n ? "active" : ""}`}>
+                  <a href="#!" onClick={() => changeCPage(n)}>
+                    {n}
                   </a>
                 </li>
-                {numbers.map((n, i) => (
-                  <li key={i} className={`${currentPage === n ? "active" : ""}`}>
-                    <a href="#!" onClick={() => changeCPage(n)}>
-                      {n}
-                    </a>
-                  </li>
-                ))}
-                <li>
-                  <a href="#!" onClick={nextPage}>
-                    &gt;
-                  </a>
-                </li>
-              </ul>
-            </div>
+              ))}
+              <li>
+                <a href="#!" onClick={nextPage}>
+                  &gt;
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
+    </SkeletonTheme>
   );
 }
 
