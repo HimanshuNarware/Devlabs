@@ -3590,6 +3590,13 @@
     "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
   },
   {
+    "productName": "Binged",
+    "category": "movies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Binge_logo.png",
+    "link": "https://binged.live/",
+    "description": "Binged is a popular website to stream movies, webshows, anime and much more."
+  },
+  {
     "productName": "1Flix",
     "category": "movies",
     "image": "https://img.1flix.to/xxrz/400x400/100/e4/ca/e4ca1fc10cda9cf762f7b51876dc917b/e4ca1fc10cda9cf762f7b51876dc917b.png",
