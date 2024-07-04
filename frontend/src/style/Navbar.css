@@ -34,13 +34,13 @@
   flex-grow: 1; /* Allow items to stretch */
   text-align: center;
   text-decoration: none; /* Ensures no underline */
-  margin: 0 15px; /* Add space between items */
+  margin: 0 16px; /* Add space between items */
 }
 
 
 .logo-img {
   width: 150px;
-  margin-right: auto; /* Move the logo to the left */
+  margin-right: auto !important; /* Move the logo to the left */
 }
 .navbar-content li {
   list-style: none;
@@ -91,7 +91,7 @@
 .navbar-left {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 5px;
   animation: slideLeft 1s ease forwards;
 }
@@ -188,7 +188,7 @@
 
 .navbar-content ul li a.active {
   color: white;
-  background-color: green;
+  background-color: rgb(0, 128, 0);
 }
 
 .nav-item {
@@ -205,26 +205,25 @@
   height: 92%;
   background-color: #8b5cf6;
   position: fixed;
-  top: 4.4rem;
-  z-index: 3;
+  top: 4.6rem;
+  z-index: 4;
   display: flex;
   flex-direction: column;
   font-size: 1.4rem;
   overflow-y: scroll;
   transition: width 0.3s;
-  z-index: 4;
 }
 
 .nav-item::before {
   content: "";
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   left: 50%;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
   width: 0;
   height: 2px;
   background-color: black;
-  transition: width 0.2s ease-in-out;
+  /* transition: width 0.2s ease-in-out; */
 }
 
 .sidebar.active {
@@ -234,7 +233,7 @@
 .sidebar-content {
   border-bottom: 1px solid rgb(2, 27, 43);
   font-weight: 500;
-  transform: translateY(40px);
+  /* transform: translateY(40px); */
   opacity: 0;
   transition: transform 0.5s, opacity 0.5s;
   transition-delay: 0.2s;
@@ -475,3 +474,4 @@
 .nav-item a, .navbar-content ul li a {
   text-decoration: none !important;
 }
+

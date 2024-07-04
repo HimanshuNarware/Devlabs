@@ -147,18 +147,18 @@
   }
   @keyframes open-animation {
     from {
-      height: 55px;
+      height: 60px;
     }
     to {
-      height: 140px;
+      height: 60px;
     }
   }
 
   @keyframes close-animation {
     from {
-      height: 140px;
+      height: 60px;
     }
     to {
-      height: 55px;
+      height: 60px;
     }
   }
