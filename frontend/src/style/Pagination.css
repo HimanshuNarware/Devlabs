@@ -1,0 +1,32 @@
+nav {
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.active>.page-link{
+  z-index: 0;
+}
+
+nav .pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+  margin-left: 0px;
+}
+
+nav .pagination .page-item.disabled {
+  display: none; 
+}
+
+@media screen and (max-width: 1124px) {
+  .pagination {
+    overflow-x: scroll;
+    padding-bottom: 5px;
+    width: 100%;
+    white-space: nowrap;
+    scroll-padding: 0;
+    /* justify-content: flex-start; */
+  }
+}

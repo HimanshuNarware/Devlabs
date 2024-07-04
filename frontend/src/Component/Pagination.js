@@ -1,0 +1,51 @@
+import React from 'react'
+import "../style/Pagination.css"
+
+const Pagination = ({
+  firstCardIndex,
+  lastCardIndex,
+  dataLength,
+  allPagesNumbers,
+  currentPage,
+  handlePageChange,
+  scrollPosition
+}) => {
+  return (
+    <nav>
+      <div className="page-index">
+        Showing {firstCardIndex + 1}-{lastCardIndex} from {dataLength} results
+      </div>
+
+      <ul className="pagination">
+        {(currentPage > 1) &&
+          <li className="page-item-prev">
+            <a href={`#${scrollPosition}`} className="page-link" onClick={() => handlePageChange("prev")}>
+              prev
+            </a>
+          </li>
+        }
+
+        {allPagesNumbers.map((pageNum, i) => (
+          <li
+            className={`page-item ${currentPage === pageNum ? "active" : ""}`}
+            key={`li-${i}`}
+          >
+            <a href={`#${scrollPosition}`} className="page-link" onClick={() => handlePageChange(pageNum)}>
+              {pageNum}
+            </a>
+          </li>
+        ))}
+
+        {(currentPage < allPagesNumbers[allPagesNumbers.length - 1]) &&
+          <li className="page-item-next">
+            <a href={`#${scrollPosition}`} className="page-link" onClick={() => handlePageChange("next")}>
+              next
+            </a>
+          </li>
+        }
+      </ul>
+    </nav>
+  )
+}
+
+export default Pagination
