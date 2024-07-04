@@ -167,6 +167,7 @@
   to {
     height: 140px;
   }
+}
   @keyframes open-animation {
     from {
       height: 60px;
