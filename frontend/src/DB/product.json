@@ -3478,6 +3478,27 @@
     "description": "A resource to help figure out what JavaScript array method would be best to use at any given time"
   },
   {
+    "productName": "Stability AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.R081QSlB2eVp1pFiLI7e6QHaEK?rs=1&pid=ImgDetMain",
+    "link": "https://stability.ai/",
+    "description": "Stability AI is a trailblazer in artificial intelligence (AI), known for its groundbreaking open-source generative AI tools that are transforming the world of technology."
+  },
+  {
+    "productName": "Runaway",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.IlqsmwRgRmUm5eZbmcDZ-gAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://runwayml.com/",
+    "description": "Runway is an applied AI research company shaping the next era of art, entertainment and human creativity."
+  },
+  {
+    "productName": "Video DownloadHelper",
+    "category": "tools",
+    "image": "https://lh3.googleusercontent.com/iUmZFfH0L0eydAiFWVuQMbcyiUx32X4aiy8mGinrOyTD0y2sOc_jkbi97Q4gCz7Z9hqP5Yl41lRJYLdLaG-SGDaK=s60",
+    "link": "https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk",
+    "description": "Download HD videos from the web. Easy, smart, no tracking. 1000+ websites supported. Extract audio from videos"
+  },
+  {
     "productName": "MLWBD",
     "category": "tools",
     "image": "https://th.bing.com/th?id=OIP.y5pyu00sTavOQaTxoSpDtQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
@@ -3513,6 +3534,13 @@
     "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question."
   },
   {
+    "productName":"Edabit",
+    "category":"course",
+    "image":"https://s3.amazonaws.com/edabit-images/logo_wide_large.png",
+    "link":"https://edabit.com/",
+    "description":"Edabit is a learning platform designed to improve coding skills through interactive challenges across various programming languages. It emphasizes hands-on practice and problem-solving techniques to enhance programming proficiency."
+  },
+  {
     "productName":"skill share",
     "category":"tool",
     "image":"https://play-lh.googleusercontent.com/Lfh8g5kPONfSNL7R4s8itnMMdj3lhmHU9tb4gp7eoOaXkJo0dOcwB6iWPdNGZMRDMVs",
@@ -3546,6 +3574,13 @@
     "image": "https://hianime.to/images/logo.png",
     "link": "https://hianime.to/",
     "description": "HiAnime is a very popular free site to watch anime."
+    {,
+    {
+    "productName": "Bollyflix",
+    "category": "movies",
+    "image": "https://bollyflix-cdn.store/wp-content/uploads/2023/05/Bollyflix-movies.png",
+    "link": "https://bollyflix.band/",
+    "description": "Bollyflix is a popular website to download movies, webshows, anime and much more."
   }
 
 ]
