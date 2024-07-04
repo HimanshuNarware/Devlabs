@@ -3428,15 +3428,14 @@
 		"link": "https://www.jasper.ai/",
 		"description": "Jasper AI is an advanced AI-powered writing assistant that helps you create high-quality content quickly and efficiently. It leverages natural language processing to generate articles, blog posts, marketing copy, and more, providing creative assistance and saving you time on writing tasks."
 		},
-    {
+  {
    "productName": "Careerflow Ai",
    "category": "extension",
    "image": "https://cdn.prod.website-files.com/635c591378332f38be25d45f/63a1152ff687d737b6b93250_Careerflow%20logo%20240x240.png",
    "link": "https://www.careerflow.ai/",
    "description": "AI Career Copilot. Automated Job Tracking, Optimize your LinkedIn Profile, AI Resume Builder and more. Keep track of all your jobs opportunities, applications, notes, contacts, in one single dashboard."
     },
-    {
-
+  {
     "productName": "AdobeXD",
     "category": "UI",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS80OChMU7lMUMwU7CVu4ZJl1irvee4jmFfjw&s",
@@ -3484,5 +3483,83 @@
     "image": "https://th.bing.com/th/id/OIP.IlqsmwRgRmUm5eZbmcDZ-gAAAA?rs=1&pid=ImgDetMain",
     "link": "https://runwayml.com/",
     "description": "Runway is an applied AI research company shaping the next era of art, entertainment and human creativity."
+  },
+  {
+    "productName": "Video DownloadHelper",
+    "category": "tools",
+    "image": "https://lh3.googleusercontent.com/iUmZFfH0L0eydAiFWVuQMbcyiUx32X4aiy8mGinrOyTD0y2sOc_jkbi97Q4gCz7Z9hqP5Yl41lRJYLdLaG-SGDaK=s60",
+    "link": "https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk",
+    "description": "Download HD videos from the web. Easy, smart, no tracking. 1000+ websites supported. Extract audio from videos"
+  },
+  {
+    "productName": "MLWBD",
+    "category": "tools",
+    "image": "https://th.bing.com/th?id=OIP.y5pyu00sTavOQaTxoSpDtQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    "link": "https://mlwbd.international",
+    "description": "A resource for watching and downloading movies online for free."
+  },
+  {
+    "productName": "MangaReader",
+    "category": "manga",
+    "image": "https://bit.ly/3W06WjY",
+    "link": "https://mangareader.to/",
+    "description": "MangaReader is a free manga reading site."
+},
+  {
+    "productName":"Babbel",
+    "category":"tools",
+    "image":"https://i.pcmag.com/imagery/reviews/04R5bOdZzEXHXXUx5tZz4lr-5..v1569480104.png",
+    "link":"https://www.babbel.com/",
+    "description":"Babbel is a language learning app that offers interactive courses designed for practical language skills. It focuses on real-life conversations and cultural insights to help learners quickly grasp and apply new languages."
+},
+  {
+    "productName":"Google colab",
+    "category":"tools",
+    "image":"https://colab.research.google.com/img/colab_favicon_256px.png",
+    "link":"https://colab.research.google.com/",
+    "description":"A cloud-based platform for running Python code, particularly suited for machine learning and deep learning."
+  },
+  {
+    "productName": "Perplexity AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.j_46DDENRisOFr1rg6LiOAHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.perplexity.ai/",
+    "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question."
+  },
+  {
+    "productName":"Edabit",
+    "category":"course",
+    "image":"https://s3.amazonaws.com/edabit-images/logo_wide_large.png",
+    "link":"https://edabit.com/",
+    "description":"Edabit is a learning platform designed to improve coding skills through interactive challenges across various programming languages. It emphasizes hands-on practice and problem-solving techniques to enhance programming proficiency."
+  },
+  {
+    "productName":"skill share",
+    "category":"tool",
+    "image":"https://play-lh.googleusercontent.com/Lfh8g5kPONfSNL7R4s8itnMMdj3lhmHU9tb4gp7eoOaXkJo0dOcwB6iWPdNGZMRDMVs",
+    "link":"https://www.skillshare.com/en/",
+    "description":"Skillshare is an online learning community offering thousands of classes across creative and entrepreneurial skills. It allows users to learn at their own pace with access to diverse topics taught by industry experts."
+  },
+  {
+    "productName":"Linkedin learning",
+    "category":"course",
+    "image":"https://media.licdn.com/dms/image/C4E0DAQEdAUx9nzmdGA/learning-public-crop_288_512/0/1593629654087?e=2147483647&v=beta&t=Scnqlh_Efb6Yx8irsul5fsLvkP7XfKkzzoqUSY9Bb4w",
+    "link":"https://learning.linkedin.com/cx/get-started?src=go-pa&trk=sem-ga_campid.9764329640_asid.102279866120_crid.428931010987_kw.linkedin%20learning_d.c_tid.kwd-310582843911_n.g_mt.e_geo.9147463&mcid=6841855808129646768&cid=&gad_source=1&gclid=CjwKCAjwyo60BhBiEiwAHmVLJXVFj-Dy-UoF2qV385kNqUO9PxhVNcXWQmhu8tmt_Q_f357zzgxF5BoCEroQAvD_BwE&gclsrc=aw.ds",
+    "description":"LinkedIn Learning, formerly known as Lynda.com, provides a vast library of online courses covering business, technology, and creative skills. It offers personalized learning paths and certificates, tailored to enhance professional development and career growth."
+},
+  {
+    "productName": "GSSoC",
+    "category": "tools",
+    "image": "https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png",
+    "link": "https://gssoc.girlscript.tech/",
+    "description": "A three-month-long Open-Source Program conducted every summer by the Girlscript Foundation."
+  },
+  {
+    "productName": "JWoC ",
+    "category": "tools",
+    "image": "https://www.jwoc.tech/_next/static/media/jwoc-2024.652c49b8.svg",
+    "link": "https://www.jwoc.tech/",
+    "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
   }
+
 ]
