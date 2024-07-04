@@ -22,6 +22,7 @@ function Home(props) {
   );
   const ref = useRef(null);
 
+
   useEffect(() => {
     if (props.searchQuery !== "") {
       ref.current?.scrollIntoView({
@@ -287,16 +288,10 @@ function Home(props) {
             </div>
           </div>
         </div>
-      </div>
-      <div ref={ref} className="page-container">
-        <div className={loading ? "loading-container" : "main-container"}>
-          <ClipLoader
-            color="#808080"
-            loading={loading}
-            size={50}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-          />
+        <br />
+        <h3> Lets Get, What You seek!</h3>
+        <NavbarRight setSearchQuery={setSearchQuery} />
+        <br />
 
           {!loading && currentPost.length === 0 && (
             <div
@@ -318,11 +313,8 @@ function Home(props) {
               <p>No posts found.</p>
             </div>
           )}
-        <br />
-        <h3> Lets Get, What You seek!</h3>
-        <NavbarRight setSearchQuery={setSearchQuery} />
-        <br />
 
+  
         <div className="main" ref={ref}>
           <div className="filter-container">
             {filters.map((category) => (
