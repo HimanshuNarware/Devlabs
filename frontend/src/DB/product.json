@@ -3633,6 +3633,14 @@
   },
   {
 
+  "productName": "Leonardo AI",
+  "category": "Tool",
+  "image": "https://user-images.githubusercontent.com/6267663/230025738-42a4980e-a5ea-4d00-a591-65e8de14de85.png",
+  "link": "https://leonardo.ai/",
+  "description": "Leonardo.ai is a free image creation tool that uses generative AI to create images on demand. Users can enter text and image prompts to generate multiple images at once."
+},
+
+{
   "productName": "Sharly",
   "category": "Tool",
   "image": "https://atai-main.b-cdn.net/tools/sharly-ai-icon.jpeg",
@@ -3653,5 +3661,6 @@
     "link": "https://www.theforage.com/",
     "description": "A resource which helps the users to gain virtual internship experience."
   }
+
 
 ]
