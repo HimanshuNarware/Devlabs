@@ -3630,6 +3630,12 @@
     "image": "https://bollyflix-cdn.store/wp-content/uploads/2023/05/Bollyflix-movies.png",
     "link": "https://bollyflix.band/",
     "description": "Bollyflix is a popular website to download movies, webshows, anime and much more."
+  },
+  {
+    "productName": "Supabase",
+    "category": "tools",
+    "image": "https://shorturl.at/4hhFI",
+    "link": "https://supabase.com/",
+    "description": "Supabase is an open source Firebase alternative."
   }
-
 ]
