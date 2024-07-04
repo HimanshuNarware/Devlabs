@@ -3630,6 +3630,13 @@
     "image": "https://bollyflix-cdn.store/wp-content/uploads/2023/05/Bollyflix-movies.png",
     "link": "https://bollyflix.band/",
     "description": "Bollyflix is a popular website to download movies, webshows, anime and much more."
-  }
+  },
+  {
+  "productName": "Sharly",
+  "category": "Tool",
+  "image": "https://atai-main.b-cdn.net/tools/sharly-ai-icon.jpeg",
+  "link": "https://sharly.ai/",
+  "description": "Sharly is a tool which helps you to chat with PDF documents and more."
+}
 
 ]
