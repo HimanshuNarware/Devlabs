@@ -7,7 +7,6 @@ import ActionProvider from "../ChatBot/ActionProvider";
 import "./ChatAssistant.css";
 import chatbotLogo from "../assets/chatbotLogo.jpeg";
 import chatbotLogo1 from "../assets/logo1.png";
-
 const ChatAssistant = () => {
   const [isOpen, setIsOpen] = useState(false);
 
