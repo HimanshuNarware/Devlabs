@@ -20,6 +20,12 @@ const tools = [
     image: "https://i.ibb.co/6RrD7hw/Screenshot-2024-06-29-131941.png"
   },
   {
+    name: "Shadcn/ui",
+    description: "Shadcn/ui is a collection of accessible, themeable, and customizable React components built using Radix UI and Tailwind CSS, designed to streamline the creation of modern, responsive web interfaces.",
+    link: "https://ui.shadcn.com/",
+    image: "https://shorturl.at/TVTbX"
+  },
+  {
     name: "Ant Design",
     description: "A design system for enterprise-level products, offering a set of high-quality React components out of the box.",
     link: "https://ant.design/",
