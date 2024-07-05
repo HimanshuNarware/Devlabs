@@ -18,6 +18,12 @@ const tools = [
     description: "A React-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package.",
     link: "https://v2.grommet.io/",
     image: "https://i.ibb.co/6RrD7hw/Screenshot-2024-06-29-131941.png"
+  },
+  {
+    name: "Shadcn/ui",
+    description: "Shadcn/ui is a collection of accessible, themeable, and customizable React components built using Radix UI and Tailwind CSS, designed to streamline the creation of modern, responsive web interfaces.",
+    link: "https://ui.shadcn.com/",
+    image: "https://shorturl.at/TVTbX"
   }
 ];
 

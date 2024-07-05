@@ -764,6 +764,13 @@
     "description": "CSS Portal is home to many examples of CSS and how it can be used in website design."
   },
   {
+    "productName": "GitPod",
+    "category": "tools",
+    "image": "https://avatars.githubusercontent.com/u/37021919?s=200&v=4",
+    "link": "https://gitpod.io",
+    "description": "Gitpod is a cloud development environment for teams to efficiently and securely develop software."
+  },
+  {
     "productName": "daisyUI",
     "category": "web",
     "image": "daisyui-logomark.png",
@@ -3637,6 +3644,45 @@
   "image": "https://th.bing.com/th/id/OIP.ynM9vXybZ26N8tsmdK09tQAAAA?rs=1&pid=ImgDetMain",
   "link": "https://www.akkio.com/tool/ai-answer-generator",
   "description": "AKkio AI is a tool designed to provide concise, all-round answers for any question according to the input. "
+  },
+  {
+    "productName": "Supabase",
+    "category": "tools",
+    "image": "https://shorturl.at/4hhFI",
+    "link": "https://supabase.com/",
+    "description": "Supabase is an open source Firebase alternative."
+  },
+
+{
+  "productName": "Leonardo AI",
+  "category": "Tool",
+  "image": "https://user-images.githubusercontent.com/6267663/230025738-42a4980e-a5ea-4d00-a591-65e8de14de85.png",
+  "link": "https://leonardo.ai/",
+  "description": "Leonardo.ai is a free image creation tool that uses generative AI to create images on demand. Users can enter text and image prompts to generate multiple images at once."
+},
+
+{
+  "productName": "Sharly",
+  "category": "Tool",
+  "image": "https://atai-main.b-cdn.net/tools/sharly-ai-icon.jpeg",
+  "link": "https://sharly.ai/",
+  "description": "Sharly is a tool which helps you to chat with PDF documents and more."
+},
+{
+    "productName": "Zoom",
+    "category": "tools",
+    "image": "https://aflcio.org/sites/default/files/2020-03/Zoom-Pro-Annually-2.jpg",
+    "link": "https://zoom.us/",
+    "description": "Zoom is a videoconferencing service that allows users to connect with others through video and audio calls. It supports both one-on-one calls and group meetings, and is widely used for remote work, education, and collaboration."
+},
+  {
+    "productName": "Forage",
+    "category": "remote",
+    "image": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/139/2022/05/Forage_Logo_Icon_Vert_Green_RGB.png",
+    "link": "https://www.theforage.com/",
+    "description": "A resource which helps the users to gain virtual internship experience."
+
   }
+
 
 ]
