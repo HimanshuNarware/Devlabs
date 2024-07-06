@@ -9,16 +9,15 @@ import Devlabs from "../image/hero_img.svg";
 import NavbarItem from "./Navbar/NavbarItem";
 import toast from "react-hot-toast";
 import NavbarRight from "./Navbar/NavbarRight";
-import Tilt from "react-parallax-tilt";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
-import "react-loading-skeleton/dist/skeleton.css";
+import Tilt from 'react-parallax-tilt';
+import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
+
 const BACKEND = process.env.REACT_APP_BACKEND;
 
 function Home(props) {
   const [bookmarks, setBookmark] = useState(null);
-  const [localStorageValue, setLocalStorageValue] = useState(
-    localStorage.getItem("filter") || ""
-  );
+  const [localStorageValue, setLocalStorageValue] = useState(localStorage.getItem("filter") || "");
   const ref = useRef();
 
   if (props.searchQuery !== "") {
@@ -27,6 +26,8 @@ function Home(props) {
     });
   }
 
+  const [selectedFilters, setSelectedFilters] = useState([]);
+  const [filteredItems, setFilteredItems] = useState(jsonTools);
   const [currentPage, setCurrentPage] = useState(1);
   const postPerpage = 16;
   const lastPostIndex = currentPage * postPerpage;
@@ -70,7 +71,7 @@ function Home(props) {
       }
       setTimeout(() => {
         setLoading(false);
-      }, 2000);
+      }, 2000); 
     };
 
     const fetchContributors = async () => {
@@ -104,11 +105,11 @@ function Home(props) {
     }
   }
 
-  const filteredData = !!searchQuery
+  const filteredData = !!props.searchQuery
     ? allvalue.filter((datalist) => {
         return datalist.productName
           .toLowerCase()
-          .includes(searchQuery.toLowerCase());
+          .includes(props.searchQuery.toLowerCase());
       })
     : allvalue;
 
@@ -217,6 +218,34 @@ function Home(props) {
     handleBookmarks();
   };
 
+  const filters = ["AI", "Ethical", "Extensions", "Web", "Movies", "Remote", "Resume", "UI", "Coding", "Course", "Tools"];
+
+  const handleFilterButtonClick = (selectedCategory) => {
+    if (selectedFilters.includes(selectedCategory)) {
+      setSelectedFilters([]);
+    } else {
+      setSelectedFilters([selectedCategory]);
+    }
+  };
+
+  useEffect(() => {
+    filterItems();
+  }, [selectedFilters]);
+
+  const filterItems = () => {
+    if (selectedFilters.length > 0) {
+      const tempItems = selectedFilters.map((selectedCategory) =>
+        jsonTools.filter(
+          (jsonTool) =>
+            jsonTool.category.toLowerCase() === selectedCategory.toLowerCase()
+        )
+      );
+      setFilteredItems(tempItems.flat());
+    } else {
+      setFilteredItems([...jsonTools]);
+    }
+  };
+
   return (
     <SkeletonTheme>
       <div>
@@ -224,10 +253,10 @@ function Home(props) {
           <div className="hero-text">
             <div id="hero" className="hero-container">
               <div className="hero-content">
-                <div className="hero-heading">
+                <h1 className="hero-heading">
                   <span>Welcome to</span>
                   <br /> Devlabs!
-                  <div className="hero-subheading">
+                  <h1 className="hero-subheading">
                     Discover Free Tools,
                     <br />
                     Empower Your Projects.
@@ -236,8 +265,8 @@ function Home(props) {
                       {" "}
                       -Built by open-source community
                     </span>
-                  </div>
-                </div>
+                  </h1>
+                </h1>
 
                 <div className="hero-button-container">
                   <button className="hero-button">
@@ -256,8 +285,22 @@ function Home(props) {
         <br />
         <h3> Lets Get, What You seek!</h3>
         <NavbarRight setSearchQuery={setSearchQuery} />
+        <br />
 
-        <div ref={ref} className="page-container">
+        <div className="main" ref={ref}>
+          <div className="filter-container">
+            {filters.map((category) => (
+              <button
+                key={category}
+                className={`filter-button ${
+                  selectedFilters.includes(category) ? "active_filter" : ""
+                }`}
+                onClick={() => handleFilterButtonClick(category)}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
           <div className={loading ? "loading-container" : "main-container"}>
             {loading && (
               <div
@@ -338,7 +381,7 @@ function Home(props) {
             )}
 
             {!loading &&
-              currentPost.map((datalist) => {
+              filteredItems.slice(firstPostIndex, lastPostIndex).map((datalist) => {
                 return (
                   <div className="content-box-home" key={datalist.productName}>
                     <img
@@ -360,9 +403,7 @@ function Home(props) {
                       <>
                         <button
                           className="btn-booked-box"
-                          onClick={() =>
-                            handleDeleteBookmark(datalist.productName)
-                          }
+                          onClick={() => handleDeleteBookmark(datalist.productName)}
                         >
                           Remove
                         </button>
