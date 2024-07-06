@@ -210,6 +210,13 @@
     "description": "Hashnode is a free blogging platform for developers that enables them to create content, share knowledge, and grow their network within the tech community."
   },
   {
+    "productName": "Quira",
+    "category": "tools",
+    "image": "https://pbs.twimg.com/profile_images/1590816020519854086/dChZtCp1_400x400.png",
+    "link": "https://quira.sh/",
+    "description": "To build skills & earn rewards by contributing to open source projects."
+  },  
+  {
     "productName": "Magic Eraser",
     "category": "tools",
     "image": "https://play-lh.googleusercontent.com/tVEiGmoOyq3qwQUdkYYbD43DlZWe2jaTq4vkJqVWl5LrHYmhBOmbK8kqvF2ja6aZl1M",
