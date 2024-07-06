@@ -413,7 +413,7 @@
   background: transparent;
 }
 
-.btn-booked-box:hover {
+.btn-booked-box:hover, .btn-b-box:hover{
   color: white;
   cursor: none;
   background-color: #8b5cf6;
