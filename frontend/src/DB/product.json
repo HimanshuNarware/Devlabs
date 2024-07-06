@@ -3646,6 +3646,13 @@
   "description": "AKkio AI is a tool designed to provide concise, all-round answers for any question according to the input. "
   },
   {
+  "productName": "Warmer",
+  "category": "Tool",
+  "image": "https://th.bing.com/th/id/OIP.tNoXEsJhamozhjNeN9XUdgHaHa?rs=1&pid=ImgDetMain",
+  "link": "https://warmer.ai/",
+  "description": "This tool is very essential for writing emails, cold emails, etc as this uses AI email personalization to write your email outreach. "
+  },
+  {
     "productName": "Supabase",
     "category": "tools",
     "image": "https://shorturl.at/4hhFI",
@@ -3683,6 +3690,4 @@
     "description": "A resource which helps the users to gain virtual internship experience."
 
   }
-
-
 ]

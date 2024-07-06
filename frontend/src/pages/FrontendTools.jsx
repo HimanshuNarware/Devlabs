@@ -24,6 +24,12 @@ const tools = [
     description: "Shadcn/ui is a collection of accessible, themeable, and customizable React components built using Radix UI and Tailwind CSS, designed to streamline the creation of modern, responsive web interfaces.",
     link: "https://ui.shadcn.com/",
     image: "https://shorturl.at/TVTbX"
+  },
+  {
+    name: "Sass",
+    description: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
+    link: "https://sass-lang.com/",
+    image: "https://shorturl.at/RtQ1O"
   }
 ];
 
