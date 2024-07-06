@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Bulk resize Images",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbardxOJox-lSC4XHAGcFvfz8GQO26osFcOA&s",
+    "link": "https://www.birme.net/",
+    "description": "BIRME is a flexible and easy to use bulk image resizer. It can resize your images to any specific dimension and crop them proportionately if necessary."
+  },
+  {
     "productName": "removebg",
     "category": "tools",
     "image": "https://bit.ly/4binGHA",
