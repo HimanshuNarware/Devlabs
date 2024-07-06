@@ -40,7 +40,7 @@ function BookMark() {
       <div className="bookmark__container">
         {currentBookmarks?.length > 0 ? (
           currentBookmarks?.map((data, index) => (
-            <div className="bookmark__box" key={index}>
+            <div className="box-bk " key={index}>
               <img className="bookmark__logo" src={data.image} alt={data.name} />
               <h2>{data.name}</h2>
               <p className="bookmark__box-text">{data.desc}</p>

@@ -17,7 +17,7 @@
 }
 
 .box-bk p {
-    color: #000;
+    color: #fff;
     height: 100px;
 }
 
@@ -28,16 +28,15 @@
     border-radius: 12px;
 }
 
-.bookmark__box:hover {
+
+.box-bk:hover {
 transform: scale(1.1);
+border: 2px solid #8b5cf6;
+border-radius: 20px;
 box-shadow: 0px 0px 25px #8b5cf6;
 transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.bookmark__box-text {
-  color: #000;
-  height: 100px;
-}
 
 .bookmark__button {
   color: rgb(226, 43, 122);
