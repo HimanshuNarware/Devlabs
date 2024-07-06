@@ -4,5 +4,8 @@
         "\"javascript\":": "\"javascriptreact\""
     },
     "C_Cpp.errorSquiggles": "disabled",
-    "deepscan.enable": true
+    "deepscan.enable": true,
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
 }
