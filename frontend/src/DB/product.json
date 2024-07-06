@@ -3639,7 +3639,13 @@
     "description": "Bollyflix is a popular website to download movies, webshows, anime and much more."
   },
   {
-
+  "productName": "Warmer",
+  "category": "Tool",
+  "image": "https://th.bing.com/th/id/OIP.tNoXEsJhamozhjNeN9XUdgHaHa?rs=1&pid=ImgDetMain",
+  "link": "https://warmer.ai/",
+  "description": "This tool is very essential for writing emails, cold emails, etc as this uses AI email personalization to write your email outreach. "
+  },
+  {
     "productName": "Supabase",
     "category": "tools",
     "image": "https://shorturl.at/4hhFI",
