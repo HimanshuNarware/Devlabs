@@ -17,14 +17,19 @@ const BACKEND = process.env.REACT_APP_BACKEND;
 
 function Home(props) {
   const [bookmarks, setBookmark] = useState(null);
-  const [localStorageValue, setLocalStorageValue] = useState(localStorage.getItem("filter") || "");
-  const ref = useRef();
+  const [localStorageValue, setLocalStorageValue] = useState(
+    localStorage.getItem("filter") || ""
+  );
+  const ref = useRef(null);
 
-  if (props.searchQuery !== "") {
-    ref.current?.scrollIntoView({
-      behavior: "smooth",
-    });
-  }
+
+  useEffect(() => {
+    if (props.searchQuery !== "") {
+      ref.current?.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  }, [props.searchQuery]);
 
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(jsonTools);
@@ -42,10 +47,10 @@ function Home(props) {
   const currentPost1 = dataBaseData;
   let allvalue = [];
 
-  function handleBookmarks() {
+  const handleBookmarks = () => {
     const bookmark = JSON.parse(localStorage.getItem("bookmarks"));
     setBookmark(bookmark);
-  }
+  };
 
   useEffect(() => {
     handleBookmarks();
@@ -59,14 +64,15 @@ function Home(props) {
     window.addEventListener("storage", handleStorageChange);
 
     const fetchData = async () => {
-      const response = await axios
-        .get(`${BACKEND}/tools/all`)
-        .catch((error) => {
-          return error.response;
-        });
-      if (response.data.success) {
-        setDataBaseData(response.data.tools);
-      } else {
+      try {
+        const response = await axios.get(`${BACKEND}/tools/all`);
+        if (response.data.success) {
+          setDataBaseData(response.data.tools);
+        } else {
+          setDataBaseData(jsonTools);
+        }
+      } catch (error) {
+        console.error(error);
         setDataBaseData(jsonTools);
       }
       setTimeout(() => {
@@ -121,35 +127,35 @@ function Home(props) {
   const numbers = [...Array(npage + 1).keys()].slice(1);
   const dispatch = useDispatch();
 
-  function prePage() {
+  const prePage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
     }
-  }
+  };
 
-  function nextPage() {
+  const nextPage = () => {
     if (currentPage < npage) {
       setCurrentPage(currentPage + 1);
     }
-  }
+  };
 
-  function changeCPage(id) {
+  const changeCPage = (id) => {
     setCurrentPage(id);
-  }
+  };
 
-  function handleBookmark(datalist) {
-    if (bookmarks === null) {
-      localStorage.setItem(
-        "bookmarks",
-        JSON.stringify([
-          {
-            image: datalist.image,
-            name: datalist.productName,
-            desc: datalist.description,
-            link: datalist.link,
-          },
-        ])
-      );
+  const handleBookmark = (datalist) => {
+    let bookmarkList = JSON.parse(localStorage.getItem("bookmarks")) || [];
+    let found = bookmarkList.some(item => item.name === datalist.productName);
+
+    if (!found) {
+      bookmarkList.push({
+        image: datalist.image,
+        name: datalist.productName,
+        desc: datalist.description,
+        link: datalist.link,
+      });
+      localStorage.setItem("bookmarks", JSON.stringify(bookmarkList));
+      toast.success("Bookmark added successfully");
       dispatch(
         setSource({
           image: datalist.image,
@@ -158,8 +164,8 @@ function Home(props) {
           link: datalist.link,
         })
       );
-      toast.success("Bookmark added successfully");
     } else {
+      toast.error("Already bookmarked");
       let found = false;
       for (let item of bookmarks) {
         if (item.name === datalist.productName) {
@@ -198,7 +204,7 @@ function Home(props) {
       }
     }
     handleBookmarks();
-  }
+  };
 
   const handleDeleteBookmark = (name) => {
     dispatch(deleteSource({ name }));
@@ -287,6 +293,28 @@ function Home(props) {
         <NavbarRight setSearchQuery={setSearchQuery} />
         <br />
 
+          {!loading && currentPost.length === 0 && (
+            <div
+              className="empty-state"
+              style={{
+                width: "100%",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <img
+                src="https://i.pinimg.com/originals/5d/35/e3/5d35e39988e3a183bdc3a9d2570d20a9.gif"
+                height={400}
+                width={400}
+                alt="no post"
+              />
+              <p>No posts found.</p>
+            </div>
+          )}
+
+  
         <div className="main" ref={ref}>
           <div className="filter-container">
             {filters.map((category) => (
