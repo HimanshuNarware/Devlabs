@@ -1,23 +1,23 @@
-.containerBK{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.bookmark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-bk {
-    margin-top: 8rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.bookmark__container {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
+.bookmark__logo {
+  width: 50px;
+  height: 50px;
 }
 
 .box-bk p {
-    color: #fff;
+    color: #000;
     height: 100px;
 }
 
@@ -28,53 +28,58 @@
     border-radius: 12px;
 }
 
-.box-bk:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 25px #8b5cf6;
-  transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
+.bookmark__box:hover {
+transform: scale(1.1);
+box-shadow: 0px 0px 25px #8b5cf6;
+transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.btn-b {
-    color: rgb(226, 43, 122);
-    font-size: 1.1rem;
-    border: 2px dashed forestgreen;
-    margin-inline: 10px;
-    padding: 6px 16px 6px 16px;
-    background: transparent;
-    margin-bottom: 10px;
-    border-radius: 6px;
-    box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
+.bookmark__box-text {
+  color: #000;
+  height: 100px;
 }
 
-.btn-b:hover {
-    color: white;
-    cursor: none;
-    border: 1px dashed rgba(79, 71, 125, 255);
-    background-color: rgb(226, 43, 122);
+.bookmark__button {
+  color: rgb(226, 43, 122);
+  font-size: 1.1rem;
+  border: 2px dashed forestgreen;
+  margin-inline: 10px;
+  padding: 6px 16px 6px 16px;
+  background: transparent;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
 }
 
-.bk-empty {
-    font-size: 1.5rem;
-    font-weight: bold;
-    width: max-content;
-    position: relative;
-    left: 10vw;
+.bookmark__button:hover {
+  color: white;
+  cursor: none;
+  border: 1px dashed rgba(79, 71, 125, 255);
+  background-color: rgb(226, 43, 122);
+}
+
+.bookmark__empty {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: max-content;
+  position: relative;
+  left: 10vw;
 }
 
 @media screen and (max-width: 1300px) {
-    .container-bk {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .bookmark__container {
+    grid-template-columns: repeat(3, 1fr);
   }
+}
 
 @media screen and (max-width: 900px) {
-    .container-bk {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  .bookmark__container {
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  @media screen and (max-width: 550px) {
-    .container-bk {
-      grid-template-columns: repeat(1, 1fr);
-    }
+}
+
+@media screen and (max-width: 550px) {
+  .bookmark__container {
+    grid-template-columns: repeat(1, 1fr);
   }
+}

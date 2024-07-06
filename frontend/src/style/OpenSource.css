@@ -1,13 +1,27 @@
-.open-source {
+.open-source__page-container {
     margin: 10px;
     justify-content: center;
 }
 
-.content-box-subtitle {
+.open-source__content-box-home {
+    margin: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.open-source__content-box-home:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.open-source__content-box-subtitle {
     color: slateblue;
 }
 
-.tag-grid {
+.open-source__tag-grid {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -16,9 +30,70 @@
     color: rgb(10, 142, 102);
 }
 
-.tag {
+.open-source__tag {
     margin: 2px 4px;
     border: 1px solid orange;
     padding: 2px 8px;
     border-radius: 12px;
+}
+
+.open-source__loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.open-source__main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.open-source__btn-b-box {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.open-source__btn-b-box:hover {
+    background-color: #0056b3;
+}
+
+.open-source__pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.open-source__page-item {
+    margin: 0 5px;
+}
+
+.open-source__page-link {
+    color: #007bff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.open-source__page-link:hover {
+    background-color: #e9ecef;
+}
+
+.open-source__active .open-source__page-link {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.open-source__disabled .open-source__page-link {
+    pointer-events: none;
+    color: #6c757d;
 }
