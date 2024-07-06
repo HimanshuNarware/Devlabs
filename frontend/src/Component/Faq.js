@@ -12,6 +12,21 @@ import { MdOutlineArrowDropDown } from 'react-icons/md';
 import data from './accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
 
+import { useSearchParams } from 'react-router-dom';
+
+export default function Faq() {
+  let [index, setIndex] = useState(0);
+  const [className, setClassName] = useState(null);
+
+  return (
+    <section className="faq">
+      <div className="faq__content">
+        <div className="faq__header">
+          <span className="faq__header-text">Frequently Asked Questions</span>
+          <Accordion
+            className="faq__border-none faq__mt-8"
+
+
 export default function Faq() {
   let [index, setIndex] = useState(0);
 
@@ -30,17 +45,42 @@ export default function Faq() {
           </span>
           <Accordion
             className="border-none mt-8"
+
             allowMultipleExpanded={false}
             preExpanded={[0]}
           >
             {data.map((item, i) => {
               return (
                 <AccordionItem
+
+                  className={`faq__border-2 faq__border-gray faq__rounded-lg faq__overflow-hidden faq__mb-5 ${index === i ? 'faq__accordion-open' : 'faq__accordion-close'}`}
+
                   className={`border-2 border-gray-400 rounded-lg overflow-hidden mb-5 ${index === i ? 'open' : 'close'}`}
+
                   key={i}
                   uuid={i}
                 >
                   <AccordionItemHeading>
+
+                    <AccordionItemButton className="faq__accordion-item">
+                      <AccordionItemState>
+                        {({ expanded }) =>
+                          expanded
+                            ? setClassName('expanded')
+                            : setClassName('collapsed')
+                        }
+                      </AccordionItemState>
+                      <div className="faq__accordion-button">
+                        <div className="faq__accordion-icon">
+                          {item.icon}
+                        </div>
+                        <span className="font-bold">
+                          {item.heading}
+                        </span>
+                        <div className="faq__accordion-container" onClick={() => {
+                              setIndex(i);
+                            }}>
+
                     <AccordionItemButton className="custom-flex-container">
                       <AccordionItemState>
                         {({ expanded }) => (
@@ -57,6 +97,7 @@ export default function Faq() {
                         <div className="custom-container2" onClick={() => {
                           setIndex(i);
                         }}>
+
                           <MdOutlineArrowDropDown
                             style={{ color: "white" }}
                             size={20}
@@ -66,7 +107,11 @@ export default function Faq() {
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
+
+                    <p className="faq__accordion-detail">
+
                     <p className="custom-text1">
+
                       {item.detail}
                     </p>
                   </AccordionItemPanel>
