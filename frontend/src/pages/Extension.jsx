@@ -60,7 +60,7 @@ const extensions = [
 const Extensions = () => {
   return (
     <div className="container">
-      <h1 className="title">Extensions</h1>
+      <h1 className="title" style={{ marginTop: "60px", color:'white'}}>Extensions</h1>
       <div className="grid-container">
         {extensions.map((extension, index) => (
           <div key={index} className="grid-item">
