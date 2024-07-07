@@ -57,6 +57,11 @@ function Sidebar({ showSideNav }) {
       url: "/front-end-tools",
     },
     {
+      name: "tools",
+      description: "Backend Tools",
+      url: "/back-end-tools",
+    },
+    {
       name: "coding",
       description: "Coding Platforms",
       url: "/coding-platform",
