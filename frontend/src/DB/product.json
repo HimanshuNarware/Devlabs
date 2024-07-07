@@ -3342,13 +3342,7 @@
     "link": "https://www.canva.com/",
     "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
   },
-  {
-    "productName":"Figma",
-    "category":"design",
-    "image":"https://i.pinimg.com/564x/17/06/c9/1706c9f16bd08eb5e03f1df3e0a94a1c.jpg",
-    "link":"https://www.figma.com/",
-    "description":"Figma is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
-  },
+ 
   {
     "productName": "Magic UI",
     "category": "UI",
