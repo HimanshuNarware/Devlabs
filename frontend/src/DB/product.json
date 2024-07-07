@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Cohere AI",
+    "category": "Tool",
+    "image": "https://www.appengine.ai/uploads/images/profile/logo/Cohere-AI.png",
+    "link": "https://cohere.com/",
+    "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
+  },
+  {
     "productName": "Bulk resize Images",
     "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbardxOJox-lSC4XHAGcFvfz8GQO26osFcOA&s",
