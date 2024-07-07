@@ -28,6 +28,13 @@
     "description": "Remove video backgrounds 100% automatically in 5 seconds with one click."
   },
   {
+    "productName": "Deep AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.M5pmo9G5OwXTB1YAD5xgngAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://deepai.org/?ref=prototypr.io",
+    "description": "DeepAI offers various features to generate images, videos and characters using text prompts and art styles. You can create animations, edit images, chat with characters and more"
+  },
+  {
     "productName": "edX",
     "category": "course",
     "image": "http://bit.ly/4aK9dDT",
