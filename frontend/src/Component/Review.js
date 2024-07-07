@@ -51,7 +51,7 @@ function Review() {
       });
 
     setProcessingMail(false);
-    if (response.data.success) toast.done("Mail Sent Successfully!!");
+    if (response.data.success) toast.success("Mail Sent Successfully!!");
     else if (response.data && response.data.errors) {
       toast.error(response.data.errors.join("\n"));
     } else {
