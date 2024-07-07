@@ -7,6 +7,13 @@
     "description": "BIRME is a flexible and easy to use bulk image resizer. It can resize your images to any specific dimension and crop them proportionately if necessary."
   },
   {
+    "productName": "Clarif AI",
+    "category": "Tool",
+    "image": "https://www.clarifai.com/hubfs/Clarifai%20Logo%20Stamp%20Blue.png",
+    "link": "https://www.clarifai.com/",
+    "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
+  },
+  {
     "productName": "Image color picker",
     "category": "tools",
     "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
