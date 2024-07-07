@@ -1,6 +1,7 @@
 /* hero section starts */
 .hero {
   margin-top: 1rem;
+  max-width: 100vw;
   width: 100%;
   z-index: 0;
   min-height: 100vh;
@@ -63,10 +64,13 @@
 }
 
 .pagination {
+  max-width: 100vw;
+  overflow: auto;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   margin-top: 20px;
+  padding: 1rem;
 }
 
 .pagination ul {
@@ -148,6 +152,18 @@
   align-items: center;
   justify-content: start;
   width: 100%;
+}
+
+.content-box-home {
+  max-width: 100vw;
+  background-color: #101623;
+  border: 2px solid rgba(79, 71, 125, 255);
+  margin: 20px;
+  padding: 7px 12px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(79, 71, 125, 255);
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 @media (max-width: 769px) {
@@ -255,6 +271,7 @@
 }
 .main-container {
   display: grid;
+  max-width: 100vw;
   grid-template-columns: repeat(4, 1fr);
   margin: 10px;
   margin-top: 5rem;
@@ -283,16 +300,6 @@
   .main-container {
     grid-template-columns: repeat(1, 1fr);
   }
-}
-.content-box-home {
-  background-color: #101623;
-  border: 2px solid rgba(79, 71, 125, 255);
-  margin: 20px;
-  padding: 7px 12px;
-  border-radius: 12px;
-  box-shadow: 2px 2px 8px rgba(79, 71, 125, 255);
-  transform-style: preserve-3d;
-  transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 950px) {
@@ -445,7 +452,7 @@
   top: 14px;
 }
 
-.filter-button{
+.filter-button {
   color: #8b5cf6;
   font-size: 1.1rem;
   border: 1px solid #8b5cf6;
@@ -459,7 +466,7 @@
   cursor: pointer;
 }
 
-.active_filter{
+.active_filter {
   background: transparent;
   cursor: pointer;
   background-color: #101623;
