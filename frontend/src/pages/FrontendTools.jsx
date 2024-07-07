@@ -13,6 +13,24 @@ const tools = [
   { name: "jQuery", description: "A fast, small, and feature-rich JavaScript library", link: "https://jquery.com/", image: "https://i.pinimg.com/564x/ca/b6/c7/cab6c762e02a0b4fe89ab3c977928398.jpg" },
   { name: "Bulma", description: "Bulma is a free, open source framework that provides ready-to-use frontend components ", link: "https://bulma.io/", image: "https://i.pinimg.com/564x/d7/5e/98/d75e986f0e4d9bcb4d11dacd4556fd40.jpg" },
   { name: "Foundation", description: "Foundation is a free, open source framework that provides ready-to-use frontend components and css classes for the direct use  ", link: "https://get.foundation/", image: "https://i.pinimg.com/236x/e7/77/1a/e7771ae79843be99e0cdacefd1c561ac.jpg" },
+  {
+    name: "Grommet",
+    description: "A React-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package.",
+    link: "https://v2.grommet.io/",
+    image: "https://i.ibb.co/6RrD7hw/Screenshot-2024-06-29-131941.png"
+  },
+  {
+    name: "Shadcn/ui",
+    description: "Shadcn/ui is a collection of accessible, themeable, and customizable React components built using Radix UI and Tailwind CSS, designed to streamline the creation of modern, responsive web interfaces.",
+    link: "https://ui.shadcn.com/",
+    image: "https://shorturl.at/TVTbX"
+  },
+  {
+    name: "Sass",
+    description: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
+    link: "https://sass-lang.com/",
+    image: "https://shorturl.at/RtQ1O"
+  }
 ];
 
 

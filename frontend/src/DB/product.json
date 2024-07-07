@@ -1,5 +1,19 @@
 [
   {
+    "productName": "Bulk resize Images",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbardxOJox-lSC4XHAGcFvfz8GQO26osFcOA&s",
+    "link": "https://www.birme.net/",
+    "description": "BIRME is a flexible and easy to use bulk image resizer. It can resize your images to any specific dimension and crop them proportionately if necessary."
+  },
+  {
+    "productName": "Image color picker",
+    "category": "tools",
+    "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
+    "link": "https://10015.io/tools/image-color-picker",
+    "description": "Extract color from the images and get color code and details"
+  },
+  {
     "productName": "removebg",
     "category": "tools",
     "image": "https://bit.ly/4binGHA",
@@ -26,6 +40,13 @@
     "image": "https://i.ibb.co/7rRW6TW/logo-social-large.png",
     "link": "https://carouselhero.com",
     "description": "Create social media carousels for free and with no signup."
+  },
+  {
+    "productName": "Quora",
+    "category": "tools",
+    "image": "https://www.iconpacks.net/icons/2/free-quora-logo-icon-2439-thumb.png",
+    "link": "https://www.quora.com/",
+    "description": "To share and acquire knowledge."
   },
   {
     "productName": "BootStrap",
@@ -63,6 +84,13 @@
     "description": "Award-winning proxy networks, AI-powered web scrapers, and business-ready datasets for download. "
   },
   {
+    "productName": "Jupyter Notebook",
+    "category": "tools",
+    "image": "https://almablog-media.s3.ap-south-1.amazonaws.com/001_c25c51e550.png",
+    "link": "https://jupyter.org/try-jupyter/notebooks/?path=Untitled4.ipynb",
+    "description": "To create interactive notebook documents that can contain live code, equations, visualizations,etc"
+  },
+  {
     "productName": "Oh My Git",
     "category": "tools",
     "image": "https://ohmygit.org/assets/images/oh-my-git.png",
@@ -82,6 +110,13 @@
     "image": "https://shorturl.at/uRx8f",
     "link": "https://www.codedpad.com/",
     "description": "Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
+  },
+  {
+    "productName": "GitLab",
+    "category": "tools",
+    "image": "https://www.pngfind.com/pngs/m/94-945757_gitlab-logo-hd-png-download.png",
+    "link": "https://about.gitlab.com/",
+    "description": "Web-based DevOps platform.Helps to manage the software development lifecycle. "
   },
   {
     "productName":"Video Compressor",
@@ -124,6 +159,13 @@
     "image": "https://rb.gy/vknfx0",
     "link": "https://unsplash.com/",
     "description": "Source for free stack visuals"
+  },
+  {
+    "productName": "Udemy",
+    "category": "tools",
+    "image": "https://logowik.com/content/uploads/images/udemy-new-20212512.jpg",
+    "link": "https://www.udemy.com/",
+    "description": "Introductions to material you want to learn or as a refresher for something you previously knew."
   },
   {
     "productName": "PikaShows",
@@ -202,6 +244,13 @@
     "link": "https://hashnode.com/",
     "description": "Hashnode is a free blogging platform for developers that enables them to create content, share knowledge, and grow their network within the tech community."
   },
+  {
+    "productName": "Quira",
+    "category": "tools",
+    "image": "https://pbs.twimg.com/profile_images/1590816020519854086/dChZtCp1_400x400.png",
+    "link": "https://quira.sh/",
+    "description": "To build skills & earn rewards by contributing to open source projects."
+  },  
   {
     "productName": "Magic Eraser",
     "category": "tools",
@@ -741,6 +790,13 @@
     "image": "https://www.cssportal.com/assets/images/cssicon.png",
     "link": "https://www.cssportal.com/",
     "description": "CSS Portal is home to many examples of CSS and how it can be used in website design."
+  },
+  {
+    "productName": "GitPod",
+    "category": "tools",
+    "image": "https://avatars.githubusercontent.com/u/37021919?s=200&v=4",
+    "link": "https://gitpod.io",
+    "description": "Gitpod is a cloud development environment for teams to efficiently and securely develop software."
   },
   {
     "productName": "daisyUI",
@@ -3428,15 +3484,14 @@
 		"link": "https://www.jasper.ai/",
 		"description": "Jasper AI is an advanced AI-powered writing assistant that helps you create high-quality content quickly and efficiently. It leverages natural language processing to generate articles, blog posts, marketing copy, and more, providing creative assistance and saving you time on writing tasks."
 		},
-    {
+  {
    "productName": "Careerflow Ai",
    "category": "extension",
    "image": "https://cdn.prod.website-files.com/635c591378332f38be25d45f/63a1152ff687d737b6b93250_Careerflow%20logo%20240x240.png",
    "link": "https://www.careerflow.ai/",
    "description": "AI Career Copilot. Automated Job Tracking, Optimize your LinkedIn Profile, AI Resume Builder and more. Keep track of all your jobs opportunities, applications, notes, contacts, in one single dashboard."
     },
-    {
-
+  {
     "productName": "AdobeXD",
     "category": "UI",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS80OChMU7lMUMwU7CVu4ZJl1irvee4jmFfjw&s",
@@ -3477,5 +3532,190 @@
     "image": "https://imgur.com/NAVhlcT.png",
     "link": "https://codepen.io/sdras/full/gogVRX",
     "description": "A resource to help figure out what JavaScript array method would be best to use at any given time"
+  },
+  {
+    "productName": "Forage",
+    "category": "remote",
+    "image": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/139/2022/05/Forage_Logo_Icon_Vert_Green_RGB.png",
+    "link": "https://www.theforage.com/",
+    "description": "A resource which helps the users to gain virtual internship experience."
+  },
+  {
+    "productName": "Stability AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.R081QSlB2eVp1pFiLI7e6QHaEK?rs=1&pid=ImgDetMain",
+    "link": "https://stability.ai/",
+    "description": "Stability AI is a trailblazer in artificial intelligence (AI), known for its groundbreaking open-source generative AI tools that are transforming the world of technology."
+  },
+  {
+    "productName": "Runaway",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.IlqsmwRgRmUm5eZbmcDZ-gAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://runwayml.com/",
+    "description": "Runway is an applied AI research company shaping the next era of art, entertainment and human creativity."
+  },
+  {
+    "productName": "Video DownloadHelper",
+    "category": "tools",
+    "image": "https://lh3.googleusercontent.com/iUmZFfH0L0eydAiFWVuQMbcyiUx32X4aiy8mGinrOyTD0y2sOc_jkbi97Q4gCz7Z9hqP5Yl41lRJYLdLaG-SGDaK=s60",
+    "link": "https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk",
+    "description": "Download HD videos from the web. Easy, smart, no tracking. 1000+ websites supported. Extract audio from videos"
+  },
+  {
+    "productName": "MLWBD",
+    "category": "tools",
+    "image": "https://th.bing.com/th?id=OIP.y5pyu00sTavOQaTxoSpDtQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    "link": "https://mlwbd.international",
+    "description": "A resource for watching and downloading movies online for free."
+  },
+  {
+    "productName": "MangaReader",
+    "category": "manga",
+    "image": "https://bit.ly/3W06WjY",
+    "link": "https://mangareader.to/",
+    "description": "MangaReader is a free manga reading site."
+},
+  {
+    "productName":"Babbel",
+    "category":"tools",
+    "image":"https://i.pcmag.com/imagery/reviews/04R5bOdZzEXHXXUx5tZz4lr-5..v1569480104.png",
+    "link":"https://www.babbel.com/",
+    "description":"Babbel is a language learning app that offers interactive courses designed for practical language skills. It focuses on real-life conversations and cultural insights to help learners quickly grasp and apply new languages."
+},
+  {
+    "productName":"Google colab",
+    "category":"tools",
+    "image":"https://colab.research.google.com/img/colab_favicon_256px.png",
+    "link":"https://colab.research.google.com/",
+    "description":"A cloud-based platform for running Python code, particularly suited for machine learning and deep learning."
+  },
+  {
+    "productName": "Perplexity AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.j_46DDENRisOFr1rg6LiOAHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.perplexity.ai/",
+    "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question."
+  },
+  {
+    "productName":"Edabit",
+    "category":"course",
+    "image":"https://s3.amazonaws.com/edabit-images/logo_wide_large.png",
+    "link":"https://edabit.com/",
+    "description":"Edabit is a learning platform designed to improve coding skills through interactive challenges across various programming languages. It emphasizes hands-on practice and problem-solving techniques to enhance programming proficiency."
+  },
+  {
+    "productName":"skill share",
+    "category":"tool",
+    "image":"https://play-lh.googleusercontent.com/Lfh8g5kPONfSNL7R4s8itnMMdj3lhmHU9tb4gp7eoOaXkJo0dOcwB6iWPdNGZMRDMVs",
+    "link":"https://www.skillshare.com/en/",
+    "description":"Skillshare is an online learning community offering thousands of classes across creative and entrepreneurial skills. It allows users to learn at their own pace with access to diverse topics taught by industry experts."
+  },
+  {
+    "productName":"Linkedin learning",
+    "category":"course",
+    "image":"https://media.licdn.com/dms/image/C4E0DAQEdAUx9nzmdGA/learning-public-crop_288_512/0/1593629654087?e=2147483647&v=beta&t=Scnqlh_Efb6Yx8irsul5fsLvkP7XfKkzzoqUSY9Bb4w",
+    "link":"https://learning.linkedin.com/cx/get-started?src=go-pa&trk=sem-ga_campid.9764329640_asid.102279866120_crid.428931010987_kw.linkedin%20learning_d.c_tid.kwd-310582843911_n.g_mt.e_geo.9147463&mcid=6841855808129646768&cid=&gad_source=1&gclid=CjwKCAjwyo60BhBiEiwAHmVLJXVFj-Dy-UoF2qV385kNqUO9PxhVNcXWQmhu8tmt_Q_f357zzgxF5BoCEroQAvD_BwE&gclsrc=aw.ds",
+    "description":"LinkedIn Learning, formerly known as Lynda.com, provides a vast library of online courses covering business, technology, and creative skills. It offers personalized learning paths and certificates, tailored to enhance professional development and career growth."
+ },
+  {
+    "productName": "GSSoC",
+    "category": "tools",
+    "image": "https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png",
+    "link": "https://gssoc.girlscript.tech/",
+    "description": "A three-month-long Open-Source Program conducted every summer by the Girlscript Foundation."
+  },
+  {
+    "productName": "JWoC",
+    "category": "tools",
+    "image": "https://www.jwoc.tech/_next/static/media/jwoc-2024.652c49b8.svg",
+    "link": "https://www.jwoc.tech/",
+    "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
+  },
+  {
+    "productName": "Binged",
+    "category": "movies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Binge_logo.png",
+    "link": "https://binged.live/",
+    "description": "Binged is a popular website to stream movies, webshows, anime and much more."
+  },
+  {
+    "productName": "1Flix",
+    "category": "movies",
+    "image": "https://img.1flix.to/xxrz/400x400/100/e4/ca/e4ca1fc10cda9cf762f7b51876dc917b/e4ca1fc10cda9cf762f7b51876dc917b.png",
+    "link": "https://1flix.to/",
+    "description": "1Flix is one of the most visited sites for free movie streaming."
+  },
+  {
+    "productName": "123Movies ",
+    "category": "movies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Movies_123movies.png",
+    "link": "https://ww4.123moviesfree.net/",
+    "description": "123Movies is a popular website to stream movies, webshows, anime and much more."
+  },
+  {
+    "productName": "HiAnime ",
+    "category": "anime",
+    "image": "https://hianime.to/images/logo.png",
+    "link": "https://hianime.to/",
+    "description": "HiAnime is a very popular free site to watch anime."
+  },
+    {
+    "productName": "Bollyflix",
+    "category": "movies",
+    "image": "https://bollyflix-cdn.store/wp-content/uploads/2023/05/Bollyflix-movies.png",
+    "link": "https://bollyflix.band/",
+    "description": "Bollyflix is a popular website to download movies, webshows, anime and much more."
+  },
+  {
+  "productName": "Akkio AI",
+  "category": "Tool",
+  "image": "https://th.bing.com/th/id/OIP.ynM9vXybZ26N8tsmdK09tQAAAA?rs=1&pid=ImgDetMain",
+  "link": "https://www.akkio.com/tool/ai-answer-generator",
+  "description": "AKkio AI is a tool designed to provide concise, all-round answers for any question according to the input. "
+  },
+  {
+  "productName": "Warmer",
+  "category": "Tool",
+  "image": "https://th.bing.com/th/id/OIP.tNoXEsJhamozhjNeN9XUdgHaHa?rs=1&pid=ImgDetMain",
+  "link": "https://warmer.ai/",
+  "description": "This tool is very essential for writing emails, cold emails, etc as this uses AI email personalization to write your email outreach. "
+  },
+  {
+    "productName": "Supabase",
+    "category": "tools",
+    "image": "https://shorturl.at/4hhFI",
+    "link": "https://supabase.com/",
+    "description": "Supabase is an open source Firebase alternative."
+  },
+
+{
+  "productName": "Leonardo AI",
+  "category": "Tool",
+  "image": "https://user-images.githubusercontent.com/6267663/230025738-42a4980e-a5ea-4d00-a591-65e8de14de85.png",
+  "link": "https://leonardo.ai/",
+  "description": "Leonardo.ai is a free image creation tool that uses generative AI to create images on demand. Users can enter text and image prompts to generate multiple images at once."
+},
+
+{
+  "productName": "Sharly",
+  "category": "Tool",
+  "image": "https://atai-main.b-cdn.net/tools/sharly-ai-icon.jpeg",
+  "link": "https://sharly.ai/",
+  "description": "Sharly is a tool which helps you to chat with PDF documents and more."
+},
+{
+    "productName": "Zoom",
+    "category": "tools",
+    "image": "https://aflcio.org/sites/default/files/2020-03/Zoom-Pro-Annually-2.jpg",
+    "link": "https://zoom.us/",
+    "description": "Zoom is a videoconferencing service that allows users to connect with others through video and audio calls. It supports both one-on-one calls and group meetings, and is widely used for remote work, education, and collaboration."
+},
+  {
+    "productName": "Forage",
+    "category": "remote",
+    "image": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/139/2022/05/Forage_Logo_Icon_Vert_Green_RGB.png",
+    "link": "https://www.theforage.com/",
+    "description": "A resource which helps the users to gain virtual internship experience."
+
   }
 ]

@@ -28,7 +28,9 @@ import FrontendTools from "./pages/FrontendTools";
 import Faq from "./Component/Faq";
 import CodingPlatform from "./pages/CodingPlatform"; // Corrected import
 import CoursesPlatform from "./pages/CoursesPlatform";
+import Collaboration from "./pages/Collaboration";
 import TrailingCursor from "./Component/TrailingCursor/TrailingCursor";
+import Productivity from "./pages/Productivity";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -58,8 +60,10 @@ function App() {
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
         <Route path="/courses-platform" element={<CoursesPlatform />} />
+        <Route path="/productivity-tools" element={<Productivity />} />
+        <Route path="/collaboration-tools" element={<Collaboration />} />
         {/* Define other routes as needed */}
-        <Route path="*" element={<NotFound />} /> {/* 404 route */}
+        {/* <Route path="*" element={<NotFound />} /> 404 route */}
       </Routes>
       <BackToTopButton />
       <Footer />
