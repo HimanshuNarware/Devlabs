@@ -862,6 +862,13 @@
     "description": "Online tool for generating device mockups for website and app design."
   },
   {
+    "productName": "Shutterstock",
+    "category": "tools",
+    "image": "https://www.shutterstock.com/assets/images/shutterstock-favicon-192.png",
+    "link": "https://www.shutterstock.com/",
+    "description": "Stock Images, Photos, Vectors, Video, and Music"
+  },
+  {
     "productName": "Coolors",
     "category": "web",
     "image": "https://bit.ly/3kq0zq4",
