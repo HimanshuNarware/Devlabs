@@ -30,6 +30,12 @@ const tools = [
     description: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
     link: "https://sass-lang.com/",
     image: "https://shorturl.at/RtQ1O"
+  },
+  {
+    name: "TypeScript",
+    description: "TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience.",
+    link: "https://www.typescriptlang.org/",
+    image: "https://iconduck.com/icons/95017/typescript-icon"
   }
 ];
 
