@@ -78,8 +78,8 @@ const courses = [
 
 const CoursesPlatform = () => {
   return (
-    <div className="container" style={{height: "auto"}}>
-      <h1 className="title">Available Courses</h1>
+    <div className="container" style={{ marginTop: "60px" }}>
+      <h1 className="title" style={{color:'white'}}>Available Courses</h1>
       <div className="grid-container">
         {courses.map((course, index) => (
           <div key={index} className="grid-item" style={{ objectFit: 'cover', maxWidth: '100%' }}>

@@ -64,7 +64,7 @@ function Sidebar({ showSideNav }) {
     {
       name: "course",
       description: "Course Platforms",
-      url: "/cources-platform",
+      url: "/courses-platform",
     },
     {
       name: "productivity",
