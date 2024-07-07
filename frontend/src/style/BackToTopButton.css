@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 80px;
     right: 20px;
-    /* z-index: 35; */
+    z-index: 10;
     background-color: #00c68a;
     color: white;
     border: 2px solid #93FFD8;
