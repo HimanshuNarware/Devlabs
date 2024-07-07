@@ -7,6 +7,13 @@
     "description": "BIRME is a flexible and easy to use bulk image resizer. It can resize your images to any specific dimension and crop them proportionately if necessary."
   },
   {
+    "productName": "Image color picker",
+    "category": "tools",
+    "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
+    "link": "https://10015.io/tools/image-color-picker",
+    "description": "Extract color from the images and get color code and details"
+  },
+  {
     "productName": "removebg",
     "category": "tools",
     "image": "https://bit.ly/4binGHA",
