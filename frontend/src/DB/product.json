@@ -140,13 +140,6 @@
     "description":"A quick way to prepare for your next interview using this google interview warmup"
 },
   {
-    "productName": "Interview warmup Google",
-    "category": "tools",
-    "image": "https://rb.gy/4z4lkj",
-    "link": "https://grow.google/certificates/interview-warmup/",
-    "description": "A quick way to prepare for your next interview using this google interview warmup"
-  },
-  {
     "productName": "Maths GPT",
     "category": "tools",
     "image": "https://rb.gy/fvbm1r",
@@ -159,13 +152,6 @@
     "image": "https://rb.gy/vknfx0",
     "link": "https://unsplash.com/",
     "description": "Source for free stack visuals"
-  },
-  {
-    "productName": "Udemy",
-    "category": "tools",
-    "image": "https://logowik.com/content/uploads/images/udemy-new-20212512.jpg",
-    "link": "https://www.udemy.com/",
-    "description": "Introductions to material you want to learn or as a refresher for something you previously knew."
   },
   {
     "productName": "PikaShows",
@@ -2334,20 +2320,6 @@
     "description": "Software aiding in avoiding plagiarism by rewording content effectively."
   },
   {
-    "productName": "Spinbot",
-    "category": "tools",
-    "image": "https://bit.ly/4485Unq",
-    "link": "https://spinbot.com/",
-    "description": "Spinbot a text-spinning tool that generates alternative content."
-  },
-  {
-    "productName": "Free Icons",
-    "category": "tools",
-    "image": "https://bit.ly/3r3nuua",
-    "link": "https://icons8.com/",
-    "description": "Collection of diverse, cost-free icons for versatile design applications."
-  },
-  {
     "productName": "Pomofocus",
     "category": "Useful Tools",
     "image": "https://bit.ly/3Nq7dHn",
@@ -3084,12 +3056,6 @@
     "description": "GitHub is a widely used platform among developers, providing a space to create, store, manage and collaborate on code."
   },
   {
-    "productName": "GitLab",
-    "category": "collaboration",
-    "image": "https://media.licdn.com/dms/image/D560BAQEMpW43u_veYQ/company-logo_200_200/0/1707968675381/gitlab_com_logo?e=2147483647&v=beta&t=RrAmlbjTh7l6Rui9JjI4fObymrhYl-SRsc1sO_ek1QY",
-    "description": "It is more than just a Git repository manager it is a complete DevOps platform that enables development teams to collaborate productively, automate repetitive tasks, and deliver software faster and with better quality."
-  },
-  {
     "productName": "SQL Police Department",
     "category": "web",
     "image": "https://sqlpd.com/images/logo.svg",
@@ -3132,13 +3098,6 @@
     "description": "Copy.ai is one of the best free AI tools for digital marketing can help businesses improve their marketing strategies and drive better results."
   },
   {
-	 "productName":"Copilot ai",
-	 "category":"AI",
-	 "image":"https://media.licdn.com/dms/image/D5612AQF5A1Rn3_bJ7A/article-cover_image-shrink_600_2000/0/1707467579292?e=2147483647&v=beta&t=gJnnSsgaykZhGWwXDvgIt66ghzLeURyF8YT9yaKNv90",
-	 "link":"https://copilot.microsoft.com/",
-	 "description":"Microsoft's Copilot AI fosters collaboration, streamlining coding processes with innovative suggestions and insights."
-  },
-  {
 	 "productName":"Coding Ninjas",
 	 "category":"Coding",
 	 "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
@@ -3174,68 +3133,18 @@
 	 "description":"In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox. This helps users to master flexbox css"
   }, 
   {
-   "productName": "Webflow",
-   "category": "UI",
-   "image": "webflow.jpg",
-   "link": "https://webflow.com/",
-   "description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
-  },
-  {
-	  "productName": "JupyterLab",
-	  "category": "tools",
-	  "image": "https://seeklogo.com/images/J/jupyter-logo-A91705F539-seeklogo.com.png",
-	  "link": "https://jupyter.org/",
-	  "description":"latest web-based interactive development environment for notebooks, code, and data."
-  },
-  {
    "productName": "Iconfinder",
    "category": "Icon Library",
    "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
    "link": "https://www.iconfinder.com/",
    "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
   },
-  {
-   "productName": "Acertinity UI",
-   "category": "UI",
-   "image": "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75",
-   "link": "https://ui.aceternity.com/",
-   "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
-  },
-  {
-		"productName": "HeroIcons",
-		"category": "tools",
-		"image": "heroicon.png",
-		"link": "https://heroicons.com/",
-		"description": "HeroIcons you embed SVGs into your project with having to use any CDNs or install any node modules"
-	},
 	{
 		"productName": "Icons8",
 		"category": "tools",
 		"image": "icons8.png",
 		"link": "https://icons8.com/",
 		"description": "It provides you with a wide range of icons that can be used in your project in any format be it PNG, JPG or SVG."
-	},
-	
-	{
-		"productName": "Docker playground",
-		"category": "coding",
-		"image": "docker_playground.png",
-		"link": "https://labs.play-with-docker.com/",
-		"description": "A simple, interactive and fun playground to learn Docker, without having to install docker"
-	},
-	{
-		"productName": "React Icons",
-		"category": "tools",
-		"image": "react_icons.png",
-		"link": "https://react-icons.github.io/react-icons/",
-		"description": "Include popular icons in your React projects easily with react-icons."
-	},
-  	{
-		"productName": "Careerflow AI",
-		"category": "extensions ",
-		"image": "https://bit.ly/3VRSavy",
-		"link": "https://bit.ly/4ezO0j4",
-		"description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
 	},
   {
 		"productName": "Jenkins",
@@ -3249,20 +3158,6 @@
 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SufvcG1AFpUBwB8uZs6UNNAUiWkgMC5rqA&s",
 		"link": "https://gemini.google.com/app?utm_source=google&utm_medium=cpc&utm_campaign=2024enIN_gemfeb&gad_source=1&gclid=CjwKCAjw7NmzBhBLEiwAxrHQ-SgEf-M4MZksGDDhhR7BYmnhldDobfXovsl7pf3gPCtSgZRBI5_73hoCWOUQAvD_BwE",
 		"description": "AI chatbot to answer your queries regarding any field."
-  },
-  {
-    "productName":"Udemy",
-    "category":"course",
-    "image":"https://s.udemycdn.com/meta/default-meta-image-v2.png",
-    "link":"https://www.udemy.com/",
-    "description":"Udemy democratizes education by providing a vast array of online courses, catering to diverse interests and skill levels. Its self-paced learning model enables individuals worldwide to acquire new skills and advance their careers conveniently and affordably."
-  },
-  {
-		"productName": "GitHub Copilot",
-		"category": "tools",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGV3bTwpP8eTBE19it3Gc2_8n_W6LQhLmJUg&s",
-		"link": "https://github.com/features/copilot",
-		"description": "GitHub Copilot is an AI-powered code completion tool developed by GitHub, designed to assist developers in writing code faster and more efficiently."
   },
   {
 		"productName": "Docker",
@@ -3294,13 +3189,6 @@
     "description": "Lighthouse is an open-source, automated tool for improving the quality of web pages."
   },
   {
-    "productName": "Canva",
-    "category": "design",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
-    "link": "https://www.canva.com/",
-    "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
-  },
-  {
     "productName": "React Boostrap",
     "category": "UI",
     "image": "https://avatars.githubusercontent.com/u/6853419?s=200&v=4",
@@ -3322,41 +3210,6 @@
     "description": "Microsoft's Copilot AI fosters collaboration, streamlining coding processes with innovative suggestions and insights."
   },
   {
-    "productName": "Coding Ninjas",
-    "category": "Coding",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
-    "link": "https://www.codingninjas.com/",
-    "description": "Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
-  },
-  {
-    "productName": "takeUforward",
-    "category": "coding",
-    "image": "https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
-    "link": "https://takeuforward.org/",
-    "description": "takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
-  },
-  {
-    "productName": "Canva",
-    "category": "design",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
-    "link": "https://www.canva.com/",
-    "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
-  },
-  {
-    "productName": "Magic UI",
-    "category": "UI",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
-    "link": "https://magicui.design/",
-    "description": "UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
-  },
-  {
-    "productName": "Flexbox Froggy",
-    "category": "web",
-    "link": "https://flexboxfroggy.com/",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe4LjwVvqlzIm95ZKPyxIbdMRWgi6eZhalEw&s",
-    "description": "In this game, you must bring the frogs home to their lilypads by mastering CSS flexbox. This helps users to master flexbox css"
-  },
-  {
     "productName": "Webflow",
     "category": "UI",
     "image": "webflow.jpg",
@@ -3371,34 +3224,12 @@
     "description": "latest web-based interactive development environment for notebooks, code, and data."
   },
   {
-    "productName": "Iconfinder",
-    "category": "Icon Library",
-    "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
-    "link": "https://www.iconfinder.com/",
-    "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
-  },
-  {
-    "productName": "Acertinity UI",
-    "category": "UI",
-    "image": "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=64&q=75",
-    "link": "https://ui.aceternity.com/",
-    "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
-  },
-  {
     "productName": "HeroIcons",
     "category": "tools",
     "image": "heroicon.png",
     "link": "https://heroicons.com/",
     "description": "HeroIcons you embed SVGs into your project with having to use any CDNs or install any node modules"
   },
-  {
-    "productName": "Icons8",
-    "category": "tools",
-    "image": "icons8.png",
-    "link": "https://icons8.com/",
-    "description": "It provides you with a wide range of icons that can be used in your project in any format be it PNG, JPG or SVG."
-  },
-
   {
     "productName": "Docker playground",
     "category": "coding",
@@ -3421,13 +3252,6 @@
     "description": "LinkedIn profile optimization, AI generated cover letters, auto-fill and track job applications, resumes, and more!"
   },
   {
-    "productName": "Google Gemini",
-    "category": "tools",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SufvcG1AFpUBwB8uZs6UNNAUiWkgMC5rqA&s",
-    "link": "https://gemini.google.com/app?utm_source=google&utm_medium=cpc&utm_campaign=2024enIN_gemfeb&gad_source=1&gclid=CjwKCAjw7NmzBhBLEiwAxrHQ-SgEf-M4MZksGDDhhR7BYmnhldDobfXovsl7pf3gPCtSgZRBI5_73hoCWOUQAvD_BwE",
-    "description": "AI chatbot to answer your queries regarding any field."
-  },
-  {
     "productName": "Udemy",
     "category": "course",
     "image": "https://s.udemycdn.com/meta/default-meta-image-v2.png",
@@ -3440,20 +3264,6 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGV3bTwpP8eTBE19it3Gc2_8n_W6LQhLmJUg&s",
     "link": "https://github.com/features/copilot",
     "description": "GitHub Copilot is an AI-powered code completion tool developed by GitHub, designed to assist developers in writing code faster and more efficiently."
-  },
-  {
-    "productName": "Docker",
-    "category": "tools",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOfEB4GoogpeK364MtDqpqMOZ0FGTujj8Pw&s",
-    "link": "https://www.docker.com/",
-    "description": "Docker is an open platform for developing, shipping, and running applications in containers."
-  },
-  {
-    "productName": "Programiz",
-    "category": "tools",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl32oipFnDU1mIr5Hdmb_1u5BpzQ7LHlvzLw&s",
-    "link": "https://www.programiz.com/",
-    "description": "Programiz is an online platform providing tutorials and practice exercises for learning programming languages and concepts."
   },
   {
     "productName": "GDB Complier",
@@ -3476,14 +3286,6 @@
     "link": "https://infyspringboard.onwingspan.com/web/en/login",
     "description": "Infosys Springboard is a digital learning platform offering a wide range of courses and resources to help individuals upskill and enhance their career prospects"
   },
-
-  {
-		"productName": "Jasper AI",
-		"category": "AI Writing Assistant",
-		"image": "https://store-images.s-microsoft.com/image/apps.47595.9a5b943f-887a-4fe7-b1c6-d44a90c658fe.31db5641-66e6-4f64-9ab4-2a3ba66c2d73.9653c625-a855-4a91-bc32-ab984fa9bd91.png",
-		"link": "https://www.jasper.ai/",
-		"description": "Jasper AI is an advanced AI-powered writing assistant that helps you create high-quality content quickly and efficiently. It leverages natural language processing to generate articles, blog posts, marketing copy, and more, providing creative assistance and saving you time on writing tasks."
-		},
   {
    "productName": "Careerflow Ai",
    "category": "extension",
@@ -3548,13 +3350,6 @@
     "description": "Stability AI is a trailblazer in artificial intelligence (AI), known for its groundbreaking open-source generative AI tools that are transforming the world of technology."
   },
   {
-    "productName": "Runaway",
-    "category": "tools",
-    "image": "https://th.bing.com/th/id/OIP.IlqsmwRgRmUm5eZbmcDZ-gAAAA?rs=1&pid=ImgDetMain",
-    "link": "https://runwayml.com/",
-    "description": "Runway is an applied AI research company shaping the next era of art, entertainment and human creativity."
-  },
-  {
     "productName": "Video DownloadHelper",
     "category": "tools",
     "image": "https://lh3.googleusercontent.com/iUmZFfH0L0eydAiFWVuQMbcyiUx32X4aiy8mGinrOyTD0y2sOc_jkbi97Q4gCz7Z9hqP5Yl41lRJYLdLaG-SGDaK=s60",
@@ -3604,14 +3399,14 @@
     "description":"Edabit is a learning platform designed to improve coding skills through interactive challenges across various programming languages. It emphasizes hands-on practice and problem-solving techniques to enhance programming proficiency."
   },
   {
-    "productName":"skill share",
+    "productName":"Skill Share",
     "category":"tool",
     "image":"https://play-lh.googleusercontent.com/Lfh8g5kPONfSNL7R4s8itnMMdj3lhmHU9tb4gp7eoOaXkJo0dOcwB6iWPdNGZMRDMVs",
     "link":"https://www.skillshare.com/en/",
     "description":"Skillshare is an online learning community offering thousands of classes across creative and entrepreneurial skills. It allows users to learn at their own pace with access to diverse topics taught by industry experts."
   },
   {
-    "productName":"Linkedin learning",
+    "productName":"Linkedin Learning",
     "category":"course",
     "image":"https://media.licdn.com/dms/image/C4E0DAQEdAUx9nzmdGA/learning-public-crop_288_512/0/1593629654087?e=2147483647&v=beta&t=Scnqlh_Efb6Yx8irsul5fsLvkP7XfKkzzoqUSY9Bb4w",
     "link":"https://learning.linkedin.com/cx/get-started?src=go-pa&trk=sem-ga_campid.9764329640_asid.102279866120_crid.428931010987_kw.linkedin%20learning_d.c_tid.kwd-310582843911_n.g_mt.e_geo.9147463&mcid=6841855808129646768&cid=&gad_source=1&gclid=CjwKCAjwyo60BhBiEiwAHmVLJXVFj-Dy-UoF2qV385kNqUO9PxhVNcXWQmhu8tmt_Q_f357zzgxF5BoCEroQAvD_BwE&gclsrc=aw.ds",
@@ -3709,13 +3504,5 @@
     "image": "https://aflcio.org/sites/default/files/2020-03/Zoom-Pro-Annually-2.jpg",
     "link": "https://zoom.us/",
     "description": "Zoom is a videoconferencing service that allows users to connect with others through video and audio calls. It supports both one-on-one calls and group meetings, and is widely used for remote work, education, and collaboration."
-},
-  {
-    "productName": "Forage",
-    "category": "remote",
-    "image": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/139/2022/05/Forage_Logo_Icon_Vert_Green_RGB.png",
-    "link": "https://www.theforage.com/",
-    "description": "A resource which helps the users to gain virtual internship experience."
-
-  }
+}
 ]
