@@ -1,19 +1,19 @@
 .navbar {
   background-color: #8b5cf6;
-  padding: 5px 10px; /* Decreased padding to reduce height */
+  padding: 1rem; /* Decreased padding to reduce height */
   position: fixed;
   width: 100%;
   top: 0px;
   left: 0px;
-  height: 80px;
+  height: auto;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
   z-index: 4;
   isolation: isolate;
   mix-blend-mode: normal;
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .search-bar {
@@ -29,14 +29,13 @@
   text-decoration: none; /* Ensures no underline */
 }
 
-
 .navbar-content .nav-item {
+  flex-wrap: wrap;
   flex-grow: 1; /* Allow items to stretch */
   text-align: center;
   text-decoration: none; /* Ensures no underline */
   margin: 0 16px; /* Add space between items */
 }
-
 
 .logo-img {
   width: 150px;
@@ -81,17 +80,16 @@
 }
 
 .nav-item:hover {
-   transform: scale(1.05); /*Scale up slightly on hover */
-   filter: brightness(1.2); /* Brighten on hover for shine effect */
-   /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); Add glowing effect */
+  transform: scale(1.05); /*Scale up slightly on hover */
+  filter: brightness(1.2); /* Brighten on hover for shine effect */
+  /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); Add glowing effect */
 }
-
-
 
 .navbar-left {
   display: flex;
+  width: fit-content;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   gap: 5px;
   animation: slideLeft 1s ease forwards;
 }
@@ -163,9 +161,10 @@
   transform: rotate(-135deg);
 }
 
-.navbar-right {
+.navbar-center {
   display: flex;
   align-items: center;
+  flex: 1 1;
   animation: slideRight 1s ease forwards;
   /* margin-right: 115px; */
 }
@@ -181,7 +180,7 @@
   font-size: 1.2rem; /* Adjust font size as needed */
   transition: color 0.3s;
 }
-.nav-item a:hover{
+.nav-item a:hover {
   color: black;
   font-weight: 700;
 }
@@ -373,13 +372,13 @@
 }
 
 .search {
-   margin-top: 0px; 
+  margin-top: 0px;
   position: relative;
 }
 
 .box {
   margin-top: 15px;
-  margin-left: 65px; 
+  margin-left: 65px;
   outline: none !important;
   border-radius: 20px;
   width: 80% !important;
@@ -471,7 +470,7 @@
 }
 
 /* Ensure no underline under nav items */
-.nav-item a, .navbar-content ul li a {
+.nav-item a,
+.navbar-content ul li a {
   text-decoration: none !important;
 }
-
