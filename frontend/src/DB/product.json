@@ -35,6 +35,13 @@
     "description": "Global online learning platform with courses, degrees, and certificates."
   },
   {
+    "productName": "Fiverr",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.Arb4siojnanMD4dOpW5uHgHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.fiverr.com/",
+    "description": "Fiverr is a freelancing platform which provides the opportinites for doing freelancing."
+  },
+  {
     "productName": "Carousel Hero",
     "category": "tools",
     "image": "https://i.ibb.co/7rRW6TW/logo-social-large.png",
