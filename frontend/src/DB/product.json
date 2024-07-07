@@ -35,6 +35,13 @@
     "description": "Global online learning platform with courses, degrees, and certificates."
   },
   {
+    "productName": "Antropic AI",
+    "category": "Tool",
+    "image": "https://vectorseek.com/wp-content/uploads/2024/01/Anthropic-Icon-Logo-Vector.svg-.png",
+    "link": "https://www.anthropic.com/",
+    "description": "Anthropic is an AI safety and research company based in San Francisco. Our interdisciplinary team has experience across ML, physics, policy, and product."
+  },
+  {
     "productName": "Carousel Hero",
     "category": "tools",
     "image": "https://i.ibb.co/7rRW6TW/logo-social-large.png",
