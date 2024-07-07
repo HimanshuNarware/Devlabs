@@ -30,7 +30,13 @@ const tools = [
     description: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
     link: "https://sass-lang.com/",
     image: "https://shorturl.at/RtQ1O"
-  }
+  },
+  {
+    name: "LottieFiles",
+    description: "largest collection of free-to-use animations, with thousands of unique designs that can be used for both personal and commercial projects.The animations are professionally designed, and you can also change the colour, height, width, animation speed, and so on to match the theme of your website. ",
+    link: "https://lottiefiles.com/",
+    image: "https://i.pinimg.com/564x/cb/7e/41/cb7e41c764d0a7e1b7713d11fa08e152.jpg"
+  },
 ];
 
 
