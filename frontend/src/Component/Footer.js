@@ -128,20 +128,25 @@ function Footer() {
               </div>
 
               <div className="text-center mb-2">
-                <a href="https://github.com/sponsors/HimanshuNarware" target="_blank">
+                <a
+                  href="https://github.com/sponsors/HimanshuNarware"
+                  target="_blank"
+                >
                   <img
                     src="https://badgen.net/badge/icon/github?icon=github&label=Sponsor&color=orange"
                     alt="Sponsor Me on GitHub"
-                    style={{ height: '30px', width: 'auto' }}
+                    style={{ height: "30px", width: "auto" }}
                   />
                 </a>
               </div>
 
               <div className="footer-icon mb-2">
+                <div class="popup-message">This is a tooltip message!</div>
                 <a
                   href="https://www.linkedin.com/in/himanshunarware/"
                   rel="noreferrer"
                   target="_blank"
+                  id="linked"
                 >
                   <FaLinkedin className="text-white mx-1 fs-4" />
                 </a>
@@ -149,16 +154,22 @@ function Footer() {
                   href="https://twitter.com/N_Himanshu_/"
                   rel="noreferrer"
                   target="_blank"
+                  id="twitter"
                 >
                   <FaSquareXTwitter className="text-white mx-1 fs-4" />
                 </a>
-                <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
+                <a
+                  href="mailto:himanshunarware77@gmail.com"
+                  rel="noreferrer"
+                  id="gmail"
+                >
                   <SiGmail className="text-white mx-1 fs-4" />
                 </a>
                 <a
                   href="https://github.com/HimanshuNarware/Devlabs"
                   rel="noreferrer"
                   target="_blank"
+                  id="github"
                 >
                   <FaGithubSquare className="text-white mx-1 fs-4" />
                 </a>
