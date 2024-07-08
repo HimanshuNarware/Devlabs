@@ -210,6 +210,13 @@
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
   },
   {
+    "productName": "Skills Network Labs",
+    "category": "tools",
+    "image": "https://skills.network/logos/SN_web_lightmode.svg",
+    "link": "https://skills.network/lab-tools",
+    "description": "Virtual lab environment reserved for the exclusive use by the learners on Skills Network portals "
+  },
+  {
     "productName": "InterviewBit",
     "category": "coding",
     "image": "https://bit.ly/3NH8dIt",
