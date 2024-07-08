@@ -203,11 +203,25 @@
     "description": "Tinkercad is a free, easy-to-use app for 3D design, electronics, and coding."
   },
   {
+    "productName": "Remove.bg",
+    "category": "tools",
+    "image": "https://sb.kaleidousercontent.com/67418/1024x1024/29e2b38e80/rbg-macos-app-icon-2x.png",
+    "link": "https://www.remove.bg/",
+    "description": "To remove backgrounds of image,logos,etc.."
+  },
+  {
     "productName": "Scaler",
     "category": "course",
     "image": "https://bit.ly/3XoZKgc",
     "link": "https://bit.ly/3plUFZw",
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
+  },
+  {
+    "productName": "Skills Network Labs",
+    "category": "tools",
+    "image": "https://skills.network/logos/SN_web_lightmode.svg",
+    "link": "https://skills.network/lab-tools",
+    "description": "Virtual lab environment reserved for the exclusive use by the learners on Skills Network portals "
   },
   {
     "productName": "InterviewBit",
@@ -603,6 +617,13 @@
     "description": "Tech news aggregator and developer resources website."
   },
   {
+    "productName": "Fotor",
+    "category": "tools",
+    "image": "https://cupertinotimes.com/wp-content/uploads/2021/02/Fotor-logo-758x866.jpg",
+    "link": "https://www.fotor.com/",
+    "description": "Fotor is a free online multi-platform photo editing software."
+  },
+  {
     "productName": "Up Work",
     "category": "remote",
     "image": "https://www.upwork.com/favicon.ico",
@@ -650,6 +671,13 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
     "link": "https://www.figma.com/",
     "description": " Online design and prototyping tool."
+  },
+  {
+    "productName": "FlutterFlow",
+    "category": "tools",
+    "image": "https://asset.brandfetch.io/id209IGdxm/idGj5i8Kzv.jpeg",
+    "link": "https://flutterflow.io/",
+    "description": "Build fully functional apps with Firebase integration, API support, animations, and more"
   },
   {
     "productName": "smalldev",
@@ -3349,6 +3377,7 @@
     "link": "https://www.canva.com/",
     "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
   },
+ 
   {
     "productName": "Magic UI",
     "category": "UI",
@@ -3709,6 +3738,13 @@
   "image": "https://atai-main.b-cdn.net/tools/sharly-ai-icon.jpeg",
   "link": "https://sharly.ai/",
   "description": "Sharly is a tool which helps you to chat with PDF documents and more."
+},
+{
+  "productName": "SQL Server",
+  "category": "Tool",
+  "image": "https://lennox-it.uk/wp-content/uploads/2015/12/SQL-Server-20121.png",
+  "link": "https://www.microsoft.com/en-in/sql-server/",
+  "description": "Seamlessly manage, govern and secure your entire SQL Server estate, on premises or across multi-cloud environments."
 },
 {
     "productName": "Zoom",
