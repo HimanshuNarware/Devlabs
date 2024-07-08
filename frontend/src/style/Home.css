@@ -376,7 +376,7 @@
 }
 .btn-booked-box,
 .btn-b-box {
-  color: rgb(255, 255, 255);
+  color: #000;
   font-size: 1.1rem;
   border: 1px solid #8b5cf6;
   margin-inline: 10px;
@@ -404,6 +404,7 @@
 }
 
 .btn-b-box:hover {
+  color: #fff;
   background: transparent;
   cursor: none;
   box-shadow: 2px 2px 1px #8b5cf6;
