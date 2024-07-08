@@ -14,11 +14,25 @@
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
   },
   {
+    "productName": "Sublime Text",
+    "category": "tools",
+    "image": "https://damiandeluca.com.ar/wp-content/uploads/2012/08/sublime.png",
+    "link": "https://www.sublimetext.com/",
+    "description": "Sublime Text is a sophisticated cross-platform text editor for code, markup and prose."
+  },
+  {
     "productName": "Image color picker",
     "category": "tools",
     "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
     "link": "https://10015.io/tools/image-color-picker",
     "description": "Extract color from the images and get color code and details"
+  },
+  {
+    "productName": "Lucid chart",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.EpFrAgr4EwPGJZQRN8egNgHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.lucidchart.com/pages/?",
+    "description": "Lucidchart helps you to visualize ideas, make charts, diagrams & more. Get the most powerful, professional diagram software on the market."
   },
   {
     "productName": "removebg",
@@ -35,11 +49,32 @@
     "description": "Remove video backgrounds 100% automatically in 5 seconds with one click."
   },
   {
+    "productName": "Deep AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.M5pmo9G5OwXTB1YAD5xgngAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://deepai.org/?ref=prototypr.io",
+    "description": "DeepAI offers various features to generate images, videos and characters using text prompts and art styles. You can create animations, edit images, chat with characters and more"
+  },
+  {
     "productName": "edX",
     "category": "course",
     "image": "http://bit.ly/4aK9dDT",
     "link": "https://www.edx.org/",
     "description": "Global online learning platform with courses, degrees, and certificates."
+  },
+  {
+    "productName": "Antropic AI",
+    "category": "Tool",
+    "image": "https://vectorseek.com/wp-content/uploads/2024/01/Anthropic-Icon-Logo-Vector.svg-.png",
+    "link": "https://www.anthropic.com/",
+    "description": "Anthropic is an AI safety and research company based in San Francisco. Our interdisciplinary team has experience across ML, physics, policy, and product."
+  },
+  {
+    "productName": "Fiverr",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.Arb4siojnanMD4dOpW5uHgHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.fiverr.com/",
+    "description": "Fiverr is a freelancing platform which provides the opportinites for doing freelancing."
   },
   {
     "productName": "Carousel Hero",
@@ -203,11 +238,32 @@
     "description": "SEO WRITING is an AI writing tool for 1-click SEO-optimized articles, blog posts & affiliate content."
   },
   {
+    "productName": "Tinkercad",
+    "category": "tools",
+    "image": "https://api-reader.tinkercad.com/api/images/cbdy6sTzSjf/t725.jpg",
+    "link": "https://www.tinkercad.com/",
+    "description": "Tinkercad is a free, easy-to-use app for 3D design, electronics, and coding."
+  },
+  {
+    "productName": "Remove.bg",
+    "category": "tools",
+    "image": "https://sb.kaleidousercontent.com/67418/1024x1024/29e2b38e80/rbg-macos-app-icon-2x.png",
+    "link": "https://www.remove.bg/",
+    "description": "To remove backgrounds of image,logos,etc.."
+  },
+  {
     "productName": "Scaler",
     "category": "course",
     "image": "https://bit.ly/3XoZKgc",
     "link": "https://bit.ly/3plUFZw",
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
+  },
+  {
+    "productName": "Skills Network Labs",
+    "category": "tools",
+    "image": "https://skills.network/logos/SN_web_lightmode.svg",
+    "link": "https://skills.network/lab-tools",
+    "description": "Virtual lab environment reserved for the exclusive use by the learners on Skills Network portals "
   },
   {
     "productName": "InterviewBit",
@@ -603,6 +659,13 @@
     "description": "Tech news aggregator and developer resources website."
   },
   {
+    "productName": "Fotor",
+    "category": "tools",
+    "image": "https://cupertinotimes.com/wp-content/uploads/2021/02/Fotor-logo-758x866.jpg",
+    "link": "https://www.fotor.com/",
+    "description": "Fotor is a free online multi-platform photo editing software."
+  },
+  {
     "productName": "Up Work",
     "category": "remote",
     "image": "https://www.upwork.com/favicon.ico",
@@ -650,6 +713,13 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
     "link": "https://www.figma.com/",
     "description": " Online design and prototyping tool."
+  },
+  {
+    "productName": "FlutterFlow",
+    "category": "tools",
+    "image": "https://asset.brandfetch.io/id209IGdxm/idGj5i8Kzv.jpeg",
+    "link": "https://flutterflow.io/",
+    "description": "Build fully functional apps with Firebase integration, API support, animations, and more"
   },
   {
     "productName": "smalldev",
@@ -909,6 +979,13 @@
     "image": "https://pbs.twimg.com/profile_images/1280844974435819523/VZkfNxSh_400x400.jpg",
     "link": "https://deviceshots.com/",
     "description": "Online tool for generating device mockups for website and app design."
+  },
+  {
+    "productName": "Shutterstock",
+    "category": "tools",
+    "image": "https://www.shutterstock.com/assets/images/shutterstock-favicon-192.png",
+    "link": "https://www.shutterstock.com/",
+    "description": "Stock Images, Photos, Vectors, Video, and Music"
   },
   {
     "productName": "Coolors",
@@ -1518,6 +1595,13 @@
     "image": "https://rb.gy/ubckl",
     "link": "https://rb.gy/w7yaw",
     "description": "Save the links of all open tabs to read later"
+  },
+  {
+    "productName": "Listly - Web Scraping",
+    "category": "extensions",
+    "image": "https://rb.gy/p61uan",
+    "link": "https://rb.gy/f281zo",
+    "description": "A free easy-to-use web scraping tool. Extract Web data in a few clicks"
   },
   {
     "productName": "Gamma AI",
@@ -3349,6 +3433,7 @@
     "link": "https://www.canva.com/",
     "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
   },
+ 
   {
     "productName": "Magic UI",
     "category": "UI",
@@ -3711,6 +3796,13 @@
   "description": "Sharly is a tool which helps you to chat with PDF documents and more."
 },
 {
+  "productName": "SQL Server",
+  "category": "Tool",
+  "image": "https://lennox-it.uk/wp-content/uploads/2015/12/SQL-Server-20121.png",
+  "link": "https://www.microsoft.com/en-in/sql-server/",
+  "description": "Seamlessly manage, govern and secure your entire SQL Server estate, on premises or across multi-cloud environments."
+},
+{
     "productName": "Zoom",
     "category": "tools",
     "image": "https://aflcio.org/sites/default/files/2020-03/Zoom-Pro-Annually-2.jpg",
@@ -3724,5 +3816,12 @@
     "link": "https://www.theforage.com/",
     "description": "A resource which helps the users to gain virtual internship experience."
 
+  },
+  {
+    "productName": "Animetsu",
+    "category": "anime",
+    "image": "https://ibb.co/VmRrvgX",
+    "link": "https://animetsu.cc/",
+    "description": "Animetsu is a free Anime watching platform."
   }
 ]

@@ -25,7 +25,7 @@ function Footer() {
               <a href="https://www.devlabsstore.tech/">
                 <img width={209} src={logo} alt="devlabs" />
               </a>
-              <p>
+              <p className="footer-content">
                 Welcome to DevLabs, a website where you can search for free
                 tools that are useful for your daily needs. This application is
                 created by the incredible open-source community. On DevLaps, you
@@ -49,7 +49,7 @@ function Footer() {
                 <Link to="/review">Tell us now</Link>
               </button>
             </div>
-            <div className="col-md-6 col-lg-3 col-12 ft-2">
+            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-space">
               <h5>Company</h5>
               <ul>
                 <li class="nav-item">
@@ -78,7 +78,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-6 col-lg-3 col-12 ft-2">
+            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-space">
               <h5>Quick Links</h5>
               <ul>
                 <li className="nav-item">
@@ -98,7 +98,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-6 col-lg-2 col-12 ft-4">
+            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-last">
               <h5>Explore</h5>
               <ul>
                 <li className="nav-item">
