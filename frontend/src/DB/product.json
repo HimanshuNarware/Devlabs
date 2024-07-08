@@ -603,6 +603,13 @@
     "description": "Tech news aggregator and developer resources website."
   },
   {
+    "productName": "Fotor",
+    "category": "tools",
+    "image": "https://cupertinotimes.com/wp-content/uploads/2021/02/Fotor-logo-758x866.jpg",
+    "link": "https://www.fotor.com/",
+    "description": "Fotor is a free online multi-platform photo editing software."
+  },
+  {
     "productName": "Up Work",
     "category": "remote",
     "image": "https://www.upwork.com/favicon.ico",
