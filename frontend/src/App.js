@@ -31,6 +31,7 @@ import CoursesPlatform from "./pages/CoursesPlatform";
 import Collaboration from "./pages/Collaboration";
 import TrailingCursor from "./Component/TrailingCursor/TrailingCursor";
 import Productivity from "./pages/Productivity";
+import BackendTools from "./pages/BackendTools";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -57,6 +58,7 @@ function App() {
         <Route path="/extension" element={<Extension />} />
         <Route path="/ui-design" element={<UI />} />
         <Route path="/front-end-tools" element={<FrontendTools />} />
+        <Route path="/back-end-tools" element={<BackendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
         <Route path="/courses-platform" element={<CoursesPlatform />} />
