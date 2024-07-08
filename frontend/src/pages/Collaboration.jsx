@@ -82,6 +82,15 @@ const movies = [
       "https://logowik.com/content/uploads/images/miro3962.jpg",
     releaseDate: "2024-10-01",
   },
+  {
+    title: "Figma",
+    category: "Collaboration Tools",
+    description:
+      "Figma is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration.",
+    image:
+      "https://i.pinimg.com/564x/17/06/c9/1706c9f16bd08eb5e03f1df3e0a94a1c.jpg",
+    releaseDate: "2016-9-27",
+  },
 
 ];
 const Collaboration = () => {

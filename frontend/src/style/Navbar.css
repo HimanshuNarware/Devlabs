@@ -72,9 +72,10 @@
 }
 
 .nav-item:hover {
-  color: black;
-  transform: scale(1.05);
-  filter: brightness(1.2);
+  /* border: none; */
+  transform: scale(1.05); /*Scale up slightly on hover */
+  filter: brightness(1.2); /* Brighten on hover for shine effect */
+  /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); Add glowing effect */
 }
 
 .navbar-left {
@@ -202,6 +203,18 @@
   font-size: 1.4rem;
   overflow-y: scroll;
   transition: width 0.3s;
+}
+
+.nav-item::before {
+  content: "";
+  position: absolute;
+  /* bottom: 0; */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: black;
+  /* transition: width 0.2s ease-in-out; */
 }
 
 .sidebar.active {

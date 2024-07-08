@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import Lottie from "lottie-react";
@@ -6,6 +6,22 @@ import animationData from "../lottie/contact.json";
 import "../style/Contact.css";
 
 const Contact = () => {
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleEmailChange = (event) => {
+    const { value } = event.target;
+    setEmail(value);
+
+    // Basic email format validation using regex
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(value)) {
+      setMessage('Please enter a valid email');
+    } else {
+      setMessage('');
+    }
+  };
+
   return (
     <div className="contact-container">
       <div className="lottie-container">
@@ -28,7 +44,12 @@ const Contact = () => {
             <label htmlFor="email" className="form-label">
               Email:
             </label>
-            <input type="email" id="email" name="email" className="form-input" />
+            <input type="email" id="email" name="email" className="form-input" onChange={handleEmailChange}/>
+            {message && (
+          <p style={{ color: 'red', fontSize: '0.8rem', marginTop: '0.25rem' }}>
+            {message}
+          </p>
+        )}
           </div>
 
           <div className="form-group">
