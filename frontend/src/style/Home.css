@@ -71,6 +71,14 @@
   align-items: center;
   margin-top: 20px;
   padding: 1rem;
+  margin-left: 32%;
+}
+
+.pagination .page-wrapper{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination ul {
