@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "../style/faq.css";
 import {
   Accordion,
@@ -7,10 +7,11 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
   AccordionItemState,
-} from 'react-accessible-accordion';
-import { MdOutlineArrowDropDown } from 'react-icons/md';
-import data from './accordion';
-import 'react-accessible-accordion/dist/fancy-example.css';
+} 
+from "react-accessible-accordion";
+import { MdOutlineArrowDropDown } from "react-icons/md";
+import data from "./accordion";
+import "react-accessible-accordion/dist/fancy-example.css";
 
 export default function Faq() {
   let [index, setIndex] = useState(0);
@@ -38,8 +39,8 @@ export default function Faq() {
                       <AccordionItemState>
                         {({ expanded }) =>
                           expanded
-                            ? setClassName('expanded')
-                            : setClassName('collapsed')
+                            ? setClassName("expanded")
+                            : setClassName("collapsed")
                         }
                       </AccordionItemState>
                       <div className="faq__accordion-button">
