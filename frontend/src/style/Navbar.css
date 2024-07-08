@@ -1,6 +1,6 @@
 .navbar {
   background-color: #8b5cf6;
-  padding: 1rem; /* Decreased padding to reduce height */
+  padding: 1rem;
   position: fixed;
   width: 100%;
   top: 0px;
@@ -13,49 +13,42 @@
   z-index: 4;
   isolation: isolate;
   mix-blend-mode: normal;
-  /* padding-left: 30px; */
 }
 
 .search-bar {
   display: flex;
   align-items: center;
   position: relative;
-  top: -10px; /* Adjust the value as needed */
+  top: -10px;
 }
+
 .navbar-content li {
-  flex-grow: 1; /* Make the navbar items stretch to fill the width */
-  margin: 0 15px; /* Add margin to create space between nav items */
+  flex-grow: 1;
+  margin: 0 15px;
   font-size: 1.3rem;
-  text-decoration: none; /* Ensures no underline */
+  text-decoration: none;
 }
 
 .navbar-content .nav-item {
   flex-wrap: wrap;
-  flex-grow: 1; /* Allow items to stretch */
+  flex-grow: 1;
   text-align: center;
-  text-decoration: none; /* Ensures no underline */
-  margin: 0 16px; /* Add space between items */
+  text-decoration: none;
+  margin: 0 16px;
 }
 
 .logo-img {
   width: 150px;
-  margin-right: auto !important; /* Move the logo to the left */
+  margin-right: auto !important;
 }
-.navbar-content li {
-  list-style: none;
-  margin: 0 10px;
-  font-size: 1.3rem;
-  text-decoration: none; /* Ensures no underline */
-  animation: slideTop 1s ease forwards;
-}
+
 .navbar-content {
   display: flex;
-  text-decoration: none; /* Ensures no underline */
   list-style: none;
   padding: 0;
   margin: 0;
-  justify-content: space-between; /* Add space between items */
-  width: 109%; /* Make the navbar items stretch along the width */
+  justify-content: space-between;
+  width: 109%;
 }
 
 .card-body img {
@@ -70,19 +63,18 @@
   display: flex;
   align-items: center;
 }
-/* Define hover effect for nav-items */
-/* Define hover effect for nav-items */
+
 .nav-item {
   position: relative;
   color: #fff;
-  transition: transform 0.3s, filter 0.3s, box-shadow 0.3s; /* Add box-shadow to transition */
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0); /* Initially no shadow */
+  transition: transform 0.3s, filter 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0);
 }
 
 .nav-item:hover {
-  transform: scale(1.05); /*Scale up slightly on hover */
-  filter: brightness(1.2); /* Brighten on hover for shine effect */
-  /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); Add glowing effect */
+  color: black;
+  transform: scale(1.05);
+  filter: brightness(1.2);
 }
 
 .navbar-left {
@@ -98,13 +90,7 @@
   width: 30px;
   height: 30px;
   position: relative;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
@@ -118,13 +104,7 @@
   border-radius: 9px;
   opacity: 1;
   left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
 
@@ -142,9 +122,6 @@
 
 #nav-icon1.open span:nth-child(1) {
   top: 18px;
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
   transform: rotate(135deg);
 }
 
@@ -155,9 +132,6 @@
 
 #nav-icon1.open span:nth-child(3) {
   top: 18px;
-  -webkit-transform: rotate(-135deg);
-  -moz-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
 
@@ -166,37 +140,54 @@
   align-items: center;
   flex: 1 1;
   animation: slideRight 1s ease forwards;
-  /* margin-right: 115px; */
 }
 
 .logo-img {
   width: 150px;
-  margin-right: 140px; /* Move the logo to the right */
+  margin-right: 140px;
 }
 
-.nav-item a {
-  color: #0e0303;
-  text-decoration: none;
-  font-size: 1.2rem; /* Adjust font size as needed */
+.nav-item a
+/* .navbar-content ul li a */
+/* .Bookmark.nav-link.active  */
+{
+  color: black !important; /* Ensure nav items are always black */
+  text-decoration: none !important;
+  font-size: 1.2rem;
   transition: color 0.3s;
+  position: relative;
 }
-.nav-item a:hover {
-  color: black;
+
+.nav-item a:hover
+/* .Bookmark.nav-link.active:hover  */
+{
+  color: black !important; /* Ensure nav items remain black on hover */
   font-weight: 700;
 }
 
-.navbar-content ul li a.active {
-  color: white;
-  background-color: rgb(0, 128, 0);
+.nav-item a::after
+/* .Bookmark.nav-link.active::after  */
+{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1.8px;
+  bottom: -5px;
+  left: 0;
+  background-color: black; /* Ensure underline is black */
+  transition: all 0.3s ease-in-out;
 }
 
-.nav-item {
-  position: relative;
-  color: #fff;
-}
-
-.nav-item:hover::before {
+.nav-item a:hover::after
+/* .Bookmark.nav-link.active:hover::after  */
+{
   width: 100%;
+  background-color: black; /* Ensure underline remains black on hover */
+}
+
+.navbar-content ul li a.active {
+  color: black;
+  background-color: rgb(0, 128, 0);
 }
 
 .sidebar {
@@ -213,18 +204,6 @@
   transition: width 0.3s;
 }
 
-.nav-item::before {
-  content: "";
-  position: absolute;
-  /* bottom: 0; */
-  left: 50%;
-  /* transform: translateX(-50%); */
-  width: 0;
-  height: 2px;
-  background-color: black;
-  /* transition: width 0.2s ease-in-out; */
-}
-
 .sidebar.active {
   width: 20rem;
 }
@@ -232,7 +211,6 @@
 .sidebar-content {
   border-bottom: 1px solid rgb(2, 27, 43);
   font-weight: 500;
-  /* transform: translateY(40px); */
   opacity: 0;
   transition: transform 0.5s, opacity 0.5s;
   transition-delay: 0.2s;
@@ -258,10 +236,10 @@
   font-weight: 500;
 }
 
-.Link:hover {
+/* .Link:hover {
   color: rgb(72, 5, 5);
   text-decoration: none;
-}
+} */
 
 .sidebar-btns {
   display: flex;
@@ -278,9 +256,9 @@
   line-height: 1;
 }
 
-.sidebar-btn:hover {
+/* .sidebar-btn:hover {
   color: rgba(0, 0, 0, 0.84);
-}
+} */
 
 .sidebar {
   color: rgba(0, 0, 0, 0.84);
@@ -333,7 +311,7 @@
   background-clip: padding-box;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   position: relative;
-  padding-right: 40px; /* Adjust as needed */
+  padding-right: 40px;
   flex: 1 1 auto;
   width: 1%;
   margin-bottom: 0;
@@ -353,19 +331,18 @@
   line-height: 1;
 }
 
-.sidebar-btn:hover {
+/* .sidebar-btn:hover {
   color: rgba(0, 0, 0, 0.84);
-}
+} */
 
 .sidebar {
   color: rgba(0, 0, 0, 0.84);
 }
 
-.filter:hover {
+/* .filter:hover {
   font-size: 1.8rem;
   text-decoration: underline;
-  /* transition: all 0.3s; */
-}
+} */
 
 .filter {
   transition: font-size 0.3s ease, text-decoration 0.3s ease;
@@ -389,9 +366,9 @@
   border: none;
 }
 
-.box:hover {
+/* .box:hover {
   border: 2.5px solid black;
-}
+} */
 
 .input:focus {
   outline: none;
@@ -400,7 +377,6 @@
 }
 
 .span {
-  /* background: transparent !important; */
   border: none !important;
   border-radius: 2px 100px 100px 2px;
   margin: 1.5px;
@@ -410,12 +386,11 @@
   font-size: 1.5rem;
   font-weight: b;
   line-height: 1.5;
-  color: #495057;
+  color: black;
   text-align: center;
   white-space: nowrap;
   background-color: #ebeff4;
   border: 1px solid #ced4da;
-  /* border-radius: 0.25rem; */
   font-weight: bold !important;
   cursor: pointer;
 }
@@ -441,7 +416,7 @@
   font-size: 1.5rem;
   font-weight: b;
   line-height: 1.5;
-  color: #495057;
+  color: black;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -471,6 +446,39 @@
 
 /* Ensure no underline under nav items */
 .nav-item a,
-.navbar-content ul li a {
+.navbar-content ul li a
+/* .Bookmark.nav-link.active  */
+{
+  color: black !important; /* Ensure nav items are always black */
   text-decoration: none !important;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+  position: relative;
+}
+
+.nav-item a:hover
+/* .Bookmark.nav-link.active:hover { */
+{
+  color: black !important; /* Ensure nav items remain black on hover */
+  font-weight: 700;
+}
+
+.nav-item a::after
+/* .Bookmark.nav-link.active::after  */
+{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: black; /* Ensure underline is black */
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item a:hover::after
+/* .Bookmark.nav-link.active:hover::after  */
+{
+  width: 100%;
+  background-color: black; /* Ensure underline remains black on hover */
 }
