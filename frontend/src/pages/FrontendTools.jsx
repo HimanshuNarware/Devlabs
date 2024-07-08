@@ -26,6 +26,12 @@ const tools = [
     image: "https://shorturl.at/TVTbX"
   },
   {
+    name: "Ant Design",
+    description: "A design system for enterprise-level products, offering a set of high-quality React components out of the box.",
+    link: "https://ant.design/",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHd0R9InDxSt6TjHiY61JdqxUIoM_FXU4DJw&s"
+  },
+  {
     name: "Sass",
     description: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
     link: "https://sass-lang.com/",
