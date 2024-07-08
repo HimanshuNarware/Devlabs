@@ -54,6 +54,36 @@ const tools = [
     description: "A React-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package.",
     link: "https://v2.grommet.io/",
     image: "https://i.ibb.co/6RrD7hw/Screenshot-2024-06-29-131941.png"
+  },
+  {
+    name: "Shadcn/ui",
+    description: "Shadcn/ui is a collection of accessible, themeable, and customizable React components built using Radix UI and Tailwind CSS, designed to streamline the creation of modern, responsive web interfaces.",
+    link: "https://ui.shadcn.com/",
+    image: "https://shorturl.at/TVTbX"
+  },
+  {
+    name: "Ant Design",
+    description: "A design system for enterprise-level products, offering a set of high-quality React components out of the box.",
+    link: "https://ant.design/",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHd0R9InDxSt6TjHiY61JdqxUIoM_FXU4DJw&s"
+  },
+  {
+    name: "Sass",
+    description: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
+    link: "https://sass-lang.com/",
+    image: "https://shorturl.at/RtQ1O"
+  },
+  {
+    name: "LottieFiles",
+    description: "largest collection of free-to-use animations, with thousands of unique designs that can be used for both personal and commercial projects.The animations are professionally designed, and you can also change the colour, height, width, animation speed, and so on to match the theme of your website. ",
+    link: "https://lottiefiles.com/",
+    image: "https://i.pinimg.com/564x/cb/7e/41/cb7e41c764d0a7e1b7713d11fa08e152.jpg"
+  },
+  {
+    name: "TypeScript",
+    description: "TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience.",
+    link: "https://www.typescriptlang.org/",
+    image: "https://iconduck.com/icons/95017/typescript-icon"
   }
 
 ];
