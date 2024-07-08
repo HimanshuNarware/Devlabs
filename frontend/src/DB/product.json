@@ -3704,6 +3704,13 @@
   "description": "Sharly is a tool which helps you to chat with PDF documents and more."
 },
 {
+  "productName": "SQL Server",
+  "category": "Tool",
+  "image": "https://lennox-it.uk/wp-content/uploads/2015/12/SQL-Server-20121.png",
+  "link": "https://www.microsoft.com/en-in/sql-server/",
+  "description": "Seamlessly manage, govern and secure your entire SQL Server estate, on premises or across multi-cloud environments."
+},
+{
     "productName": "Zoom",
     "category": "tools",
     "image": "https://aflcio.org/sites/default/files/2020-03/Zoom-Pro-Annually-2.jpg",
