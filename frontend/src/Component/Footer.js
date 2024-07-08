@@ -25,7 +25,7 @@ function Footer() {
               <a href="https://www.devlabsstore.tech/">
                 <img width={209} src={logo} alt="devlabs" />
               </a>
-              <p>
+              <p className="footer-content">
                 Welcome to DevLabs, a website where you can search for free
                 tools that are useful for your daily needs. This application is
                 created by the incredible open-source community. On DevLaps, you
