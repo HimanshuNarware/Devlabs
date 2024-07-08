@@ -7,6 +7,13 @@
     "description": "BIRME is a flexible and easy to use bulk image resizer. It can resize your images to any specific dimension and crop them proportionately if necessary."
   },
   {
+    "productName": "Sublime Text",
+    "category": "tools",
+    "image": "https://damiandeluca.com.ar/wp-content/uploads/2012/08/sublime.png",
+    "link": "https://www.sublimetext.com/",
+    "description": "Sublime Text is a sophisticated cross-platform text editor for code, markup and prose."
+  },
+  {
     "productName": "Image color picker",
     "category": "tools",
     "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
