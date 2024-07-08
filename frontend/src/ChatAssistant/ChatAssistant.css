@@ -132,3 +132,23 @@
     border-radius: 50px;
   }
 }
+.chatbot:hover .tooltiptext{
+
+  top: -2.5em;
+  left: -1em;
+  visibility: visible;
+  opacity: 1;
+}
+.tooltiptext{
+  position: absolute;
+  top: 0;
+  left: 2em;
+  transform: transLateX(-50%);
+  background-color:rgb(207, 238, 238);
+  color: rgb(197, 129, 129);
+  white-space: nowrap;
+  padding: 5px 10px;
+  border-radius: 7px;
+  visibility: hidden;
+  transition: opacity 0.5s ease;
+}
