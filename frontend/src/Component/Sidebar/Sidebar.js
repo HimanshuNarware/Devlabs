@@ -3,6 +3,16 @@ import { Link } from "react-router-dom";
 import { BsBookmark } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
 import SidebarContent from "./SidebarContent";
+import {
+  faHome,
+  faBookmark,
+  faCode,
+  faInfoCircle,
+  faQuestionCircle,
+  faStar,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Sidebar({ showSideNav }) {
   const sidebarContent = [
@@ -47,6 +57,11 @@ function Sidebar({ showSideNav }) {
       url: "/front-end-tools",
     },
     {
+      name: "tools",
+      description: "Backend Tools",
+      url: "/back-end-tools",
+    },
+    {
       name: "coding",
       description: "Coding Platforms",
       url: "/coding-platform",
@@ -54,7 +69,7 @@ function Sidebar({ showSideNav }) {
     {
       name: "course",
       description: "Course Platforms",
-      url: "/cources-platform",
+      url: "/courses-platform",
     },
     {
       name: "productivity",
@@ -69,7 +84,7 @@ function Sidebar({ showSideNav }) {
   ];
 
   return (
-    <div className={`sidebar ${showSideNav ? "active" : ""}`}>
+    <div style={{marginTop: "10px"}} className={`sidebar ${showSideNav ? "active" : ""}`}>
       <div
         className={`sidebar-content sidebar-btns ${
           showSideNav ? "active" : ""
@@ -99,7 +114,18 @@ function Sidebar({ showSideNav }) {
             className="Link  Bookmark nav-link active"
             aria-current="page"
           >
+            <FontAwesomeIcon icon={faInfoCircle} />
             About Us
+          </Link>
+        </div>
+        <div className="sidebar-btn bookmark-btn" key="open-source">
+          <Link
+            to="/contact"
+            className="Link  Bookmark nav-link active"
+            aria-current="page"
+          >
+            <FontAwesomeIcon icon={faEnvelope} />
+            Contact
           </Link>
         </div>
         <div className="sidebar-btn bookmark-btn" key="open-source">
@@ -108,7 +134,29 @@ function Sidebar({ showSideNav }) {
             className="Link  Bookmark nav-link active"
             aria-current="page"
           >
+            {" "}
+            <FontAwesomeIcon icon={faCode} />
             Open Source
+          </Link>
+        </div>
+        <div className="sidebar-btn bookmark-btn" key="open-source">
+          <Link
+            to="/faq"
+            className="Link  Bookmark nav-link active"
+            aria-current="page"
+          >
+            <FontAwesomeIcon icon={faQuestionCircle} />
+            FAQ's
+          </Link>
+        </div>
+        <div className="sidebar-btn bookmark-btn" key="open-source">
+          <Link
+            to="/#"
+            className="Link  Bookmark nav-link active"
+            aria-current="page"
+          >
+            <FontAwesomeIcon icon={faStar} />
+            Rate US
           </Link>
         </div>
       </div>
@@ -127,7 +175,7 @@ function Sidebar({ showSideNav }) {
           />
         </Link>
       ))}
-      
+
       <div style={{ marginTop: "20px" }} />
     </div>
   );

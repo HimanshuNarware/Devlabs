@@ -51,7 +51,7 @@ function Review() {
       });
 
     setProcessingMail(false);
-    if (response.data.success) toast.done("Mail Sent Successfully!!");
+    if (response.data.success) toast.success("Mail Sent Successfully!!");
     else if (response.data && response.data.errors) {
       toast.error(response.data.errors.join("\n"));
     } else {
@@ -62,17 +62,17 @@ function Review() {
 
   return (
     <div>
-      <h2 className='form-header'>Here's the Review Form</h2>
+      <h2 className='review__form-header'>Here's the Review Form</h2>
       <div>
-        <p className='form-subtext'>
+        <p className='review__form-subtext'>
           Thank you for visiting the website! Please tell us how we can improve
           your experience. Provide your email in case you want the owner to
           contact you.
         </p>
       </div>
-      <form className='review-form' onSubmit={onSubmitHandler}>
+      <form className='review__form' onSubmit={onSubmitHandler}>
         <input
-          className='form-input-field input-name'
+          className='review__form-input review__input-name'
           placeholder='Your Name'
           type='text'
           id='name'
@@ -81,7 +81,7 @@ function Review() {
           required
         />
         <input
-          className='form-input-field input-email'
+          className='review__form-input review__input-email'
           placeholder='Your Email'
           type='email'
           id='email'
@@ -89,7 +89,7 @@ function Review() {
           onChange={onChangeHandler}
           required
         />
-        <div className='form-input-field' style={{ align: 'Left', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+        <div className='review__form-input' style={{ align: 'Left', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
           <label htmlFor='feedbackType' style={{ marginBottom: '10px' }}>Feedback Type:</label>
           <select
             id='feedbackType'
@@ -107,7 +107,7 @@ function Review() {
         </div>
         {reviewData.feedbackType === 'other' && (
           <input
-            className='form-input-field'
+            className='review__form-input'
             placeholder='Please specify'
             type='text'
             id='otherFeedback'
@@ -117,7 +117,7 @@ function Review() {
           />
         )}
         <textarea
-          className='form-input-field input-review'
+          className='review__form-input review__input-review'
           placeholder='Your Message'
           id='review'
           cols='30'
@@ -129,8 +129,8 @@ function Review() {
         
         <h3>Rate us:</h3>
         <Rate rating={rating} setRating={setRating} />
-        <div className='form-div'>
-          <button className='form-button'>
+        <div className='review__form-div'>
+          <button className='review__form-button'>
             {processingMail ? (
               <ClipLoader
                 color='#a0a0a0'
