@@ -70,7 +70,8 @@
   justify-content: start;
   align-items: center;
   margin-top: 20px;
-  padding: 1rem;
+  /* padding: 1rem; */
+  margin-left: 30%;
 }
 
 .pagination ul {
