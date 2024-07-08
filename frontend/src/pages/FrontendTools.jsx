@@ -37,6 +37,12 @@ const tools = [
     link: "https://lottiefiles.com/",
     image: "https://i.pinimg.com/564x/cb/7e/41/cb7e41c764d0a7e1b7713d11fa08e152.jpg"
   },
+  {
+    name: "TypeScript",
+    description: "TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience.",
+    link: "https://www.typescriptlang.org/",
+    image: "https://iconduck.com/icons/95017/typescript-icon"
+  }
 ];
 
 
