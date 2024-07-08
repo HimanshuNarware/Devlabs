@@ -77,7 +77,15 @@ footer {
 .ft-2 ul a {
 	text-decoration: none;
 	color: white;
-	font-size: 1rem;
+	font-size: 1.3rem;
+}
+
+.ft-space{
+	margin: 0 2.8rem;
+}
+
+.ft-last{
+	margin-top: -.2rem;
 }
 
 .ft-4 {
