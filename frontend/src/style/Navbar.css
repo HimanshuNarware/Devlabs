@@ -80,6 +80,7 @@
 }
 
 .nav-item:hover {
+  /* border: none; */
   transform: scale(1.05); /*Scale up slightly on hover */
   filter: brightness(1.2); /* Brighten on hover for shine effect */
   /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); Add glowing effect */
