@@ -453,7 +453,7 @@
 }
 
 .filter-button {
-  color: #8b5cf6;
+  color: #000;
   font-size: 1.1rem;
   border: 1px solid #8b5cf6;
   margin-inline: 10px;
@@ -462,11 +462,11 @@
   margin-bottom: 10px;
   border-radius: 6px;
   box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
-  background-color: #ffffff;
+  background-color: #8b5cf6;
   cursor: pointer;
 }
 
-.active_filter {
+.active_filter, .filter-button:hover {
   background: transparent;
   cursor: pointer;
   background-color: #101623;
