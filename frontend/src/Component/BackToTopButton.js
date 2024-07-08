@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../style/BackToTopButton.css'
+import '../style/BackToTopButton.css';
 
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
@@ -47,6 +47,7 @@ function BackToTopButton() {
         >
         <MdKeyboardDoubleArrowUp style={iconStyle}/>
 
+        <span className='tooltiptext'>Go top page</span>
         </button>
         </a>
     );
