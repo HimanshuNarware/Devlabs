@@ -71,6 +71,14 @@
   align-items: center;
   margin-top: 20px;
   padding: 1rem;
+  margin-left: 32%;
+}
+
+.pagination .page-wrapper{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination ul {
@@ -376,7 +384,7 @@
 }
 .btn-booked-box,
 .btn-b-box {
-  color: rgb(255, 255, 255);
+  color: #000;
   font-size: 1.1rem;
   border: 1px solid #8b5cf6;
   margin-inline: 10px;
@@ -404,6 +412,7 @@
 }
 
 .btn-b-box:hover {
+  color: #fff;
   background: transparent;
   cursor: none;
   box-shadow: 2px 2px 1px #8b5cf6;
@@ -453,7 +462,7 @@
 }
 
 .filter-button {
-  color: #8b5cf6;
+  color: #000;
   font-size: 1.1rem;
   border: 1px solid #8b5cf6;
   margin-inline: 10px;
@@ -462,11 +471,11 @@
   margin-bottom: 10px;
   border-radius: 6px;
   box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
-  background-color: #ffffff;
+  background-color: #8b5cf6;
   cursor: pointer;
 }
 
-.active_filter {
+.active_filter, .filter-button:hover {
   background: transparent;
   cursor: pointer;
   background-color: #101623;

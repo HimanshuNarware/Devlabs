@@ -83,6 +83,7 @@
   width: fit-content;
   justify-content: center;
   align-items: center;
+  padding: 8px;
   gap: 5px;
   animation: slideLeft 1s ease forwards;
 }
@@ -137,10 +138,8 @@
 }
 
 .navbar-center {
-  display: flex;
-  align-items: center;
-  flex: 1 1;
   animation: slideRight 1s ease forwards;
+  margin-right: 115px;
 }
 
 .logo-img {
@@ -210,6 +209,7 @@
   position: absolute;
   /* bottom: 0; */
   left: 50%;
+  top: 35px;
   transform: translateX(-50%);
   width: 0;
   height: 2px;
