@@ -19,6 +19,7 @@ const ChatAssistant = () => {
 
   return (
     <div className='chatbot'>
+      <span className="tooltiptext">Chat boat</span>
       <img
         className='Logo'
         src={chatbotLogo}

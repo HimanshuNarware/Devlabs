@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Route, Routes } from "react-router-dom"; // Correct import
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Toaster } from "react-hot-toast";
+
+// Components
 import About from "./Component/About";
 import Footer from "./Component/Footer";
 import Rateus from "./Component/Rateus";
@@ -11,13 +16,13 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { Toaster } from "react-hot-toast";
 import BookMark from "./Component/BookMark";
 import ScrollToTop from "./Component/ScrollToTop";
 import Contact from "./Component/Contact";
-//cards
+import Faq from "./Component/Faq";
+import TrailingCursor from "./Component/TrailingCursor/TrailingCursor";
+
+// Pages
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import UI from "./pages/UI";
@@ -25,22 +30,23 @@ import Movie from "./pages/Movie";
 import Extension from "./pages/Extension";
 import EthicalHacking from "./pages/EthicalHacking";
 import FrontendTools from "./pages/FrontendTools";
-import Faq from "./Component/Faq";
-import CodingPlatform from "./pages/CodingPlatform"; // Corrected import
+import CodingPlatform from "./pages/CodingPlatform";
 import CoursesPlatform from "./pages/CoursesPlatform";
 import Collaboration from "./pages/Collaboration";
-import TrailingCursor from "./Component/TrailingCursor/TrailingCursor";
 import Productivity from "./pages/Productivity";
+import BackendTools from "./pages/BackendTools";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
+
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <>
       <ScrollToTop />
-      <TrailingCursor/>
+      <TrailingCursor />
       <Navbar setSearchQuery={setSearchQuery} />
       <Routes>
         <Route path="/" element={<Home searchQuery={searchQuery} />} />
@@ -57,6 +63,7 @@ function App() {
         <Route path="/extension" element={<Extension />} />
         <Route path="/ui-design" element={<UI />} />
         <Route path="/front-end-tools" element={<FrontendTools />} />
+        <Route path="/back-end-tools" element={<BackendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
         <Route path="/courses-platform" element={<CoursesPlatform />} />

@@ -25,18 +25,17 @@ function Footer() {
               <a href="https://www.devlabsstore.tech/">
                 <img width={209} src={logo} alt="devlabs" />
               </a>
-              <p>
+              <p className="footer-content">
                 Welcome to DevLabs, a website where you can search for free
                 tools that are useful for your daily needs. This application is
                 created by the incredible open-source community. On DevLaps, you
                 can discover a collection of free tools that can assist you in
                 various aspects of your life.{" "}
               </p>
-              <h5 style={divStyle}>
-                Facing an issue or just <br />
-                enjoying the site?{" "}
-              </h5>
-              <style>
+              <h3>
+                Facing an issue or just enjoying the site?{" "}
+              </h3>
+              {/* <style>
                 {`
           @keyframes colorChange {
             0% { color: white; }
@@ -44,13 +43,13 @@ function Footer() {
             100% { color: blue; }
           }
         `}
-              </style>
+              </style> */}
               <button>
-                <Link to="/review">Tell us now</Link>
+                <Link to="/review">Tell us Now</Link>
               </button>
             </div>
-            <div className="col-md-6 col-lg-3 col-12 ft-2">
-              <h5>Company</h5>
+            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-space">
+              <h3>Company</h3>
               <ul>
                 <li class="nav-item">
                   <a href="https://www.devlabsstore.tech/">Home</a>
@@ -78,8 +77,8 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-6 col-lg-3 col-12 ft-2">
-              <h5>Quick Links</h5>
+            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-space">
+              <h3>Quick Links</h3>
               <ul>
                 <li className="nav-item">
                   <a href="/remote-jobs">Remote Jobs</a>
@@ -98,8 +97,8 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-6 col-lg-2 col-12 ft-4">
-              <h5>Explore</h5>
+            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-last">
+              <h3>Explore</h3>
               <ul>
                 <li className="nav-item">
                   <a href="/front-end-tools">Frontend Tools</a>
