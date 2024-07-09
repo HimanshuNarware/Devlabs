@@ -42,6 +42,13 @@
     "description": "Lucidchart helps you to visualize ideas, make charts, diagrams & more. Get the most powerful, professional diagram software on the market."
   },
   {
+    "productName": "Learn Git branching",
+    "category": "tools",
+    "image": "https://repository-images.githubusercontent.com/404347190/ea95fd64-9eaf-4793-925c-72249d617cd3",
+    "link": "https://learngitbranching.js.org/",
+    "description": "This website helps you to learn git and git commands very easily through interactive game."
+  },
+  {
     "productName": "removebg",
     "category": "tools",
     "image": "https://bit.ly/4binGHA",
