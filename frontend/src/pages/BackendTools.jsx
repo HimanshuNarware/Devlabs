@@ -37,6 +37,12 @@ const tools = [
         link: "https://www.docker.com/",
         image: "https://logowik.com/content/uploads/images/301_docker.jpg"
     },
+    {
+      name: "Laravel",
+      description: "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.",
+      link: "https://laravel.com/",
+      image: "https://twtv3.ams3.digitaloceanspaces.com/posts/laravel-best-php-framework-1568x1045-1.jpg"
+  },
 ];
 const BackendTools = () => {
   return (
