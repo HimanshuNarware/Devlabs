@@ -6,8 +6,15 @@ import animationData from "../lottie/contact.json";
 import "../style/Contact.css";
 
 const Contact = () => {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [formMessage, setFormMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
 
   const handleEmailChange = (event) => {
     const { value } = event.target;
@@ -22,34 +29,60 @@ const Contact = () => {
     }
   };
 
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // Check if all fields are filled
+    if (!name || !email || !message) {
+      setErrorMessage('Please fill all the fields');
+
+      setTimeout(() => {
+        setErrorMessage('');
+      }, 3000);
+      return;
+    }
+
+    // Show thank you message
+    setFormMessage('Thank you! We will connect soon.');
+    setErrorMessage('');
+
+    // Clear the message and reset form after 3 seconds
+    setTimeout(() => {
+      setFormMessage('');
+      setName('');
+      setEmail('');
+      setMessage('');
+      event.target.reset();
+    }, 3000);
+  };
+
   return (
     <div className="contact-container">
       <div className="lottie-container">
-        <Lottie animationData={animationData} loop={true} style={{height:'500px'}}/>
+        <Lottie animationData={animationData} loop={true} style={{ height: '500px' }} />
       </div>
       <div className="contact-content">
         <h1 className="contact-heading">Contact Us</h1>
         <p className="contact-description">
           Please fill out the form below to get in touch with us.
         </p>
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name" className="form-label">
               Name:
             </label>
-            <input type="text" id="name" name="name" className="form-input" />
+            <input type="text" id="name" name="name" className="form-input" onChange={handleNameChange} />
           </div>
 
           <div className="form-group">
             <label htmlFor="email" className="form-label">
               Email:
             </label>
-            <input type="email" id="email" name="email" className="form-input" onChange={handleEmailChange}/>
-            {message && (
-          <p style={{ color: 'red', fontSize: '0.8rem', marginTop: '0.25rem' }}>
-            {message}
-          </p>
-        )}
+            <input type="email" id="email" name="email" className="form-input" onChange={handleEmailChange} />
           </div>
 
           <div className="form-group">
@@ -61,6 +94,7 @@ const Contact = () => {
               name="message"
               rows="4"
               className="form-textarea"
+              onChange={handleMessageChange}
             />
           </div>
 
@@ -68,6 +102,18 @@ const Contact = () => {
             Submit
           </button>
         </form>
+
+        {errorMessage && (
+          <p className="error-message">
+            {errorMessage}
+          </p>
+        )}
+
+        {formMessage && (
+          <p className="success-message">
+            {formMessage}
+          </p>
+        )}
 
         <div className="social-links">
           <a

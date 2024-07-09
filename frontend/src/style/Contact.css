@@ -77,6 +77,20 @@
     background-color: #0056b3;
   }
   
+  .error-message {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
   .social-links {
     display: flex;
     justify-content: center;
