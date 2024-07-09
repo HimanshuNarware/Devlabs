@@ -183,15 +183,21 @@
     .about__contributor-container {
         margin: 20px;
     }
+    .about__content-box .about__logo{
+        width: 250px;
+    } 
 }
 
 @media screen and (max-width: 425px) {
     .about__contributor-container {
         margin: 1%;
+        width: 425px;
     }
 
     .about__grid-container {
         grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+        column-gap: 30px;
     }
 
     .about__content-box {
