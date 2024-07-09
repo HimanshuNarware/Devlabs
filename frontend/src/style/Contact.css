@@ -12,7 +12,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: invert(0%) !important;
 }
+
+
 .contact-content {
   display: flex;
   flex-direction: column;
