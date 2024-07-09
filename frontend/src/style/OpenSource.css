@@ -5,15 +5,17 @@
     gap: 10px;
     justify-content: center;
     padding: 120px 10px 10px 10px;
+    margin-left: -10px;
 
 }
 
 .open-source__content-box-home {
+    width: 330px;
     margin: 20px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -24,8 +26,23 @@ transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
 
 }
 
+.open-source__content-box-home h2{
+    text-align: start;
+    font-size: 30px;
+    padding-left: 15px;
+    font-weight: 500;
+}
+
 .open-source__content-box-subtitle {
-    color: slateblue;
+
+    width: 100%;
+    color: #007bff;
+}
+
+.open-source__content-box-text{
+    text-align: start;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 .open-source__tag-grid {
