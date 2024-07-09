@@ -123,3 +123,77 @@ transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
     pointer-events: none;
     color: #6c757d;
 }
+
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .open-source__page-container {
+        width: 100%;
+        padding: 180px 10px 10px 10px;
+        
+    }
+
+    .open-source__content-box-home {
+        width: 280px;
+    }
+
+    .open-source__content-box-home h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 768px){
+    .open-source__page-container{
+        padding: 160px 10px 10px 10px;
+    }
+
+    .open-source__content-box-home{
+        width: 100%;
+    }
+
+    .open-source__main-container{
+        grid-template-columns: 1fr;
+    }
+
+    .open-source__content-box-home h2{
+        font-size: 28px;
+    }
+
+    .open-source__tag-grid{
+        font-size: 0.7rem;
+    }
+
+
+}
+
+@media (max-width: 480px){
+    .open-source__page-container{
+        padding: 140px 10px 10px 10px;
+    }
+
+    .open-source__content-box-home{
+        width: 90%;
+    }
+
+    .open-source__content-box-home h2{
+        font-size: 24px;
+    }
+
+    .open-source__content-box-text{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .open-source__tag{
+        font-size: 0.7rem;
+        padding: 2px 6px;
+    }
+
+    .open-source__btn-b-box{
+        padding: 6px 10px;
+    }
+
+    .open-source__page-link{
+        padding: 6px 10px;
+    }
+}
