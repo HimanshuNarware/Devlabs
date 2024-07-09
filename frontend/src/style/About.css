@@ -266,3 +266,8 @@
     box-shadow: 0 2px 5px rgb(237, 23, 237);
     outline: none;
 }
+.about__logo{
+    width: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+}
