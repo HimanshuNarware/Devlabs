@@ -110,7 +110,8 @@ transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .open-source__page-link:hover {
-    background-color: #e9ecef;
+    background-color: #007bff;
+    color: #fff;
 }
 
 .open-source__active .open-source__page-link {
