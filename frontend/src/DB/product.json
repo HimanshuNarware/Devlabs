@@ -63,6 +63,13 @@
     "description": "DeepAI offers various features to generate images, videos and characters using text prompts and art styles. You can create animations, edit images, chat with characters and more"
   },
   {
+    "productName":"Play Code",
+    "category":"web",
+    "image":"https://shorturl.at/T5X8r",
+    "link":"https://playcode.io/",
+    "description":"PlayCode is an online code editor and playground for web development."
+  },
+  {
     "productName": "edX",
     "category": "course",
     "image": "http://bit.ly/4aK9dDT",
