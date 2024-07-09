@@ -82,6 +82,7 @@
   width: fit-content;
   justify-content: center;
   align-items: center;
+  padding: 8px;
   gap: 5px;
   animation: slideLeft 1s ease forwards;
 }
@@ -136,10 +137,8 @@
 }
 
 .navbar-center {
-  display: flex;
-  align-items: center;
-  flex: 1 1;
   animation: slideRight 1s ease forwards;
+  margin-right: 115px;
 }
 
 .logo-img {
@@ -150,6 +149,7 @@
 .nav-item a,
 .navbar-content ul li a,
 .Bookmark.nav-link.active {
+
   color: black !important; /* Ensure nav items are always black */
   text-decoration: none !important;
   font-size: 1.2rem;
@@ -169,6 +169,7 @@
   position: absolute;
   width: 0%;
   height: 2px;
+
   bottom: -5px;
   left: 0;
   background-color: black; /* Ensure underline is black */
@@ -198,6 +199,19 @@
   font-size: 1.4rem;
   overflow-y: scroll;
   transition: width 0.3s;
+}
+
+.nav-item::before {
+  content: "";
+  position: absolute;
+  /* bottom: 0; */
+  left: 50%;
+  top: 35px;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: black;
+  /* transition: width 0.2s ease-in-out; */
 }
 
 .sidebar.active {
@@ -232,10 +246,10 @@
   font-weight: 500;
 }
 
-.Link:hover {
+/* .Link:hover {
   color: rgb(72, 5, 5);
   text-decoration: none;
-}
+} */
 
 .sidebar-btns {
   display: flex;
@@ -252,9 +266,9 @@
   line-height: 1;
 }
 
-.sidebar-btn:hover {
+/* .sidebar-btn:hover {
   color: rgba(0, 0, 0, 0.84);
-}
+} */
 
 .sidebar {
   color: rgba(0, 0, 0, 0.84);
@@ -327,18 +341,18 @@
   line-height: 1;
 }
 
-.sidebar-btn:hover {
+/* .sidebar-btn:hover {
   color: rgba(0, 0, 0, 0.84);
-}
+} */
 
 .sidebar {
   color: rgba(0, 0, 0, 0.84);
 }
 
-.filter:hover {
+/* .filter:hover {
   font-size: 1.8rem;
   text-decoration: underline;
-}
+} */
 
 .filter {
   transition: font-size 0.3s ease, text-decoration 0.3s ease;
@@ -362,9 +376,9 @@
   border: none;
 }
 
-.box:hover {
+/* .box:hover {
   border: 2.5px solid black;
-}
+} */
 
 .input:focus {
   outline: none;
@@ -451,11 +465,13 @@
   position: relative;
 }
 
+
 .nav-item a:hover,
 .Bookmark.nav-link.active:hover {
   color: black !important; /* Ensure nav items remain black on hover */
   font-weight: 700;
 }
+
 
 .nav-item a::after,
 .Bookmark.nav-link.active::after {
