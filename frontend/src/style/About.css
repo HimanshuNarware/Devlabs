@@ -112,10 +112,14 @@
     margin: 20px;
     padding: 12px 12px;
     border-radius: 12px;
-    max-width: 20vw;
+    max-width: fit-content;
     transition: 0.5s;
     animation: fade-in;
 }
+
+.about__content-box .about__logo{
+    width: 350px;
+} 
 
 .about__content-box h3 {
     overflow: hidden;
@@ -137,7 +141,7 @@
 
 .about__grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 10px;
     margin-top: 4rem;
 }
@@ -147,6 +151,7 @@
     margin: 40px;
     font-size: 2rem;
     margin-top: 6rem;
+    width: 1400px;
 }
 
 .about__content-box:hover {
