@@ -28,6 +28,13 @@
     "description": "Sublime Text is a sophisticated cross-platform text editor for code, markup and prose."
   },
   {
+    "productName": "Descript AI",
+    "category": "tools",
+    "image": "https://canny.io/images/d294641777b8d0b68b57a4a57e4453e1.png",
+    "link": "https://www.descript.com/",
+    "description": "This AI helps you to edit videos using AI based on the text."
+  },
+  {
     "productName": "Image color picker",
     "category": "tools",
     "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
