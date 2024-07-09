@@ -18,6 +18,10 @@
     text-align: center;
 }
 
+.about__content-box-placeholder {
+    visibility: hidden;
+}
+
 .about__logo {
     width: 100px;
     height: 100px;
@@ -58,13 +62,6 @@
     }
 }
 
-/* Media queries for responsive design */
-@media screen and (max-width: 1300px) {
-    .about__grid-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 @media screen and (max-width: 900px) {
     .about__grid-container {
         grid-template-columns: repeat(2, 1fr);
@@ -76,6 +73,15 @@
         grid-template-columns: 1fr;
     }
 }
+
+
+
+
+
+
+
+
+
 
 .about__container-one,
 .about__container-two {
@@ -89,10 +95,21 @@
     margin-top: 8rem;
 }
 
+.about__box--1 p {
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.about__box--2 p {
+    margin-top: 42px;
+    text-align: justify;
+}
+
 .about__box {
     width: 60%;
-    max-width: 600px;
-    animation: fade-in 0.5s;
+    /* max-width: 600px; */
+    height: fit-content;
+    animation: fade-in;
 }
 
 .about__box--2 {
@@ -105,7 +122,7 @@
     width: 90%;
     height: 60vh;
     max-height: 500px;
-    animation: fade-in 0.5s;
+    animation: fade-in;
 }
 
 @media screen and (max-width: 900px) {
@@ -113,8 +130,30 @@
     .about__container-one,
     .about__container-two {
         font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about__container-two {
         flex-direction: column;
-        margin: 20px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about__container-one {
+        flex-direction: column-reverse;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about__box {
+        width: auto;
+    }
+
+    .about__box--2 {
+        width: auto;
     }
 }
 
@@ -128,6 +167,8 @@
 
 .about__repo-btn {
     font-weight: 500;
+    margin: 0.8vmax 0 0.8vmax 0;
+    padding: 8px 8px;
     padding: 8px 22px;
     color: #000000;
     border-radius: 12px;
@@ -138,6 +179,7 @@
 
 .about__repo-btn:hover {
     background: transparent;
+    box-shadow: 4px 4px 2px #8b5cf6;
     box-shadow: 0 0 20px rgb(226, 33, 226);
 }
 
@@ -150,28 +192,42 @@
     .about__repo-btn {
         font-size: 16px;
     }
-}
+    }
 
-.about__searchbar-contributors {
-    width: 100%;
-    max-width: 400px;
-    padding: 10px;
-    margin: 20px 0;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    color: white;
-    background-color: rgba(149, 147, 147, 0.1);
-    font-size: 16px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-.about__searchbar-contributors::placeholder {
-    color: white;
-}
-
-.about__searchbar-contributors:focus {
-    border-color: #642beb;
-    box-shadow: 0 2px 5px rgb(237, 23, 237);
-    outline: none;
-}
+        .about__searchbar-contributors {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 20px 0;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            color: white;
+            background-color: rgba(149, 147, 147, 0.1);
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+    
+        .about__searchbar-contributors::placeholder {
+            color: white;
+        }
+    
+        .about__searchbar-contributors:focus {
+            border-color: #642beb;
+            box-shadow: 0 2px 5px rgb(237, 23, 237);
+            outline: none;
+        }
+                .about__founder-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 4rem;
+                    margin-bottom: 4rem;
+                }
+                                .about__buttons-container {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-wrap: wrap;
+                                    gap: 0.5rem;
+                                }
