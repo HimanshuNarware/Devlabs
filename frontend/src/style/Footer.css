@@ -5,27 +5,49 @@
   color: white;
 }
 
-.ft-1 h5 {
-  margin-top: 18px;
+.ft-1 h3 {
+  margin-top: 28px;
+  text-align: center;
+  color: blue;
+  font-weight:600;
 }
 
 .ft-1 button {
-  margin-top: 3px;
-  width: 150px;
+  color: #000;
+  width: 200px;
   height: 50px;
-  border-radius: 7px;
-  padding-bottom: 4px;
-  border-color: white;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 1.1rem;
+  border: 1px solid #8b5cf6;
+  /* margin-inline: 10px; */
+  padding: 6px 10px 6px 10px;
+  background: transparent;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
+  background-color: #000;
+  cursor: pointer;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
 }
 
 .ft-1 button:hover {
-  background: #a3094e;
+  background: transparent;
+  cursor: pointer;
+  background-color: #8b5cf6;
+  border: 2px solid #000;
+  color: #000;
+  box-shadow: 2px 2px 1px #000;
+}
+
+.ft-1 button a{
   color: #fff;
-  cursor: none;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.ft-1 button:hover a{
+  color: #000;
+  font-weight: 700;
 }
 
 .ft-2 {
@@ -42,6 +64,7 @@ footer {
 .footer-content {
   margin-top: 1rem;
   font-size: 1.1rem;
+  text-align: start;
 }
 
 /* Card */
@@ -78,6 +101,7 @@ footer {
 
 .ft-2 ul li {
   padding: 0.1rem 0;
+  text-align: start;
 }
 
 .ft-2 ul a {
@@ -85,6 +109,13 @@ footer {
   color: white;
 	font-size: 1.3rem;
 }
+
+.ft-2 h3{
+  color: blue;
+  font-weight: 600;
+  text-align: start;
+}
+
 .ft-space{
 	margin: 0 2.8rem;
 }
