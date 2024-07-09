@@ -176,7 +176,10 @@ function About() {
               </div>
             );
           })}
+          <div className="about__content-box-placeholder"></div>
         </div>
+
+
       </div>
 
       <Pagination
