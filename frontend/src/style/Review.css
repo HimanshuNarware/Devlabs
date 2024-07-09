@@ -30,7 +30,7 @@
 .review__form-input {
     padding: 10px;
     width: 75%;
-    color: black;
+    color: white;
     /* I have changed color so that it is visible on website*/
     border: 2px solid #8b5cf6;
     border-radius: 10px;
@@ -38,9 +38,21 @@
     font-size: 18px;
     margin: 12px;
     letter-spacing: 1.5px;
+    background: #101623;
 }
 
-
+.review__form-input label{
+    color: grey;
+}
+#feedbackType{
+    background: none;
+    border: none;
+    color: whitesmoke;
+}
+#feedbackType option{
+    background-color:#101623;
+    color:whitesmoke;
+}
   /* I have added this feature so that the text area size is fixed*/
 
 
