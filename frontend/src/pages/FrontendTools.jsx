@@ -84,6 +84,12 @@ const tools = [
     description: "TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience.",
     link: "https://www.typescriptlang.org/",
     image: "https://iconduck.com/icons/95017/typescript-icon"
+  },
+  {
+    name: "Backbone.js",
+    description: "Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.",
+    link: "https://backbonejs.org/",
+    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1681040353717/f19b13d0-e85e-4527-8c4b-81a0b8d2034a.jpeg"
   }
 
 ];

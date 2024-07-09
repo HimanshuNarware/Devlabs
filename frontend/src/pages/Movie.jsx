@@ -3,56 +3,67 @@ import "../style/Movie.css";
 
 const movies = [
   {
+
     title: 'React Basics',
     category: "Computer Science",
+
+    title: "The Pursuit of Happyness",
+    category: "Family,Drama",
+
     description:
-      "Learn the basics of React, a powerful JavaScript library for building user interfaces.",
+      "Chris Gardner takes up an unpaid internship in a brokerage firm after he loses his life's earnings selling a product he invested in. His wife leaves him and he is left with the custody of his son.",
     image:
-      "https://i.pinimg.com/564x/cb/a0/b8/cba0b89d2bf2d96a1ed26edb5849f804.jpg",
-    releaseDate: "2024-09-01",
+      "https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/thepursuitofhappyness_onesheet_1400x2100.png?itok=BSpvsOsJ",
+    releaseDate: "2006-12-12",
   },
   {
+
     title: 'Advanced React',
     category: 'Computer Science',
+
+    title: "Taare Zameen Par",
+    category: "Family,Musical",
+
     description:
-      "Dive deeper into React and learn about advanced concepts and patterns.",
+      "Ishaan is criticised by his parents for his poor academic performance and is sent away to a boarding school. Ram, an art teacher, however, realises he has dyslexia and helps him uncover his potential.",
     image:
-      "https://i.pinimg.com/564x/cb/a0/b8/cba0b89d2bf2d96a1ed26edb5849f804.jpg",
-    releaseDate: "2024-09-05",
+      "https://i.ytimg.com/vi/3Z14uE7U0HY/hqdefault.jpg",
+    releaseDate: "2007-12-21",
   },
   {
-    title: "JavaScript Essentials",
-    category: "Computer Science",
+    title: "3 idiots",
+    category: "Comedy",
     description:
-      "Master the essentials of JavaScript, the programming language of the web.",
+      "In college, Farhan and Raju form a great bond with Rancho due to his refreshing outlook. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive.",
     image:
-      "https://i.pinimg.com/564x/bc/c9/fc/bcc9fce91549fb9f1295e6e4ee84d66e.jpg",
-    releaseDate: "2024-10-01",
+      "https://images.firstpost.com/uploads/2022/12/3i.jpg?im=FitAndFill=(596,336)",
+    releaseDate: "2009-12-25",
   },
   {
-    title: "Node.js in Action",
-    category: "Computer Science",
+    title: "Sachin: A Billion Dreams",
+    category: "Sport,Documentary",
     description:
-      "Learn how to build scalable network applications using Node.js.",
+      "Sachin Tendulkar recounts his journey of becoming one of the most famous names in cricket with the help of archival footage, re-enactments and clips of his family, friends and colleagues.",
     image:
-      "https://i.pinimg.com/564x/bc/c9/fc/bcc9fce91549fb9f1295e6e4ee84d66e.jpg",
-    releaseDate: "2024-09-15",
+      "https://origin-staticv2.sonyliv.com/videoasset_images/Sachin_A_Billion_Dreams_lands.jpg",
+    releaseDate: "2017-05-26",
   },
   {
-    title: "CSS Mastery",
-    category: "Design",
+    title: "Super 30",
+    category: "Drama,Comedy",
     description:
-      "Become a CSS expert and learn how to create beautiful, responsive web designs.",
+      "Anand Kumar, a mathematician from Patna, India, works his way through challenges towards success before running the Super 30 programme for IIT aspirants in Patna.",
     image:
-      "https://i.pinimg.com/736x/8e/95/47/8e95479da2c5e493b835c8533c2d5ba5.jpg",
-    releaseDate: "2024-09-20",
+      "https://m.media-amazon.com/images/M/MV5BMWQzM2Y0ZDQtYjA1MS00YmUzLWFiMGQtZTliZWM1MWRiNDZhXkEyXkFqcGdeQXVyNTE2MzU4OTA@._V1_.jpg",
+    releaseDate: "2019-07-12",
   },
   {
-    title: "Python for Beginners",
-    category: "Computer Science",
+    title: "12th Fail",
+    category: "Drama",
     description:
-      "Get started with Python, one of the most popular programming languages.",
+      "IPS officer Manoj Kumar Sharma fearlessly embraces the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt the world's toughest competitive exam: UPSC.",
     image:
+
       "https://i.pinimg.com/564x/58/69/23/58692343bfbe53e78820a839efa0e51e.jpg",
     releaseDate: "2024-10-10",
   },
@@ -82,13 +93,22 @@ const movies = [
     image:
       "https://i.pinimg.com/564x/40/56/d9/4056d91b5e4b1c81af71afec6620f9fe.jpg",
     releaseDate: "2024-12-01",
+
+      "https://m.economictimes.com/thumb/msid-105086975,width-1200,height-1200,resizemode-4,imgsize-83368/12th-fail.jpg",
+    releaseDate: "2023-10-27",
+
   },
 ];
 
 const Movie = () => {
   return (
+
     <div className='container'>
       <h1 className='title' style={{ marginTop: "60px" }}>
+
+    <div className="container">
+      <h1 className="title" style={{ marginTop: "60px" , color:'white'}}>
+
         Movies & Series
       </h1>
       <div className='grid-container'>
