@@ -79,6 +79,12 @@ const tools = [
     description: "An online platform for competitive programming, offering coding contests and practice problems",
     link: "https://www.codechef.com/",
     image: "https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg"
+  },
+  {
+      "name": "Coding Ninjas",
+      "description": "An online learning platform offering courses in coding and programming with a focus on hands-on learning and projects.",
+      "link": "https://www.codingninjas.com/",
+      "image": "https://www.codingninjas.com/assets-landing/images/CNLOGO.svg"  
   }
 ];
 
