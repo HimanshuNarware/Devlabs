@@ -96,6 +96,9 @@
   cursor: pointer;
 }
 
+#nav-icon1:hover{
+  cursor: none;
+}
 .navbar-left #nav-icon1 span {
   display: block;
   position: absolute;
