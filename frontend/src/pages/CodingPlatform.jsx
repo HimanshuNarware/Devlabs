@@ -79,7 +79,13 @@ const tools = [
     description: "An online platform for competitive programming, offering coding contests and practice problems",
     link: "https://www.codechef.com/",
     image: "https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg"
-  }
+  },
+  {
+    name: "HackerRank",
+    description: "HackerRank is the market-leading coding test and interview solution for hiring developers. Start hiring at the pace of innovation!",
+    link: "https://www.hackerrank.com/",
+    image: "https://i.pinimg.com/564x/5d/84/93/5d84930516cac6c802a95671c9acf511.jpg"
+  },
 ];
 
 

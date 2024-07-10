@@ -63,6 +63,13 @@
     "description": "DeepAI offers various features to generate images, videos and characters using text prompts and art styles. You can create animations, edit images, chat with characters and more"
   },
   {
+    "productName":"Play Code",
+    "category":"web",
+    "image":"https://shorturl.at/T5X8r",
+    "link":"https://playcode.io/",
+    "description":"PlayCode is an online code editor and playground for web development."
+  },
+  {
     "productName": "edX",
     "category": "course",
     "image": "http://bit.ly/4aK9dDT",
@@ -1602,6 +1609,13 @@
     "image": "https://rb.gy/p61uan",
     "link": "https://rb.gy/f281zo",
     "description": "A free easy-to-use web scraping tool. Extract Web data in a few clicks"
+  },
+  {
+    "productName": "Research AI",
+    "category": "extensions",
+    "image": "https://rb.gy/qtkpro",
+    "link": "https://rb.gy/i34w9g",
+    "description": "Speeds up writing marketing, blogs, websites, e-commerce descriptions, and more by 10x."
   },
   {
     "productName": "Gamma AI",
