@@ -252,6 +252,13 @@
     "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
   },
   {
+    "productName": "Newton School",
+    "category": "tools",
+    "image": "https://cdn.theorg.com/b42e95e6-f1e5-49de-ba52-d9ec80f925f2_thumb.jpg",
+    "link": "https://www.newtonschool.co/",
+    "description": "Neo-university providing highly immersive learning to millions of students and working professionals to tap into new-age technology."
+  },
+  {
     "productName": "Sololearn",
     "category": "coding",
     "image": "https://rb.gy/7e5bda",
