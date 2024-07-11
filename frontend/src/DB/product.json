@@ -280,6 +280,13 @@
     "description": "To remove backgrounds of image,logos,etc.."
   },
   {
+    "productName": "Moodle",
+    "category": "tools",
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-moodle-8-1174944.png",
+    "link": "https://moodle.org/",
+    "description": "Moodle is a Learning Platform or course management system, a free Open Source software package "
+  },
+  {
     "productName": "Scaler",
     "category": "course",
     "image": "https://bit.ly/3XoZKgc",
