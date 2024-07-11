@@ -14,6 +14,13 @@
     "description": "BIRME is a flexible and easy to use bulk image resizer. It can resize your images to any specific dimension and crop them proportionately if necessary."
   },
   {
+    "productName": "Synthesia",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.IlF7myH15vT-30PQ2t2ETwAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://www.synthesia.io/",
+    "description": "Synthesia AI is an AI system that enables individuals to create professional-quality video content without needing cameras, microphones, or studios."
+  },
+  {
     "productName": "Clarif AI",
     "category": "Tool",
     "image": "https://www.clarifai.com/hubfs/Clarifai%20Logo%20Stamp%20Blue.png",
@@ -21,11 +28,25 @@
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
   },
   {
+    "productName": "Freelance",
+    "category": "Tool",
+    "image": "https://th.bing.com/th/id/OIP.US6dnJ-AU3AbU1GZNMLw8wHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.freelancer.in/",
+    "description": "This AI helps students or professionals to earn money by freelancing, improve their skills, make connections."
+  },
+  {
     "productName": "Sublime Text",
     "category": "tools",
     "image": "https://damiandeluca.com.ar/wp-content/uploads/2012/08/sublime.png",
     "link": "https://www.sublimetext.com/",
     "description": "Sublime Text is a sophisticated cross-platform text editor for code, markup and prose."
+  },
+  {
+    "productName": "Descript AI",
+    "category": "tools",
+    "image": "https://canny.io/images/d294641777b8d0b68b57a4a57e4453e1.png",
+    "link": "https://www.descript.com/",
+    "description": "This AI helps you to edit videos using AI based on the text."
   },
   {
     "productName": "Image color picker",
@@ -61,6 +82,13 @@
     "image": "https://th.bing.com/th/id/OIP.M5pmo9G5OwXTB1YAD5xgngAAAA?rs=1&pid=ImgDetMain",
     "link": "https://deepai.org/?ref=prototypr.io",
     "description": "DeepAI offers various features to generate images, videos and characters using text prompts and art styles. You can create animations, edit images, chat with characters and more"
+  },
+  {
+    "productName":"Play Code",
+    "category":"web",
+    "image":"https://shorturl.at/T5X8r",
+    "link":"https://playcode.io/",
+    "description":"PlayCode is an online code editor and playground for web development."
   },
   {
     "productName": "edX",
@@ -1602,6 +1630,13 @@
     "image": "https://rb.gy/p61uan",
     "link": "https://rb.gy/f281zo",
     "description": "A free easy-to-use web scraping tool. Extract Web data in a few clicks"
+  },
+  {
+    "productName": "Research AI",
+    "category": "extensions",
+    "image": "https://rb.gy/qtkpro",
+    "link": "https://rb.gy/i34w9g",
+    "description": "Speeds up writing marketing, blogs, websites, e-commerce descriptions, and more by 10x."
   },
   {
     "productName": "Gamma AI",

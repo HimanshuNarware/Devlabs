@@ -44,7 +44,6 @@ function About() {
     fetchContributors();
   }, []);
 
-  //filtering out
   const filteredContributors = contributors.filter((contributor) =>
     contributor.login.toLowerCase().includes(searchQuery.toLowerCase())
   );
@@ -52,7 +51,6 @@ function About() {
   const paginationValues = getPaginationData(
     currentPage,
     CARDS_PER_PAGE,
-    // contributors
     filteredContributors
   );
   const { lastCardIndex, firstCardIndex, allPagesNumbers, currentPageData } =
@@ -62,13 +60,20 @@ function About() {
     changePage(value, currentPage, setCurrentPage, allPagesNumbers);
   };
 
+  const filledData = [...currentPageData];
+  const placeholdersNeeded = CARDS_PER_PAGE - filledData.length;
+
+  for (let i = 0; i < placeholdersNeeded; i++) {
+    filledData.push({ placeholder: true, id: `placeholder-${i}` });
+  }
+
   return (
     <div>
       <div className="about__container-one">
         <div className="about__box about__box--1" data-aos="">
           <p>
-            Devlabs is an application used to search for tools that
-            are both free and helpful for our needs. It is built by the amazing
+            Devlabs is an application used to search for tools that are both
+            free and helpful for our needs. It is built by the amazing
             open-source community.
           </p>
           <button className="about__repo-btn">
@@ -101,9 +106,9 @@ function About() {
         <div className="about__box about__box--1">
           <p>
             Great things are never created in isolation. Thanks to our amazing
-            contributors, we've brought this product to life. With your
-            help, we can continue to make it even better. If you're a developer
-            or a Tech enthusiast, you can help us create a better experience for
+            contributors, we've brought this product to life. With your help, we
+            can continue to make it even better. If you're a developer or a Tech
+            enthusiast, you can help us create a better experience for
             everyone. We are excited to hear your thoughts and ideas.
           </p>
           <button className="about__repo-btn">
@@ -143,8 +148,7 @@ function About() {
           </div>
         </div>
         <h1 id="contributors">Our Contributors</h1>
-        
-        {/* input bar */}
+
         <input
           type="text"
           className="about__searchbar-contributors"
@@ -154,7 +158,15 @@ function About() {
         />
 
         <div className="about__grid-container">
-          {currentPageData?.map((contributor) => {
+          {filledData.map((contributor) => {
+            if (contributor.placeholder) {
+              return (
+                <div
+                  className="about__content-box about__content-box-placeholder"
+                  key={contributor.id}
+                ></div>
+              );
+            }
             return (
               <div className="about__content-box" key={contributor.id}>
                 <img

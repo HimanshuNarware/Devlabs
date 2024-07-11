@@ -6,6 +6,7 @@
   gap: 20px;
   padding: 20px;
   align-items: center;
+  width: 1500px;
 }
 
 .lottie-container {
@@ -57,7 +58,9 @@
     width: 100%;
     padding: 0.7rem;
     font-size: 1rem;
+    background: #000;
     border: 1px solid #ccc;
+    color: #fff;
     border-radius: 4px;
   }
   
