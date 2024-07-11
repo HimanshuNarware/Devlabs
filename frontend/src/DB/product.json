@@ -308,6 +308,13 @@
     "description": "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals."
   },
   {
+    "productName": "Invideo",
+    "category": "tools",
+    "image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2024/04/invideo-1.png",
+    "link": "https://invideo.io/",
+    "description": " Generate videos with powerful visuals, voices, and text  "
+  },
+  {
     "productName": "JSONView",
     "category": "extension",
     "image": "https://shorturl.at/uvFQ9",
