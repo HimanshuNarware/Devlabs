@@ -28,6 +28,13 @@
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
   },
   {
+    "productName": "Freelance",
+    "category": "Tool",
+    "image": "https://th.bing.com/th/id/OIP.US6dnJ-AU3AbU1GZNMLw8wHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.freelancer.in/",
+    "description": "This AI helps students or professionals to earn money by freelancing, improve their skills, make connections."
+  },
+  {
     "productName": "Sublime Text",
     "category": "tools",
     "image": "https://damiandeluca.com.ar/wp-content/uploads/2012/08/sublime.png",
