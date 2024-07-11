@@ -72,10 +72,9 @@
 }
 
 .nav-item:hover {
-  /* border: none; */
-  transform: scale(1.05); /*Scale up slightly on hover */
-  filter: brightness(1.2); /* Brighten on hover for shine effect */
-  /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); Add glowing effect */
+  color: black;
+  transform: scale(1.05);
+  filter: brightness(1.2);
 }
 
 .navbar-left {
@@ -97,6 +96,9 @@
   cursor: pointer;
 }
 
+#nav-icon1:hover{
+  cursor: none;
+}
 .navbar-left #nav-icon1 span {
   display: block;
   position: absolute;
@@ -147,10 +149,10 @@
   margin-right: 140px;
 }
 
-.nav-item a
-/* .navbar-content ul li a */
-/* .Bookmark.nav-link.active  */
-{
+.nav-item a,
+.navbar-content ul li a,
+.Bookmark.nav-link.active {
+
   color: black !important; /* Ensure nav items are always black */
   text-decoration: none !important;
   font-size: 1.2rem;
@@ -158,29 +160,27 @@
   position: relative;
 }
 
-.nav-item a:hover
-/* .Bookmark.nav-link.active:hover  */
-{
+.nav-item a:hover,
+.Bookmark.nav-link.active:hover {
   color: black !important; /* Ensure nav items remain black on hover */
   font-weight: 700;
 }
 
-.nav-item a::after
-/* .Bookmark.nav-link.active::after  */
-{
+.nav-item a::after,
+.Bookmark.nav-link.active::after {
   content: '';
   position: absolute;
   width: 0%;
-  height: 1.8px;
+  height: 2px;
+
   bottom: -5px;
   left: 0;
   background-color: black; /* Ensure underline is black */
   transition: all 0.3s ease-in-out;
 }
 
-.nav-item a:hover::after
-/* .Bookmark.nav-link.active:hover::after  */
-{
+.nav-item a:hover::after,
+.Bookmark.nav-link.active:hover::after {
   width: 100%;
   background-color: black; /* Ensure underline remains black on hover */
 }
@@ -459,9 +459,8 @@
 
 /* Ensure no underline under nav items */
 .nav-item a,
-.navbar-content ul li a
-/* .Bookmark.nav-link.active  */
-{
+.navbar-content ul li a,
+.Bookmark.nav-link.active {
   color: black !important; /* Ensure nav items are always black */
   text-decoration: none !important;
   font-size: 1.2rem;
@@ -469,16 +468,16 @@
   position: relative;
 }
 
-.nav-item a:hover
-/* .Bookmark.nav-link.active:hover { */
-{
+
+.nav-item a:hover,
+.Bookmark.nav-link.active:hover {
   color: black !important; /* Ensure nav items remain black on hover */
   font-weight: 700;
 }
 
-.nav-item a::after
-/* .Bookmark.nav-link.active::after  */
-{
+
+.nav-item a::after,
+.Bookmark.nav-link.active::after {
   content: '';
   position: absolute;
   width: 0%;
@@ -489,9 +488,8 @@
   transition: all 0.3s ease-in-out;
 }
 
-.nav-item a:hover::after
-/* .Bookmark.nav-link.active:hover::after  */
-{
+.nav-item a:hover::after,
+.Bookmark.nav-link.active:hover::after {
   width: 100%;
   background-color: black; /* Ensure underline remains black on hover */
 }
