@@ -161,8 +161,67 @@ footer {
   margin-right: 22rem;
 }
 
-.footer-icons {
-  margin-left: 20.14rem;
+.footer-icon a {
+  display: inline-block;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #ee00ff;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgb(6, 40, 231);
+}
+
+.footer-icon a:hover {
+  background-color: #f0550c;
+  transform: scale(1.2) translateY(-5px);
+  box-shadow: 5 8px 15px rgb(28, 246, 3);
+}
+
+.footer-icon a:hover .fa-linkedin,
+.footer-icon a:hover .fa-twitter,
+.footer-icon a:hover .fa-envelope,
+.footer-icon a:hover .fa-github {
+  animation: icon-bounce 0.9s ease infinite;
+}
+
+@keyframes icon-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  75%{
+    transform:translateY(-5px);
+  }
+}
+
+.footer-icon a .fa-linkedin,
+.footer-icon a .fa-twitter,
+.footer-icon a .fa-envelope,
+.footer-icon a .fa-github {
+  transition: color 0.5s ease;
+}
+
+.footer-icon a:hover .fa-linkedin {
+  color: #0077b5;
+  background-color: #0077b5;
+}
+
+.footer-icon a:hover .fa-twitter {
+  color: #1da1f2;
+  background-color: #1da1f2;
+}
+
+.footer-icon a:hover .fa-envelope {
+  color: #ea4335;
+  background-color: #ea4335;
+}
+
+.footer-icon a:hover .fa-github {
+  color: #333;
+  background-color: #333;
 }
 
 .Last-footer i {

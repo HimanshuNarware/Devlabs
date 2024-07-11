@@ -162,6 +162,7 @@ function Footer() {
                   <FaGithubSquare className="text-white mx-1 fs-4" />
                 </a>
               </div>
+              <hr></hr>
             </div>
           </div>
         </div>
