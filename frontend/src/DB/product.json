@@ -3702,5 +3702,12 @@
     "image": "https://ibb.co/VmRrvgX",
     "link": "https://animetsu.cc/",
     "description": "Animetsu is a free Anime watching platform."
+  },
+  {
+    "productName":"Code Avengers",
+    "category":"coding",
+    "image":"https://i.pcmag.com/imagery/reviews/0094HZfuAmHuVJdhDpPe3Kv-15.fit_lim.size_1050x591.v1627665655.png",
+    "link":"https://www.codeavengers.com/",
+    "description":"Code Avengers is an interactive platform that teaches coding through engaging challenges and tutorials. It caters to beginners and advanced learners alike, focusing on practical coding skills and problem-solving abilities."
   }
 ]
