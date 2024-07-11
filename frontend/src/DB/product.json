@@ -3695,5 +3695,12 @@
     "image": "https://ibb.co/VmRrvgX",
     "link": "https://animetsu.cc/",
     "description": "Animetsu is a free Anime watching platform."
+  },
+  {
+    "productName": "Sphinx",
+    "category": "documentation",
+    "image": "https://www.jetbrains.com/guide/assets/sphinxdoc-ca1beff5.png",
+    "link": "https://www.sphinx-doc.org/en/master/",
+    "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects."
   }
 ]
