@@ -687,6 +687,13 @@
     "description": "Online platform for learning and practicing cybersecurity skills through interactive labs and challenges."
   },
   {
+    "productName": "FOSS United",
+    "category": "website",
+    "image": "https://indiafoss.net/files/logo-black.png",
+    "link": "https://fossunited.org/",
+    "description": "Dedicated to  build Free and Open Source (FOSS) projects and communities."
+  },
+  {
     "productName": "cve mitre",
     "category": "ethical",
     "image": "https://bit.ly/3KBvpGK",
