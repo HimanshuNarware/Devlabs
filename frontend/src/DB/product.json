@@ -330,6 +330,13 @@
     "description": "Virtual lab environment reserved for the exclusive use by the learners on Skills Network portals "
   },
   {
+    "productName": "Pluralsight",
+    "category": "tools",
+    "image": "https://seeklogo.com/images/P/pluralsight-logo-BA976E7D4C-seeklogo.com.png",
+    "link": "https://www.pluralsight.com/",
+    "description": "Helps organizations, teams, and individuals build better products with online courses "
+  },
+  {
     "productName": "InterviewBit",
     "category": "coding",
     "image": "https://bit.ly/3NH8dIt",
