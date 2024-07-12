@@ -3709,5 +3709,19 @@
     "image":"https://i.pcmag.com/imagery/reviews/0094HZfuAmHuVJdhDpPe3Kv-15.fit_lim.size_1050x591.v1627665655.png",
     "link":"https://www.codeavengers.com/",
     "description":"Code Avengers is an interactive platform that teaches coding through engaging challenges and tutorials. It caters to beginners and advanced learners alike, focusing on practical coding skills and problem-solving abilities."
+  },
+  {
+    "productName": "Sphinx",
+    "category": "documentation",
+    "image": "https://www.jetbrains.com/guide/assets/sphinxdoc-ca1beff5.png",
+    "link": "https://www.sphinx-doc.org/en/master/",
+    "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects."
+  }, 
+ {
+   "productName": "Algo Monster",
+   "category": "education",
+   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYkjP22Wq_5rfNPzeR0H6ozBfxZcwPUJZxg&s",
+   "link": "https://algo.monster/",
+    "description": "Algo Monster is a comprehensive tool designed to help users learn, implement, and optimize algorithms efficiently."
   }
 ]
