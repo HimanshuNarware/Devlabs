@@ -9,9 +9,9 @@ import Devlabs from "../image/hero_img.svg";
 import NavbarItem from "./Navbar/NavbarItem";
 import toast from "react-hot-toast";
 import NavbarRight from "./Navbar/NavbarRight";
-import Tilt from 'react-parallax-tilt';
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
-import 'react-loading-skeleton/dist/skeleton.css'
+import Tilt from "react-parallax-tilt";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -21,7 +21,6 @@ function Home(props) {
     localStorage.getItem("filter") || ""
   );
   const ref = useRef(null);
-
 
   useEffect(() => {
     if (props.searchQuery !== "") {
@@ -43,6 +42,9 @@ function Home(props) {
   const [showRemovePopup, setShowRemovePopup] = useState(false);
   const [contributors, setContributors] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  console.log(searchQuery);
+
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
@@ -77,7 +79,7 @@ function Home(props) {
       }
       setTimeout(() => {
         setLoading(false);
-      }, 2000); 
+      }, 2000);
     };
 
     const fetchContributors = async () => {
@@ -145,7 +147,7 @@ function Home(props) {
 
   const handleBookmark = (datalist) => {
     let bookmarkList = JSON.parse(localStorage.getItem("bookmarks")) || [];
-    let found = bookmarkList.some(item => item.name === datalist.productName);
+    let found = bookmarkList.some((item) => item.name === datalist.productName);
 
     if (!found) {
       bookmarkList.push({
@@ -224,7 +226,19 @@ function Home(props) {
     handleBookmarks();
   };
 
-  const filters = ["AI", "Ethical", "Extensions", "Web", "Movies", "Remote", "Resume", "UI", "Coding", "Course", "Tools"];
+  const filters = [
+    "AI",
+    "Ethical",
+    "Extensions",
+    "Web",
+    "Movies",
+    "Remote",
+    "Resume",
+    "UI",
+    "Coding",
+    "Course",
+    "Tools",
+  ];
 
   const handleFilterButtonClick = (selectedCategory) => {
     if (selectedFilters.includes(selectedCategory)) {
@@ -251,6 +265,21 @@ function Home(props) {
       setFilteredItems([...jsonTools]);
     }
   };
+
+  const handleSearch = (query) => {
+      setSearchQuery(query);
+
+      if(query === ''){
+        setSearchResults([]);
+        return;
+      }
+
+      const results = jsonTools.filter((tool) => {
+        tool.name &&  tool.name.toLowerCase().includes(query.toLowerCase())
+      });
+
+      setSearchResults(results);
+  }
 
   return (
     <SkeletonTheme>
@@ -290,31 +319,35 @@ function Home(props) {
         </div>
         <br />
         <h3> Lets Get, What You seek!</h3>
-        <NavbarRight setSearchQuery={setSearchQuery} />
+        {/* <NavbarRight setSearchQuery={setSearchQuery} /> */}
+        <div className="search-feilds">
+          <input  className="search-input" onChange={(e) => handleSearch(e.target.value)} type="text" placeholder='Search Tools ...' />
+        </div>
         <br />
+        {searchQuery && searchResults.length === 0 && (
+          <div className="no-results">No matching tools found.</div>
+        )}
+        {!loading && currentPost.length === 0 && (
+          <div
+            className="empty-state"
+            style={{
+              width: "100%",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src="https://i.pinimg.com/originals/5d/35/e3/5d35e39988e3a183bdc3a9d2570d20a9.gif"
+              height={400}
+              width={400}
+              alt="no post"
+            />
+            <p>No posts found.</p>
+          </div>
+        )}
 
-          {!loading && currentPost.length === 0 && (
-            <div
-              className="empty-state"
-              style={{
-                width: "100%",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <img
-                src="https://i.pinimg.com/originals/5d/35/e3/5d35e39988e3a183bdc3a9d2570d20a9.gif"
-                height={400}
-                width={400}
-                alt="no post"
-              />
-              <p>No posts found.</p>
-            </div>
-          )}
-
-  
         <div className="main" ref={ref}>
           <div className="filter-container">
             {filters.map((category) => (
@@ -409,65 +442,114 @@ function Home(props) {
             )}
 
             {!loading &&
-              filteredItems.slice(firstPostIndex, lastPostIndex).map((datalist) => {
-                return (
-                  <div className="content-box-home" key={datalist.productName}>
-                    <img
-                      className="logo"
-                      src={datalist.image}
-                      alt={datalist.category}
-                    />
-                    <h2>{datalist.productName}</h2>
-                    <p className="content-box-text">{datalist.description}</p>
-                    <button
-                      className="btn-b-box"
-                      onClick={() => window.open(datalist.link)}
+              filteredItems
+              .filter((item) => {
+                return searchQuery.toLowerCase() === '' ? item : item.productName.toLowerCase()
+                  .includes(searchQuery)
+              })
+                .slice(firstPostIndex, lastPostIndex)
+                .map((datalist) => {
+                  return (
+                    <div
+                      className="content-box-home"
+                      key={datalist.productName}
                     >
-                      Link
-                    </button>
-                    {bookmarks?.some((item) =>
-                      item.name.includes(datalist.productName)
-                    ) ? (
-                      <>
-                        <button
-                          className="btn-booked-box"
-                          onClick={() => handleDeleteBookmark(datalist.productName)}
-                        >
-                          Remove
-                        </button>
-                      </>
-                    ) : (
+                      <img
+                        className="logo"
+                        src={datalist.image}
+                        alt={datalist.category}
+                      />
+                      <h2>{datalist.productName}</h2>
+                      <p className="content-box-text">{datalist.description}</p>
                       <button
                         className="btn-b-box"
-                        onClick={() => handleBookmark(datalist)}
+                        onClick={() => window.open(datalist.link)}
                       >
-                        Bookmark
+                        Link
                       </button>
-                    )}
-                  </div>
-                );
-              })}
+                      {bookmarks?.some((item) =>
+                        item.name.includes(datalist.productName)
+                      ) ? (
+                        <>
+                          <button
+                            className="btn-booked-box"
+                            onClick={() =>
+                              handleDeleteBookmark(datalist.productName)
+                            }
+                          >
+                            Remove
+                          </button>
+                        </>
+                      ) : (
+                        <button
+                          className="btn-b-box"
+                          onClick={() => handleBookmark(datalist)}
+                        >
+                          Bookmark
+                        </button>
+                      )}
+                    </div>
+                  );
+                })}
           </div>
           <div className="pagination">
             <ul>
-              <li>
-                <a href="#!" onClick={prePage}>
-                  &lt;
-                </a>
-              </li>
-              {numbers.map((n, i) => (
-                <li key={i} className={`${currentPage === n ? "active" : ""}`}>
-                  <a href="#!" onClick={() => changeCPage(n)}>
-                    {n}
+              <div className="page-item-prev">
+                <li>
+                  <a href="#!" onClick={prePage}>
+                    &lt;
                   </a>
                 </li>
-              ))}
-              <li>
-                <a href="#!" onClick={nextPage}>
-                  &gt;
-                </a>
-              </li>
-            </ul>
+              </div>
+              <div className="page-wrapper">
+                {numbers.map((n, i) => {
+                  // Calculate range of visible page numbers around current page
+                  const start = Math.max(1, currentPage - 4); // Show 4 pages before current page
+                  const end = Math.min(npage, start + 8); // Show 8 pages in total
+
+                  // Show ellipsis if start is greater than 1
+                  if (start > 1 && i === 1) {
+                    return (
+                      <li key={i}>
+                        <span>...</span>
+                      </li>
+                    );
+                  }
+
+                  // Show ellipsis if end is less than npage
+                  if (end < npage && i === numbers.length - 1) {
+                    return (
+                      <li key={i}>
+                        <span>...</span>
+                      </li>
+                    );
+                  }
+
+                  // Display the page number if within the visible range
+                  if (n >= start && n <= end) {
+                    return (
+                      <li
+                        key={i}
+                        className={`${currentPage === n ? "active" : ""}`}
+                      >
+                        <a href="#!" onClick={() => changeCPage(n)}>
+                          {n}
+                        </a>
+                      </li>
+                    );
+                  }
+
+                  return null; // Hide pages outside the visible range
+                })}
+              </div>
+              <div className="page-item-next">
+                <li>
+                  <a href="#!" onClick={nextPage}>
+                    &gt;
+                  </a>
+                </li>
+              </div>
+             </ul>
           </div>
         </div>
       </div>

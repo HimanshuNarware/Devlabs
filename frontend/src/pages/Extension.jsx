@@ -55,12 +55,20 @@ const extensions = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qFV8dxdP-jTNqWZyH6fjCFDPGITimNvI8w&s",
     developer: "Ritwick Dey",
   },
+  {
+    "title": "GitHub Copilot",
+    "category": "Development",
+    "description": "An AI-powered code completion tool that suggests code snippets and entire functions based on the context of your code.",
+    "version": "1.8.0",
+    "image": "https://freeappsai.com/wp-content/uploads/2024/03/Copilot.jpg",
+    "developer": "GitHub",
+}
 ];
 
 const Extensions = () => {
   return (
     <div className="container">
-      <h1 className="title">Extensions</h1>
+      <h1 className="title" style={{ marginTop: "60px", color:'white'}}>Extensions</h1>
       <div className="grid-container">
         {extensions.map((extension, index) => (
           <div key={index} className="grid-item">
