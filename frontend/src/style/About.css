@@ -285,3 +285,236 @@
         width: auto;
     }
 }
+
+@media screen and (max-width: 375px) {
+
+    .about__container-one,
+    .about__container-two {
+        font-size: 16px;
+    }
+}
+
+.about__repo-btn {
+    font-weight: 500;
+    margin: 0.8vmax 0 0.8vmax 0;
+    padding: 8px 8px;
+    padding: 8px 22px;
+    color: #000000;
+    border-radius: 12px;
+    background-color: #8b5cf6;
+    border: 2px solid #8b5cf6;
+    transition: 1s;
+}
+
+.about__repo-btn:hover {
+    background: transparent;
+    box-shadow: 4px 4px 2px #8b5cf6;
+    box-shadow: 0 0 20px rgb(226, 33, 226);
+}
+
+.about__repo-btn a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+    .about__repo-btn {
+        font-size: 16px;
+    }
+}
+
+.about__content-box {
+    border: 1px solid #8b5cf6;
+    margin: 20px;
+    padding: 12px 12px;
+    border-radius: 12px;
+    max-width: fit-content;
+    transition: 0.5s;
+    animation: fade-in;
+}
+
+.about__content-box .about__logo{
+    width: 350px;
+} 
+
+.about__content-box h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.about__profile-img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 0.75rem;
+}
+
+.about__founder-username {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about__grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    margin-top: 4rem;
+}
+
+.about__contributor-container {
+    gap: 5%;
+    margin: 40px;
+    font-size: 2rem;
+    margin-top: 6rem;
+    width: 1400px;
+}
+
+.about__content-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 6px #8b5cf6;
+}
+
+@media screen and (max-width: 1300px) {
+    .about__grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about__content-box {
+        max-width: 25vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about__grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about__content-box {
+        max-width: 33vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about__contributor-container {
+        margin: 20px;
+    }
+    .about__content-box .about__logo{
+        width: 250px;
+    } 
+}
+
+@media screen and (max-width: 425px) {
+    .about__contributor-container {
+        margin: 1%;
+        width: 425px;
+    }
+
+    .about__grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+        column-gap: 30px;
+    }
+
+    .about__content-box {
+        max-width: 100vw;
+    }
+}
+
+.about__founder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.about__buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.about__profile-btn {
+    color: #ffffff;
+    font-size: 1.1rem;
+    border: 2px solid #8b5cf6;
+    margin-inline: 10px;
+    background: #8b5cf6;
+    padding: 6px 13px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.about__profile-btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.about__profile-btn:hover {
+    background: transparent;
+    cursor: none;
+    box-shadow: 2px 2px 1px #8b5cf6;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0.5;
+        scale: 0.8;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+}
+    }
+
+
+.about__searchbar-contributors:focus {
+    border-color: #642beb;
+    box-shadow: 0 2px 5px rgb(237, 23, 237);
+    outline: none;
+}
+.about__logo{
+    width: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+      .about__searchbar-contributors {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 20px 0;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            color: white;
+            background-color: rgba(149, 147, 147, 0.1);
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+    
+        .about__searchbar-contributors::placeholder {
+            color: white;
+        }
+    
+        .about__searchbar-contributors:focus {
+            border-color: #642beb;
+            box-shadow: 0 2px 5px rgb(237, 23, 237);
+            outline: none;
+        }
+                .about__founder-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 4rem;
+                    margin-bottom: 4rem;
+                }
+                                .about__buttons-container {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-wrap: wrap;
+                                    gap: 0.5rem;
+                                }
