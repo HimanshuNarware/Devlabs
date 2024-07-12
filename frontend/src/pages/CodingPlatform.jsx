@@ -86,6 +86,12 @@ const tools = [
     link: "https://www.hackerrank.com/",
     image: "https://i.pinimg.com/564x/5d/84/93/5d84930516cac6c802a95671c9acf511.jpg"
   },
+  {
+    name: "GeeksforGeeks",
+    description: "A portal for computer science resources, tutorials, and coding practice.",
+    link: "https://www.geeksforgeeks.org/",
+    image: "https://shorturl.at/isVge"
+  },
 ];
 
 
