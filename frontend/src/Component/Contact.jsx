@@ -76,6 +76,7 @@ const Contact = () => {
               Name:
             </label>
             <input type="text" id="name" name="name" className="form-input" onChange={handleNameChange} />
+            <input type="text" id="name" name="name" className="form-input" placeholder="Full name" />
           </div>
 
           <div className="form-group">
@@ -83,6 +84,12 @@ const Contact = () => {
               Email:
             </label>
             <input type="email" id="email" name="email" className="form-input" onChange={handleEmailChange} />
+            <input type="email" id="email" name="email" className="form-input" onChange={handleEmailChange} placeholder="example@example.com"/>
+            {message && (
+          <p style={{ color: 'red', fontSize: '0.8rem', marginTop: '0.25rem' }}>
+            {message}
+          </p>
+        )}
           </div>
 
           <div className="form-group">
@@ -94,7 +101,10 @@ const Contact = () => {
               name="message"
               rows="4"
               className="form-textarea"
+
               onChange={handleMessageChange}
+
+              placeholder="Write here something..."
             />
           </div>
 

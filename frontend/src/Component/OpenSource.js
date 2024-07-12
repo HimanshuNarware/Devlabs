@@ -58,9 +58,9 @@ const OpenSource = () => {
                 {currentPageProjects.map((project) => (
                     <div className="open-source__content-box-home" key={project.projectName}>
                         <h2>{project.projectName}</h2>
-                        <span className="open-source__content-box-subtitle">
+                        <p className="open-source__content-box-subtitle">
                             - By {project.ownerUsername}
-                        </span>
+                        </p>
                         <p className="open-source__content-box-text">
                             {project.description}
                         </p>

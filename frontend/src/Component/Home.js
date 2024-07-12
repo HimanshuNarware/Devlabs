@@ -42,6 +42,9 @@ function Home(props) {
   const [showRemovePopup, setShowRemovePopup] = useState(false);
   const [contributors, setContributors] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  console.log(searchQuery);
+
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
@@ -263,6 +266,21 @@ function Home(props) {
     }
   };
 
+  const handleSearch = (query) => {
+      setSearchQuery(query);
+
+      if(query === ''){
+        setSearchResults([]);
+        return;
+      }
+
+      const results = jsonTools.filter((tool) => {
+        tool.name &&  tool.name.toLowerCase().includes(query.toLowerCase())
+      });
+
+      setSearchResults(results);
+  }
+
   return (
     <SkeletonTheme>
       <div>
@@ -301,9 +319,14 @@ function Home(props) {
         </div>
         <br />
         <h3> Lets Get, What You seek!</h3>
-        <NavbarRight setSearchQuery={setSearchQuery} />
+        {/* <NavbarRight setSearchQuery={setSearchQuery} /> */}
+        <div className="search-feilds">
+          <input  className="search-input" onChange={(e) => handleSearch(e.target.value)} type="text" placeholder='Search Tools ...' />
+        </div>
         <br />
-
+        {searchQuery && searchResults.length === 0 && (
+          <div className="no-results">No matching tools found.</div>
+        )}
         {!loading && currentPost.length === 0 && (
           <div
             className="empty-state"
@@ -420,6 +443,10 @@ function Home(props) {
 
             {!loading &&
               filteredItems
+              .filter((item) => {
+                return searchQuery.toLowerCase() === '' ? item : item.productName.toLowerCase()
+                  .includes(searchQuery)
+              })
                 .slice(firstPostIndex, lastPostIndex)
                 .map((datalist) => {
                   return (
@@ -522,7 +549,7 @@ function Home(props) {
                   </a>
                 </li>
               </div>
-            </ul>
+             </ul>
           </div>
         </div>
       </div>
