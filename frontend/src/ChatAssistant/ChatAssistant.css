@@ -177,17 +177,22 @@
   border-radius: 50px;
 }
 .close-button {
-  background-color: #000000;
+  background-color: #8b5cf6;
   height: 35px;
   width: 35px;
   border-radius: 50px;
-  color: white;
+  color: black;
   font-size: 20px;
   cursor: none;
   position: absolute;
   z-index: 5;
   margin-left: 130px;
   margin-top: 7px;
+}
+
+.close-button:hover{
+  background-color: #000000;
+  color: #ffff;
 }
 @media only screen and (max-width: 425px) {
   .chatbot {
