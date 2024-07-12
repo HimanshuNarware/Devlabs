@@ -30,7 +30,7 @@ transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .bookmark__box-text {
-  color: #000;
+  color: #ffff;
   height: 100px;
 }
 
