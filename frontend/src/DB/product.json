@@ -625,6 +625,13 @@
     "description": "Remote job board and resource for remote job seekers and employers."
   },
   {
+    "productName": "Postman",
+    "category": "tools",
+    "image": "https://cdn.worldvectorlogo.com/logos/postman.svg",
+    "link": "https://www.postman.com/",
+    "description": "A tool for developing, testing, and managing APIs application programming interfaces."
+  },
+  {
     "productName": "JustRemote",
     "category": "remote",
     "image": "https://media.licdn.com/dms/image/C4D0BAQHBHzGSqkcAww/company-logo_200_200/0/1630535454926/justremote_logo?e=1723680000&v=beta&t=7z2xSmOq8AyEQ5MOmG7HIQCe6eS5eRnuLINan4QdKBE",
