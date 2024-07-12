@@ -38,7 +38,7 @@
 }
 
 .react-chatbot-kit-chat-inner-container {
-  background-color: rgb(76, 96, 128);
+  background-color: #0f6874;
 }
 
 .react-chatbot-kit-chat-container {
@@ -191,7 +191,7 @@
 }
 
 .close-button:hover{
-  background-color: #000000;
+  background-color: #0f6874;
   color: #ffff;
 }
 @media only screen and (max-width: 425px) {
@@ -231,8 +231,8 @@
   top: 0;
   left: 2em;
   transform: transLateX(-50%);
-  background-color:rgb(207, 238, 238);
-  color: rgb(197, 129, 129);
+  background-color:rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   white-space: nowrap;
   padding: 5px 10px;
   border-radius: 7px;
