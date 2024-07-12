@@ -297,3 +297,111 @@ footer {
   font-weight: 700;
   text-decoration: underline;
 }
+.icons {
+  background: transparent;
+  top: 0px;
+  color: blue;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.279);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.icons a::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  top: -30px;
+  left: 0;
+  background: linear-gradient(
+    40deg,
+    rgb(246, 126, 28),
+    rgb(221, 54, 54),
+    rgb(250, 41, 118),
+    rgb(214, 18, 214)
+  );
+  position: absolute;
+  transition: 0.5s;
+  
+}
+.outerD{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons a .fab {
+  font-size: 27px;
+  z-index: 1;
+  position: absolute;
+  color: white;
+  z-index: 0;
+}
+.icons a:hover::after {
+  top: 0;
+}
+
+.icons:nth-child(1) a::after {
+  background: linear-gradient(
+    40deg,
+    rgb(246, 126, 28),
+    rgb(221, 54, 54),
+    rgb(250, 41, 118),
+    rgb(214, 18, 214)
+  );
+}
+
+.icons:nth-child(2) a::after {
+  background: linear-gradient(40deg, #96d4fb, #1da1f2);
+}
+.icons:nth-child(4) a::after {
+  background: linear-gradient(40deg, rgb(4, 51, 98), rgb(10, 102, 194));
+}
+
+.icons:nth-child(5) a::after {
+  background: linear-gradient(
+    40deg,
+    rgb(0, 255, 255),
+    rgb(0, 191, 255),
+    rgb(0, 128, 255),
+    rgb(0, 64, 255)
+  );
+}
+.icons:nth-child(3) a::after {
+  background: red;
+}
+
+.f01 {
+  position: absolute;
+  bottom: 0;
+}
+
+.ico {
+ 
+  position: absolute;
+  font-size: 21px;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  color: white; /* Remove font-size property from here */
+}
+
+.head{
+  @apply xs:text-[12px]; /* Remove font-size property from here */
+}
+
+.sec2 ul h2{
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  color:#e5e1e1
+}
+.sec2 ul li{
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+
+}
