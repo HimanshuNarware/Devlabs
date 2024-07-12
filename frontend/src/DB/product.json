@@ -590,6 +590,13 @@
     "description": "Job board and networking platform for startups and investors."
   },
   {
+    "productName": "Element",
+    "category": "tools",
+    "image": "https://logovectorseek.com/wp-content/uploads/2020/11/element-io-logo-vector.png",
+    "link": "https://element.io/",
+    "description": "Matrix-based end-to-end encrypted messenger and secure collaboration app. "
+  },
+  {
     "productName": "Remotive",
     "category": "remote",
     "image": "remotivelogo.jpeg",
