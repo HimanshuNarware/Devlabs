@@ -97,7 +97,7 @@ function Footer() {
                   <a href="/extension">Extension</a>
                 </li>
                 <li className="nav-item">
-                  <a href="/ui-design">UI Design</a>
+                  <a href="/ui-designs">UI Design</a>
                 </li>
               </ul>
             </div>

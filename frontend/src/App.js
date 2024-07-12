@@ -32,6 +32,7 @@ const CodingPlatform = lazy(() => import("./pages/CodingPlatform")); // Correcte
 const CoursesPlatform = lazy(() => import("./pages/CoursesPlatform"));
 const Collaboration = lazy(() => import("./pages/Collaboration"));
 const Productivity = lazy(() => import("./pages/Productivity"));
+const Ui = lazy(() => import("./pages/UserInterface"));
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -66,6 +67,7 @@ function App() {
           <Route path="/courses-platform" element={<CoursesPlatform />} />
           <Route path="/productivity-tools" element={<Productivity />} />
           <Route path="/collaboration-tools" element={<Collaboration />} />
+          <Route path="/ui-designs" element={<Ui />} />
           {/* Define other routes as needed */}
           {/* <Route path="*" element={<NotFound />} /> 404 route */}
         </Routes>
