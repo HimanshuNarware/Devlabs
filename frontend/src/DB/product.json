@@ -351,6 +351,13 @@
     "description": "This JSONView converts the JSON content into an understandable format and esay to view."
   },
   {
+    "productName": "Dailymotion",
+    "category": "tools",
+    "image": "https://cdn.icon-icons.com/icons2/2429/PNG/512/dailymotion_logo_icon_147302.png",
+    "link": "https://www.dailymotion.com/",
+    "description": "The latest news, sports, music and entertainment videos on Dailymotion."
+  },
+  {
     "productName": "Netlify",
     "category": "tools",
     "image": "https://cdn-1.webcatalog.io/catalog/netlify/netlify-icon-filled-256.png?v=1686434806267",
