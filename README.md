@@ -34,6 +34,54 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 ## 📦 Installation
 
+### With Docker
+
+You can clone the project directly from this repo to your local system.
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/username/Devlabs.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Devlabs
+```
+
+### 3. Create Backend Environment
+
+```bash
+MONGODB_URI=<mongodb connection uri for the database>
+PORT=<port number on which backend is running>
+FRONTEND_URL=<url of the frontend>
+MAIL=<email from which to send mail to self>
+PASSWORD=<passkey corresponding to above mail>
+```
+
+### 4. Create Frontend Environment
+
+All the environment variables for react must be prefixed with `REACT_APP_`.
+
+```bash
+REACT_APP_BACKEND=<url of the backend>
+```
+
+
+### 5. Run Docker Compose
+
+```bash
+docker-compose up --build
+```
+
+You have to use build for the first time only then you can use `docker-compose up`
+
+Now follow all the steps from point 6 of without docker to contribute to the project.
+
+
+### Without Docker
+
 You can clone the project directly from this repo to your local system.
 
 ### 1. Clone the Repo
