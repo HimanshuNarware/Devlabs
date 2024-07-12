@@ -14,6 +14,14 @@
     "description": "BIRME is a flexible and easy to use bulk image resizer. It can resize your images to any specific dimension and crop them proportionately if necessary."
   },
   {
+    "productName": "Lovo AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.eLzdzhAyNEyhvHu571rxrAAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://lovo.ai/",
+    "description": "This AI Lovo lets you generate advanced AI voices for any use case."
+  },
+  {
+
     "productName": "Synthesia",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.IlF7myH15vT-30PQ2t2ETwAAAA?rs=1&pid=ImgDetMain",
@@ -63,6 +71,20 @@
     "description": "Lucidchart helps you to visualize ideas, make charts, diagrams & more. Get the most powerful, professional diagram software on the market."
   },
   {
+    "productName": "Goose AI",
+    "category": "tools",
+    "image": "https://i.pinimg.com/originals/cd/8a/26/cd8a26fbffe290a7ae3a5275c481f7a2.png",
+    "link": "https://goose.ai/",
+    "description": "This AI helps to generate text with GPT based model with high speed."
+  },
+  {
+    "productName": "Learn Git branching",
+    "category": "tools",
+    "image": "https://repository-images.githubusercontent.com/404347190/ea95fd64-9eaf-4793-925c-72249d617cd3",
+    "link": "https://learngitbranching.js.org/",
+    "description": "This website helps you to learn git and git commands very easily through interactive game."
+  },
+  {
     "productName": "removebg",
     "category": "tools",
     "image": "https://bit.ly/4binGHA",
@@ -75,6 +97,13 @@
     "image": "https://bit.ly/3KXZGi3",
     "link": "https://www.unscreen.com/",
     "description": "Remove video backgrounds 100% automatically in 5 seconds with one click."
+  },
+  {
+    "productName": "Llama AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.5sQM1RauXOuWlLUMUxiyKQHaDt?rs=1&pid=ImgDetMain",
+    "link": "https://llama.meta.com/",
+    "description": "This AI provides a standardized framework that facilitates collaboration and knowledge sharing among practitioners."
   },
   {
     "productName": "Deep AI",
@@ -103,6 +132,13 @@
     "image": "https://vectorseek.com/wp-content/uploads/2024/01/Anthropic-Icon-Logo-Vector.svg-.png",
     "link": "https://www.anthropic.com/",
     "description": "Anthropic is an AI safety and research company based in San Francisco. Our interdisciplinary team has experience across ML, physics, policy, and product."
+  },
+  {
+    "productName": "Awwwards",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.7zcQll2SaCPHa0iXPTFprQAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://www.awwwards.com/",
+    "description": "This helps students or professionals for taking the inspiration for building the portfolio and website using modern design and advanced UI/UX."
   },
   {
     "productName": "Fiverr",
@@ -3702,5 +3738,26 @@
     "image": "https://ibb.co/VmRrvgX",
     "link": "https://animetsu.cc/",
     "description": "Animetsu is a free Anime watching platform."
+  },
+  {
+    "productName":"Code Avengers",
+    "category":"coding",
+    "image":"https://i.pcmag.com/imagery/reviews/0094HZfuAmHuVJdhDpPe3Kv-15.fit_lim.size_1050x591.v1627665655.png",
+    "link":"https://www.codeavengers.com/",
+    "description":"Code Avengers is an interactive platform that teaches coding through engaging challenges and tutorials. It caters to beginners and advanced learners alike, focusing on practical coding skills and problem-solving abilities."
+  },
+  {
+    "productName": "Sphinx",
+    "category": "documentation",
+    "image": "https://www.jetbrains.com/guide/assets/sphinxdoc-ca1beff5.png",
+    "link": "https://www.sphinx-doc.org/en/master/",
+    "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects."
+  }, 
+ {
+   "productName": "Algo Monster",
+   "category": "education",
+   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYkjP22Wq_5rfNPzeR0H6ozBfxZcwPUJZxg&s",
+   "link": "https://algo.monster/",
+    "description": "Algo Monster is a comprehensive tool designed to help users learn, implement, and optimize algorithms efficiently."
   }
 ]
