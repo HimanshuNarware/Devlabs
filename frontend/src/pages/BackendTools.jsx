@@ -43,6 +43,12 @@ const tools = [
         link: "https://www.docker.com/",
         image: "https://logowik.com/content/uploads/images/301_docker.jpg"
     },
+    {
+      name: ".Net",
+      description: "Docker is platform where you can run, test, and deploy Web apps and projects. ",
+      link: "https://dotnet.microsoft.com/en-us/learn/back-end-web-dev",
+      image: "https://miro.medium.com/v2/resize:fit:2000/0*JpO_YE2yPOmMNWLM.jpg"
+  },
 ];
 const BackendTools = () => {
   return (
