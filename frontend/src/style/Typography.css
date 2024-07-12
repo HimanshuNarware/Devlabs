@@ -1,0 +1,135 @@
+/* Typography.css */
+
+/* Import custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Base font styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #222;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #444;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #555;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #666;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #777;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1em;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Blockquotes */
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #ddd;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+/* Lists */
+ul, ol {
+    margin: 1em 0;
+    padding: 0 0 0 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Inline elements */
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Responsive text */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 0.875rem;
+    }
+}

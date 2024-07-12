@@ -22,6 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: invert(0%) !important;
   background: #007bff;
   padding: 40px;
 }
@@ -30,6 +31,8 @@
   width: 100%;
   max-width: 400px;
 }
+
+
 
 .contact-content {
   padding: 40px;
