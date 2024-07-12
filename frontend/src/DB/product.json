@@ -3702,5 +3702,12 @@
     "image": "https://ibb.co/VmRrvgX",
     "link": "https://animetsu.cc/",
     "description": "Animetsu is a free Anime watching platform."
+  }, 
+ {
+   "productName": "Algo Monster",
+   "category": "education",
+   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYkjP22Wq_5rfNPzeR0H6ozBfxZcwPUJZxg&s",
+   "link": "https://algo.monster/",
+    "description": "Algo Monster is a comprehensive tool designed to help users learn, implement, and optimize algorithms efficiently."
   }
 ]
