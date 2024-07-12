@@ -513,6 +513,13 @@
     "description": "A tool that is used to create beautiful resumes"
   },
   {
+    "productName": "NightCafe Creator",
+    "category": "tools",
+    "image": "https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/b4f12ea4-c85f-418b-9b3b-c1560891e3d2.png",
+    "link": "https://creator.nightcafe.studio/",
+    "description": " AI Art Generator with a focus on community and fun."
+  },
+  {
     "productName": "ICFOSS",
     "category": "website",
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/ICFOSS_logo.png",
