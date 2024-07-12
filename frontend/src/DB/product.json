@@ -28,6 +28,13 @@
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
   },
   {
+    "productName": "Freelance",
+    "category": "Tool",
+    "image": "https://th.bing.com/th/id/OIP.US6dnJ-AU3AbU1GZNMLw8wHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.freelancer.in/",
+    "description": "This AI helps students or professionals to earn money by freelancing, improve their skills, make connections."
+  },
+  {
     "productName": "Sublime Text",
     "category": "tools",
     "image": "https://damiandeluca.com.ar/wp-content/uploads/2012/08/sublime.png",
@@ -3694,7 +3701,7 @@
     "category": "anime",
     "image": "https://ibb.co/VmRrvgX",
     "link": "https://animetsu.cc/",
-    "description": "Animetsu is a free Anime watching platform."
+    "description": "Animetsu is a free Anime watching platform"
   },
   {
     "productName": "Sphinx",
@@ -3702,5 +3709,12 @@
     "image": "https://www.jetbrains.com/guide/assets/sphinxdoc-ca1beff5.png",
     "link": "https://www.sphinx-doc.org/en/master/",
     "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects."
+  }, 
+ {
+   "productName": "Algo Monster",
+   "category": "education",
+   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYkjP22Wq_5rfNPzeR0H6ozBfxZcwPUJZxg&s",
+   "link": "https://algo.monster/",
+    "description": "Algo Monster is a comprehensive tool designed to help users learn, implement, and optimize algorithms efficiently."
   }
 ]
