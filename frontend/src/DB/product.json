@@ -273,13 +273,6 @@
     "description": "Web-based DevOps platform.Helps to manage the software development lifecycle. "
   },
   {
-    "productName":"Coded Pen",
-    "category":"web",
-    "image":"https://shorturl.at/rs6g0",
-    "link":"https://codepen.io/",
-    "description":"An online code editor and social development environment for front-end developers to build and share web projects."
-  },
-  {
     "productName":"Video Compressor",
     "category":"tools",
     "image":"https://shorturl.at/mHcN2",
