@@ -94,7 +94,7 @@ function Footer() {
                   <a href="/movies&series">Movie/Series</a>
                 </li>
                 <li className="nav-item">
-                  <a href="/extension">Extension</a>
+                  <a href="/extensions">Extension</a>
                 </li>
                 <li className="nav-item">
                   <a href="/ui-designs">UI Design</a>
