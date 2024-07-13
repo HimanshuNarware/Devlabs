@@ -81,6 +81,12 @@ const tools = [
     image: "https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg"
   },
   {
+      "name": "Coding Ninjas",
+      "description": "An online learning platform offering courses in coding and programming with a focus on hands-on learning and projects.",
+      "link": "https://www.codingninjas.com/",
+      "image": "https://www.codingninjas.com/assets-landing/images/CNLOGO.svg"  
+  },
+  {
     name: "HakerEarth",
     description: "The ease with which a recruiter can create a test on HackerEarth and assess a candidate on a vast skill-set is simply amazing. The analytics that the platform",
     link: "https://www.hackerearth.com/",
