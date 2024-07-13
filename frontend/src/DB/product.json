@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Online pdf editor",
+    "category": "Tool",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSg_Edg2_zcp8jTH9GLyChHKDGyYIF-r5UqQ&s",
+    "link": "https://www.sejda.com/pdf-editor",
+    "description": "Edit PDF files for free online. Fill & sign PDF"
+  },
+  {
     "productName": "Cohere AI",
     "category": "Tool",
     "image": "https://www.appengine.ai/uploads/images/profile/logo/Cohere-AI.png",
