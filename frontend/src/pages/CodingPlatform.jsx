@@ -86,7 +86,18 @@ const tools = [
     link: "https://www.hackerearth.com/",
     image: "https://i.pinimg.com/564x/4c/d7/f4/4cd7f43818621e24eaedaa3d9c3aa675.jpg"
   },
-
+  {
+    name: "HackerRank",
+    description: "HackerRank is the market-leading coding test and interview solution for hiring developers. Start hiring at the pace of innovation!",
+    link: "https://www.hackerrank.com/",
+    image: "https://i.pinimg.com/564x/5d/84/93/5d84930516cac6c802a95671c9acf511.jpg"
+  },
+  {
+    name: "GeeksforGeeks",
+    description: "A portal for computer science resources, tutorials, and coding practice.",
+    link: "https://www.geeksforgeeks.org/",
+    image: "https://shorturl.at/isVge"
+  },
 ];
 
 

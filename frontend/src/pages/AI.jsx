@@ -51,7 +51,7 @@ const AI = () => {
   ];
   return (
     <div className="container">
-      <h1 className="title">AI Blog</h1>
+      <h1 className="title" style={{ marginTop: "120px" , color:'white'}}>AI Blog</h1>
       <div className="grid-container">
         {blogs.map((blog, index) => (
           <div
