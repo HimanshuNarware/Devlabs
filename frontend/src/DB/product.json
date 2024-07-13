@@ -1,5 +1,12 @@
 [
   {
+    "productName": "webpage speed insight ",
+    "category": "Tool",
+    "image": "https://www.gstatic.com/pagespeed/insights/ui/logo/favicon_48.png",
+    "link": "https://pagespeed.web.dev/analysis/https-sawariyabakers-vercel-app/e0lstlgr9q?form_factor=mobile",
+    "description": "Make your web pages fast on all devices by analysing the speeds"
+  },
+  {
     "productName": "Cohere AI",
     "category": "Tool",
     "image": "https://www.appengine.ai/uploads/images/profile/logo/Cohere-AI.png",
