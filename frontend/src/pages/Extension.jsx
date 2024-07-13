@@ -65,6 +65,27 @@ const extensions = [
 }
 ];
 
+const Extensions = () => (
+  <div className="container">
+    <h1 className="title">Extensions</h1>
+    <div className="grid-container">
+      {extensions.map((extension, index) => (
+        <div key={index} className="grid-item">
+          <img
+            src={extension.image}
+            alt={extension.title}
+            className="extension-image"
+            height="200px"
+            width="100%"
+          />
+          <h2 className="extension-title">{extension.title}</h2>
+          <p className="extension-category">{extension.category}</p>
+          <p className="extension-version">version: {extension.version}</p>
+          <p className="extension-description">{extension.description}</p>
+          <p className="extension-developer">Developer: {extension.developer}</p>
+        </div>
+      ))}
+
 const Extensions = () => {
   return (
     <div className="container">
@@ -89,8 +110,9 @@ const Extensions = () => {
           </div>
         ))}
       </div>
+
     </div>
-  );
-};
+  </div>
+);
 
 export default Extensions;
