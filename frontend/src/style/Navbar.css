@@ -13,7 +13,7 @@
   z-index: 4;
   isolation: isolate;
   mix-blend-mode: normal;
-  gap: 150px;
+  gap: 10px;
 }
 
 .search-bar {

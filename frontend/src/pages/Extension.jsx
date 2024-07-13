@@ -56,40 +56,20 @@ const extensions = [
     developer: "Ritwick Dey",
   },
   {
-    "title": "GitHub Copilot",
-    "category": "Development",
-    "description": "An AI-powered code completion tool that suggests code snippets and entire functions based on the context of your code.",
-    "version": "1.8.0",
-    "image": "https://freeappsai.com/wp-content/uploads/2024/03/Copilot.jpg",
-    "developer": "GitHub",
-}
+    title: "GitHub Copilot",
+    category: "Development",
+    description:
+      "An AI-powered code completion tool that suggests code snippets and entire functions based on the context of your code.",
+    version: "1.8.0",
+    image: "https://freeappsai.com/wp-content/uploads/2024/03/Copilot.jpg",
+    developer: "GitHub",
+  }
 ];
-
-const Extensions = () => (
-  <div className="container">
-    <h1 className="title">Extensions</h1>
-    <div className="grid-container">
-      {extensions.map((extension, index) => (
-        <div key={index} className="grid-item">
-          <img
-            src={extension.image}
-            alt={extension.title}
-            className="extension-image"
-            height="200px"
-            width="100%"
-          />
-          <h2 className="extension-title">{extension.title}</h2>
-          <p className="extension-category">{extension.category}</p>
-          <p className="extension-version">version: {extension.version}</p>
-          <p className="extension-description">{extension.description}</p>
-          <p className="extension-developer">Developer: {extension.developer}</p>
-        </div>
-      ))}
 
 const Extensions = () => {
   return (
     <div className="container">
-      <h1 className="title" style={{ marginTop: "60px", color:'white'}}>Extensions</h1>
+      <h1 className="title" style={{ marginTop: "60px", color: "white" }}>Extensions</h1>
       <div className="grid-container">
         {extensions.map((extension, index) => (
           <div key={index} className="grid-item">
@@ -97,22 +77,19 @@ const Extensions = () => {
               src={extension.image}
               alt={extension.title}
               className="extension-image"
-              height={"200px"}
-              width={"100%"}
+              height="200px"
+              width="100%"
             />
             <h2 className="extension-title">{extension.title}</h2>
             <p className="extension-category">{extension.category}</p>
-            <p className="extension-version">version : {extension.version}</p>
+            <p className="extension-version">version: {extension.version}</p>
             <p className="extension-description">{extension.description}</p>
-            <p className="extension-developer">
-              Developer: {extension.developer}
-            </p>
+            <p className="extension-developer">Developer: {extension.developer}</p>
           </div>
         ))}
       </div>
-
     </div>
-  </div>
-);
+  );
+};
 
 export default Extensions;

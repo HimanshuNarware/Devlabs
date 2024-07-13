@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import "../../style/Navbar.css";
 import NavbarItem from "./NavbarItem";
-import RateUsComponent from "../../Component/Rate.jsx"; // Import the RateUsComponent
+import RateUsComponent from "../../Component/Rate.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
@@ -12,10 +12,11 @@ import {
   faQuestionCircle,
   faStar,
   faEnvelope,
+  faUser
 } from "@fortawesome/free-solid-svg-icons";
 import { Modal, Backdrop, Box } from "@mui/material";
 
-function NavbarCenter( ) {
+function NavbarCenter() {
   const totalBookmarks =
     useSelector((state) => state.SourceReducer.totalBookmarks) || 0;
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -39,6 +40,16 @@ function NavbarCenter( ) {
               </>
             }
             to="/"
+          />
+        </li>
+        <li className="nav-item">
+          <NavbarItem
+            description={
+              <>
+                <FontAwesomeIcon icon={faUser} /> My Profile
+              </>
+            }
+            to="/profile"
           />
         </li>
         <li className="nav-item">
