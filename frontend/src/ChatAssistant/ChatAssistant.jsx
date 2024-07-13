@@ -19,9 +19,9 @@ const ChatAssistant = () => {
 
   return (
     <div className='chatbot'>
-      <span className="tooltiptext">Chat boat</span>
+      <span className={`tooltiptext ${isOpen ? 'hidden' : ''}`}>Chat boat</span>
       <img
-        className='Logo'
+        className={`Logo ${isOpen ? 'hidden' : ''}`}
         src={chatbotLogo}
         alt='Logo'
         onClick={toggleChatbot}

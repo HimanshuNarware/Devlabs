@@ -55,6 +55,14 @@ const extensions = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qFV8dxdP-jTNqWZyH6fjCFDPGITimNvI8w&s",
     developer: "Ritwick Dey",
   },
+  {
+    "title": "GitHub Copilot",
+    "category": "Development",
+    "description": "An AI-powered code completion tool that suggests code snippets and entire functions based on the context of your code.",
+    "version": "1.8.0",
+    "image": "https://freeappsai.com/wp-content/uploads/2024/03/Copilot.jpg",
+    "developer": "GitHub",
+}
 ];
 
 const Extensions = () => {
