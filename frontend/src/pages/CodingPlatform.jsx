@@ -79,7 +79,31 @@ const tools = [
     description: "An online platform for competitive programming, offering coding contests and practice problems",
     link: "https://www.codechef.com/",
     image: "https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg"
-  }
+  },
+  {
+      "name": "Coding Ninjas",
+      "description": "An online learning platform offering courses in coding and programming with a focus on hands-on learning and projects.",
+      "link": "https://www.codingninjas.com/",
+      "image": "https://www.codingninjas.com/assets-landing/images/CNLOGO.svg"  
+  },
+  {
+    name: "HakerEarth",
+    description: "The ease with which a recruiter can create a test on HackerEarth and assess a candidate on a vast skill-set is simply amazing. The analytics that the platform",
+    link: "https://www.hackerearth.com/",
+    image: "https://i.pinimg.com/564x/4c/d7/f4/4cd7f43818621e24eaedaa3d9c3aa675.jpg"
+  },
+  {
+    name: "HackerRank",
+    description: "HackerRank is the market-leading coding test and interview solution for hiring developers. Start hiring at the pace of innovation!",
+    link: "https://www.hackerrank.com/",
+    image: "https://i.pinimg.com/564x/5d/84/93/5d84930516cac6c802a95671c9acf511.jpg"
+  },
+  {
+    name: "GeeksforGeeks",
+    description: "A portal for computer science resources, tutorials, and coding practice.",
+    link: "https://www.geeksforgeeks.org/",
+    image: "https://shorturl.at/isVge"
+  },
 ];
 
 
