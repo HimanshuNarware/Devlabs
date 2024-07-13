@@ -168,6 +168,13 @@
     "description": "Anthropic is an AI safety and research company based in San Francisco. Our interdisciplinary team has experience across ML, physics, policy, and product."
   },
   {
+    "productName": "Zapier",
+    "category": "Tool",
+    "image": "https://cdn.zapier.com/zapier/images/logos/zapier-logomark.png",
+    "link": "https://zapier.com/",
+    "description": "Zapier provides workflows that allow different web applications to be used in the same workflow. Their products focus on automating recurring tasks, such as lead management."
+  },
+  {
     "productName": "Awwwards",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.7zcQll2SaCPHa0iXPTFprQAAAA?rs=1&pid=ImgDetMain",
