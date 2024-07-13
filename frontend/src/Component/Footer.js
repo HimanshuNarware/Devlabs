@@ -85,7 +85,7 @@ function Footer() {
               <h3>Quick Links</h3>
               <ul>
                 <li className="nav-item">
-                  <a href="/remote-jobs">Remote Jobs</a>
+                  <a href="/remote-job">Remote Jobs</a>
                 </li>
                 <li className="nav-item">
                   <a href="/ai">AI</a>
