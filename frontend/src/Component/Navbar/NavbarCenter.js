@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import "../../style/Navbar.css";
 import NavbarItem from "./NavbarItem";
-import RateUsComponent from "../../Component/Rateus"; // Import the RateUsComponent
+import RateUsComponent from "../../Component/Rate.jsx"; // Import the RateUsComponent
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
@@ -88,7 +88,7 @@ function NavbarCenter( ) {
                 <FontAwesomeIcon icon={faStar} /> Rate Us
               </>
             }
-            to="#"
+            to="/Rate"
           />
         </li>
         <li className="nav-item">

@@ -6,6 +6,10 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
+import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
+import { BsYoutube } from 'react-icons/bs';
+import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
+
 
 function Footer() {
   const divStyle = {
@@ -81,19 +85,19 @@ function Footer() {
               <h3>Quick Links</h3>
               <ul>
                 <li className="nav-item">
-                  <a href="/remote-jobs">Remote Jobs</a>
+                  <a href="/remote-job">Remote Jobs</a>
                 </li>
                 <li className="nav-item">
                   <a href="/ai">AI</a>
                 </li>
                 <li className="nav-item">
-                  <a href="/movies-series">Movie/Series</a>
+                  <a href="/movies&series">Movie/Series</a>
                 </li>
                 <li className="nav-item">
-                  <a href="/extension">Extension</a>
+                  <a href="/extensions">Extension</a>
                 </li>
                 <li className="nav-item">
-                  <a href="/ui-design">UI Design</a>
+                  <a href="/ui-designs">UI Design</a>
                 </li>
               </ul>
             </div>
@@ -135,33 +139,49 @@ function Footer() {
                   />
                 </a>
               </div>
+              <div className='outerD  gap-4 md:gap-2'>
+        <span className='icons'>
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                > <AiOutlineInstagram
+                color="white"
+                fontSize={25}
+                className="ico "
+              /></a></span>
+                <span  className='icons'><a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiOutlineTwitter color="white" fontSize={25} className="ico" />
 
-              <div className="footer-icon mb-2">
-                <a
-                  href="https://www.linkedin.com/in/himanshunarware/"
-                  rel="noreferrer"
+                </a></span>
+                <span  className='icons'><a
+                  href="/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <FaLinkedin className="text-white mx-1 fs-4" />
-                </a>
-                <a
-                  href="https://twitter.com/N_Himanshu_/"
-                  rel="noreferrer"
+                  <BsYoutube  className="ico" />
+                </a></span>
+                <span  className='icons'> <a
+                  href="/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <FaSquareXTwitter className="text-white mx-1 fs-4" />
-                </a>
-                <a href="mailto:himanshunarware77@gmail.com" rel="noreferrer">
-                  <SiGmail className="text-white mx-1 fs-4" />
-                </a>
-                <a
-                  href="https://github.com/HimanshuNarware/Devlabs"
-                  rel="noreferrer"
+                  <FaLinkedinIn className="ico " />
+                </a></span>
+                <span  className='icons'><a
+                  href="/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <FaGithubSquare className="text-white mx-1 fs-4" />
-                </a>
-              </div>
+                  <FaFacebookF className="ico " />
+                </a></span> 
+        </div>
+             
+              <hr></hr>
             </div>
           </div>
         </div>

@@ -1,24 +1,49 @@
 .open-source__page-container {
-    margin: 10px;
+    width: 100vw;
+    /* Ensure it covers the entire viewport width */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     justify-content: center;
+    padding: 120px 10px 10px 10px;
+    /* Adjust padding as needed */
+}
+.open-source__main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
 }
 
 .open-source__content-box-home {
-    margin: 20px;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .open-source__content-box-home:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(0.9);
+    box-shadow: 0px 0px 25px #8b5cf6;
+}
+
+.open-source__content-box-home h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 15px;
+    font-weight: 500;
 }
 
 .open-source__content-box-subtitle {
-    color: slateblue;
+    width: 100%;
+    color: #007bff;
+}
+
+.open-source__content-box-text {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 .open-source__tag-grid {
@@ -28,6 +53,7 @@
     justify-content: center;
     font-size: 0.8rem;
     color: rgb(10, 142, 102);
+    padding-top: 20px;
 }
 
 .open-source__tag {
@@ -35,19 +61,6 @@
     border: 1px solid orange;
     padding: 2px 8px;
     border-radius: 12px;
-}
-
-.open-source__loading-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.open-source__main-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
 }
 
 .open-source__btn-b-box {
@@ -85,7 +98,8 @@
 }
 
 .open-source__page-link:hover {
-    background-color: #e9ecef;
+    background-color: #007bff;
+    color: #fff;
 }
 
 .open-source__active .open-source__page-link {
@@ -96,4 +110,62 @@
 .open-source__disabled .open-source__page-link {
     pointer-events: none;
     color: #6c757d;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .open-source__main-container {
+        grid-template-columns: repeat(2, 1fr);
+        /* Two cards per row for medium screens */
+    }
+
+    .open-source__content-box-home h2 {
+        font-size: 26px;
+        /* Adjust font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .open-source__page-container {
+        padding: 160px 10px 10px 10px;
+        /* Adjust container padding */
+    }
+
+    .open-source__main-container {
+        grid-template-columns: 1fr;
+        /* Single card per row for smaller screens */
+    }
+
+    .open-source__tag-grid {
+        font-size: 0.7rem;
+        /* Adjust tag font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .open-source__page-container {
+        padding: 140px 10px 10px 10px;
+        /* Adjust container padding */
+    }
+
+    .open-source__content-box-home h2 {
+        font-size: 24px;
+        /* Adjust font size */
+    }
+
+    .open-source__tag {
+        font-size: 0.7rem;
+        padding: 2px 6px;
+        /* Adjust tag font size and padding */
+    }
+
+    .open-source__btn-b-box {
+        padding: 6px 10px;
+        /* Adjust button padding */
+    }
+
+    .open-source__page-link {
+        padding: 6px 10px;
+        /* Adjust pagination link padding */
+    }
 }

@@ -3,8 +3,13 @@ import "../style/Movie.css";
 
 const movies = [
   {
+
+    title: 'React Basics',
+    category: "Computer Science",
+
     title: "The Pursuit of Happyness",
     category: "Family,Drama",
+
     description:
       "Chris Gardner takes up an unpaid internship in a brokerage firm after he loses his life's earnings selling a product he invested in. His wife leaves him and he is left with the custody of his son.",
     image:
@@ -12,8 +17,13 @@ const movies = [
     releaseDate: "2006-12-12",
   },
   {
+
+    title: 'Advanced React',
+    category: 'Computer Science',
+
     title: "Taare Zameen Par",
     category: "Family,Musical",
+
     description:
       "Ishaan is criticised by his parents for his poor academic performance and is sent away to a boarding school. Ram, an art teacher, however, realises he has dyslexia and helps him uncover his potential.",
     image:
@@ -53,22 +63,59 @@ const movies = [
     description:
       "IPS officer Manoj Kumar Sharma fearlessly embraces the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt the world's toughest competitive exam: UPSC.",
     image:
+
+      "https://i.pinimg.com/564x/58/69/23/58692343bfbe53e78820a839efa0e51e.jpg",
+    releaseDate: "2024-10-10",
+  },
+  {
+    title: "Django Development",
+    category: 'Computer Science',
+    description:
+      "Learn how to build web applications using Django, a high-level Python web framework.",
+    image:
+      "https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png",
+    releaseDate: "2024-11-01",
+  },
+  {
+    title: "Machine Learning",
+    category: "Data Science",
+    description:
+      "Understand the basics of machine learning and how to implement algorithms using Python.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU61gHjrBj82OI2mq97amNjrhOcN4ouggl7w&s",
+    releaseDate: "2024-11-15",
+  },
+  {
+    title: "DevOps Fundamentals",
+    category: "Computer Science",
+    description:
+      "Learn the fundamentals of DevOps and how to implement a successful DevOps culture.",
+    image:
+      "https://i.pinimg.com/564x/40/56/d9/4056d91b5e4b1c81af71afec6620f9fe.jpg",
+    releaseDate: "2024-12-01",
+
       "https://m.economictimes.com/thumb/msid-105086975,width-1200,height-1200,resizemode-4,imgsize-83368/12th-fail.jpg",
     releaseDate: "2023-10-27",
+
   },
 ];
 
 const Movie = () => {
   return (
+
+    <div className='container'>
+      <h1 className='title' style={{ marginTop: "60px" }}>
+
     <div className="container">
       <h1 className="title" style={{ marginTop: "60px" , color:'white'}}>
+
         Movies & Series
       </h1>
-      <div className="grid-container">
+      <div className='grid-container'>
         {movies.map((movie, index) => (
           <div key={index} className="grid-item">
             <img src={movie.image} alt={movie.title} className="movie-image" />
-            <h2 className="movie-title">{movie.title}</h2>
+            <h2 className='movie-title'>{movie.title}</h2>
             <p className="movie-category">{movie.category}</p>
             <p className="movie-description">{movie.description}</p>
             <p className="movie-releaseDate">

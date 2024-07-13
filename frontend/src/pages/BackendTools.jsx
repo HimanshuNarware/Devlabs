@@ -32,11 +32,31 @@ const tools = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png"
     },
     {
+      name: "Ruby On Rails",
+      description: "A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.",
+      link: "https://rubyonrails.org/",
+      image: "https://miro.medium.com/v2/resize:fit:450/1*MtuURq-9Fe3MZM5IZqQgyw.png"
+  },
+    {
         name: "Docker",
         description: "Docker is platform where you can run, test, and deploy Web apps and projects. ",
         link: "https://www.docker.com/",
         image: "https://logowik.com/content/uploads/images/301_docker.jpg"
     },
+    {
+
+      name: "Laravel",
+      description: "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.",
+      link: "https://laravel.com/",
+      image: "https://twtv3.ams3.digitaloceanspaces.com/posts/laravel-best-php-framework-1568x1045-1.jpg"
+       },
+  {
+      name: ".Net",
+      description: "Docker is platform where you can run, test, and deploy Web apps and projects. ",
+      link: "https://dotnet.microsoft.com/en-us/learn/back-end-web-dev",
+      image: "https://miro.medium.com/v2/resize:fit:2000/0*JpO_YE2yPOmMNWLM.jpg"
+
+  },
 ];
 const BackendTools = () => {
   return (
