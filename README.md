@@ -234,6 +234,9 @@ Analytics on tool usage and user engagement.
 Comprehensive documentation for developers.
 API documentation for integrating with other platforms.
 
+### 📚 Learn
+To know more about project, please go through [Learn](learn.md)
+
 ### 🌍 Community
 ### 🏆 Contributors
 Recognize the individuals who have contributed to the project. You can use tools like All Contributors to automatically generate a list of contributors.
