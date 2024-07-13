@@ -2,22 +2,12 @@ import React from "react";
 import logo from "../image/logo1.png";
 import "../style/Footer.css";
 
-import { FaGithubSquare, FaLinkedin, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { SiGmail } from "react-icons/si";
+import { FaGithubSquare, FaLinkedinIn, FaFacebookF, FaHome, FaBookmark, FaQuestionCircle, FaRegHeart } from "react-icons/fa";
+import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineMail, AiFillStar } from 'react-icons/ai';
+import { BsYoutube, BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from "react-router-dom";
-import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
-import { BsYoutube } from 'react-icons/bs';
 
 function Footer() {
-  const divStyle = {
-    color: "white",
-    backgroundColor: "black",
-    padding: "20px",
-    fontFamily: "Arial",
-    textAlign: "center",
-    animation: "colorChange 2s infinite",
-  };
   return (
     <footer>
       <div className="Footer">
@@ -28,11 +18,7 @@ function Footer() {
                 <img width={209} src={logo} alt="devlabs" />
               </a>
               <p className="footer-content">
-                Welcome to DevLabs, a website where you can search for free
-                tools that are useful for your daily needs. This application is
-                created by the incredible open-source community. On DevLaps, you
-                can discover a collection of free tools that can assist you in
-                various aspects of your life.
+                Welcome to DevLabs, a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On DevLaps, you can discover a collection of free tools that can assist you in various aspects of your life.
               </p>
               <h3>Facing an issue or just enjoying the site?</h3>
               <button>
@@ -43,25 +29,39 @@ function Footer() {
               <h3>Company</h3>
               <ul>
                 <li className="nav-item">
-                  <a href="https://www.devlabsstore.tech/">Home</a>
+                  <a href="https://www.devlabsstore.tech/">
+                    <FaHome className="mr-2" /> Home
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="https://www.devlabsstore.tech/about">About Us</a>
+                  <a href="https://www.devlabsstore.tech/about">
+                    <FaQuestionCircle className="mr-2" /> About Us
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="https://www.devlabsstore.tech/bookmark">Bookmark</a>
+                  <a href="https://www.devlabsstore.tech/bookmark">
+                    <FaBookmark className="mr-2" /> Bookmark
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="https://www.linkedin.com/in/himanshunarware/">Contact</a>
+                  <a href="https://www.linkedin.com/in/himanshunarware/">
+                    <BsFillPersonLinesFill className="mr-2" /> Contact
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="https://www.devlabsstore.tech/">Rate Us</a>
+                  <a href="https://www.devlabsstore.tech/rateus">
+                    <AiFillStar className="mr-2" /> Rate Us
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="https://www.devlabsstore.tech/rateus">Open Source</a>
+                  <a href="https://www.devlabsstore.tech/open-source">
+                    <FaRegHeart className="mr-2" /> Open Source
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="https://github.com/HimanshuNarware/Devlabs">Contribute Here</a>
+                  <a href="https://github.com/HimanshuNarware/Devlabs">
+                    <FaGithubSquare className="mr-2" /> Contribute Here
+                  </a>
                 </li>
               </ul>
             </div>
@@ -69,19 +69,29 @@ function Footer() {
               <h3>Quick Links</h3>
               <ul>
                 <li className="nav-item">
-                  <a href="/remote-job">Remote Jobs</a>
+                  <a href="/remote-job">
+                    <FaHome className="mr-2" /> Remote Jobs
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/ai">AI</a>
+                  <a href="/ai">
+                    <FaQuestionCircle className="mr-2" /> AI
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/movies&series">Movie/Series</a>
+                  <a href="/movies&series">
+                    <FaBookmark className="mr-2" /> Movie/Series
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/extensions">Extension</a>
+                  <a href="/extensions">
+                    <FaBookmark className="mr-2" /> Extension
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/ui-designs">UI Design</a>
+                  <a href="/ui-designs">
+                    <FaBookmark className="mr-2" /> UI Design
+                  </a>
                 </li>
               </ul>
             </div>
@@ -89,16 +99,24 @@ function Footer() {
               <h3>Explore</h3>
               <ul>
                 <li className="nav-item">
-                  <a href="/front-end-tools">Frontend Tools</a>
+                  <a href="/front-end-tools">
+                    <FaHome className="mr-2" /> Frontend Tools
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/ethical-hacking">Ethical Hacking</a>
+                  <a href="/ethical-hacking">
+                    <FaQuestionCircle className="mr-2" /> Ethical Hacking
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/coding-platform">Coding Platforms</a>
+                  <a href="/coding-platform">
+                    <FaBookmark className="mr-2" /> Coding Platforms
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/courses-platform">Course Platforms</a>
+                  <a href="/courses-platform">
+                    <FaBookmark className="mr-2" /> Course Platforms
+                  </a>
                 </li>
               </ul>
             </div>
@@ -110,12 +128,11 @@ function Footer() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-6 col-12 ft-1">
-              <div className="text-center fs-6 my-3 ">
+              <div className="text-center fs-6 my-3">
                 COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </div>
-
               <div className="text-center mb-2">
-                <a href="https://github.com/sponsors/HimanshuNarware" target="_blank">
+                <a href="https://github.com/sponsors/HimanshuNarware" target="_blank" rel="noopener noreferrer">
                   <img
                     src="https://badgen.net/badge/icon/github?icon=github&label=Sponsor&color=orange"
                     alt="Sponsor Me on GitHub"
@@ -156,12 +173,11 @@ function Footer() {
                 </span>
                 <span className="icons">
                   <a href="mailto:example@gmail.com" target="_blank" rel="noopener noreferrer">
-                    <SiGmail color="white" fontSize={25} className="ico" />
+                    <AiOutlineMail color="white" fontSize={25} className="ico" />
                   </a>
                 </span>
               </div>
-
-              <hr></hr>
+              <hr />
             </div>
           </div>
         </div>
