@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Font Generator",
+    "category": "tools",
+    "image": "https://cdn140.picsart.com/quicktools-logo.svg",
+    "link": "https://tools.picsart.com/text/font-generator/",
+    "description": "#1 Font & Text Generator with 170+ fonts & 10 font styles (🅒🅞🅞🅛, 𝔣𝔞𝔫𝔠𝔶, 𝒸𝓊𝓇𝓈𝒾𝓋𝑒 and more)"
+  },
+  {
     "productName": "Cohere AI",
     "category": "Tool",
     "image": "https://www.appengine.ai/uploads/images/profile/logo/Cohere-AI.png",
