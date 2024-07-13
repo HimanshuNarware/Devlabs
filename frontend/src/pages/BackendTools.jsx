@@ -57,6 +57,12 @@ const tools = [
       image: "https://miro.medium.com/v2/resize:fit:2000/0*JpO_YE2yPOmMNWLM.jpg"
 
   },
+  {
+    name: "Apache Server",
+    description: "The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows.",
+    link: "https://httpd.apache.org/",
+    image: "https://httpd.apache.org/images/httpd_logo_wide_new.png"
+},
 ];
 const BackendTools = () => {
   return (
