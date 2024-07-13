@@ -52,11 +52,18 @@ const tools = [
        },
   {
       name: ".Net",
-      description: "Docker is platform where you can run, test, and deploy Web apps and projects. ",
+      description: "The .NET platform is a free and open-source, managed computer software framework for Windows, Linux, and macOS operating systems.",
       link: "https://dotnet.microsoft.com/en-us/learn/back-end-web-dev",
       image: "https://miro.medium.com/v2/resize:fit:2000/0*JpO_YE2yPOmMNWLM.jpg"
 
   },
+  {
+    name: "Spring Boot",
+    description: "Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can just run.",
+    link: "https://spring.io/projects/spring-boot",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlmtotrVt2BjQahYJDB7aGV1G6JgAR3m0KA&s"
+
+},
 ];
 const BackendTools = () => {
   return (
