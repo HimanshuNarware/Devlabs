@@ -64,6 +64,13 @@
     "description": "Sublime Text is a sophisticated cross-platform text editor for code, markup and prose."
   },
   {
+    "productName": "VS Code",
+    "category": "tools",
+    "image": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
+    "link": "https://code.visualstudio.com/",
+    "description": "Visual Studio Code (VS Code) is a lightweight, open-source code editor with built-in support for debugging, syntax highlighting, version control, and extensions."
+  },
+  {
     "productName": "Descript AI",
     "category": "tools",
     "image": "https://canny.io/images/d294641777b8d0b68b57a4a57e4453e1.png",
