@@ -32,6 +32,14 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 
 ---
 
+<!-- Code of conduct -->
+<div>
+<h2><img src = "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="35" height="35"> Code of Conduct</h2>
+</div>
+
+Please note that this project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+
 ## 📦 Installation
 
 ### With Docker
