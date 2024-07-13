@@ -6,10 +6,9 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
-import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
-import { BsYoutube } from 'react-icons/bs';
-import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
-
+import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
+import { BsYoutube } from "react-icons/bs";
+import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
 function Footer() {
   const divStyle = {
@@ -32,13 +31,11 @@ function Footer() {
               <p className="footer-content">
                 Welcome to DevLabs, a website where you can search for free
                 tools that are useful for your daily needs. This application is
-                created by the incredible open-source community. On DevLaps, you
+                created by the incredible open-source community. On DevLabs, you
                 can discover a collection of free tools that can assist you in
                 various aspects of your life.{" "}
               </p>
-              <h3>
-                Facing an issue or just enjoying the site?{" "}
-              </h3>
+              <h3>Facing an issue or just enjoying the site? </h3>
               {/* <style>
                 {`
           @keyframes colorChange {
@@ -127,60 +124,59 @@ function Footer() {
           <div className="row justify-content-center">
             <div className="col-md-6 col-12 ft-1">
               <div className="text-center fs-6 my-3 ">
-                COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
+                COPYRIGHT © Devlabs 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </div>
 
               <div className="text-center mb-2">
-                <a href="https://github.com/sponsors/HimanshuNarware" target="_blank">
+                <a
+                  href="https://github.com/sponsors/HimanshuNarware"
+                  target="_blank"
+                >
                   <img
                     src="https://badgen.net/badge/icon/github?icon=github&label=Sponsor&color=orange"
                     alt="Sponsor Me on GitHub"
-                    style={{ height: '30px', width: 'auto' }}
+                    style={{ height: "30px", width: "auto" }}
                   />
                 </a>
               </div>
-              <div className='outerD  gap-4 md:gap-2'>
-        <span className='icons'>
-                <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                > <AiOutlineInstagram
-                color="white"
-                fontSize={25}
-                className="ico "
-              /></a></span>
-                <span  className='icons'><a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiOutlineTwitter color="white" fontSize={25} className="ico" />
+              <div className="outerD  gap-4 md:gap-2">
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    {" "}
+                    <AiOutlineInstagram
+                      color="white"
+                      fontSize={25}
+                      className="ico "
+                    />
+                  </a>
+                </span>
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <AiOutlineTwitter
+                      color="white"
+                      fontSize={25}
+                      className="ico"
+                    />
+                  </a>
+                </span>
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <BsYoutube className="ico" />
+                  </a>
+                </span>
+                <span className="icons">
+                  {" "}
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedinIn className="ico " />
+                  </a>
+                </span>
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <FaFacebookF className="ico " />
+                  </a>
+                </span>
+              </div>
 
-                </a></span>
-                <span  className='icons'><a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsYoutube  className="ico" />
-                </a></span>
-                <span  className='icons'> <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedinIn className="ico " />
-                </a></span>
-                <span  className='icons'><a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaFacebookF className="ico " />
-                </a></span> 
-        </div>
-             
               <hr></hr>
             </div>
           </div>
