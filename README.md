@@ -183,6 +183,13 @@ git push origin YourBranchName
 ### 11. Create a Pull Request
 Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
+<div>
+  <h2><img src="https://github.com/Meetjain1/wanderlust/assets/133582566/90f3930e-5a12-4a4e-8ac9-0dc7d5396adb" width="35" height="35">Are Ready to Contribute?</h2>
+</div>
+
+If you would like to contribute to the project then kindly go through [Contributing Guidelines](CONTRIBUTING.md) to understand everything from setup to necessary instructions.
+
+
 <div align="center">
   <h2>Let's Collaborate and Make DevLabs Even Better! 💻🌟</h2>
 </div>
