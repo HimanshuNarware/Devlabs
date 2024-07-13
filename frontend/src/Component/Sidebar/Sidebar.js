@@ -13,7 +13,6 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 function Sidebar({ showSideNav }) {
   const sidebarContent = [
     {
