@@ -49,8 +49,8 @@ const tools = [
       description: "Firebase is a set of backend cloud computing services and application development platforms provided by Google.",
       link: "https://firebase.google.com/",
       image: "https://www.gstatic.com/devrel-devsite/prod/v158caafe57d4670a8abac19430cb93c14f6b6846e8f3012a57383593e392bfd9/firebase/images/lockup.svg"
-
-
+    },
+  {
       name: "Laravel",
       description: "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.",
       link: "https://laravel.com/",
