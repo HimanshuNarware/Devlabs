@@ -2,14 +2,12 @@ import React from "react";
 import logo from "../image/logo1.png";
 import "../style/Footer.css";
 
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import { BsYoutube } from 'react-icons/bs';
-import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
-
 
 function Footer() {
   const divStyle = {
@@ -34,20 +32,9 @@ function Footer() {
                 tools that are useful for your daily needs. This application is
                 created by the incredible open-source community. On DevLaps, you
                 can discover a collection of free tools that can assist you in
-                various aspects of your life.{" "}
+                various aspects of your life.
               </p>
-              <h3>
-                Facing an issue or just enjoying the site?{" "}
-              </h3>
-              {/* <style>
-                {`
-          @keyframes colorChange {
-            0% { color: white; }
-            50% { color: red; }
-            100% { color: blue; }
-          }
-        `}
-              </style> */}
+              <h3>Facing an issue or just enjoying the site?</h3>
               <button>
                 <Link to="/review">Tell us Now</Link>
               </button>
@@ -55,29 +42,26 @@ function Footer() {
             <div className="col-md-6 col-lg-2 col-12 ft-2 ft-space">
               <h3>Company</h3>
               <ul>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/">Home</a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/about">About Us</a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/bookmark">Bookmark</a>
                 </li>
-                <li class="nav-item">
-                  <a href="https://www.linkedin.com/in/himanshunarware/">
-                    Contact
-                  </a>
+                <li className="nav-item">
+                  <a href="https://www.linkedin.com/in/himanshunarware/">Contact</a>
                 </li>
-                <li class="nav-item">
-                  <a href="https://www.devlabsstore.tech/open-source">
-                    Open Source
-                  </a>
+                <li className="nav-item">
+                  <a href="https://www.devlabsstore.tech/">Rate Us</a>
                 </li>
-                <li class="nav-item">
-                  <a href="https://github.com/HimanshuNarware/Devlabs">
-                    Contribute Here
-                  </a>
+                <li className="nav-item">
+                  <a href="https://www.devlabsstore.tech/rateus">Open Source</a>
+                </li>
+                <li className="nav-item">
+                  <a href="https://github.com/HimanshuNarware/Devlabs">Contribute Here</a>
                 </li>
               </ul>
             </div>
@@ -139,48 +123,44 @@ function Footer() {
                   />
                 </a>
               </div>
-              <div className='outerD  gap-4 md:gap-2'>
-        <span className='icons'>
-                <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                > <AiOutlineInstagram
-                color="white"
-                fontSize={25}
-                className="ico "
-              /></a></span>
-                <span  className='icons'><a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiOutlineTwitter color="white" fontSize={25} className="ico" />
+              <div className="outerD gap-4 md:gap-2">
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <AiOutlineInstagram color="white" fontSize={25} className="ico" />
+                  </a>
+                </span>
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <AiOutlineTwitter color="white" fontSize={25} className="ico" />
+                  </a>
+                </span>
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <BsYoutube color="white" fontSize={25} className="ico" />
+                  </a>
+                </span>
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedinIn color="white" fontSize={25} className="ico" />
+                  </a>
+                </span>
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <FaFacebookF color="white" fontSize={25} className="ico" />
+                  </a>
+                </span>
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <FaGithubSquare color="white" fontSize={25} className="ico" />
+                  </a>
+                </span>
+                <span className="icons">
+                  <a href="mailto:example@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <SiGmail color="white" fontSize={25} className="ico" />
+                  </a>
+                </span>
+              </div>
 
-                </a></span>
-                <span  className='icons'><a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsYoutube  className="ico" />
-                </a></span>
-                <span  className='icons'> <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedinIn className="ico " />
-                </a></span>
-                <span  className='icons'><a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaFacebookF className="ico " />
-                </a></span> 
-        </div>
-             
               <hr></hr>
             </div>
           </div>
