@@ -36,6 +36,7 @@ function Footer() {
                 various aspects of your life.{" "}
               </p>
               <h3>Facing an issue or just enjoying the site? </h3>
+
               {/* <style>
                 {`
           @keyframes colorChange {
