@@ -3891,5 +3891,12 @@
    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYkjP22Wq_5rfNPzeR0H6ozBfxZcwPUJZxg&s",
    "link": "https://algo.monster/",
     "description": "Algo Monster is a comprehensive tool designed to help users learn, implement, and optimize algorithms efficiently."
+  },
+  {
+    "productName": "VS Code",
+    "category": "tools",
+    "image": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
+    "link": "https://code.visualstudio.com/",
+    "description": "Visual Studio Code (VS Code) is a lightweight, open-source code editor with built-in support for debugging, syntax highlighting, version control, and extensions."
   }
 ]
