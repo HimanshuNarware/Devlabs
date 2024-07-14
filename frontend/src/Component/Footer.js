@@ -21,7 +21,7 @@ function Footer() {
                 Welcome to DevLabs, a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On DevLaps, you can discover a collection of free tools that can assist you in various aspects of your life.
               </p>
               <h3>Facing an issue or just enjoying the site?</h3>
-              <button>
+              <button className="footer-name">
                 <Link to="/review">Tell us Now</Link>
               </button>
             </div>
