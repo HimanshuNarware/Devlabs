@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "../../style/Navbar.css"
 import logo from "../../image/logo1.png";
-
 function NavbarLeft(props, showSideNav) {
   useEffect(() => {
     const handleDocumentClick = (e) => {
