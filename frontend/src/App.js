@@ -17,6 +17,7 @@ const Rateus = lazy(() => import("./Component/Rateus"));
 const Home = lazy(() => import("./Component/Home"));
 const NotFound = lazy(() => import("./Component/NotFound"));
 const OpenSource = lazy(() => import("./Component/OpenSource"));
+const Profile = lazy(() => import("./Component/Profile"));
 const Review = lazy(() => import("./Component/Review"));
 const BookMark = lazy(() => import("./Component/BookMark"));
 const Contact = lazy(() => import("./Component/Contact"));
@@ -61,6 +62,7 @@ function App() {
           <Route path="/review" element={<Review />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/rateus" element={<Rateus />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/remote-jobs" element={<RemoteJobs />} />
           <Route path="/ai" element={<AI />} />

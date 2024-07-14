@@ -6,6 +6,7 @@ import SidebarContent from "./SidebarContent";
 import {
   faHome,
   faBookmark,
+  faUser,
   faCode,
   faInfoCircle,
   faQuestionCircle,
@@ -96,6 +97,16 @@ function Sidebar({ showSideNav }) {
             aria-current="page"
           >
             <AiFillHome /> Home
+          </Link>
+        </div>
+        <div className="sidebar-btn profile-btn" key="about">
+          <Link
+            to="/profile"
+            className="Link  Bookmark nav-link active"
+            aria-current="page"
+          >
+            <FontAwesomeIcon icon={faUser} />
+           My Profile
           </Link>
         </div>
         <div className="sidebar-btn bookmark-btn" key="bookmark">

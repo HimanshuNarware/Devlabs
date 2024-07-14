@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../image/logo1.png";
 import "../style/Footer.css";
 
-import { FaGithubSquare, FaLinkedinIn, FaFacebookF, FaHome, FaBookmark, FaQuestionCircle, FaRegHeart } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedinIn, FaFacebookF, FaHome, FaBookmark, FaQuestionCircle, FaRegHeart, FaInfoCircle, FaUser } from "react-icons/fa";
 import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineMail, AiFillStar } from 'react-icons/ai';
 import { BsYoutube, BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from "react-router-dom";
@@ -51,6 +51,11 @@ function Footer() {
                 <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/rateus">
                     <AiFillStar className="mr-2" /> Rate Us
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href="https://www.devlabsstore.tech/profile">
+                    <FaUser className="mr-2" /> My Profile
                   </a>
                 </li>
                 <li className="nav-item">
