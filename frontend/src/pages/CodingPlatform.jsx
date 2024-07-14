@@ -104,6 +104,12 @@ const tools = [
     link: "https://www.geeksforgeeks.org/",
     image: "https://shorturl.at/isVge"
   },
+  {
+    name: "TopCoder",
+    description: "Topcoder Single Round Matches (SRMs) are the OG of Competitive Programming.",
+    link: "https://www.topcoder.com/community/arena",
+    image: "https://www.topcoder.com/wp-content/media/2016/01/tc_new_logo-300x156.png"
+  },
 ];
 
 
