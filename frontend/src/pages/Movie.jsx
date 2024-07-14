@@ -5,6 +5,7 @@ const movies = [
   {
     title: "The Pursuit of Happyness",
     category: "Family, Drama",
+
     description:
       "Chris Gardner takes up an unpaid internship in a brokerage firm after he loses his life's earnings selling a product he invested in. His wife leaves him and he is left with the custody of his son.",
     image:
@@ -14,6 +15,7 @@ const movies = [
   {
     title: "Taare Zameen Par",
     category: "Family, Musical",
+
     description:
       "Ishaan is criticised by his parents for his poor academic performance and is sent away to a boarding school. Ram, an art teacher, however, realises he has dyslexia and helps him uncover his potential.",
     image: "https://i.ytimg.com/vi/3Z14uE7U0HY/hqdefault.jpg",
@@ -49,6 +51,7 @@ const movies = [
     description:
       "IPS officer Manoj Kumar Sharma fearlessly embraces the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt the world's toughest competitive exam: UPSC.",
     image: "https://m.economictimes.com/thumb/msid-105086975,width-1200,height-1200,resizemode-4,imgsize-83368/12th-fail.jpg",
+
     releaseDate: "2023-10-27",
   },
   {
@@ -81,6 +84,7 @@ const Movie = () => {
   return (
     <div className="container">
       <h1 className="title" style={{ marginTop: "60px", color: 'white' }}>
+
         Movies & Series
       </h1>
       <div className="grid-container">

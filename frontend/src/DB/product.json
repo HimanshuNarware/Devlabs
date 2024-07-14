@@ -50,6 +50,13 @@
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
   },
   {
+    "productName": "KuCoin",
+    "category": "tools",
+    "image": "https://www.joker.gg/wp-content/uploads/2024/01/kucoin-slovenija.jpg",
+    "link": "https://www.kucoin.com/",
+    "description": "Secure cryptocurrency exchange that allows you to buy, sell, and trade Bitcoin, Ethereum, and 700+ altcoins."
+  },
+  {
     "productName": "Freelance",
     "category": "Tool",
     "image": "https://th.bing.com/th/id/OIP.US6dnJ-AU3AbU1GZNMLw8wHaHa?rs=1&pid=ImgDetMain",
@@ -64,6 +71,20 @@
     "description": "Sublime Text is a sophisticated cross-platform text editor for code, markup and prose."
   },
   {
+    "productName": "Investopedia",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Investopedia_Logo.svg/1280px-Investopedia_Logo.svg.png",
+    "link": "https://www.investopedia.com/",
+    "description": "World's leading source of financial content on the web."
+  },
+  {
+    "productName": "GLEN World",
+    "category": "tools",
+    "image": "https://logos.flamingtext.com/Name-Logos/Glen-design-sketch-name.png",
+    "link": "https://glenworld.org/",
+    "description": "To scale English literacy so that every child has access to the educational and economic opportunities it unlocks."
+  },
+  {
     "productName": "Descript AI",
     "category": "tools",
     "image": "https://canny.io/images/d294641777b8d0b68b57a4a57e4453e1.png",
@@ -71,11 +92,25 @@
     "description": "This AI helps you to edit videos using AI based on the text."
   },
   {
+    "productName": "AppSumo",
+    "category": "tools",
+    "image": "https://www.dealify.com/wp-content/uploads/2021/06/as-logo-bg.png",
+    "link": "https://appsumo.com/",
+    "description": "Top software deals for entrepreneurs at incredible prices. "
+  },
+  {
     "productName": "Image color picker",
     "category": "tools",
     "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
     "link": "https://10015.io/tools/image-color-picker",
     "description": "Extract color from the images and get color code and details"
+  },
+  {
+    "productName": "Lumosity",
+    "category": "tools",
+    "image": "https://pyxis.nymag.com/v1/imgs/597/390/aa4728f6917f074702a781351a4d3bc01c-05-lumosity.rsquare.w330.jpg",
+    "link": "https://www.lumosity.com/en/",
+    "description": "#1 app with 50+ brain games for memory, math, vocabulary, and more."
   },
   {
     "productName": "Lucid chart",
@@ -161,6 +196,13 @@
     "description": "Global online learning platform with courses, degrees, and certificates."
   },
   {
+    "productName": "British Council : Learn English",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/British_Council_logo.svg/2560px-British_Council_logo.svg.png",
+    "link": "https://learnenglish.britishcouncil.org/",
+    "description": "Learn English online using our high-quality resources to quickly improve your English."
+  },
+  {
     "productName": "Antropic AI",
     "category": "Tool",
     "image": "https://vectorseek.com/wp-content/uploads/2024/01/Anthropic-Icon-Logo-Vector.svg-.png",
@@ -180,6 +222,13 @@
     "image": "https://th.bing.com/th/id/OIP.Arb4siojnanMD4dOpW5uHgHaHa?rs=1&pid=ImgDetMain",
     "link": "https://www.fiverr.com/",
     "description": "Fiverr is a freelancing platform which provides the opportinites for doing freelancing."
+  },
+  {
+    "productName": "NASA Space Apps Challenge",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Space_Apps_Logo_White.png",
+    "link": "https://www.spaceappschallenge.org/",
+    "description": "For coders, scientists, designers, storytellers, makers, technologists, and innovators."
   },
   {
     "productName": "Carousel Hero",
@@ -264,6 +313,12 @@
     "image": "https://shorturl.at/uRx8f",
     "link": "https://www.codedpad.com/",
     "description": "Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
+  },{
+    "productName":"Ninja Ai",
+    "category":"AI",
+    "image":"https://shorturl.at/Izyiy",
+    "link":"https://myninja.ai/",
+    "description":"The Ninja AI is a stealthy and agile artificial intelligence designed to assist users with quick and efficient tasks."
   },
   {
     "productName": "GitLab",
@@ -278,6 +333,13 @@
     "image":"https://shorturl.at/rs6g0",
     "link":"https://codepen.io/",
     "description":"An online code editor and social development environment for front-end developers to build and share web projects."
+  },
+  {
+    "productName": "MetaMask",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png",
+    "link": "https://metamask.io/",
+    "description": "The leading self-custodial wallet."
   },
   {
     "productName":"Video Compressor",
@@ -1217,6 +1279,13 @@
     "image": "https://bit.ly/3Y32LSi",
     "link": "https://unminify.com/",
     "description": "Online tool for unminifying minified JavaScript, CSS, and HTML code."
+  },
+  {
+    "productName": "CoinMarketCap",
+    "category": "tools",
+    "image": "https://seeklogo.com/images/C/coinmarketcap-logo-064D167A0E-seeklogo.com.png",
+    "link": "https://coinmarketcap.com/",
+    "description": "A useful metric for comparing the total value of cryptocurrencies."
   },
   {
     "productName": "flaticon",
@@ -3891,5 +3960,12 @@
    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYkjP22Wq_5rfNPzeR0H6ozBfxZcwPUJZxg&s",
    "link": "https://algo.monster/",
     "description": "Algo Monster is a comprehensive tool designed to help users learn, implement, and optimize algorithms efficiently."
+  },
+  {
+    "productName": "VS Code",
+    "category": "tools",
+    "image": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
+    "link": "https://code.visualstudio.com/",
+    "description": "Visual Studio Code (VS Code) is a lightweight, open-source code editor with built-in support for debugging, syntax highlighting, version control, and extensions."
   }
 ]

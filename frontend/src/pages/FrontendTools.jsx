@@ -108,7 +108,52 @@ const tools = [
     name: "Backbone.js", 
     description: "Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.", 
     link: "https://backbonejs.org/", 
-    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1681040353717/f19b13d0-e85e-4527-8c4b-81a0b8d2034a.jpeg" 
+    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1681040353717/f19b13d0-e85e-4527-8c4b-81a0b8d2034a.jpeg" ,
+    description: "Foundation is a free, open source framework that provides ready-to-use frontend components and css classes for the direct use", 
+    link: "https://get.foundation/", 
+    image: "https://i.pinimg.com/236x/e7/77/1a/e7771ae79843be99e0cdacefd1c561ac.jpg" 
+  },
+  {
+    name: "Grommet",
+    description: "A React-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package.",
+    link: "https://v2.grommet.io/",
+    image: "https://i.ibb.co/6RrD7hw/Screenshot-2024-06-29-131941.png"
+  },
+  {
+    name: "Shadcn/ui",
+    description: "Shadcn/ui is a collection of accessible, themeable, and customizable React components built using Radix UI and Tailwind CSS, designed to streamline the creation of modern, responsive web interfaces.",
+    link: "https://ui.shadcn.com/",
+    image: "https://shorturl.at/TVTbX"
+  },
+  {
+    name: "Ant Design",
+    description: "A design system for enterprise-level products, offering a set of high-quality React components out of the box.",
+    link: "https://ant.design/",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHd0R9InDxSt6TjHiY61JdqxUIoM_FXU4DJw&s"
+  },
+  {
+    name: "Sass",
+    description: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
+    link: "https://sass-lang.com/",
+    image: "https://shorturl.at/RtQ1O"
+  },
+  {
+    name: "LottieFiles",
+    description: "Largest collection of free-to-use animations, with thousands of unique designs that can be used for both personal and commercial projects. The animations are professionally designed, and you can also change the colour, height, width, animation speed, and so on to match the theme of your website.",
+    link: "https://lottiefiles.com/",
+    image: "https://i.pinimg.com/564x/cb/7e/41/cb7e41c764d0a7e1b7713d11fa08e152.jpg"
+  },
+  {
+    name: "TypeScript",
+    description: "TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience.",
+    link: "https://www.typescriptlang.org/",
+    image: "https://iconduck.com/icons/95017/typescript-icon"
+  },
+  {
+    name: "Backbone.js",
+    description: "Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.",
+    link: "https://backbonejs.org/",
+    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1681040353717/f19b13d0-e85e-4527-8c4b-81a0b8d2034a.jpeg"
   }
 ];
 
