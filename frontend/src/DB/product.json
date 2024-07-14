@@ -1072,6 +1072,13 @@
     "description": "Online tool for unminifying minified JavaScript, CSS, and HTML code."
   },
   {
+    "productName": "CoinMarketCap",
+    "category": "tools",
+    "image": "https://seeklogo.com/images/C/coinmarketcap-logo-064D167A0E-seeklogo.com.png",
+    "link": "https://coinmarketcap.com/",
+    "description": "A useful metric for comparing the total value of cryptocurrencies."
+  },
+  {
     "productName": "flaticon",
     "category": "web",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzZcZkHb1ryoSbKABkVp_5kVVOdb7dmN6R_Q&s",
