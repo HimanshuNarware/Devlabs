@@ -104,6 +104,12 @@ const tools = [
     link: "https://www.geeksforgeeks.org/",
     image: "https://shorturl.at/isVge"
   },
+  {
+    name: "Codeforces",
+    description: "Codeforces is a competitive programming platform offering coding contests and problem-solving exercises to enhance algorithmic skills.",
+    link: "https://codeforces.com/",
+    image: "https://media.dev.to/cdn-cgi/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcer3l19eex0wy900b101.jpg"
+  },
 ];
 
 
