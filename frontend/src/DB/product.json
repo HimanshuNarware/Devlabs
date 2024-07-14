@@ -28,6 +28,13 @@
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
   },
   {
+    "productName": "KuCoin",
+    "category": "tools",
+    "image": "https://www.joker.gg/wp-content/uploads/2024/01/kucoin-slovenija.jpg",
+    "link": "https://www.kucoin.com/",
+    "description": "Secure cryptocurrency exchange that allows you to buy, sell, and trade Bitcoin, Ethereum, and 700+ altcoins."
+  },
+  {
     "productName": "Freelance",
     "category": "Tool",
     "image": "https://th.bing.com/th/id/OIP.US6dnJ-AU3AbU1GZNMLw8wHaHa?rs=1&pid=ImgDetMain",
