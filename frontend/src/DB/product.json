@@ -280,6 +280,13 @@
     "description":"An online code editor and social development environment for front-end developers to build and share web projects."
   },
   {
+    "productName": "MetaMask",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png",
+    "link": "https://metamask.io/",
+    "description": "The leading self-custodial wallet."
+  },
+  {
     "productName":"Video Compressor",
     "category":"tools",
     "image":"https://shorturl.at/mHcN2",
