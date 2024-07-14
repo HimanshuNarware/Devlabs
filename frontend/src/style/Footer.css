@@ -5,32 +5,71 @@
 	color: white;
 }
 
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+}
+
+.footer-content{
+  margin-top: 20px;
+  text-align: start;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+
 .ft-1 h5 {
 	margin-top: 18px;
 }
 
 .ft-1 button {
-	margin-top: 3px;
-	width: 215px;
-	height: 45px;
-	border-radius: 8px;
-	border-color: white;
-	font-size: 21px;
-	font-weight: 500;
+	color: #000;
+  font-size: 1.1rem;
+  border: 1px solid #8b5cf6;
+  margin-inline: 10px;
+  padding: 6px 16px 6px 16px;
+  background: transparent;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
+  background-color: black;
+  cursor: pointer;
 }
 
 .ft-1 button:hover {
-	background: #a3094e;
-	color: #fff;
-	cursor: pointer;
+	background: transparent;
+  cursor: pointer;
+  background-color: #8b5cf6;
+  color: black;
+  box-shadow: 2px 2px 1px #000;
+  border: 1px solid #000;
+}
+
+.ft-1 button a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.ft-1 button:hover a{
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ft-1 h3, .ft-2 h3{
+  color: #0014ee;
 }
 
 .ft-2 {
-
-	margin-top: 3.4375rem;
+	margin-top: 1.5rem;
 }
 
-
+.ft-2 ul .nav-item a{
+  font-size: 20px;
+}
 
 /* Footer */
 footer {
@@ -68,16 +107,18 @@ footer {
 .ft-2 ul {
 	list-style: none;
 	padding-left: 0;
+  text-align: start;
 }
 
 .ft-2 ul li {
-	padding: 0.1rem 0;
+  margin-left: 30px;
+	padding: 0.1rem 0rem;
 }
 
 .ft-2 ul a {
 	text-decoration: none;
 	color: white;
-	font-size: 1rem;
+	/* font-size: 1rem; */
 }
 
 .ft-4 {
@@ -137,7 +178,6 @@ footer {
 	color: #fff;
 	cursor: pointer;
 }
-
 
 
 .card-link:hover {

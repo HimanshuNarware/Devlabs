@@ -35,7 +35,7 @@ function Footer() {
                 various aspects of your life.
               </p>
               <h3>Facing an issue or just enjoying the site?</h3>
-              <button>
+              <button className="footer-name">
                 <Link to="/review">Tell us Now</Link>
               </button>
             </div>
