@@ -42,6 +42,13 @@
     "description": "Sublime Text is a sophisticated cross-platform text editor for code, markup and prose."
   },
   {
+    "productName": "Investopedia",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Investopedia_Logo.svg/1280px-Investopedia_Logo.svg.png",
+    "link": "https://www.investopedia.com/",
+    "description": "World's leading source of financial content on the web."
+  },
+  {
     "productName": "Descript AI",
     "category": "tools",
     "image": "https://canny.io/images/d294641777b8d0b68b57a4a57e4453e1.png",
