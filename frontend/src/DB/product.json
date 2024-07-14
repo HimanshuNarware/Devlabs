@@ -90,6 +90,12 @@
     "image": "https://cdn.theorg.com/b42e95e6-f1e5-49de-ba52-d9ec80f925f2_thumb.jpg",
     "link": "https://www.newtonschool.co/",
     "description": "Neo-university providing highly immersive learning to millions of students and working professionals to tap into new-age technology."
+  },{
+    "productName":"Amazon Prime Video",
+    "category":"movies",
+    "image":"https://shorturl.at/dxObb",
+    "link":"https://www.primevideo.com/",
+    "description":"Amazon Prime video is an movie streaming platform to view multiple videos  in offline as well as online."
   },
   {
     "productName": "Goose AI",
@@ -111,6 +117,13 @@
     "image": "https://bit.ly/4binGHA",
     "link": "https://www.remove.bg/",
     "description": "Remove image backgrounds automatically in 5 seconds with one click."
+  },
+  {
+    "productName":"iBomma",
+    "category":"movies",
+    "image":"https://shorturl.at/kSu0y",
+    "link":"https://shorturl.at/trpdb",
+    "description":"IBomma is a free movie streaming platform that allows users to watch and download multiple movies."
   },
   {
     "productName": "unscreen",
