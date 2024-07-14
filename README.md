@@ -18,7 +18,7 @@
   </thead>
   <tbody>
     <tr>
-        <td><img src="src/assets/images/Gssoc Label.png" width="200" height="auto" loading="lazy" alt="GSSoC 24"/></td>
+        <td><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fqJaH_oISOR96gLgpJBwWQ.png" width="200" height="auto" loading="lazy" alt="GSSoC 24"/></td>
       <td>GirlScript Summer of Code 2024</td>
       <td>GirlScript Summer of Code is a three-month-long Open Source Program conducted every summer by GirlScript Foundation. It is an initiative to bring more beginners to Open-Source Software Development.</td>
     </tr>
