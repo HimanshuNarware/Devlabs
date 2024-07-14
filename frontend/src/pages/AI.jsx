@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/AI.css";
+
 const AI = () => {
   const blogs = [
     {
@@ -49,6 +50,7 @@ const AI = () => {
         "https://static.cegos.com/wp-content/uploads/sites/3/2023/06/19103608/Blog-Global-LD-Post-banner-AI-20210610-scaled-1.jpg",
     },
   ];
+
   return (
     <div className="container">
       <h1 className="title" style={{ marginTop: "120px" , color:'white'}}>AI Blog</h1>
@@ -75,4 +77,5 @@ const AI = () => {
     </div>
   );
 };
+
 export default AI;

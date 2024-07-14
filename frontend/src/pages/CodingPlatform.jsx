@@ -81,6 +81,18 @@ const tools = [
     image: "https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg"
   },
   {
+      "name": "Coding Ninjas",
+      "description": "An online learning platform offering courses in coding and programming with a focus on hands-on learning and projects.",
+      "link": "https://www.codingninjas.com/",
+      "image": "https://www.codingninjas.com/assets-landing/images/CNLOGO.svg"  
+  },
+  {
+    name: "HakerEarth",
+    description: "The ease with which a recruiter can create a test on HackerEarth and assess a candidate on a vast skill-set is simply amazing. The analytics that the platform",
+    link: "https://www.hackerearth.com/",
+    image: "https://i.pinimg.com/564x/4c/d7/f4/4cd7f43818621e24eaedaa3d9c3aa675.jpg"
+  },
+  {
     name: "HackerRank",
     description: "HackerRank is the market-leading coding test and interview solution for hiring developers. Start hiring at the pace of innovation!",
     link: "https://www.hackerrank.com/",
@@ -91,6 +103,18 @@ const tools = [
     description: "A portal for computer science resources, tutorials, and coding practice.",
     link: "https://www.geeksforgeeks.org/",
     image: "https://shorturl.at/isVge"
+  },
+  {
+    name: "Codeforces",
+    description: "Codeforces is a competitive programming platform offering coding contests and problem-solving exercises to enhance algorithmic skills.",
+    link: "https://codeforces.com/",
+    image: "https://media.dev.to/cdn-cgi/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcer3l19eex0wy900b101.jpg"
+  },
+  {
+    name: "Kaggle",
+    description: "Kaggle is an online platform for data science competitions, learning resources, and a community for data scientists and machine learning enthusiasts to collaborate and compete.",
+    link: "https://www.kaggle.com/",
+    image: "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F3335785%2F5ba220bb74222dc4831ec760af1e25d1%2F0_EcNt1Y_p5njLMX3F.png?generation=1588220591109846&alt=media"
   },
 ];
 
