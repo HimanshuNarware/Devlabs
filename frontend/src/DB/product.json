@@ -105,6 +105,13 @@
     "description": "Global online learning platform with courses, degrees, and certificates."
   },
   {
+    "productName": "British Council : Learn English",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/British_Council_logo.svg/2560px-British_Council_logo.svg.png",
+    "link": "https://learnenglish.britishcouncil.org/",
+    "description": "Learn English online using our high-quality resources to quickly improve your English."
+  },
+  {
     "productName": "Antropic AI",
     "category": "Tool",
     "image": "https://vectorseek.com/wp-content/uploads/2024/01/Anthropic-Icon-Logo-Vector.svg-.png",
