@@ -14,6 +14,20 @@
         "description": "Python-based Voice Assistant to simplify desktop tasks through voice commands."
     },
     {
+        "projectName": "Supply Chain Management",
+        "ownerUsername": "kartikmehta18",
+        "tags": ["React.JS","Next.JS","Solidity", "Tailwind CSS"],
+        "link": "https://github.com/kartikmehta18/SupplyChainManagement",
+        "description": " (DApp) powered by blockchain technology to streamline supply chain management processes."
+    },
+    {
+        "projectName": "PetAdopt",
+        "ownerUsername": "kartikmehta18",
+        "tags": ["HTML","JS","CSS", "Bootstrap"],
+        "link": "https://github.com/kartikmehta18/PetAdopts",
+        "description": " This is the largest no-kill rescue and pet adoption platform."
+    },
+    {
         "projectName": "Ciphers",
         "ownerUsername": "vihar-s1",
         "tags": ["python", "cryptography"],

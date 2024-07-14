@@ -45,8 +45,8 @@ const OpenSource = () => {
     const totalPages = Math.ceil(projects.length / projectsPerPage);
 
     return (
-        <div className="page-container">
-            <div className={loading ? "loading-container" : "main-container"}>
+        <div className="open-source__page-container">
+            <div className={loading ? "open-source__loading-container" : "open-source__main-container"}>
                 <ClipLoader
                     color="#a0a0a0"
                     loading={loading}
@@ -56,26 +56,26 @@ const OpenSource = () => {
                 />
 
                 {currentPageProjects.map((project) => (
-                    <div className="content-box-home" key={project.projectName}>
+                    <div className="open-source__content-box-home" key={project.projectName}>
                         <h2>{project.projectName}</h2>
-                        <span className="content-box-subtitle">
+                        <p className="open-source__content-box-subtitle">
                             - By {project.ownerUsername}
-                        </span>
-                        <p className="content-box-text">
+                        </p>
+                        <p className="open-source__content-box-text">
                             {project.description}
                         </p>
                         <button
-                            className="btn-b-box"
+                            className="open-source__btn-b-box"
                             onClick={() => {
                                 window.open(project.link);
                             }}
                         >
                             Project
                         </button>
-                        <div className="tag-grid">
+                        <div className="open-source__tag-grid">
                             {project.tags &&
                                 project.tags.map((tag) => (
-                                    <span className="tag" key={tag}>
+                                    <span className="open-source__tag" key={tag}>
                                         {tag}
                                     </span>
                                 ))}
@@ -93,23 +93,22 @@ const OpenSource = () => {
                     pageCount={totalPages}
                     previousLabel={currentPage > 0 ? "< prev" : null}
                     renderOnZeroPageCount={null}
-                    containerClassName="pagination"
-                    pageClassName="page-item"
-                    pageLinkClassName="page-link"
-                    previousClassName={`page-item ${
-                        currentPage === 0 ? "disabled" : ""
+                    containerClassName="open-source__pagination"
+                    pageClassName="open-source__page-item"
+                    pageLinkClassName="open-source__page-link"
+                    previousClassName={`open-source__page-item ${
+                        currentPage === 0 ? "open-source__disabled" : ""
                     }`}
-                    previousLinkClassName="page-link"
-                    nextClassName={`page-item ${
-                        currentPage === totalPages - 1 ? "disabled" : ""
+                    previousLinkClassName="open-source__page-link"
+                    nextClassName={`open-source__page-item ${
+                        currentPage === totalPages - 1 ? "open-source__disabled" : ""
                     }`}
-                    nextLinkClassName="page-link"
-                    activeClassName="active"
+                    nextLinkClassName="open-source__page-link"
+                    activeClassName="open-source__active"
                 />
             )}
         </div>
     );
 };
-
 
 export default OpenSource;
