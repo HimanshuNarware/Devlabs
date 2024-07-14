@@ -39,7 +39,7 @@ function NavbarCenter( ) {
               </>
             }
             to="/"
-          />
+        />
         </li>
         <li className="nav-item">
           <NavbarItem
