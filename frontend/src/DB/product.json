@@ -56,6 +56,13 @@
     "description": "Extract color from the images and get color code and details"
   },
   {
+    "productName": "Lumosity",
+    "category": "tools",
+    "image": "https://pyxis.nymag.com/v1/imgs/597/390/aa4728f6917f074702a781351a4d3bc01c-05-lumosity.rsquare.w330.jpg",
+    "link": "https://www.lumosity.com/en/",
+    "description": "#1 app with 50+ brain games for memory, math, vocabulary, and more."
+  },
+  {
     "productName": "Lucid chart",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.EpFrAgr4EwPGJZQRN8egNgHaHa?rs=1&pid=ImgDetMain",
