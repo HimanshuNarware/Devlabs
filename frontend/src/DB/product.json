@@ -182,6 +182,13 @@
     "description": "DeepAI offers various features to generate images, videos and characters using text prompts and art styles. You can create animations, edit images, chat with characters and more"
   },
   {
+    "productName": "ClickUp",
+    "category": "tools",
+    "image": "https://e7.pngegg.com/pngimages/548/891/png-clipart-clickup-logo-tech-companies.png",
+    "link": "https://clickup.com/",
+    "description": "We built one app to replace them all - Tasks, Docs, Goals, and Chat."
+  },
+  {
     "productName":"Play Code",
     "category":"web",
     "image":"https://shorturl.at/T5X8r",
