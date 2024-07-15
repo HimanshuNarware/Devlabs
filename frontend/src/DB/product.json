@@ -14,6 +14,14 @@
     "description": "Free study notes,summaries and exam prep."
   },
   {
+
+    "productName": "AISEO",
+    "category": "tools",
+    "image": "https://webinarcare.com/wp-content/img/aiseo-ai-logo.png",
+    "link": "https://aiseo.ai/",
+    "description": "AISEO is a search engine optimization tool for making the website SEO friendly, which is powered by AI."
+  },
+  {
     "productName": "Bulk resize Images",
     "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbardxOJox-lSC4XHAGcFvfz8GQO26osFcOA&s",
