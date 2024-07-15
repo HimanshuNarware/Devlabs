@@ -117,6 +117,13 @@
   background-color: #0056b3;
 }
 
+.error-message,
+.success-message {
+  color: black; 
+  font-size: 1.2rem; 
+  margin-top: 0.5rem; 
+}
+
 .social-links {
   /* display: flex;
   justify-content: center; */

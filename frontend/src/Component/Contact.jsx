@@ -11,15 +11,53 @@ import animationData from "../lottie/contact.json";
 import "../style/Contact.css";
 
 const Contact = () => {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [isValid, setIsValid] = useState(true);
+  const [message, setMessage] = useState("");
+  const [isValidEmail, setIsValidEmail] = useState(true);
+  const [formMessage, setFormMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
 
   const handleEmailChange = (event) => {
     const { value } = event.target;
     setEmail(value);
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    setIsValid(emailRegex.test(value));
+    setIsValidEmail(emailRegex.test(value));
+  };
+
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // Check if all fields are filled
+    if (!name || !email || !message) {
+      setErrorMessage("Please fill all the fields");
+
+      setTimeout(() => {
+        setErrorMessage("");
+      }, 3000);
+      return;
+    }
+
+    // Show thank you message
+    setFormMessage("Thank you! We will connect soon.");
+    setErrorMessage("");
+
+    // Clear the message and reset form after 3 seconds
+    setTimeout(() => {
+      setFormMessage("");
+      setName("");
+      setEmail("");
+      setMessage("");
+    }, 3000);
   };
 
   return (
@@ -38,7 +76,7 @@ const Contact = () => {
             <p className="contact-description">
               Please fill out the form below to get in touch with us.
             </p>
-            <form className="contact-form">
+            <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="name" className="form-label">
                   Name
@@ -48,6 +86,8 @@ const Contact = () => {
                   id="name"
                   name="name"
                   className="form-input"
+                  value={name}
+                  onChange={handleNameChange}
                   placeholder="Full name"
                 />
               </div>
@@ -59,11 +99,12 @@ const Contact = () => {
                   type="email"
                   id="email"
                   name="email"
-                  className={`form-input ${isValid ? "" : "invalid"}`}
+                  className={`form-input ${!isValidEmail ? "invalid" : ""}`}
+                  value={email}
                   onChange={handleEmailChange}
                   placeholder="example@example.com"
                 />
-                {!isValid && (
+                {!isValidEmail && (
                   <p className="error-message">
                     Please enter a valid email address.
                   </p>
@@ -77,6 +118,8 @@ const Contact = () => {
                   id="message"
                   name="message"
                   className="form-textarea"
+                  value={message}
+                  onChange={handleMessageChange}
                   rows="4"
                   placeholder="Write your message..."
                 ></textarea>
@@ -85,6 +128,12 @@ const Contact = () => {
                 Submit
               </button>
             </form>
+            {errorMessage && (
+              <p className="error-message">{errorMessage}</p>
+            )}
+            {formMessage && (
+              <p className="success-message">{formMessage}</p>
+            )}
             <div className="social-links">
               <a
                 href="https://www.linkedin.com/in/himanshunarware/"
@@ -92,7 +141,10 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="social-icon"
+                />
               </a>
               <a
                 href="https://github.com/HimanshuNarware/Devlabs"
