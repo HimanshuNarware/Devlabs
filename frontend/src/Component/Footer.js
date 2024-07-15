@@ -10,6 +10,12 @@ import {
   FaBookmark,
   FaQuestionCircle,
   FaRegHeart,
+  FaBriefcase,
+  FaRobot,
+  FaFilm,
+  FaTools,
+  FaLaptopCode,
+  FaLock,
 } from "react-icons/fa";
 import {
   AiOutlineInstagram,
@@ -17,7 +23,7 @@ import {
   AiOutlineMail,
   AiFillStar,
 } from "react-icons/ai";
-import { BsYoutube, BsFillPersonLinesFill } from "react-icons/bs";
+import { BsYoutube, BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -36,9 +42,14 @@ function Footer() {
                 created by the incredible open-source community. On DevLabs, you
                 can discover a collection of free tools that can assist you in
                 various aspects of your life.
+                Welcome to DevLabs, a website where you can search for free tools
+                that are useful for your daily needs. This application is created
+                by the incredible open-source community. On DevLabs, you can
+                discover a collection of free tools that can assist you in various
+                aspects of your life.
               </p>
               <h3>Facing an issue or just enjoying the site?</h3>
-              <button className="footer-name">
+              <button>
                 <Link to="/review">Tell us Now</Link>
               </button>
             </div>
@@ -87,27 +98,27 @@ function Footer() {
               <ul>
                 <li className="nav-item">
                   <a href="/remote-job">
-                    <FaHome className="mr-2" /> Remote Jobs
+                    <FaBriefcase className="mr-2" /> Remote Jobs
                   </a>
                 </li>
                 <li className="nav-item">
                   <a href="/ai">
-                    <FaQuestionCircle className="mr-2" /> AI
+                    <FaRobot className="mr-2" /> AI
                   </a>
                 </li>
                 <li className="nav-item">
                   <a href="/movies&series">
-                    <FaBookmark className="mr-2" /> Movie/Series
+                    <FaFilm className="mr-2" /> Movie/Series
                   </a>
                 </li>
                 <li className="nav-item">
                   <a href="/extensions">
-                    <FaBookmark className="mr-2" /> Extension
+                    <FaTools className="mr-2" /> Extension
                   </a>
                 </li>
                 <li className="nav-item">
                   <a href="/ui-designs">
-                    <FaBookmark className="mr-2" /> UI Design
+                    <FaLaptopCode className="mr-2" /> UI Design
                   </a>
                 </li>
               </ul>
@@ -117,22 +128,17 @@ function Footer() {
               <ul>
                 <li className="nav-item">
                   <a href="/front-end-tools">
-                    <FaHome className="mr-2" /> Frontend Tools
+                    <FaTools className="mr-2" /> Frontend Tools
                   </a>
                 </li>
                 <li className="nav-item">
                   <a href="/ethical-hacking">
-                    <FaQuestionCircle className="mr-2" /> Ethical Hacking
+                    <FaLock className="mr-2" /> Ethical Hacking
                   </a>
                 </li>
                 <li className="nav-item">
                   <a href="/coding-platform">
-                    <FaBookmark className="mr-2" /> Coding Platforms
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a href="/courses-platform">
-                    <FaBookmark className="mr-2" /> Course Platforms
+                    <BsCodeSlash className="mr-2" /> Coding Platforms
                   </a>
                 </li>
               </ul>
@@ -226,4 +232,5 @@ function Footer() {
     </footer>
   );
 }
+
 export default Footer;
