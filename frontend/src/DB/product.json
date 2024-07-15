@@ -43,6 +43,13 @@
     "description": "World's largest technical professional organization dedicated to advancing technology for the benefit of humanity."
   },
   {
+    "productName": "Bubble",
+    "category": "Tool",
+    "image": "https://th.bing.com/th/id/OIP.5r5yOF5nF_uO763L7XIOwAHaFj?rs=1&pid=ImgDetMain",
+    "link": "https://bubble.io/",
+    "description": "Bubble is a full stack no-code app builder which helps people to build their own apps easily without using/learning coding and tech."
+  },
+  {
     "productName": "Clarif AI",
     "category": "Tool",
     "image": "https://www.clarifai.com/hubfs/Clarifai%20Logo%20Stamp%20Blue.png",
