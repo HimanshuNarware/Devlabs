@@ -2,7 +2,7 @@
   background-color: #6a43c3;
   padding: 1rem;
   position: fixed;
-  width: 100%;
+  width: 1500px;
   top: 0px;
   left: 0px;
   height: auto;
@@ -13,6 +13,8 @@
   z-index: 4;
   isolation: isolate;
   mix-blend-mode: normal;
+
+  gap: 150px;
 
 }
 

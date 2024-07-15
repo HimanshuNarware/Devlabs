@@ -32,6 +32,13 @@ const CodingPlatform = lazy(() => import("./pages/CodingPlatform")); // Correcte
 const CoursesPlatform = lazy(() => import("./pages/CoursesPlatform"));
 const Collaboration = lazy(() => import("./pages/Collaboration"));
 const Productivity = lazy(() => import("./pages/Productivity"));
+const Extensions = lazy(() => import("./pages/Extensions"));
+
+const Movies = lazy(() => import("./pages/Movies"));
+
+const Ui = lazy(() => import("./pages/UserInterface"));
+
+const RemoteJob = lazy(() => import("./pages/RemoteJob"));
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -66,6 +73,13 @@ function App() {
           <Route path="/courses-platform" element={<CoursesPlatform />} />
           <Route path="/productivity-tools" element={<Productivity />} />
           <Route path="/collaboration-tools" element={<Collaboration />} />
+          <Route path="/extensions" element={<Extensions />} />
+
+          <Route path="/movies&series" element={<Movies />} />
+
+          <Route path="/ui-designs" element={<Ui />} />
+          <Route path="/remote-job" element={<RemoteJob />} />
+            
           {/* Define other routes as needed */}
           {/* <Route path="*" element={<NotFound />} /> 404 route */}
         </Routes>
