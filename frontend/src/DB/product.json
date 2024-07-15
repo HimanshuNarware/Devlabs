@@ -355,6 +355,13 @@
     "link":"https://grow.google/certificates/interview-warmup/",
     "description":"A quick way to prepare for your next interview using this google interview warmup"
 },
+{
+  "productName": "Namelix",
+  "category": "tools",
+  "image": "https://ultimatetools.eu/wp-content/uploads/2022/09/logo-namelix.jpeg",
+  "link": "https://namelix.com/",
+  "description": "Namelix helps you create a short, catchy and brandable name for your business using artificial intelligence."
+},
   {
     "productName": "Maths GPT",
     "category": "tools",
