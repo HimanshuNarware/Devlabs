@@ -78,6 +78,13 @@
     "description": "World's leading source of financial content on the web."
   },
   {
+    "productName": "Reply IO",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.sDoNk2OfFCNTFuvecdXCVAAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://reply.io/?",
+    "description": "Reply.io is an AI-first sales engagement platform that helps SDR teams find new prospects, engage them through multiple channels, and create new opportunities at scale while keeping every touchpoint personal."
+  },
+  {
     "productName": "GLEN World",
     "category": "tools",
     "image": "https://logos.flamingtext.com/Name-Logos/Glen-design-sketch-name.png",
