@@ -1,22 +1,82 @@
-input[type=radio]{
-    display: none;
-}
-.Rate{
-    height: 500px;
-}
-
-.Rate .star{
+/* Rate.css */
+.rate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .rate-card {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+    transition: background-color 0.3s ease; 
+    cursor: default; 
+  }
+  
+  .rate-card.submitted {
+    background-color: #f9f9f9; 
+  }
+  
+  .rating-container {
+    margin-bottom: 20px;
+  }
+  
+  .star {
     cursor: pointer;
-}
-
-.star FaStar{
-    border: 1px solid #fff;
-}
-
-.Rate p{
-    color: #fff;
+  }
+  
+  .rating-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .feedback-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black; 
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #0739ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #051f7f;
+  }
+  
+  .submitted-message {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: white;
     font-size: 20px;
-    font-weight: 400;
-    margin-top: 20px;
-    /* background-color: ; */
-}
+    margin-top: 10px;
+  }
