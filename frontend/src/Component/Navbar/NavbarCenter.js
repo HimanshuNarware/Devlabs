@@ -4,6 +4,7 @@ import "../../style/Navbar.css";
 import NavbarItem from "./NavbarItem";
 import RateUsComponent from "../../Component/Rate.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../../style/BookMark.css"
 import {
   faHome,
   faBookmark,
@@ -55,9 +56,11 @@ function NavbarCenter() {
         <li className="nav-item">
           <NavbarItem
             description={
-              <>
-                <FontAwesomeIcon icon={faBookmark} /> Bookmark ({totalBookmarks})
-              </>
+
+              <div className="bookmarkTag">
+                <FontAwesomeIcon icon={faBookmark} /> Bookmark <span className="totBook">{totalBookmarks}</span>
+              </div>
+
             }
             to="/bookmark"
           />
