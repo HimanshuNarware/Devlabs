@@ -189,6 +189,13 @@
     "description":"PlayCode is an online code editor and playground for web development."
   },
   {
+    "productName": "Spline",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.qvptQEQCaUmQ3plQnQg1KAHaEL?rs=1&pid=ImgDetMain",
+    "link": "https://spline.design/",
+    "description": "Spline is a designing tool that helps to create modern 3d websites easily."
+  },
+  {
     "productName": "edX",
     "category": "course",
     "image": "http://bit.ly/4aK9dDT",
