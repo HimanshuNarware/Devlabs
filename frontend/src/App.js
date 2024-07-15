@@ -20,6 +20,7 @@ const OpenSource = lazy(() => import("./Component/OpenSource"));
 const Review = lazy(() => import("./Component/Review"));
 const BookMark = lazy(() => import("./Component/BookMark"));
 const Contact = lazy(() => import("./Component/Contact"));
+const Signup = lazy(() => import("./Component/Signup"));
 const RemoteJobs = lazy(() => import("./pages/RemoteJobs"));
 const AI = lazy(() => import("./pages/AI"));
 const UI = lazy(() => import("./pages/UI"));
@@ -48,6 +49,7 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home searchQuery={searchQuery} />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/bookmark" element={<BookMark />} />
           <Route path="/about" element={<About />} />
           <Route path="/open-source" element={<OpenSource />} />
