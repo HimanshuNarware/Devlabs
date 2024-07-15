@@ -328,13 +328,6 @@
     "description": "Web-based DevOps platform.Helps to manage the software development lifecycle. "
   },
   {
-    "productName":"Coded Pen",
-    "category":"web",
-    "image":"https://shorturl.at/rs6g0",
-    "link":"https://codepen.io/",
-    "description":"An online code editor and social development environment for front-end developers to build and share web projects."
-  },
-  {
     "productName": "MetaMask",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png",
