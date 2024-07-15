@@ -3891,5 +3891,12 @@
    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYkjP22Wq_5rfNPzeR0H6ozBfxZcwPUJZxg&s",
    "link": "https://algo.monster/",
     "description": "Algo Monster is a comprehensive tool designed to help users learn, implement, and optimize algorithms efficiently."
-  }
+  },
+  {
+    "productName": " Dark Reader",
+    "category": "extension",
+    "image": "https://avatars.githubusercontent.com/u/38494721?v=4",
+    "link": "https://darkreader.org/",
+     "description": "It enables dark mode on any website, reducing eye strain and making it easier to read at night."
+   }
 ]
