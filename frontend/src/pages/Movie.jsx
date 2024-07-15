@@ -3,13 +3,8 @@ import "../style/Movie.css";
 
 const movies = [
   {
-
-    title: 'React Basics',
-    category: "Computer Science",
-
     title: "The Pursuit of Happyness",
     category: "Family,Drama",
-
     description:
       "Chris Gardner takes up an unpaid internship in a brokerage firm after he loses his life's earnings selling a product he invested in. His wife leaves him and he is left with the custody of his son.",
     image:
@@ -17,13 +12,8 @@ const movies = [
     releaseDate: "2006-12-12",
   },
   {
-
-    title: 'Advanced React',
-    category: 'Computer Science',
-
     title: "Taare Zameen Par",
     category: "Family,Musical",
-
     description:
       "Ishaan is criticised by his parents for his poor academic performance and is sent away to a boarding school. Ram, an art teacher, however, realises he has dyslexia and helps him uncover his potential.",
     image:
@@ -31,7 +21,7 @@ const movies = [
     releaseDate: "2007-12-21",
   },
   {
-    title: "3 idiots",
+    title: "3 Idiots",
     category: "Comedy",
     description:
       "In college, Farhan and Raju form a great bond with Rancho due to his refreshing outlook. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive.",
@@ -63,9 +53,8 @@ const movies = [
     description:
       "IPS officer Manoj Kumar Sharma fearlessly embraces the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt the world's toughest competitive exam: UPSC.",
     image:
-
-      "https://i.pinimg.com/564x/58/69/23/58692343bfbe53e78820a839efa0e51e.jpg",
-    releaseDate: "2024-10-10",
+      "https://m.economictimes.com/thumb/msid-105086975,width-1200,height-1200,resizemode-4,imgsize-83368/12th-fail.jpg",
+    releaseDate: "2023-10-27",
   },
   {
     title: "Django Development",
@@ -93,29 +82,20 @@ const movies = [
     image:
       "https://i.pinimg.com/564x/40/56/d9/4056d91b5e4b1c81af71afec6620f9fe.jpg",
     releaseDate: "2024-12-01",
-
-      "https://m.economictimes.com/thumb/msid-105086975,width-1200,height-1200,resizemode-4,imgsize-83368/12th-fail.jpg",
-    releaseDate: "2023-10-27",
-
   },
 ];
 
 const Movie = () => {
   return (
-
-    <div className='container'>
-      <h1 className='title' style={{ marginTop: "60px" }}>
-
     <div className="container">
-      <h1 className="title" style={{ marginTop: "60px" , color:'white'}}>
-
+      <h1 className="title" style={{ marginTop: "60px", color: "white" }}>
         Movies & Series
       </h1>
-      <div className='grid-container'>
+      <div className="grid-container">
         {movies.map((movie, index) => (
           <div key={index} className="grid-item">
             <img src={movie.image} alt={movie.title} className="movie-image" />
-            <h2 className='movie-title'>{movie.title}</h2>
+            <h2 className="movie-title">{movie.title}</h2>
             <p className="movie-category">{movie.category}</p>
             <p className="movie-description">{movie.description}</p>
             <p className="movie-releaseDate">

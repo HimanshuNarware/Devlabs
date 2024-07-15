@@ -4,9 +4,7 @@ import "../style/Review.css";
 import axios from "axios";
 import Rate from "./Rate";
 import { toast } from "react-toastify";
-
 const BACKEND = process.env.REACT_APP_BACKEND;
-
 function Review() {
   const [rating, setRating] = useState(0);
   const [reviewData, setReviewData] = useState({

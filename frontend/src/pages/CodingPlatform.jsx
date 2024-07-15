@@ -104,6 +104,18 @@ const tools = [
     link: "https://www.geeksforgeeks.org/",
     image: "https://shorturl.at/isVge"
   },
+  {
+    name: "Codeforces",
+    description: "Codeforces is a competitive programming platform offering coding contests and problem-solving exercises to enhance algorithmic skills.",
+    link: "https://codeforces.com/",
+    image: "https://media.dev.to/cdn-cgi/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcer3l19eex0wy900b101.jpg"
+  },
+  {
+    name: "Kaggle",
+    description: "Kaggle is an online platform for data science competitions, learning resources, and a community for data scientists and machine learning enthusiasts to collaborate and compete.",
+    link: "https://www.kaggle.com/",
+    image: "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F3335785%2F5ba220bb74222dc4831ec760af1e25d1%2F0_EcNt1Y_p5njLMX3F.png?generation=1588220591109846&alt=media"
+  },
 ];
 
 
