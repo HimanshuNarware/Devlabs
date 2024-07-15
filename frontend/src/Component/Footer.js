@@ -42,11 +42,6 @@ function Footer() {
                 created by the incredible open-source community. On DevLabs, you
                 can discover a collection of free tools that can assist you in
                 various aspects of your life.
-                Welcome to DevLabs, a website where you can search for free tools
-                that are useful for your daily needs. This application is created
-                by the incredible open-source community. On DevLabs, you can
-                discover a collection of free tools that can assist you in various
-                aspects of your life.
               </p>
               <h3>Facing an issue or just enjoying the site?</h3>
               <button>
