@@ -1,19 +1,19 @@
 .Footer {
   padding: 2rem 0;
   margin-top: 15rem;
-  background: #8b5cf6;
+  background: #6a43c3;
   color: white;
 }
-
+/* #8b5cf6; */
 .ft-1 h3 {
   margin-top: 28px;
   text-align: center;
-  color: blue;
+  color: rgb(217, 179, 255);
   font-weight:600;
 }
 
 .ft-1 button {
-  color: #000;
+  color: rgb(217, 179, 255);
   width: 200px;
   height: 50px;
   font-size: 1.1rem;
@@ -33,7 +33,7 @@
 .ft-1 button:hover {
   background: transparent;
   cursor: pointer;
-  background-color: #8b5cf6;
+  background-color: rgb(217, 179, 255);
   border: 2px solid #000;
   color: #000;
   box-shadow: 2px 2px 1px #000;
@@ -111,7 +111,7 @@ footer {
 }
 
 .ft-2 h3{
-  color: blue;
+  color: rgb(217, 179, 255);;
   font-weight: 600;
   text-align: start;
 }
@@ -149,7 +149,7 @@ footer {
 }
 
 .Last-footer {
-  background: #8b5cf6;
+  background: #6a43c3;;
   border: 1px solid white;
   text-align: center;
   padding: 1rem 0;
