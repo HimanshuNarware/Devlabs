@@ -238,6 +238,13 @@
     "description": "Synergic philosophy of education, with a culture of mutual learning through micro groups of peers."
   },
   {
+    "productName": "Flipboard",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flipboard_logo.svg/1200px-Flipboard_logo.svg.png",
+    "link": "https://about.flipboard.com/",
+    "description": "One place for all the top stories, deep dives and curated content you need"
+  },
+  {
     "productName": "InstaHire",
     "category": "tools",
     "image": "https://shorturl.at/gj1LR",
