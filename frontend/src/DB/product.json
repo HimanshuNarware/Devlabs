@@ -322,6 +322,13 @@
     "description":"Create Human-like Essays with Our Undetectable AI Essay Writer"
   },
   {
+    "productName": "Otter.ai",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5f/Otter.ai_company_logo.png",
+    "link": "https://otter.ai/",
+    "description": "AI Meeting Assistant to transcribe meetings"
+  },
+  {
     "productName":"Interview warmup Google",
     "category":"tools",
     "image":"https://rb.gy/4z4lkj",
