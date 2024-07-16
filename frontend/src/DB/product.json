@@ -315,6 +315,13 @@
     "description": "Source for free stack visuals"
   },
   {
+    "productName": "Habitica",
+    "category": "tools",
+    "image": "https://w7.pngwing.com/pngs/295/1014/png-transparent-habitica-hd-logo.png",
+    "link": "https://habitica.com/",
+    "description": "Free habit and productivity app that treats your real life like a game."
+  },
+  {
     "productName": "PikaShows",
     "category": "movies",
     "image": "https://tinyurl.com/37csr8my",
@@ -2276,13 +2283,19 @@
     "link": " https://codeforces.com/",
     "description": "A competitive programming platform with challenging contests and an active community."
   },
-
   {
     "productName": "Codechef",
     "category": "coding",
     "image": "https://tinyurl.com/5cx6fp35",
     "link": "https://www.codechef.com/",
     "description": "An online community for programmers to improve their skills through contests and challenges."
+  },
+  {
+    "productName": "Codolio",
+    "category": "coding",
+    "image": "https://tinyurl.com/ys6sauuc",
+    "link": "https://codolio.com/",
+    "description": "Build your all-in-one coding portfolio with Codolio."
   },
   {
     "productName": "BitDegree",
@@ -3898,5 +3911,33 @@
     "image": "https://avatars.githubusercontent.com/u/38494721?v=4",
     "link": "https://darkreader.org/",
      "description": "It enables dark mode on any website, reducing eye strain and making it easier to read at night."
+  },
+  {
+    "productName": "Dark Reader",
+    "category": "extension",
+    "image": "https://avatars.githubusercontent.com/u/38494721?v=4",
+    "link": "https://darkreader.org/",
+    "description": "It enables dark mode on any website, reducing eye strain and making it easier to read at night."
+   },
+   {
+    "productName": "Codecademy",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScIOHjJdR0DmnoP7GgpFD9EKTvwP_eim_NYA&s",
+    "link": "https://www.codecademy.com/",
+    "description": "Codeacdemy empowering all people, regardless of where they are in their coding journeys, to continue to learn, grow, and make an impact on the world around them."
+   },
+   {
+    "productName": "freecodecamp",
+    "category": "course",
+    "image": "https://camo.githubusercontent.com/8a0caad660e7af3efae7d04489eb97fd8ff66bd8252383c8e230f58c1adcfa9b/68747470733a2f2f69312e77702e636f6d2f736f667477617265656e67696e656572696e676461696c792e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f31322f66726565636f646563616d702d766563746f722d6c6f676f2e706e673f726573697a653d3733302532433338392673736c3d31",
+    "link": "https://www.freecodecamp.org/",
+    "description": "freeCodeCamp is a open-source codebase and curriculum. Where you can learn to code for free."
+   },
+   {
+    "productName": "Microsoft Learn",
+    "category": "course",
+    "image": "https://www.logodesignlove.com/wp-content/uploads/2012/08/microsoft-logo-02.jpeg",
+    "link": "https://learn.microsoft.com/en-us/training/",
+    "description": "Whether you are just starting in a career, or you are an experienced professional, our self-directed approach helps you arrive at your goals faster, with more confidence and at your own pace. Develop skills through interactive modules and paths or learn from an instructor. Learn and grow your way."
    }
 ]

@@ -58,14 +58,14 @@
 
 .open-source__tag {
     margin: 2px 4px;
-    border: 1px solid orange;
+    border: 1px solid #804afe;
     padding: 2px 8px;
     border-radius: 12px;
 }
 
 .open-source__btn-b-box {
     color: #fff;
-    background-color: #007bff;
+    background-color: #804afe;
     border: none;
     padding: 8px 12px;
     border-radius: 4px;
@@ -74,7 +74,11 @@
 }
 
 .open-source__btn-b-box:hover {
-    background-color: #0056b3;
+    background-color: #09001f63;
+  backdrop-filter: blur(10px);
+  border: 2px solid #804afe;
+  color: white;
+  box-shadow: -1px 2px 8px #c5aff899,0px 2px 8px #6943c392;
 }
 
 .open-source__pagination {
