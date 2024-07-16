@@ -43,6 +43,13 @@
     "description": "World's largest technical professional organization dedicated to advancing technology for the benefit of humanity."
   },
   {
+    "productName":"Tubi Tv",
+    "category":"movies",
+    "image":"https://shorturl.at/lILGC",
+    "link":"https://tubitv.com/",
+    "description":"It is an online movie streaming platform users can view the multiple movies and web series in the platform."
+  },
+  {
     "productName": "Clarif AI",
     "category": "Tool",
     "image": "https://www.clarifai.com/hubfs/Clarifai%20Logo%20Stamp%20Blue.png",
