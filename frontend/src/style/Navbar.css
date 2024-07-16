@@ -1,8 +1,8 @@
 .navbar {
-  background-color: #8b5cf6;
+  background-color: #6a43c3;
   padding: 1rem;
   position: fixed;
-  width: 100%;
+  width: 1500px;
   top: 0px;
   left: 0px;
   height: auto;
@@ -13,6 +13,9 @@
   z-index: 4;
   isolation: isolate;
   mix-blend-mode: normal;
+
+  gap: 150px;
+
 }
 
 .search-bar {
@@ -49,6 +52,7 @@
   margin: 0;
   justify-content: space-between;
   width: 109%;
+  
 }
 
 .card-body img {
@@ -349,7 +353,7 @@
 } */
 
 .sidebar {
-  color: rgba(0, 0, 0, 0.84);
+  color: rgb(23, 0, 38);
 }
 
 /* .filter:hover {
@@ -461,7 +465,7 @@
 .nav-item a,
 .navbar-content ul li a,
 .Bookmark.nav-link.active {
-  color: black !important; /* Ensure nav items are always black */
+  color: rgb(23, 0, 38) !important; /* Ensure nav items are always black */
   text-decoration: none !important;
   font-size: 1.2rem;
   transition: color 0.3s;
@@ -471,7 +475,7 @@
 
 .nav-item a:hover,
 .Bookmark.nav-link.active:hover {
-  color: black !important; /* Ensure nav items remain black on hover */
+  color: rgb(23, 0, 38) !important; /* Ensure nav items remain black on hover */
   font-weight: 700;
 }
 

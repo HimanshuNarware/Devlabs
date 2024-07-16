@@ -12,7 +12,13 @@
     cursor: none;
     transition: background-color 0.3s, transform 0.3s;
 }
-
+@media only screen and (max-width: 425px)
+{
+    .back-to-top-button{
+        right:0px;
+        margin-right: 10px;
+    }
+}
 .back-to-top-button.visible {
     display: block;
 }
