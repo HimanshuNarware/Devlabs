@@ -2345,13 +2345,19 @@
     "link": " https://codeforces.com/",
     "description": "A competitive programming platform with challenging contests and an active community."
   },
-
   {
     "productName": "Codechef",
     "category": "coding",
     "image": "https://tinyurl.com/5cx6fp35",
     "link": "https://www.codechef.com/",
     "description": "An online community for programmers to improve their skills through contests and challenges."
+  },
+  {
+    "productName": "Codolio",
+    "category": "coding",
+    "image": "https://tinyurl.com/ys6sauuc",
+    "link": "https://codolio.com/",
+    "description": "Build your all-in-one coding portfolio with Codolio."
   },
   {
     "productName": "BitDegree",
