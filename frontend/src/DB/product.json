@@ -85,6 +85,13 @@
     "description": "This AI helps you to edit videos using AI based on the text."
   },
   {
+    "productName": "Bubble",
+    "category": "Tool",
+    "image": "https://th.bing.com/th/id/OIP.5r5yOF5nF_uO763L7XIOwAHaFj?rs=1&pid=ImgDetMain",
+    "link": "https://bubble.io/",
+    "description": "Bubble is a full stack no-code app builder which helps people to build their own apps easily without using/learning coding and tech."
+  },
+  {
     "productName": "Image color picker",
     "category": "tools",
     "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
