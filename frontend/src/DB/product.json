@@ -50,6 +50,13 @@
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
   },
   {
+    "productName": "Reply IO",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.sDoNk2OfFCNTFuvecdXCVAAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://reply.io/?",
+    "description": "Reply.io is an AI-first sales engagement platform that helps SDR teams find new prospects, engage them through multiple channels, and create new opportunities at scale while keeping every touchpoint personal."
+  },
+  {
     "productName":"Powerdrill Ai",
     "category":"AI",
     "image":"https://shorturl.at/8n6J2",
