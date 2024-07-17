@@ -112,6 +112,13 @@
     "description":"Amazon Prime video is an movie streaming platform to view multiple videos  in offline as well as online."
   },
   {
+    "productName": "Spline",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.qvptQEQCaUmQ3plQnQg1KAHaEL?rs=1&pid=ImgDetMain",
+    "link": "https://spline.design/",
+    "description": "Spline is a designing tool that helps to create modern 3d websites easily."
+  },
+  {
     "productName": "Goose AI",
     "category": "tools",
     "image": "https://i.pinimg.com/originals/cd/8a/26/cd8a26fbffe290a7ae3a5275c481f7a2.png",
