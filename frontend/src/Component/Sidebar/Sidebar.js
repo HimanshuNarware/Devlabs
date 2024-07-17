@@ -13,6 +13,8 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../../style/Sidebar.css"; // Import the CSS file
+
 function Sidebar({ showSideNav }) {
   const sidebarContent = [
     {
@@ -84,94 +86,47 @@ function Sidebar({ showSideNav }) {
 
   return (
     <div style={{marginTop: "10px"}} className={`sidebar ${showSideNav ? "active" : ""}`}>
-      <div
-        className={`sidebar-content sidebar-btns ${
-          showSideNav ? "active" : ""
-        }`}
-      >
+      <div className={`sidebar-content sidebar-btns ${showSideNav ? "active" : ""}`}>
         <div className="sidebar-btn home-btn" key="home">
-          <Link
-            to="/"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
+          <Link to="/" className="Link Bookmark nav-link active" aria-current="page">
             <AiFillHome /> Home
           </Link>
         </div>
         <div className="sidebar-btn bookmark-btn" key="bookmark">
-          <Link
-            to="/bookmark"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
+          <Link to="/bookmark" className="Link Bookmark nav-link active" aria-current="page">
             <BsBookmark /> BookMark
           </Link>
         </div>
         <div className="sidebar-btn home-btn" key="about">
-          <Link
-            to="/about"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
-            <FontAwesomeIcon icon={faInfoCircle} />
-            About Us
+          <Link to="/about" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faInfoCircle} /> About Us
+          </Link>
+        </div>
+        <div className="sidebar-btn bookmark-btn" key="contact">
+          <Link to="/contact" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faEnvelope} /> Contact
           </Link>
         </div>
         <div className="sidebar-btn bookmark-btn" key="open-source">
-          <Link
-            to="/contact"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
-            <FontAwesomeIcon icon={faEnvelope} />
-            Contact
+          <Link to="/open-source" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faCode} /> Open Source
           </Link>
         </div>
-        <div className="sidebar-btn bookmark-btn" key="open-source">
-          <Link
-            to="/open-source"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
-            {" "}
-            <FontAwesomeIcon icon={faCode} />
-            Open Source
+        <div className="sidebar-btn bookmark-btn" key="faq">
+          <Link to="/faq" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faQuestionCircle} /> FAQ's
           </Link>
         </div>
-        <div className="sidebar-btn bookmark-btn" key="open-source">
-          <Link
-            to="/faq"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
-            <FontAwesomeIcon icon={faQuestionCircle} />
-            FAQ's
-          </Link>
-        </div>
-        <div className="sidebar-btn bookmark-btn" key="open-source">
-          <Link
-            to="/#"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
-            <FontAwesomeIcon icon={faStar} />
-            Rate US
+        <div className="sidebar-btn bookmark-btn" key="rate-us">
+          <Link to="/#" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faStar} /> Rate US
           </Link>
         </div>
       </div>
 
       {sidebarContent.map((item) => (
-        <Link
-          to={item.url}
-          className="Link  Bookmark nav-link active"
-          aria-current="page"
-          key={item.name}
-        >
-          <SidebarContent
-            name={item.name}
-            description={item.description}
-            active={showSideNav}
-          />
+        <Link to={item.url} className="Link Bookmark nav-link active" aria-current="page" key={item.name}>
+          <SidebarContent name={item.name} description={item.description} active={showSideNav} />
         </Link>
       ))}
 
