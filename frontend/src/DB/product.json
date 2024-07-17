@@ -28,6 +28,13 @@
     "description": "This AI Lovo lets you generate advanced AI voices for any use case."
   },
   {
+    "productName": "Zapier",
+    "category": "Tool",
+    "image": "https://cdn.zapier.com/zapier/images/logos/zapier-logomark.png",
+    "link": "https://zapier.com/",
+    "description": "Zapier provides workflows that allow different web applications to be used in the same workflow. Their products focus on automating recurring tasks, such as lead management."
+  },
+  {
 
     "productName": "Synthesia",
     "category": "tools",
