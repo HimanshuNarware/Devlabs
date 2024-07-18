@@ -7,11 +7,25 @@
     "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
   },
   {
+    "productName": "Namelix",
+    "category": "tools",
+    "image": "https://ultimatetools.eu/wp-content/uploads/2022/09/logo-namelix.jpeg",
+    "link": "https://namelix.com/",
+    "description": "Namelix helps you create a short, catchy and brandable name for your business using artificial intelligence."
+  },
+  {
     "productName": "Studocu",
     "category": "tools",
     "image": "https://cdn6.aptoide.com/imgs/8/e/4/8e44fd32cbc8670457828df938dee546_fgraphic.png",
     "link": "https://www.studocu.com/in",
     "description": "Free study notes,summaries and exam prep."
+  },
+  {
+    "productName": "Logo AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.IUVcNkv_e4sDdvKlUDLy6gAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://www.logoai.com/",
+    "description": "LogoAI is a AI powered logo generator, which creates logos with creative and profressional design."
   },
   {
     "productName": "Bulk resize Images",
@@ -26,6 +40,13 @@
     "image": "https://th.bing.com/th/id/OIP.eLzdzhAyNEyhvHu571rxrAAAAA?rs=1&pid=ImgDetMain",
     "link": "https://lovo.ai/",
     "description": "This AI Lovo lets you generate advanced AI voices for any use case."
+  },
+  {
+    "productName": "Zapier",
+    "category": "Tool",
+    "image": "https://cdn.zapier.com/zapier/images/logos/zapier-logomark.png",
+    "link": "https://zapier.com/",
+    "description": "Zapier provides workflows that allow different web applications to be used in the same workflow. Their products focus on automating recurring tasks, such as lead management."
   },
   {
 
@@ -43,11 +64,25 @@
     "description": "World's largest technical professional organization dedicated to advancing technology for the benefit of humanity."
   },
   {
+    "productName":"Tubi Tv",
+    "category":"movies",
+    "image":"https://shorturl.at/lILGC",
+    "link":"https://tubitv.com/",
+    "description":"It is an online movie streaming platform users can view the multiple movies and web series in the platform."
+  },
+  {
     "productName": "Clarif AI",
     "category": "Tool",
     "image": "https://www.clarifai.com/hubfs/Clarifai%20Logo%20Stamp%20Blue.png",
     "link": "https://www.clarifai.com/",
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
+  },
+  {
+    "productName": "Reply IO",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.sDoNk2OfFCNTFuvecdXCVAAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://reply.io/?",
+    "description": "Reply.io is an AI-first sales engagement platform that helps SDR teams find new prospects, engage them through multiple channels, and create new opportunities at scale while keeping every touchpoint personal."
   },
   {
     "productName":"Powerdrill Ai",
@@ -85,6 +120,13 @@
     "description": "This AI helps you to edit videos using AI based on the text."
   },
   {
+    "productName": "Bubble",
+    "category": "Tool",
+    "image": "https://th.bing.com/th/id/OIP.5r5yOF5nF_uO763L7XIOwAHaFj?rs=1&pid=ImgDetMain",
+    "link": "https://bubble.io/",
+    "description": "Bubble is a full stack no-code app builder which helps people to build their own apps easily without using/learning coding and tech."
+  },
+  {
     "productName": "Image color picker",
     "category": "tools",
     "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
@@ -99,6 +141,13 @@
     "description": "Lucidchart helps you to visualize ideas, make charts, diagrams & more. Get the most powerful, professional diagram software on the market."
   },
   {
+    "productName": "AISEO",
+    "category": "tools",
+    "image": "https://webinarcare.com/wp-content/img/aiseo-ai-logo.png",
+    "link": "https://aiseo.ai/",
+    "description": "AISEO is a search engine optimization tool for making the website SEO friendly, which is powered by AI."
+  },
+  {
     "productName": "Newton School",
     "category": "tools",
     "image": "https://cdn.theorg.com/b42e95e6-f1e5-49de-ba52-d9ec80f925f2_thumb.jpg",
@@ -110,6 +159,13 @@
     "image":"https://shorturl.at/dxObb",
     "link":"https://www.primevideo.com/",
     "description":"Amazon Prime video is an movie streaming platform to view multiple videos  in offline as well as online."
+  },
+  {
+    "productName": "Spline",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.qvptQEQCaUmQ3plQnQg1KAHaEL?rs=1&pid=ImgDetMain",
+    "link": "https://spline.design/",
+    "description": "Spline is a designing tool that helps to create modern 3d websites easily."
   },
   {
     "productName": "Goose AI",

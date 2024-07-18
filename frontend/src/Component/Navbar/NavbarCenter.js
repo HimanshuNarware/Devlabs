@@ -12,6 +12,7 @@ import {
   faInfoCircle,
   faQuestionCircle,
   faStar,
+  faUser,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { Modal, Backdrop, Box } from "@mui/material";
@@ -100,6 +101,16 @@ function NavbarCenter( ) {
               </>
             }
             to="/contact"
+          />
+        </li>
+        <li className="nav-item">
+          <NavbarItem
+            description={
+              <>
+                <FontAwesomeIcon icon={faUser} /> My Profile
+              </>
+            }
+            to="/profile"
           />
         </li>
       </ul>
