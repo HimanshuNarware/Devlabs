@@ -15,6 +15,7 @@ import {
   FaFilm,
   FaTools,
   FaLaptopCode,
+  FaUser,
   FaLock,
 } from "react-icons/fa";
 import {
@@ -74,6 +75,11 @@ function Footer() {
                 <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/rateus">
                     <AiFillStar className="mr-2" /> Rate Us
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href="https://www.devlabsstore.tech/profile">
+                    <FaUser className="mr-2" /> My Profile
                   </a>
                 </li>
                 <li className="nav-item">
