@@ -12,8 +12,10 @@ import NavbarRight from "./Navbar/NavbarRight";
 import Tilt from "react-parallax-tilt";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
+import debounce from 'lodash.debounce';
 
 const BACKEND = process.env.REACT_APP_BACKEND;
+
 function Home(props) {
   const [bookmarks, setBookmark] = useState(null);
   const [localStorageValue, setLocalStorageValue] = useState(
@@ -43,7 +45,6 @@ function Home(props) {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   console.log(searchQuery);
-
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
@@ -265,20 +266,20 @@ function Home(props) {
     }
   };
 
-  const handleSearch = (query) => {
-      setSearchQuery(query);
+  const handleSearch = debounce((query) => {
+    setSearchQuery(query);
 
-      if(query === ''){
-        setSearchResults([]);
-        return;
-      }
+    if (query === '') {
+      setSearchResults([]);
+      return;
+    }
 
-      const results = jsonTools.filter((tool) => {
-        tool.name &&  tool.name.toLowerCase().includes(query.toLowerCase())
-      });
+    const results = jsonTools.filter((tool) => 
+      tool.productName && tool.productName.toLowerCase().includes(query.toLowerCase())
+    );
 
-      setSearchResults(results);
-  }
+    setSearchResults(results);
+  }, 300);
 
   return (
     <SkeletonTheme>
@@ -320,7 +321,7 @@ function Home(props) {
         <h3> Lets Get, What You seek!</h3>
         {/* <NavbarRight setSearchQuery={setSearchQuery} /> */}
         <div className="search-feilds">
-          <input  className="search-input" onChange={(e) => handleSearch(e.target.value)} type="text" placeholder='Search Tools ...' />
+          <input  className="search-input text-white" onChange={(e) => handleSearch(e.target.value)} type="text" placeholder='Search Tools ...' />
         </div>
         <br />
         {searchQuery && searchResults.length === 0 && (

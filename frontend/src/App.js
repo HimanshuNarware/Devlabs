@@ -20,6 +20,7 @@ const OpenSource = lazy(() => import("./Component/OpenSource"));
 const Review = lazy(() => import("./Component/Review"));
 const BookMark = lazy(() => import("./Component/BookMark"));
 const Contact = lazy(() => import("./Component/Contact"));
+const Profile = lazy(() => import("./Component/Profile"));
 const RemoteJobs = lazy(() => import("./pages/RemoteJobs"));
 const AI = lazy(() => import("./pages/AI"));
 const UI = lazy(() => import("./pages/UI"));
@@ -62,6 +63,7 @@ function App() {
           <Route path="/faq" element={<Faq />} />
           <Route path="/rateus" element={<Rateus />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/remote-jobs" element={<RemoteJobs />} />
           <Route path="/ai" element={<AI />} />
           <Route path="/movies-series" element={<Movie />} />

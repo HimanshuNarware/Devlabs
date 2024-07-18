@@ -1,0 +1,122 @@
+.profile__container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 60px); /* Adjust based on your header height */
+}
+
+.profile__form {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.profile__form-group {
+  margin-bottom: 20px;
+}
+
+.profile__form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.profile__form-group input,
+.profile__form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.profile__submit-btn,
+.profile__edit-btn {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.profile__submit-btn:hover,
+.profile__edit-btn:hover {
+  background-color: #f57c00;
+}
+
+.profile__avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ff9800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+
+.profile__avatar-placeholder {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.profile__name {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #70b22f;
+}
+
+.profile__bio {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.profile__info {
+  background-color: #222;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.profile__info p {
+  margin-bottom: 10px;
+}
+
+.profile__info a {
+  color: #8bc34a;
+  text-decoration: none;
+}
+
+.profile__info a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .profile__container {
+    padding: 10px;
+    min-height: calc(100vh - 50px); /* Adjust if needed */
+  }
+  
+  .profile__form,
+  .profile__info {
+    max-width: 100%;
+  }
+}
