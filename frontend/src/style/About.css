@@ -480,9 +480,10 @@
   
 }
 .about__logo{
-    width: 150px;
-    border-radius: 50%;
-    object-fit: contain;
+    width: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 300px;
 }
       .about__searchbar-contributors {
             width: 100%;
