@@ -21,7 +21,7 @@ const movies = [
     releaseDate: "2007-12-21",
   },
   {
-    title: "3 idiots",
+    title: "3 Idiots",
     category: "Comedy",
     description:
       "In college, Farhan and Raju form a great bond with Rancho due to his refreshing outlook. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive.",
@@ -56,12 +56,39 @@ const movies = [
       "https://m.economictimes.com/thumb/msid-105086975,width-1200,height-1200,resizemode-4,imgsize-83368/12th-fail.jpg",
     releaseDate: "2023-10-27",
   },
+  {
+    title: "Django Development",
+    category: 'Computer Science',
+    description:
+      "Learn how to build web applications using Django, a high-level Python web framework.",
+    image:
+      "https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png",
+    releaseDate: "2024-11-01",
+  },
+  {
+    title: "Machine Learning",
+    category: "Data Science",
+    description:
+      "Understand the basics of machine learning and how to implement algorithms using Python.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU61gHjrBj82OI2mq97amNjrhOcN4ouggl7w&s",
+    releaseDate: "2024-11-15",
+  },
+  {
+    title: "DevOps Fundamentals",
+    category: "Computer Science",
+    description:
+      "Learn the fundamentals of DevOps and how to implement a successful DevOps culture.",
+    image:
+      "https://i.pinimg.com/564x/40/56/d9/4056d91b5e4b1c81af71afec6620f9fe.jpg",
+    releaseDate: "2024-12-01",
+  },
 ];
 
 const Movie = () => {
   return (
     <div className="container">
-      <h1 className="title" style={{ marginTop: "60px" , color:'white'}}>
+      <h1 className="title" style={{ marginTop: "60px", color: "white" }}>
         Movies & Series
       </h1>
       <div className="grid-container">

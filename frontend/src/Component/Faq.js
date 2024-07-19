@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../style/faq.css";
 import {
-  Accordion,
+  Accordion, 
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,

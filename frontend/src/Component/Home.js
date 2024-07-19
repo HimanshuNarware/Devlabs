@@ -12,6 +12,7 @@ import NavbarRight from "./Navbar/NavbarRight";
 import Tilt from "react-parallax-tilt";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
+import debounce from 'lodash.debounce';
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -42,6 +43,8 @@ function Home(props) {
   const [showRemovePopup, setShowRemovePopup] = useState(false);
   const [contributors, setContributors] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  console.log(searchQuery);
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
@@ -263,6 +266,21 @@ function Home(props) {
     }
   };
 
+  const handleSearch = debounce((query) => {
+    setSearchQuery(query);
+
+    if (query === '') {
+      setSearchResults([]);
+      return;
+    }
+
+    const results = jsonTools.filter((tool) => 
+      tool.productName && tool.productName.toLowerCase().includes(query.toLowerCase())
+    );
+
+    setSearchResults(results);
+  }, 300);
+
   return (
     <SkeletonTheme>
       <div>
@@ -301,9 +319,14 @@ function Home(props) {
         </div>
         <br />
         <h3> Lets Get, What You seek!</h3>
-        <NavbarRight setSearchQuery={setSearchQuery} />
+        {/* <NavbarRight setSearchQuery={setSearchQuery} /> */}
+        <div className="search-feilds">
+          <input  className="search-input text-white" onChange={(e) => handleSearch(e.target.value)} type="text" placeholder='Search Tools ...' />
+        </div>
         <br />
-
+        {searchQuery && searchResults.length === 0 && (
+          <div className="no-results">No matching tools found.</div>
+        )}
         {!loading && currentPost.length === 0 && (
           <div
             className="empty-state"
@@ -376,6 +399,10 @@ function Home(props) {
 
             {!loading &&
               filteredItems
+              .filter((item) => {
+                return searchQuery.toLowerCase() === '' ? item : item.productName.toLowerCase()
+                  .includes(searchQuery)
+              })
                 .slice(firstPostIndex, lastPostIndex)
                 .map((datalist) => {
                   return (
@@ -478,7 +505,7 @@ function Home(props) {
                   </a>
                 </li>
               </div>
-            </ul>
+             </ul>
           </div>
         </div>
       </div>
