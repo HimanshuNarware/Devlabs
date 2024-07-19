@@ -65,8 +65,7 @@ const tools = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlmtotrVt2BjQahYJDB7aGV1G6JgAR3m0KA&s"
 
 },
-
-
+  {
     name: "FireBase",
     description: "Firebase is a set of backend cloud computing services and application development platforms provided by Google.",
     link: "https://firebase.google.com/",

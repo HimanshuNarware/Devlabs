@@ -3896,6 +3896,13 @@
     "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
   },
   {
+    "productName": "CNCF",
+    "category": "tools",
+    "image": "https://www.cncf.io/wp-content/uploads/2023/04/cncf-main-site-logo.svg",
+    "link": "https://www.cncf.io/",
+    "description": "CNCF is a vendor-neutral hub for cloud native computing, hosting projects like Kubernetes and Prometheus."
+  },
+  {
     "productName": "Binged",
     "category": "movies",
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Binge_logo.png",
