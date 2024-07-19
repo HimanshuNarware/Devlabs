@@ -82,6 +82,14 @@ const products = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0WrVDo0kToN6N-lkYy1ouoOzmxjex4Y5PA&s",
     releaseDate: "2024-12-01",
   },
+  {
+    title: "Microsoft Power Automate",
+    category: "Productivity Tool",
+    description: "Microsoft Power Automate is a cloud-based service that allows users to automate repetitive tasks and workflows between apps and services.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbPBjI73ssv9KbTW4NrIMubObeHOLyOKOQhg&s",
+    releaseDate: "2016-04-05"
+}
+
 ];
 
 const Productivity = () => {
