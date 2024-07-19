@@ -91,6 +91,13 @@ const movies = [
       "https://i.pinimg.com/564x/17/06/c9/1706c9f16bd08eb5e03f1df3e0a94a1c.jpg",
     releaseDate: "2016-9-27",
   },
+  {
+    title: "Basecamp",
+    category: "Project Management",
+    description: "Basecamp is a project management and team collaboration software. It is best for organizing projects, tracking progress, and facilitating team communication in a straightforward and user-friendly platform.",
+    image: "https://pbs.twimg.com/profile_images/1671513829522432003/BwPEpDI0_400x400.jpg",
+    releaseDate: "2004-2-5"
+  }
 
 ];
 const Collaboration = () => {
