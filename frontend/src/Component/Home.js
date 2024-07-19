@@ -12,6 +12,7 @@ import NavbarRight from "./Navbar/NavbarRight";
 import Tilt from "react-parallax-tilt";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
+import debounce from 'lodash.debounce';
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -44,7 +45,6 @@ function Home(props) {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   console.log(searchQuery);
-
 
   const currentPost1 = dataBaseData;
   let allvalue = [];
@@ -266,20 +266,20 @@ function Home(props) {
     }
   };
 
-  const handleSearch = (query) => {
-      setSearchQuery(query);
+  const handleSearch = debounce((query) => {
+    setSearchQuery(query);
 
-      if(query === ''){
-        setSearchResults([]);
-        return;
-      }
+    if (query === '') {
+      setSearchResults([]);
+      return;
+    }
 
-      const results = jsonTools.filter((tool) => {
-        tool.name &&  tool.name.toLowerCase().includes(query.toLowerCase())
-      });
+    const results = jsonTools.filter((tool) => 
+      tool.productName && tool.productName.toLowerCase().includes(query.toLowerCase())
+    );
 
-      setSearchResults(results);
-  }
+    setSearchResults(results);
+  }, 300);
 
   return (
     <SkeletonTheme>
@@ -321,7 +321,7 @@ function Home(props) {
         <h3> Lets Get, What You seek!</h3>
         {/* <NavbarRight setSearchQuery={setSearchQuery} /> */}
         <div className="search-feilds">
-          <input  className="search-input" onChange={(e) => handleSearch(e.target.value)} type="text" placeholder='Search Tools ...' />
+          <input  className="search-input text-white" onChange={(e) => handleSearch(e.target.value)} type="text" placeholder='Search Tools ...' />
         </div>
         <br />
         {searchQuery && searchResults.length === 0 && (
@@ -330,18 +330,10 @@ function Home(props) {
         {!loading && currentPost.length === 0 && (
           <div
             className="empty-state"
-            style={{
-              width: "100%",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
           >
             <img
               src="https://i.pinimg.com/originals/5d/35/e3/5d35e39988e3a183bdc3a9d2570d20a9.gif"
-              height={400}
-              width={400}
+              className="home-img"
               alt="no post"
             />
             <p>No posts found.</p>
@@ -365,74 +357,38 @@ function Home(props) {
           <div className={loading ? "loading-container" : "main-container"}>
             {loading && (
               <div
-                style={{
-                  display: "flex",
-                  gap: "100px",
-                  width: "100vw",
-                  height: "300px",
-                  justifyContent: "center",
-                }}
+                className="home-loading"
               >
                 <div
-                  style={{
-                    width: "250px",
-                    height: "300px",
-                    border: "gray solid 2px",
-                    borderRadius: "20px",
-                    padding: "40px",
-                  }}
+                  className="home-loading-container"
                 >
                   <Skeleton circle={"true"} height={90} width={90} />
                   <Skeleton width={130} />
                   <Skeleton count={5} />
                 </div>
                 <div
-                  style={{
-                    width: "250px",
-                    height: "300px",
-                    border: "gray solid 2px",
-                    borderRadius: "20px",
-                    padding: "40px",
-                  }}
+                 className="home-loading-container"
                 >
                   <Skeleton circle={"true"} height={90} width={90} />
                   <Skeleton width={130} />
                   <Skeleton count={5} />
                 </div>
                 <div
-                  style={{
-                    width: "250px",
-                    height: "300px",
-                    border: "gray solid 2px",
-                    borderRadius: "20px",
-                    padding: "40px",
-                  }}
+                 className="home-loading-container"
                 >
                   <Skeleton circle={"true"} height={90} width={90} />
                   <Skeleton width={130} />
                   <Skeleton count={5} />
                 </div>
                 <div
-                  style={{
-                    width: "250px",
-                    height: "300px",
-                    border: "gray solid 2px",
-                    borderRadius: "20px",
-                    padding: "40px",
-                  }}
+                  className="home-loading-container"
                 >
                   <Skeleton circle={"true"} height={90} width={90} />
                   <Skeleton width={130} />
                   <Skeleton count={5} />
                 </div>
                 <div
-                  style={{
-                    width: "250px",
-                    height: "300px",
-                    border: "gray solid 2px",
-                    borderRadius: "20px",
-                    padding: "40px",
-                  }}
+                  className="home-loading-container"
                 >
                   <Skeleton circle={"true"} height={90} width={90} />
                   <Skeleton width={130} />

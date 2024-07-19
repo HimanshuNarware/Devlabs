@@ -1,9 +1,11 @@
 .faq {
   margin-top: 7rem;
   margin-bottom: 1rem;
-  width: 380px; /* Default width for small screens */
-  margin-left: auto;
-  margin-right: auto;
+
+  /* width: 380px; */
+   /* Default width for small screens */
+  margin-left: 300px;
+  margin-right: 300px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   display: flex;
@@ -11,21 +13,28 @@
   justify-content: space-between;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) { 
   .faq {
-    width: 520px; /* Width for medium screens */
+    /* width: 520px;  */
+    /* Width for medium screens */
   }
 }
 
 @media (min-width: 1024px) {
   .faq {
-    width: 720px; /* Width for large screens */
+    /* width: 720px; */
+     /* Width for large screens */
   }
+}
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
 
 .faq__content {
   padding: 1.5rem;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   gap: 2rem; /* Only for the vertical gap (use row-gap in addition if needed) */
   justify-content: center;
@@ -33,8 +42,56 @@
   border-radius: 0.375rem;
   flex-wrap: wrap;
   margin-top: 46px;
-  border: 1px solid #D1D5DB;
+  width: 50%;
+  width: auto;
 }
+.faq__content {
+  position: relative;
+  padding: 1rem;
+  border-radius: 3px;
+  background: white; /* Ensure the background color is set */
+  z-index: 1; /* Ensure content is above pseudo-elements */
+}
+
+.faq__content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    #8734ed,
+    #b98ded,
+    #bfb9cb,
+    #b98ded,
+    #8632ec
+  );
+  border-radius: inherit;
+  padding: 1.4rem; /* Adjust as needed for border thickness */
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: moving 3s linear infinite;
+
+}
+
+@keyframes moving {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+
 
 .faq__content > * {
   margin-bottom: 2rem; /* Add this if vertical gap isn't applied correctly */
@@ -46,10 +103,15 @@
   justify-content: center;
   align-items: flex-start;
   gap: 0.5rem;
+  text-align: center;
 }
 
 .faq__header-text {
   color: #A855F7;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
 }
 
 .faq__header-text-white {
@@ -67,7 +129,7 @@
 
 .faq__mt-8 {
   margin-top: 2rem; 
-  width: 100%;
+  /* width: 100%; */
 }
 
 .faq__border-2 {
@@ -92,7 +154,7 @@
 
 .faq__accordion-item {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.75rem; /* Adjust gap as needed */
@@ -101,8 +163,8 @@
 .faq__accordion-button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
+  justify-content:center;
+  /* width: 100%; */
   padding-top: 0.5rem; /* Adjust padding as needed */
   padding-bottom: 0.5rem; /* Adjust padding as needed */
   padding-left: 2rem; /* Adjust padding as needed */
@@ -122,6 +184,9 @@
 .faq__accordion-text {
   color: #fff; /* Adjust text color as needed */
   font-size: 0.875rem; /* Adjust font size for the default (xs) */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 768px) {
@@ -132,12 +197,14 @@
 
 .faq__accordion-container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-wrap: wrap;
   padding: 0.5rem; /* Adjust padding as needed */
   background-color: #2D3748; /* Adjust background color as needed */
-  border-radius: 0.375rem; /* Adjust border radius as needed */
+  border-radius: 0.375rem; /* Adjust border
+   radius as needed */
+  text-align:left;
 }
 
 .faq__accordion-detail {

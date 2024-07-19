@@ -1,19 +1,20 @@
 .Footer {
+
   padding: 2rem 0;
   margin-top: 15rem;
-  background: #8b5cf6;
+  background: #6a43c3;
   color: white;
 }
-
+/* #8b5cf6; */
 .ft-1 h3 {
   margin-top: 28px;
   text-align: center;
-  color: blue;
+  color: rgb(217, 179, 255);
   font-weight:600;
 }
 
 .ft-1 button {
-  color: #000;
+  color: rgb(217, 179, 255);
   width: 200px;
   height: 50px;
   font-size: 1.1rem;
@@ -33,7 +34,7 @@
 .ft-1 button:hover {
   background: transparent;
   cursor: pointer;
-  background-color: #8b5cf6;
+  background-color: rgb(217, 179, 255);
   border: 2px solid #000;
   color: #000;
   box-shadow: 2px 2px 1px #000;
@@ -111,7 +112,7 @@ footer {
 }
 
 .ft-2 h3{
-  color: blue;
+  color: rgb(217, 179, 255);;
   font-weight: 600;
   text-align: start;
 }
@@ -149,7 +150,7 @@ footer {
 }
 
 .Last-footer {
-  background: #8b5cf6;
+  background: #6a43c3;;
   border: 1px solid white;
   text-align: center;
   padding: 1rem 0;
@@ -161,8 +162,67 @@ footer {
   margin-right: 22rem;
 }
 
-.footer-icons {
-  margin-left: 20.14rem;
+.footer-icon a {
+  display: inline-block;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #ee00ff;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgb(6, 40, 231);
+}
+
+.footer-icon a:hover {
+  background-color: #f0550c;
+  transform: scale(1.2) translateY(-5px);
+  box-shadow: 5 8px 15px rgb(28, 246, 3);
+}
+
+.footer-icon a:hover .fa-linkedin,
+.footer-icon a:hover .fa-twitter,
+.footer-icon a:hover .fa-envelope,
+.footer-icon a:hover .fa-github {
+  animation: icon-bounce 0.9s ease infinite;
+}
+
+@keyframes icon-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  75%{
+    transform:translateY(-5px);
+  }
+}
+
+.footer-icon a .fa-linkedin,
+.footer-icon a .fa-twitter,
+.footer-icon a .fa-envelope,
+.footer-icon a .fa-github {
+  transition: color 0.5s ease;
+}
+
+.footer-icon a:hover .fa-linkedin {
+  color: #0077b5;
+  background-color: #0077b5;
+}
+
+.footer-icon a:hover .fa-twitter {
+  color: #1da1f2;
+  background-color: #1da1f2;
+}
+
+.footer-icon a:hover .fa-envelope {
+  color: #ea4335;
+  background-color: #ea4335;
+}
+
+.footer-icon a:hover .fa-github {
+  color: #333;
+  background-color: #333;
 }
 
 .Last-footer i {
@@ -237,4 +297,112 @@ footer {
   font-size: 25px;
   font-weight: 700;
   text-decoration: underline;
+}
+.icons {
+  background: transparent;
+  top: 0px;
+  color: blue;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.279);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.icons a::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  top: -30px;
+  left: 0;
+  background: linear-gradient(
+    40deg,
+    rgb(246, 126, 28),
+    rgb(221, 54, 54),
+    rgb(250, 41, 118),
+    rgb(214, 18, 214)
+  );
+  position: absolute;
+  transition: 0.5s;
+  
+}
+.outerD{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons a .fab {
+  font-size: 27px;
+  z-index: 1;
+  position: absolute;
+  color: white;
+  z-index: 0;
+}
+.icons a:hover::after {
+  top: 0;
+}
+
+.icons:nth-child(1) a::after {
+  background: linear-gradient(
+    40deg,
+    rgb(246, 126, 28),
+    rgb(221, 54, 54),
+    rgb(250, 41, 118),
+    rgb(214, 18, 214)
+  );
+}
+
+.icons:nth-child(2) a::after {
+  background: linear-gradient(40deg, #96d4fb, #1da1f2);
+}
+.icons:nth-child(4) a::after {
+  background: linear-gradient(40deg, rgb(4, 51, 98), rgb(10, 102, 194));
+}
+
+.icons:nth-child(5) a::after {
+  background: linear-gradient(
+    40deg,
+    rgb(0, 255, 255),
+    rgb(0, 191, 255),
+    rgb(0, 128, 255),
+    rgb(0, 64, 255)
+  );
+}
+.icons:nth-child(3) a::after {
+  background: red;
+}
+
+.f01 {
+  position: absolute;
+  bottom: 0;
+}
+
+.ico {
+ 
+  position: absolute;
+  font-size: 21px;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  color: white; /* Remove font-size property from here */
+}
+
+.head{
+  @apply xs:text-[12px]; /* Remove font-size property from here */
+}
+
+.sec2 ul h2{
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  color:#e5e1e1
+}
+.sec2 ul li{
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+
 }
