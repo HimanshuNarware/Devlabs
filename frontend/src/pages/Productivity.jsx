@@ -82,6 +82,14 @@ const products = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0WrVDo0kToN6N-lkYy1ouoOzmxjex4Y5PA&s",
     releaseDate: "2024-12-01",
   },
+  {
+    title: "IFTTT",
+    category: "Productivity Tool",
+    description: "IFTTT (If This Then That) is a web-based service that allows users to create automation workflows by connecting different apps and services.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3HWa196pV6IBx5mj9JCF4oJUlI_C53i3wlg&s",
+    releaseDate: "2010-12-07"
+}
+
 ];
 
 const Productivity = () => {
