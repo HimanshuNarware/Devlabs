@@ -91,6 +91,13 @@ const movies = [
       "https://i.pinimg.com/564x/17/06/c9/1706c9f16bd08eb5e03f1df3e0a94a1c.jpg",
     releaseDate: "2016-9-27",
   },
+  {
+    title: "Notion",
+    category: "Collaboration Tools",
+    description: "Notion is an all-in-one workspace for note-taking, project management, and collaboration. It is best for organizing tasks, managing projects, and creating databases in a user-friendly and flexible interface.",
+    image: "https://i.pcmag.com/imagery/reviews/05FBstbqla0pEWrlFLTw4ML-17.fit_lim.size_1050x591.v1704906459.png",
+    releaseDate: "2018-6-1"
+  },
 
 ];
 const Collaboration = () => {
