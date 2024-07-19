@@ -58,6 +58,14 @@ const extensions = [
     image: "https://freeappsai.com/wp-content/uploads/2024/03/Copilot.jpg",
     developer: "GitHub",
   },
+  {
+    title: "Angular Snippet for TypeScript",
+    category: "Development",
+    description: "This extension for Visual Studio Code adds snippets for Angular for TypeScript and HTML.",
+    version: "18.0.2",
+    image: "https://johnpapa.gallerycdn.vsassets.io/extensions/johnpapa/angular2/18.0.2/1721073446931/Microsoft.VisualStudio.Services.Icons.Default",
+    developer: "John Papa",
+  },
 ];
 
 const Extensions = () => (
