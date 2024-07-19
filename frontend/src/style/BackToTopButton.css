@@ -3,6 +3,7 @@
     bottom: 80px;
     right: 20px;
     z-index: 10;
+    display: none;
     background-color: #00c68a;
     color: white;
     border: 2px solid #93FFD8;
@@ -21,9 +22,14 @@
 }
 .back-to-top-button.visible {
     display: block;
+    opacity: 1;
+    transform: translateY(0);
 }
 
-
+.back-to-top-button:not(.visible) {
+    opacity: 0;
+    transform: translateY(20px);
+}
 .back-to-top-button:hover{
     background-color: rgba(17, 99, 76, 0.856);
     transform: scale(1.1);
