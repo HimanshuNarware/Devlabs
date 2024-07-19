@@ -91,6 +91,13 @@ const movies = [
       "https://i.pinimg.com/564x/17/06/c9/1706c9f16bd08eb5e03f1df3e0a94a1c.jpg",
     releaseDate: "2016-9-27",
   },
+  {
+    title: "Google Meet",
+    category: "Video Conferencing",
+    description: "Google Meet is a video conferencing tool that offers high-quality video meetings for businesses and individuals. It is best for seamless integration with Google Workspace, allowing easy scheduling, screen sharing, and collaboration in real-time.",
+    image: "https://i.pcmag.com/imagery/reviews/02y6SQ4hhnWGi8zjE2FlYqi-8.fit_scale.size_760x427.v1615070874.jpg",
+    releaseDate: "2017-3-9"
+  },  
 
 ];
 const Collaboration = () => {
