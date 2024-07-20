@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import { RxCross2 } from "react-icons/rx";
 import "../../style/Navbar.css";
+
 function NavbarRight({ setSearchQuery }) {
   const [searchQuery, setLocalSearchQuery] = useState(""); // Local state to manage search query
 
