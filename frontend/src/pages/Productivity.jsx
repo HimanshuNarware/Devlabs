@@ -82,6 +82,14 @@ const products = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0WrVDo0kToN6N-lkYy1ouoOzmxjex4Y5PA&s",
     releaseDate: "2024-12-01",
   },
+  {
+    title: "Calendly",
+    category: "Productivity Tool",
+    description: "Calendly is an online scheduling tool that simplifies the process of booking meetings by automatically coordinating availability between users.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLgDChsB6hsJMeq_hHSGK24FB_OvgYLV2l5A&s",
+    releaseDate: "2013-06-06"
+}
+
 ];
 
 const Productivity = () => {
