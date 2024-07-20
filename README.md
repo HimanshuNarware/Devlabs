@@ -1,18 +1,35 @@
 <div align="center">
   <h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="50" height="50" /> DevLabs</h1>
-  <p>Welcome to DevLabs, a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On DevLaps, you can discover a collection of free tools that can assist you in various aspects of your life. Moreover, you have the opportunity to contribute to this project by adding more tools to the database.</p>
+  <p>Welcome to DevLabs, a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On DevLabs, you can discover a collection of free tools that can assist you in various aspects of your life. Moreover, you have the opportunity to contribute to this project by adding more tools to the database.</p>
   <p>Check out the live project at <a href="https://DevLabs-one.vercel.app">DevLabs</a></p>
-  <img src="https://github.com/HimanshuNarware/Devlabs/assets/83147410/a508cf73-6724-46d3-a66d-6b9a7811bfdd" alt="DevLaps" />
+  <img src="https://github.com/HimanshuNarware/Devlabs/assets/83147410/a508cf73-6724-46d3-a66d-6b9a7811bfdd" alt="DevLabs" />
 </div>
 
 ---
 
+## 🏆 Featured in:
+
+<table>
+    <tr>
+      <th>Event Logo</th>
+      <th>Event Name</th>
+      <th>Event Description</th>
+    </tr>
+    <tr>
+        <td><img src="https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only" width="200" height="auto" loading="lazy" alt="GSSoC 24"/></td>
+        <td>GirlScript Summer of Code 2024</td>
+        <td>GirlScript Summer of Code is a three-month-long Open Source Program conducted every summer by GirlScript Foundation. It is an initiative to bring more beginners to Open-Source Software Development. 
+    </tr>
+</table>
+
 ## 🌟 Our Mission
+
 Our website provides a platform for contributors from all over the world to share their ideas in the form of helpful websites that are free to use. It helps us save a ton of time by allowing us to access a list of all the websites in one location. Whether it be a tool or an educational platform, we may discover any type of website here. This makes it a platform for sharing knowledge!
 
 ---
 
 ## 💻 Tech Stack
+
 <!-- JavaScript -->
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript logo">
 
@@ -28,9 +45,18 @@ Our website provides a platform for contributors from all over the world to shar
 ---
 
 ## 🚀 Quick Start
+
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
 
 ---
+
+<!-- Code of conduct -->
+<div>
+<h2><img src = "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="35" height="35"> Code of Conduct</h2>
+</div>
+
+Please note that this project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
 
 ## 📦 Installation
 
@@ -68,7 +94,6 @@ All the environment variables for react must be prefixed with `REACT_APP_`.
 REACT_APP_BACKEND=<url of the backend>
 ```
 
-
 ### 5. Run Docker Compose
 
 ```bash
@@ -78,7 +103,6 @@ docker-compose up --build
 You have to use build for the first time only then you can use `docker-compose up`
 
 Now follow all the steps from point 6 of without docker to contribute to the project.
-
 
 ### Without Docker
 
@@ -131,7 +155,8 @@ git checkout -b YourBranchName
 ### 7. Make Your Changes to the Source Code
 
 To add a new tool:
-   > Go to **src > DB > `product.json`** & add your code
+
+> Go to **src > DB > `product.json`** & add your code
 
 ```bash
 {
@@ -142,11 +167,11 @@ To add a new tool:
     description: "< Description of product >"
 },
 ```
-  - Ensure that your URLs are short. It is recommended to use bitly for URL shortening.
-  - Descriptions should not exceed 10-12 words.
 
+- Ensure that your URLs are short. It is recommended to use bitly for URL shortening.
+- Descriptions should not exceed 10-12 words.
 
-### 8.  Stage Your Changes
+### 8. Stage Your Changes
 
 ⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
 
@@ -173,7 +198,15 @@ git push origin YourBranchName
 ```
 
 ### 11. Create a Pull Request
+
 Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+
+<div>
+  <h2><img src="https://github.com/Meetjain1/wanderlust/assets/133582566/90f3930e-5a12-4a4e-8ac9-0dc7d5396adb" width="35" height="35">Are Ready to Contribute?</h2>
+</div>
+
+If you would like to contribute to the project then kindly go through [Contributing Guidelines](CONTRIBUTING.md) to understand everything from setup to necessary instructions.
+
 
 <div align="center">
   <h2>Let's Collaborate and Make DevLabs Even Better! 💻🌟</h2>
@@ -182,47 +215,52 @@ Create a [Pull Request](https://help.github.com/en/github/collaborating-with-iss
 ### ✨ Features
 
 1. User Authentication:
-Secure user registration and login using JWT.
-OAuth integration for social logins (Google, Facebook).
+   Secure user registration and login using JWT.
+   OAuth integration for social logins (Google, Facebook).
 
 2. User Profiles:
-Customizable user profiles.
-Profile picture upload and bio section.
+   Customizable user profiles.
+   Profile picture upload and bio section.
 
 3. Tool Rating & Reviews
-Users can rate and review tools.
-Aggregate ratings for each tool displayed.
+   Users can rate and review tools.
+   Aggregate ratings for each tool displayed.
 
 4. Favorites & Bookmarking
-Users can bookmark their favorite tools.
-Quick access to bookmarked tools from the profile.
+   Users can bookmark their favorite tools.
+   Quick access to bookmarked tools from the profile.
 
 5. Tool Categories & Tags
-Tools categorized for easy browsing.
-Tagging system for quick filtering and searching.
+   Tools categorized for easy browsing.
+   Tagging system for quick filtering and searching.
 
 6. Advanced Search
-Search tools by name, category, or tags.
-Filter results by ratings and reviews.
+   Search tools by name, category, or tags.
+   Filter results by ratings and reviews.
 
 7. Responsive Design
-Fully responsive design for mobile, tablet, and desktop.
+   Fully responsive design for mobile, tablet, and desktop.
 
 8. Notifications
-Email notifications for new tools, reviews, and updates.
+   Email notifications for new tools, reviews, and updates.
 
 9. Admin Dashboard
-Manage users, tools, and reviews.
-Analytics on tool usage and user engagement.
+   Manage users, tools, and reviews.
+   Analytics on tool usage and user engagement.
 
 10. Documentation
-Comprehensive documentation for developers.
-API documentation for integrating with other platforms.
+    Comprehensive documentation for developers.
+    API documentation for integrating with other platforms.
+
+### 📚 Learn
+To know more about project, please go through [Learn](learn.md)
 
 ### 🌍 Community
+
 ### 🏆 Contributors
+
 Recognize the individuals who have contributed to the project. You can use tools like All Contributors to automatically generate a list of contributors.
-``` bash
+
+```bash
 npx all-contributors-cli add <username> <contribution>
 ```
-
