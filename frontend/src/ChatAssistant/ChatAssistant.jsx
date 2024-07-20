@@ -19,7 +19,7 @@ const ChatAssistant = () => {
 
   return (
     <div className='chatbot'>
-      <span className={`tooltiptext ${isOpen ? 'hidden' : ''}`}>Chat boat</span>
+      <span className={`tooltiptext ${isOpen ? 'hidden' : ''}`}>Chat bot</span>
       <img
         className={`Logo ${isOpen ? 'hidden' : ''}`}
         src={chatbotLogo}

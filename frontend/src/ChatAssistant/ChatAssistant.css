@@ -231,8 +231,10 @@
   top: 0;
   left: 2em;
   transform: transLateX(-50%);
-  background-color:rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+
+  background-color:rgb(224, 192, 247);
+  color: rgb(129, 2, 157);
+
   white-space: nowrap;
   padding: 5px 10px;
   border-radius: 7px;
