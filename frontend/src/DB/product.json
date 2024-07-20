@@ -4072,5 +4072,12 @@
     "image": "https://yt3.googleusercontent.com/ytc/AIdro_l3GggKOWViCBpDs9APIsK6MHB2Mu-ECo5dUEU-Vay2gg=s900-c-k-c0x00ffffff-no-rj",
     "link": "https://www.khanacademy.org/",
     "description": "Khan Academy offers free online courses, lessons, and practice in a variety of subjects including math, science, computer programming, history, art history, economics, and more. Their mission is to provide a free, world-class education for anyone, anywhere."
+  }  ,
+  {
+    "productName": "InterviewCake",
+    "category": "coding",
+    "image": "https://assets-global.website-files.com/62e051559bac913234470995/63da686f8720100e177b4f40_Interview%20Cake%20main.webp",
+    "link": "https://www.interviewcake.com/",
+    "description": "It is a Platform focused on coding interview preparation with challenges and solutions."
   }  
 ]
