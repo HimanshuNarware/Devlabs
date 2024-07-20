@@ -49,6 +49,13 @@
     "description": "Zapier provides workflows that allow different web applications to be used in the same workflow. Their products focus on automating recurring tasks, such as lead management."
   },
   {
+    "productName": "UXPin",
+    "category": "Tool",
+    "image": "https://designshack.net/wp-content/uploads/uxpin-1.png",
+    "link": "https://www.uxpin.com/",
+    "description": "UXPin lets you design UI with code-backed components and export production-ready code. You can also use AI Component Creator with ChatGPT to generate layouts ,forms and more."
+  },
+  {
 
     "productName": "Synthesia",
     "category": "tools",
