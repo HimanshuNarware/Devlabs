@@ -4,13 +4,19 @@ import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 function BackToTopButton() {
     const [isVisible, setIsVisible] = useState(false);
+    const [scrollProgress, setScrollProgress] = useState(0);
 
     useEffect(() => {
         const handleScroll = () => {
             const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
             const scrollOffset = documentHeight * 0.5;
+            const scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+            const calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollPercent = Math.round((scrollTop * 100) / calcHeight);
 
-            if (window.scrollY > scrollOffset) {
+            setScrollProgress(scrollPercent);
+
+            if (scrollTop > scrollOffset) {
                 setIsVisible(true);
             } else {
                 setIsVisible(false);
@@ -18,8 +24,11 @@ function BackToTopButton() {
         };
 
         window.addEventListener('scroll', handleScroll);
+        window.addEventListener('load', handleScroll); // Initial check when the page loads
+
         return () => {
             window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('load', handleScroll);
         };
     }, []);
 
@@ -33,19 +42,23 @@ function BackToTopButton() {
     const iconStyle = {
         width: '2.5rem',
         height: '2.5rem',
-        filter: 'brightness(0) invert(1)',
+        color: 'black', // Ensure the icon is black
+    };
+
+    const buttonStyle = {
+        display: isVisible ? 'block' : 'none',
+        background: `conic-gradient(#fae9d9 ${scrollProgress}%, #95bc3c ${scrollProgress}%)`,
     };
 
     return (
-        <a href='#hero'>
-            <button
-                onClick={scrollToTop}
-                className={`back-to-top-button ${isVisible ? 'visible' : ''}`}
-            >
-                <MdKeyboardDoubleArrowUp style={iconStyle} />
-                <span className='tooltiptext'>Go top page</span>
-            </button>
-        </a>
+        <button
+            onClick={scrollToTop}
+            className={`back-to-top-button ${isVisible ? 'visible' : ''}`}
+            style={buttonStyle}
+        >
+            <MdKeyboardDoubleArrowUp style={iconStyle} />
+            <span className='tooltiptext'>Go top page</span>
+        </button>
     );
 }
 
