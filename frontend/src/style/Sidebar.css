@@ -1,6 +1,6 @@
 :root {
-  --sidebar-bg-light: #74a309;
-  --sidebar-bg-dark: #8b5cf6;
+  --sidebar-bg-light: #8b5cf6;
+  --sidebar-bg-dark: #74a309;
   --sidebar-text-light: white;
   --sidebar-text-dark: white;
   --sidebar-hover-light: #fff700;
@@ -31,7 +31,6 @@
   }
 }
 
-/* Neon Light Effect */
 .sidebar {
   background-color: var(--sidebar-bg);
 
@@ -109,7 +108,6 @@
                0 0 40px var(--bubble-hover);
 }
 
-/* Additional styles to ensure proper alignment and visuals */
 .sidebar-btn {
   margin: 5px 0;
 }

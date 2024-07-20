@@ -16,27 +16,20 @@
   padding-left: 30px;
 }
 
-.search-bar {
-  display: flex;
-  align-items: center;
-  position: relative;
-  top: -10px; /* Adjust the value as needed */
-}
 .navbar-content li {
-  flex-grow: 1; /* Make the navbar items stretch to fill the width */
-  margin: 0 5px; /* Add margin to create space between nav items */
+  flex-grow: 4; /* Make the navbar items stretch to fill the width */
+  margin: 0 15px; /* Add margin to create space between nav items */
   font-size: 1.3rem;
   text-decoration: none; /* Ensures no underline */
 }
 
 
 .navbar-content .nav-item {
-  flex-grow: 1; /* Allow items to stretch */
+  flex-grow: 4; /* Allow items to stretch */
   text-align: center;
   text-decoration: none; /* Ensures no underline */
   margin: 0 10px; /* Add space between items */
 }
-
 
 .logo-img {
   width: 150px;
@@ -79,19 +72,12 @@
   transition: transform 0.3s, filter 0.3s, box-shadow 0.3s; /* Add box-shadow to transition */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0); /* Initially no shadow */
 } 
-@media (max-width: 580px) {
-  .search-bar {
-    display: none; /* Hide the search bar on small screens */
-  }
-}
 
 .nav-item:hover {
   transform: scale(1.05); /* Scale up slightly on hover */
   filter: brightness(1.2); /* Brighten on hover for shine effect */
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Add glowing effect */
 }
-
-
 
 .navbar-left {
   display: flex;
@@ -100,7 +86,6 @@
   gap: 10px;
   animation: slideLeft 1s ease forwards;
 }
-
 
 .navbar-left #nav-icon1 {
   width: 30px;
@@ -173,7 +158,6 @@
   display: flex;
   align-items: center;
   animation: slideRight 1s ease forwards;
-  /* margin-right: 115px; */
 }
 
 .logo-img {
