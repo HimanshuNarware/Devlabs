@@ -59,6 +59,14 @@ const extensions = [
     developer: "GitHub",
   },
   {
+    title: "Angular Snippet for TypeScript",
+    category: "Development",
+    description: "Get SEO insights at the click of a button to any website you're currently on. Built by full-time SEO's for daily analysis",
+    version: "2.2.3",
+    image: "https://lh3.googleusercontent.com/oFVSn32RiYmiXqaAFCzhAnNh70kCeFtP_vRCUXq54kC6tMjxn2nbLT05mztIb6RqL9xfPP2FCmfStYRsaYjdu9RKjjI=s60",
+    developer: "Marketing, Inc.",
+  },
+  {
     title: "Proofhub",
     category: "Development",
     description: "ProofHub is an easy-to-use project management software with everything you need to manage teams, work, and projects from a central location.",
