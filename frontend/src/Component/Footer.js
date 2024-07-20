@@ -29,7 +29,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="overflow-x-hidden">
       <div className="Footer">
         <div className="container">
           <div className="row">
