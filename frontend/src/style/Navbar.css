@@ -78,6 +78,11 @@
   color: #fff;
   transition: transform 0.3s, filter 0.3s, box-shadow 0.3s; /* Add box-shadow to transition */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0); /* Initially no shadow */
+} 
+@media (max-width: 580px) {
+  .search-bar {
+    display: none; /* Hide the search bar on small screens */
+  }
 }
 
 .nav-item:hover {

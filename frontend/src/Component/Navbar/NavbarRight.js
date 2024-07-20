@@ -61,4 +61,6 @@ function NavbarRight({ setSearchQuery }) {
   );
 }
 
+
+
 export default NavbarRight;

@@ -4,7 +4,6 @@ import Sidebar from "../Sidebar/Sidebar";
 import NavbarLeft from "./NavbarLeft";
 import NavbarCenter from "./NavbarCenter";
 import NavbarRight from "./NavbarRight";
-
 function Navbar(props) {
   const [showSideNav, setShowSideNav] = useState(false);
   
