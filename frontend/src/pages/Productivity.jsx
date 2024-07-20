@@ -88,6 +88,20 @@ const products = [
     description: "Microsoft Power Automate is a cloud-based service that allows users to automate repetitive tasks and workflows between apps and services.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbPBjI73ssv9KbTW4NrIMubObeHOLyOKOQhg&s",
     releaseDate: "2016-04-05"
+  },
+  {
+    title: "IFTTT",
+    category: "Productivity Tool",
+    description: "IFTTT (If This Then That) is a web-based service that allows users to create automation workflows by connecting different apps and services.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3HWa196pV6IBx5mj9JCF4oJUlI_C53i3wlg&s",
+    releaseDate: "2010-12-07"
+  },
+  {
+    title: "Calendly",
+    category: "Productivity Tool",
+    description: "Calendly is an online scheduling tool that simplifies the process of booking meetings by automatically coordinating availability between users.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLgDChsB6hsJMeq_hHSGK24FB_OvgYLV2l5A&s",
+    releaseDate: "2013-06-06"
 }
 
 ];
