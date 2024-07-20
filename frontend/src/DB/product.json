@@ -3919,5 +3919,12 @@
     "image": "https://www.logodesignlove.com/wp-content/uploads/2012/08/microsoft-logo-02.jpeg",
     "link": "https://learn.microsoft.com/en-us/training/",
     "description": "Whether you are just starting in a career, or you are an experienced professional, our self-directed approach helps you arrive at your goals faster, with more confidence and at your own pace. Develop skills through interactive modules and paths or learn from an instructor. Learn and grow your way."
+   },
+   {
+    "productName": "ACM",
+    "category": "tools",
+    "image": "https://avatars.githubusercontent.com/u/65459277?s=200&v=4",
+    "link": "https://www.acm.org/",
+    "description": "ACM provides a platform for computing professionals, researchers, educators, and students to exchange ideas and information related to computer science and information technology."
    }
 ]
