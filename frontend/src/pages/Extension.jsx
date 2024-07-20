@@ -66,6 +66,14 @@ const extensions = [
     image: "https://lh3.googleusercontent.com/oFVSn32RiYmiXqaAFCzhAnNh70kCeFtP_vRCUXq54kC6tMjxn2nbLT05mztIb6RqL9xfPP2FCmfStYRsaYjdu9RKjjI=s60",
     developer: "Marketing, Inc.",
   },
+  {
+    title: "Proofhub",
+    category: "Development",
+    description: "ProofHub is an easy-to-use project management software with everything you need to manage teams, work, and projects from a central location.",
+    version: "1.6.0",
+    image: "https://i.pcmag.com/imagery/reviews/00DGg3V9SuURGDLUoe7QmD6-23.fit_lim.size_1050x591.v1605289134.png",
+    developer: "ProofHub",
+  },
 ];
 
 const Extensions = () => (
