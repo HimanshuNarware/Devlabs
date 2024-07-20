@@ -10,6 +10,7 @@ import {
   faInfoCircle,
   faQuestionCircle,
   faStar,
+  faUser,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -120,6 +121,16 @@ function Sidebar({ showSideNav }) {
         <div className="sidebar-btn bookmark-btn" key="rate-us">
           <Link to="/#" className="Link Bookmark nav-link active" aria-current="page">
             <FontAwesomeIcon icon={faStar} /> Rate US
+          </Link>
+        </div>
+        <div className="sidebar-btn profile-btn" key="profile">
+          <Link
+            to="/profile"
+            className="Link  Bookmark nav-link active"
+            aria-current="page"
+          >
+            <FontAwesomeIcon icon={faUser} />
+           My Profile
           </Link>
         </div>
       </div>

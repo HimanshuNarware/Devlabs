@@ -7,6 +7,13 @@
     "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
   },
   {
+    "productName": "Namelix",
+    "category": "tools",
+    "image": "https://ultimatetools.eu/wp-content/uploads/2022/09/logo-namelix.jpeg",
+    "link": "https://namelix.com/",
+    "description": "Namelix helps you create a short, catchy and brandable name for your business using artificial intelligence."
+  },
+  {
     "productName": "Studocu",
     "category": "tools",
     "image": "https://cdn6.aptoide.com/imgs/8/e/4/8e44fd32cbc8670457828df938dee546_fgraphic.png",
@@ -55,6 +62,13 @@
     "image": "https://pbs.twimg.com/profile_images/474591466749034496/2-H1zqWf_400x400.jpeg",
     "link": "https://www.ieee.org/",
     "description": "World's largest technical professional organization dedicated to advancing technology for the benefit of humanity."
+  },
+  {
+    "productName":"Tubi Tv",
+    "category":"movies",
+    "image":"https://shorturl.at/lILGC",
+    "link":"https://tubitv.com/",
+    "description":"It is an online movie streaming platform users can view the multiple movies and web series in the platform."
   },
   {
     "productName": "Clarif AI",
@@ -3882,6 +3896,13 @@
     "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
   },
   {
+    "productName": "CNCF",
+    "category": "tools",
+    "image": "https://www.cncf.io/wp-content/uploads/2023/04/cncf-main-site-logo.svg",
+    "link": "https://www.cncf.io/",
+    "description": "CNCF is a vendor-neutral hub for cloud native computing, hosting projects like Kubernetes and Prometheus."
+  },
+  {
     "productName": "Binged",
     "category": "movies",
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Binge_logo.png",
@@ -4037,5 +4058,12 @@
     "image": "https://www.logodesignlove.com/wp-content/uploads/2012/08/microsoft-logo-02.jpeg",
     "link": "https://learn.microsoft.com/en-us/training/",
     "description": "Whether you are just starting in a career, or you are an experienced professional, our self-directed approach helps you arrive at your goals faster, with more confidence and at your own pace. Develop skills through interactive modules and paths or learn from an instructor. Learn and grow your way."
-   }
+   },
+   {
+    "productName": "Khan Academy",
+    "category": "course",
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_l3GggKOWViCBpDs9APIsK6MHB2Mu-ECo5dUEU-Vay2gg=s900-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.khanacademy.org/",
+    "description": "Khan Academy offers free online courses, lessons, and practice in a variety of subjects including math, science, computer programming, history, art history, economics, and more. Their mission is to provide a free, world-class education for anyone, anywhere."
+  }  
 ]
