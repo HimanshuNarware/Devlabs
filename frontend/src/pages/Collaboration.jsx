@@ -97,8 +97,14 @@ const movies = [
     description: "Basecamp is a project management and team collaboration software. It is best for organizing projects, tracking progress, and facilitating team communication in a straightforward and user-friendly platform.",
     image: "https://pbs.twimg.com/profile_images/1671513829522432003/BwPEpDI0_400x400.jpg",
     releaseDate: "2004-2-5"
-  }
-
+  },
+  {
+    title: "Google Meet",
+    category: "Video Conferencing",
+    description: "Google Meet is a video conferencing tool that offers high-quality video meetings for businesses and individuals. It is best for seamless integration with Google Workspace, allowing easy scheduling, screen sharing, and collaboration in real-time.",
+    image: "https://i.pcmag.com/imagery/reviews/02y6SQ4hhnWGi8zjE2FlYqi-8.fit_scale.size_760x427.v1615070874.jpg",
+    releaseDate: "2017-3-9"
+  },  
 ];
 const Collaboration = () => {
   return (
