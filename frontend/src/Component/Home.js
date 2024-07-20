@@ -305,7 +305,7 @@ function Home(props) {
                   </h1>
                 </h1>
 
-                <div className="hero-button-container">
+                <div className="hero-button-container" style={{display: "flex", justifyContent: "center"}}>
                   <button className="hero-button">
                     <NavbarItem description="Get Started" to="/open-source" />
                   </button>
