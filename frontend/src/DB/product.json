@@ -329,6 +329,14 @@
     "description": "codedamn is an interactive platform for learning to code, offering hands-on coding practice and tutorials for various programming languages and technologies."
   },
   {
+    "productName": "Kaggle",
+    "category": "coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN2BpUgB7XUvU4JMJlM3535VCcvN34_T7wvUWLDBbZDbYkLuZz0KusjxfRQ8BwlbMMXDE&usqp=CAU",
+    "link": "https://www.kaggle.com/",
+    "description": "It is primarily for data science and machine learning competitions, but also hosts coding challenges."
+  },
+
+  {
     "productName": "Bright Data",
     "category": "tools",
     "image": "https://rb.gy/n84sgp",
