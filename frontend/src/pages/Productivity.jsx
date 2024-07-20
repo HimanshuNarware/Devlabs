@@ -83,6 +83,13 @@ const products = [
     releaseDate: "2024-12-01",
   },
   {
+    title: "Microsoft Power Automate",
+    category: "Productivity Tool",
+    description: "Microsoft Power Automate is a cloud-based service that allows users to automate repetitive tasks and workflows between apps and services.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbPBjI73ssv9KbTW4NrIMubObeHOLyOKOQhg&s",
+    releaseDate: "2016-04-05"
+  },
+  {
     title: "IFTTT",
     category: "Productivity Tool",
     description: "IFTTT (If This Then That) is a web-based service that allows users to create automation workflows by connecting different apps and services.",
