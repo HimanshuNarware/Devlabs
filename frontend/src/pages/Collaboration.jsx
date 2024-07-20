@@ -92,6 +92,13 @@ const movies = [
     releaseDate: "2016-9-27",
   },
   {
+    title: "Notion",
+    category: "Collaboration Tools",
+    description: "Notion is an all-in-one workspace for note-taking, project management, and collaboration. It is best for organizing tasks, managing projects, and creating databases in a user-friendly and flexible interface.",
+    image: "https://i.pcmag.com/imagery/reviews/05FBstbqla0pEWrlFLTw4ML-17.fit_lim.size_1050x591.v1704906459.png",
+    releaseDate: "2018-6-1"
+  },
+  {
     title: "Basecamp",
     category: "Project Management",
     description: "Basecamp is a project management and team collaboration software. It is best for organizing projects, tracking progress, and facilitating team communication in a straightforward and user-friendly platform.",
