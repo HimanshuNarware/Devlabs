@@ -4065,5 +4065,12 @@
     "image": "https://yt3.googleusercontent.com/ytc/AIdro_l3GggKOWViCBpDs9APIsK6MHB2Mu-ECo5dUEU-Vay2gg=s900-c-k-c0x00ffffff-no-rj",
     "link": "https://www.khanacademy.org/",
     "description": "Khan Academy offers free online courses, lessons, and practice in a variety of subjects including math, science, computer programming, history, art history, economics, and more. Their mission is to provide a free, world-class education for anyone, anywhere."
-  }  
+  },
+  {
+    "productName": "Text2SQL AI",
+    "category": "tools",
+    "image": "https://pbs.twimg.com/profile_images/1590077991685689346/dqd1JhnW_400x400.jpg",
+    "link": "https://www.text2sql.ai/",
+    "description": "Text2SQL AI converts natural language queries into SQL, enabling users to query databases without writing SQL code."
+  }	
 ]
