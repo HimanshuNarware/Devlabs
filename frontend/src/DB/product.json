@@ -4047,5 +4047,12 @@
     "link": "https://thecodingtrain.com/",
     "description": "It consists of Coding challenges and tutorials."
   
-  }  
+  },
+  {
+    "productName":"PytTorch",
+    "category":"Library",
+    "link":"https://pytorch.org/",
+    "image":"https://miro.medium.com/v2/resize:fit:512/1*IMGOKBIN8qkOBt5CH55NSw.png",
+    "description":"PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing,"
+  }
 ]
