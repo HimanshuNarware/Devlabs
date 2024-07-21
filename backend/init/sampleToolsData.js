@@ -55,7 +55,7 @@ const sampleData = [
     image: "https://avatars.githubusercontent.com/u/65459277?s=200&v=4",
     link: "https://www.acm.org/",
     description:
-      "It provides a platform for computing professionals, researchers, educators, and students to exchange ideas and information related to computer science and information technology.",
+      "ACM provides a platform for computing professionals, researchers, educators, and students to exchange ideas and information related to computer science and information technology.",
   }),
 ];
 
