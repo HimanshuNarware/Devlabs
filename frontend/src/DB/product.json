@@ -169,6 +169,13 @@
     "description": "This AI provides a standardized framework that facilitates collaboration and knowledge sharing among practitioners."
   },
   {
+    "productName": "UXPin",
+    "category": "Tool",
+    "image": "https://designshack.net/wp-content/uploads/uxpin-1.png",
+    "link": "https://www.uxpin.com/",
+    "description": "UXPin lets you design UI with code-backed components and export production-ready code. You can also use AI Component Creator with ChatGPT to generate layouts ,forms and more."
+  },
+  {
     "productName": "Deep AI",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.M5pmo9G5OwXTB1YAD5xgngAAAA?rs=1&pid=ImgDetMain",
@@ -4054,5 +4061,13 @@
     "link":"https://pytorch.org/",
     "image":"https://miro.medium.com/v2/resize:fit:512/1*IMGOKBIN8qkOBt5CH55NSw.png",
     "description":"PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing,"
+ 
+  } ,
+  {
+    "productName": "Google Tech Dev Guide",
+    "category": "course",
+    "image": "https://1000logos.net/wp-content/uploads/2016/11/New-Google-Logo.jpg",
+    "link": "https://techdevguide.withgoogle.com/",
+    "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
   }
 ]
