@@ -7,13 +7,6 @@
     "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
   },
   {
-    "productName": "Namelix",
-    "category": "tools",
-    "image": "https://ultimatetools.eu/wp-content/uploads/2022/09/logo-namelix.jpeg",
-    "link": "https://namelix.com/",
-    "description": "Namelix helps you create a short, catchy and brandable name for your business using artificial intelligence."
-  },
-  {
     "productName": "Studocu",
     "category": "tools",
     "image": "https://cdn6.aptoide.com/imgs/8/e/4/8e44fd32cbc8670457828df938dee546_fgraphic.png",
@@ -49,13 +42,6 @@
     "description": "This AI Lovo lets you generate advanced AI voices for any use case."
   },
   {
-    "productName": "Zapier",
-    "category": "Tool",
-    "image": "https://cdn.zapier.com/zapier/images/logos/zapier-logomark.png",
-    "link": "https://zapier.com/",
-    "description": "Zapier provides workflows that allow different web applications to be used in the same workflow. Their products focus on automating recurring tasks, such as lead management."
-  },
-  {
 
     "productName": "Synthesia",
     "category": "tools",
@@ -71,39 +57,11 @@
     "description": "World's largest technical professional organization dedicated to advancing technology for the benefit of humanity."
   },
   {
-    "productName":"Tubi Tv",
-    "category":"movies",
-    "image":"https://shorturl.at/lILGC",
-    "link":"https://tubitv.com/",
-    "description":"It is an online movie streaming platform users can view the multiple movies and web series in the platform."
-  },
-  {
     "productName": "Clarif AI",
     "category": "Tool",
     "image": "https://www.clarifai.com/hubfs/Clarifai%20Logo%20Stamp%20Blue.png",
     "link": "https://www.clarifai.com/",
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
-  },
-  {
-    "productName": "Reply IO",
-    "category": "tools",
-    "image": "https://th.bing.com/th/id/OIP.sDoNk2OfFCNTFuvecdXCVAAAAA?rs=1&pid=ImgDetMain",
-    "link": "https://reply.io/?",
-    "description": "Reply.io is an AI-first sales engagement platform that helps SDR teams find new prospects, engage them through multiple channels, and create new opportunities at scale while keeping every touchpoint personal."
-  },
-  {
-    "productName":"Powerdrill Ai",
-    "category":"AI",
-    "image":"https://shorturl.at/8n6J2",
-    "link":"https://powerdrill.ai/",
-    "description":"It is an Ai platform where user can upload the files, datasets and more to visualize the data in understanding and meaning manner."
-  },
-  {
-    "productName": "KuCoin",
-    "category": "tools",
-    "image": "https://www.joker.gg/wp-content/uploads/2024/01/kucoin-slovenija.jpg",
-    "link": "https://www.kucoin.com/",
-    "description": "Secure cryptocurrency exchange that allows you to buy, sell, and trade Bitcoin, Ethereum, and 700+ altcoins."
   },
   {
     "productName": "Freelance",
@@ -125,13 +83,6 @@
     "image": "https://canny.io/images/d294641777b8d0b68b57a4a57e4453e1.png",
     "link": "https://www.descript.com/",
     "description": "This AI helps you to edit videos using AI based on the text."
-  },
-  {
-    "productName": "Bubble",
-    "category": "Tool",
-    "image": "https://th.bing.com/th/id/OIP.5r5yOF5nF_uO763L7XIOwAHaFj?rs=1&pid=ImgDetMain",
-    "link": "https://bubble.io/",
-    "description": "Bubble is a full stack no-code app builder which helps people to build their own apps easily without using/learning coding and tech."
   },
   {
     "productName": "Image color picker",
@@ -167,19 +118,13 @@
     "image": "https://cdn.theorg.com/b42e95e6-f1e5-49de-ba52-d9ec80f925f2_thumb.jpg",
     "link": "https://www.newtonschool.co/",
     "description": "Neo-university providing highly immersive learning to millions of students and working professionals to tap into new-age technology."
-  },{
+  },
+  {
     "productName":"Amazon Prime Video",
     "category":"movies",
     "image":"https://shorturl.at/dxObb",
     "link":"https://www.primevideo.com/",
     "description":"Amazon Prime video is an movie streaming platform to view multiple videos  in offline as well as online."
-  },
-  {
-    "productName": "Spline",
-    "category": "tools",
-    "image": "https://th.bing.com/th/id/OIP.qvptQEQCaUmQ3plQnQg1KAHaEL?rs=1&pid=ImgDetMain",
-    "link": "https://spline.design/",
-    "description": "Spline is a designing tool that helps to create modern 3d websites easily."
   },
   {
     "productName": "Goose AI",
@@ -231,13 +176,6 @@
     "description": "DeepAI offers various features to generate images, videos and characters using text prompts and art styles. You can create animations, edit images, chat with characters and more"
   },
   {
-    "productName": "ClickUp",
-    "category": "tools",
-    "image": "https://e7.pngegg.com/pngimages/548/891/png-clipart-clickup-logo-tech-companies.png",
-    "link": "https://clickup.com/",
-    "description": "We built one app to replace them all - Tasks, Docs, Goals, and Chat."
-  },
-  {
     "productName":"Play Code",
     "category":"web",
     "image":"https://shorturl.at/T5X8r",
@@ -271,20 +209,6 @@
     "image": "https://th.bing.com/th/id/OIP.Arb4siojnanMD4dOpW5uHgHaHa?rs=1&pid=ImgDetMain",
     "link": "https://www.fiverr.com/",
     "description": "Fiverr is a freelancing platform which provides the opportinites for doing freelancing."
-  },
-  {
-    "productName": "NASA Space Apps Challenge",
-    "category": "tools",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Space_Apps_Logo_White.png",
-    "link": "https://www.spaceappschallenge.org/",
-    "description": "For coders, scientists, designers, storytellers, makers, technologists, and innovators."
-  },
-  {
-    "productName": "Raindrop.io",
-    "category": "tools",
-    "image": "https://image.pngaaa.com/822/4681822-small.png",
-    "link": "https://raindrop.io/",
-    "description": "A modern bookmark manager."
   },
   {
     "productName": "Carousel Hero",
@@ -420,13 +344,6 @@
     "description":"Create Human-like Essays with Our Undetectable AI Essay Writer"
   },
   {
-    "productName": "Otter.ai",
-    "category": "tools",
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/5f/Otter.ai_company_logo.png",
-    "link": "https://otter.ai/",
-    "description": "AI Meeting Assistant to transcribe meetings"
-  },
-  {
     "productName":"Interview warmup Google",
     "category":"tools",
     "image":"https://rb.gy/4z4lkj",
@@ -446,13 +363,6 @@
     "image": "https://rb.gy/vknfx0",
     "link": "https://unsplash.com/",
     "description": "Source for free stack visuals"
-  },
-  {
-    "productName": "Habitica",
-    "category": "tools",
-    "image": "https://w7.pngwing.com/pngs/295/1014/png-transparent-habitica-hd-logo.png",
-    "link": "https://habitica.com/",
-    "description": "Free habit and productivity app that treats your real life like a game."
   },
   {
     "productName": "PikaShows",
@@ -636,13 +546,6 @@
     "image": "https://bit.ly/3NBzUm8",
     "link": "https://myemulator.online/",
     "description": "Play classic video games from various gaming consoles directly in their web browsers."
-  },
-  {
-    "productName": "Slite",
-    "category": "tools",
-    "image": "https://assets.hyperping.io/assets/images/1676.jpg",
-    "link": "https://slite.com/",
-    "description": "A modern document management platform with focus on utility over excess."
   },
   {
     "productName": "Javatpoint",
@@ -2444,19 +2347,13 @@
     "link": " https://codeforces.com/",
     "description": "A competitive programming platform with challenging contests and an active community."
   },
+
   {
     "productName": "Codechef",
     "category": "coding",
     "image": "https://tinyurl.com/5cx6fp35",
     "link": "https://www.codechef.com/",
     "description": "An online community for programmers to improve their skills through contests and challenges."
-  },
-  {
-    "productName": "Codolio",
-    "category": "coding",
-    "image": "https://tinyurl.com/ys6sauuc",
-    "link": "https://codolio.com/",
-    "description": "Build your all-in-one coding portfolio with Codolio."
   },
   {
     "productName": "BitDegree",
@@ -3945,13 +3842,6 @@
     "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
   },
   {
-    "productName": "CNCF",
-    "category": "tools",
-    "image": "https://www.cncf.io/wp-content/uploads/2023/04/cncf-main-site-logo.svg",
-    "link": "https://www.cncf.io/",
-    "description": "CNCF is a vendor-neutral hub for cloud native computing, hosting projects like Kubernetes and Prometheus."
-  },
-  {
     "productName": "Binged",
     "category": "movies",
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Binge_logo.png",
@@ -4074,13 +3964,6 @@
     "description": "Algo Monster is a comprehensive tool designed to help users learn, implement, and optimize algorithms efficiently."
   },
   {
-    "productName": " Dark Reader",
-    "category": "extension",
-    "image": "https://avatars.githubusercontent.com/u/38494721?v=4",
-    "link": "https://darkreader.org/",
-     "description": "It enables dark mode on any website, reducing eye strain and making it easier to read at night."
-  },
-  {
     "productName": "Dark Reader",
     "category": "extension",
     "image": "https://avatars.githubusercontent.com/u/38494721?v=4",
@@ -4109,6 +3992,20 @@
     "description": "Whether you are just starting in a career, or you are an experienced professional, our self-directed approach helps you arrive at your goals faster, with more confidence and at your own pace. Develop skills through interactive modules and paths or learn from an instructor. Learn and grow your way."
    },
    {
+    "productName": "ACM",
+    "category": "tools",
+    "image": "https://avatars.githubusercontent.com/u/65459277?s=200&v=4",
+    "link": "https://www.acm.org/",
+    "description": "ACM provides a platform for computing professionals, researchers, educators, and students to exchange ideas and information related to computer science and information technology."
+   },
+   {
+    "productName": "Rakuten",
+    "category": "Extensions",
+    "image": "https://logowik.com/content/uploads/images/rakuten7982.jpg",
+    "link": "https://chromewebstore.google.com/detail/rakuten-get-cash-back-for/chhjbpecpncaggjpdakmflnfcopglcmi?hl=en",
+    "description": "It’s a nice way to get some cashback, and this is on top of whatever cashback or points you may get from your credit card! The extension makes it easy to check for offers while shopping online."
+   },
+  {
     "productName": "Khan Academy",
     "category": "course",
     "image": "https://yt3.googleusercontent.com/ytc/AIdro_l3GggKOWViCBpDs9APIsK6MHB2Mu-ECo5dUEU-Vay2gg=s900-c-k-c0x00ffffff-no-rj",
