@@ -1,6 +1,6 @@
 :root {
-  --sidebar-bg-light: #74a309;
-  --sidebar-bg-dark: #8b5cf6;
+  --sidebar-bg-light:#8b5cf6;
+  --sidebar-bg-dark: #74a309;
   --sidebar-text-light: white;
   --sidebar-text-dark: white;
   --sidebar-hover-light: #fff700;
