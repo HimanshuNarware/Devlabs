@@ -22,6 +22,14 @@ const tools = [
     link: "https://gun.io/", 
     image: "gun-io.png" 
   },
+  {
+    name: "Upwork",
+    description: "Upwork is a global freelancing platform where businesses and independent professionals connect and collaborate remotely. Upwork offers a wide range of freelance jobs across various categories including tech, design, writing, and more. The platform provides tools for hiring, managing, and paying freelancers, making it easier for businesses to find the right talent and for freelancers to find rewarding projects.",
+    link: "https://www.upwork.com/",
+    image: "https://cdn.prod.website-files.com/5ec7dad2e6f6295a9e2a23dd/6090ec8cb8bec8d0738fc6bd_Upwork.png"
+  }
+  
+  
 ];
 
 const CodingPlatform = () => {
