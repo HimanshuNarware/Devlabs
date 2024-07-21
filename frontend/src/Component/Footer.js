@@ -29,10 +29,10 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="overflow-x-hidden">
       <div className="Footer">
         <div className="container">
-          <div className="row">
+          <div className="row justify-center">
             <div className="col-md-6 col-lg-4 col-12 ft-1">
               <a href="https://www.devlabsstore.tech/">
                 <img width={209} src={logo} alt="devlabs" />
@@ -124,7 +124,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-last">
+            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-last explore">
               <h3>Explore</h3>
               <ul>
                 <li className="nav-item">
@@ -150,7 +150,7 @@ function Footer() {
 
       <div className="Last-footer">
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row justify-center">
             <div className="col-md-6 col-12 ft-1">
               <div className="text-center fs-6 my-3">
                 COPYRIGHT © Devlabs 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE

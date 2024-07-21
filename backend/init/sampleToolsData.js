@@ -47,6 +47,16 @@ const sampleData = [
     description:
       "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals.",
   }),
+
+
+  new Tool({
+    productName: "ACM",
+    category: "tools",
+    image: "https://avatars.githubusercontent.com/u/65459277?s=200&v=4",
+    link: "https://www.acm.org/",
+    description:
+      "It provides a platform for computing professionals, researchers, educators, and students to exchange ideas and information related to computer science and information technology.",
+  }),
 ];
 
 Tool.insertMany(sampleData)
