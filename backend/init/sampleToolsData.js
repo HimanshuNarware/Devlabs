@@ -47,8 +47,6 @@ const sampleData = [
     description:
       "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals.",
   }),
-
-
   new Tool({
     productName: "ACM",
     category: "tools",
