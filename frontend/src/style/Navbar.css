@@ -491,7 +491,6 @@
   background-color: black; /* Ensure underline is black */
   transition: all 0.3s ease-in-out;
 }
-
 .nav-item a:hover::after,
 .Bookmark.nav-link.active:hover::after {
   width: 100%;
