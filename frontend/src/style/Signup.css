@@ -1,0 +1,57 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #673AB7; /* Purple background */
+  color: black; /* Black text for content within the container */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 600px;
+  margin-top: 100px;
+  margin-left: 800px;
+}
+
+/* Other styles remain the same */
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ddd; /* Light gray border for text fields */
+  border-radius: 3px;
+  width: 100%;
+  color: #333; /* Gray text color for input fields */
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  background-color: #f0f0f0; /* Light gray background for button */
+  color: black; /* Black text color */
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-submit:hover {
+  background-color: #ddd; /* Lighter gray on hover */
+}

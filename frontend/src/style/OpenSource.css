@@ -11,21 +11,66 @@
 .open-source__main-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 20px;
+    gap: 30px;
 }
 
 .open-source__content-box-home {
+    position: relative;
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;box-shadow: 0px 0px 8px violet;
     transition: transform 0.2s, box-shadow 0.2s;
 }
-
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  .open-source__content-box-home::before,
+  .open-source__content-box-home::after {
+    content: "";
+    position: absolute;
+    inset: -0.1rem;
+    z-index: 2;
+    background: conic-gradient(
+      from var(--gradient-angle),
+      #672ba6,
+      #8b5cf6,
+      #cfbff7,
+      #c35cf6,
+      #6c2bb1
+    );
+    
+    border-radius: inherit;
+    animation: moving 3s linear infinite;
+  
+    mask: linear-gradient(
+        to right,
+        black 0.4%,
+        transparent 0%,
+        transparent 99.5%,
+        black 90%
+      ),
+      linear-gradient(
+        to bottom,
+        black 0.4%,
+        transparent 0%,
+        transparent 99.5%,
+        black 90%
+      );
+  }
+  
+  @keyframes moving {
+    0% {
+      --gradient-angle: 0deg;
+    }
+    100% {
+      --gradient-angle: 360deg;
+    }
+  }
 .open-source__content-box-home:hover {
     transform: scale(0.9);
-    box-shadow: 0px 0px 25px #8b5cf6;
+    box-shadow: 0px 0px 15px #b85cf6e1;
 }
 
 .open-source__content-box-home h2 {
@@ -58,14 +103,14 @@
 
 .open-source__tag {
     margin: 2px 4px;
-    border: 1px solid orange;
+    border: 1px solid #804afe;
     padding: 2px 8px;
     border-radius: 12px;
 }
 
 .open-source__btn-b-box {
     color: #fff;
-    background-color: #007bff;
+    background-color: #804afe;
     border: none;
     padding: 8px 12px;
     border-radius: 4px;
@@ -74,7 +119,11 @@
 }
 
 .open-source__btn-b-box:hover {
-    background-color: #0056b3;
+    background-color: #09001f63;
+  backdrop-filter: blur(10px);
+  border: 2px solid #804afe;
+  color: white;
+  box-shadow: -1px 2px 8px #c5aff899,0px 2px 8px #6943c392;
 }
 
 .open-source__pagination {

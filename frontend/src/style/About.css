@@ -52,9 +52,11 @@
 }
 
 .about__profile-btn:hover {
-    background: transparent;
-    cursor: pointer;
-    box-shadow: 2px 2px 1px #8b5cf6;
+    background-color: #09001f63;
+    backdrop-filter: blur(10px);
+    border: 2px solid #804afe;
+    color: white;
+    box-shadow: -1px 2px 8px #c5aff899,0px 2px 8px #6943c392;
 }
 
 .about__searchbar-contributors {
@@ -76,9 +78,7 @@
 }
 
 .about__searchbar-contributors:focus {
-    border-color: #642beb;
-    box-shadow: 0 2px 5px rgb(237, 23, 237);
-    outline: none;
+   
 }
 
 .about__grid-container {
@@ -224,8 +224,11 @@
 }
 
 .about__repo-btn:hover {
-    background: transparent;
-    box-shadow: 0 0 20px rgb(226, 33, 226);
+    background-color: #09001f63;
+    backdrop-filter: blur(10px);
+    border: 2px solid #804afe;
+    color: white;
+    box-shadow: -1px 2px 8px #c5aff899,0px 2px 8px #6943c392;
 }
 
 .about__container-one,
@@ -307,9 +310,7 @@
 }
 
 .about__repo-btn:hover {
-    background: transparent;
-    box-shadow: 4px 4px 2px #8b5cf6;
-    box-shadow: 0 0 20px rgb(226, 33, 226);
+
 }
 
 .about__repo-btn a {
@@ -454,9 +455,11 @@
 }
 
 .about__profile-btn:hover {
-    background: transparent;
-    cursor: none;
-    box-shadow: 2px 2px 1px #8b5cf6;
+    background-color: #09001f63;
+  backdrop-filter: blur(10px);
+  border: 2px solid #804afe;
+  color: white;
+  box-shadow: -1px 2px 8px #c5aff899,0px 2px 8px #6943c392;
 }
 
 @keyframes fade-in {
@@ -472,14 +475,15 @@
 
 
 .about__searchbar-contributors:focus {
-    border-color: #642beb;
-    box-shadow: 0 2px 5px rgb(237, 23, 237);
-    outline: none;
+   
+  color: white;
+  
 }
 .about__logo{
-    width: 150px;
-    border-radius: 50%;
-    object-fit: contain;
+    width: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 300px;
 }
       .about__searchbar-contributors {
             width: 100%;
@@ -487,12 +491,13 @@
             padding: 10px;
             margin: 20px 0;
             border: 2px solid #ccc;
-            border-radius: 10px;
-            color: white;
-            background-color: rgba(149, 147, 147, 0.1);
-            font-size: 16px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: border-color 0.3s, box-shadow 0.3s;
+            width: 300px;
+    padding: 10px;
+    background-color: #09001f47;
+    border: 1px solid #6a43c3;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
         }
     
         .about__searchbar-contributors::placeholder {
@@ -500,9 +505,9 @@
         }
     
         .about__searchbar-contributors:focus {
-            border-color: #642beb;
-            box-shadow: 0 2px 5px rgb(237, 23, 237);
             outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
         }
                 .about__founder-container {
                     display: flex;
