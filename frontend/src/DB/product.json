@@ -308,6 +308,13 @@
     "description": "Synergic philosophy of education, with a culture of mutual learning through micro groups of peers."
   },
   {
+    "productName": "Holopin",
+    "category": "tools",
+    "image": "https://www.holopin.io/images/logo.png",
+    "link": "https://www.holopin.io/",
+    "description": "Platform that allows you to issue digital badges that people love."
+  },
+  {
     "productName": "Flipboard",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flipboard_logo.svg/1200px-Flipboard_logo.svg.png",
@@ -369,6 +376,13 @@
     "image": "https://shorturl.at/uRx8f",
     "link": "https://www.codedpad.com/",
     "description": "Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
+  },
+  {
+    "productName": "DigitalOcean",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png",
+    "link": "https://www.digitalocean.com/",
+    "description": "Simple, scalable virtual machines for all your web hosting and VPS hosting needs."
   },
   {
     "productName": "GitLab",
@@ -469,6 +483,13 @@
     "description": "SEO WRITING is an AI writing tool for 1-click SEO-optimized articles, blog posts & affiliate content."
   },
   {
+    "productName": "DoraHacks",
+    "category": "tools",
+    "image": "https://www.finsmes.com/wp-content/uploads/2022/08/dorahacks.jpeg",
+    "link": "https://dorahacks.io/",
+    "description": "BUIDLs, hackathons, grants, quadratic funding rounds, bounties,etc"
+  },
+  {
     "productName": "Tinkercad",
     "category": "tools",
     "image": "https://api-reader.tinkercad.com/api/images/cbdy6sTzSjf/t725.jpg",
@@ -495,6 +516,13 @@
     "image": "https://bit.ly/3XoZKgc",
     "link": "https://bit.ly/3plUFZw",
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
+  },
+  {
+    "productName": "Patreon",
+    "category": "tools",
+    "image": "https://crystalpng.com/wp-content/uploads/2023/10/New-Patreon-Logo.png",
+    "link": "https://www.patreon.com/",
+    "description": "Space to create what excites you most, rough or polished, big or small."
   },
   {
     "productName": "Skills Network Labs",
@@ -685,6 +713,13 @@
     "image": "https://shorturl.at/GXgoW",
     "link": "https://shorturl.at/bfYei",
     "description": ""
+  },
+  {
+    "productName": "Mimo",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mimo_Logo.png",
+    "link": "https://mimo.org/",
+    "description": "Learn to code at your own pace with Mimo"
   },
   {
     "productName": "ABBYY FineReader",
@@ -4072,12 +4107,21 @@
     "image": "https://yt3.googleusercontent.com/ytc/AIdro_l3GggKOWViCBpDs9APIsK6MHB2Mu-ECo5dUEU-Vay2gg=s900-c-k-c0x00ffffff-no-rj",
     "link": "https://www.khanacademy.org/",
     "description": "Khan Academy offers free online courses, lessons, and practice in a variety of subjects including math, science, computer programming, history, art history, economics, and more. Their mission is to provide a free, world-class education for anyone, anywhere."
+
   }, 
-  {
+ {
     "productName": "HackerBlocks",
     "category": "coding",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcuqHTmszxcRK7FUKOSXxT3igC_idMlxV1h6xDi7o87FUdLouhhqMx51jBCb5LigDbHuA&usqp=CAU",
     "link": "https://hack.codingblocks.com/",
     "description": "It is a Coding platform with problems categorized by difficulty and tags."
+  },
+  {
+    "productName": "CodingTrain",
+    "category": "coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXs38rG-jePlVDJT4Z2Debt26Xt5xzPYSURfsKQmFIdifki8x2",
+    "link": "https://thecodingtrain.com/",
+    "description": "It consists of Coding challenges and tutorials."
+  
   }  
 ]
