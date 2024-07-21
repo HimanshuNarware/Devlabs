@@ -1,62 +1,58 @@
 .navbar {
-  background-color: #8b5cf6;
-  padding: 5px 10px; /* Decreased padding to reduce height */
+  background-color: #6a43c3;
+  padding: 1rem;
   position: fixed;
-  width: 100%;
+  width: 1500px;
   top: 0px;
   left: 0px;
-  height: 80px;
+  height: auto;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
   z-index: 4;
   isolation: isolate;
   mix-blend-mode: normal;
-  padding-left: 30px;
+
+  gap: 10px;
+
 }
 
 .search-bar {
   display: flex;
   align-items: center;
   position: relative;
-  top: -10px; /* Adjust the value as needed */
-}
-.navbar-content li {
-  flex-grow: 1; /* Make the navbar items stretch to fill the width */
-  margin: 0 5px; /* Add margin to create space between nav items */
-  font-size: 1.3rem;
-  text-decoration: none; /* Ensures no underline */
+  top: -10px;
 }
 
+.navbar-content li {
+  flex-grow: 1;
+  margin: 0 15px;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
 
 .navbar-content .nav-item {
-  flex-grow: 1; /* Allow items to stretch */
+  flex-wrap: wrap;
+  flex-grow: 1;
   text-align: center;
-  text-decoration: none; /* Ensures no underline */
-  margin: 0 10px; /* Add space between items */
+  text-decoration: none;
+  margin: 0 6px;
 }
-
 
 .logo-img {
   width: 150px;
-  margin-right: auto; /* Move the logo to the left */
+  margin-right: auto !important;
 }
-.navbar-content li {
-  list-style: none;
-  margin: 0 px;
-  font-size: 1.3rem;
-  text-decoration: none; /* Ensures no underline */
-  animation: slideTop 1s ease forwards;
-}
+
 .navbar-content {
   display: flex;
-  text-decoration: none; /* Ensures no underline */
   list-style: none;
   padding: 0;
   margin: 0;
-  justify-content: space-between; /* Add space between items */
-  width: 109%; /* Make the navbar items stretch along the width */
+  justify-content: space-between;
+  width: 109%;
+  
 }
 
 .card-body img {
@@ -71,47 +67,42 @@
   display: flex;
   align-items: center;
 }
-/* Define hover effect for nav-items */
-/* Define hover effect for nav-items */
+
 .nav-item {
   position: relative;
   color: #fff;
-  transition: transform 0.3s, filter 0.3s, box-shadow 0.3s; /* Add box-shadow to transition */
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0); /* Initially no shadow */
+  transition: transform 0.3s, filter 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0);
 }
 
 .nav-item:hover {
-  transform: scale(1.05); /* Scale up slightly on hover */
-  filter: brightness(1.2); /* Brighten on hover for shine effect */
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Add glowing effect */
+  color: black;
+  transform: scale(1.05);
+  filter: brightness(1.2);
 }
-
-
 
 .navbar-left {
   display: flex;
-  justify-content: flex-start; /* Change from 'center' to 'flex-start' */
+  width: fit-content;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
+  padding: 8px;
+  gap: 5px;
   animation: slideLeft 1s ease forwards;
 }
-
 
 .navbar-left #nav-icon1 {
   width: 30px;
   height: 30px;
   position: relative;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 
+#nav-icon1:hover{
+  cursor: none;
+}
 .navbar-left #nav-icon1 span {
   display: block;
   position: absolute;
@@ -121,13 +112,7 @@
   border-radius: 9px;
   opacity: 1;
   left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
 
@@ -145,9 +130,6 @@
 
 #nav-icon1.open span:nth-child(1) {
   top: 18px;
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
   transform: rotate(135deg);
 }
 
@@ -158,43 +140,58 @@
 
 #nav-icon1.open span:nth-child(3) {
   top: 18px;
-  -webkit-transform: rotate(-135deg);
-  -moz-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
 
-.navbar-right {
-  display: flex;
-  align-items: center;
+.navbar-center {
   animation: slideRight 1s ease forwards;
-  /* margin-right: 115px; */
+  margin-right: 115px;
 }
 
 .logo-img {
   width: 150px;
-  margin-right: 140px; /* Move the logo to the right */
+  margin-right: 140px;
 }
 
-.nav-item a {
-  color: #0e0303;
-  text-decoration: none;
-  font-size: 1.2rem; /* Adjust font size as needed */
+.nav-item a,
+.navbar-content ul li a,
+.Bookmark.nav-link.active {
+
+  color: black !important; /* Ensure nav items are always black */
+  text-decoration: none !important;
+  font-size: 1.2rem;
   transition: color 0.3s;
+  position: relative;
+}
+
+.nav-item a:hover,
+.Bookmark.nav-link.active:hover {
+  color: black !important; /* Ensure nav items remain black on hover */
+  font-weight: 700;
+}
+
+.nav-item a::after,
+.Bookmark.nav-link.active::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+
+  bottom: -5px;
+  left: 0;
+  background-color: black; /* Ensure underline is black */
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item a:hover::after,
+.Bookmark.nav-link.active:hover::after {
+  width: 100%;
+  background-color: black; /* Ensure underline remains black on hover */
 }
 
 .navbar-content ul li a.active {
-  color: white;
-  background-color: green;
-}
-
-.nav-item {
-  position: relative;
-  color: #fff;
-}
-
-.nav-item:hover::before {
-  width: 100%;
+  color: black;
+  background-color: rgb(0, 128, 0);
 }
 
 .sidebar {
@@ -202,26 +199,26 @@
   height: 92%;
   background-color: #8b5cf6;
   position: fixed;
-  top: 4.4rem;
-  z-index: 3;
+  top: 4.6rem;
+  z-index: 4;
   display: flex;
   flex-direction: column;
   font-size: 1.4rem;
   overflow-y: scroll;
   transition: width 0.3s;
-  z-index: 4;
 }
 
 .nav-item::before {
   content: "";
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   left: 50%;
+  top: 35px;
   transform: translateX(-50%);
   width: 0;
   height: 2px;
   background-color: black;
-  transition: width 0.2s ease-in-out;
+  /* transition: width 0.2s ease-in-out; */
 }
 
 .sidebar.active {
@@ -231,7 +228,6 @@
 .sidebar-content {
   border-bottom: 1px solid rgb(2, 27, 43);
   font-weight: 500;
-  transform: translateY(40px);
   opacity: 0;
   transition: transform 0.5s, opacity 0.5s;
   transition-delay: 0.2s;
@@ -257,10 +253,10 @@
   font-weight: 500;
 }
 
-.Link:hover {
+/* .Link:hover {
   color: rgb(72, 5, 5);
   text-decoration: none;
-}
+} */
 
 .sidebar-btns {
   display: flex;
@@ -277,9 +273,9 @@
   line-height: 1;
 }
 
-.sidebar-btn:hover {
+/* .sidebar-btn:hover {
   color: rgba(0, 0, 0, 0.84);
-}
+} */
 
 .sidebar {
   color: rgba(0, 0, 0, 0.84);
@@ -332,7 +328,7 @@
   background-clip: padding-box;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   position: relative;
-  padding-right: 40px; /* Adjust as needed */
+  padding-right: 40px;
   flex: 1 1 auto;
   width: 1%;
   margin-bottom: 0;
@@ -352,32 +348,31 @@
   line-height: 1;
 }
 
-.sidebar-btn:hover {
+/* .sidebar-btn:hover {
   color: rgba(0, 0, 0, 0.84);
-}
+} */
 
 .sidebar {
-  color: rgba(0, 0, 0, 0.84);
+  color: rgb(23, 0, 38);
 }
 
-.filter:hover {
+/* .filter:hover {
   font-size: 1.8rem;
   text-decoration: underline;
-  /* transition: all 0.3s; */
-}
+} */
 
 .filter {
   transition: font-size 0.3s ease, text-decoration 0.3s ease;
 }
 
 .search {
-   margin-top: 0px; 
+  margin-top: 0px;
   position: relative;
 }
 
 .box {
   margin-top: 15px;
-  margin-left: 65px; 
+  margin-left: 65px;
   outline: none !important;
   border-radius: 20px;
   width: 80% !important;
@@ -388,9 +383,9 @@
   border: none;
 }
 
-.box:hover {
+/* .box:hover {
   border: 2.5px solid black;
-}
+} */
 
 .input:focus {
   outline: none;
@@ -399,7 +394,6 @@
 }
 
 .span {
-  /* background: transparent !important; */
   border: none !important;
   border-radius: 2px 100px 100px 2px;
   margin: 1.5px;
@@ -409,12 +403,11 @@
   font-size: 1.5rem;
   font-weight: b;
   line-height: 1.5;
-  color: #495057;
+  color: black;
   text-align: center;
   white-space: nowrap;
   background-color: #ebeff4;
   border: 1px solid #ced4da;
-  /* border-radius: 0.25rem; */
   font-weight: bold !important;
   cursor: pointer;
 }
@@ -440,7 +433,7 @@
   font-size: 1.5rem;
   font-weight: b;
   line-height: 1.5;
-  color: #495057;
+  color: black;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -469,6 +462,38 @@
 }
 
 /* Ensure no underline under nav items */
-.nav-item a, .navbar-content ul li a {
+.nav-item a,
+.navbar-content ul li a,
+.Bookmark.nav-link.active {
+  color: rgb(23, 0, 38) !important; /* Ensure nav items are always black */
   text-decoration: none !important;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+  position: relative;
+}
+
+
+.nav-item a:hover,
+.Bookmark.nav-link.active:hover {
+  color: rgb(23, 0, 38) !important; /* Ensure nav items remain black on hover */
+  font-weight: 700;
+}
+
+
+.nav-item a::after,
+.Bookmark.nav-link.active::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: black; /* Ensure underline is black */
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item a:hover::after,
+.Bookmark.nav-link.active:hover::after {
+  width: 100%;
+  background-color: black; /* Ensure underline remains black on hover */
 }
