@@ -4114,7 +4114,14 @@
     "image": "https://yt3.googleusercontent.com/ytc/AIdro_l3GggKOWViCBpDs9APIsK6MHB2Mu-ECo5dUEU-Vay2gg=s900-c-k-c0x00ffffff-no-rj",
     "link": "https://www.khanacademy.org/",
     "description": "Khan Academy offers free online courses, lessons, and practice in a variety of subjects including math, science, computer programming, history, art history, economics, and more. Their mission is to provide a free, world-class education for anyone, anywhere."
-  }  ,
+  } , 
+  {
+    "productName": "Paiza",
+    "category": "coding",
+    "image": "https://paiza.io/assets/paizaio_logo_s-9bd1bf73a17e2002f96a6337f2fb71f9.png",
+    "link": "https://paiza.io/en",
+    "description": "Paiza Offers coding challenges and problems for practice."
+  },
   {
     "productName": "InterviewCake",
     "category": "coding",
