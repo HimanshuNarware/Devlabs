@@ -3925,6 +3925,13 @@
     "category": "tools",
     "image": "https://avatars.githubusercontent.com/u/65459277?s=200&v=4",
     "link": "https://www.acm.org/",
-    "description": "ACM provides a platform for computing professionals, researchers, educators, and students to exchange ideas and information related to computer science and information technology."
+    "description": "Association for Computing Machinery provides a platform for computing professionals, researchers, educators, and students to exchange ideas and information related to computer science and information technology."
+   },
+   {
+    "productName": "Pocket",
+    "category": "Extensions",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6e4r1Hnszf_8EH2hQiepMByXkUJDJb-Qffg&s",
+    "link": "https://chromewebstore.google.com/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj?hl=en",
+    "description": "Ever feel like you have to bookmark a load of sources or make lists of URLs? The Pocket Chrome extension is an easy and convenient way of capturing articles, videos, or other content you come across."
    }
 ]
