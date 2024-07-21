@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../../style/Navbar.css";
+import "../../style/Navbar.css"
 import logo from "../../image/logo1.png";
 function NavbarLeft(props, showSideNav) {
   useEffect(() => {
@@ -12,6 +12,7 @@ function NavbarLeft(props, showSideNav) {
     document.body.addEventListener('click', handleDocumentClick);
 
     return () => {
+      // Removed event listener on component unmount
       document.body.removeEventListener('click', handleDocumentClick);
     };
   }, [props]);
@@ -39,7 +40,7 @@ function NavbarLeft(props, showSideNav) {
           <span></span>
         </div>
       </a>
-      <a href="/" onClick={handleItemClick}>
+      <a href="/" onClick={handleItemClick}> {/* Added onClick handler */}
         <img className="navbar-brand logo-img" src={logo} alt="this" />
       </a>
     </span>
