@@ -28,6 +28,8 @@ import { BsYoutube, BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <footer className="overflow-x-hidden">
       <div className="Footer">
@@ -153,7 +155,7 @@ function Footer() {
           <div className="row justify-center">
             <div className="col-md-6 col-12 ft-1">
               <div className="text-center fs-6 my-3">
-                COPYRIGHT © Devlabs 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
+                COPYRIGHT &copy; Devlabs {year}  |  <br /> MAINTAINED BY HIMANSHU NARWARE
               </div>
               <div className="text-center mb-2">
                 <a
