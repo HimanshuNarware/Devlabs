@@ -111,7 +111,15 @@ const movies = [
     description: "Google Meet is a video conferencing tool that offers high-quality video meetings for businesses and individuals. It is best for seamless integration with Google Workspace, allowing easy scheduling, screen sharing, and collaboration in real-time.",
     image: "https://i.pcmag.com/imagery/reviews/02y6SQ4hhnWGi8zjE2FlYqi-8.fit_scale.size_760x427.v1615070874.jpg",
     releaseDate: "2017-3-9"
-  },  
+  },
+  
+  {
+    title: "Eraser",
+    category: "Collaboration Tools",
+    description: "Documents & diagrams for engineering teams All-in-one markdown editor, collaborative canvas, and diagram-as-code builder.",
+    image: "https://i.ibb.co/z8KTr7D/download.jpg",
+    releaseDate: "2023-8-1"
+  },
 ];
 const Collaboration = () => {
   return (
