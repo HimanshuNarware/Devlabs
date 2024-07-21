@@ -4068,5 +4068,12 @@
     "image": "https://1000logos.net/wp-content/uploads/2016/11/New-Google-Logo.jpg",
     "link": "https://techdevguide.withgoogle.com/",
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
+  },
+  {
+    "productName": "Pocket",
+    "category": "Extensions",
+    "image": "https://images.ctfassets.net/lzny33ho1g45/how-to-use-pocket-chrome-exten-p-img/b77f27f34eac20d97607525b1181f175/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760",
+    "link": "https://chromewebstore.google.com/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj?hl=en",
+    "description": "Ever feel like you have to bookmark a load of sources or make lists of URLs? The Pocket Chrome extension is an easy and convenient way of capturing articles, videos, or other content you come across."
   }
 ]
