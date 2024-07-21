@@ -154,6 +154,13 @@
     "link": "https://aiseo.ai/",
     "description": "AISEO is a search engine optimization tool for making the website SEO friendly, which is powered by AI."
   },
+    {
+    "productName": "Invision",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.fQsrXnDsYfNv3kbhElADrQHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.invisionapp.com/",
+    "description": "InVision Freehand is a tool for ideating, planning, executing, and tracking projects with your team. It feels like you’re holding a marker and making ideas happen on a digital canvas."
+  },
   {
     "productName": "Newton School",
     "category": "tools",
@@ -4107,7 +4114,6 @@
     "image": "https://yt3.googleusercontent.com/ytc/AIdro_l3GggKOWViCBpDs9APIsK6MHB2Mu-ECo5dUEU-Vay2gg=s900-c-k-c0x00ffffff-no-rj",
     "link": "https://www.khanacademy.org/",
     "description": "Khan Academy offers free online courses, lessons, and practice in a variety of subjects including math, science, computer programming, history, art history, economics, and more. Their mission is to provide a free, world-class education for anyone, anywhere."
-
   }, 
  {
     "productName": "HackerBlocks",
@@ -4115,6 +4121,27 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcuqHTmszxcRK7FUKOSXxT3igC_idMlxV1h6xDi7o87FUdLouhhqMx51jBCb5LigDbHuA&usqp=CAU",
     "link": "https://hack.codingblocks.com/",
     "description": "It is a Coding platform with problems categorized by difficulty and tags."
+  } , 
+  {
+    "productName": "Paiza",
+    "category": "coding",
+    "image": "https://paiza.io/assets/paizaio_logo_s-9bd1bf73a17e2002f96a6337f2fb71f9.png",
+    "link": "https://paiza.io/en",
+    "description": "Paiza Offers coding challenges and problems for practice."
+  },
+  {
+    "productName": "InterviewCake",
+    "category": "coding",
+    "image": "https://assets-global.website-files.com/62e051559bac913234470995/63da686f8720100e177b4f40_Interview%20Cake%20main.webp",
+    "link": "https://www.interviewcake.com/",
+    "description": "It is a Platform focused on coding interview preparation with challenges and solutions."
+  } ,
+  {
+    "productName": "Kattis",
+    "category": "coding",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5b5GgGle7HCIqYSkETI47l7z0yPNYCEAIiGqgy8uY4JxAtWKV",
+    "link": "https://open.kattis.com/",
+    "description": "It is a Problem-solving platform with a variety of algorithmic challenges."
   },
   {
     "productName": "CodingTrain",
