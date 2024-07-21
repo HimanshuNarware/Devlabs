@@ -115,6 +115,13 @@ const tools = [
     description: "Webpack is a module bundler for modern JavaScript applications. It compiles small pieces of code, known as modules, into a cohesive bundle for use in the browser. Webpack enables developers to manage dependencies, perform code splitting, and implement hot module replacement to enhance development efficiency. It works with a wide variety of file types and seamlessly integrates with popular frameworks and libraries, supporting both ES6 and CommonJS module formats.",
     link: "https://webpack.js.org/",
     image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwebpack.js.org%2Fconcepts%2F&psig=AOvVaw2QVMaU5NOZG8bV33cipQQc&ust=1721638369531000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMi2_-3gt4cDFQAAAAAdAAAAABAE"
+  },
+
+  {
+    name: "Mamba UI",
+    description: "Mamba UI is a free, open-source collection of UI components and templates based on Tailwind CSS.",
+    link: "https://mambaui.com/",
+    image: "https://i.ibb.co/qnbbScj/images.jpg"
   }
   
 ];
