@@ -603,6 +603,13 @@
     "description": ""
   },
   {
+    "productName": "Mimo",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mimo_Logo.png",
+    "link": "https://mimo.org/",
+    "description": "Learn to code at your own pace with Mimo"
+  },
+  {
     "productName": "ABBYY FineReader",
     "category": "tools",
     "image": "https://bit.ly/43RCAkX",
