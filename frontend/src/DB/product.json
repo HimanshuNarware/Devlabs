@@ -4072,5 +4072,12 @@
     "image": "https://yt3.googleusercontent.com/ytc/AIdro_l3GggKOWViCBpDs9APIsK6MHB2Mu-ECo5dUEU-Vay2gg=s900-c-k-c0x00ffffff-no-rj",
     "link": "https://www.khanacademy.org/",
     "description": "Khan Academy offers free online courses, lessons, and practice in a variety of subjects including math, science, computer programming, history, art history, economics, and more. Their mission is to provide a free, world-class education for anyone, anywhere."
+  }  ,
+  {
+    "productName": "CodingTrain",
+    "category": "coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXs38rG-jePlVDJT4Z2Debt26Xt5xzPYSURfsKQmFIdifki8x2",
+    "link": "https://thecodingtrain.com/",
+    "description": "It consists of Coding challenges and tutorials."
   }  
 ]
