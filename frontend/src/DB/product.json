@@ -189,6 +189,13 @@
     "description": "Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
   },
   {
+    "productName": "DigitalOcean",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png",
+    "link": "https://www.digitalocean.com/",
+    "description": "Simple, scalable virtual machines for all your web hosting and VPS hosting needs."
+  },
+  {
     "productName": "GitLab",
     "category": "tools",
     "image": "https://www.pngfind.com/pngs/m/94-945757_gitlab-logo-hd-png-download.png",
