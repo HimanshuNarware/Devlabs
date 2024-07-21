@@ -259,6 +259,13 @@
     "description": "Synergic philosophy of education, with a culture of mutual learning through micro groups of peers."
   },
   {
+    "productName": "Holopin",
+    "category": "tools",
+    "image": "https://www.holopin.io/images/logo.png",
+    "link": "https://www.holopin.io/",
+    "description": "Platform that allows you to issue digital badges that people love."
+  },
+  {
     "productName": "Flipboard",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flipboard_logo.svg/1200px-Flipboard_logo.svg.png",
