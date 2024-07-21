@@ -511,6 +511,13 @@
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
   },
   {
+    "productName": "Patreon",
+    "category": "tools",
+    "image": "https://crystalpng.com/wp-content/uploads/2023/10/New-Patreon-Logo.png",
+    "link": "https://www.patreon.com/",
+    "description": "Space to create what excites you most, rough or polished, big or small."
+  },
+  {
     "productName": "Skills Network Labs",
     "category": "tools",
     "image": "https://skills.network/logos/SN_web_lightmode.svg",
