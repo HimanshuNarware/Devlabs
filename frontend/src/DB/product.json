@@ -14,6 +14,20 @@
     "description": "Free study notes,summaries and exam prep."
   },
   {
+    "productName":"Netflix",
+    "category":"movies",
+    "image":"https://shorturl.at/5YFuN",
+    "link":"https://www.netflix.com/in/",
+    "description":"It is an video streaming platform where user can see multiple language Videos."
+  },
+  {
+    "productName": "Logo AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.IUVcNkv_e4sDdvKlUDLy6gAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://www.logoai.com/",
+    "description": "LogoAI is a AI powered logo generator, which creates logos with creative and profressional design."
+  },
+  {
     "productName": "Bulk resize Images",
     "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbardxOJox-lSC4XHAGcFvfz8GQO26osFcOA&s",
@@ -85,12 +99,27 @@
     "description": "Lucidchart helps you to visualize ideas, make charts, diagrams & more. Get the most powerful, professional diagram software on the market."
   },
   {
+    "productName": "AISEO",
+    "category": "tools",
+    "image": "https://webinarcare.com/wp-content/img/aiseo-ai-logo.png",
+    "link": "https://aiseo.ai/",
+    "description": "AISEO is a search engine optimization tool for making the website SEO friendly, which is powered by AI."
+  },
+    {
+    "productName": "Invision",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.fQsrXnDsYfNv3kbhElADrQHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.invisionapp.com/",
+    "description": "InVision Freehand is a tool for ideating, planning, executing, and tracking projects with your team. It feels like you’re holding a marker and making ideas happen on a digital canvas."
+  },
+  {
     "productName": "Newton School",
     "category": "tools",
     "image": "https://cdn.theorg.com/b42e95e6-f1e5-49de-ba52-d9ec80f925f2_thumb.jpg",
     "link": "https://www.newtonschool.co/",
     "description": "Neo-university providing highly immersive learning to millions of students and working professionals to tap into new-age technology."
-  },{
+  },
+  {
     "productName":"Amazon Prime Video",
     "category":"movies",
     "image":"https://shorturl.at/dxObb",
@@ -210,6 +239,20 @@
     "description": "Synergic philosophy of education, with a culture of mutual learning through micro groups of peers."
   },
   {
+    "productName": "Holopin",
+    "category": "tools",
+    "image": "https://www.holopin.io/images/logo.png",
+    "link": "https://www.holopin.io/",
+    "description": "Platform that allows you to issue digital badges that people love."
+  },
+  {
+    "productName": "Flipboard",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flipboard_logo.svg/1200px-Flipboard_logo.svg.png",
+    "link": "https://about.flipboard.com/",
+    "description": "One place for all the top stories, deep dives and curated content you need"
+  },
+  {
     "productName": "InstaHire",
     "category": "tools",
     "image": "https://shorturl.at/gj1LR",
@@ -264,6 +307,13 @@
     "image": "https://shorturl.at/uRx8f",
     "link": "https://www.codedpad.com/",
     "description": "Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
+  },
+  {
+    "productName": "DigitalOcean",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png",
+    "link": "https://www.digitalocean.com/",
+    "description": "Simple, scalable virtual machines for all your web hosting and VPS hosting needs."
   },
   {
     "productName": "GitLab",
@@ -350,6 +400,13 @@
     "description": "SEO WRITING is an AI writing tool for 1-click SEO-optimized articles, blog posts & affiliate content."
   },
   {
+    "productName": "DoraHacks",
+    "category": "tools",
+    "image": "https://www.finsmes.com/wp-content/uploads/2022/08/dorahacks.jpeg",
+    "link": "https://dorahacks.io/",
+    "description": "BUIDLs, hackathons, grants, quadratic funding rounds, bounties,etc"
+  },
+  {
     "productName": "Tinkercad",
     "category": "tools",
     "image": "https://api-reader.tinkercad.com/api/images/cbdy6sTzSjf/t725.jpg",
@@ -376,6 +433,13 @@
     "image": "https://bit.ly/3XoZKgc",
     "link": "https://bit.ly/3plUFZw",
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
+  },
+  {
+    "productName": "Patreon",
+    "category": "tools",
+    "image": "https://crystalpng.com/wp-content/uploads/2023/10/New-Patreon-Logo.png",
+    "link": "https://www.patreon.com/",
+    "description": "Space to create what excites you most, rough or polished, big or small."
   },
   {
     "productName": "Skills Network Labs",
@@ -559,6 +623,13 @@
     "image": "https://shorturl.at/GXgoW",
     "link": "https://shorturl.at/bfYei",
     "description": ""
+  },
+  {
+    "productName": "Mimo",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mimo_Logo.png",
+    "link": "https://mimo.org/",
+    "description": "Learn to code at your own pace with Mimo"
   },
   {
     "productName": "ABBYY FineReader",
@@ -3933,5 +4004,48 @@
     "image": "https://logowik.com/content/uploads/images/rakuten7982.jpg",
     "link": "https://chromewebstore.google.com/detail/rakuten-get-cash-back-for/chhjbpecpncaggjpdakmflnfcopglcmi?hl=en",
     "description": "It’s a nice way to get some cashback, and this is on top of whatever cashback or points you may get from your credit card! The extension makes it easy to check for offers while shopping online."
-   }
+   },
+  {
+    "productName": "Khan Academy",
+    "category": "course",
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_l3GggKOWViCBpDs9APIsK6MHB2Mu-ECo5dUEU-Vay2gg=s900-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.khanacademy.org/",
+    "description": "Khan Academy offers free online courses, lessons, and practice in a variety of subjects including math, science, computer programming, history, art history, economics, and more. Their mission is to provide a free, world-class education for anyone, anywhere."
+  }, 
+ {
+    "productName": "HackerBlocks",
+    "category": "coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcuqHTmszxcRK7FUKOSXxT3igC_idMlxV1h6xDi7o87FUdLouhhqMx51jBCb5LigDbHuA&usqp=CAU",
+    "link": "https://hack.codingblocks.com/",
+    "description": "It is a Coding platform with problems categorized by difficulty and tags."
+  } , 
+  {
+    "productName": "Paiza",
+    "category": "coding",
+    "image": "https://paiza.io/assets/paizaio_logo_s-9bd1bf73a17e2002f96a6337f2fb71f9.png",
+    "link": "https://paiza.io/en",
+    "description": "Paiza Offers coding challenges and problems for practice."
+  },
+  {
+    "productName": "InterviewCake",
+    "category": "coding",
+    "image": "https://assets-global.website-files.com/62e051559bac913234470995/63da686f8720100e177b4f40_Interview%20Cake%20main.webp",
+    "link": "https://www.interviewcake.com/",
+    "description": "It is a Platform focused on coding interview preparation with challenges and solutions."
+  } ,
+  {
+    "productName": "Kattis",
+    "category": "coding",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5b5GgGle7HCIqYSkETI47l7z0yPNYCEAIiGqgy8uY4JxAtWKV",
+    "link": "https://open.kattis.com/",
+    "description": "It is a Problem-solving platform with a variety of algorithmic challenges."
+  },
+  {
+    "productName": "CodingTrain",
+    "category": "coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXs38rG-jePlVDJT4Z2Debt26Xt5xzPYSURfsKQmFIdifki8x2",
+    "link": "https://thecodingtrain.com/",
+    "description": "It consists of Coding challenges and tutorials."
+  
+  }  
 ]

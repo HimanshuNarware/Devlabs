@@ -1,5 +1,4 @@
 .Footer {
-
   padding: 2rem 0;
   margin-top: 15rem;
   background: #6a43c3;
@@ -10,7 +9,7 @@
   margin-top: 28px;
   text-align: center;
   color: rgb(217, 179, 255);
-  font-weight:600;
+  font-weight: 600;
 }
 
 .ft-1 button {
@@ -40,13 +39,13 @@
   box-shadow: 2px 2px 1px #000;
 }
 
-.ft-1 button a{
+.ft-1 button a {
   color: #fff;
   font-size: 24px;
   text-decoration: none;
 }
 
-.ft-1 button:hover a{
+.ft-1 button:hover a {
   color: #000;
   font-weight: 700;
 }
@@ -108,26 +107,30 @@ footer {
 .ft-2 ul a {
   text-decoration: none;
   color: white;
-	font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
-.ft-2 h3{
-  color: rgb(217, 179, 255);;
+.ft-2 h3 {
+  color: rgb(217, 179, 255);
   font-weight: 600;
   text-align: start;
 }
 
-.ft-space{
-	margin: 0 2.8rem;
+.ft-space {
+  margin: 0 2.8rem;
 }
 
-.ft-last{
-	margin-top: -.2rem;
+.ft-last {
+  margin-top: -0.2rem;
 }
 
 .ft-4 {
   margin-top: 3.5rem;
   text-decoration: none;
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .ft-4 ul {
@@ -150,7 +153,7 @@ footer {
 }
 
 .Last-footer {
-  background: #6a43c3;;
+  background: #6a43c3;
   border: 1px solid white;
   text-align: center;
   padding: 1rem 0;
@@ -167,7 +170,8 @@ footer {
   padding: 3px;
   border-radius: 5px;
   background-color: #ee00ff;
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
   margin-left: 10px;
   margin-top: 20px;
   box-shadow: 0 4px 6px rgb(6, 40, 231);
@@ -187,14 +191,15 @@ footer {
 }
 
 @keyframes icon-bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-10px);
   }
-  75%{
-    transform:translateY(-5px);
+  75% {
+    transform: translateY(-5px);
   }
 }
 
@@ -325,9 +330,8 @@ footer {
   );
   position: absolute;
   transition: 0.5s;
-  
 }
-.outerD{
+.outerD {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -379,7 +383,6 @@ footer {
 }
 
 .ico {
- 
   position: absolute;
   font-size: 21px;
   z-index: 20;
@@ -391,18 +394,23 @@ footer {
   color: white; /* Remove font-size property from here */
 }
 
-.head{
+.head {
   @apply xs:text-[12px]; /* Remove font-size property from here */
 }
 
-.sec2 ul h2{
+.sec2 ul h2 {
   padding-bottom: 10px;
   font-size: 17px;
   font-weight: 600;
-  color:#e5e1e1
+  color: #e5e1e1;
 }
-.sec2 ul li{
+.sec2 ul li {
   font-size: 15px;
   color: rgb(255, 255, 255);
+}
 
+@media screen and (max-width: "800px") {
+  .explore {
+    margin-left: 20px;
+  }
 }

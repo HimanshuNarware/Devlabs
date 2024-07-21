@@ -57,31 +57,31 @@ const movies = [
     releaseDate: "2023-10-27",
   },
   {
-    title: "Django Development",
-    category: 'Computer Science',
+    title: "I Am Kalam",
+    category: "Drama",
     description:
-      "Learn how to build web applications using Django, a high-level Python web framework.",
+      "Chotu, a poor boy, derives inspiration from the former President of India APJ Abdul Kalam. He then decides to change his name to Kalam and harbours a dream of meeting the visionary.",
     image:
-      "https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png",
-    releaseDate: "2024-11-01",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEWzNQl0BuH5X56lglHNrSJvIM1VZ3VEgA9K0f4TNzo-93WHp",
+    releaseDate: "2011-08-05",
   },
   {
-    title: "Machine Learning",
-    category: "Data Science",
+    title: "Mary Kom",
+    category: "Sports/Action",
     description:
-      "Understand the basics of machine learning and how to implement algorithms using Python.",
+      "When Mary Kom encounters a renowned coach in a boxing gym, she shares her boxing aspirations with him and convinces him to teach her. Despite her father's disapproval, she follows her passion.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU61gHjrBj82OI2mq97amNjrhOcN4ouggl7w&s",
-    releaseDate: "2024-11-15",
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkflHw3-Y9fnKzKa3YxTXl_3xe8YJEWp4KFrfM5NZEsHg4Dqfi",
+    releaseDate: "2014-09-05",
   },
   {
-    title: "DevOps Fundamentals",
-    category: "Computer Science",
+    title: "Chhichhore",
+    category: "Comedy/Sport",
     description:
-      "Learn the fundamentals of DevOps and how to implement a successful DevOps culture.",
+      "A tragic incident forces Anirudh, a middle-aged man, to take a trip down memory lane and reminisce his college days along with his friends, who were labelled as losers.",
     image:
-      "https://i.pinimg.com/564x/40/56/d9/4056d91b5e4b1c81af71afec6620f9fe.jpg",
-    releaseDate: "2024-12-01",
+      "https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/9771/1599771-h-2ce23e9cb135",
+    releaseDate: "2019-09-06",
   },
 ];
 
