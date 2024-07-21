@@ -28,6 +28,13 @@
     "description": "LogoAI is a AI powered logo generator, which creates logos with creative and profressional design."
   },
   {
+    "productName":"Disney Plus",
+    "category":"movies",
+    "image":"https://shorturl.at/GHg6D",
+    "link":"https://www.hotstar.com/",
+    "description":"It is an movies streaming platform where we can view multiple events like movies, sports, Tv shows and more."
+  },
+  {
     "productName": "Bulk resize Images",
     "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbardxOJox-lSC4XHAGcFvfz8GQO26osFcOA&s",
