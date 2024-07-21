@@ -22,6 +22,13 @@ const tools = [
     link: "https://gun.io/", 
     image: "gun-io.png" 
   },
+  {
+    name: "Remote OK",
+    description: "Remote OK is a leading remote job board that helps job seekers find remote work opportunities across various industries, including tech, marketing, customer support, and more. The platform features job listings from companies around the world, making it easier for professionals to find jobs that allow them to work from anywhere. Remote OK also provides resources and tools to support remote work and job searching.",
+    link: "https://remoteok.io/",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQioHxiZp-CifKLWAH7yJGKCbpFKjFR45OZ-g&s"
+  }
+  
 ];
 
 const CodingPlatform = () => {
