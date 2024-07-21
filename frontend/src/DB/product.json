@@ -154,6 +154,13 @@
     "link": "https://aiseo.ai/",
     "description": "AISEO is a search engine optimization tool for making the website SEO friendly, which is powered by AI."
   },
+    {
+    "productName": "Invision",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.fQsrXnDsYfNv3kbhElADrQHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.invisionapp.com/",
+    "description": "InVision Freehand is a tool for ideating, planning, executing, and tracking projects with your team. It feels like you’re holding a marker and making ideas happen on a digital canvas."
+  },
   {
     "productName": "Newton School",
     "category": "tools",
@@ -308,6 +315,13 @@
     "description": "Synergic philosophy of education, with a culture of mutual learning through micro groups of peers."
   },
   {
+    "productName": "Holopin",
+    "category": "tools",
+    "image": "https://www.holopin.io/images/logo.png",
+    "link": "https://www.holopin.io/",
+    "description": "Platform that allows you to issue digital badges that people love."
+  },
+  {
     "productName": "Flipboard",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flipboard_logo.svg/1200px-Flipboard_logo.svg.png",
@@ -369,6 +383,13 @@
     "image": "https://shorturl.at/uRx8f",
     "link": "https://www.codedpad.com/",
     "description": "Coded Pad is a simple, sign-in-free website for securely storing and accessing text information with an optional lock feature."
+  },
+  {
+    "productName": "DigitalOcean",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png",
+    "link": "https://www.digitalocean.com/",
+    "description": "Simple, scalable virtual machines for all your web hosting and VPS hosting needs."
   },
   {
     "productName": "GitLab",
@@ -469,6 +490,13 @@
     "description": "SEO WRITING is an AI writing tool for 1-click SEO-optimized articles, blog posts & affiliate content."
   },
   {
+    "productName": "DoraHacks",
+    "category": "tools",
+    "image": "https://www.finsmes.com/wp-content/uploads/2022/08/dorahacks.jpeg",
+    "link": "https://dorahacks.io/",
+    "description": "BUIDLs, hackathons, grants, quadratic funding rounds, bounties,etc"
+  },
+  {
     "productName": "Tinkercad",
     "category": "tools",
     "image": "https://api-reader.tinkercad.com/api/images/cbdy6sTzSjf/t725.jpg",
@@ -495,6 +523,13 @@
     "image": "https://bit.ly/3XoZKgc",
     "link": "https://bit.ly/3plUFZw",
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
+  },
+  {
+    "productName": "Patreon",
+    "category": "tools",
+    "image": "https://crystalpng.com/wp-content/uploads/2023/10/New-Patreon-Logo.png",
+    "link": "https://www.patreon.com/",
+    "description": "Space to create what excites you most, rough or polished, big or small."
   },
   {
     "productName": "Skills Network Labs",
@@ -685,6 +720,13 @@
     "image": "https://shorturl.at/GXgoW",
     "link": "https://shorturl.at/bfYei",
     "description": ""
+  },
+  {
+    "productName": "Mimo",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mimo_Logo.png",
+    "link": "https://mimo.org/",
+    "description": "Learn to code at your own pace with Mimo"
   },
   {
     "productName": "ABBYY FineReader",
@@ -4079,5 +4121,26 @@
     "image": "https://paiza.io/assets/paizaio_logo_s-9bd1bf73a17e2002f96a6337f2fb71f9.png",
     "link": "https://paiza.io/en",
     "description": "Paiza Offers coding challenges and problems for practice."
+  },
+  {
+    "productName": "InterviewCake",
+    "category": "coding",
+    "image": "https://assets-global.website-files.com/62e051559bac913234470995/63da686f8720100e177b4f40_Interview%20Cake%20main.webp",
+    "link": "https://www.interviewcake.com/",
+    "description": "It is a Platform focused on coding interview preparation with challenges and solutions."
+  } ,
+  {
+    "productName": "Kattis",
+    "category": "coding",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5b5GgGle7HCIqYSkETI47l7z0yPNYCEAIiGqgy8uY4JxAtWKV",
+    "link": "https://open.kattis.com/",
+    "description": "It is a Problem-solving platform with a variety of algorithmic challenges."
+  }  ,
+  {
+    "productName": "CodingTrain",
+    "category": "coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXs38rG-jePlVDJT4Z2Debt26Xt5xzPYSURfsKQmFIdifki8x2",
+    "link": "https://thecodingtrain.com/",
+    "description": "It consists of Coding challenges and tutorials."
   }  
 ]
