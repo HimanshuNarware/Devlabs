@@ -4072,5 +4072,12 @@
     "image": "https://yt3.googleusercontent.com/ytc/AIdro_l3GggKOWViCBpDs9APIsK6MHB2Mu-ECo5dUEU-Vay2gg=s900-c-k-c0x00ffffff-no-rj",
     "link": "https://www.khanacademy.org/",
     "description": "Khan Academy offers free online courses, lessons, and practice in a variety of subjects including math, science, computer programming, history, art history, economics, and more. Their mission is to provide a free, world-class education for anyone, anywhere."
-  }  
+  },
+  {
+   "productName": "Novorésumé",
+   "category": "resume",
+   "image": "https://github.com/user-attachments/assets/936a6da8-8bc5-403a-a409-b617bb3b4efe",
+   "link": "https://novoresume.com/",
+   "description": "Novorésumé offers a free plan with access to several professional resume templates, designed to help users create polished and modern resumes."
+ }  
 ]
