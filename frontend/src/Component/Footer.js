@@ -154,9 +154,14 @@ function Footer() {
         <div className="container">
           <div className="row justify-center">
             <div className="col-md-6 col-12 ft-1">
-              <div className="text-center fs-6 my-3">
+            <div className="text-center fs-6 my-3">
                 COPYRIGHT &copy; Devlabs {year}  |  <br /> MAINTAINED BY HIMANSHU NARWARE
+                <br />
+              <div className="legal">
+              <a href="/PrivacyPolicy" className="footer-link" target="_blank" rel="noopener noreferrer">Privacy Policy</a> | 
+              <a href="/TermsOfService" className="footer-link" target="_blank" rel="noopener noreferrer">Terms of Service</a>
               </div>
+            </div>
               <div className="text-center mb-2">
                 <a
                   href="https://github.com/sponsors/HimanshuNarware"
