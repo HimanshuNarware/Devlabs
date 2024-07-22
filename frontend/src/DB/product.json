@@ -2722,10 +2722,10 @@
   {
     "productName": "Text2SQL AI",
     "category": "ai",
-    "image": "Text2SQL.png",
+    "image": "https://pbs.twimg.com/profile_images/1590077991685689346/dqd1JhnW_400x400.jpg",
     "link": "https://www.text2sql.ai/",
-    "description": "Convert natural language queries into SQL queries"
-  },
+    "description": "Text2SQL AI converts natural language queries into SQL, enabling users to query databases without writing SQL code."
+  },	
   {
     "productName": "CodiumL AI",
     "category": "ai",
