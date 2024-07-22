@@ -12,7 +12,7 @@ import NavbarRight from "./Navbar/NavbarRight";
 import Tilt from "react-parallax-tilt";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import debounce from 'lodash.debounce';
+import debounce from "lodash.debounce";
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -269,13 +269,15 @@ function Home(props) {
   const handleSearch = debounce((query) => {
     setSearchQuery(query);
 
-    if (query === '') {
+    if (query === "") {
       setSearchResults([]);
       return;
     }
 
-    const results = jsonTools.filter((tool) => 
-      tool.productName && tool.productName.toLowerCase().includes(query.toLowerCase())
+    const results = jsonTools.filter(
+      (tool) =>
+        tool.productName &&
+        tool.productName.toLowerCase().includes(query.toLowerCase())
     );
 
     setSearchResults(results);
@@ -303,7 +305,7 @@ function Home(props) {
                   </h1>
                 </h1>
 
-                <div className="hero-button-container">
+                <div className="hero-button-container" style={{display: "flex", justifyContent: "center"}}>
                   <button className="hero-button">
                     <NavbarItem description="Get Started" to="/open-source" />
                   </button>
@@ -321,16 +323,22 @@ function Home(props) {
         <h3> Lets Get, What You seek!</h3>
         {/* <NavbarRight setSearchQuery={setSearchQuery} /> */}
         <div className="search-feilds">
-          <input  className="search-input text-white" onChange={(e) => handleSearch(e.target.value)} type="text" placeholder='Search Tools ...' />
+          <input
+            className="search-input text-white"
+            onChange={(e) => handleSearch(e.target.value)}
+            type="text"
+            placeholder="Search Tools ..."
+          />
         </div>
         <br />
         {searchQuery && searchResults.length === 0 && (
-          <div className="no-results">No matching tools found.</div>
+          <div className="no-results">
+            <img src="./empty-state.png" height={"300px"} width={"300px"} style={{background: "none"}} alt="empty_state_img"/>
+            <h1>No matching tools found.</h1>
+          </div>
         )}
         {!loading && currentPost.length === 0 && (
-          <div
-            className="empty-state"
-          >
+          <div className="empty-state">
             <img
               src="https://i.pinimg.com/originals/5d/35/e3/5d35e39988e3a183bdc3a9d2570d20a9.gif"
               className="home-img"
@@ -356,40 +364,28 @@ function Home(props) {
           </div>
           <div className={loading ? "loading-container" : "main-container"}>
             {loading && (
-              <div
-                className="home-loading"
-              >
-                <div
-                  className="home-loading-container"
-                >
+              <div className="home-loading">
+                <div className="home-loading-container">
                   <Skeleton circle={"true"} height={90} width={90} />
                   <Skeleton width={130} />
                   <Skeleton count={5} />
                 </div>
-                <div
-                 className="home-loading-container"
-                >
+                <div className="home-loading-container">
                   <Skeleton circle={"true"} height={90} width={90} />
                   <Skeleton width={130} />
                   <Skeleton count={5} />
                 </div>
-                <div
-                 className="home-loading-container"
-                >
+                <div className="home-loading-container">
                   <Skeleton circle={"true"} height={90} width={90} />
                   <Skeleton width={130} />
                   <Skeleton count={5} />
                 </div>
-                <div
-                  className="home-loading-container"
-                >
+                <div className="home-loading-container">
                   <Skeleton circle={"true"} height={90} width={90} />
                   <Skeleton width={130} />
                   <Skeleton count={5} />
                 </div>
-                <div
-                  className="home-loading-container"
-                >
+                <div className="home-loading-container">
                   <Skeleton circle={"true"} height={90} width={90} />
                   <Skeleton width={130} />
                   <Skeleton count={5} />
@@ -399,10 +395,11 @@ function Home(props) {
 
             {!loading &&
               filteredItems
-              .filter((item) => {
-                return searchQuery.toLowerCase() === '' ? item : item.productName.toLowerCase()
-                  .includes(searchQuery)
-              })
+                .filter((item) => {
+                  return searchQuery.toLowerCase() === ""
+                    ? item
+                    : item.productName.toLowerCase().includes(searchQuery);
+                })
                 .slice(firstPostIndex, lastPostIndex)
                 .map((datalist) => {
                   return (
@@ -505,7 +502,7 @@ function Home(props) {
                   </a>
                 </li>
               </div>
-             </ul>
+            </ul>
           </div>
         </div>
       </div>
