@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Starknet",
+    "category": "Web",
+    "image": "https://www.starknet.io/wp-content/themes/Starknet/assets/img/starknet-logo.svg",
+    "link": "https://www.starknet.io/",
+    "description": "Starknet is a Validity Rollup that provides unlimited scale while retaining Ethereum’s security and decentralization."
+  },
+  {
     "productName": "Cohere AI",
     "category": "Tool",
     "image": "https://www.appengine.ai/uploads/images/profile/logo/Cohere-AI.png",
