@@ -302,6 +302,13 @@
     "description": "Study materials such as tutorials, articles, and resources for Java programming and other related technologies"
   },
   {
+    "productName": "Stability AI",
+    "category": "tools",
+    "image": "https://assets.wheelhouse.com/media/_solution_logo_04172024_37776555.jpeg",
+    "link": "https://stability.ai/",
+    "description": "Stable Diffusion 3 Medium is the latest and most advanced text-to-image AI model"
+  },
+  {
     "productName": "Freepik",
     "category": "tools",
     "image": "https://tinyurl.com/bdfw6dyv",
