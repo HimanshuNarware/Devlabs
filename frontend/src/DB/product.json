@@ -378,6 +378,13 @@
     "description": "Moodle is a Learning Platform or course management system, a free Open Source software package "
   },
   {
+    "productName": "Evernote",
+    "category": "tools",
+    "image": "https://w7.pngwing.com/pngs/557/404/png-transparent-evernote-computer-icons-evernote-trademark-logo-grass.png",
+    "link": "https://evernote.com/",
+    "description": "Use Evernote to capture more than just words. Harness the power of the internet with Web Clipper."
+  },
+  {
     "productName": "Scaler",
     "category": "course",
     "image": "https://bit.ly/3XoZKgc",
