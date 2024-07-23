@@ -4117,5 +4117,12 @@
     "image": "https://1000logos.net/wp-content/uploads/2016/11/New-Google-Logo.jpg",
     "link": "https://techdevguide.withgoogle.com/",
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
+  },
+  {
+    "productName": "Solar Movie",
+    "category": "movies",
+    "image": "https://ww7.solarmovie.to/img/logo.png",
+    "link": "https://ww7.solarmovie.to/home.html",
+    "description": "Offers free streaming of a wide variety of movies and TV shows, with high-quality video and minimal ads, allowing users to filter by genre and country."
   }
 ]
