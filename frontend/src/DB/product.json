@@ -379,6 +379,13 @@
     "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
   },
   {
+    "productName": "Poshmark",
+    "category": "tools",
+    "image": "https://seeklogo.com/images/P/poshmark-logo-ED11EB78C9-seeklogo.com.png",
+    "link": "https://poshmark.com/",
+    "description": "Buy, sell, and discover fashion, home decor, beauty, and more."
+  },
+  {
     "productName": "Coursera",
     "category": "course",
     "image": "http://bit.ly/4dMPPZY",
