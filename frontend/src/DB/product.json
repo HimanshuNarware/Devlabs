@@ -470,6 +470,13 @@
     "description": "Virtual lab environment reserved for the exclusive use by the learners on Skills Network portals "
   },
   {
+    "productName": "FreshBooks",
+    "category": "tools",
+    "image": "https://i.pcmag.com/imagery/reviews/01y4SpcWPPMcK3pLVjjSGuo-31.fit_scale.size_760x427.v1604087112.png",
+    "link": "https://www.freshbooks.com/",
+    "description": "Snap receipt photos, forward email receipts to your account, and import expenses from your bank account."
+  },
+  {
     "productName": "Pluralsight",
     "category": "tools",
     "image": "https://seeklogo.com/images/P/pluralsight-logo-BA976E7D4C-seeklogo.com.png",
