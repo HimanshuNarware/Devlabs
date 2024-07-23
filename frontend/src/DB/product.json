@@ -442,6 +442,13 @@
     "description": "To remove backgrounds of image,logos,etc.."
   },
   {
+    "productName": "Appy Pie",
+    "category": "tools",
+    "image": "https://www.appypie.com/wp-content/uploads/2020/01/Appy-Pie-Logo.jpg",
+    "link": "https://www.appypie.com/",
+    "description": "Anybody can create applications, websites, chatbots, and more on any internet-connected device without having to hire a programmer or agency."
+  },
+  {
     "productName": "Moodle",
     "category": "tools",
     "image": "https://cdn.iconscout.com/icon/free/png-256/free-moodle-8-1174944.png",
