@@ -421,6 +421,13 @@
     "description": "Tinkercad is a free, easy-to-use app for 3D design, electronics, and coding."
   },
   {
+    "productName": "Stitch Fix",
+    "category": "tools",
+    "image": "https://cdn.freelogovectors.net/wp-content/uploads/2019/01/stitch_fix_logo.png",
+    "link": "https://www.stitchfix.com/",
+    "description": "Personal styling for men, women & kids that sends clothing to your door"
+  },
+  {
     "productName": "Remove.bg",
     "category": "tools",
     "image": "https://sb.kaleidousercontent.com/67418/1024x1024/29e2b38e80/rbg-macos-app-icon-2x.png",
