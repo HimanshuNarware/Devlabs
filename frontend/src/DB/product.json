@@ -4117,5 +4117,12 @@
     "image": "https://1000logos.net/wp-content/uploads/2016/11/New-Google-Logo.jpg",
     "link": "https://techdevguide.withgoogle.com/",
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
+  } ,
+  {
+    "productName": "Go Movies",
+    "category": "movies",
+    "image": "https://gomovies-hd.com/wp-content/uploads/2024/04/GoMovies-HD-logo-optimized.webp",
+    "link": "https://gomovies-hd.com/",
+    "description": "A popular site for free movie and TV show streaming, featuring an easy-to-navigate layout and a diverse range of genres and categories."
   }
 ]
