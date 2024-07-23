@@ -259,6 +259,13 @@
     "description": "Build fast, responsive sites with Bootstrap"
   },
   {
+    "productName": "Venngage",
+    "category": "tools",
+    "image": "https://wittysparks.com/wp-content/uploads/2021/11/venngage-logo.jpg",
+    "link": "https://venngage.com/",
+    "description": "Create within the simple but powerful editor."
+  },
+  {
     "productName": "Mulearn",
     "category": "tools",
     "image": "https://mulearn.org/%C2%B5Learn.webp",
