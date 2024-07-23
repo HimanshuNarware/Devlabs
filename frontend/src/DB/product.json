@@ -351,6 +351,13 @@
     "description": "Collection of cheet sheets of mutilple techs."
   },
   {
+    "productName": "Autodesk",
+    "category": "tools",
+    "image": "https://brand.autodesk.com/app/uploads/2021/04/primary-logo-1.svg",
+    "link": "https://www.autodesk.com/education/edu-software/overview",
+    "description": "Unlock your creative potential with 3D design software from Autodesk."
+  },
+  {
     "productName": "Reduce Images",
     "category": "tools",
     "image": "reducelogo.png",
