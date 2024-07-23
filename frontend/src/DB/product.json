@@ -4117,5 +4117,13 @@
     "image": "https://1000logos.net/wp-content/uploads/2016/11/New-Google-Logo.jpg",
     "link": "https://techdevguide.withgoogle.com/",
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
+  },
+  {
+    "productName": "Code Combat",
+    "category": "coding",
+    "image": "https://codecombat.com/images/pages/base/logo.webp",
+    "link": "https://codecombat.com/",
+    "description": "CodeCombat, which is a platform that teaches coding through a game format, and other platforms, you can search for their official sites similarly to access the most up-to-date and detailed information."
   }
+
 ]
