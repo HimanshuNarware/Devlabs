@@ -4117,5 +4117,12 @@
     "image": "https://1000logos.net/wp-content/uploads/2016/11/New-Google-Logo.jpg",
     "link": "https://techdevguide.withgoogle.com/",
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
+  },
+  {
+    "productName": "CodinGame",
+    "category": "coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHIuzVjgIdFx5QHzhc-bjA56K2wHUesEOJS343td7f7gjtznLE",
+    "link": "https://www.codingame.com/start/#:~:text=URL%3A%20https%3A%2F%2Fwww.codingame.com%2F%0ALoading...%0AVisible%3A%200%25%20",
+    "description": " CodinGame provides a fun way to practice coding through games and puzzles. It supports multiple programming languages and offers both solo and multiplayer challenges."
   }
 ]
