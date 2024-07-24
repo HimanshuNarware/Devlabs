@@ -4154,6 +4154,125 @@
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
   },
   {
+    "productName": "Amplitude",
+    "category": "Analytics",
+    "image": "https://media.licdn.com/dms/image/C560BAQEvD1JyOCKwqw/company-logo_200_200/0/1649303244821/amplitude_analytics_logo?e=1729728000&v=beta&t=grX8DGI4ZInpbx8NnItAI9cWwPfWZgSeBzX0IxL-JkM",
+    "link": "https://amplitude.com/",
+    "desciption": "We are a digital analytics platform. We help every business optimize the business value of digital product innovation. We’re the competitive edge to not only survive—but thrive—in the new era."
+  },
+  {
+    "productName": "Typeform",
+    "category": "web",
+    "image": "https://media.licdn.com/dms/image/D560BAQFy5KmPrKEGYQ/company-logo_200_200/0/1694110563776/typeform__logo?e=1729728000&v=beta&t=-9b-ALSJIX7KY_nA8TNSC8cKGlmysZvl1p_3xhuPsBM",
+    "link": "https://www.typeform.com/",
+    "description": "Make forms worth filling out by getting more data—like signups, feedback, and anything else—with refreshingly different designs."
+  },
+  {
+    "productName": "DagsHub",
+    "category": "AI",
+    "image": "https://media.licdn.com/dms/image/D4D0BAQEi95YymFDeXQ/company-logo_200_200/0/1706796611414/dagshub_logo?e=1729728000&v=beta&t=s7CXAnefZ94cTuSbg6luXXebCPDJUeS0VXp8aDwNhWY",
+    "link": "https://dagshub.com/",
+    "desciption": "DagsHub was created to be a home for open source data science, where everyone can contribute and make the research and development process transparent, inclusive and better for everyone"
+  },
+  {
+    "productName": "Swagger",
+    "category": "API",
+    "image": "https://media.licdn.com/dms/image/C4E0BAQHvcaaw3m3gUw/company-logo_200_200/0/1633542767992/smartbear_logo?e=1729728000&v=beta&t=k1_BoMZa2kWf5YK2uqQ85E_UzAXpyLKLYgiTloJTpZQ",
+    "link": "https://swagger.io/",
+    "desciption": "Simplify your API development with our open-source and professional tools, built to help you and your team efficiently design and document APIs at scale."
+  },
+  {
+    "productName": "Hugging Face",
+    "category": "AI",
+    "image": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+    "link": "https://huggingface.co/",
+    "desciption": "The platform where the machine learning community collaborates on models, datasets, and applications."
+  },
+  {
+    "productName": "Claude AI",
+    "category": "AI",
+    "image": "",
+    "link": "https://claude.ai/new",
+    "desciption": "Claude is an advanced AI assistant created by Anthropic. It is designed to engage in a wide range of tasks including analysis, writing, coding, math, and creative endeavors. Claude aims to provide helpful, accurate, and thoughtful responses while maintaining strong ethical principles."
+  },
+  {
+    "productName": "Circleback",
+    "category": "AI",
+    "image": "https://media.licdn.com/dms/image/C560BAQFHn_VoXJitew/company-logo_200_200/0/1674682391014/circleback_ai_logo?e=1729728000&v=beta&t=HS9PSDBZu74pBHex7FO3OJCqwPlgWR5uB24DmTAH5X8",
+    "link": "https://circleback.ai/",
+    "desciption": "AI-powered notes, action items, and automations. Automatically updates your CRM, Notion, and more."
+  },
+  {
+    "productName": "Vidnoz",
+    "category": "AI",
+    "image": "https://www.vidnoz.com/img/indexNew/vidnoz.png",
+    "link": "https://www.vidnoz.com/",
+    "description": "AI videos effortlessly with our easy-to-use, fast, and completely free AI video generator. No costs, downloads, or experience required—just pick from 1000+ AI avatars, 830+ realistic AI voices, and 1000+ templates to bring your vision to life."
+  },
+  {
+    "productName": "10Web",
+    "category": "AI",
+    "image": "https://www.vidnoz.com/img/indexNew/vidnoz.png",
+    "link": "https://10web.io/",
+    "description": "Create a website using AI Website Builder, host it on 10Web Hosting, and optimize it with PageSpeed Booster."
+  }, 
+  {
+    "productName": "Dora",
+    "category": "AI",
+    "image": "https://cdn-imgs.dora.run/design/FVN5qCpAkQOIaip6oN07jP.png/w/4096/h/4096/format/webp?",
+    "link": "https://www.dora.run/",
+    "description": "With Dora AI Beta, you can build your dream site in just one prompt — for any topic, in any style."
+  },
+  {
+    "productName": "Miro",
+    "category": "AI",
+    "image": "https://media.licdn.com/dms/image/D4E0BAQEPS1xZbw7MFQ/company-logo_200_200/0/1694624157258/mirohq_logo?e=1729728000&v=beta&t=ydvPy91ZY0SpGu0jQKfCXvqE4691hWM0Y4g0cfbZTH8",
+    "link": "https://miro.com/",
+    "description": "Innovate faster with Miro, the AI-powered visual workspace. Bring teams together and quickly go from big ideas to execution with a workspace that leverages AI at every stage."
+  },
+  {
+    "productName": "Moqups",
+    "category": "UI",
+    "image": "https://www.appypie.com/wp-content/uploads/2024/03/appypie-logo.svg",
+    "link": "https://www.appypie.com/",
+    "description": "Automate Workflows, and Design with Ease Using AI."
+  },
+  {
+    "productName": "Appy pie",
+    "category": "web",
+    "image": "https://media.licdn.com/dms/image/C4D0BAQFbhkRUcCNRaA/company-logo_200_200/0/1630542695598/moqups_logo?e=1729728000&v=beta&t=DkYXA_nZL5olBjPt-ZMR8NHFE49AH3Jp1xEHq2HHAWY",
+    "link": "https://moqups.com/",
+    "description": "Go from diagrams, wireframes and prototypes without switching apps or updating across platforms."
+  },
+  {
+    "productName": "Venngage",
+    "category": "UI",
+    "image": "https://venngage.com/assets/img/venngage-icon.svg",
+    "link": "https://venngage.com/",
+    "description": "Make accessible and professional infographics or any other visual you can think of in just a few steps. Start now!"
+  },
+  {
+    "productName": "Visme",
+    "category": "AI",
+    "image": "",
+    "link": "https://www.visme.co/",
+    "description": "From engaging presentations to docs, visual forms and data visualizations, create on-brand content that stands out from the crowd with the power of AI."
+  },
+  {
+    "productName": "HoneyDue",
+    "category": "Finance",
+    "image": "https://media.licdn.com/dms/image/C4E0BAQGdJq1XBRcNnQ/company-logo_200_200/0/1631306114383?e=1729728000&v=beta&t=gDc_WuTn99wCStSgXV53g3NW9tMHb6-JgZOQDdk7CLU",
+    "link": "https://www.honeydue.com/",
+    "description": "Honeydue is the simplest way for couples to manage money, together."
+  },
+  {
+    "productName": "Goodbudget",
+    "category": "Finance",
+    "image": "https://scontent.fidr4-2.fna.fbcdn.net/v/t39.30808-6/294087749_469842161811122_7226879010175637401_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=tgjLniL5iaMQ7kNvgHPgw3T&_nc_ht=scontent.fidr4-2.fna&oh=00_AYAMdATnLXJdBSODCiCJL9q23NE4qKE7uaywOhTbWuQwow&oe=66A68DFD",
+    "link": "https://www.honeydue.com/",
+    "description": "Goodbudget is a budget tracker for the modern age. Say no more to carrying paper envelopes. This virtual budget program keeps you on track with family and friends with the time-tested envelope budgeting method."
+  },
+  {
     "productName": "MicroLearn",
     "category": "education",
     "image": "https://media.licdn.com/dms/image/D560BAQF1qgbL4xZJ6w/img-crop_100/0/1721562295849?e=1729728000&v=beta&t=mlQWxLgxCNyjCoCxlXd9jckJ50iYPAz58iodcwuXSHQ",
