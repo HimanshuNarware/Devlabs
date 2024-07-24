@@ -4152,5 +4152,117 @@
     "image": "https://1000logos.net/wp-content/uploads/2016/11/New-Google-Logo.jpg",
     "link": "https://techdevguide.withgoogle.com/",
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
+  },
+  {
+    "productName": "MicroLearn",
+    "category": "education",
+    "image": "https://media.licdn.com/dms/image/D560BAQF1qgbL4xZJ6w/img-crop_100/0/1721562295849?e=1729728000&v=beta&t=mlQWxLgxCNyjCoCxlXd9jckJ50iYPAz58iodcwuXSHQ",
+    "link": "https://mulearn.org/",
+    "description": "µLearn is a synergic philosophy of education, with a culture of mutual learning through micro peer groups. We are here to assist you in breaking through the echo chambers and free you from the shackles you have grounded yourself in."
+  },
+  {
+    "productName": "Pluralsight",
+    "category": "AI",
+    "image": "https://www.pluralsight.com/content/dam/ps-nav-assets/product-logo/pluralsight-color-full-logo.png",
+    "link": "https://www.pluralsight.com/",
+    "description": "Develop critical tech skills. Cut cycle times. Build happier, healthier tech teams. And innovate smarter using AI. All with Pluralsight."
+  },
+  {
+    "productName": "Invideo Ai",
+    "category": "AI",
+    "image": "https://web-assets.invideo.io/common/prod/logos/invideo-ai-light.svg",
+    "link": "https://invideo.io/",
+    "description": "Publish-ready videos with zero video creation skills. Type any topic and invideo AI creates a video with script, visuals, subtitles, voiceover & music."
+  },
+  {
+    "productName": "Simplilearn",
+    "category": "education",
+    "image": "",
+    "link": "https://www.simplilearn.com/",
+    "description": "Change, Adapt and Build with AI"
+  },
+  {
+    "productName": "Freescout",
+    "category": "tool",
+    "image": "https://freescout.net/wp-content/uploads/2019/01/freescout-logo-light.png",
+    "link": "https://freescout.net/",
+    "description": "FreeScout is the super lightweight and powerful free open source help desk and shared inbox written in PHP (Laravel framework). It is a self hosted clone of HelpScout."
+  },
+  {
+    "productName": "ideone",
+    "category": "coding",
+    "image": "https://freescout.net/wp-content/uploads/2019/01/freescout-logo-light.png",
+    "link": "https://ideone.com/",
+    "description": "Ideone is an online compiler and debugging tool which allows you to compile source code and execute it online in more than 60 programming languages."
+  },
+  {
+    "productName": "Autodesk",
+    "category": "design",
+    "image": "",
+    "link": "https://www.autodesk.com/",
+    "description": "Autodesk’s Design and Make Platform helps you get everyone on the same page to plan, design, construct and operate better projects."
+  },
+  {
+    "productName": "FuturePedia",
+    "category": "AI",
+    "image": "https://www.futurepedia.io/_next/image?url=%2Ffuturepedia-dark.svg&w=256&q=75",
+    "link": "https://www.futurepedia.io/",
+    "description": "Listing of All AI tools"
+  },
+  {
+    "productName": "Lighthouse",
+    "category": "extension",
+    "image": "https://developer.chrome.com/static/docs/lighthouse/overview/image/lighthouse-logo-3c45f51ca8cfc.svg",
+    "link": "https://developer.chrome.com/docs/lighthouse/overview",
+    "description": "Lighthouse is an open-source, automated tool for improving the quality of web pages. "
+  },
+  {
+    "productName": "Glitch",
+    "category": "collaboration",
+    "image": "https://media.licdn.com/dms/image/C4E0BAQGHoqoy1AW8zQ/company-logo_200_200/0/1630612170724/glitch_dot_com_logo?e=1729728000&v=beta&t=eDPowLTZPwn6YTopccILutbfw-F3KLLrE_Ae2v6k_dMg",
+    "link": "https://glitch.com/",
+    "description": "hWe’re building a new Glitch together as a community. Join in to help suggest features, file bugs, and show us what’s possible when we all collaborate."
+  },
+  {
+    "productName": "Bulma",
+    "category": "web",
+    "image": "",
+    "link": "https://bulma.io/",
+    "description": "Bulma is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces."
+  },
+  {
+    "productName": "Sekho",
+    "category": "remote",
+    "image": "https://media.licdn.com/dms/image/C4D0BAQGpUYzB738STg/company-logo_200_200/0/1671940605578/seekho_ai_logo?e=1729728000&v=beta&t=Cn6Aty_mn4WApfkTp8EXxD4yZoZCOkTWuXRuWTz2qPM",
+    "link": "https://www.seekho.ai/",
+    "description": "Achieve your goals with our personalized AI-powered learning platform."
+  },
+  {
+    "productName": "SyncFusion",
+    "category": "Ui",
+    "image": "https://media.licdn.com/dms/image/C4E0BAQEbxPNgKH5Qxg/company-logo_200_200/0/1630602369098/syncfusion_logo?e=1729728000&v=beta&t=XHEdxwQKsQj8KE7nG8zw7KrrXSJeR1EzHtdRPA-YlAE",
+    "link": "https://www.syncfusion.com/",
+    "description": "Essential Studio is a software package that provides state-of-the-art solutions for startups and enterprises."
+  },
+  {
+    "productName": "Zepline",
+    "category": "Design",
+    "image": "https://cdn.sanity.io/images/wd3e2pma/production/7b336dc26fd85ae98b414761d58238d225876a88-60x48.svg",
+    "link": "https://zeplin.io/",
+    "description": "New look. Unlimited seats. One flat rate. All the features. Zeplin is the design delivery platform for teams of any size."
+  },
+  {
+    "productName": "Sketch",
+    "category": "Design",
+    "image": "https://cdn.sanity.io/images/wd3e2pma/production/7b336dc26fd85ae98b414761d58238d225876a88-60x48.svg",
+    "link": "https://www.sketch.com/",
+    "description": "Discover the latest features in our Mac, web and iOS apps."
+  },
+  {
+    "productName": "Wix Studios",
+    "category": "web",
+    "image": "https://scontent.fidr4-1.fna.fbcdn.net/v/t39.30808-1/386102311_769668661840570_7983613077814162698_n.jpg?stp=dst-jpg_p200x200&_nc_cat=1&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=0i2OiUdkfGgQ7kNvgElP9NS&_nc_ht=scontent.fidr4-1.fna&oh=00_AYCd-RuTYaIBZh9Pfy1hikt41y7LixU_Bcd-U0GbtNIieQ&oe=66A691AF",
+    "link": "https://www.wix.com/",
+    "description": "Build and scale with confidence. From a powerful website builder to advanced business solutions—we’ve got you covered."
   }
 ]
