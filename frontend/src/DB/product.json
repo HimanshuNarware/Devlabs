@@ -162,6 +162,13 @@
     "description":"IBomma is a free movie streaming platform that allows users to watch and download multiple movies."
   },
   {
+    "productName": "Miro",
+    "category": "tools",
+    "image": "https://media.licdn.com/dms/image/D4E0BAQEPS1xZbw7MFQ/company-logo_200_200/0/1694624157258/mirohq_logo?e=1729728000&v=beta&t=ydvPy91ZY0SpGu0jQKfCXvqE4691hWM0Y4g0cfbZTH8",
+    "link": "https://miro.com/",
+    "description": "Miro is a collaborative online platform that helps teams think and create together, from brainstorming to execution. It offers six core capabilities, such as diagramming, workshops and more"
+  },
+  {
     "productName": "unscreen",
     "category": "tools",
     "image": "https://bit.ly/3KXZGi3",
