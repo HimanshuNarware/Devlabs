@@ -379,6 +379,13 @@
     "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
   },
   {
+    "productName": "Poshmark",
+    "category": "tools",
+    "image": "https://seeklogo.com/images/P/poshmark-logo-ED11EB78C9-seeklogo.com.png",
+    "link": "https://poshmark.com/",
+    "description": "Buy, sell, and discover fashion, home decor, beauty, and more."
+  },
+  {
     "productName": "Coursera",
     "category": "course",
     "image": "http://bit.ly/4dMPPZY",
@@ -419,6 +426,13 @@
     "image": "https://api-reader.tinkercad.com/api/images/cbdy6sTzSjf/t725.jpg",
     "link": "https://www.tinkercad.com/",
     "description": "Tinkercad is a free, easy-to-use app for 3D design, electronics, and coding."
+  },
+  {
+    "productName": "Stitch Fix",
+    "category": "tools",
+    "image": "https://cdn.freelogovectors.net/wp-content/uploads/2019/01/stitch_fix_logo.png",
+    "link": "https://www.stitchfix.com/",
+    "description": "Personal styling for men, women & kids that sends clothing to your door"
   },
   {
     "productName": "Remove.bg",
@@ -562,6 +576,13 @@
     "description": "Study materials such as tutorials, articles, and resources for Java programming and other related technologies"
   },
   {
+    "productName": "Stability AI",
+    "category": "tools",
+    "image": "https://assets.wheelhouse.com/media/_solution_logo_04172024_37776555.jpeg",
+    "link": "https://stability.ai/",
+    "description": "Stable Diffusion 3 Medium is the latest and most advanced text-to-image AI model"
+  },
+  {
     "productName": "Freepik",
     "category": "tools",
     "image": "https://tinyurl.com/bdfw6dyv",
@@ -644,6 +665,13 @@
     "image": "https://bit.ly/43RCAkX",
     "link": "https://pdf.abbyy.com/",
     "description": "Offers powerful OCR capabilities to transform scanned documents into editable files with high accuracy."
+  },
+  {
+    "productName": "Futurepedia",
+    "category": "tools",
+    "image": "https://pbs.twimg.com/profile_images/1727146319637024768/mM4APWMi_400x400.jpg",
+    "link": "https://www.futurepedia.io/",
+    "description": "Free site to help you find the best AI tools and software to make your work and life more efficient and productive"
   },
   {
     "productName": "Smallpdf",
@@ -798,6 +826,13 @@
     "image": "https://t3.ftcdn.net/jpg/05/48/77/76/360_F_548777650_6prwFlpzBsIoDWoixdXuGTCb7gJHPKs0.jpg",
     "link": "https://weworkremotely.com/",
     "description": "Remote job board for a variety of industries and positions."
+  },
+  {
+    "productName": "Cuebric",
+    "category": "tools",
+    "image": "https://freight.cargo.site/t/original/i/3782320bf005687f5d7f49ee558685c2bf2e80ef27c0938afd6808e2585b6765/Cuebric-white.png",
+    "link": "https://cuebric.com/",
+    "description": "The Generative AI tool that is revolutionizing preproduction and production by allowing filmmakers to go From Concept To Camera™ in minutes."
   },
   {
     "productName": "Remote.co",
@@ -1883,6 +1918,13 @@
     "image": "https://rb.gy/hapyco",
     "link": "https://rb.gy/vpdppo",
     "description": "Optimizes LinkedIn with personalized comments for better interactions."
+  },
+  {
+    "productName": "Mobile simulator - responsive testing tool",
+    "category": "extensions",
+    "image": "https://rb.gy/sg3xw0",
+    "link": "https://rb.gy/1b75lr",
+    "description": "Smartphone and tablet simulator on computer with several models to test mobile responsive websites."
   },
   {
     "productName": "Gamma AI",
@@ -4020,6 +4062,13 @@
     "description": "Khan Academy offers free online courses, lessons, and practice in a variety of subjects including math, science, computer programming, history, art history, economics, and more. Their mission is to provide a free, world-class education for anyone, anywhere."
   },
    {
+    "productName": "Start Bootstrap",
+    "category": "tools",
+    "image": "https://shorturl.at/cqqYw",
+    "link": "https://startbootstrap.com/",
+    "description": "StartBootstrap offers a diverse collection of free and premium Bootstrap themes, templates, and UI kits. It provides web developers with ready-to-use, responsive designs for creating professional websites, admin dashboards, and more."
+},
+  {
     "productName": "Frontend Mentor",
     "category": "tools",
     "image": "https://miro.medium.com/v2/resize:fit:1400/0*i7Zs1A01-IbpKoJG.png",
