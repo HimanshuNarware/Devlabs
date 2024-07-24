@@ -4181,6 +4181,13 @@
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
   },
   {
+    "productName": "Edabit",
+    "category": "coding",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKf8xIBKkGllaemRpRru3onRpeivQ5KvvchTs6_GH2wDsZLMC_",
+    "link": "https://edabit.com/",
+    "description": "Edabit offers interactive coding challenges for beginners to advanced programmers. You can practice coding by solving problems and improving your skills on this platform."
+  },
+  {
     "productName": "CodinGame",
     "category": "coding",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHIuzVjgIdFx5QHzhc-bjA56K2wHUesEOJS343td7f7gjtznLE",
@@ -4459,5 +4466,4 @@
     "link": "https://www.wix.com/",
     "description": "Build and scale with confidence. From a powerful website builder to advanced business solutions—we’ve got you covered."
   }
-
 ]
