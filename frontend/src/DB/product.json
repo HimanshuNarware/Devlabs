@@ -78,6 +78,13 @@
     "description": "Sublime Text is a sophisticated cross-platform text editor for code, markup and prose."
   },
   {
+    "productName": "Sketch",
+    "category": "tools",
+    "image": "https://www.liblogo.com/img-logo/sk389s515-sketch-logo-sketch-logo-free-icon-of-social-colored-icons.png",
+    "link": "https://www.sketch.com/",
+    "description": "Sketch provides all the tools to help you create — from early wireframes, to flexible design systems. Powerful vector editing. An infinite Canvas. Intuitive, life-like prototyping and more."
+  },
+  {
     "productName": "Descript AI",
     "category": "tools",
     "image": "https://canny.io/images/d294641777b8d0b68b57a4a57e4453e1.png",
