@@ -35,6 +35,13 @@
     "description": "BIRME is a flexible and easy to use bulk image resizer. It can resize your images to any specific dimension and crop them proportionately if necessary."
   },
   {
+    "productName": "claude AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.dTYn10CJCVhkCJX6QokokwHaEK?rs=1&pid=ImgDetMain",
+    "link": "https://claude.ai/login",
+    "description": "Claude is a next generation AI assistant built for work and trained to be safe, accurate, and secure."
+  },
+  {
     "productName": "Lovo AI",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.eLzdzhAyNEyhvHu571rxrAAAAA?rs=1&pid=ImgDetMain",
