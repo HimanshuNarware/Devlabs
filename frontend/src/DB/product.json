@@ -4181,6 +4181,13 @@
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
   },
   {
+    "productName": "FMovies",
+    "category": "movies",
+    "image": "https://fmovies4free.com/wp-content/uploads/2024/02/cropped-FMovies-Logo-150x45.png",
+    "link": "https://fmovies4free.com/",
+    "description": "Features a large collection of movies and TV series available for free streaming, with options to filter by genre, release date, and popularity."
+  },
+  {
     "productName": "Watch-free",
     "category": "movies",
     "image": "https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg",
