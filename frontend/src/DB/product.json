@@ -4188,6 +4188,13 @@
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
   },
   {
+    "productName": "Solar Movie",
+    "category": "movies",
+    "image": "https://ww7.solarmovie.to/img/logo.png",
+    "link": "https://ww7.solarmovie.to/home.html",
+    "description": "Offers free streaming of a wide variety of movies and TV shows, with high-quality video and minimal ads, allowing users to filter by genre and country."
+  },
+  {
     "productName": "Edabit",
     "category": "coding",
     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKf8xIBKkGllaemRpRru3onRpeivQ5KvvchTs6_GH2wDsZLMC_",
