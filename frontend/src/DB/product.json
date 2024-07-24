@@ -666,6 +666,13 @@
     "description": "Study materials such as tutorials, articles, and resources for Java programming and other related technologies"
   },
   {
+    "productName": "HiTV",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/HiTV.png",
+    "link": "https://www.gohitv.com/mkpages/",
+    "description": "Watch online free latest Korean dramas with HD English subtitles."
+  },
+  {
     "productName": "Stability AI",
     "category": "tools",
     "image": "https://assets.wheelhouse.com/media/_solution_logo_04172024_37776555.jpeg",
