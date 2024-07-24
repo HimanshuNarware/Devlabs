@@ -148,6 +148,13 @@
     "description": "Remove image backgrounds automatically in 5 seconds with one click."
   },
   {
+    "productName": "Moqups",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.aOX9SrhYjcR41DBJns9yswHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://moqups.com/",
+    "description": "Moqups is a web app that lets you create and share visual designs for UI and UX projects. You can work with your team in the cloud, use stencils, icons, fonts, images, and prototypes, and integrate with Slack, Google Drive and Dropbox."
+  },
+  {
     "productName":"iBomma",
     "category":"movies",
     "image":"https://shorturl.at/kSu0y",
