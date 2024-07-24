@@ -127,6 +127,13 @@
     "description":"Amazon Prime video is an movie streaming platform to view multiple videos  in offline as well as online."
   },
   {
+    "productName":"Dora",
+    "category":"tools",
+    "image":"https://th.bing.com/th/id/OIP.FwjgE1YSiTFT8c0ghcjBfgHaHa?w=512&h=512&rs=1&pid=ImgDetMain",
+    "link":"https://www.dora.run/",
+    "description":"It helps you to Publish stunning 3D animated websites without writing a line of code. Generate landing pages and design inspiration with Dora AI."
+  },
+  {
     "productName": "Goose AI",
     "category": "tools",
     "image": "https://i.pinimg.com/originals/cd/8a/26/cd8a26fbffe290a7ae3a5275c481f7a2.png",
