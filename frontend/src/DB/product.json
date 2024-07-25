@@ -483,6 +483,13 @@
     "description": "SoloLearn is an interactive platform offering a variety of coding courses to help users learn and practice programming skills through bite-sized lessons and community engagement."
   },
   {
+    "productName": "Simplifi",
+    "category": "tools",
+    "image": "https://i.pcmag.com/imagery/reviews/01IQKPSEcI9YAm0UXgYIEpe-35..v1704894968.png",
+    "link": "https://app.simplifimoney.com/",
+    "description": "See all your accounts in one place, view projected spending and balances, and track your progress month to month."
+  },
+  {
     "productName": "Seowriting.AI",
     "category": "tools",
     "image": "https://bit.ly/4bSrO1A",
@@ -4289,7 +4296,7 @@
     "productName": "Movie4u",
     "category": "movies",
     "image": "https://github.com/user-attachments/assets/417d49af-9a0d-4dea-a776-7a96157e5e95",
-    "link": "https://movies4u.loan/",
+    "link": "https://movies4u.loan/"
   } ,
   {
     "productName": "AZMovies",
@@ -4528,5 +4535,68 @@
     "image": "https://scontent.fidr4-1.fna.fbcdn.net/v/t39.30808-1/386102311_769668661840570_7983613077814162698_n.jpg?stp=dst-jpg_p200x200&_nc_cat=1&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=0i2OiUdkfGgQ7kNvgElP9NS&_nc_ht=scontent.fidr4-1.fna&oh=00_AYCd-RuTYaIBZh9Pfy1hikt41y7LixU_Bcd-U0GbtNIieQ&oe=66A691AF",
     "link": "https://www.wix.com/",
     "description": "Build and scale with confidence. From a powerful website builder to advanced business solutions—we’ve got you covered."
+  },
+  {
+    "productName": "Meteor",
+    "category": "web",
+    "image": "",
+    "link": "https://www.meteor.com/",
+    "description": "Meteor seamlessly integrates with a variety of popular tools and frameworks to enhance your development experience. "
+  },
+  {
+    "productName": "Grunt",
+    "category": "web",
+    "image": "",
+    "link": "https://gruntjs.com/",
+    "description": "Grunt to automate just about anything with a minimum of effort. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. "
+  },
+  {
+    "productName": "PBS kids",
+    "category": "Games",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg",
+    "link": "https://pbskids.org/",
+    "description": "PBS Kids is the brand for most of the children's programming aired by PBS in the United States. "
+  },
+  {
+    "productName": "MIT OpenCourseWare",
+    "category": "courses",
+    "image": "https://ocw.mit.edu/static_shared/images/ocw_logo_white.cabdc9a745b03db3dad4.svg",
+    "link": "https://ocw.mit.edu/",
+    "description": "MIT OpenCourseWare is an online publication of materials from over 2,500 MIT courses, freely sharing knowledge with learners and educators around the world."
+  },
+  {
+    "productName": "SideKick",
+    "category": "tools",
+    "image": "https://www.meetsidekick.com/wp-content/themes/sidekick-ppl/assets/img/logo-with-title.svg",
+    "link": "https://ocw.mit.edu/",
+    "description": "Sidekick makes the Internet distraction-free. It speeds up your workflow and protects against attention killers"
+  },
+  {
+    "productName": "Duolingo",
+    "category": "tools",
+    "image": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg",
+    "link": "https://www.duolingo.com/",
+    "description": "Learning with Duolingo is fun, and research shows that it works! With quick, bite-sized lessons, you’ll earn points and unlock new levels while gaining real-world communication skills."
+  },
+  {
+    "productName": "Svelte",
+    "category": "web",
+    "image": "https://avatars.githubusercontent.com/u/23617963?s=48&v=4",
+    "link": "https://svelte.dev/",
+    "description": "Svelte shifts work from the browser to the build step, creating faster, more efficient apps without manual optimizations."
+  },
+  {
+    "productName": "Resumonk",
+    "category": "resume",
+    "image": "",
+    "link": "https://www.resumonk.com/",
+    "description": "Leverage AI rewrites & personalized suggestions to create an impressive resume quickly."
+  },
+  {
+    "productName": "Udacity",
+    "category": "course",
+    "image": "https://media.licdn.com/dms/image/C560BAQHiNYfm0YHKrg/company-logo_200_200/0/1656621848677/udacity_logo?e=1729728000&v=beta&t=UPfwgRWGbtn6ucjNPj2S8oS8oyAk-E-kY9nRcEMcEY8",
+    "link": "https://www.udacity.com/",
+    "description": "Udacity offers online courses and nano-degree programs in programming, data science, and AI, designed by industry experts. With hands-on projects and personalized support, Udacity helps learners achieve career goals through flexible, self-paced learning."
   }
 ]
