@@ -13,12 +13,7 @@ function BackToTopButton() {
             const scrollTop = window.scrollY;
             const progress = (scrollTop / documentHeight) * 100;
 
-            if (scrollTop > scrollOffset) {
-                setIsVisible(true);
-            } else {
-                setIsVisible(false);
-            }
-
+            setIsVisible(scrollTop > scrollOffset);
             setScrollProgress(progress);
         };
 
@@ -41,6 +36,9 @@ function BackToTopButton() {
         filter: 'brightness(0) invert(1)',
     };
 
+    const strokeDasharray = 163.362;
+    const strokeDashoffset = strokeDasharray - (strokeDasharray * scrollProgress) / 100;
+
     return (
         <button
             onClick={scrollToTop}
@@ -58,7 +56,7 @@ function BackToTopButton() {
                         r="26"
                         cx="30"
                         cy="30"
-                        style={{ strokeDasharray: 163.362, strokeDashoffset: 163.362 - (163.362 * scrollProgress) / 100 }}
+                        style={{ strokeDasharray, strokeDashoffset }}
                     />
                 </svg>
             </div>
