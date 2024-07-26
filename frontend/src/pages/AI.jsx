@@ -7,7 +7,7 @@ const AI = () => {
       title: "Introduction to AI",
       date: "July 1, 2024",
       summary:
-        "Learn the basics of AI, its importance.Gain insight into a topic and learn the fundamentals",
+        "Learn the basics of AI, its importance. Gain insight into a topic and learn the fundamentals.",
       image:
         "https://amta.sg/wp-content/uploads/2023/09/Introduction-to-Artificial-Intelligence-scaled.jpg",
     },
@@ -21,7 +21,7 @@ const AI = () => {
       title: "Top 10 AI tools",
       date: "July 5, 2024",
       summary:
-        "Use AI tools to help develop ideas and content, make more informed decisions, and speed up daily work tasks",
+        "Use AI tools to help develop ideas and content, make more informed decisions, and speed up daily work tasks.",
       image:
         "https://media.licdn.com/dms/image/D4D12AQE-62Ifk1Ky-Q/article-cover_image-shrink_600_2000/0/1693372628210?e=2147483647&v=beta&t=nvztC0_RuPSchP_tjjSTlVIh1q5kBuuBSV1eMydJU50",
     },
@@ -53,21 +53,13 @@ const AI = () => {
 
   return (
     <div className="container">
-      <h1 className="title" style={{ marginTop: "120px" , color:'white'}}>AI Blog</h1>
+      <h1 className="title">AI Blog</h1>
       <div className="grid-container">
         {blogs.map((blog, index) => (
-          <div
-            key={index}
-            className="grid-item"
-            style={{ objectFit: "cover", maxWidth: "100%" }}
-          >
-            <img
-              src={blog.image}
-              alt={blog.title}
-              height={300}
-              width={"100%"}
-              className="blog-image"
-            />
+          <div key={index} className="grid-item">
+            <div className="image-wrapper">
+              <img src={blog.image} alt={blog.title} className="blog-image" />
+            </div>
             <h2 className="blog-title">{blog.title}</h2>
             <p className="blog-date">{blog.date}</p>
             <p className="blog-summary">{blog.summary}</p>
