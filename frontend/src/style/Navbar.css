@@ -32,6 +32,21 @@
   text-decoration: none;
 }
 
+.navbar-brand {
+  background: transparent;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  position: relative;
+  color: #fff;
+  transition: transform 0.3s, filter 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+}
 .navbar-content .nav-item {
   flex-wrap: wrap;
   flex-grow: 1;
@@ -51,29 +66,11 @@
   margin: 0;
   justify-content: space-between;
   width: 109%;
-  
 }
 
 .card-body img {
   background: transparent;
 }
-
-.navbar-brand {
-  background: transparent;
-}
-
-.navbar-content {
-  display: flex;
-  align-items: center;
-}
-
-.nav-item {
-  position: relative;
-  color: #fff;
-  transition: transform 0.3s, filter 0.3s, box-shadow 0.3s;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0);
-}
-
 .nav-item:hover {
   color: black;
   transform: scale(1.05);
