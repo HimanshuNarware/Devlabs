@@ -4363,6 +4363,13 @@
   
   },
   {
+    "productName":"PyTorch",
+    "category":"Library",
+    "link":"https://pytorch.org/",
+    "image":"https://miro.medium.com/v2/resize:fit:512/1*IMGOKBIN8qkOBt5CH55NSw.png",
+    "description":"PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing,"
+},
+  {
     "productName":"CodeSignal",
     "category":"coding",
     "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNlEBavi-fpUoTUx9lBtBYc6QY5ZTA0XmfiA&s",
