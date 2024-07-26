@@ -476,6 +476,13 @@
     "description": "Neo-university providing highly immersive learning to millions of students and working professionals to tap into new-age technology."
   },
   {
+    "productName": "Piktochart",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Piktochart_logo.jpg/640px-Piktochart_logo.jpg",
+    "link": "https://piktochart.com/",
+    "description": "Can create professional-looking infographics, flyers, posters, reports, newsletters, charts. "
+  },
+  {
     "productName": "Sololearn",
     "category": "coding",
     "image": "https://rb.gy/7e5bda",
