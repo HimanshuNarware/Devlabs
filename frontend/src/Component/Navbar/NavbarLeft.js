@@ -46,5 +46,4 @@ function NavbarLeft(props, showSideNav) {
     </span>
   );
 }
-
 export default NavbarLeft;

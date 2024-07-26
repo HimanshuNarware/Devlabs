@@ -4,7 +4,6 @@
   align-items: center;
   height: 100vh; /* Ensure the component is centered vertically */
 }
-
 .rate-us__container {
   width: 70%;
   max-width: 600px;
