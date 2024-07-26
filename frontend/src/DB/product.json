@@ -4386,7 +4386,7 @@
     "image": "https://leetcode.com/static/images/LeetCode_Sharing.png",
     "link": "https://chromewebstore.google.com/detail/leetcode-explained/cofoinjfjcpgcjiinjhcpomcjoalijbe?hl=en",
     "description": "Leetcode explained enhances Leetcode problems with solution code, video explanations, GPT code analysis and provides company tags."
-  },
+},
   {
     "productName": "Solar Movie",
     "category": "movies",
@@ -4496,7 +4496,7 @@
     "category": "AI",
     "image": "https://media.licdn.com/dms/image/C560BAQFHn_VoXJitew/company-logo_200_200/0/1674682391014/circleback_ai_logo?e=1729728000&v=beta&t=HS9PSDBZu74pBHex7FO3OJCqwPlgWR5uB24DmTAH5X8",
     "link": "https://circleback.ai/",
-    "desciption": "AI-powered notes, action items, and automations. Automatically updates your CRM, Notion, and more."
+    "description": "AI-powered notes, action items, and automations. Automatically updates your CRM, Notion, and more."
   },
   {
     "productName": "Vidnoz",
@@ -4742,5 +4742,13 @@
     "image": "https://media.licdn.com/dms/image/C560BAQHiNYfm0YHKrg/company-logo_200_200/0/1656621848677/udacity_logo?e=1729728000&v=beta&t=UPfwgRWGbtn6ucjNPj2S8oS8oyAk-E-kY9nRcEMcEY8",
     "link": "https://www.udacity.com/",
     "description": "Udacity offers online courses and nano-degree programs in programming, data science, and AI, designed by industry experts. With hands-on projects and personalized support, Udacity helps learners achieve career goals through flexible, self-paced learning."
+  },
+  {
+    "productName": "Tabnine",
+    "category": "AI",
+    "image": "tabnine.png",
+    "link": "https://www.tabnine.com/",
+    "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+
   }
 ]
