@@ -4751,11 +4751,18 @@
     "description": "Offers creative resume templates and visualization options."
    },
 
-    {
+  {
     "productName": "Tabnine",
     "category": "AI",
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+  },
+  {
+    "productName": "ResumeNerd",
+    "category": "Resume",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlZBq_Eq-OHqwXALINbCate4RRujtGqUcGYg&s",
+    "link": "https://www.resumenerd.com/",
+    "description": "ResumeNerd is an online resume builder that helps users create professional resumes and cover letters. "
   }
 ]
