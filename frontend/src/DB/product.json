@@ -4244,6 +4244,13 @@
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
   },
   {
+    "productName": "Leetcode Explained",
+    "category": "Extensions",
+    "image": "https://leetcode.com/static/images/LeetCode_Sharing.png",
+    "link": "https://chromewebstore.google.com/detail/leetcode-explained/cofoinjfjcpgcjiinjhcpomcjoalijbe?hl=en",
+    "description": "Leetcode explained enhances Leetcode problems with solution code, video explanations, GPT code analysis and provides company tags."
+=}},
+  {
     "productName": "Solar Movie",
     "category": "movies",
     "image": "https://ww7.solarmovie.to/img/logo.png",
@@ -4598,5 +4605,6 @@
     "image": "https://media.licdn.com/dms/image/C560BAQHiNYfm0YHKrg/company-logo_200_200/0/1656621848677/udacity_logo?e=1729728000&v=beta&t=UPfwgRWGbtn6ucjNPj2S8oS8oyAk-E-kY9nRcEMcEY8",
     "link": "https://www.udacity.com/",
     "description": "Udacity offers online courses and nano-degree programs in programming, data science, and AI, designed by industry experts. With hands-on projects and personalized support, Udacity helps learners achieve career goals through flexible, self-paced learning."
+
   }
 ]
