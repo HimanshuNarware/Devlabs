@@ -2919,6 +2919,13 @@
     "description": "Create a job-ready resume in minutes."
   },
   {
+    "productName": "WordPress",
+    "category": "Web",
+    "image": "https://s.w.org/style/images/about/WordPress-logotype-standard.png",
+    "link": "https://wordpress.org/",
+    "description": "WordPress is a free and open-source content management system (CMS) that powers millions of websites and blogs."
+  },
+  {
     "productName": "resume.com",
     "category": "resume",
     "image": "resumecom.png",
