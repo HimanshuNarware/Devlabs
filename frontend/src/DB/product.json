@@ -588,6 +588,13 @@
     "description": "Moodle is a Learning Platform or course management system, a free Open Source software package "
   },
   {
+    "productName": "Evernote",
+    "category": "tools",
+    "image": "https://w7.pngwing.com/pngs/557/404/png-transparent-evernote-computer-icons-evernote-trademark-logo-grass.png",
+    "link": "https://evernote.com/",
+    "description": "Use Evernote to capture more than just words. Harness the power of the internet with Web Clipper."
+  },
+  {
     "productName": "Scaler",
     "category": "course",
     "image": "https://bit.ly/3XoZKgc",
@@ -741,7 +748,13 @@
     "link": "https://bit.ly/42xjijx",
     "description": "Produce beautiful documents starting from gallery of LaTeX templates for CVs."
   },
-
+  {
+    "productName": "ILLA Cloud",
+    "category": "tools",
+    "image": "https://cdn.dealmango.com/wp-content/uploads/2023/07/illq-lifetime-deal-on-appsumo.jpg",
+    "link": "https://illacloud.com/",
+    "description": "A robust open source low-code platform for developers to build internal tools."
+  },
   {
     "productName": "w3schools",
     "category": "coding",
