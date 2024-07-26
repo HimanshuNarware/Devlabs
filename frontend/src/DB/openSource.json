@@ -874,5 +874,12 @@
         "tags": ["RUST"],
         "link": "https://github.com/juspay/hyperswitch",
         "description": "Open Source Financial Switch for fast and reliable payments."
+    },
+    {
+        "projectName": "SheetAble",
+        "ownerUsername": "Sheetable",
+        "tags": ["Javascript", "Go", "CSS", "Shell", "HTML", "Python"],
+        "link": "https://github.com/SheetAble/SheetAble",
+        "description": "Self-hosted music sheet organizing software"
     }
 ]
