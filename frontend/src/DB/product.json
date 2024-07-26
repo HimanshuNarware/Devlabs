@@ -2807,6 +2807,13 @@
     "description": "Building 30 different projects over 30 days."
   },
   {
+    "productName": "GitHub",
+    "category": "Development",
+    "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+    "link": "https://github.com/",
+    "description": "GitHub is a development platform inspired by the way you work. From open source to business, you can host and review code, manage projects, and build software alongside millions of other developers."
+  },
+  {
     "productName": "codewars",
     "category": "Coding",
     "image": "https://bit.ly/43XLyga",
