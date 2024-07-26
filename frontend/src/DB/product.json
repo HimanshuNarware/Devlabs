@@ -4757,5 +4757,11 @@
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+  },{
+    "productName":"OpenLearn",
+    "category":"course",
+    "image":"https://github.com/user-attachments/assets/48014626-a078-4d0e-9f1e-7817a109d260",
+    "link":"https://www.open.edu/openlearn/",
+    "description":"The Open University’s platform offers free courses across various disciplines, with interactive content and quizzes to reinforce learning."
   }
 ]
