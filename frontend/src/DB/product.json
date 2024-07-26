@@ -1400,6 +1400,13 @@
     "description": "Evergreen is a React UI Framework for building ambitious products on the web. Brought to you by Segment."
   },
   {
+    "productName": "Code With harry",
+    "category": "web",
+    "image": "https://www.codewithharry.com/img/logo-blue.png",
+    "link": "https://www.codewithharry.com/",
+    "description": "Code With Harry is attempt to teach basics and those coding techniques to people in short time which took me ages to learn."
+  },
+  {
     "productName": "CSSPortal",
     "category": "web",
     "image": "https://www.cssportal.com/assets/images/cssicon.png",
