@@ -120,6 +120,13 @@ const movies = [
     image: "https://i.ibb.co/z8KTr7D/download.jpg",
     releaseDate: "2023-8-1"
   },
+  {
+    title: "Chanty",
+    category: "Collaboration Tools",
+    description: "Chanty is a team communication and collaboration tool that offers chat, task management, and video conferencing to enhance team productivity and streamline workflows.",
+    image: "https://super-monitoring.com/blog/wp-content/uploads/2022/07/chanty.png.webp",
+    releaseDate: "2017-01-01"
+  }, 
 ];
 const Collaboration = () => {
   return (
