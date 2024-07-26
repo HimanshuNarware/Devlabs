@@ -4757,5 +4757,11 @@
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+  }, {
+    "productName":"Hloom",
+    "category":"resume",
+    "image":"https://github.com/user-attachments/assets/b3fbb90f-d2ad-4f08-bce6-0755589dd0dd",
+    "link":"https://www.hloom.com/",
+    "description":"Hloom offers a wide range of free resume templates in various styles and formats, suitable for different industries and job levels. This allows job seekers to choose a template that best fits their profession and personal brand, making it easier to create a polished and professional-looking resume."
   }
 ]
