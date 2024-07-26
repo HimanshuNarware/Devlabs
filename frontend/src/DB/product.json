@@ -4757,5 +4757,11 @@
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+  },{
+    "productName":"CakeResume",
+    "category":"resume",
+    "image":"https://www.cakeresume.com/_next/static/media/cake.9d3a50b4.svg",
+    "link":"https://www.cakeresume.com/en",
+    "description":"CakeResume provides a drag-and-drop interface and extensive customization options, enabling users to easily add, rearrange, and format sections. This makes it ideal for creating unique and visually appealing resumes tailored to specific job applications or personal branding."
   }
 ]
