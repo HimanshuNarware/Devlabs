@@ -4753,6 +4753,12 @@
     "image": "https://media.licdn.com/dms/image/C560BAQHiNYfm0YHKrg/company-logo_200_200/0/1656621848677/udacity_logo?e=1729728000&v=beta&t=UPfwgRWGbtn6ucjNPj2S8oS8oyAk-E-kY9nRcEMcEY8",
     "link": "https://www.udacity.com/",
     "description": "Udacity offers online courses and nano-degree programs in programming, data science, and AI, designed by industry experts. With hands-on projects and personalized support, Udacity helps learners achieve career goals through flexible, self-paced learning."
-
+  },
+  {
+    "productName": "Codepen",
+    "category": "Community",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3DG9J-KcqcQYY&psig=AOvVaw3Evg0UncmJQ2qRnG3baif-&ust=1722089823678000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiRnNjyxIcDFQAAAAAdAAAAABAE",
+    "link": "https://codepen.io/",
+    "description": "CodePen is an ideal environment for web developers and designers to prototype their ideas quickly. Whether sketching out a new design concept, testing a unique user interface, or experimenting with code, CodePen's live preview feature lets you see the results in real time."
   }
 ]
