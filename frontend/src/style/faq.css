@@ -1,56 +1,41 @@
 .faq {
   margin-top: 7rem;
   margin-bottom: 1rem;
-
-  /* width: 380px; */
-   /* Default width for small screens */
-  margin-left: 300px;
-  margin-right: 300px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-@media (min-width: 768px) { 
+#root {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
   .faq {
-    /* width: 520px;  */
-    /* Width for medium screens */
+    width: 70%;
   }
 }
 
 @media (min-width: 1024px) {
   .faq {
-    /* width: 720px; */
-     /* Width for large screens */
+    width: 50%;
   }
-}
-@property --gradient-angle {
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
 }
 
 .faq__content {
   padding: 1.5rem;
-  /* width: 100%; */
   display: flex;
-  gap: 2rem; /* Only for the vertical gap (use row-gap in addition if needed) */
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   border-radius: 0.375rem;
-  flex-wrap: wrap;
-  margin-top: 46px;
-  width: 50%;
-  width: auto;
-}
-.faq__content {
+  background: white;
   position: relative;
-  padding: 1rem;
-  border-radius: 3px;
-  background: white; /* Ensure the background color is set */
-  z-index: 1; /* Ensure content is above pseudo-elements */
+  z-index: 1;
 }
 
 .faq__content::before {
@@ -70,17 +55,12 @@
     #8632ec
   );
   border-radius: inherit;
-  padding: 1.4rem; /* Adjust as needed for border thickness */
-  -webkit-mask: 
-    linear-gradient(#fff 0 0) content-box, 
-    linear-gradient(#fff 0 0);
-  mask: 
-    linear-gradient(#fff 0 0) content-box, 
-    linear-gradient(#fff 0 0);
+  padding: 1.4rem;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   animation: moving 3s linear infinite;
-
 }
 
 @keyframes moving {
@@ -92,35 +72,16 @@
   }
 }
 
-
-.faq__content > * {
-  margin-bottom: 2rem; /* Add this if vertical gap isn't applied correctly */
-}
-
 .faq__header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.5rem;
-  text-align: center;
 }
 
 .faq__header-text {
-  color: #A855F7;
+  color: #a855f7;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 7px;
-}
-
-.faq__header-text-white {
-  color: white;
-}
-
-.faq__header-text-gray {
-  color: #6B7280;
-  font-size: 0.875rem; /* or 14px */
 }
 
 .faq__border-none {
@@ -128,8 +89,7 @@
 }
 
 .faq__mt-8 {
-  margin-top: 2rem; 
-  /* width: 100%; */
+  margin-top: 2rem;
 }
 
 .faq__border-2 {
@@ -137,11 +97,11 @@
 }
 
 .faq__border-gray {
-  border-color: #CBD5E0; /* Adjust color as needed */
+  border-color: #cbd5e0;
 }
 
 .faq__rounded-lg {
-  border-radius: 0.75rem; /* Adjust radius as needed */
+  border-radius: 0.75rem;
 }
 
 .faq__overflow-hidden {
@@ -149,72 +109,41 @@
 }
 
 .faq__mb-5 {
-  margin-bottom: 1.25rem; /* Adjust margin as needed */
+  margin-bottom: 1.25rem;
 }
 
 .faq__accordion-item {
   display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 0.75rem; /* Adjust gap as needed */
+  gap: 0.75rem;
 }
 
 .faq__accordion-button {
   display: flex;
   align-items: center;
-  justify-content:center;
-  /* width: 100%; */
-  padding-top: 0.5rem; /* Adjust padding as needed */
-  padding-bottom: 0.5rem; /* Adjust padding as needed */
-  padding-left: 2rem; /* Adjust padding as needed */
-  padding-right: 2rem; /* Adjust padding as needed */
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
 }
 
 .faq__accordion-icon {
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 0.5rem; /* Adjust padding as needed */
-  background-color: #2D3748; /* Adjust background color as needed */
-  border-radius: 0.375rem; /* Adjust border radius as needed */
-}
-
-.faq__accordion-text {
-  color: #fff; /* Adjust text color as needed */
-  font-size: 0.875rem; /* Adjust font size for the default (xs) */
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (min-width: 768px) {
-  .faq__accordion-text {
-    font-size: 1rem; /* Adjust font size for medium screens (md) */
-  }
-}
-
-.faq__accordion-container {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 0.5rem; /* Adjust padding as needed */
-  background-color: #2D3748; /* Adjust background color as needed */
-  border-radius: 0.375rem; /* Adjust border
-   radius as needed */
-  text-align:left;
+  padding: 0.5rem;
+  background-color: #2d3748;
+  border-radius: 0.375rem;
 }
 
 .faq__accordion-detail {
-  color: #6B7280; /* Adjust text color as needed */
-  font-size: 0.875rem; /* Adjust font size for the default (xs) */
+  color: #6b7280;
+  font-size: 0.875rem;
 }
 
 @media (min-width: 768px) {
   .faq__accordion-detail {
-    font-size: 1rem; /* Adjust font size for medium screens (md) */
+    font-size: 1rem;
   }
 }
 
@@ -230,22 +159,10 @@
   from {
     height: 55px;
   }
-
   to {
     height: 140px;
   }
 }
-  @keyframes open-animation {
-    from {
-      height: 60px;
-    }
-    to {
-      height: 60px;
-    }
-
-  
-}
-
 
 @keyframes faq__close-animation {
   from {
@@ -255,13 +172,3 @@
     height: 55px;
   }
 }
-
-  @keyframes close-animation {
-    from {
-      height: 60px;
-    }
-    to {
-      height: 60px;
-    }
-  }
-
