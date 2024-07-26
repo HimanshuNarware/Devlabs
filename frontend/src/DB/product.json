@@ -3031,6 +3031,13 @@
     "description": "Mind Luster, an innovative learning platform, offers courses to ignite and expand the horizons of curious minds."
   },
   {
+    "productName": "Jira",
+    "category": "Development",
+    "image": "https://logowik.com/content/uploads/images/jira3124.jpg",
+    "link": "https://www.atlassian.com/software/jira",
+    "description": "Jira is a proprietary issue tracking product developed by Atlassian that allows bug tracking, issue tracking, and project management functions."
+  },
+  {
     "productName": "poised",
     "category": "ai",
     "image": "https://bit.ly/42TQnqc",
