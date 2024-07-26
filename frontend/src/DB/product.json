@@ -50,6 +50,13 @@
     "description": "Synthesia AI is an AI system that enables individuals to create professional-quality video content without needing cameras, microphones, or studios."
   },
   {
+    "productName": "Pomodoro Timer",
+    "category": "tools",
+    "image": "https://www.pngfind.com/pngs/m/72-724484_the-pomodoro-technique-developed-by-francesco-cirillo-smiley.png",
+    "link": "https://pomofocus.io/",
+    "description": "Help you manage your time and let you focus on any tasks such as study,etc."
+  },
+  {
     "productName": "IEEE",
     "category": "tools",
     "image": "https://pbs.twimg.com/profile_images/474591466749034496/2-H1zqWf_400x400.jpeg",
