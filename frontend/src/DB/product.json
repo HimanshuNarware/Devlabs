@@ -4757,5 +4757,11 @@
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+  }, {
+    "productName":"Resume-Now",
+    "category":"resume",
+    "image":"https://github.com/user-attachments/assets/c18227b8-a45b-402d-8cfe-3f7ee6c34480",
+    "link":"https://www.resume-now.com/",
+    "description":"MyPerfectResume is an easy-to-use resume builder that offers templates and expert tips to guide you through creating a professional resume. It simplifies the process, making it accessible even for those with little experience in resume writing."
   }
 ]
