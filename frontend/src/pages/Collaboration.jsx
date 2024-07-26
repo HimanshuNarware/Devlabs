@@ -120,6 +120,14 @@ const movies = [
     image: "https://i.ibb.co/z8KTr7D/download.jpg",
     releaseDate: "2023-8-1"
   },
+  {
+    title: "Zoho Connect",
+    category: "Collaboration Tools",
+    description: "Zoho Connect is a team collaboration software that unifies people, resources, and applications on a single platform for efficient communication and collaboration.",
+    image: "https://www.zohowebstatic.com/sites/zweb/images/ogimage/connect-logo.png",
+    releaseDate: "2016-09-15"
+  }
+  
 ];
 const Collaboration = () => {
   return (
