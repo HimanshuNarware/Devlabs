@@ -393,6 +393,13 @@
     "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
   },
   {
+    "productName": "DevWidgets",
+    "category": "tools",
+    "image": "https://cdn6.aptoide.com/imgs/0/7/9/079811bf923d820b79e33571de60b229_icon.png",
+    "link": "https://itsallwidgets.com/devwidgets",
+    "description": "Cross-platform utilities for developers."
+  },
+  {
     "productName": "Newton School",
     "category": "tools",
     "image": "https://cdn.theorg.com/b42e95e6-f1e5-49de-ba52-d9ec80f925f2_thumb.jpg",
