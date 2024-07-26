@@ -4744,11 +4744,18 @@
     "description": "Udacity offers online courses and nano-degree programs in programming, data science, and AI, designed by industry experts. With hands-on projects and personalized support, Udacity helps learners achieve career goals through flexible, self-paced learning."
   },
   {
+    "productName": "ResumUP",
+    "category": "resume",
+    "image": "https://github.com/user-attachments/assets/1e8414ca-8a50-4243-98ac-dedc217ee20f",
+    "link": "https://resumup.net/",
+    "description": "Offers creative resume templates and visualization options."
+   },
+
+    {
     "productName": "Tabnine",
     "category": "AI",
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
-
   }
 ]
