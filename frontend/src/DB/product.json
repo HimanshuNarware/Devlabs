@@ -4753,6 +4753,12 @@
     "image": "https://media.licdn.com/dms/image/C560BAQHiNYfm0YHKrg/company-logo_200_200/0/1656621848677/udacity_logo?e=1729728000&v=beta&t=UPfwgRWGbtn6ucjNPj2S8oS8oyAk-E-kY9nRcEMcEY8",
     "link": "https://www.udacity.com/",
     "description": "Udacity offers online courses and nano-degree programs in programming, data science, and AI, designed by industry experts. With hands-on projects and personalized support, Udacity helps learners achieve career goals through flexible, self-paced learning."
-
+  },
+  {
+    "productName": "Security Camera ai",
+    "category": "tools",
+    "image": "https://github.com/user-attachments/assets/88dc7276-c98e-433e-8cf6-6d3dfb11eafb",
+    "link": "https://security-camera-ai.vercel.app/",
+    "description": "This web app detects unauthorized access in real-time, alerting you and ensuring your property's security."
   }
 ]
