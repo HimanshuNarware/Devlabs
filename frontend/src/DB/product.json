@@ -4757,5 +4757,11 @@
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+  },{
+    "productName":"Standard Resume",
+    "category":"resume",
+    "image":"https://github.com/user-attachments/assets/f68fa0c9-4309-4561-ad80-bd629cfb9853",
+    "link":"https://standardresume.co/",
+    "description":"A simple and clean resume builder with easy sharing options."
   }
 ]
