@@ -4757,5 +4757,11 @@
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+  },{
+    "productName":"Enhancv",
+    "category":"resume",
+    "image":"https://github.com/user-attachments/assets/4aa5036f-e4d9-4caa-90b7-dfb6a7d7f084",
+    "link":"https://enhancv.com/",
+    "description":"Enhancv provides templates and customization options to highlight your strengths by tailoring sections like skills, achievements, and personal projects. It helps you create a unique, visually appealing resume that emphasizes your unique qualifications and experiences."
   }
 ]
