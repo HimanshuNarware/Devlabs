@@ -2695,6 +2695,13 @@
     "description": "A collection of challenging mathematical and computational problems."
   },
   {
+    "productName": "Shopify",
+    "category": "E-commerce",
+    "image": "https://cdn3.iconfinder.com/data/icons/social-media-2068/64/_shopping-512.png",
+    "link": "https://www.shopify.com/",
+    "description": "Shopify is a commerce platform that allows anyone to set up an online store and sell their products. It powers over 1,700,000 businesses worldwide."
+  },
+  {
     "productName": "Topcoder",
     "category": "coding",
     "image": "https://uni-nav.topcoder.com/v1/assets/logo.svg",
