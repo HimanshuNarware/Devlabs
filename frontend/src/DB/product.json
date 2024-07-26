@@ -4757,5 +4757,12 @@
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+  },
+  {
+    "productName": "Code Triage",
+    "category": "tools",
+    "image": "https://shorturl.at/tNMy8",
+    "link": "https://www.codetriage.com/",
+    "description": "A site that helps you find open-source projects to contribute to by delivering issues directly to your inbox."
   }
 ]
