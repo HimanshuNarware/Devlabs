@@ -4363,6 +4363,13 @@
   
   },
   {
+    "productName":"Guvi",
+    "category":"education",
+    "image":"https://yt3.googleusercontent.com/jm7j9zyQfWfFW5C-bKCSjs-b5jWRnk2U_1_4GcIwkbf_wGffvR_dVcdn77U5ROuApqrhJN0Zag=s900-c-k-c0x00ffffff-no-rj",
+    "link":"https://www.guvi.in/affliate-courses-list/?ref=zwrlzta&gad_source=1&gclid=CjwKCAjw4_K0BhBsEiwAfVVZ_y6COwBb49Nq8VzFcOFQHeOYRSlU44nMQa3A8g28kJrIx1LBo4HLARoCqzAQAvD_BwE",
+    "description":"GUVI is an online platform to learn computer programming based in India. It offers free and paid coding courses to students and working professionals"
+},
+  {
     "productName":"PyTorch",
     "category":"Library",
     "link":"https://pytorch.org/",
