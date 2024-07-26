@@ -120,6 +120,13 @@ const movies = [
     image: "https://i.ibb.co/z8KTr7D/download.jpg",
     releaseDate: "2023-8-1"
   },
+  {
+    title: "Glip",
+    category: "Collaboration Tools",
+    description: "Glip is a collaborative platform designed for teams to communicate, manage projects, and streamline workflows effectively.",
+    image: "https://img.utdstc.com/icon/5dc/193/5dc1931ffa409f64bd7c56c5e9bdb5fc13aa04a740fdfb39c4995eba9e9a06b5:200",
+    releaseDate: "2014-05-15"
+  },
 ];
 const Collaboration = () => {
   return (
