@@ -4757,5 +4757,12 @@
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+  },
+  {
+    "productName": "LearnWorlds",
+    "category": "Online Learning",
+    "image": "https://img.lovepik.com/logo/v1_learnworlds.jpg",
+    "link": "https://www.learnworlds.com/",
+    "description": "LearnWorlds is an advanced online course creation platform that enables educators to create, market, and sell courses effortlessly."
   }
 ]
