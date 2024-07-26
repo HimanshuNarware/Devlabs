@@ -553,6 +553,13 @@
     "description": "Space to create what excites you most, rough or polished, big or small."
   },
   {
+    "productName": "Visme",
+    "category": "tools",
+    "image": "https://www.visme.co/wp-content/themes/visme/images/Visme-logo-dark-hor.svg",
+    "link": "https://www.visme.co/",
+    "description": "Interactive Content Platform for Serious Executives."
+  },
+  {
     "productName": "Skills Network Labs",
     "category": "tools",
     "image": "https://skills.network/logos/SN_web_lightmode.svg",
