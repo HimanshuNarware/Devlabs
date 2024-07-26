@@ -120,6 +120,13 @@ const movies = [
     image: "https://i.ibb.co/z8KTr7D/download.jpg",
     releaseDate: "2023-8-1"
   },
+  {
+    title: "Flock",
+    category: "Collaboration Tools",
+    description: "Flock is a team communication and collaboration platform that provides messaging, video conferencing, and task management to enhance team productivity.",
+    image: "https://www.flock.com/hubfs/Flock-Logo%20-%20Color%20-%20Inverted.svg",
+    releaseDate: "2014-11-01"
+  },  
 ];
 const Collaboration = () => {
   return (
