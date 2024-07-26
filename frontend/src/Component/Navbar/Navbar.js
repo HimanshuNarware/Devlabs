@@ -3,14 +3,13 @@ import "../../style/Navbar.css";
 import Sidebar from "../Sidebar/Sidebar";
 import NavbarLeft from "./NavbarLeft";
 import NavbarCenter from "./NavbarCenter";
-//import NavbarRight from "./NavbarRight";
 
 function Navbar(props) {
   const [showSideNav, setShowSideNav] = useState(false);
   
   return (
     <header>
-      <div className="navbar">
+      <div className="navbar w-100">
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
         <NavbarCenter showSideNav={showSideNav} />
         

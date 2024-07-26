@@ -1,5 +1,5 @@
 import React, { useState, useEffect, Suspense, lazy } from "react";
-import { Route, Routes } from "react-router-dom"; // Correct import
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,7 +10,9 @@ import BackToTopButton from "./Component/BackToTopButton";
 import Footer from "./Component/Footer";
 import TrailingCursor from "./Component/TrailingCursor/TrailingCursor";
 import ChatAssistant from "./ChatAssistant/ChatAssistant";
-
+import TermsOfService from './Component/TermsOfService';
+import PrivacyPolicy from './Component/PrivacyPolicy';
+import Darkmode from "darkmode-js"; // Import the Darkmode library
 // Lazy load components
 const About = lazy(() => import("./Component/About"));
 const Rateus = lazy(() => import("./Component/Rateus"));
@@ -20,6 +22,8 @@ const OpenSource = lazy(() => import("./Component/OpenSource"));
 const Review = lazy(() => import("./Component/Review"));
 const BookMark = lazy(() => import("./Component/BookMark"));
 const Contact = lazy(() => import("./Component/Contact"));
+const Signup = lazy(() => import("./Component/Signup"));
+const Profile = lazy(() => import("./Component/Profile"));
 const RemoteJobs = lazy(() => import("./pages/RemoteJobs"));
 const AI = lazy(() => import("./pages/AI"));
 const UI = lazy(() => import("./pages/UI"));
@@ -28,16 +32,22 @@ const Extension = lazy(() => import("./pages/Extension"));
 const EthicalHacking = lazy(() => import("./pages/EthicalHacking"));
 const FrontendTools = lazy(() => import("./pages/FrontendTools"));
 const Faq = lazy(() => import("./Component/Faq"));
-const CodingPlatform = lazy(() => import("./pages/CodingPlatform")); // Corrected import
+const CodingPlatform = lazy(() => import("./pages/CodingPlatform"));
 const CoursesPlatform = lazy(() => import("./pages/CoursesPlatform"));
 const Collaboration = lazy(() => import("./pages/Collaboration"));
 const Productivity = lazy(() => import("./pages/Productivity"));
+const Extensions = lazy(() => import("./pages/Extensions"));
+const Movies = lazy(() => import("./pages/Movies"));
+const Ui = lazy(() => import("./pages/UserInterface"));
+const RemoteJob = lazy(() => import("./pages/RemoteJob"));
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     AOS.init();
+    const darkmode = new Darkmode();
+    darkmode.showWidget();
   }, []);
 
   return (
@@ -48,6 +58,7 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home searchQuery={searchQuery} />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/bookmark" element={<BookMark />} />
           <Route path="/about" element={<About />} />
           <Route path="/open-source" element={<OpenSource />} />
@@ -55,6 +66,7 @@ function App() {
           <Route path="/faq" element={<Faq />} />
           <Route path="/rateus" element={<Rateus />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/remote-jobs" element={<RemoteJobs />} />
           <Route path="/ai" element={<AI />} />
           <Route path="/movies-series" element={<Movie />} />
@@ -66,6 +78,12 @@ function App() {
           <Route path="/courses-platform" element={<CoursesPlatform />} />
           <Route path="/productivity-tools" element={<Productivity />} />
           <Route path="/collaboration-tools" element={<Collaboration />} />
+          <Route path="/extensions" element={<Extensions />} />
+          <Route path="/movies&series" element={<Movies />} />
+          <Route path="/ui-designs" element={<Ui />} />
+          <Route path="/remote-job" element={<RemoteJob />} />
+          <Route path="/TermsOfService" element={<TermsOfService />} />
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           {/* Define other routes as needed */}
           {/* <Route path="*" element={<NotFound />} /> 404 route */}
         </Routes>

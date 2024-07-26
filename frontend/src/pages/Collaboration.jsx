@@ -91,7 +91,35 @@ const movies = [
       "https://i.pinimg.com/564x/17/06/c9/1706c9f16bd08eb5e03f1df3e0a94a1c.jpg",
     releaseDate: "2016-9-27",
   },
-
+  {
+    title: "Notion",
+    category: "Collaboration Tools",
+    description: "Notion is an all-in-one workspace for note-taking, project management, and collaboration. It is best for organizing tasks, managing projects, and creating databases in a user-friendly and flexible interface.",
+    image: "https://i.pcmag.com/imagery/reviews/05FBstbqla0pEWrlFLTw4ML-17.fit_lim.size_1050x591.v1704906459.png",
+    releaseDate: "2018-6-1"
+  },
+  {
+    title: "Basecamp",
+    category: "Project Management",
+    description: "Basecamp is a project management and team collaboration software. It is best for organizing projects, tracking progress, and facilitating team communication in a straightforward and user-friendly platform.",
+    image: "https://pbs.twimg.com/profile_images/1671513829522432003/BwPEpDI0_400x400.jpg",
+    releaseDate: "2004-2-5"
+  },
+  {
+    title: "Google Meet",
+    category: "Video Conferencing",
+    description: "Google Meet is a video conferencing tool that offers high-quality video meetings for businesses and individuals. It is best for seamless integration with Google Workspace, allowing easy scheduling, screen sharing, and collaboration in real-time.",
+    image: "https://i.pcmag.com/imagery/reviews/02y6SQ4hhnWGi8zjE2FlYqi-8.fit_scale.size_760x427.v1615070874.jpg",
+    releaseDate: "2017-3-9"
+  },
+  
+  {
+    title: "Eraser",
+    category: "Collaboration Tools",
+    description: "Documents & diagrams for engineering teams All-in-one markdown editor, collaborative canvas, and diagram-as-code builder.",
+    image: "https://i.ibb.co/z8KTr7D/download.jpg",
+    releaseDate: "2023-8-1"
+  },
 ];
 const Collaboration = () => {
   return (

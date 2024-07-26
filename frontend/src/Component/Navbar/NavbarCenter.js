@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import "../../style/Navbar.css";
 import NavbarItem from "./NavbarItem";
-import RateUsComponent from "../../Component/Rateus"; // Import the RateUsComponent
+import RateUsComponent from "../../Component/Rate.jsx"; // Import the RateUsComponent
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../../style/BookMark.css"
 import {
   faHome,
   faBookmark,
@@ -11,6 +12,7 @@ import {
   faInfoCircle,
   faQuestionCircle,
   faStar,
+  faUser,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { Modal, Backdrop, Box } from "@mui/material";
@@ -39,14 +41,14 @@ function NavbarCenter( ) {
               </>
             }
             to="/"
-          />
+        />
         </li>
         <li className="nav-item">
           <NavbarItem
             description={
-              <>
-                <FontAwesomeIcon icon={faBookmark} /> Bookmark ({totalBookmarks})
-              </>
+              <div className="bookmarkTag">
+                <FontAwesomeIcon icon={faBookmark} /> Bookmark <span className="totBook">{totalBookmarks}</span>
+              </div>
             }
             to="/bookmark"
           />
@@ -88,7 +90,7 @@ function NavbarCenter( ) {
                 <FontAwesomeIcon icon={faStar} /> Rate Us
               </>
             }
-            to="#"
+            to="/Rate"
           />
         </li>
         <li className="nav-item">
@@ -99,6 +101,16 @@ function NavbarCenter( ) {
               </>
             }
             to="/contact"
+          />
+        </li>
+        <li className="nav-item">
+          <NavbarItem
+            description={
+              <>
+                <FontAwesomeIcon icon={faUser} /> My Profile
+              </>
+            }
+            to="/profile"
           />
         </li>
       </ul>

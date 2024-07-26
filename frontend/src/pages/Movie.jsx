@@ -21,7 +21,7 @@ const movies = [
     releaseDate: "2007-12-21",
   },
   {
-    title: "3 idiots",
+    title: "3 Idiots",
     category: "Comedy",
     description:
       "In college, Farhan and Raju form a great bond with Rancho due to his refreshing outlook. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive.",
@@ -56,12 +56,39 @@ const movies = [
       "https://m.economictimes.com/thumb/msid-105086975,width-1200,height-1200,resizemode-4,imgsize-83368/12th-fail.jpg",
     releaseDate: "2023-10-27",
   },
+  {
+    title: "I Am Kalam",
+    category: "Drama",
+    description:
+      "Chotu, a poor boy, derives inspiration from the former President of India APJ Abdul Kalam. He then decides to change his name to Kalam and harbours a dream of meeting the visionary.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEWzNQl0BuH5X56lglHNrSJvIM1VZ3VEgA9K0f4TNzo-93WHp",
+    releaseDate: "2011-08-05",
+  },
+  {
+    title: "Mary Kom",
+    category: "Sports/Action",
+    description:
+      "When Mary Kom encounters a renowned coach in a boxing gym, she shares her boxing aspirations with him and convinces him to teach her. Despite her father's disapproval, she follows her passion.",
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkflHw3-Y9fnKzKa3YxTXl_3xe8YJEWp4KFrfM5NZEsHg4Dqfi",
+    releaseDate: "2014-09-05",
+  },
+  {
+    title: "Chhichhore",
+    category: "Comedy/Sport",
+    description:
+      "A tragic incident forces Anirudh, a middle-aged man, to take a trip down memory lane and reminisce his college days along with his friends, who were labelled as losers.",
+    image:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/9771/1599771-h-2ce23e9cb135",
+    releaseDate: "2019-09-06",
+  },
 ];
 
 const Movie = () => {
   return (
     <div className="container">
-      <h1 className="title" style={{ marginTop: "60px" , color:'white'}}>
+      <h1 className="title" style={{ marginTop: "60px", color: "white" }}>
         Movies & Series
       </h1>
       <div className="grid-container">
