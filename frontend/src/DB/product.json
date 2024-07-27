@@ -4799,5 +4799,12 @@
     "image": "https://miro.medium.com/v2/resize:fit:2400/1*No_5DlBQPdlZHyoLfyUMhQ.png",
     "link": "https://www.futurelearn.com/",
     "description": "FutureLearn is an online education platform that offers a wide range of courses and  degrees from leading universities  around the world. "
+  },
+  {
+    "productName": "Python tutor",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxe6IR3EKgALq0lEUvpW3GmPH8rpAv1cK0_w&s",
+    "link": "https://pythontutor.com/",
+    "description":"Python Tutor is an educational tool that helps users learn and visualize the execution of various programming languages."
   }
 ]
