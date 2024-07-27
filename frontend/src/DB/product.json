@@ -4416,6 +4416,13 @@
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
   },
   {
+  "productName": "LinkedIn",
+  "category": "remote",
+  "image": "https://i.pinimg.com/736x/0c/78/d0/0c78d03cbfa19d5f3d7ad1b6e49f957b.jpg",
+  "link": "https://www.linkedin.com/",
+  "description": "LinkedIn is the world's largest professional network with millions of members, offering remote job opportunities across various industries. It provides a platform for professionals to connect, share, and grow their careers."
+},
+  {
   "productName": "Integromat",
   "category": "tools",
   "image": "https://www.qualtrics.com/m/assets/marketplace/wp-content/uploads/2021/06/Integromat-logo-500x264-transparent.png",
