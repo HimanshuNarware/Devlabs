@@ -4757,5 +4757,12 @@
     "image": "tabnine.png",
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
+  },
+  {
+    "productName":"FutureLearn",
+    "category": "tools",
+    "image": "https://miro.medium.com/v2/resize:fit:2400/1*No_5DlBQPdlZHyoLfyUMhQ.png",
+    "link": "https://www.futurelearn.com/",
+    "description": "FutureLearn is an online education platform that offers a wide range of courses and  degrees from leading universities  around the world. "
   }
 ]
