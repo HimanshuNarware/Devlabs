@@ -5046,17 +5046,17 @@
     "description": "A site that helps you find open-source projects to contribute to by delivering issues directly to your inbox."
   },
   {
-  "productName": "Glassdoor",
-  "category": "remote",
-  "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
-  "link": "https://www.glassdoor.com/",
-  "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
-} ,
-  {
     "productName": "IntelliJ IDEA",
     "category": "tools",
     "image": "https://logonoid.com/images/intellij-idea-logo.png",
     "link": "https://www.jetbrains.com/idea/",
     "description": "The Leading Java and Kotlin IDE."
   },
+  {
+  "productName": "Glassdoor",
+  "category": "remote",
+  "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
+  "link": "https://www.glassdoor.com/",
+  "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+} 
 ]
