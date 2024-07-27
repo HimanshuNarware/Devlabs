@@ -4778,5 +4778,201 @@
     "image": "https://miro.medium.com/v2/resize:fit:2400/1*No_5DlBQPdlZHyoLfyUMhQ.png",
     "link": "https://www.futurelearn.com/",
     "description": "FutureLearn is an online education platform that offers a wide range of courses and  degrees from leading universities  around the world. "
-  }
+  },
+  {
+    "productName": "Neumorphism.io",
+    "category": "Design",
+    "image": "",
+    "link": "https://neumorphism.io/#e0e0e0",
+    "description": "Generate Soft-UI newmorphism effects"
+},
+{
+  "productName": "CSS Clip-path",
+  "category": "web",
+  "image": "",
+  "link": "https://bennettfeely.com/clippy/",
+  "description": "The clip-path property allows you to make complex shapes in CSS by clipping an element to a basic shape (circle, ellipse, polygon, or inset), or to an SVG source."
+},
+{
+  "productName": "Gradient Magic",
+  "category": "Design",
+  "image": "",
+  "link": "https://www.gradientmagic.com/",
+  "description": "A Free Gallery of Fantastic and Unique CSS Gradients"
+},
+{
+  "productName": "Pagedone",
+  "category": "web",
+  "image": "https://avatars.githubusercontent.com/u/152169655?v=4",
+  "link": "https://pagedone.io/",
+  "description": "Build websites faster than ever before with our open-source library featuring 1000+ UI components, sections, and pages designed in Figma and built on Tailwind CSS."
+},
+{
+  "productName": "Codeium",
+  "category": "AI",
+  "image": "https://media.licdn.com/dms/image/D560BAQGLUQsYP7sqGA/company-logo_200_200/0/1666809807679/codeiumdev_logo?e=1730332800&v=beta&t=Nrz1Qf5LcU2lHgOGdYG2xCk3zq0By7nxla-MarSu9TI",
+  "link": "https://media.licdn.com/dms/image/D560BAQGLUQsYP7sqGA/company-logo_200_200/0/1666809807679/codeiumdev_logo?e=1730332800&v=beta&t=Nrz1Qf5LcU2lHgOGdYG2xCk3zq0By7nxla-MarSu9TI",
+  "description": "Codeium is a AI software for writing effecient Code."
+},
+{
+  "productName": "Student AI",
+  "category": "education",
+  "image": "https://studentai.app/wp-content/uploads/2023/05/S-letter-geometric-Logo-design-Linear.-.png",
+  "link": "https://studentai.app/",
+  "description": "Dedicated AI Tools and Tutors for Students, Graduates & Professionals."
+},
+{
+  "productName": "SAP",
+  "category": "AI",
+  "image": "https://scontent.fidr4-3.fna.fbcdn.net/v/t39.30808-1/449667369_916525133848884_6740279834876316728_n.jpg?stp=dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=w4YS9XPXup0Q7kNvgHfvpAP&_nc_ht=scontent.fidr4-3.fna&oh=00_AYDG12oLtnD385TYvlKDj_DwiVomOWlr2-b15jUDphy07w&oe=66AA4ACD",
+  "link": "https://www.sap.com/india/index.html",
+  "description": "Discover how the latest in generative AI capabilities in the SAP solutions portfolio can help you revolutionise your business model strategy"
+},
+{
+  "productName": "TechChrunch",
+  "category": "news",
+  "image": "https://techcrunch.com/wp-content/themes/tc-23/dist/svg/tc-logo.svg",
+  "link": "https://techcrunch.com/",
+  "description": "TechCrunch is a news website dedicated to the tech scene. We provide breaking technology news, opinions, and analysis on tech companies from around the world."
+},
+{
+  "productName": "TechRadar",
+  "category": "news",
+  "image": "https://scontent.fidr4-1.fna.fbcdn.net/v/t39.30808-1/358452274_652072590290441_8165435925530729580_n.jpg?stp=dst-jpg_p200x200&_nc_cat=103&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=_SBAOJm1MY8Q7kNvgH99Jvo&_nc_ht=scontent.fidr4-1.fna&oh=00_AYCZlFNe-9XYPCVMl515CuD6OFsa16SyQ0J0BkIno1QZpg&oe=66AA4FE4",
+  "link": "https://www.techradar.com/",
+  "description": "TechRadar Pro is your go-to source for business computing and IT news, buying guides, features and reviews"
+},
+{
+  "productName": "CNET",
+  "category": "newsletter",
+  "image": "",
+  "link": "https://www.cnet.com/about/",
+  "description": "CNET is a trusted digital media publication that provides expert information, reviews and analysis on consumer technologies, services and trends"
+},
+{
+  "productName": "Softonic",
+  "category": "tools",
+  "image": "https://media.licdn.com/dms/image/C4E0BAQEqgJLcZDFFJw/company-logo_200_200/0/1631326819537?e=1730332800&v=beta&t=2EdkJgT-fAlcK52S7DpkjbaLi-irtIIGZ4s3WPa0WDg",
+  "link": "https://en.softonic.com/",
+  "description": "Softonic is a leading technology company specialising in secure software distribution"
+},
+{
+  "productName": "WebCatalog",
+  "category": "tool",
+  "image": "https://webcatalog.io/_next/static/media/logo.8a8e76e6.svg",
+  "link": "https://webcatalog.io/en/apps/",
+  "description": "Turn websites into desktop apps with WebCatalog Desktop, and access a wealth of exclusive apps for Mac, Windows, Linux."
+},
+{
+"productName": "Snakify",
+"category": "courses",
+"image": "https://snakify.org/static/images/snakify-logo.svg?3c9fe09",
+"link": "https://snakify.org/en/",
+"description": "Learn Python 3 and web design with 200+ exercises"
+},
+{
+"productName": "Alison",
+"category": "courses",
+"image": "https://media.licdn.com/dms/image/C4D0BAQHS8A4vdTgmrw/company-logo_200_200/0/1659347075803/alison_learning_logo?e=1730332800&v=beta&t=rmW3yy-CtBAXqatg97dHT4W16GRNPkavUIe664wQnT8",
+"link": "https://alison.com/",
+"description": "Alison is the world's largest free online empowerment platform. It was founded in 2007 with a mission to transform lives and, ultimately, the world."
+},
+{
+"productName": "Shiksha.com",
+"category": "courses",
+"image": "https://scontent.fidr4-3.fna.fbcdn.net/v/t39.30808-1/346998153_1406375436760750_4089851795770248677_n.jpg?stp=dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=MnADlY0LJTEQ7kNvgFnocHB&_nc_ht=scontent.fidr4-3.fna&oh=00_AYCjEpVKgv_63Y7NQ4dCJ_3tDY6fN-6QFi8dfDx-wMN_qA&oe=66AA7831",
+"link": "https://www.shiksha.com/",
+"description": "Shiksha is a leading information, research and student engagement platform that covers 11,000+ colleges and universities, 1,10,000+ courses, and more than 350 entrance exams held in india."
+},
+{
+"productName": "LearnVern",
+"category": "courses",
+"image": "https://media.licdn.com/dms/image/C4E0BAQGnGu8LuPqxpA/company-logo_200_200/0/1630645172201/learnvern_logo?e=1730332800&v=beta&t=GIKl-wkZcZx_4YglTTV2fIfUoXQ4Nlx0UO0a8PmMJkg",
+"link": "https://www.learnvern.com/",
+"description": "LearnVern is a training portal where anyone can learn any course in vernacular languages for free."
+},
+{
+"productName": "Data Flair",
+"category": "courses",
+"image": "https://media.licdn.com/dms/image/D560BAQHzVJhBPiD_ag/company-logo_200_200/0/1689238760068/dataflair_web_services_pvt_ltd_logo?e=1730332800&v=beta&t=JGstl5mqjE02blYO5oYAlMoIkXDC4O5TIQ2SkwLBzQs",
+"link": "https://data-flair.training/",
+"description": "DataFlair is a platform for free online certification courses."
+},
+{
+"productName": "Intellipaat",
+"category": "courses",
+"image": "https://intellipaat.com/course-image/2021/05/headed_logo.pnghttps://intellipaat.com/course-image/2021/05/headed_logo.png",
+"link": "https://intellipaat.com/",
+"description": "Intellipaat is a platform for world class certification and degree programs"
+},
+{
+"productName": "LG Travels",
+"category": "",
+"image": "https://gst-contracts.s3.ap-southeast-1.amazonaws.com/uploads/bcc/cms/asset/avatar/301980/lgtt_logo.png",
+"link": "https://www.lgtravels.in/index.html",
+"description": "LG Travels tells the user about the popular breakfasts in major world cities and provides you popular locations to try them."
+},
+{
+"productName": "Flask",
+"category": "web",
+"image": "https://flask.palletsprojects.com/en/3.0.x/_images/flask-horizontal.png",
+"link": "https://flask.palletsprojects.com/en/3.0.x/",
+"description": "Python Backend - Flask provides configuration and conventions, with sensible defaults, to get started."
+},
+{
+"productName": "basecamp",
+"category": "web",
+"image": "",
+"link": "https://basecamp.com/",
+"description": "Basecamp’s the project management platform that helps small teams move faster and make more progress than they ever thought possible."
+},
+{
+"productName": "Loom",
+"category": "media",
+"image": "https://media.licdn.com/dms/image/C560BAQGlJaGl8TN_7A/company-logo_200_200/0/1646437209881/useloom_logo?e=1730332800&v=beta&t=kECaweXiIEpXVlP51QR9dzPnAZWmHo81LVnHUAcPPUg",
+"link": "https://www.loom.com/",
+"description": "Easily record and share AI-powered video messages with your teammates and customers to supercharge productivity"
+},
+{
+"productName": "Fake Name Generator",
+"category": "tools",
+"image": "https://www.fakenamegenerator.com/images/fng-logo.png",
+"link": "https://www.fakenamegenerator.com/",
+"description": " Fake Name Generator is the most advanced name generator on the internet. Generate names, addresses, social security numbers, credit card numbers, occupations, UPS tracking numbers, and more absolutely free."
+},
+{
+"productName": "IP Logger",
+"category": "tools",
+"image": "https://scontent.fidr4-1.fna.fbcdn.net/v/t39.30808-1/361294199_681133547362028_763285022807864763_n.png?stp=dst-png_p200x200&_nc_cat=107&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=NqcNJM04hhsQ7kNvgHZFqG5&_nc_ht=scontent.fidr4-1.fna&oh=00_AYBEGgfk4O6CTQx1Bcn_oRReHsjKJWWDXP4NlgqogekGnA&oe=66AA6C2F",
+"link": "https://iplogger.org/",
+"description": "IP Logger is a URL Shortener with advanced analytics for the traffic through your links, visitors on your online store, blog or website"
+},
+{
+"productName": "Algoprep",
+"category": "education",
+"image": "https://www.algoprep.in/img/logo_1.png",
+"link": "https://www.algoprep.in/",
+"description": "Algoprep is a course website which is created by two professionals in the field of DSA and computer science, this website helps you to learn DSA."
+},
+{
+"productName": "Airdash",
+"category": "media",
+"image": "",
+"link": "https://airdash-project.web.app/",
+"description": "Transfer photos and files anywhere"
+},
+{
+"productName": "Hidify",
+"category": "web",
+"image": "https://hiddify.com/assets/hiddify-logo.png",
+"link": "https://hiddify.com/",
+"description": "Hiddify is a user-friendly VPN (virtual private network) app that lets you connect to your Hiddify (or non-Hiddify) servers."
+},
+{
+"productName": "OBS",
+"category": "media",
+"image": "https://obsproject.com/assets/images/new_icon_small-r.png",
+"link": "https://obsproject.com/",
+"description": "Free and open source software for video recording and live streaming."
+}
 ]
