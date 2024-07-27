@@ -31,6 +31,7 @@ const Movie = lazy(() => import("./pages/Movie"));
 const Extension = lazy(() => import("./pages/Extension"));
 const EthicalHacking = lazy(() => import("./pages/EthicalHacking"));
 const FrontendTools = lazy(() => import("./pages/FrontendTools"));
+const BackendTools = lazy(() => import("./pages/BackendTools"));
 const Faq = lazy(() => import("./Component/Faq"));
 const CodingPlatform = lazy(() => import("./pages/CodingPlatform"));
 const CoursesPlatform = lazy(() => import("./pages/CoursesPlatform"));
@@ -73,6 +74,7 @@ function App() {
           <Route path="/extension" element={<Extension />} />
           <Route path="/ui-design" element={<UI />} />
           <Route path="/front-end-tools" element={<FrontendTools />} />
+          <Route path="/back-end-tools" element={<BackendTools />} />
           <Route path="/ethical-hacking" element={<EthicalHacking />} />
           <Route path="/coding-platform" element={<CodingPlatform />} />
           <Route path="/courses-platform" element={<CoursesPlatform />} />
