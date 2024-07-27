@@ -8,10 +8,11 @@
   align-items: center;
   justify-content: center;
   min-height: calc(100vh - 60px); /* Adjust based on your header height */
+  
 }
 
 .profile__form {
-  background-color: #f5f5f5;
+  background-color: #6A43C3;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -33,14 +34,16 @@
 .profile__form-group textarea {
   width: 100%;
   padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: none;
+  border-radius: 10px;
   font-size: 16px;
+  background-color: #020E19;
+  color: white;
 }
 
 .profile__submit-btn,
 .profile__edit-btn {
-  background-color: #ff9800;
+  background-color: #0067FF;
   color: white;
   border: none;
   padding: 10px 20px;
