@@ -728,6 +728,13 @@
     "description": "Netlify provides free hosting, deploying, and many more service to the user so the user doesn't need to worry about the hosting."
   },
   {
+    "productName": "JSFiddle",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Jsfiddle-logo.png",
+    "link": "https://jsfiddle.net/",
+    "description": "Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor."
+  },
+  {
     "productName": "MDN Web Docs",
     "category": "tools",
     "image": "https://cdn-1.webcatalog.io/catalog/mdn-web-docs/mdn-web-docs-icon-filled-256.png?v=1675596631400",
@@ -985,6 +992,13 @@
     "image": "https://bit.ly/40BbkWu",
     "link": "https://www.wonsulting.ai/",
     "description": "A great website to generate resumes & cover letters"
+  },
+  {
+    "productName": "RoomSketcher",
+    "category": "tools",
+    "image": "https://www.mspecs.se/wp-content/uploads/2021/09/RoomSketcher_logo_high.png",
+    "link": "https://www.roomsketcher.com/",
+    "description": " Create 2D and 3D floor plans and home design."
   },
   {
     "productName": "Reactive Resume",
