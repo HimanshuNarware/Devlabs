@@ -1638,6 +1638,13 @@
     "description": "Cloud-based rich text editor and content creation platform."
   },
   {
+    "productName": "Xcode",
+    "category": "IDEs",
+    "image": "https://www.macincloud.com/pages/images/xcode-icon.png",
+    "link": "https://developer.apple.com/xcode/",
+    "description": "Enables you to develop, test, and distribute apps for all Apple platforms."
+  },
+  {
     "productName": "news api",
     "category": "tools",
     "image": "https://bit.ly/3xSWwG8",
