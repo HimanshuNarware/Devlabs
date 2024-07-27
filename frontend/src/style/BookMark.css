@@ -10,6 +10,7 @@
   margin-top: 8rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  background-color: #040f1b;
 }
 
 .bookmark__logo {
