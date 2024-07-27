@@ -329,6 +329,13 @@
     "description": "To share and acquire knowledge."
   },
   {
+    "productName": "CLion",
+    "category": "IDEs",
+    "image": "https://www.qbssoftware.com/image/cache/catalog/Product%20Logos/JetBrains/CLION-550x550.png",
+    "link": "https://www.jetbrains.com/clion/",
+    "description": "Cross-platform IDE for C and C++ development with powerful refactoring and debugging capabilities."
+  },
+  {
     "productName": "Mailchimp",
     "category": "tools",
     "image": "https://pbs.twimg.com/profile_images/1727146319637024768/mM4APWMi_400x400.jpg",
