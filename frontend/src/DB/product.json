@@ -4813,6 +4813,13 @@
     "image": "https://miro.medium.com/v2/resize:fit:2400/1*No_5DlBQPdlZHyoLfyUMhQ.png",
     "link": "https://www.futurelearn.com/",
     "description": "FutureLearn is an online education platform that offers a wide range of courses and  degrees from leading universities  around the world. "
+  }, 
+  {
+    "productName":"Hloom",
+    "category":"resume",
+    "image":"https://github.com/user-attachments/assets/b3fbb90f-d2ad-4f08-bce6-0755589dd0dd",
+    "link":"https://www.hloom.com/",
+    "description":"Hloom offers a wide range of free resume templates in various styles and formats, suitable for different industries and job levels. This allows job seekers to choose a template that best fits their profession and personal brand, making it easier to create a polished and professional-looking resume."
   },
   {
     "productName": "ResumeNerd",
