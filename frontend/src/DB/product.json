@@ -4136,6 +4136,13 @@
     "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
   },
   {
+    "productName": "MLH Fellowship",
+    "category": "tools",
+    "image": "https://shorturl.at/m6vh5",
+    "link": "https://fellowship.mlh.io/",
+    "description": "A 12-week remote internship with a stipend, collaborating on open source projects with top engineers."
+  },
+  {
     "productName": "Binged",
     "category": "movies",
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Binge_logo.png",
