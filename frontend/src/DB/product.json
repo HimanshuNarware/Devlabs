@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Codepen",
+    "category": "UI",
+    "image": "https://blog.expertrec.com/wp-content/webp-express/webp-images/uploads/2019/06/Codepen.png.webp",
+    "link": "https://codepen.io/",
+    "description": "CodePen is an ideal environment for web developers and designers to prototype their ideas quickly. Whether sketching out a new design concept, testing a unique user interface, or experimenting with code, CodePen's live preview feature lets you see the results in real time."
+  },
+  {
     "productName": "Starknet",
     "category": "Web",
     "image": "https://www.starknet.io/wp-content/themes/Starknet/assets/img/starknet-logo.svg",
@@ -4409,6 +4416,13 @@
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
   },
   {
+  "productName": "LinkedIn",
+  "category": "remote",
+  "image": "https://i.pinimg.com/736x/0c/78/d0/0c78d03cbfa19d5f3d7ad1b6e49f957b.jpg",
+  "link": "https://www.linkedin.com/",
+  "description": "LinkedIn is the world's largest professional network with millions of members, offering remote job opportunities across various industries. It provides a platform for professionals to connect, share, and grow their careers."
+},
+  {
   "productName": "Integromat",
   "category": "tools",
   "image": "https://www.qualtrics.com/m/assets/marketplace/wp-content/uploads/2021/06/Integromat-logo-500x264-transparent.png",
@@ -4799,11 +4813,47 @@
     "image": "https://miro.medium.com/v2/resize:fit:2400/1*No_5DlBQPdlZHyoLfyUMhQ.png",
     "link": "https://www.futurelearn.com/",
     "description": "FutureLearn is an online education platform that offers a wide range of courses and  degrees from leading universities  around the world. "
-  }, {
+  }, 
+  {
     "productName":"Hloom",
     "category":"resume",
     "image":"https://github.com/user-attachments/assets/b3fbb90f-d2ad-4f08-bce6-0755589dd0dd",
     "link":"https://www.hloom.com/",
     "description":"Hloom offers a wide range of free resume templates in various styles and formats, suitable for different industries and job levels. This allows job seekers to choose a template that best fits their profession and personal brand, making it easier to create a polished and professional-looking resume."
-  }
+  },
+  {
+    "productName": "ResumeNerd",
+    "category": "Resume",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlZBq_Eq-OHqwXALINbCate4RRujtGqUcGYg&s",
+    "link": "https://www.resumenerd.com/",
+    "description": "ResumeNerd is an online resume builder that helps users create professional resumes and cover letters. "
+  },
+  {
+    "productName": "Python tutor",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxe6IR3EKgALq0lEUvpW3GmPH8rpAv1cK0_w&s",
+    "link": "https://pythontutor.com/",
+    "description":"Python Tutor is an educational tool that helps users learn and visualize the execution of various programming languages."
+  },
+  {
+    "productName":"Security Camera AI",
+    "category": "AI",
+    "image": "https://github.com/user-attachments/assets/88dc7276-c98e-433e-8cf6-6d3dfb11eafb",
+    "link": "https://security-camera-ai.vercel.app/",
+    "description": "AI powered security camera for video surveillance."
+  },
+  {
+     "productName": "Code Triage",
+    "category": "tools",
+    "image": "https://shorturl.at/tNMy8",
+    "link": "https://www.codetriage.com/",
+    "description": "A site that helps you find open-source projects to contribute to by delivering issues directly to your inbox."
+  },
+  {
+  "productName": "Glassdoor",
+  "category": "remote",
+  "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
+  "link": "https://www.glassdoor.com/",
+  "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+} 
 ]
