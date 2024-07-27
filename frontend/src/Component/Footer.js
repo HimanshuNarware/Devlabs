@@ -34,7 +34,7 @@ function Footer() {
     <footer className="overflow-x-hidden">
       <div className="Footer">
         <div className="container">
-          <div className="row justify-center">
+          <div className="row justify-content-center">
             <div className="col-md-6 col-lg-4 col-12 ft-1">
               <a href="https://www.devlabsstore.tech/">
                 <img width={209} src={logo} alt="devlabs" />
