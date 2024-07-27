@@ -4395,6 +4395,13 @@
     "description": "The Google Tech Dev Guide is a free resource offering tools, videos, and exercises to help developers improve their coding skills and prepare for technical interviews."
   },
   {
+  "productName": "Integromat",
+  "category": "tools",
+  "image": "https://www.qualtrics.com/m/assets/marketplace/wp-content/uploads/2021/06/Integromat-logo-500x264-transparent.png",
+  "link": "https://www.integromat.com/",
+  "description": "Integromat is a powerful automation platform that allows you to connect apps and automate workflows using visual diagrams and pre-built integrations."
+  },
+  {
     "productName": "Leetcode Explained",
     "category": "Extensions",
     "image": "https://leetcode.com/static/images/LeetCode_Sharing.png",
