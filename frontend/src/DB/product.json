@@ -4815,6 +4815,13 @@
     "description": "FutureLearn is an online education platform that offers a wide range of courses and  degrees from leading universities  around the world. "
   },
   {
+    "productName": "ResumeNerd",
+    "category": "Resume",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlZBq_Eq-OHqwXALINbCate4RRujtGqUcGYg&s",
+    "link": "https://www.resumenerd.com/",
+    "description": "ResumeNerd is an online resume builder that helps users create professional resumes and cover letters. "
+  },
+  {
     "productName": "Python tutor",
     "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxe6IR3EKgALq0lEUvpW3GmPH8rpAv1cK0_w&s",
