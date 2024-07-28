@@ -98,6 +98,27 @@
     "description": "Synthesia AI is an AI system that enables individuals to create professional-quality video content without needing cameras, microphones, or studios."
   },
   {
+    "productName": "calligrapher AI",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.7htvBR5bHbAr3UGwJ3jGdQHaEo?rs=1&pid=ImgDetMain",
+    "link": "https://www.calligrapher.ai/?ref=www.gaviolinks.com",
+    "description": "Realistic handwriting generator. Convert text to handwriting using an in-browser recurrent neural network. Choose from various print and cursive styles. Customize the outputs and download as SVG."
+  },
+  {
+    "productName": "Code clippet",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.xhh4rawgVoGARhzwKYda9gHaEK?rs=1&pid=ImgDetMain",
+    "link": "https://www.codeclippet.com/",
+    "description": "Code Clippet allows you to stop storing code snippets within text files and start sharing them with others, around a community focused environment."
+  },
+  {
+    "productName": "CSgenerator",
+    "category": "tools",
+    "image": "https://static.vecteezy.com/system/resources/previews/004/290/050/original/cs-logo-monogram-with-shield-shape-design-template-free-vector.jpg",
+    "link": "https://www.csgenerator.com/",
+    "description": "Complex Sentence Generator is a free content rewriter that can potentially rephrase, reword, paraphrase and/or rewrite sentences, paragraphs, articles, content, words and/or phrases into a more complex, unorthodox or convoluted alternative while delivering the same meaning."
+  },
+  {
     "productName": "IEEE",
     "category": "tools",
     "image": "https://pbs.twimg.com/profile_images/474591466749034496/2-H1zqWf_400x400.jpeg",
