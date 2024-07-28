@@ -120,6 +120,13 @@ const movies = [
     image: "https://i.ibb.co/z8KTr7D/download.jpg",
     releaseDate: "2023-8-1"
   },
+  {
+    title: "Ryver",
+    category: "Collaboration Tools",
+    description: "Ryver is a team communication and collaboration platform that integrates chat, task management, and workflow automation to streamline team productivity.",
+    image: "https://ryver.com/wp-content/uploads/2024/05/thumbnail_ryver-cloverleaf-graphic-ACompany.png",
+    releaseDate: "2015-09-01"
+  },
 ];
 const Collaboration = () => {
   return (
