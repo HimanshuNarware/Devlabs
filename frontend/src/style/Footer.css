@@ -1,253 +1,235 @@
 .Footer {
-
   padding: 2rem 0;
-  margin-top: 15rem;
+  margin-top: 15rem; /* Adjust as needed */
   background: #6a43c3;
   color: white;
 }
-/* #8b5cf6; */
-.ft-1 h3 {
-  margin-top: 28px;
-  text-align: center;
-  color: rgb(217, 179, 255);
-  font-weight:600;
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .Footer {
+    margin-top: 5rem; /* Reduce top margin on smaller screens */
+  }
+
+  .ft-1,
+  .ft-2,
+  .ft-3,
+  .ft-4 {
+    margin-bottom: 2rem; /* Add space between columns */
+    text-align: center;
+  }
+
+  .ft-space {
+    margin: 0; /* Remove horizontal margin on smaller screens */
+  }
+
+  .ft-1 {
+    margin-bottom: 3rem; /* Additional margin for the first column */
+  }
+
+  .ft-2 ul,
+  .ft-3 ul,
+  .ft-4 ul {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .ft-2 ul li,
+  .ft-3 ul li,
+  .ft-4 ul li {
+    margin-bottom: 1rem; /* Add space between list items */
+  }
 }
 
-.ft-1 button {
+/* General styling */
+.ft-1 h3,
+.ft-2 h3,
+.ft-3 h3,
+.ft-4 h3 {
+  margin-top: 28px;
+  text-align: center;
+  font-weight: 600;
   color: rgb(217, 179, 255);
-  width: 200px;
+}
+
+/* Button styles */
+.ft-1 button {
+  width: 100%; /* Make the button full width */
   height: 50px;
   font-size: 1.1rem;
   border: 1px solid #8b5cf6;
-  /* margin-inline: 10px; */
-  padding: 6px 10px 6px 10px;
+  padding: 6px 10px;
   background: transparent;
   margin-bottom: 10px;
   border-radius: 6px;
-  box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
-  background-color: #000;
+  color: rgb(217, 179, 255);
   cursor: pointer;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
 }
 
 .ft-1 button:hover {
-  background: transparent;
-  cursor: pointer;
   background-color: rgb(217, 179, 255);
   border: 2px solid #000;
   color: #000;
   box-shadow: 2px 2px 1px #000;
 }
 
-.ft-1 button a{
+.ft-1 button a {
   color: #fff;
-  font-size: 24px;
   text-decoration: none;
-}
-
-.ft-1 button:hover a{
-  color: #000;
   font-weight: 700;
 }
 
-.ft-2 {
-  margin-top: 3.4375rem;
-}
-
-/* Footer */
-footer {
-  position: sticky;
-  top: 100vh;
-}
-
-/* Footer content */
-.footer-content {
-  margin-top: 1rem;
-  font-size: 1.1rem;
-  text-align: start;
-}
-
-/* Card */
-.card {
-  background-color: #8b5cf6 !important;
-  font-family: "Kalam", cursive;
-  font-weight: 900;
-  font-style: normal;
-  background-color: #8b5cf6;
-  transition: background-color 0.3s ease;
-}
-
-.card-header {
-  border: none;
-  font-size: 1.4rem;
-  color: #e3dede;
-  opacity: 0.85;
-}
-
-.card-header img {
-  background: transparent;
-}
-
-.card-link {
-  padding-left: 4px;
-
-  text-decoration: none;
-}
-
-.ft-2 ul {
+/* Links */
+ul {
   list-style: none;
   padding-left: 0;
 }
 
-.ft-2 ul li {
-  padding: 0.1rem 0;
-  text-align: start;
+ul li {
+  text-align: center;
+  margin-bottom: 0.5rem; /* Adjust the space between list items */
 }
 
-.ft-2 ul a {
+ul a {
   text-decoration: none;
   color: white;
-	font-size: 1.3rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
 }
 
-.ft-2 h3{
-  color: rgb(217, 179, 255);;
-  font-weight: 600;
-  text-align: start;
+ul a .mr-2 {
+  margin-right: 0.5rem; /* Adjust space between icon and text */
 }
 
-.ft-space{
-	margin: 0 2.8rem;
-}
-
-.ft-last{
-	margin-top: -.2rem;
-}
-
-.ft-4 {
-  margin-top: 3.5rem;
-  text-decoration: none;
-}
-
-.ft-4 ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.ft-4 ul li {
-  padding: 0.1rem 0;
-}
-
-.ft-4 ul a {
-  text-decoration: none;
-  color: white;
-  font-size: 1rem;
-}
-
-.fa-brands.fa-square-x-twitter {
-  transform: translateY(4px);
-}
-
+/* Last-footer */
 .Last-footer {
-  background: #6a43c3;;
-  border: 1px solid white;
+  background: #6a43c3;
   text-align: center;
   padding: 1rem 0;
   color: #fff;
 }
 
-.Last-footer p {
-  font-size: 0.5rem;
-  margin-right: 22rem;
+.outerD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* Adjust the gap between social icons */
 }
 
-.footer-icon a {
-  display: inline-block;
-  padding: 3px;
-  border-radius: 5px;
-  background-color: #ee00ff;
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  margin-left: 10px;
-  margin-top: 20px;
-  box-shadow: 0 4px 6px rgb(6, 40, 231);
+.outerD .icons {
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
 }
 
-.footer-icon a:hover {
-  background-color: #f0550c;
-  transform: scale(1.2) translateY(-5px);
-  box-shadow: 5 8px 15px rgb(28, 246, 3);
+.outerD .icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
 }
 
-.footer-icon a:hover .fa-linkedin,
-.footer-icon a:hover .fa-twitter,
-.footer-icon a:hover .fa-envelope,
-.footer-icon a:hover .fa-github {
-  animation: icon-bounce 0.9s ease infinite;
+.icons a .fab {
+  font-size: 25px;
+  z-index: 1;
+  position: absolute;
+  color: white;
+  z-index: 0;
 }
 
-@keyframes icon-bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  75%{
-    transform:translateY(-5px);
-  }
+.icons a:hover::after {
+  top: 0;
 }
 
-.footer-icon a .fa-linkedin,
-.footer-icon a .fa-twitter,
-.footer-icon a .fa-envelope,
-.footer-icon a .fa-github {
-  transition: color 0.5s ease;
+.icons:nth-child(1) a::after {
+  background: linear-gradient(
+    40deg,
+    rgb(246, 126, 28),
+    rgb(221, 54, 54),
+    rgb(250, 41, 118),
+    rgb(214, 18, 214)
+  );
 }
 
-.footer-icon a:hover .fa-linkedin {
+.icons:nth-child(2) a::after {
+  background: linear-gradient(40deg, #96d4fb, #1da1f2);
+}
+
+.icons:nth-child(4) a::after {
+  background: linear-gradient(40deg, rgb(4, 51, 98), rgb(10, 102, 194));
+}
+
+.icons:nth-child(5) a::after {
+  background: linear-gradient(
+    40deg,
+    rgb(0, 255, 255),
+    rgb(0, 191, 255),
+    rgb(0, 128, 255),
+    rgb(0, 64, 255)
+  );
+}
+
+.icons:nth-child(3) a::after {
+  background: red;
+}
+
+/* Hover effects for social icons */
+.icons a:hover .fa-linkedin {
   color: #0077b5;
   background-color: #0077b5;
 }
 
-.footer-icon a:hover .fa-twitter {
+.icons a:hover .fa-twitter {
   color: #1da1f2;
   background-color: #1da1f2;
 }
 
-.footer-icon a:hover .fa-envelope {
+.icons a:hover .fa-envelope {
   color: #ea4335;
   background-color: #ea4335;
 }
 
-.footer-icon a:hover .fa-github {
+.icons a:hover .fa-github {
   color: #333;
   background-color: #333;
-}
-
-.Last-footer i {
-  padding: 0.4rem 0.5rem;
-  background: black;
-  color: white;
-  margin: 0 0.5rem;
-  border-radius: 50%;
-}
-
-.Last-footer i:hover {
-  background: #a3094e;
-  color: #fff;
-  cursor: none;
-}
-
-.card-link:hover {
-  color: whitesmoke;
-  text-decoration: underline;
 }
 
 /* Copyright */
 .copyright {
   background-color: rgba(0, 0, 0, 0.742);
   color: white;
+}
+/* Styling for the legal section */
+.legal {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.2rem; /* Slightly smaller text size */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Styling for the legal links */
+.legal a.footer-link {
+  color: #ffffff; /* White color for the links */
+  text-decoration: none; /* Remove underline */
+  margin: 0 0.5rem; /* Spacing between links */
+}
+
+.legal a.footer-link:hover {
+  text-decoration: underline; /* Underline on hover */
+  font-weight: bold; /* Bold font weight for emphasis */
+}
+
+/* Optional: Styling for the separator (|) */
+.legal span.separator {
+  color: #ffffff; /* White color for the separator */
+  margin: 0 0.5rem; /* Spacing around the separator */
 }
 
 /* Contact Links */
@@ -291,118 +273,4 @@ footer {
 
 .contact-link a:hover {
   border: 2px solid #fff;
-}
-
-.card-title {
-  font-size: 25px;
-  font-weight: 700;
-  text-decoration: underline;
-}
-.icons {
-  background: transparent;
-  top: 0px;
-  color: blue;
-  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.279);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  position: relative;
-  overflow: hidden;
-}
-
-.icons a::after {
-  content: "";
-  width: 30px;
-  height: 30px;
-  top: -30px;
-  left: 0;
-  background: linear-gradient(
-    40deg,
-    rgb(246, 126, 28),
-    rgb(221, 54, 54),
-    rgb(250, 41, 118),
-    rgb(214, 18, 214)
-  );
-  position: absolute;
-  transition: 0.5s;
-  
-}
-.outerD{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.icons a .fab {
-  font-size: 27px;
-  z-index: 1;
-  position: absolute;
-  color: white;
-  z-index: 0;
-}
-.icons a:hover::after {
-  top: 0;
-}
-
-.icons:nth-child(1) a::after {
-  background: linear-gradient(
-    40deg,
-    rgb(246, 126, 28),
-    rgb(221, 54, 54),
-    rgb(250, 41, 118),
-    rgb(214, 18, 214)
-  );
-}
-
-.icons:nth-child(2) a::after {
-  background: linear-gradient(40deg, #96d4fb, #1da1f2);
-}
-.icons:nth-child(4) a::after {
-  background: linear-gradient(40deg, rgb(4, 51, 98), rgb(10, 102, 194));
-}
-
-.icons:nth-child(5) a::after {
-  background: linear-gradient(
-    40deg,
-    rgb(0, 255, 255),
-    rgb(0, 191, 255),
-    rgb(0, 128, 255),
-    rgb(0, 64, 255)
-  );
-}
-.icons:nth-child(3) a::after {
-  background: red;
-}
-
-.f01 {
-  position: absolute;
-  bottom: 0;
-}
-
-.ico {
- 
-  position: absolute;
-  font-size: 21px;
-  z-index: 20;
-  top: 50%;
-  left: 50%;
-
-  transform: translate(-50%, -50%);
-
-  color: white; /* Remove font-size property from here */
-}
-
-.head{
-  @apply xs:text-[12px]; /* Remove font-size property from here */
-}
-
-.sec2 ul h2{
-  padding-bottom: 10px;
-  font-size: 17px;
-  font-weight: 600;
-  color:#e5e1e1
-}
-.sec2 ul li{
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-
 }
