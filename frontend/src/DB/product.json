@@ -5051,5 +5051,12 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+} , 
+{
+  "productName": "Balsamiq",
+  "category": "Ui",
+  "image": "https://github.com/user-attachments/assets/a6e8be21-6ab4-45d4-be8c-ae37298cf528",
+  "link": "https://balsamiq.com/",
+  "description": "A low-fidelity wireframing tool with a free trial, great for quick mockups."
 } 
 ]
