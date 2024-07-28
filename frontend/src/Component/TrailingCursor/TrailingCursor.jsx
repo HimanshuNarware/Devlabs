@@ -3,18 +3,15 @@ import Styles from './TrailingCursor.module.css';
 import { PiCursorFill } from "react-icons/pi";
 import { FaHandPointer } from "react-icons/fa";
 import { LuTextCursor } from "react-icons/lu";
-
 const TrailingCursor = () => {
     const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
     const [isPointer, setIsPointer] = useState('default');
-
     const handleMouseMove = (event) => {
         const scrollLeft = window.pageXOffset;
         const scrollTop = window.pageYOffset;
         setCursorPosition({ x: event.clientX + scrollLeft, y: event.clientY + scrollTop });
         createTrailing(event.clientX + 40, event.clientY + 40);
     };
-
     const handleMouseOver = (event) => {
         if (event.target.tagName === 'A' || event.target.tagName === 'BUTTON') {
             setIsPointer('pointer');
@@ -24,11 +21,9 @@ const TrailingCursor = () => {
             setIsPointer('default');
         }
     };
-
     const createTrailing = (x, y) => {
         const trailingContainer = document.createElement('div');
         trailingContainer.className = 'trailing-container';
-
         for (let i = 0; i < 2; i++) {
             const trailing = document.createElement('div');
             trailing.className = Styles['trailing'];
@@ -38,15 +33,12 @@ const TrailingCursor = () => {
             trailing.style.top = `${relativeY - 5}px`;
             trailingContainer.appendChild(trailing);
         }
-
         document.body.appendChild(trailingContainer);
-
         // Remove the trailing elements after the animation ends
         setTimeout(() => {
             trailingContainer.remove();
         }, 400);
     };
-
     useEffect(() => {
         document.addEventListener('mousemove', handleMouseMove);
         document.addEventListener('mouseover', handleMouseOver);
@@ -56,7 +48,6 @@ const TrailingCursor = () => {
             document.removeEventListener('mouseover', handleMouseOver);
         };
     }, []);
-
     return (
         <div>
             <div className={Styles["cursor-container"]}
@@ -78,5 +69,4 @@ const TrailingCursor = () => {
         </div>
     );
 };
-
 export default TrailingCursor;
