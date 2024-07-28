@@ -9,7 +9,6 @@ import {
 import Lottie from "lottie-react";
 import animationData from "../lottie/contact.json";
 import "../style/Contact.css";
-
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [isValid, setIsValid] = useState(true);

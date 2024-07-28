@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "../style/About.css";
 import Pagination from "./Pagination";
 import { getPaginationData, changePage } from "../utils/paginationData";
-
 const FOUNDER = "HimanshuNarware";
 const LINKEDIN_URL = "https://www.linkedin.com/in/HimanshuNarware";
 const CARDS_PER_PAGE = 12;

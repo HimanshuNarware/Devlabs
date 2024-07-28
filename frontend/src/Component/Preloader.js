@@ -12,8 +12,6 @@ function Preloader() {
         },2000)
     },[])
 return (
-    
-     
             loading ?
             <div className='pre'>
                 <Lottie className="preloader" animationData={pre}/>

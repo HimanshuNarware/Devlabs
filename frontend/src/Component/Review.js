@@ -47,7 +47,6 @@ function Review() {
       .catch((error) => {
         return error.response;
       });
-
     setProcessingMail(false);
     if (response.data.success) toast.success("Mail Sent Successfully!!");
     else if (response.data && response.data.errors) {

@@ -10,7 +10,6 @@ function Profile() {
     website: ""
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
-
   // Load profile data from localStorage when the component mounts
   useEffect(() => {
     const savedData = localStorage.getItem("profileData");

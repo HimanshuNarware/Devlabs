@@ -155,5 +155,4 @@ function Sidebar({ showSideNav }) {
     </div>
   );
 }
-
 export default Sidebar;

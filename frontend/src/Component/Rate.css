@@ -7,7 +7,6 @@ input[type=radio]{
 .Rate .star{
     cursor: pointer;
 }
-
 .star FaStar{
     border: 1px solid #fff;
 }

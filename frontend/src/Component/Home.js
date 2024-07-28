@@ -22,7 +22,6 @@ function Home(props) {
     localStorage.getItem("filter") || ""
   );
   const ref = useRef(null);
-
   useEffect(() => {
     if (props.searchQuery !== "") {
       ref.current?.scrollIntoView({

@@ -125,5 +125,4 @@ function NavbarCenter( ) {
     </nav>
   );
 }
-
 export default NavbarCenter;
