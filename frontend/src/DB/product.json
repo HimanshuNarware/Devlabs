@@ -5051,5 +5051,11 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+},{
+  "productName":"Flinto",
+  "category":"Ui",
+  "image":"https://www.flinto.com/assets/compass-brand/site-header-logo-6ff14e7cc8cff2ce9163572e9d400130a215a000c10cebec303e967f56b4c745.png",
+  "link":"https://www.flinto.com/",
+  "description":"A Mac app used for creating interactive and animated prototypes with a free trial."
 } 
 ]
