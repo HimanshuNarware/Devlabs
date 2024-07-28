@@ -1854,6 +1854,13 @@
     "link": "https://excalidraw.com/",
     "description": "Virtual whiteboard for sketching hand-drawn diagrams ,very useful for content creation"
   },
+   {
+    "productName": "CLion",
+    "category": "IDEs",
+    "image": "https://static-00.iconduck.com/assets.00/clion-icon-512x512-tvyolucv.png",
+    "link": "https://www.jetbrains.com/clion/",
+    "description": "Cross-platform IDE for C and C++ development with powerful refactoring and debugging capabilities."
+  },
   {
     "productName": "Grammarly",
     "category": "extensions",
