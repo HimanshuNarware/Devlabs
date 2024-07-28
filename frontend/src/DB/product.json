@@ -1639,7 +1639,7 @@
   },
   {
     "productName": "Xcode",
-    "category": "IDEs",
+    "category": "tools",
     "image": "https://www.macincloud.com/pages/images/xcode-icon.png",
     "link": "https://developer.apple.com/xcode/",
     "description": "Enables you to develop, test, and distribute apps for all Apple platforms."
