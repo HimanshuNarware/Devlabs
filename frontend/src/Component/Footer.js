@@ -27,11 +27,13 @@ import {
 import { BsYoutube, BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
 import { Link } from "react-router-dom";
 function Footer() {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
-    <footer>
+    <footer className="overflow-x-hidden">
       <div className="Footer">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
             <div className="col-md-6 col-lg-4 col-12 ft-1">
               <a href="https://www.devlabsstore.tech/">
                 <img width={209} src={logo} alt="devlabs" />
@@ -123,7 +125,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-last">
+            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-last explore">
               <h3>Explore</h3>
               <ul>
                 <li className="nav-item">
@@ -151,9 +153,14 @@ function Footer() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-6 col-12 ft-1">
-              <div className="text-center fs-6 my-3">
-                COPYRIGHT © Devlabs 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
+            <div className="text-center fs-6 my-3">
+                COPYRIGHT &copy; Devlabs {year}  |  <br /> MAINTAINED BY HIMANSHU NARWARE
+                <br />
+              <div className="legal">
+              <a href="/PrivacyPolicy" className="footer-link" target="_blank" rel="noopener noreferrer">Privacy Policy</a> | 
+              <a href="/TermsOfService" className="footer-link" target="_blank" rel="noopener noreferrer">Terms of Service</a>
               </div>
+            </div>
               <div className="text-center mb-2">
                 <a
                   href="https://github.com/sponsors/HimanshuNarware"
