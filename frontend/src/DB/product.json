@@ -1856,7 +1856,7 @@
   },
    {
     "productName": "CLion",
-    "category": "IDEs",
+    "category": "tools",
     "image": "https://static-00.iconduck.com/assets.00/clion-icon-512x512-tvyolucv.png",
     "link": "https://www.jetbrains.com/clion/",
     "description": "Cross-platform IDE for C and C++ development with powerful refactoring and debugging capabilities."
