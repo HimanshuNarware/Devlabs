@@ -5051,5 +5051,11 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
-} 
+} , {
+  "productName":"Resume-Now",
+  "category":"Resume",
+  "image":"https://github.com/user-attachments/assets/06b8e8b0-0bf6-4b8c-addc-6251f33c2419",
+  "link":"https://www.resume-now.com/",
+  "description":"MyPerfectResume is an easy-to-use resume builder that offers templates and expert tips to guide you through creating a professional resume. It simplifies the process, making it accessible even for those with little experience in resume writing."
+}
 ]
