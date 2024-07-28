@@ -202,6 +202,34 @@
     "link": "https://goose.ai/",
     "description": "This AI helps to generate text with GPT based model with high speed."
   },
+      {
+    "productName": "Bundle JS",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.ta9zetWpg8un1QTZRVirsQHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://bundlejs.com/",
+    "description": "This tool provides a quick and easy way to bundle, minify, and compress (gzip and brotli) your ts, js, jsx and npm projects all online, while returning the final bundle file size."
+  },
+  {
+    "productName": "Algorithums visualizer",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.A2toHAoYZyH47HLqSQXyGgHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://tobinatore.github.io/algovis/",
+    "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code. Learning an algorithm gets much easier with visualizing it."
+  },
+  {
+    "productName": "Anotepad",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.TYyT2MWBbOzN7D0zzJWJOwHaFS?rs=1&pid=ImgDetMain",
+    "link": "https://anotepad.com/",
+    "description": "Anotepad.com is your online notepad on the web. It allows you to store notes on the GO without having to Login. You can use a rich text editor, sort notes by date or title and make notes private. Best of all - anotepad is a fast, clean, simple to use and FREE notepad online."
+  },
+  {
+    "productName": "Allite books",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.xwRMX9mFvWEKDFlhqJh39wHaHa?rs=1&pid=ImgDetMain",
+    "link": "http://www.allitebooks.com/",
+    "description": "Allite books website provides free books mainly focused on IT, computer science."
+  },
   {
     "productName": "Learn Git branching",
     "category": "tools",
