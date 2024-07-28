@@ -5051,5 +5051,12 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+} ,
+{
+  "productName": "BigThink",
+  "category": "course",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
+  "link": "https://bigthink.com/",
+  "description": "Courses and lessons from top thinkers and doers in various fields."
 } 
 ]
