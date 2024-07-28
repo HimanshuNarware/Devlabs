@@ -5051,5 +5051,12 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+} ,
+{
+  "productName": "Standard Resume",
+  "category": "resume",
+  "image": "https://github.com/user-attachments/assets/ac12f65d-5698-47f4-8e9c-935469a21803",
+  "link": "https://standardresume.co/",
+  "description": "Standard Resume offers a simple and clean resume builder with easy sharing options, allowing users to create a professional-looking resume quickly. It provides a link to share your resume online or download it in multiple formats, making it convenient for job applications and networking."
 } 
 ]
