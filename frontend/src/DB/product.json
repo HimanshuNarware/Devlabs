@@ -5051,5 +5051,12 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+} ,
+{
+  "productName": "Harvard Online",
+  "category": "course",
+  "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoCmOCgKlJwBk-52QvUILAWNqP2EU0RETO1uSCvSxvUVKQS8ob",
+  "link": "https://www.harvardonline.harvard.edu/",
+  "description": "Free and paid courses from Harvard University."
 } 
 ]
