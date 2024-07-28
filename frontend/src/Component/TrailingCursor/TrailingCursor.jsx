@@ -4,7 +4,7 @@ import { PiCursorFill } from "react-icons/pi";
 import { FaHandPointer } from "react-icons/fa";
 import { LuTextCursor } from "react-icons/lu";
 
-const CustomCursor = () => {
+const TrailingCursor = () => {
     const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
     const [isPointer, setIsPointer] = useState('default');
 
@@ -18,27 +18,22 @@ const CustomCursor = () => {
     const handleMouseOver = (event) => {
         if (event.target.tagName === 'A' || event.target.tagName === 'BUTTON') {
             setIsPointer('pointer');
-        }
-        else if(event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') {
-            setIsPointer('text')
-        }
-        else {
+        } else if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') {
+            setIsPointer('text');
+        } else {
             setIsPointer('default');
         }
     };
 
-
     const createTrailing = (x, y) => {
         const trailingContainer = document.createElement('div');
-        const scrollLeft = window.pageXOffset;
-        const scrollTop = window.pageYOffset;
         trailingContainer.className = 'trailing-container';
 
         for (let i = 0; i < 2; i++) {
             const trailing = document.createElement('div');
             trailing.className = Styles['trailing'];
-            const relativeX = x + scrollLeft + Math.random() * 20 - 10; // Randomize position within a range
-            const relativeY = y + scrollTop + Math.random() * 20 - 10; // Randomize position within a range
+            const relativeX = x + Math.random() * 20 - 10; // Randomize position within a range
+            const relativeY = y + Math.random() * 20 - 10; // Randomize position within a range
             trailing.style.left = `${relativeX - 5}px`;
             trailing.style.top = `${relativeY - 5}px`;
             trailingContainer.appendChild(trailing);
@@ -56,7 +51,6 @@ const CustomCursor = () => {
         document.addEventListener('mousemove', handleMouseMove);
         document.addEventListener('mouseover', handleMouseOver);
 
-
         return () => {
             document.removeEventListener('mousemove', handleMouseMove);
             document.removeEventListener('mouseover', handleMouseOver);
@@ -71,14 +65,18 @@ const CustomCursor = () => {
                     top: `${cursorPosition.y}px`,
                     position: 'absolute',
                 }}>
-                {isPointer === 'pointer' ?
-                <FaHandPointer className={Styles["custom-cursor"]} /> :
-                (isPointer === 'default' ? <PiCursorFill className={Styles["custom-cursor"]} style={{ transform: 'rotate(13deg)' }} /> :
-                <LuTextCursor className={Styles["custom-cursor"]} />
+                {isPointer === 'pointer' ? (
+                    <FaHandPointer className={Styles["custom-cursor"]} />
+                ) : (
+                    isPointer === 'default' ? (
+                        <PiCursorFill className={Styles["custom-cursor"]} style={{ transform: 'rotate(13deg)' }} />
+                    ) : (
+                        <LuTextCursor className={Styles["custom-cursor"]} />
+                    )
                 )}
             </div>
         </div>
     );
 };
 
-export default CustomCursor;
+export default TrailingCursor;
