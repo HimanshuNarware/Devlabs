@@ -5051,5 +5051,12 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+} ,
+{
+  "productName": "FutureLearn",
+  "category": "course",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hVHDw1NP0tdQjcBpHuN9Srww5Nldu4OjEQPz3s2hP0MSfCuR",
+  "link": "https://www.futurelearn.com/",
+  "description": "Provides online courses and certifications that can be included in resumes to demonstrate learning and skills development."
 } 
 ]
