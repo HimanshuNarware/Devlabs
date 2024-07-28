@@ -13,7 +13,7 @@ import ChatAssistant from "./ChatAssistant/ChatAssistant";
 import TermsOfService from './Component/TermsOfService';
 import PrivacyPolicy from './Component/PrivacyPolicy';
 import Darkmode from "darkmode-js"; // Import the Darkmode library
-import Testimonials from "../src/pages/Testimonials";
+//import Testimonials from "../src/pages/Testimonials";
 // Lazy load components
 const About = lazy(() => import("./Component/About"));
 const Rateus = lazy(() => import("./Component/Rateus"));
@@ -92,7 +92,6 @@ function App() {
         </Routes>
       </Suspense>
       <BackToTopButton />
-      <Testimonials />
       <Footer />
       <ChatAssistant />
       <Toaster />

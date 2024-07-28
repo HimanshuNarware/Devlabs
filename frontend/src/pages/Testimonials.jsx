@@ -56,7 +56,7 @@ const Testimonials = () => {
   return (
     <div className={styles.testimonials}>
       <h2 className={`${styles.h2} ${styles.sectionTitle}`}>Testimonials</h2>
-      <p className={styles.sectionSubtitle}>Know what our customers say</p>
+      <p className={styles.sectionSubtitle}>Know what our Users say</p>
 
       <div className={styles.testimonialsContainer}>
         {getVisibleTestimonials().map((testimonial, index) => (
