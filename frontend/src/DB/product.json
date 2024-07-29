@@ -3996,6 +3996,13 @@
     "description": "Udemy democratizes education by providing a vast array of online courses, catering to diverse interests and skill levels. Its self-paced learning model enables individuals worldwide to acquire new skills and advance their careers conveniently and affordably."
   },
   {
+    "productName": "KodeKloud",
+    "category": "course",
+    "image": "https://d1tfzqz2829nun.cloudfront.net/img/pages2/case-studies/kodekloud.png",
+    "link": "https://kodekloud.com/",
+    "description": "Master DevOps with hands-on learning. Achieve digital transformation with the best platform for immediate skills."
+  },
+  {
     "productName": "GitHub Copilot",
     "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGV3bTwpP8eTBE19it3Gc2_8n_W6LQhLmJUg&s",
