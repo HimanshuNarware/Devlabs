@@ -127,6 +127,15 @@ const movies = [
     image: "https://img.utdstc.com/icon/5dc/193/5dc1931ffa409f64bd7c56c5e9bdb5fc13aa04a740fdfb39c4995eba9e9a06b5:200",
     releaseDate: "2014-05-15"
   },
+  {
+
+    title: "nTask",
+    category: "Collaboration Tools",
+    description: "nTask is a project management and collaboration tool that helps teams manage tasks, projects, and workflows efficiently.",
+    image: "https://www.ntaskmanager.com/wp-content/uploads/2022/05/nTask-Logo-Vertical.svg",
+    releaseDate: "2015-07-01"
+  },  
+
 ];
 const Collaboration = () => {
   return (
