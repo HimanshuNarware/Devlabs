@@ -140,6 +140,13 @@
     "description": "This AI helps you to edit videos using AI based on the text."
   },
   {
+    "productName": "Site Palette",
+    "category": "extensions",
+    "image": "https://shorturl.at/p7K3m",
+    "link": "https://shorturl.at/fCXae",
+    "description": "Generates a color palette from any website, allowing designers to use it as a reference in their work."
+  },
+  {
     "productName": "Image color picker",
     "category": "tools",
     "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
