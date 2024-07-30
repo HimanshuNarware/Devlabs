@@ -20,6 +20,19 @@
 
 .auth__form-group {
   margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 60px); /* Adjust based on your header height */
+  
+}
+
+.profile__form {
+  background-color: #6A43C3;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
 }
 
 .auth__form-group label {
@@ -33,11 +46,19 @@
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
   font-size: 16px;
+  background-color: #020E19;
+  color: white;
 }
 
 .auth__submit-btn {
   background-color: #4caf50;
+.profile__submit-btn,
+.profile__edit-btn {
+  background-color: #0067FF;
   color: white;
   border: none;
   padding: 10px 20px;
