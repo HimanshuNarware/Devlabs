@@ -181,7 +181,7 @@ function Profile() {
       <h1>Edit Profile</h1>
       <form className="profile__form" onSubmit={handleProfileSubmit}>
         <div className="profile__form-group">
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">Name:</label><br />
           <input
             type="text"
             id="name"
@@ -193,7 +193,7 @@ function Profile() {
           />
         </div>
         <div className="profile__form-group">
-          <label htmlFor="bio">Bio:</label>
+          <label htmlFor="bio">Bio:</label><br />
           <textarea
             id="bio"
             name="bio"
@@ -204,7 +204,7 @@ function Profile() {
           ></textarea>
         </div>
         <div className="profile__form-group">
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email">Email:</label><br />
           <input
             type="email"
             id="email"
@@ -216,7 +216,7 @@ function Profile() {
           />
         </div>
         <div className="profile__form-group">
-          <label htmlFor="github">GitHub URL:</label>
+          <label htmlFor="github">GitHub URL:</label><br />
           <input
             type="url"
             id="github"
@@ -227,7 +227,7 @@ function Profile() {
           />
         </div>
         <div className="profile__form-group">
-          <label htmlFor="website">Website:</label>
+          <label htmlFor="website">Website:</label><br />
           <input
             type="url"
             id="website"

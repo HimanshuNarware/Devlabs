@@ -22,17 +22,14 @@
   margin-bottom: 15px;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 60px); /* Adjust based on your header height */
-  
 }
 
 .profile__form {
-  background-color: #6A43C3;
+  background-color: #6a43c3;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 400px;
 }
 
 .auth__form-group label {
@@ -50,15 +47,28 @@
   border: none;
   border-radius: 10px;
   font-size: 16px;
-  background-color: #020E19;
+  background-color: #020e19;
   color: white;
 }
 
-.auth__submit-btn {
-  background-color: #4caf50;
+.profile__form .profile__form-group input,.profile__form .profile__form-group textarea {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #020e19;
+  color: white;
+}
+
+.auth__submit-btn,
 .profile__submit-btn,
 .profile__edit-btn {
-  background-color: #0067FF;
+  background-color: #4caf50;
+  background-color: #0067ff;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -192,26 +202,24 @@
   }
 }
 
-
-.profile__form-group{
-  display: flex;
+.profile__form-group {
   gap: 20px;
   justify-content: space-between;
 }
 
-.profile__form-group input{
+.profile__form-group input {
   width: 400px;
   border-radius: 5px;
   padding: 6px;
 }
 
-.profile__form-group textarea{
+.profile__form-group textarea {
   width: 400px;
   padding: 6px;
   border-radius: 5px;
 }
 
-.profile__submit-btn{
+.profile__submit-btn {
   background-color: #4caf50;
   color: white;
   border: none;
