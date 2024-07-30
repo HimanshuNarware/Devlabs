@@ -819,6 +819,13 @@
     "description": "The best way to quickly convert text to video is by using an AI video generator"
   },
   {
+    "productName": "Swasthya AI",
+    "category": "tools",
+    "image": "https://screening.swasthya.ai/screening_logo.png",
+    "link": "https://www.swasthya.ai/",
+    "description": "Improves oncology patient outcomes by helping both doctors and cancer patients track the entire medical history and real-time symptoms."
+  },
+  {
     "productName": "Cuvette",
     "category": "remote",
     "image": "https://bit.ly/3Nl5t3o",
