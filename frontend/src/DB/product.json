@@ -665,6 +665,20 @@
     "description": "The latest news, sports, music and entertainment videos on Dailymotion."
   },
   {
+    "productName": "Katalon",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Katalon-logo-png.png",
+    "link": "https://katalon.com/",
+    "description": "To automate web, API, mobile & desktop functional testing."
+  },
+  {
+    "productName": "Trello",
+    "category": "tools",
+    "image": "https://e7.pngegg.com/pngimages/26/74/png-clipart-trello-logo-slack-atlassian-trello-blue-text-thumbnail.png",
+    "link": "https://trello.com/",
+    "description": "The ultimate teamwork project management tool."
+  },
+  {
     "productName": "Netlify",
     "category": "tools",
     "image": "https://cdn-1.webcatalog.io/catalog/netlify/netlify-icon-filled-256.png?v=1686434806267",
