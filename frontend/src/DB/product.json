@@ -428,6 +428,13 @@
     "description": "BUIDLs, hackathons, grants, quadratic funding rounds, bounties,etc"
   },
   {
+    "productName": "MDN Web Docs",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1200px-MDN_Web_Docs.svg.png",
+    "link": "https://developer.mozilla.org/en-US/",
+    "description": "Provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."
+  },
+  {
     "productName": "Tinkercad",
     "category": "tools",
     "image": "https://api-reader.tinkercad.com/api/images/cbdy6sTzSjf/t725.jpg",
