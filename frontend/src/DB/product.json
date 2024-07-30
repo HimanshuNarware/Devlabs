@@ -134,6 +134,13 @@
     "description": "This AI helps to generate text with GPT based model with high speed."
   },
   {
+    "productName": "Lambda Test",
+    "category": "tools",
+    "image": "https://bitrise-steplib-collection.s3.amazonaws.com/steps/lambdatest-upload/assets/icon.svg",
+    "link": "https://www.lambdatest.com/intl/en-in",
+    "description": "It lets you see how responsive a website or web app is across a variety of iOS and Android devices and viewport sizes."
+  },
+  {
     "productName": "Learn Git branching",
     "category": "tools",
     "image": "https://repository-images.githubusercontent.com/404347190/ea95fd64-9eaf-4793-925c-72249d617cd3",
