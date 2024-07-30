@@ -120,6 +120,13 @@ const movies = [
     image: "https://i.ibb.co/z8KTr7D/download.jpg",
     releaseDate: "2023-8-1"
   },
+  {
+    title: "Bitrix24",
+    category: "Collaboration Tools",
+    description: "Bitrix24 is a collaboration platform offering a suite of tools for communication, project management, CRM, and more, designed to improve team productivity and efficiency.",
+    image: "https://logowik.com/content/uploads/images/bitrix241512.jpg",
+    releaseDate: "2012-04-12"
+  }, 
 ];
 const Collaboration = () => {
   return (
