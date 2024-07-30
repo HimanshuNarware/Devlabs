@@ -121,12 +121,21 @@ const movies = [
     releaseDate: "2023-8-1"
   },
   {
+
     title: "Ryver",
     category: "Collaboration Tools",
     description: "Ryver is a team communication and collaboration platform that integrates chat, task management, and workflow automation to streamline team productivity.",
     image: "https://ryver.com/wp-content/uploads/2024/05/thumbnail_ryver-cloverleaf-graphic-ACompany.png",
     releaseDate: "2015-09-01"
   },
+
+    title: "nTask",
+    category: "Collaboration Tools",
+    description: "nTask is a project management and collaboration tool that helps teams manage tasks, projects, and workflows efficiently.",
+    image: "https://www.ntaskmanager.com/wp-content/uploads/2022/05/nTask-Logo-Vertical.svg",
+    releaseDate: "2015-07-01"
+  },  
+
 ];
 const Collaboration = () => {
   return (
