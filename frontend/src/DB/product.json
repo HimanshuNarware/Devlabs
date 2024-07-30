@@ -569,6 +569,13 @@
     "description": "Tutorials on web development, programming languages, and other related technologies"
   },
   {
+    "productName": "Maths Apps",
+    "category": "tools",
+    "image": "https://static-00.iconduck.com/assets.00/math-icon-512x512-3muzc2go.png",
+    "link": "https://www.mathlearningcenter.org/apps",
+    "description": "To solve and study maths problems"
+  },
+  {
     "productName": "MyEmulator",
     "category": "Gaming",
     "image": "https://bit.ly/3NBzUm8",
