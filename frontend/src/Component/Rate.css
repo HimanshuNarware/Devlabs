@@ -4,11 +4,9 @@ input[type=radio]{
 .Rate{
     height: 500px;
 }
-
 .Rate .star{
     cursor: pointer;
 }
-
 .star FaStar{
     border: 1px solid #fff;
 }

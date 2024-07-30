@@ -120,6 +120,13 @@ const movies = [
     image: "https://i.ibb.co/z8KTr7D/download.jpg",
     releaseDate: "2023-8-1"
   },
+  {
+    title: "nTask",
+    category: "Collaboration Tools",
+    description: "nTask is a project management and collaboration tool that helps teams manage tasks, projects, and workflows efficiently.",
+    image: "https://www.ntaskmanager.com/wp-content/uploads/2022/05/nTask-Logo-Vertical.svg",
+    releaseDate: "2015-07-01"
+  },  
 ];
 const Collaboration = () => {
   return (
