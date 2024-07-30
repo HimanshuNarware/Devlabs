@@ -1094,6 +1094,13 @@
     "description": "Cybersecurity blog and resource hub."
   },
   {
+    "productName": "UpToDown",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Uptodown-new-logo-2019.jpg",
+    "link": "https://en.uptodown.com/",
+    "description": "Multi-platform app store specialized in Android."
+  },
+  {
     "productName": "Hacker101",
     "category": "ethical",
     "image": "https://bit.ly/3UeTiXB",
