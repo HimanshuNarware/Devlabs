@@ -532,6 +532,13 @@
     "description": "Buy, sell, and discover fashion, home decor, beauty, and more."
   },
   {
+    "productName": "Aptoide",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Aptoide_icon.png",
+    "link": "https://en.aptoide.com/",
+    "description": "Find, discover and download the best apps and games for Android"
+  },
+  {
     "productName": "Coursera",
     "category": "course",
     "image": "http://bit.ly/4dMPPZY",
