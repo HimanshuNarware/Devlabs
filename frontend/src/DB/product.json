@@ -343,6 +343,13 @@
     "description": "Free video editing tool everyone can use"
   },
   {
+    "productName": "Libro",
+    "category": "tools",
+    "image": "https://www.libro.ca/uploads/2021/07/Stacked1000px.jpeg",
+    "link": "https://libro.fm/app",
+    "description": "Audiobooks anytime, anywhere with the free Libro.fm apps for iOS and Android."
+  },
+  {
     "productName": "Flipboard",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flipboard_logo.svg/1200px-Flipboard_logo.svg.png",
