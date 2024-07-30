@@ -665,6 +665,13 @@
     "description": "This JSONView converts the JSON content into an understandable format and esay to view."
   },
   {
+    "productName": "Microsoft Math Solver",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/MSmathsolver.png",
+    "link": "hhttps://math.microsoft.com/en",
+    "description": "To solve and study maths problems"
+  },
+  {
     "productName": "Dailymotion",
     "category": "tools",
     "image": "https://cdn.icon-icons.com/icons2/2429/PNG/512/dailymotion_logo_icon_147302.png",
@@ -747,6 +754,13 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg",
     "link": "https://w3schools.com/",
     "description": "Tutorials on web development, programming languages, and other related technologies"
+  },
+  {
+    "productName": "Maths Apps",
+    "category": "tools",
+    "image": "https://static-00.iconduck.com/assets.00/math-icon-512x512-3muzc2go.png",
+    "link": "https://www.mathlearningcenter.org/apps",
+    "description": "To solve and study maths problems"
   },
   {
     "productName": "MyEmulator",
