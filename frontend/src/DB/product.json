@@ -218,6 +218,13 @@
     "description": "This helps students or professionals for taking the inspiration for building the portfolio and website using modern design and advanced UI/UX."
   },
   {
+    "productName": "Katalon",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Katalon-logo-png.png",
+    "link": "https://katalon.com/",
+    "description": "To automate web, API, mobile & desktop functional testing."
+  },
+  {
     "productName": "Fiverr",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.Arb4siojnanMD4dOpW5uHgHaHa?rs=1&pid=ImgDetMain",
