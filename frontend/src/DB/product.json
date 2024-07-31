@@ -553,6 +553,13 @@
     "description": "A quick way to prepare for your next interview using this google interview warmup"
   },
   {
+    "productName": "Hiddify",
+    "category": "tools",
+    "image": "https://hiddify.com/assets/globe.png",
+    "link": "https://hiddify.com/",
+    "description": "User-friendly VPN (virtual private network) app that lets you connect to your Hiddify (or non-Hiddify) servers."
+  },
+  {
     "productName": "Maths GPT",
     "category": "tools",
     "image": "https://rb.gy/fvbm1r",
