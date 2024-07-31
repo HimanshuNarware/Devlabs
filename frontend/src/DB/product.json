@@ -4828,6 +4828,13 @@
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
   },
+    {
+    "productName": "DuckDuckGo",
+    "category": "security",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/88/DuckDuckGo_logo.svg",
+    "link": "https://duckduckgo.com/",
+    "description": "A search engine that emphasizes protecting user privacy and does not track users' searches."
+   },
   {
     "productName":"FutureLearn",
     "category": "tools",
