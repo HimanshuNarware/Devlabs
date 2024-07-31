@@ -567,6 +567,13 @@
     "description": "Source for free stack visuals"
   },
   {
+    "productName": "Open Food Facts",
+    "category": "tools",
+    "image": "https://static.openfoodfacts.org/images/logos/off-logo-vertical-light.svg",
+    "link": "https://world.openfoodfacts.org/",
+    "description": "Food products database made by everyone, for everyone."
+  },
+  {
     "productName": "PikaShows",
     "category": "movies",
     "image": "https://tinyurl.com/37csr8my",
