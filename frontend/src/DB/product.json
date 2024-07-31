@@ -104,6 +104,27 @@
     "link": "https://www.clarifai.com/",
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
   },
+    {
+    "productName": "Freeformater",
+    "category": "tool",
+    "image": "https://th.bing.com/th/id/OIP.4I_3DgXkGDGGDBvizwiViAHaD4?rs=1&pid=ImgDetMain",
+    "link": "https://www.freeformatter.com/",
+    "description": "Website to help developers by providing them with free online tools. These tools include several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more"
+  },
+  {
+    "productName": "Fake Name Generator",
+    "category": "tools",
+    "image": "https://www.fakenamegenerator.com/images/fng-logo.png",
+    "link": "https://www.fakenamegenerator.com/",
+    "description": " Fake Name Generator is the most advanced name generator on the internet. Generate names, addresses, social security numbers, credit card numbers, occupations, UPS tracking numbers, and more absolutely free."
+  },
+  {
+    "productName": "DNS checker",
+    "category": "tools",
+    "image": "https://play-lh.googleusercontent.com/DS4hUUS-mTIDvRrUL_deAAbnJQUpoG44j6fsW9bvGDG6a57Yky4Ayq6S4IYK_IA-EQkx",
+    "link": "https://dnschecker.org/",
+    "description": " DNS Checker provides free dns lookup service for checking domain name server records against a randomly selected list of DNS servers in different corners of the world. Do a quick look up for any domain name and check DNS data collected from all location for confirming that website is completely propagated or not worldwide."
+  },
   {
     "productName": "Vidnoz",
     "category": "Tool",
