@@ -749,6 +749,13 @@
     "description": "Helps organizations, teams, and individuals build better products with online courses "
   },
   {
+    "productName": "Softonic",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Softonic_logo.svg/1280px-Softonic_logo.svg.png",
+    "link": "https://en.softonic.com/",
+    "description": "The place to discover the best applications for your device, offering you reviews, news, articles and free downloads."
+  },
+  {
     "productName": "InterviewBit",
     "category": "coding",
     "image": "https://bit.ly/3NH8dIt",
