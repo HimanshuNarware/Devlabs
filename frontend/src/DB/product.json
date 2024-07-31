@@ -7,6 +7,13 @@
     "description": "Starknet is a Validity Rollup that provides unlimited scale while retaining Ethereum’s security and decentralization."
   },
   {
+    "productName": "PhpStorm",
+    "category": "tools",
+    "image": "https://www.quanta.org/free-phpstorm-licence/phpstorm-logo.png",
+    "link": "https://www.jetbrains.com/phpstorm/",
+    "description": "Powerful IDE for PHP development with intelligent coding assistance and deep code understanding."
+  },
+  {
     "productName": "Cohere AI",
     "category": "Tool",
     "image": "https://www.appengine.ai/uploads/images/profile/logo/Cohere-AI.png",
