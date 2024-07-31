@@ -266,6 +266,13 @@
     "description": "IBomma is a free movie streaming platform that allows users to watch and download multiple movies."
   },
   {
+    "productName": "Keyviz",
+    "category": "tools",
+    "image": "https://d4.alternativeto.net/dgBCpRZvGr8ebdkgPOiEgBlnN_DTel39mwZPSGNnvaw/rs:fit:280:280:0/g:ce:0:0/exar:1/YWJzOi8vZGlzdC9pY29ucy9rZXlzdHJvXzIzMjYxNS5wbmc.png",
+    "link": "https://www.producthunt.com/products/keyviz-2",
+    "description": "Free and open-source tool to visualize your keystrokes and mouse actions in real-time."
+  },
+  {
     "productName": "unscreen",
     "category": "tools",
     "image": "https://bit.ly/3KXZGi3",
