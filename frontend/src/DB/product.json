@@ -5173,6 +5173,13 @@
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
 } ,
+  {
+  "productName": "Enhancv",
+  "category": "resume",
+  "image": "https://github.com/user-attachments/assets/db76168d-69e0-4908-a0f8-2a6c672a45e5",
+  "link": "https://enhancv.com/",
+  "description": "Enhancv provides templates and customization options to highlight your strengths by tailoring sections like skills, achievements, and personal projects. It helps you create a unique, visually appealing resume that emphasizes your unique qualifications and experiences."
+},
 {
 "productName": "MIT OpenCourseWare",
 "category": "course",
