@@ -728,6 +728,13 @@
     "description": "Virtual lab environment reserved for the exclusive use by the learners on Skills Network portals "
   },
   {
+    "productName": "Winstall",
+    "category": "tools",
+    "image": "https://winstall.app/cover.png",
+    "link": "https://winstall.app/",
+    "description": "Seamless Intune Integration, Effortless App Management with Pckgr. Pckgr simplifies your Intune application management."
+  },
+  {
     "productName": "FreshBooks",
     "category": "tools",
     "image": "https://i.pcmag.com/imagery/reviews/01y4SpcWPPMcK3pLVjjSGuo-31.fit_scale.size_760x427.v1604087112.png",
