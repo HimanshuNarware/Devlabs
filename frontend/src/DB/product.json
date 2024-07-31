@@ -224,6 +224,13 @@
     "description": "This AI helps to generate text with GPT based model with high speed."
   },
   {
+    "productName": "Lambda Test",
+    "category": "tools",
+    "image": "https://bitrise-steplib-collection.s3.amazonaws.com/steps/lambdatest-upload/assets/icon.svg",
+    "link": "https://www.lambdatest.com/intl/en-in",
+    "description": "It lets you see how responsive a website or web app is across a variety of iOS and Android devices and viewport sizes."
+  },
+  {
     "productName": "Learn Git branching",
     "category": "tools",
     "image": "https://repository-images.githubusercontent.com/404347190/ea95fd64-9eaf-4793-925c-72249d617cd3",
@@ -306,6 +313,13 @@
     "image": "https://th.bing.com/th/id/OIP.7zcQll2SaCPHa0iXPTFprQAAAA?rs=1&pid=ImgDetMain",
     "link": "https://www.awwwards.com/",
     "description": "This helps students or professionals for taking the inspiration for building the portfolio and website using modern design and advanced UI/UX."
+  },
+  {
+    "productName": "Katalon",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Katalon-logo-png.png",
+    "link": "https://katalon.com/",
+    "description": "To automate web, API, mobile & desktop functional testing."
   },
   {
     "productName": "Fiverr",
