@@ -462,6 +462,13 @@
     "description": "Award-winning proxy networks, AI-powered web scrapers, and business-ready datasets for download. "
   },
   {
+    "productName": " Kitchen owl",
+    "category": "tools",
+    "image": "https://png.pngtree.com/png-vector/20211002/ourmid/pngtree-owl-logo-design-png-image_3967099.png",
+    "link": "https://kitchenowl.org/",
+    "description": "Smart grocery list and recipe manager."
+  },
+  {
     "productName": "Jupyter Notebook",
     "category": "tools",
     "image": "https://almablog-media.s3.ap-south-1.amazonaws.com/001_c25c51e550.png",
