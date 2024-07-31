@@ -581,6 +581,13 @@
     "description": "Simplest way for couples to manage money, together"
   },
   {
+    "productName": "WebCatalog",
+    "category": "tools",
+    "image": "https://webcatalog.io/_next/static/media/logo.8a8e76e6.svg",
+    "link": "https://webcatalog.io/en/apps/",
+    "description": "Explore thousands of apps in our curated app library."
+  },
+  {
     "productName": "Poshmark",
     "category": "tools",
     "image": "https://seeklogo.com/images/P/poshmark-logo-ED11EB78C9-seeklogo.com.png",
