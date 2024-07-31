@@ -5229,5 +5229,12 @@
     "image": "https://www.knowledgehut.com/_next/image?url=%2Fkh-desktop-new-logo.svg&w=1920&q=75",
     "link": "https://www.knowledgehut.com/",
     "description": "KnowledgeHut is a leading training provider, helping professionals across industries and sectors develop new expertise and bridge their skill gap for recognition and growth in the global corporate world.Developed with the intention of delivering high value training through innovative and practical approaches, KnowledgeHut offers a wide range of services in training, learning and development in the fields of technology and management."
-   }
+   },
+{
+    "productName": "Zapier",
+    "category": "Integration tool",
+    "image": "https://cdn.zapier.com/zapier/images/logos/social.png",
+    "link": "https://zapier.com/apps",
+    "description": "An automation tool that connects different web helps bridge the gap between different applications to streamline workflows and increase prod web applications and services."
+}
 ]
