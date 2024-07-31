@@ -574,6 +574,13 @@
     "description": "Source for free stack visuals"
   },
   {
+    "productName": "Hiddify",
+    "category": "tools",
+    "image": "https://hiddify.com/assets/globe.png",
+    "link": "https://hiddify.com/",
+    "description": "User-friendly VPN (virtual private network) app that lets you connect to your Hiddify (or non-Hiddify) servers."
+  },
+  {
     "productName": "PikaShows",
     "category": "movies",
     "image": "https://tinyurl.com/37csr8my",
