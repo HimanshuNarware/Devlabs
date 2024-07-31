@@ -672,6 +672,13 @@
     "description": "Provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."
   },
   {
+    "productName": "Meishe SDK",
+    "category": "tools",
+    "image": "https://pbs.twimg.com/profile_images/1691331537411940354/G-fzIozq_400x400.jpg",
+    "link": "https://en.meishesdk.com/",
+    "description": "Meicam provide a whole package of short video sdk,video editor sdk and audio solution"
+  },
+  {
     "productName": "Tinkercad",
     "category": "tools",
     "image": "https://api-reader.tinkercad.com/api/images/cbdy6sTzSjf/t725.jpg",
