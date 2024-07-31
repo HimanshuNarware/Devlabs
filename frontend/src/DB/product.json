@@ -707,6 +707,13 @@
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
   },
   {
+    "productName": "Uni Apps",
+    "category": "tools",
+    "image": "https://static.udrus.com/assets/image/uniapp-logo.png",
+    "link": "https://uni-app.com/",
+    "description": "Uni-app is a framework for developing all front-end applications using Vue.js , developers write a set of codes.."
+  },
+  {
     "productName": "Patreon",
     "category": "tools",
     "image": "https://crystalpng.com/wp-content/uploads/2023/10/New-Patreon-Logo.png",
