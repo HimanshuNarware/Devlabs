@@ -1,17 +1,17 @@
 [
   {
-    "productName": "Codepen",
-    "category": "UI",
-    "image": "https://blog.expertrec.com/wp-content/webp-express/webp-images/uploads/2019/06/Codepen.png.webp",
-    "link": "https://codepen.io/",
-    "description": "CodePen is an ideal environment for web developers and designers to prototype their ideas quickly. Whether sketching out a new design concept, testing a unique user interface, or experimenting with code, CodePen's live preview feature lets you see the results in real time."
-  },
-  {
     "productName": "Starknet",
     "category": "Web",
     "image": "https://www.starknet.io/wp-content/themes/Starknet/assets/img/starknet-logo.svg",
     "link": "https://www.starknet.io/",
     "description": "Starknet is a Validity Rollup that provides unlimited scale while retaining Ethereum’s security and decentralization."
+  },
+  {
+    "productName": "PhpStorm",
+    "category": "tools",
+    "image": "https://www.quanta.org/free-phpstorm-licence/phpstorm-logo.png",
+    "link": "https://www.jetbrains.com/phpstorm/",
+    "description": "Powerful IDE for PHP development with intelligent coding assistance and deep code understanding."
   },
   {
     "productName": "Cohere AI",
@@ -111,6 +111,27 @@
     "link": "https://www.clarifai.com/",
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
   },
+    {
+    "productName": "Freeformater",
+    "category": "tool",
+    "image": "https://th.bing.com/th/id/OIP.4I_3DgXkGDGGDBvizwiViAHaD4?rs=1&pid=ImgDetMain",
+    "link": "https://www.freeformatter.com/",
+    "description": "Website to help developers by providing them with free online tools. These tools include several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more"
+  },
+  {
+    "productName": "Fake Name Generator",
+    "category": "tools",
+    "image": "https://www.fakenamegenerator.com/images/fng-logo.png",
+    "link": "https://www.fakenamegenerator.com/",
+    "description": " Fake Name Generator is the most advanced name generator on the internet. Generate names, addresses, social security numbers, credit card numbers, occupations, UPS tracking numbers, and more absolutely free."
+  },
+  {
+    "productName": "DNS checker",
+    "category": "tools",
+    "image": "https://play-lh.googleusercontent.com/DS4hUUS-mTIDvRrUL_deAAbnJQUpoG44j6fsW9bvGDG6a57Yky4Ayq6S4IYK_IA-EQkx",
+    "link": "https://dnschecker.org/",
+    "description": " DNS Checker provides free dns lookup service for checking domain name server records against a randomly selected list of DNS servers in different corners of the world. Do a quick look up for any domain name and check DNS data collected from all location for confirming that website is completely propagated or not worldwide."
+  },
   {
     "productName": "Vidnoz",
     "category": "Tool",
@@ -147,11 +168,25 @@
     "description": "This AI helps you to edit videos using AI based on the text."
   },
   {
+    "productName": "Site Palette",
+    "category": "extensions",
+    "image": "https://shorturl.at/p7K3m",
+    "link": "https://shorturl.at/fCXae",
+    "description": "Generates a color palette from any website, allowing designers to use it as a reference in their work."
+  },
+  {
     "productName": "Image color picker",
     "category": "tools",
     "image": "https://10015.io/assets/tools/list/image-color-picker.svg",
     "link": "https://10015.io/tools/image-color-picker",
     "description": "Extract color from the images and get color code and details"
+  },
+  {
+    "productName": "Muzli",
+    "category": "extensions",
+    "image": "https://rb.gy/jbhuud",
+    "link": "https://rb.gy/wzmkfy",
+    "description": "Your daily dose of design with industry news, tools, and inspiration - all in one place."
   },
   {
     "productName": "Lucid chart",
@@ -175,13 +210,6 @@
     "description": "InVision Freehand is a tool for ideating, planning, executing, and tracking projects with your team. It feels like you’re holding a marker and making ideas happen on a digital canvas."
   },
   {
-    "productName": "Newton School",
-    "category": "tools",
-    "image": "https://cdn.theorg.com/b42e95e6-f1e5-49de-ba52-d9ec80f925f2_thumb.jpg",
-    "link": "https://www.newtonschool.co/",
-    "description": "Neo-university providing highly immersive learning to millions of students and working professionals to tap into new-age technology."
-  },
-  {
     "productName": "Amazon Prime Video",
     "category": "movies",
     "image": "https://shorturl.at/dxObb",
@@ -203,18 +231,18 @@
     "description": "This AI helps to generate text with GPT based model with high speed."
   },
   {
+    "productName": "Lambda Test",
+    "category": "tools",
+    "image": "https://bitrise-steplib-collection.s3.amazonaws.com/steps/lambdatest-upload/assets/icon.svg",
+    "link": "https://www.lambdatest.com/intl/en-in",
+    "description": "It lets you see how responsive a website or web app is across a variety of iOS and Android devices and viewport sizes."
+  },
+  {
     "productName": "Learn Git branching",
     "category": "tools",
     "image": "https://repository-images.githubusercontent.com/404347190/ea95fd64-9eaf-4793-925c-72249d617cd3",
     "link": "https://learngitbranching.js.org/",
     "description": "This website helps you to learn git and git commands very easily through interactive game."
-  },
-  {
-    "productName": "Moqups",
-    "category": "tools",
-    "image": "https://th.bing.com/th/id/OIP.aOX9SrhYjcR41DBJns9yswHaHa?rs=1&pid=ImgDetMain",
-    "link": "https://moqups.com/",
-    "description": "Moqups is a web app that lets you create and share visual designs for UI and UX projects. You can work with your team in the cloud, use stencils, icons, fonts, images, and prototypes, and integrate with Slack, Google Drive and Dropbox."
   },
   {
     "productName": "removebg",
@@ -236,13 +264,6 @@
     "image": "https://shorturl.at/kSu0y",
     "link": "https://shorturl.at/trpdb",
     "description": "IBomma is a free movie streaming platform that allows users to watch and download multiple movies."
-  },
-  {
-    "productName": "Miro",
-    "category": "tools",
-    "image": "https://media.licdn.com/dms/image/D4E0BAQEPS1xZbw7MFQ/company-logo_200_200/0/1694624157258/mirohq_logo?e=1729728000&v=beta&t=ydvPy91ZY0SpGu0jQKfCXvqE4691hWM0Y4g0cfbZTH8",
-    "link": "https://miro.com/",
-    "description": "Miro is a collaborative online platform that helps teams think and create together, from brainstorming to execution. It offers six core capabilities, such as diagramming, workshops and more"
   },
   {
     "productName": "unscreen",
@@ -301,6 +322,13 @@
     "description": "This helps students or professionals for taking the inspiration for building the portfolio and website using modern design and advanced UI/UX."
   },
   {
+    "productName": "Katalon",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Katalon-logo-png.png",
+    "link": "https://katalon.com/",
+    "description": "To automate web, API, mobile & desktop functional testing."
+  },
+  {
     "productName": "Fiverr",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.Arb4siojnanMD4dOpW5uHgHaHa?rs=1&pid=ImgDetMain",
@@ -308,11 +336,25 @@
     "description": "Fiverr is a freelancing platform which provides the opportinites for doing freelancing."
   },
   {
+    "productName": "L/G_Tours&Travels",
+    "category": "tools",
+    "image": "https://w7.pngwing.com/pngs/780/55/png-transparent-flight-airplane-travel-agent-computer-icons-travel-text-logo-symbol-thumbnail.png",
+    "link": "https://lgtours.in/",
+    "description": "For booking and travelling"
+  },
+  {
     "productName": "Carousel Hero",
     "category": "tools",
     "image": "https://i.ibb.co/7rRW6TW/logo-social-large.png",
     "link": "https://carouselhero.com",
     "description": "Create social media carousels for free and with no signup."
+  },
+  {
+    "productName": "Share Zone",
+    "category": "tools",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/3b/b0/463bb099-edf7-b885-68c7-1402bd6fbcee/AppIcon-85-220-4-2x.png/1200x600wa.png",
+    "link": "https://sharezone.net/",
+    "description": "Sharezone is a collaborative school organization app for iOS, Android.."
   },
   {
     "productName": "Square",
@@ -334,6 +376,13 @@
     "image": "https://pbs.twimg.com/profile_images/1727146319637024768/mM4APWMi_400x400.jpg",
     "link": "https://mailchimp.com/",
     "description": "Use real-time behavior data and AI to convert more customers with Mailchimp's marketing, automation & email marketing platform"
+  },
+  {
+    "productName": "ElectrifAi",
+    "category": "tools",
+    "image": "https://cdn.prod.website-files.com/6102d422589f98818118496e/6111448eee3f0867cbc1be7d_ElectrifAi_SocialThumbnail.jpg",
+    "link": "https://www.electrifai.com/",
+    "description": "Consequential Ai revolutionizes the software business."
   },
   {
     "productName": "BootStrap",
@@ -364,11 +413,25 @@
     "description": "Platform that allows you to issue digital badges that people love."
   },
   {
+    "productName": "Oyster Card",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Oyster_card.png",
+    "link": "https://www.tripadvisor.in/ShowTopic-g186338-i17-k12932378-London_Travel_Oyster_card_app-London_England.html",
+    "description": "Oyster app lets you see your journey history, tap ons and tap off, etc."
+  },
+  {
     "productName": "Clipchamp",
     "category": "tools",
     "image": "https://i.pcmag.com/imagery/reviews/06VFIsuFn6iZlCkiqd5m7iD-9.fit_scale.size_760x427.v1689105256.png",
     "link": "https://clipchamp.com/en/",
     "description": "Free video editing tool everyone can use"
+  },
+  {
+    "productName": "Libro",
+    "category": "tools",
+    "image": "https://www.libro.ca/uploads/2021/07/Stacked1000px.jpeg",
+    "link": "https://libro.fm/app",
+    "description": "Audiobooks anytime, anywhere with the free Libro.fm apps for iOS and Android."
   },
   {
     "productName": "Flipboard",
@@ -448,6 +511,13 @@
     "description": "Simple, scalable virtual machines for all your web hosting and VPS hosting needs."
   },
   {
+    "productName": "Celestial",
+    "category": "tools",
+    "image": "https://celestial.show/wp-content/uploads/2023/12/Celestial-Logo-File_CELESTIAL-LOGO-WHITE-768x306.png",
+    "link": "https://celestial.fandom.com/wiki/Celestial",
+    "description": "Celestial is an Open world Space survival game playing on a Spherical world of roughly 700km2."
+  },
+  {
     "productName": "GitLab",
     "category": "tools",
     "image": "https://www.pngfind.com/pngs/m/94-945757_gitlab-logo-hd-png-download.png",
@@ -476,6 +546,13 @@
     "description": "FreeConvert's video compressor is a user-friendly tool that helps you reduce the file size of your videos without compromising on quality."
   },
   {
+    "productName": "FileHippo",
+    "category": "tools",
+    "image": "https://w7.pngwing.com/pngs/270/655/png-transparent-screencast-screenshot-computer-program-filehippo-computer-monitors-computer-computer-logo-computer-program-thumbnail.png",
+    "link": "https://filehippo.com/",
+    "description": "To download safe free versions of the latest software, freeware, shareware and demo programs from a reputable download site"
+  },
+  {
     "productName": "Essay Flow",
     "category": "tools",
     "image": "https://shorturl.at/RDfpQ",
@@ -495,13 +572,6 @@
     "image": "https://rb.gy/fvbm1r",
     "link": "https://www.mathgptpro.com/",
     "description": "Ultimate AI Maths solver tool"
-  },
-  {
-    "productName": "ILLA Cloud",
-    "category": "tools",
-    "image": "https://cdn.dealmango.com/wp-content/uploads/2023/07/illq-lifetime-deal-on-appsumo.jpg",
-    "link": "https://illacloud.com/",
-    "description": "A robust open source low-code platform for developers to build internal tools."
   },
   {
     "productName": "Unsplash",
@@ -525,6 +595,13 @@
     "description": "Simplest way for couples to manage money, together"
   },
   {
+    "productName": "WebCatalog",
+    "category": "tools",
+    "image": "https://webcatalog.io/_next/static/media/logo.8a8e76e6.svg",
+    "link": "https://webcatalog.io/en/apps/",
+    "description": "Explore thousands of apps in our curated app library."
+  },
+  {
     "productName": "Poshmark",
     "category": "tools",
     "image": "https://seeklogo.com/images/P/poshmark-logo-ED11EB78C9-seeklogo.com.png",
@@ -532,11 +609,32 @@
     "description": "Buy, sell, and discover fashion, home decor, beauty, and more."
   },
   {
+    "productName": "Sap",
+    "category": "tools",
+    "image": "https://w7.pngwing.com/pngs/818/145/png-transparent-sap-erp-enterprise-resource-planning-sap-se-sap-s-4hana-computer-software-job-hire-blue-angle-text-thumbnail.png",
+    "link": "https://www.sap.com/index.html",
+    "description": "Explore market-leading software and technology"
+  },
+  {
+    "productName": "Aptoide",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Aptoide_icon.png",
+    "link": "https://en.aptoide.com/",
+    "description": "Find, discover and download the best apps and games for Android"
+  },
+  {
     "productName": "Coursera",
     "category": "course",
     "image": "http://bit.ly/4dMPPZY",
     "link": "https://www.coursera.org/",
     "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
+  },
+  {
+    "productName": "OpenRead",
+    "category": "tools",
+    "image": "https://cdn.prod.website-files.com/64f2fa44b0818c378b17052e/66205c622bce7baa72bc366a_66197d73d04735705990f89f_OpenRead.png",
+    "link": "https://www.openread.academy/",
+    "description": "Help you organize your library with three lists provided"
   },
   {
     "productName": "Newton School",
@@ -574,11 +672,25 @@
     "description": "SEO WRITING is an AI writing tool for 1-click SEO-optimized articles, blog posts & affiliate content."
   },
   {
+    "productName": "BrowserStack",
+    "category": "tools",
+    "image": "https://e7.pngegg.com/pngimages/270/679/png-clipart-browserstack-computer-software-content-management-system-github-web-browser-github-text-trademark.png",
+    "link": "https://www.browserstack.com/",
+    "description": "Apps and websites that work for everyone, every time."
+  },
+  {
     "productName": "DoraHacks",
     "category": "tools",
     "image": "https://www.finsmes.com/wp-content/uploads/2022/08/dorahacks.jpeg",
     "link": "https://dorahacks.io/",
     "description": "BUIDLs, hackathons, grants, quadratic funding rounds, bounties,etc"
+  },
+  {
+    "productName": "MDN Web Docs",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1200px-MDN_Web_Docs.svg.png",
+    "link": "https://developer.mozilla.org/en-US/",
+    "description": "Provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."
   },
   {
     "productName": "Tinkercad",
@@ -593,13 +705,6 @@
     "image": "https://cdn.freelogovectors.net/wp-content/uploads/2019/01/stitch_fix_logo.png",
     "link": "https://www.stitchfix.com/",
     "description": "Personal styling for men, women & kids that sends clothing to your door"
-  },
-  {
-    "productName": "Remove.bg",
-    "category": "tools",
-    "image": "https://sb.kaleidousercontent.com/67418/1024x1024/29e2b38e80/rbg-macos-app-icon-2x.png",
-    "link": "https://www.remove.bg/",
-    "description": "To remove backgrounds of image,logos,etc.."
   },
   {
     "productName": "Appy Pie",
@@ -628,6 +733,13 @@
     "image": "https://bit.ly/3XoZKgc",
     "link": "https://bit.ly/3plUFZw",
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
+  },
+  {
+    "productName": "Uni Apps",
+    "category": "tools",
+    "image": "https://static.udrus.com/assets/image/uniapp-logo.png",
+    "link": "https://uni-app.com/",
+    "description": "Uni-app is a framework for developing all front-end applications using Vue.js , developers write a set of codes.."
   },
   {
     "productName": "Patreon",
@@ -665,11 +777,11 @@
     "description": "Helps organizations, teams, and individuals build better products with online courses "
   },
   {
-    "productName": "Miro",
+    "productName": "Softonic",
     "category": "tools",
-    "image": "https://e7.pngegg.com/pngimages/441/29/png-clipart-miro-logo-landscape-tech-companies.png",
-    "link": "https://miro.com/",
-    "description": "Online whiteboard platform that can be used for remote collaboration and brainstorming"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Softonic_logo.svg/1280px-Softonic_logo.svg.png",
+    "link": "https://en.softonic.com/",
+    "description": "The place to discover the best applications for your device, offering you reviews, news, articles and free downloads."
   },
   {
     "productName": "InterviewBit",
@@ -684,13 +796,6 @@
     "image": "https://w7.pngwing.com/pngs/667/531/png-transparent-planner5d-office-interior-design-services-planner-5d-app-store-gui-game-elements-blue-text-trademark-thumbnail.png",
     "link": "https://planner5d.com/",
     "description": "Create your dream home design with powerful but easy software"
-  },
-  {
-    "productName": "Visme",
-    "category": "tools",
-    "image": "https://www.visme.co/wp-content/themes/visme/images/Visme-logo-dark-hor.svg",
-    "link": "https://www.visme.co/",
-    "description": "Interactive Content Platform for Serious Executives."
   },
   {
     "productName": "Momentum",
@@ -714,11 +819,32 @@
     "description": "This JSONView converts the JSON content into an understandable format and esay to view."
   },
   {
+    "productName": "Microsoft Math Solver",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/MSmathsolver.png",
+    "link": "hhttps://math.microsoft.com/en",
+    "description": "To solve and study maths problems"
+  },
+  {
     "productName": "Dailymotion",
     "category": "tools",
     "image": "https://cdn.icon-icons.com/icons2/2429/PNG/512/dailymotion_logo_icon_147302.png",
     "link": "https://www.dailymotion.com/",
     "description": "The latest news, sports, music and entertainment videos on Dailymotion."
+  },
+  {
+    "productName": "Katalon",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Katalon-logo-png.png",
+    "link": "https://katalon.com/",
+    "description": "To automate web, API, mobile & desktop functional testing."
+  },
+  {
+    "productName": "Student AI",
+    "category": "tools",
+    "image": "https://studentai.app/wp-content/uploads/2023/05/S-letter-geometric-Logo-design-Linear.-.png",
+    "link": "https://studentai.app/",
+    "description": "Every essay becomes a masterpiece, citations align like stars, and even the trickiest math problems bow down."
   },
   {
     "productName": "Trello",
@@ -733,13 +859,6 @@
     "image": "https://cdn-1.webcatalog.io/catalog/netlify/netlify-icon-filled-256.png?v=1686434806267",
     "link": "https://www.netlify.com/",
     "description": "Netlify provides free hosting, deploying, and many more service to the user so the user doesn't need to worry about the hosting."
-  },
-  {
-    "productName": "JSFiddle",
-    "category": "tools",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Jsfiddle-logo.png",
-    "link": "https://jsfiddle.net/",
-    "description": "Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor."
   },
   {
     "productName": "MDN Web Docs",
@@ -761,6 +880,13 @@
     "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png",
     "link": "https://hashnode.com/",
     "description": "Hashnode is a free blogging platform for developers that enables them to create content, share knowledge, and grow their network within the tech community."
+  },
+  {
+    "productName": "APKPure",
+    "category": "tools",
+    "image": "https://cdn.freelogovectors.net/wp-content/uploads/2022/06/apkpure-logo-freelogovectors.net_.png",
+    "link": "https://apkpure.net/",
+    "description": "Windowsapp store"
   },
   {
     "productName": "Quira",
@@ -791,18 +917,18 @@
     "description": "Produce beautiful documents starting from gallery of LaTeX templates for CVs."
   },
   {
-    "productName": "ILLA Cloud",
-    "category": "tools",
-    "image": "https://cdn.dealmango.com/wp-content/uploads/2023/07/illq-lifetime-deal-on-appsumo.jpg",
-    "link": "https://illacloud.com/",
-    "description": "A robust open source low-code platform for developers to build internal tools."
-  },
-  {
     "productName": "w3schools",
     "category": "coding",
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg",
     "link": "https://w3schools.com/",
     "description": "Tutorials on web development, programming languages, and other related technologies"
+  },
+  {
+    "productName": "Maths Apps",
+    "category": "tools",
+    "image": "https://static-00.iconduck.com/assets.00/math-icon-512x512-3muzc2go.png",
+    "link": "https://www.mathlearningcenter.org/apps",
+    "description": "To solve and study maths problems"
   },
   {
     "productName": "MyEmulator",
@@ -875,6 +1001,13 @@
     "description": "The best way to quickly convert text to video is by using an AI video generator"
   },
   {
+    "productName": "Swasthya AI",
+    "category": "tools",
+    "image": "https://screening.swasthya.ai/screening_logo.png",
+    "link": "https://www.swasthya.ai/",
+    "description": "Improves oncology patient outcomes by helping both doctors and cancer patients track the entire medical history and real-time symptoms."
+  },
+  {
     "productName": "Cuvette",
     "category": "remote",
     "image": "https://bit.ly/3Nl5t3o",
@@ -929,13 +1062,6 @@
     "image": "https://bit.ly/43RCAkX",
     "link": "https://pdf.abbyy.com/",
     "description": "Offers powerful OCR capabilities to transform scanned documents into editable files with high accuracy."
-  },
-  {
-    "productName": "Futurepedia",
-    "category": "tools",
-    "image": "https://pbs.twimg.com/profile_images/1727146319637024768/mM4APWMi_400x400.jpg",
-    "link": "https://www.futurepedia.io/",
-    "description": "Free site to help you find the best AI tools and software to make your work and life more efficient and productive"
   },
   {
     "productName": "Smallpdf",
@@ -1113,13 +1239,6 @@
     "description": "Remote job board and resource for remote job seekers and employers."
   },
   {
-    "productName": "Postman",
-    "category": "tools",
-    "image": "https://cdn.worldvectorlogo.com/logos/postman.svg",
-    "link": "https://www.postman.com/",
-    "description": "A tool for developing, testing, and managing APIs application programming interfaces."
-  },
-  {
     "productName": "JustRemote",
     "category": "remote",
     "image": "https://media.licdn.com/dms/image/C4D0BAQHBHzGSqkcAww/company-logo_200_200/0/1630535454926/justremote_logo?e=1723680000&v=beta&t=7z2xSmOq8AyEQ5MOmG7HIQCe6eS5eRnuLINan4QdKBE",
@@ -1195,13 +1314,6 @@
     "image": "https://bit.ly/3IjJ97J",
     "link": "https://github-profile-readme-generator-47w21mt0m-rahuldkjain.vercel.app/",
     "description": "Automated tool for generating project README files."
-  },
-  {
-    "productName": "Code Pen",
-    "category": "web",
-    "image": "https://bit.ly/2I9FxYw",
-    "link": "https://codepen.io/",
-    "description": "Front-end web development and code sharing."
   },
   {
     "productName": "Toptal",
@@ -3996,6 +4108,13 @@
     "description": "Udemy democratizes education by providing a vast array of online courses, catering to diverse interests and skill levels. Its self-paced learning model enables individuals worldwide to acquire new skills and advance their careers conveniently and affordably."
   },
   {
+    "productName": "KodeKloud",
+    "category": "course",
+    "image": "https://d1tfzqz2829nun.cloudfront.net/img/pages2/case-studies/kodekloud.png",
+    "link": "https://kodekloud.com/",
+    "description": "Master DevOps with hands-on learning. Achieve digital transformation with the best platform for immediate skills."
+  },
+  {
     "productName": "GitHub Copilot",
     "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGV3bTwpP8eTBE19it3Gc2_8n_W6LQhLmJUg&s",
@@ -4316,7 +4435,8 @@
     "image": "https://www.logodesignlove.com/wp-content/uploads/2012/08/microsoft-logo-02.jpeg",
     "link": "https://learn.microsoft.com/en-us/training/",
     "description": "Whether you are just starting in a career, or you are an experienced professional, our self-directed approach helps you arrive at your goals faster, with more confidence and at your own pace. Develop skills through interactive modules and paths or learn from an instructor. Learn and grow your way."
-  },
+   },
+
   {
     "productName": "ACM",
     "category": "tools",
@@ -4583,25 +4703,11 @@
     "description": "Automate Workflows, and Design with Ease Using AI."
   },
   {
-    "productName": "Appy pie",
-    "category": "web",
-    "image": "https://media.licdn.com/dms/image/C4D0BAQFbhkRUcCNRaA/company-logo_200_200/0/1630542695598/moqups_logo?e=1729728000&v=beta&t=DkYXA_nZL5olBjPt-ZMR8NHFE49AH3Jp1xEHq2HHAWY",
-    "link": "https://moqups.com/",
-    "description": "Go from diagrams, wireframes and prototypes without switching apps or updating across platforms."
-  },
-  {
     "productName": "Venngage",
     "category": "UI",
     "image": "https://venngage.com/assets/img/venngage-icon.svg",
     "link": "https://venngage.com/",
     "description": "Make accessible and professional infographics or any other visual you can think of in just a few steps. Start now!"
-  },
-  {
-    "productName": "Visme",
-    "category": "AI",
-    "image": "",
-    "link": "https://www.visme.co/",
-    "description": "From engaging presentations to docs, visual forms and data visualizations, create on-brand content that stands out from the crowd with the power of AI."
   },
   {
     "productName": "HoneyDue",
@@ -4665,13 +4771,6 @@
     "image": "",
     "link": "https://www.autodesk.com/",
     "description": "Autodesk’s Design and Make Platform helps you get everyone on the same page to plan, design, construct and operate better projects."
-  },
-  {
-    "productName": "FuturePedia",
-    "category": "AI",
-    "image": "https://www.futurepedia.io/_next/image?url=%2Ffuturepedia-dark.svg&w=256&q=75",
-    "link": "https://www.futurepedia.io/",
-    "description": "Listing of All AI tools"
   },
   {
     "productName": "Lighthouse",
@@ -4761,7 +4860,7 @@
     "productName": "SideKick",
     "category": "tools",
     "image": "https://www.meetsidekick.com/wp-content/themes/sidekick-ppl/assets/img/logo-with-title.svg",
-    "link": "https://ocw.mit.edu/",
+    "link": "https://www.meetsidekick.com/",
     "description": "Sidekick makes the Internet distraction-free. It speeds up your workflow and protects against attention killers"
   },
   {
@@ -4807,6 +4906,28 @@
     "link": "https://www.tabnine.com/",
     "description": "Tabnine's AI code assistant streamlines code generation and automates mundane tasks so developers can spend more time on the work they love."
   },
+  {
+    "productName":"CakeResume",
+    "category":"resume",
+    "image":"https://www.cakeresume.com/_next/static/media/cake.9d3a50b4.svg",
+    "link":"https://www.cakeresume.com/en",
+    "description":"CakeResume provides a drag-and-drop interface and extensive customization options, enabling users to easily add, rearrange, and format sections. This makes it ideal for creating unique and visually appealing resumes tailored to specific job applications or personal branding."
+  },
+  {
+    "productName": "IFTTT",
+    "category": "Integration",
+    "image": "https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Fimages.ctfassets.net%2Fdm4oa8qtogq0%2F2EZFfsP8mbmXKC0ajUYSS7%2F676263126a4665b250b9a4b7156f460a%2FIFTTT_250.png",
+    "link": "https://ifttt.com/android_photos",
+    "description": "IFTTT (If This Then That) is a popular integration tool that enables users to connect various web services and devices to automate tasks."
+   },
+    {
+    "productName": "DuckDuckGo",
+    "category": "security",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/88/DuckDuckGo_logo.svg",
+    "link": "https://duckduckgo.com/",
+    "description": "A search engine that emphasizes protecting user privacy and does not track users' searches."
+   },
+
   {
     "productName":"FutureLearn",
     "category": "tools",
@@ -5051,11 +5172,48 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
-},{
+},
+  {
   "productName":"Flinto",
   "category":"Ui",
   "image":"https://www.flinto.com/assets/compass-brand/site-header-logo-6ff14e7cc8cff2ce9163572e9d400130a215a000c10cebec303e967f56b4c745.png",
   "link":"https://www.flinto.com/",
   "description":"A Mac app used for creating interactive and animated prototypes with a free trial."
-} 
+
+} ,
+{
+  "productName": "Standard Resume",
+  "category": "resume",
+  "image": "https://github.com/user-attachments/assets/ac12f65d-5698-47f4-8e9c-935469a21803",
+  "link": "https://standardresume.co/",
+  "description": "Standard Resume offers a simple and clean resume builder with easy sharing options, allowing users to create a professional-looking resume quickly. It provides a link to share your resume online or download it in multiple formats, making it convenient for job applications and networking."
+},
+  {
+  "productName":"Resume-Now",
+  "category":"Resume",
+  "image":"https://github.com/user-attachments/assets/06b8e8b0-0bf6-4b8c-addc-6251f33c2419",
+  "link":"https://www.resume-now.com/",
+  "description":"MyPerfectResume is an easy-to-use resume builder that offers templates and expert tips to guide you through creating a professional resume. It simplifies the process, making it accessible even for those with little experience in resume writing."
+} ,
+  {
+  "productName": "Enhancv",
+  "category": "resume",
+  "image": "https://github.com/user-attachments/assets/db76168d-69e0-4908-a0f8-2a6c672a45e5",
+  "link": "https://enhancv.com/",
+  "description": "Enhancv provides templates and customization options to highlight your strengths by tailoring sections like skills, achievements, and personal projects. It helps you create a unique, visually appealing resume that emphasizes your unique qualifications and experiences."
+},
+{
+"productName": "MIT OpenCourseWare",
+"category": "course",
+"image": "https://github.com/user-attachments/assets/b893692b-3fe1-41d2-901e-5eb84d820189",
+"link": "https://ocw.mit.edu/",
+"description": "Features free lecture notes, exams, and videos from MIT’s course catalog, providing high-quality educational materials for self-study."
+},
+  {
+    "productName": "KnowledgeHut",
+    "category": "education",
+    "image": "https://www.knowledgehut.com/_next/image?url=%2Fkh-desktop-new-logo.svg&w=1920&q=75",
+    "link": "https://www.knowledgehut.com/",
+    "description": "KnowledgeHut is a leading training provider, helping professionals across industries and sectors develop new expertise and bridge their skill gap for recognition and growth in the global corporate world.Developed with the intention of delivering high value training through innovative and practical approaches, KnowledgeHut offers a wide range of services in training, learning and development in the fields of technology and management."
+   }
 ]
