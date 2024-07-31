@@ -518,6 +518,13 @@
     "description": "An online code editor and social development environment for front-end developers to build and share web projects."
   },
   {
+    "productName": "Kaggle",
+    "category": "tools",
+    "image": "https://static-00.iconduck.com/assets.00/kaggle-icon-2048x2048-fxhlmjy3.png",
+    "link": "https://www.kaggle.com/general/104350",
+    "description": "Explore market-leading software and technology"
+  },
+  {
     "productName": "Asana",
     "category": "tools",
     "image": "https://cdn.prod.website-files.com/5ec87155c128146ff27140cd/619de8425f6fc94e05960235_APP_ASANA_128x128.svg",
