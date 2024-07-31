@@ -399,6 +399,13 @@
     "description": "Platform that allows you to issue digital badges that people love."
   },
   {
+    "productName": "Oyster Card",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Oyster_card.png",
+    "link": "https://www.tripadvisor.in/ShowTopic-g186338-i17-k12932378-London_Travel_Oyster_card_app-London_England.html",
+    "description": "Oyster app lets you see your journey history, tap ons and tap off, etc."
+  },
+  {
     "productName": "Clipchamp",
     "category": "tools",
     "image": "https://i.pcmag.com/imagery/reviews/06VFIsuFn6iZlCkiqd5m7iD-9.fit_scale.size_760x427.v1689105256.png",
@@ -572,6 +579,13 @@
     "image": "https://www.finder.com/niche-builder/60862ac2442d0.png",
     "link": "https://www.honeydue.com/",
     "description": "Simplest way for couples to manage money, together"
+  },
+  {
+    "productName": "WebCatalog",
+    "category": "tools",
+    "image": "https://webcatalog.io/_next/static/media/logo.8a8e76e6.svg",
+    "link": "https://webcatalog.io/en/apps/",
+    "description": "Explore thousands of apps in our curated app library."
   },
   {
     "productName": "Poshmark",
