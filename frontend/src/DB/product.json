@@ -581,6 +581,13 @@
     "description": "Simplest way for couples to manage money, together"
   },
   {
+    "productName": "Softpedia",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Softpedia_logo.svg/1280px-Softpedia_logo.svg.png",
+    "link": "https://www.softpedia.com/",
+    "description": "A library of over 1000000 free and free-to-try applications for Windows, Mac, Linux and Smartphones, Games and Drivers plus tech-focused news and review"
+  },
+  {
     "productName": "Poshmark",
     "category": "tools",
     "image": "https://seeklogo.com/images/P/poshmark-logo-ED11EB78C9-seeklogo.com.png",
