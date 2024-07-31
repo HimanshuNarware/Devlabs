@@ -476,6 +476,13 @@
     "description": "Simple, scalable virtual machines for all your web hosting and VPS hosting needs."
   },
   {
+    "productName": "Celestial",
+    "category": "tools",
+    "image": "https://celestial.show/wp-content/uploads/2023/12/Celestial-Logo-File_CELESTIAL-LOGO-WHITE-768x306.png",
+    "link": "https://celestial.fandom.com/wiki/Celestial",
+    "description": "Celestial is an Open world Space survival game playing on a Spherical world of roughly 700km2."
+  },
+  {
     "productName": "GitLab",
     "category": "tools",
     "image": "https://www.pngfind.com/pngs/m/94-945757_gitlab-logo-hd-png-download.png",
