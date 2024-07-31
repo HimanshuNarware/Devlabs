@@ -476,6 +476,13 @@
     "description": "An open source game about learning Git!"
   },
   {
+    "productName": "Photobooth",
+    "category": "tools",
+    "image": "https://photobooth-app.org/assets/logo-text-blue-transparent.png",
+    "link": "https://photobooth-app.org/",
+    "description": "Create photos, collages and animated GIFs."
+  },
+  {
     "productName": "EaseUs Vocal Remover",
     "category": "tools",
     "image": "https://shorturl.at/aQBNS",
