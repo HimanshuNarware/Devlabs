@@ -121,6 +121,13 @@ const movies = [
     releaseDate: "2023-8-1"
   },
   {
+    title: "Bitrix24",
+    category: "Collaboration Tools",
+    description: "Bitrix24 is a collaboration platform offering a suite of tools for communication, project management, CRM, and more, designed to improve team productivity and efficiency.",
+    image: "https://logowik.com/content/uploads/images/bitrix241512.jpg",
+    releaseDate: "2012-04-12"
+  }, 
+  {
     title: "Glip",
     category: "Collaboration Tools",
     description: "Glip is a collaborative platform designed for teams to communicate, manage projects, and streamline workflows effectively.",
@@ -141,7 +148,6 @@ const movies = [
     image: "https://www.ntaskmanager.com/wp-content/uploads/2022/05/nTask-Logo-Vertical.svg",
     releaseDate: "2015-07-01"
   },  
-
 ];
 const Collaboration = () => {
   return (
