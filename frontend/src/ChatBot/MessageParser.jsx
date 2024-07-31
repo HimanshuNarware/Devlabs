@@ -2,6 +2,10 @@ import React from "react";
 
 const MessageParser = ({ children, actions }) => {
   const parse = (message) => {
+    if(!message || message.trim() === ""){
+      actions.handleEmptyMessage();
+      return;
+    }
     if (
       message.includes("hello") ||
       message.includes("hi") ||

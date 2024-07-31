@@ -1,3 +1,12 @@
+#progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 8px;
+  background:linear-gradient(90deg,rgb(113, 111, 111),rgb(38, 37, 37));
+  z-index: 9999;
+}
 .navbar {
   background-color: #6a43c3;
   padding: 1rem;
@@ -32,33 +41,6 @@
   text-decoration: none;
 }
 
-.navbar-content .nav-item {
-  flex-wrap: wrap;
-  flex-grow: 1;
-  text-align: center;
-  text-decoration: none;
-  margin: 0 16px;
-}
-
-.logo-img {
-  width: 150px;
-  margin-right: auto !important;
-}
-
-.navbar-content {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  justify-content: space-between;
-  width: 109%;
-  
-}
-
-.card-body img {
-  background: transparent;
-}
-
 .navbar-brand {
   background: transparent;
 }
@@ -74,7 +56,30 @@
   transition: transform 0.3s, filter 0.3s, box-shadow 0.3s;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0);
 }
+.navbar-content .nav-item {
+  flex-wrap: wrap;
+  flex-grow: 1;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 -1px;
+}
+.logo-img {
+  width: 150px;
+  margin-right: auto !important;
+}
 
+.navbar-content {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  width: 109%;
+}
+
+.card-body img {
+  background: transparent;
+}
 .nav-item:hover {
   color: black;
   transform: scale(1.05);
