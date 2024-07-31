@@ -595,6 +595,13 @@
     "description": "Buy, sell, and discover fashion, home decor, beauty, and more."
   },
   {
+    "productName": "Sap",
+    "category": "tools",
+    "image": "https://w7.pngwing.com/pngs/818/145/png-transparent-sap-erp-enterprise-resource-planning-sap-se-sap-s-4hana-computer-software-job-hire-blue-angle-text-thumbnail.png",
+    "link": "https://www.sap.com/index.html",
+    "description": "Explore market-leading software and technology"
+  },
+  {
     "productName": "Aptoide",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Aptoide_icon.png",
