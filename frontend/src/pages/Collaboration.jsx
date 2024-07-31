@@ -121,6 +121,13 @@ const movies = [
     releaseDate: "2023-8-1"
   },
   {
+    title: "Zoho Connect",
+    category: "Collaboration Tools",
+    description: "Zoho Connect is a team collaboration software that unifies people, resources, and applications on a single platform for efficient communication and collaboration.",
+    image: "https://www.zohowebstatic.com/sites/zweb/images/ogimage/connect-logo.png",
+    releaseDate: "2016-09-15"
+  },
+  {
     title: "Bitrix24",
     category: "Collaboration Tools",
     description: "Bitrix24 is a collaboration platform offering a suite of tools for communication, project management, CRM, and more, designed to improve team productivity and efficiency.",
