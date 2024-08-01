@@ -315,6 +315,13 @@
     "description": "Anthropic is an AI safety and research company based in San Francisco. Our interdisciplinary team has experience across ML, physics, policy, and product."
   },
   {
+    "productName": "Very Well Mind",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Verywell_Logo.png",
+    "link": "https://www.verywellmind.com/",
+    "description": "Get the guidance you need to be healthy and happy"
+  },
+  {
     "productName": "Awwwards",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.7zcQll2SaCPHa0iXPTFprQAAAA?rs=1&pid=ImgDetMain",
