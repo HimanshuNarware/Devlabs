@@ -497,6 +497,13 @@
     "description": "Separate voice and music from any song free with powerful AI technology"
   },
   {
+    "productName": "Deliveroo",
+    "category": "tools",
+    "image": "https://logos-world.net/wp-content/uploads/2021/02/Deliveroo-Symbol.png",
+    "link": "https://deliveroo.co.uk/",
+    "description": "We deliver your takeouts or essential groceries from the best-rated local partners straight to your door."
+  },
+  {
     "productName": "Coded Pad",
     "category": "tools",
     "image": "https://shorturl.at/uRx8f",
@@ -691,6 +698,13 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1200px-MDN_Web_Docs.svg.png",
     "link": "https://developer.mozilla.org/en-US/",
     "description": "Provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."
+  },
+  {
+    "productName": "Choosing Therapy",
+    "category": "tools",
+    "image": "https://wittysparks.com/wp-content/uploads/2021/11/venngage-logo.jpg",
+    "link": "https://www.choosingtherapy.com/mental-health-apps/",
+    "description": "For evidence-based mental health information"
   },
   {
     "productName": "Tinkercad",
