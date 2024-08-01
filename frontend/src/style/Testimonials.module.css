@@ -1,0 +1,124 @@
+.testimonials {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 90%; /* Adjusted to fit within the viewport */
+  position: relative;
+}
+
+.h2.sectionTitle {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.sectionSubtitle {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.testimonialsContainer {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  max-width: 100%;
+  position: relative;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.cardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .cardInner {
+  transform: rotateY(180deg);
+}
+
+.cardFront, .cardBack {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.cardFront {
+  background-color: #b89ff0;
+}
+
+.cardBack {
+  background-color: #6a43c3;
+  color: #fff;
+  transform: rotateY(180deg);
+}
+
+.cardImg {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.arrow {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  color: #6a43c3;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.arrow.left {
+  left: -50px; /* Adjusted to position correctly */
+}
+
+.arrow.right {
+  right: -50px; /* Adjusted to position correctly */
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 40%;
+  }
+  .arrow.left {
+    left: -30px; /* Adjusted for smaller screens */
+  }
+  .arrow.right {
+    right: -30px; /* Adjusted for smaller screens */
+}}
+
+@media (max-width: 500px) {
+  .card {
+    width: 100%;
+  }
+  .arrow.left {
+    left: -20px; /* Adjusted for smaller screens */
+  }
+  .arrow.right {
+    right: -20px; /* Adjusted for smaller screens */
+}}
