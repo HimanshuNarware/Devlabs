@@ -490,6 +490,13 @@
     "description": "Audiobooks anytime, anywhere with the free Libro.fm apps for iOS and Android."
   },
   {
+    "productName": "Justdial",
+    "category": "tools",
+    "image": "https://i.pinimg.com/originals/2e/e7/fa/2ee7fad0d44577937013a74e893ec16a.png",
+    "link": "https://www.justdial.com/",
+    "description": "India's No. 1 local search engine"
+  },
+  {
     "productName": "Flipboard",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flipboard_logo.svg/1200px-Flipboard_logo.svg.png",
@@ -530,6 +537,13 @@
     "image": "https://shorturl.at/cBGBo",
     "link": "https://codedamn.com/",
     "description": "codedamn is an interactive platform for learning to code, offering hands-on coding practice and tutorials for various programming languages and technologies."
+  },
+  {
+    "productName": "Money Control",
+    "category": "tools",
+    "image": "https://getlogo.net/wp-content/uploads/2020/04/moneycontrol-logo-vector.png",
+    "link": "https://www.moneycontrol.com/",
+    "description": "Read the latest business news on the Indian economy, global market, upcoming IPOs and more."
   },
   {
     "productName": "Bright Data",
