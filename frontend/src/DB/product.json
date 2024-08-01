@@ -245,6 +245,13 @@
     "description": "This website helps you to learn git and git commands very easily through interactive game."
   },
   {
+    "productName": "Reflectly",
+    "category": "tools",
+    "image": "https://pageflows.com/media/logos/reflectly.jpg",
+    "link": "https://reflectly.app/",
+    "description": "Personal journal to enable you to deal with negative thoughts"
+  },
+  {
     "productName": "removebg",
     "category": "tools",
     "image": "https://bit.ly/4binGHA",
@@ -315,11 +322,25 @@
     "description": "Anthropic is an AI safety and research company based in San Francisco. Our interdisciplinary team has experience across ML, physics, policy, and product."
   },
   {
+    "productName": "Very Well Mind",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Verywell_Logo.png",
+    "link": "https://www.verywellmind.com/",
+    "description": "Get the guidance you need to be healthy and happy"
+  },
+  {
     "productName": "Awwwards",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.7zcQll2SaCPHa0iXPTFprQAAAA?rs=1&pid=ImgDetMain",
     "link": "https://www.awwwards.com/",
     "description": "This helps students or professionals for taking the inspiration for building the portfolio and website using modern design and advanced UI/UX."
+  },
+  {
+    "productName": "Croma",
+    "category": "tools",
+    "image": "https://e7.pngegg.com/pngimages/19/490/png-clipart-crom%C4%81-tata-group-croma-logix-city-centre-noida-croma-vikrampuri-kharkhana-hyderabad-croma-jayanagar-bengaluru-sunrisers-hyderabad-text-retail.png",
+    "link": "https://www.croma.com/",
+    "description": "Destination for online shopping in India. "
   },
   {
     "productName": "Katalon",
@@ -392,11 +413,25 @@
     "description": "Build fast, responsive sites with Bootstrap"
   },
   {
+    "productName": "Calm",
+    "category": "tools",
+    "image": "https://i.pinimg.com/736x/10/f7/31/10f731deaae9b2f74d1aeafcc6a0a07f.jpg",
+    "link": "https://www.calm.com/",
+    "description": "Snap receipt photos, forward email receipts to your account, and import expenses from your bank account."
+  },
+  {
     "productName": "Venngage",
     "category": "tools",
     "image": "https://wittysparks.com/wp-content/uploads/2021/11/venngage-logo.jpg",
     "link": "https://venngage.com/",
     "description": "Create within the simple but powerful editor."
+  },
+  {
+    "productName": "Ecomate",
+    "category": "tools",
+    "image": "https://assets-global.website-files.com/65294b9610dbd756e671da57/65294b9610dbd756e671da6d_ecomate_logo.png",
+    "link": "https://www.ecomateapp.com/",
+    "description": "Eco-friendly foam blowing agent"
   },
   {
     "productName": "Mulearn",
@@ -427,6 +462,20 @@
     "description": "Free video editing tool everyone can use"
   },
   {
+    "productName": "The Inner Quest",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAK8Ys26fF7AUilJSTkEDVOmQbmJZmW8f3RA&s",
+    "link": "http://theinnerquest.in/",
+    "description": "We excel in providing a full range of psychotherapy services."
+  },
+  {
+    "productName": "HeadSpace",
+    "category": "tools",
+    "image": "https://media.designrush.com/inspiration_images/135233/conversions/_1511454499_779_Headspace-mobile.jpg",
+    "link": "https://www.headspace.com/",
+    "description": "Keep remote and distributed teams, and your entire organization, focused on their goals, projects, and tasks with Asana."
+  },
+  {
     "productName": "Libro",
     "category": "tools",
     "image": "https://www.libro.ca/uploads/2021/07/Stacked1000px.jpeg",
@@ -446,6 +495,13 @@
     "image": "https://shorturl.at/gj1LR",
     "link": "https://www.instahyre.com/",
     "description": "Showcase yourself to a curated list of top companies."
+  },
+  {
+    "productName": "Krohne",
+    "category": "tools",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/69330e75443809.5c538d8164f28.png",
+    "link": "https://krohne.com/en",
+    "description": "World-leading manufacturer and supplier of solutions in industrial process instrumentation."
   },
   {
     "productName": "National Digital Library",
@@ -497,6 +553,13 @@
     "description": "Separate voice and music from any song free with powerful AI technology"
   },
   {
+    "productName": "Deliveroo",
+    "category": "tools",
+    "image": "https://logos-world.net/wp-content/uploads/2021/02/Deliveroo-Symbol.png",
+    "link": "https://deliveroo.co.uk/",
+    "description": "We deliver your takeouts or essential groceries from the best-rated local partners straight to your door."
+  },
+  {
     "productName": "Coded Pad",
     "category": "tools",
     "image": "https://shorturl.at/uRx8f",
@@ -509,6 +572,13 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png",
     "link": "https://www.digitalocean.com/",
     "description": "Simple, scalable virtual machines for all your web hosting and VPS hosting needs."
+  },
+  {
+    "productName": "Krohne",
+    "category": "tools",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/69330e75443809.5c538d8164f28.png",
+    "link": "https://krohne.com/en",
+    "description": "World-leading manufacturer and supplier of solutions in industrial process instrumentation."
   },
   {
     "productName": "Celestial",
@@ -544,6 +614,13 @@
     "image": "https://shorturl.at/mHcN2",
     "link": "https://shorturl.at/jofAl",
     "description": "FreeConvert's video compressor is a user-friendly tool that helps you reduce the file size of your videos without compromising on quality."
+  },
+  {
+    "productName": "Balance App",
+    "category": "tools",
+    "image": "https://cdn.prod.website-files.com/6419f11fa4b9a0ac325246b8/64514e00b56e027e3a06a1de_Balance_web.png",
+    "link": "https://balanceapp.com/",
+    "description": "Anybody can create applications, websites, chatbots, and more on any internet-connected device without having to hire a programmer or agency."
   },
   {
     "productName": "FileHippo",
@@ -691,6 +768,13 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1200px-MDN_Web_Docs.svg.png",
     "link": "https://developer.mozilla.org/en-US/",
     "description": "Provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."
+  },
+  {
+    "productName": "Choosing Therapy",
+    "category": "tools",
+    "image": "https://wittysparks.com/wp-content/uploads/2021/11/venngage-logo.jpg",
+    "link": "https://www.choosingtherapy.com/mental-health-apps/",
+    "description": "For evidence-based mental health information"
   },
   {
     "productName": "Tinkercad",
@@ -5229,5 +5313,54 @@
     "image": "https://www.knowledgehut.com/_next/image?url=%2Fkh-desktop-new-logo.svg&w=1920&q=75",
     "link": "https://www.knowledgehut.com/",
     "description": "KnowledgeHut is a leading training provider, helping professionals across industries and sectors develop new expertise and bridge their skill gap for recognition and growth in the global corporate world.Developed with the intention of delivering high value training through innovative and practical approaches, KnowledgeHut offers a wide range of services in training, learning and development in the fields of technology and management."
-   }
+   },
+   {
+    "productName": "Plural Sight",
+    "category": "course",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbK1gESSG1wvggc4RkMx84dOVS_K_FpEDXKUkQmrNsRDWQSqRp",
+    "link": "https://www.pluralsight.com/",
+    "description": "Offers courses and resources to build technical skills; can help enhance resumes with certifications and skills development."
+  },
+  {
+    "productName": "FutureLearn",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hVHDw1NP0tdQjcBpHuN9Srww5Nldu4OjEQPz3s2hP0MSfCuR",
+    "link": "https://www.futurelearn.com/",
+    "description": "Provides online courses and certifications that can be included in resumes to demonstrate learning and skills development."
+   },
+  {
+    "productName": "CV Maker",
+    "category": "resume",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQt4B2kzer9M88J8hsMuKXWT1aqs3OQBz-E02MFVtk83WZ82r47",
+    "link": "https://www.cvmaker.com/",
+    "description": "Free online CV and resume builder with various template options, easy to use for creating and downloading professional resumes."
+   },
+  {
+    "productName": "Stanford Online",
+    "category": "course",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-wqQjoXovn0M9NumDI0V57DsRZxrd7a-K2K1E5jHjtknCoEVR",
+    "link": "https://online.stanford.edu/",
+    "description": "Free and paid courses from Stanford University, including professional and executive education."
+   },
+  {
+    "productName": "Harvard Online",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoCmOCgKlJwBk-52QvUILAWNqP2EU0RETO1uSCvSxvUVKQS8ob",
+    "link": "https://www.harvardonline.harvard.edu/",
+    "description": "Free and paid courses from Harvard University."
+   },
+  {
+    "productName": "OpenCulture",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpqa64rkB-WYc70y0vAdojXVjEDIdWTsjwa1bqcVwceB38Lx-x",
+    "link": "https://www.openculture.com/",
+    "description": "Free cultural and educational media, including online courses, audiobooks, and more."
+   },
+  {
+    "productName": "BigThink",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
+    "link": "https://bigthink.com/",
+    "description": "Courses and lessons from top thinkers and doers in various fields."
+  } 
 ]
