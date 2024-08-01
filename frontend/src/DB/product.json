@@ -3781,7 +3781,7 @@
   },
   {
     "productName": "Discord",
-    "category": "Collaboration",
+    "category": "collaborations",
     "image": "https://www.shutterstock.com/image-vector/vinnytsia-ukraine-may-7-2023-600nw-2299584421.jpg",
     "link": "https://discord.com/",
     "description": "A place where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often."
@@ -3865,7 +3865,7 @@
   },
   {
     "productName": "Github",
-    "category": "collaboration",
+    "category": "collaborations",
     "image": "https://media.licdn.com/dms/image/C560BAQFmuLSyL1nlPA/company-logo_200_200/0/1678231359043/github_logo?e=1724889600&v=beta&t=7s2Ecmtlw5lBbIZb8EcO3SyhBnQmv2jXEhsUyZE0zLo",
     "link": "https://github.com/",
     "description": "GitHub is a widely used platform among developers, providing a space to create, store, manage and collaborate on code."
@@ -3879,14 +3879,14 @@
   },
   {
     "productName": "BitBucket",
-    "category": "collaboration",
+    "category": "collaborations",
     "image": "https://media.licdn.com/dms/image/C5633AQE2Tg6KNJfrLA/productpage-logo-image_200_200/0/1630996699471/null_logo?e=1717174800&v=beta&t=IVJKM1umGhSUFlUhur3RqaeOm4TtZtVZNXO7uCBaLQ4",
     "link": "https://bitbucket.org/",
     "description": "Bitbucket is more than just Git code management. Bitbucket gives teams one place to plan projects, collaborate on code, test, and deploy."
   },
   {
     "productName": "CodeSandBox",
-    "category": "collaboration",
+    "category": "collaborations",
     "link": "https://media.licdn.com/dms/image/C4E0BAQFdNU256OlLZA/company-logo_200_200/0/1645108917187/codesandbox_logo?e=1724889600&v=beta&t=WGUpOGdWMdMQzZjaVwnV_STywCwPm6fiYZXt2PwTK-U",
     "description": "CodeSandbox is a platform that lets you create, review and collaborate on code in the cloud. It offers fast, consistent and secure environments."
   },
@@ -4781,7 +4781,7 @@
   },
   {
     "productName": "Glitch",
-    "category": "collaboration",
+    "category": "collaborations",
     "image": "https://media.licdn.com/dms/image/C4E0BAQGHoqoy1AW8zQ/company-logo_200_200/0/1630612170724/glitch_dot_com_logo?e=1729728000&v=beta&t=eDPowLTZPwn6YTopccILutbfw-F3KLLrE_Ae2v6k_dMg",
     "link": "https://glitch.com/",
     "description": "hWe’re building a new Glitch together as a community. Join in to help suggest features, file bugs, and show us what’s possible when we all collaborate."
