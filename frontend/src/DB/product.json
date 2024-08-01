@@ -889,6 +889,13 @@
     "description": "Virtual lab environment reserved for the exclusive use by the learners on Skills Network portals "
   },
   {
+    "productName": "CIS Security",
+    "category": "tools",
+    "image": "https://e7.pngegg.com/pngimages/218/651/png-clipart-computer-security-center-for-internet-security-benchmark-threat-data-analysis-miscellaneous-blue.png",
+    "link": "https://www.cisecurity.org/",
+    "description": "Forward-thinking nonprofit that harnesses the power of a global IT community"
+  },
+  {
     "productName": "FreshBooks",
     "category": "tools",
     "image": "https://i.pcmag.com/imagery/reviews/01y4SpcWPPMcK3pLVjjSGuo-31.fit_scale.size_760x427.v1604087112.png",
