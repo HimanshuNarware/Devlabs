@@ -5236,5 +5236,26 @@
     "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-wqQjoXovn0M9NumDI0V57DsRZxrd7a-K2K1E5jHjtknCoEVR",
     "link": "https://online.stanford.edu/",
     "description": "Free and paid courses from Stanford University, including professional and executive education."
+   },
+  {
+    "productName": "Harvard Online",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoCmOCgKlJwBk-52QvUILAWNqP2EU0RETO1uSCvSxvUVKQS8ob",
+    "link": "https://www.harvardonline.harvard.edu/",
+    "description": "Free and paid courses from Harvard University."
+   },
+  {
+    "productName": "OpenCulture",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpqa64rkB-WYc70y0vAdojXVjEDIdWTsjwa1bqcVwceB38Lx-x",
+    "link": "https://www.openculture.com/",
+    "description": "Free cultural and educational media, including online courses, audiobooks, and more."
+   },
+  {
+    "productName": "BigThink",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
+    "link": "https://bigthink.com/",
+    "description": "Courses and lessons from top thinkers and doers in various fields."
   } 
 ]
