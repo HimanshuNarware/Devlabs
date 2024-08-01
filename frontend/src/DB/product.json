@@ -813,7 +813,7 @@
   },
   {
     "productName": "JSONView",
-    "category": "extension",
+    "category": "extensions",
     "image": "https://shorturl.at/uvFQ9",
     "link": "https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd",
     "description": "This JSONView converts the JSON content into an understandable format and esay to view."
@@ -4144,7 +4144,7 @@
   },
   {
     "productName": "Careerflow Ai",
-    "category": "extension",
+    "category": "extensions",
     "image": "https://cdn.prod.website-files.com/635c591378332f38be25d45f/63a1152ff687d737b6b93250_Careerflow%20logo%20240x240.png",
     "link": "https://www.careerflow.ai/",
     "description": "AI Career Copilot. Automated Job Tracking, Optimize your LinkedIn Profile, AI Resume Builder and more. Keep track of all your jobs opportunities, applications, notes, contacts, in one single dashboard."
@@ -4410,7 +4410,7 @@
   },
   {
     "productName": "Dark Reader",
-    "category": "extension",
+    "category": "extensions",
     "image": "https://avatars.githubusercontent.com/u/38494721?v=4",
     "link": "https://darkreader.org/",
     "description": "It enables dark mode on any website, reducing eye strain and making it easier to read at night."
@@ -4774,7 +4774,7 @@
   },
   {
     "productName": "Lighthouse",
-    "category": "extension",
+    "category": "extensions",
     "image": "https://developer.chrome.com/static/docs/lighthouse/overview/image/lighthouse-logo-3c45f51ca8cfc.svg",
     "link": "https://developer.chrome.com/docs/lighthouse/overview",
     "description": "Lighthouse is an open-source, automated tool for improving the quality of web pages. "
