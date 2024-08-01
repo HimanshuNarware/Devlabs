@@ -162,8 +162,7 @@ const movies = [
     image: "https://www.flock.com/hubfs/Flock-Logo%20-%20Color%20-%20Inverted.svg",
     releaseDate: "2014-11-01"
   }, 
-     
-
+  {
     title: "Chanty",
     category: "Collaboration Tools",
     description: "Chanty is a team communication and collaboration tool that offers chat, task management, and video conferencing to enhance team productivity and streamline workflows.",
