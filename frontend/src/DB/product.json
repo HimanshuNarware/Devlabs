@@ -3116,7 +3116,7 @@
   },
   {
     "productName": "Talk to Books ",
-    "category": "Useful Tools",
+    "category": "tools" ,
     "image": "https://bit.ly/46hqdjP",
     "link": "https://books.google.com/talktobooks/",
     "description": "Users could ask questions, phrases, and the AI would scan through of books to find relevant passages and provide answers."
@@ -3137,7 +3137,7 @@
   },
   {
     "productName": "Pomofocus",
-    "category": "Useful Tools",
+    "category": "tools" ,
     "image": "https://bit.ly/3Nq7dHn",
     "link": "https://pomofocus.io/app",
     "description": "Pomofocus is a customizable pomodoro timer to help you focus on any task you are working on."
@@ -3165,7 +3165,7 @@
   },
   {
     "productName": "Mind Luster",
-    "category": "Useful Tools",
+    "category": "tools" ,
     "image": "Mind Luster.jpeg",
     "link": "https://www.mindluster.com/",
     "description": "Mind Luster, an innovative learning platform, offers courses to ignite and expand the horizons of curious minds."
