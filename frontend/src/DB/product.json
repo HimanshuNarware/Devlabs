@@ -1,5 +1,5 @@
 [
-{
+  {
     "productName": "Starknet",
     "category": "Web",
     "image": "https://www.starknet.io/wp-content/themes/Starknet/assets/img/starknet-logo.svg",
@@ -113,7 +113,7 @@
   },
     {
     "productName": "Freeformater",
-    "category": "tool",
+    "category": "tools" ,
     "image": "https://th.bing.com/th/id/OIP.4I_3DgXkGDGGDBvizwiViAHaD4?rs=1&pid=ImgDetMain",
     "link": "https://www.freeformatter.com/",
     "description": "Website to help developers by providing them with free online tools. These tools include several formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more"
@@ -386,7 +386,7 @@
   },
   {
     "productName": "BootStrap",
-    "category": "tool",
+    "category": "tools" ,
     "image": "https://shorturl.at/YeZSW",
     "link": "https://getbootstrap.com/",
     "description": "Build fast, responsive sites with Bootstrap"
@@ -4256,7 +4256,7 @@
   },
   {
     "productName": "Skill Share",
-    "category": "tool",
+    "category": "tools" ,
     "image": "https://play-lh.googleusercontent.com/Lfh8g5kPONfSNL7R4s8itnMMdj3lhmHU9tb4gp7eoOaXkJo0dOcwB6iWPdNGZMRDMVs",
     "link": "https://www.skillshare.com/en/",
     "description": "Skillshare is an online learning community offering thousands of classes across creative and entrepreneurial skills. It allows users to learn at their own pace with access to diverse topics taught by industry experts."
@@ -4753,7 +4753,7 @@
   },
   {
     "productName": "Freescout",
-    "category": "tool",
+    "category": "tools" ,
     "image": "https://freescout.net/wp-content/uploads/2019/01/freescout-logo-light.png",
     "link": "https://freescout.net/",
     "description": "FreeScout is the super lightweight and powerful free open source help desk and shared inbox written in PHP (Laravel framework). It is a self hosted clone of HelpScout."
@@ -5014,7 +5014,7 @@
 },
 {
   "productName": "WebCatalog",
-  "category": "tool",
+  "category": "tools" ,
   "image": "https://webcatalog.io/_next/static/media/logo.8a8e76e6.svg",
   "link": "https://webcatalog.io/en/apps/",
   "description": "Turn websites into desktop apps with WebCatalog Desktop, and access a wealth of exclusive apps for Mac, Windows, Linux."
