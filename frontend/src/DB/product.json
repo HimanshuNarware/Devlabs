@@ -245,6 +245,13 @@
     "description": "This website helps you to learn git and git commands very easily through interactive game."
   },
   {
+    "productName": "Reflectly",
+    "category": "tools",
+    "image": "https://pageflows.com/media/logos/reflectly.jpg",
+    "link": "https://reflectly.app/",
+    "description": "Personal journal to enable you to deal with negative thoughts"
+  },
+  {
     "productName": "removebg",
     "category": "tools",
     "image": "https://bit.ly/4binGHA",
