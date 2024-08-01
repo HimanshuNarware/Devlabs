@@ -5231,6 +5231,13 @@
     "description": "KnowledgeHut is a leading training provider, helping professionals across industries and sectors develop new expertise and bridge their skill gap for recognition and growth in the global corporate world.Developed with the intention of delivering high value training through innovative and practical approaches, KnowledgeHut offers a wide range of services in training, learning and development in the fields of technology and management."
    },
    {
+    "productName": "Stanford Online",
+    "category": "course",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-wqQjoXovn0M9NumDI0V57DsRZxrd7a-K2K1E5jHjtknCoEVR",
+    "link": "https://online.stanford.edu/",
+    "description": "Free and paid courses from Stanford University, including professional and executive education."
+   },
+  {
     "productName": "Harvard Online",
     "category": "course",
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoCmOCgKlJwBk-52QvUILAWNqP2EU0RETO1uSCvSxvUVKQS8ob",
