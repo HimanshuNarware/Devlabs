@@ -2605,63 +2605,63 @@
   },
   {
     "productName": "Unblast",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://bit.ly/3qlij8V",
     "link": "https://bit.ly/3C51MZ3",
     "description": "Unblast is happy to offer you a rich collection of amazing UI templates."
   },
   {
     "productName": "UI Design Daily",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://assets-global.website-files.com/572cc412e8e48c8223fa0e57/65448dc5e7199c24f9d5a9d1_uidesigndaily.svg",
     "link": "https://bit.ly/45F3IVF",
     "description": "UI Design Daily to be able to share these designs with anybody who is interested in using them."
   },
   {
     "productName": "Previewed Mockups",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://bit.ly/3qoFyP5",
     "link": "https://bit.ly/42iAj0C",
     "description": "UI Design Mockups Available 2d & 3D"
   },
   {
     "productName": "Muzli Collections",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://bit.ly/42h8JRq",
     "link": "https://bit.ly/3IOltZ2",
     "description": "Profile Page screen design inspiration"
   },
   {
     "productName": "Dashboard UI Kit",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://bit.ly/3N2secf",
     "link": "https://www.telerik.com/kendo-react-ui",
     "description": "The first and largest design kit for web apps and dashboards developed in React."
   },
   {
     "productName": "Freebies UI",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://bit.ly/45COMri",
     "link": "https://bit.ly/45BOgd8",
     "description": "UI Kits available in various format like figma, Xd, PSD, AI etc."
   },
   {
     "productName": "3D Icons",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://bit.ly/43yR9th",
     "link": "https://bit.ly/43dBe3H",
     "description": "3D icons & 3D characters in high 4K resolution"
   },
   {
     "productName": "6.5 M+ Design Assets",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://bit.ly/3C47pH3",
     "link": "https://bit.ly/3P5Hman",
     "description": "Curated SVGs, Vector Icons, Illustrations, 3D Graphics, and Lottie Animations."
   },
   {
     "productName": "Design Junction ",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://bit.ly/3IKfowL",
     "link": "https://bit.ly/3WFi2tq",
     "description": "Design Junction is a one-stop resource library for Designers and Creatives."
@@ -2759,7 +2759,7 @@
   },
   {
     "productName": "Uiverse.io",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://bit.ly/3X19kpw",
     "link": "https://uiverse.io/",
     "description": "Discover and customize free, open-source CSS and HTML UI elements, through this tool"
@@ -3739,7 +3739,7 @@
   },
   {
     "productName": "Framer",
-    "category": "UI",
+    "category": "UI_design",
     "image": "framer.svg",
     "link": "https://www.framer.com/",
     "description": "Framer is no-code web-designing tool where teams design and publish stunning sites"
@@ -3774,7 +3774,7 @@
   },
   {
     "productName": "Colormind",
-    "category": "UI",
+    "category": "UI_design",
     "image": "colormind.png",
     "link": "http://colormind.io/",
     "description": "Colormind is a color scheme generator that uses deep learning. It can learn color styles from photographs, movies, and popular art."
@@ -3934,7 +3934,7 @@
   },
   {
     "productName": "Magic UI",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
     "link": "https://magicui.design/",
     "description": "UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
@@ -3990,7 +3990,7 @@
   },
   {
     "productName": "Framer Motion",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
     "link": "https://www.framer.com/motion/",
     "description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
@@ -4004,14 +4004,14 @@
   },
   {
     "productName": "React Boostrap",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://avatars.githubusercontent.com/u/6853419?s=200&v=4",
     "link": "https://react-bootstrap.netlify.app/",
     "description": "React Bootstrap is also one of the most popular React UI libraries. Built on top of the popular Bootstrap framework,"
   },
   {
     "productName": "Blender 3D",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmueb9JiaohqoMehnD8GMj0RlSfgdlgi3ITg&s",
     "link": "https://www.blender.org/",
     "description": "Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation"
@@ -4046,7 +4046,7 @@
   },
   {
     "productName": "Magic UI",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
     "link": "https://magicui.design/",
     "description": "UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
@@ -4060,7 +4060,7 @@
   },
   {
     "productName": "Webflow",
-    "category": "UI",
+    "category": "UI_design",
     "image": "webflow.jpg",
     "link": "https://webflow.com/",
     "description": "Webflow is a free no-code web designing tool where you can build beautiful websites with ease and publish them."
@@ -4151,21 +4151,21 @@
   },
   {
     "productName": "AdobeXD",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS80OChMU7lMUMwU7CVu4ZJl1irvee4jmFfjw&s",
     "link": "https://helpx.adobe.com/xd/get-started.html",
     "description": "Adobe XD is a vector-based ux design tool for web and mobile applications, enabling designers to create wireframes, prototypes, and screen designs efficiently."
   },
   {
     "productName": "AceternityUI",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmuvw3fgizE49LqWGDkNAyU2Df3xRcNwACA&s",
     "link": "https://ui.aceternity.com/",
     "description": "Aceternity UI is a sleek and modern user interface framework designed to streamline the development of web applications."
   },
   {
     "productName": "Spline3D",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://www.bookmarks.design/media/image/spline-design.jpg",
     "link": "https://spline3d.com/",
     "description": "Spline3D is a cutting-edge UI design tool that enables you to create stunning 3D interfaces effortlessly. It offers a range of powerful features for building interactive and visually captivating 3D designs, making it perfect for enhancing user engagement and experience."
@@ -4697,14 +4697,14 @@
   },
   {
     "productName": "Moqups",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://www.appypie.com/wp-content/uploads/2024/03/appypie-logo.svg",
     "link": "https://www.appypie.com/",
     "description": "Automate Workflows, and Design with Ease Using AI."
   },
   {
     "productName": "Venngage",
-    "category": "UI",
+    "category": "UI_design",
     "image": "https://venngage.com/assets/img/venngage-icon.svg",
     "link": "https://venngage.com/",
     "description": "Make accessible and professional infographics or any other visual you can think of in just a few steps. Start now!"
