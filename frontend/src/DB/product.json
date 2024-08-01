@@ -322,6 +322,13 @@
     "description": "Global online learning platform with courses, degrees, and certificates."
   },
   {
+    "productName": "Flatpak",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Flatpak_Logo.svg/1200px-Flatpak_Logo.svg.png",
+    "link": "https://flatpak.org/",
+    "description": "Software deployment and package management for Linux"
+  },
+  {
     "productName": "Antropic AI",
     "category": "tools" ,
     "image": "https://vectorseek.com/wp-content/uploads/2024/01/Anthropic-Icon-Logo-Vector.svg-.png",
