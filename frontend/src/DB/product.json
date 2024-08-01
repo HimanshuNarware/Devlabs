@@ -1,5 +1,5 @@
 [
-  {
+{
     "productName": "Starknet",
     "category": "Web",
     "image": "https://www.starknet.io/wp-content/themes/Starknet/assets/img/starknet-logo.svg",
@@ -15,7 +15,7 @@
   },
   {
     "productName": "Cohere AI",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://www.appengine.ai/uploads/images/profile/logo/Cohere-AI.png",
     "link": "https://cohere.com/",
     "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
@@ -106,7 +106,7 @@
   },
   {
     "productName": "Clarif AI",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://www.clarifai.com/hubfs/Clarifai%20Logo%20Stamp%20Blue.png",
     "link": "https://www.clarifai.com/",
     "description": "Clarif AI is a Generative AI Developer Platform that provides a toolkit to help developers build, deploy, and test production-scale AI."
@@ -134,14 +134,14 @@
   },
   {
     "productName": "Vidnoz",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://th.bing.com/th/id/OIP._v_g5sZRW0-pe0iuqskE-gHaHF?rs=1&pid=ImgDetMain",
     "link": "hhttps://www.vidnoz.com/",
     "description": "Vidnoz is the top free AI video generator platform, helping create videos with AI avatars, do face swaps, etc. Start making videos with Vidnoz AI tools now."
   },
   {
     "productName": "Freelance",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://th.bing.com/th/id/OIP.US6dnJ-AU3AbU1GZNMLw8wHaHa?rs=1&pid=ImgDetMain",
     "link": "https://www.freelancer.in/",
     "description": "This AI helps students or professionals to earn money by freelancing, improve their skills, make connections."
@@ -281,7 +281,7 @@
   },
   {
     "productName": "UXPin",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://designshack.net/wp-content/uploads/uxpin-1.png",
     "link": "https://www.uxpin.com/",
     "description": "UXPin lets you design UI with code-backed components and export production-ready code. You can also use AI Component Creator with ChatGPT to generate layouts ,forms and more."
@@ -309,7 +309,7 @@
   },
   {
     "productName": "Antropic AI",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://vectorseek.com/wp-content/uploads/2024/01/Anthropic-Icon-Logo-Vector.svg-.png",
     "link": "https://www.anthropic.com/",
     "description": "Anthropic is an AI safety and research company based in San Francisco. Our interdisciplinary team has experience across ML, physics, policy, and product."
@@ -4319,7 +4319,7 @@
   },
   {
     "productName": "Akkio AI",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://th.bing.com/th/id/OIP.ynM9vXybZ26N8tsmdK09tQAAAA?rs=1&pid=ImgDetMain",
     "link": "https://www.akkio.com/tool/ai-answer-generator",
     "description": "AKkio AI is a tool designed to provide concise, all-round answers for any question according to the input. "
@@ -4333,7 +4333,7 @@
   },
   {
     "productName": "Warmer",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://th.bing.com/th/id/OIP.tNoXEsJhamozhjNeN9XUdgHaHa?rs=1&pid=ImgDetMain",
     "link": "https://warmer.ai/",
     "description": "This tool is very essential for writing emails, cold emails, etc as this uses AI email personalization to write your email outreach. "
@@ -4347,21 +4347,21 @@
   },
   {
     "productName": "Leonardo AI",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://user-images.githubusercontent.com/6267663/230025738-42a4980e-a5ea-4d00-a591-65e8de14de85.png",
     "link": "https://leonardo.ai/",
     "description": "Leonardo.ai is a free image creation tool that uses generative AI to create images on demand. Users can enter text and image prompts to generate multiple images at once."
   },
   {
     "productName": "Sharly",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://atai-main.b-cdn.net/tools/sharly-ai-icon.jpeg",
     "link": "https://sharly.ai/",
     "description": "Sharly is a tool which helps you to chat with PDF documents and more."
   },
   {
     "productName": "SQL Server",
-    "category": "Tool",
+    "category": "tools" ,
     "image": "https://lennox-it.uk/wp-content/uploads/2015/12/SQL-Server-20121.png",
     "link": "https://www.microsoft.com/en-in/sql-server/",
     "description": "Seamlessly manage, govern and secure your entire SQL Server estate, on premises or across multi-cloud environments."
