@@ -155,6 +155,7 @@ const movies = [
     image: "https://www.ntaskmanager.com/wp-content/uploads/2022/05/nTask-Logo-Vertical.svg",
     releaseDate: "2015-07-01"
   },
+  
   {
     title: "Flock",
     category: "Collaboration Tools",
