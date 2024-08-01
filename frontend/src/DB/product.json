@@ -5229,5 +5229,12 @@
     "image": "https://www.knowledgehut.com/_next/image?url=%2Fkh-desktop-new-logo.svg&w=1920&q=75",
     "link": "https://www.knowledgehut.com/",
     "description": "KnowledgeHut is a leading training provider, helping professionals across industries and sectors develop new expertise and bridge their skill gap for recognition and growth in the global corporate world.Developed with the intention of delivering high value training through innovative and practical approaches, KnowledgeHut offers a wide range of services in training, learning and development in the fields of technology and management."
-   }
+   },
+   {
+    "productName": "OpenCulture",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpqa64rkB-WYc70y0vAdojXVjEDIdWTsjwa1bqcVwceB38Lx-x",
+    "link": "https://www.openculture.com/",
+    "description": "Free cultural and educational media, including online courses, audiobooks, and more."
+  } 
 ]
