@@ -3927,7 +3927,7 @@
   },
   {
     "productName": "Canva",
-    "category": "design",
+    "category": "UI_design",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
     "link": "https://www.canva.com/",
     "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
@@ -3948,7 +3948,7 @@
   },
   {
     "productName": "Iconfinder",
-    "category": "Icon Library",
+    "category": "UI_design",
     "image": "https://static-00.iconduck.com/assets.00/iconfinder-icon-500x512-kl5zm80l.png",
     "link": "https://www.iconfinder.com/",
     "description": "Iconfinder is a comprehensive icon library offering a vast collection of high-quality icons for designers and developers. Easily find, customize, and integrate icons into your projects to enhance visual appeal and user experience."
@@ -4039,7 +4039,7 @@
   },
   {
     "productName": "Canva",
-    "category": "design",
+    "category": "UI_design",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
     "link": "https://www.canva.com/",
     "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
@@ -4767,7 +4767,7 @@
   },
   {
     "productName": "Autodesk",
-    "category": "design",
+    "category": "UI_design",
     "image": "",
     "link": "https://www.autodesk.com/",
     "description": "Autodesk’s Design and Make Platform helps you get everyone on the same page to plan, design, construct and operate better projects."
@@ -4802,21 +4802,21 @@
   },
   {
     "productName": "SyncFusion",
-    "category": "Ui",
+    "category": "UI_design",
     "image": "https://media.licdn.com/dms/image/C4E0BAQEbxPNgKH5Qxg/company-logo_200_200/0/1630602369098/syncfusion_logo?e=1729728000&v=beta&t=XHEdxwQKsQj8KE7nG8zw7KrrXSJeR1EzHtdRPA-YlAE",
     "link": "https://www.syncfusion.com/",
     "description": "Essential Studio is a software package that provides state-of-the-art solutions for startups and enterprises."
   },
   {
     "productName": "Zepline",
-    "category": "Design",
+    "category": "UI_design",
     "image": "https://cdn.sanity.io/images/wd3e2pma/production/7b336dc26fd85ae98b414761d58238d225876a88-60x48.svg",
     "link": "https://zeplin.io/",
     "description": "New look. Unlimited seats. One flat rate. All the features. Zeplin is the design delivery platform for teams of any size."
   },
   {
     "productName": "Sketch",
-    "category": "Design",
+    "category": "UI_design",
     "image": "https://cdn.sanity.io/images/wd3e2pma/production/7b336dc26fd85ae98b414761d58238d225876a88-60x48.svg",
     "link": "https://www.sketch.com/",
     "description": "Discover the latest features in our Mac, web and iOS apps."
@@ -4937,7 +4937,7 @@
   },
   {
     "productName": "Neumorphism.io",
-    "category": "Design",
+    "category": "UI_design",
     "image": "",
     "link": "https://neumorphism.io/#e0e0e0",
     "description": "Generate Soft-UI newmorphism effects"
@@ -4951,7 +4951,7 @@
 },
 {
   "productName": "Gradient Magic",
-  "category": "Design",
+  "category": "UI_design",
   "image": "",
   "link": "https://www.gradientmagic.com/",
   "description": "A Free Gallery of Fantastic and Unique CSS Gradients"
@@ -5182,14 +5182,14 @@
 },
 {
 "productName": "Axure RP",
-"category": "Ui",
+"category": "UI_design",
 "image": "https://www.axure.com/wp-content/uploads/2019/04/logo-black.svg",
 "link": "https://www.axure.com/",
 "description": "A wireframing, prototyping, and documentation software with a free version."
 },
   {
   "productName":"Flinto",
-  "category":"Ui",
+  "category":"UI_design",
   "image":"https://www.flinto.com/assets/compass-brand/site-header-logo-6ff14e7cc8cff2ce9163572e9d400130a215a000c10cebec303e967f56b4c745.png",
   "link":"https://www.flinto.com/",
   "description":"A Mac app used for creating interactive and animated prototypes with a free trial."
