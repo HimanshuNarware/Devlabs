@@ -1,7 +1,7 @@
 [
   {
     "productName": "Starknet",
-    "category": "Web",
+    "category": "web",
     "image": "https://www.starknet.io/wp-content/themes/Starknet/assets/img/starknet-logo.svg",
     "link": "https://www.starknet.io/",
     "description": "Starknet is a Validity Rollup that provides unlimited scale while retaining Ethereum’s security and decentralization."
@@ -1100,7 +1100,7 @@
   },
   {
     "productName": "ICFOSS",
-    "category": "website",
+    "category": "web",
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/ICFOSS_logo.png",
     "link": "https://icfoss.in/",
     "description": "International Centre for Free and Open Source Software "
@@ -1471,7 +1471,7 @@
   },
   {
     "productName": "FOSS United",
-    "category": "website",
+    "category": "web",
     "image": "https://indiafoss.net/files/logo-black.png",
     "link": "https://fossunited.org/",
     "description": "Dedicated to  build Free and Open Source (FOSS) projects and communities."
@@ -4172,7 +4172,7 @@
   },
   {
     "productName": "Vercel",
-    "category": "Web Development Platform",
+    "category": "web",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAuKrVgOa4BJxUnH4gdJ5TV0m2IFEMjLJ2g&s",
     "link": "https://vercel.com/",
     "description": "Vercel is a powerful platform for frontend developers, enabling seamless deployment and scaling of web applications. With its intuitive interface and robust features, Vercel simplifies the process of building, previewing, and shipping high-performance websites."
@@ -4915,7 +4915,7 @@
   },
   {
     "productName": "IFTTT",
-    "category": "Integration",
+    "category": "web",
     "image": "https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Fimages.ctfassets.net%2Fdm4oa8qtogq0%2F2EZFfsP8mbmXKC0ajUYSS7%2F676263126a4665b250b9a4b7156f460a%2FIFTTT_250.png",
     "link": "https://ifttt.com/android_photos",
     "description": "IFTTT (If This Then That) is a popular integration tool that enables users to connect various web services and devices to automate tasks."
