@@ -4446,7 +4446,7 @@
   },
   {
     "productName": "Rakuten",
-    "category": "Extensions",
+    "category": "extensions",
     "image": "https://logowik.com/content/uploads/images/rakuten7982.jpg",
     "link": "https://chromewebstore.google.com/detail/rakuten-get-cash-back-for/chhjbpecpncaggjpdakmflnfcopglcmi?hl=en",
     "description": "It’s a nice way to get some cashback, and this is on top of whatever cashback or points you may get from your credit card! The extension makes it easy to check for offers while shopping online."
@@ -4551,7 +4551,7 @@
   },
   {
     "productName": "Leetcode Explained",
-    "category": "Extensions",
+    "category": "extensions",
     "image": "https://leetcode.com/static/images/LeetCode_Sharing.png",
     "link": "https://chromewebstore.google.com/detail/leetcode-explained/cofoinjfjcpgcjiinjhcpomcjoalijbe?hl=en",
     "description": "Leetcode explained enhances Leetcode problems with solution code, video explanations, GPT code analysis and provides company tags."
