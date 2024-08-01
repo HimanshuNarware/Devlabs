@@ -245,6 +245,13 @@
     "description": "This website helps you to learn git and git commands very easily through interactive game."
   },
   {
+    "productName": "Reflectly",
+    "category": "tools",
+    "image": "https://pageflows.com/media/logos/reflectly.jpg",
+    "link": "https://reflectly.app/",
+    "description": "Personal journal to enable you to deal with negative thoughts"
+  },
+  {
     "productName": "removebg",
     "category": "tools",
     "image": "https://bit.ly/4binGHA",
@@ -315,6 +322,13 @@
     "description": "Anthropic is an AI safety and research company based in San Francisco. Our interdisciplinary team has experience across ML, physics, policy, and product."
   },
   {
+    "productName": "Very Well Mind",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Verywell_Logo.png",
+    "link": "https://www.verywellmind.com/",
+    "description": "Get the guidance you need to be healthy and happy"
+  },
+  {
     "productName": "Awwwards",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.7zcQll2SaCPHa0iXPTFprQAAAA?rs=1&pid=ImgDetMain",
@@ -350,6 +364,13 @@
     "description": "Create social media carousels for free and with no signup."
   },
   {
+    "productName": "Share Zone",
+    "category": "tools",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/3b/b0/463bb099-edf7-b885-68c7-1402bd6fbcee/AppIcon-85-220-4-2x.png/1200x600wa.png",
+    "link": "https://sharezone.net/",
+    "description": "Sharezone is a collaborative school organization app for iOS, Android.."
+  },
+  {
     "productName": "Square",
     "category": "tools",
     "image": "https://1000logos.net/wp-content/uploads/2021/11/Square-logo.png",
@@ -371,6 +392,13 @@
     "description": "Use real-time behavior data and AI to convert more customers with Mailchimp's marketing, automation & email marketing platform"
   },
   {
+    "productName": "ElectrifAi",
+    "category": "tools",
+    "image": "https://cdn.prod.website-files.com/6102d422589f98818118496e/6111448eee3f0867cbc1be7d_ElectrifAi_SocialThumbnail.jpg",
+    "link": "https://www.electrifai.com/",
+    "description": "Consequential Ai revolutionizes the software business."
+  },
+  {
     "productName": "BootStrap",
     "category": "tool",
     "image": "https://shorturl.at/YeZSW",
@@ -378,11 +406,25 @@
     "description": "Build fast, responsive sites with Bootstrap"
   },
   {
+    "productName": "Calm",
+    "category": "tools",
+    "image": "https://i.pinimg.com/736x/10/f7/31/10f731deaae9b2f74d1aeafcc6a0a07f.jpg",
+    "link": "https://www.calm.com/",
+    "description": "Snap receipt photos, forward email receipts to your account, and import expenses from your bank account."
+  },
+  {
     "productName": "Venngage",
     "category": "tools",
     "image": "https://wittysparks.com/wp-content/uploads/2021/11/venngage-logo.jpg",
     "link": "https://venngage.com/",
     "description": "Create within the simple but powerful editor."
+  },
+  {
+    "productName": "Ecomate",
+    "category": "tools",
+    "image": "https://assets-global.website-files.com/65294b9610dbd756e671da57/65294b9610dbd756e671da6d_ecomate_logo.png",
+    "link": "https://www.ecomateapp.com/",
+    "description": "Eco-friendly foam blowing agent"
   },
   {
     "productName": "Mulearn",
@@ -420,6 +462,13 @@
     "description": "We excel in providing a full range of psychotherapy services."
   },
   {
+    "productName": "HeadSpace",
+    "category": "tools",
+    "image": "https://media.designrush.com/inspiration_images/135233/conversions/_1511454499_779_Headspace-mobile.jpg",
+    "link": "https://www.headspace.com/",
+    "description": "Keep remote and distributed teams, and your entire organization, focused on their goals, projects, and tasks with Asana."
+  },
+  {
     "productName": "Libro",
     "category": "tools",
     "image": "https://www.libro.ca/uploads/2021/07/Stacked1000px.jpeg",
@@ -439,6 +488,13 @@
     "image": "https://shorturl.at/gj1LR",
     "link": "https://www.instahyre.com/",
     "description": "Showcase yourself to a curated list of top companies."
+  },
+  {
+    "productName": "Krohne",
+    "category": "tools",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/69330e75443809.5c538d8164f28.png",
+    "link": "https://krohne.com/en",
+    "description": "World-leading manufacturer and supplier of solutions in industrial process instrumentation."
   },
   {
     "productName": "National Digital Library",
@@ -511,6 +567,13 @@
     "description": "Simple, scalable virtual machines for all your web hosting and VPS hosting needs."
   },
   {
+    "productName": "Krohne",
+    "category": "tools",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/69330e75443809.5c538d8164f28.png",
+    "link": "https://krohne.com/en",
+    "description": "World-leading manufacturer and supplier of solutions in industrial process instrumentation."
+  },
+  {
     "productName": "Celestial",
     "category": "tools",
     "image": "https://celestial.show/wp-content/uploads/2023/12/Celestial-Logo-File_CELESTIAL-LOGO-WHITE-768x306.png",
@@ -544,6 +607,13 @@
     "image": "https://shorturl.at/mHcN2",
     "link": "https://shorturl.at/jofAl",
     "description": "FreeConvert's video compressor is a user-friendly tool that helps you reduce the file size of your videos without compromising on quality."
+  },
+  {
+    "productName": "Balance App",
+    "category": "tools",
+    "image": "https://cdn.prod.website-files.com/6419f11fa4b9a0ac325246b8/64514e00b56e027e3a06a1de_Balance_web.png",
+    "link": "https://balanceapp.com/",
+    "description": "Anybody can create applications, websites, chatbots, and more on any internet-connected device without having to hire a programmer or agency."
   },
   {
     "productName": "FileHippo",
@@ -595,11 +665,25 @@
     "description": "Simplest way for couples to manage money, together"
   },
   {
+    "productName": "WebCatalog",
+    "category": "tools",
+    "image": "https://webcatalog.io/_next/static/media/logo.8a8e76e6.svg",
+    "link": "https://webcatalog.io/en/apps/",
+    "description": "Explore thousands of apps in our curated app library."
+  },
+  {
     "productName": "Poshmark",
     "category": "tools",
     "image": "https://seeklogo.com/images/P/poshmark-logo-ED11EB78C9-seeklogo.com.png",
     "link": "https://poshmark.com/",
     "description": "Buy, sell, and discover fashion, home decor, beauty, and more."
+  },
+  {
+    "productName": "Sap",
+    "category": "tools",
+    "image": "https://w7.pngwing.com/pngs/818/145/png-transparent-sap-erp-enterprise-resource-planning-sap-se-sap-s-4hana-computer-software-job-hire-blue-angle-text-thumbnail.png",
+    "link": "https://www.sap.com/index.html",
+    "description": "Explore market-leading software and technology"
   },
   {
     "productName": "Aptoide",
@@ -679,6 +763,13 @@
     "description": "Provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."
   },
   {
+    "productName": "Choosing Therapy",
+    "category": "tools",
+    "image": "https://wittysparks.com/wp-content/uploads/2021/11/venngage-logo.jpg",
+    "link": "https://www.choosingtherapy.com/mental-health-apps/",
+    "description": "For evidence-based mental health information"
+  },
+  {
     "productName": "Tinkercad",
     "category": "tools",
     "image": "https://api-reader.tinkercad.com/api/images/cbdy6sTzSjf/t725.jpg",
@@ -721,6 +812,13 @@
     "description": "Scaler is an outcome-focused, ed-tech platform for techies."
   },
   {
+    "productName": "Uni Apps",
+    "category": "tools",
+    "image": "https://static.udrus.com/assets/image/uniapp-logo.png",
+    "link": "https://uni-app.com/",
+    "description": "Uni-app is a framework for developing all front-end applications using Vue.js , developers write a set of codes.."
+  },
+  {
     "productName": "Patreon",
     "category": "tools",
     "image": "https://crystalpng.com/wp-content/uploads/2023/10/New-Patreon-Logo.png",
@@ -754,6 +852,13 @@
     "image": "https://seeklogo.com/images/P/pluralsight-logo-BA976E7D4C-seeklogo.com.png",
     "link": "https://www.pluralsight.com/",
     "description": "Helps organizations, teams, and individuals build better products with online courses "
+  },
+  {
+    "productName": "Softonic",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Softonic_logo.svg/1280px-Softonic_logo.svg.png",
+    "link": "https://en.softonic.com/",
+    "description": "The place to discover the best applications for your device, offering you reviews, news, articles and free downloads."
   },
   {
     "productName": "InterviewBit",
@@ -810,6 +915,13 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Katalon-logo-png.png",
     "link": "https://katalon.com/",
     "description": "To automate web, API, mobile & desktop functional testing."
+  },
+  {
+    "productName": "Student AI",
+    "category": "tools",
+    "image": "https://studentai.app/wp-content/uploads/2023/05/S-letter-geometric-Logo-design-Linear.-.png",
+    "link": "https://studentai.app/",
+    "description": "Every essay becomes a masterpiece, citations align like stars, and even the trickiest math problems bow down."
   },
   {
     "productName": "Trello",
@@ -5137,6 +5249,56 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+} ,
+{
+"productName": "Yesmovies",
+"category": "movies",
+"image": "https://yesmovies.media/wp-content/uploads/2024/03/cropped-yesmovies-logo.png",
+"link": "https://yesmovies.media/",
+"description": "A free streaming service that provides access to a vast library of movies and TV shows, organized by genre, year, and country."
+},
+{
+"productName": "Axure RP",
+"category": "Ui",
+"image": "https://www.axure.com/wp-content/uploads/2019/04/logo-black.svg",
+"link": "https://www.axure.com/",
+"description": "A wireframing, prototyping, and documentation software with a free version."
+},
+  {
+  "productName":"Flinto",
+  "category":"Ui",
+  "image":"https://www.flinto.com/assets/compass-brand/site-header-logo-6ff14e7cc8cff2ce9163572e9d400130a215a000c10cebec303e967f56b4c745.png",
+  "link":"https://www.flinto.com/",
+  "description":"A Mac app used for creating interactive and animated prototypes with a free trial."
+
+} ,
+{
+  "productName": "Standard Resume",
+  "category": "resume",
+  "image": "https://github.com/user-attachments/assets/ac12f65d-5698-47f4-8e9c-935469a21803",
+  "link": "https://standardresume.co/",
+  "description": "Standard Resume offers a simple and clean resume builder with easy sharing options, allowing users to create a professional-looking resume quickly. It provides a link to share your resume online or download it in multiple formats, making it convenient for job applications and networking."
+},
+  {
+  "productName":"Resume-Now",
+  "category":"Resume",
+  "image":"https://github.com/user-attachments/assets/06b8e8b0-0bf6-4b8c-addc-6251f33c2419",
+  "link":"https://www.resume-now.com/",
+  "description":"MyPerfectResume is an easy-to-use resume builder that offers templates and expert tips to guide you through creating a professional resume. It simplifies the process, making it accessible even for those with little experience in resume writing."
+} ,
+  {
+  "productName": "Enhancv",
+  "category": "resume",
+  "image": "https://github.com/user-attachments/assets/db76168d-69e0-4908-a0f8-2a6c672a45e5",
+  "link": "https://enhancv.com/",
+  "description": "Enhancv provides templates and customization options to highlight your strengths by tailoring sections like skills, achievements, and personal projects. It helps you create a unique, visually appealing resume that emphasizes your unique qualifications and experiences."
+},
+{
+"productName": "MIT OpenCourseWare",
+"category": "course",
+"image": "https://github.com/user-attachments/assets/b893692b-3fe1-41d2-901e-5eb84d820189",
+"link": "https://ocw.mit.edu/",
+"description": "Features free lecture notes, exams, and videos from MIT’s course catalog, providing high-quality educational materials for self-study."
 },
   {
     "productName": "KnowledgeHut",
@@ -5144,5 +5306,54 @@
     "image": "https://www.knowledgehut.com/_next/image?url=%2Fkh-desktop-new-logo.svg&w=1920&q=75",
     "link": "https://www.knowledgehut.com/",
     "description": "KnowledgeHut is a leading training provider, helping professionals across industries and sectors develop new expertise and bridge their skill gap for recognition and growth in the global corporate world.Developed with the intention of delivering high value training through innovative and practical approaches, KnowledgeHut offers a wide range of services in training, learning and development in the fields of technology and management."
-   }
+   },
+   {
+    "productName": "Plural Sight",
+    "category": "course",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbK1gESSG1wvggc4RkMx84dOVS_K_FpEDXKUkQmrNsRDWQSqRp",
+    "link": "https://www.pluralsight.com/",
+    "description": "Offers courses and resources to build technical skills; can help enhance resumes with certifications and skills development."
+  },
+  {
+    "productName": "FutureLearn",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hVHDw1NP0tdQjcBpHuN9Srww5Nldu4OjEQPz3s2hP0MSfCuR",
+    "link": "https://www.futurelearn.com/",
+    "description": "Provides online courses and certifications that can be included in resumes to demonstrate learning and skills development."
+   },
+  {
+    "productName": "CV Maker",
+    "category": "resume",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQt4B2kzer9M88J8hsMuKXWT1aqs3OQBz-E02MFVtk83WZ82r47",
+    "link": "https://www.cvmaker.com/",
+    "description": "Free online CV and resume builder with various template options, easy to use for creating and downloading professional resumes."
+   },
+  {
+    "productName": "Stanford Online",
+    "category": "course",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-wqQjoXovn0M9NumDI0V57DsRZxrd7a-K2K1E5jHjtknCoEVR",
+    "link": "https://online.stanford.edu/",
+    "description": "Free and paid courses from Stanford University, including professional and executive education."
+   },
+  {
+    "productName": "Harvard Online",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoCmOCgKlJwBk-52QvUILAWNqP2EU0RETO1uSCvSxvUVKQS8ob",
+    "link": "https://www.harvardonline.harvard.edu/",
+    "description": "Free and paid courses from Harvard University."
+   },
+  {
+    "productName": "OpenCulture",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpqa64rkB-WYc70y0vAdojXVjEDIdWTsjwa1bqcVwceB38Lx-x",
+    "link": "https://www.openculture.com/",
+    "description": "Free cultural and educational media, including online courses, audiobooks, and more."
+   },
+  {
+    "productName": "BigThink",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
+    "link": "https://bigthink.com/",
+    "description": "Courses and lessons from top thinkers and doers in various fields."
+  } 
 ]
