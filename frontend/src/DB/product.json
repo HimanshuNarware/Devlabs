@@ -3263,7 +3263,7 @@
   },
   {
     "productName": "GSAP-GreenStock",
-    "category": "Useful Tool",
+    "category": "tools" ,
     "image": "GSAP-GreenStock.png",
     "link": "https://greensock.com/gsap/",
     "description": "It's JavaScript library for some really cool animations without actual javascript codes"
