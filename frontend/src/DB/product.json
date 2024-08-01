@@ -511,6 +511,13 @@
     "description": "One place for all the top stories, deep dives and curated content you need"
   },
   {
+    "productName": "Flathub",
+    "category": "tools",
+    "image": "https://static-00.iconduck.com/assets.00/flathub-icon-512x402-7lbuyuy5.png",
+    "link": "https://flathub.org/",
+    "description": "Find and install hundreds of apps and games for Linux"
+  },
+  {
     "productName": "InstaHire",
     "category": "tools",
     "image": "https://shorturl.at/gj1LR",
