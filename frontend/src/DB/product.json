@@ -245,6 +245,13 @@
     "description": "This website helps you to learn git and git commands very easily through interactive game."
   },
   {
+    "productName": "Medito Foundation",
+    "category": "tools",
+    "image": "https://png.pngtree.com/template/20190308/ourmid/pngtree-people-s-foundation-icon-image_63268.jpg",
+    "link": "https://meditofoundation.org/",
+    "description": "Practicing meditation"
+  },
+  {
     "productName": "Reflectly",
     "category": "tools",
     "image": "https://pageflows.com/media/logos/reflectly.jpg",
