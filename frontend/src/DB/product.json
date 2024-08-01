@@ -567,6 +567,13 @@
     "description": "An open source game about learning Git!"
   },
   {
+    "productName": "Delina",
+    "category": "tools",
+    "image": "https://cdn.textstudio.com/output/sample/normal/7/3/8/2/delina-logo-275-2837.png",
+    "link": "https://delinea.com/products/secret-server",
+    "description": "Any password submitted here is not stored or transmitted"
+  },
+  {
     "productName": "EaseUs Vocal Remover",
     "category": "tools",
     "image": "https://shorturl.at/aQBNS",
