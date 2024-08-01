@@ -5229,5 +5229,12 @@
     "image": "https://www.knowledgehut.com/_next/image?url=%2Fkh-desktop-new-logo.svg&w=1920&q=75",
     "link": "https://www.knowledgehut.com/",
     "description": "KnowledgeHut is a leading training provider, helping professionals across industries and sectors develop new expertise and bridge their skill gap for recognition and growth in the global corporate world.Developed with the intention of delivering high value training through innovative and practical approaches, KnowledgeHut offers a wide range of services in training, learning and development in the fields of technology and management."
-   }
+   },
+   {
+    "productName": "FutureLearn",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hVHDw1NP0tdQjcBpHuN9Srww5Nldu4OjEQPz3s2hP0MSfCuR",
+    "link": "https://www.futurelearn.com/",
+    "description": "Provides online courses and certifications that can be included in resumes to demonstrate learning and skills development."
+  } 
 ]
