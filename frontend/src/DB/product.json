@@ -36,7 +36,7 @@
   },
   {
     "productName": "Netflix",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://shorturl.at/5YFuN",
     "link": "https://www.netflix.com/in/",
     "description": "It is an video streaming platform where user can see multiple language Videos."
@@ -57,7 +57,7 @@
   },
   {
     "productName": "Disney Plus",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://shorturl.at/GHg6D",
     "link": "https://www.hotstar.com/",
     "description": "It is an movies streaming platform where we can view multiple events like movies, sports, Tv shows and more."
@@ -211,7 +211,7 @@
   },
   {
     "productName": "Amazon Prime Video",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://shorturl.at/dxObb",
     "link": "https://www.primevideo.com/",
     "description": "Amazon Prime video is an movie streaming platform to view multiple videos  in offline as well as online."
@@ -260,7 +260,7 @@
   },
   {
     "productName": "iBomma",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://shorturl.at/kSu0y",
     "link": "https://shorturl.at/trpdb",
     "description": "IBomma is a free movie streaming platform that allows users to watch and download multiple movies."
@@ -582,7 +582,7 @@
   },
   {
     "productName": "PikaShows",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://tinyurl.com/37csr8my",
     "link": "https://www.pikashows.download/",
     "description": "Download this application for PC and Mobile to stream all types of TV Shows and Movies."
@@ -932,7 +932,7 @@
   },
   {
     "productName": "MyEmulator",
-    "category": "Gaming",
+    "category": "Entertainment",
     "image": "https://bit.ly/3NBzUm8",
     "link": "https://myemulator.online/",
     "description": "Play classic video games from various gaming consoles directly in their web browsers."
@@ -2038,49 +2038,49 @@
   },
   {
     "productName": "Pogo",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "POGO-logo.png",
     "link": "https://pogolinks.art/ ",
     "description": "Website to download latest movies and webseries"
   },
   {
     "productName": "Zoro.to",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://pbs.twimg.com/profile_images/1725266726277742592/gGGix-0a_400x400.jpg",
     "link": "https://zoro.to/",
     "description": "Website to stream your favorite anime for free"
   },
   {
     "productName": "Soap2Day",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://bit.ly/429nzdU",
     "link": "https://bit.ly/3QoM6XB",
     "description": "Stream movies freely"
   },
   {
     "productName": "Moviesmod",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://bit.ly/3ZMrGen",
     "link": "https://moviesmod.one/",
     "description": "Download HD quality movies and series"
   },
   {
     "productName": "Download Hub",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://bit.ly/3Kd6eIZ",
     "link": "https://downloadhub.dance/",
     "description": "Download HD quality movies and series"
   },
   {
     "productName": "9animetv",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://bit.ly/3yHAxlC",
     "link": "https://9animetv.to/",
     "description": "Website to stream your favorite anime for free"
   },
   {
     "productName": "MoviesNation",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://bit.ly/3Zn3s9F",
     "link": "https://moviesnation.mx/",
     "description": "Website to download US and Korean shows and movies"
@@ -2374,7 +2374,7 @@
   },
   {
     "productName": "AnimeSuge",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://bit.ly/42GEqEq",
     "link": "https://animesuge.to/",
     "description": "A free source to watch all your favourite and latest anime."
@@ -2542,14 +2542,14 @@
   },
   {
     "productName": "SD moviespoint",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://bit.ly/46g9RqN",
     "link": "https://bit.ly/46Y5iT3",
     "description": "Download all latest Movies from here free."
   },
   {
     "productName": "Piped",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://bit.ly/45zisFw",
     "link": "https://piped.kavin.rocks",
     "description": "An alternative privacy-friendly YouTube frontend which is efficient by design."
@@ -2584,7 +2584,7 @@
   },
   {
     "productName": "Cataz",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://bit.ly/3QrHO1l",
     "link": "https://bit.ly/3FPxxaB",
     "description": "Best websites to stream your favourite series online"
@@ -2752,7 +2752,7 @@
   },
   {
     "productName": "WatchSeriesHD",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://img.buzzfeed.com/buzzfeed-static/static/user_images/lWwKSL50T_large.jpg?output-format=jpg&crop=500%3A500%3B0%2C0?resize=100:100&quality=auto",
     "link": "https://watchserieshd.live/",
     "description": "Stream movies and series in HD quality for free"
@@ -2969,7 +2969,7 @@
   },
   {
     "productName": "1337x",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://shorturl.at/afjwQ",
     "link": "https://1337x.st/",
     "description": "1337x is a popular torrent website offering a wide range of downloadable content for users."
@@ -3305,7 +3305,7 @@
   },
   {
     "productName": "Vegamovies",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://apkrabi.com/uploads/2023/4/vegamovies-icon.jpg",
     "link": "https://m.vegamovies.tips/",
     "description": "Here you can download all latest movies in the top quality"
@@ -3536,14 +3536,14 @@
   },
   {
     "productName": "HD TODAY",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "HD TODAY.jpeg",
     "link": "https://hdtoday.tv/",
     "description": "HDToday is the best site to watch movies and TV series online for free"
   },
   {
     "productName": "MyFlixer",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "MyFlixer.jpeg",
     "link": "https://myflixer.ru/",
     "description": "My flixer is used to watch Unlimited Movies with Endless Entertainment"
@@ -3571,7 +3571,7 @@
   },
   {
     "productName": "sflix",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "sflix logo.jpg",
     "link": "https://sflix.video/",
     "description": "sflix have old bollywood and hollywood movie which is completely free"
@@ -3585,7 +3585,7 @@
   },
   {
     "productName": "AniWatch",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://nyc3.digitaloceanspaces.com/animewallpapers/2023/06/smiling-luffy.png",
     "link": "https://aniwatch.to/",
     "description": "Watch your favourite Anime here in Sub/Dub"
@@ -4221,7 +4221,7 @@
   },
   {
     "productName": "MangaReader",
-    "category": "manga",
+    "category": "Entertainment",
     "image": "https://bit.ly/3W06WjY",
     "link": "https://mangareader.to/",
     "description": "MangaReader is a free manga reading site."
@@ -4284,35 +4284,35 @@
   },
   {
     "productName": "Binged",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Binge_logo.png",
     "link": "https://binged.live/",
     "description": "Binged is a popular website to stream movies, webshows, anime and much more."
   },
   {
     "productName": "1Flix",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://img.1flix.to/xxrz/400x400/100/e4/ca/e4ca1fc10cda9cf762f7b51876dc917b/e4ca1fc10cda9cf762f7b51876dc917b.png",
     "link": "https://1flix.to/",
     "description": "1Flix is one of the most visited sites for free movie streaming."
   },
   {
     "productName": "123Movies ",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Movies_123movies.png",
     "link": "https://ww4.123moviesfree.net/",
     "description": "123Movies is a popular website to stream movies, webshows, anime and much more."
   },
   {
     "productName": "HiAnime ",
-    "category": "anime",
+    "category": "Entertainment",
     "image": "https://hianime.to/images/logo.png",
     "link": "https://hianime.to/",
     "description": "HiAnime is a very popular free site to watch anime."
   },
   {
     "productName": "Bollyflix",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://bollyflix-cdn.store/wp-content/uploads/2023/05/Bollyflix-movies.png",
     "link": "https://bollyflix.band/",
     "description": "Bollyflix is a popular website to download movies, webshows, anime and much more."
@@ -4382,7 +4382,7 @@
   },
   {
     "productName": "Animetsu",
-    "category": "anime",
+    "category": "Entertainment",
     "image": "https://ibb.co/VmRrvgX",
     "link": "https://animetsu.cc/",
     "description": "Animetsu is a free Anime watching platform."
@@ -4558,7 +4558,7 @@
 },
   {
     "productName": "Solar Movie",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://ww7.solarmovie.to/img/logo.png",
     "link": "https://ww7.solarmovie.to/home.html",
     "description": "Offers free streaming of a wide variety of movies and TV shows, with high-quality video and minimal ads, allowing users to filter by genre and country."
@@ -4586,34 +4586,34 @@
   },
   {
     "productName": "Go Movies",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://gomovies-hd.com/wp-content/uploads/2024/04/GoMovies-HD-logo-optimized.webp",
     "link": "https://gomovies-hd.com/",
     "description": "A popular site for free movie and TV show streaming, featuring an easy-to-navigate layout and a diverse range of genres and categories."
   },
   {
     "productName": "FMovies",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://fmovies4free.com/wp-content/uploads/2024/02/cropped-FMovies-Logo-150x45.png",
     "link": "https://fmovies4free.com/",
     "description": "Features a large collection of movies and TV series available for free streaming, with options to filter by genre, release date, and popularity."
   },
   {
     "productName": "Watch-free",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg",
     "link": "https://www.plex.tv/watch-free/",
     "description": "Provides access to a broad range of movies and TV shows for free, with options to search by title, genre, and release year.It provides free access to a broad range of movies and TV shows."
   },
   {
     "productName": "Movie4u",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://github.com/user-attachments/assets/417d49af-9a0d-4dea-a776-7a96157e5e95",
     "link": "https://movies4u.loan/"
   },
   {
     "productName": "AZMovies",
-    "category": "movies",
+    "category": "Entertainment",
     "image": "https://www.azmovies.net/images/logo.png",
     "link": "https://www.azmovies.net/",
     "description": "Features a large library of movies available for free streaming in high quality, with a focus on providing the latest releases and classics.It features a large library of movies available for free high-quality streaming"
@@ -4844,7 +4844,7 @@
   },
   {
     "productName": "PBS kids",
-    "category": "Games",
+    "category": "Entertainment",
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg",
     "link": "https://pbskids.org/",
     "description": "PBS Kids is the brand for most of the children's programming aired by PBS in the United States. "
@@ -5175,7 +5175,7 @@
 } ,
 {
 "productName": "Yesmovies",
-"category": "movies",
+"category": "Entertainment",
 "image": "https://yesmovies.media/wp-content/uploads/2024/03/cropped-yesmovies-logo.png",
 "link": "https://yesmovies.media/",
 "description": "A free streaming service that provides access to a vast library of movies and TV shows, organized by genre, year, and country."
