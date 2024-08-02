@@ -155,6 +155,14 @@ const movies = [
     image: "https://www.ntaskmanager.com/wp-content/uploads/2022/05/nTask-Logo-Vertical.svg",
     releaseDate: "2015-07-01"
   },
+  
+  {
+    title: "Flock",
+    category: "Collaboration Tools",
+    description: "Flock is a team communication and collaboration platform that provides messaging, video conferencing, and task management to enhance team productivity.",
+    image: "https://www.flock.com/hubfs/Flock-Logo%20-%20Color%20-%20Inverted.svg",
+    releaseDate: "2014-11-01"
+  }, 
   {
     title: "Chanty",
     category: "Collaboration Tools",
@@ -162,6 +170,7 @@ const movies = [
     image: "https://super-monitoring.com/blog/wp-content/uploads/2022/07/chanty.png.webp",
     releaseDate: "2017-01-01"
   },   
+
 ];
 const Collaboration = () => {
   return (
