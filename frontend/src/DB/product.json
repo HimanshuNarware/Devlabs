@@ -805,6 +805,13 @@
     "description": "BUIDLs, hackathons, grants, quadratic funding rounds, bounties,etc"
   },
   {
+    "productName": "EIFL",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/EIFL_Logo.png",
+    "link": "https://www.eifl.net/",
+    "description": "EIFL (Electronic Information for Libraries)"
+  },
+  {
     "productName": "MDN Web Docs",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1200px-MDN_Web_Docs.svg.png",
