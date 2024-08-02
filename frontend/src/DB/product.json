@@ -611,11 +611,20 @@
     "description": "Separate voice and music from any song free with powerful AI technology"
   },
   {
+
+    "productName": "AlternativeTo",
+    "category": "tools",
+    "image": "https://cdn.freebiesupply.com/logos/large/2x/alternative-logo-png-transparent.png",
+    "link": "https://alternativeto.net/",
+    "description": "Lets you find apps and software for Windows, Mac, Linux,etc"
+  },
+  {
     "productName": "Deliveroo",
     "category": "tools",
     "image": "https://logos-world.net/wp-content/uploads/2021/02/Deliveroo-Symbol.png",
     "link": "https://deliveroo.co.uk/",
     "description": "We deliver your takeouts or essential groceries from the best-rated local partners straight to your door."
+
   },
   {
     "productName": "Coded Pad",
