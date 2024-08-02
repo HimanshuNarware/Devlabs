@@ -532,6 +532,13 @@
     "description": "One Library All of India. The national digital library of India"
   },
   {
+    "productName": "Springer",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Spring_Framework_Logo_2018.svg/2560px-Spring_Framework_Logo_2018.svg.png",
+    "link": "https://spring.io/",
+    "description": "Read over 10 million scientific documents"
+  },
+  {
     "productName": "Wonder Dynamics",
     "category": "tools",
     "image": "https://mms.businesswire.com/media/20230309005814/en/1735217/23/Wonder_Dynamics.jpg",
