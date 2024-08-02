@@ -273,6 +273,13 @@
     "description": "Remove video backgrounds 100% automatically in 5 seconds with one click."
   },
   {
+    "productName": "JSTOR",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/56/JSTOR_vector_logo.svg",
+    "link": "https://www.jstor.org/",
+    "description": "Digital library of academic journals, books, and primary sources"
+  },
+  {
     "productName": "Llama AI",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.5sQM1RauXOuWlLUMUxiyKQHaDt?rs=1&pid=ImgDetMain",
