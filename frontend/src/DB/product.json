@@ -791,6 +791,13 @@
     "description": "SoloLearn is an interactive platform offering a variety of coding courses to help users learn and practice programming skills through bite-sized lessons and community engagement."
   },
   {
+    "productName": "Auglio",
+    "category": "tools",
+    "image": "https://parsers.vc/logo/a0c5000d-8c1e-4c9f-ae68-86370066418b-0.png",
+    "link": "https://auglio.com/",
+    "description": "Virtual try-on tool enabling customers to try products using camera and augmented reality before the purchase"
+  },
+  {
     "productName": "Simplifi",
     "category": "tools",
     "image": "https://i.pcmag.com/imagery/reviews/01IQKPSEcI9YAm0UXgYIEpe-35..v1704894968.png",
