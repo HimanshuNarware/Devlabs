@@ -945,6 +945,13 @@
     "description": "Free downloads of legally licensed fonts that are perfect for your design projects."
   },
   {
+    "productName": "Steam",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png",
+    "link": "https://store.steampowered.com/",
+    "description": "Ultimate destination for playing, discussing, and creating games"
+  },
+  {
     "productName": "Relight",
     "category": "tools",
     "image": "https://shorturl.at/aehFs",
