@@ -943,6 +943,13 @@
     "description": "Experts in personal safety, theft trends, IT security, criminal justice, and health."
   },
   {
+    "productName": "Northwestern Medicine",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKOTm8rQ3I1AG1ifGNGiV_0No_FppjNSqLVA&s",
+    "link": "https://www.nm.org/",
+    "description": "Leader in quality healthcare and service"
+  },
+  {
     "productName": "Seowriting.AI",
     "category": "tools",
     "image": "https://bit.ly/4bSrO1A",
