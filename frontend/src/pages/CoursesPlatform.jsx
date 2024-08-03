@@ -74,6 +74,18 @@ const courses = [
       instructor: "David Wilson",
       price: 129.99,
     },
+    {
+      title: "Learn World",
+      category: "History",
+      description:
+        "LearnWorlds is an advanced online course creation platform .",
+      duration: "10 weeks",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2PQr4qbjQD4JcNSSO5Vs5-xU9KhXEGSugMw&s",
+      startDate: "2024-10-10",
+      endDate: "2024-12-20",
+      instructor: " Panos Siozos",
+      price: 150.99,
+    },
 ];
 
 const CoursesPlatform = () => {
