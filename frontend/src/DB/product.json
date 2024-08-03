@@ -20,6 +20,13 @@
     "link": "https://cohere.com/",
     "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
   },
+   {
+    "productName": "Spring Initializr",
+    "category": "tools" ,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9i0HBomVepR6AMsmIrZAuU1MOBwWiEtAtA&s",
+    "link": "https://start.spring.io/",
+    "description": "Initializr generates spring boot project with just what you need to start quickly!"
+  },
   {
     "productName": "Studocu",
     "category": "tools",
