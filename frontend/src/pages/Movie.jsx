@@ -75,6 +75,15 @@ const movies = [
     releaseDate: "2014-09-05",
   },
   {
+    title: "Srikanth Bolla",
+    category: "Biography",
+    description:
+      "Srikanth is a 2024 Indian Hindi-language biographical film on the life of Srikanth Bolla, a visually-impaired industrialist and the founder of Bollant Industries.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-LbV2HkXt0qDQfwEFKjApCOsbn8poFpnMmg&s",
+    releaseDate: "2024-05-13",
+  },
+  {
     title: "Chhichhore",
     category: "Comedy/Sport",
     description:
