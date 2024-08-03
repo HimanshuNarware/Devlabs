@@ -1302,6 +1302,20 @@
     "description": "Free downloads of legally licensed fonts that are perfect for your design projects."
   },
   {
+    "productName": "CLX Gaming",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPcatiQ4iWCbkZi83MlsZXPZN0ppkmx0a03Q&s",
+    "link": "https://www.clxgaming.com/",
+    "description": "Related to gaming"
+  },
+  {
+    "productName": "Steam",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png",
+    "link": "https://store.steampowered.com/",
+    "description": "Ultimate destination for playing, discussing, and creating games"
+  },
+  {
     "productName": "Relight",
     "category": "tools",
     "image": "https://shorturl.at/aehFs",
@@ -1335,6 +1349,13 @@
     "image": "https://overapi.com/static/images/overapi-logo.png",
     "link": "https://overapi.com/",
     "description": "Collection of cheet sheets of mutilple techs."
+  },
+  {
+    "productName": "Giveaway Base",
+    "category": "tools",
+    "image": "https://cdn-icons-png.flaticon.com/512/4470/4470928.png",
+    "link": "https://giveawaybase.com/",
+    "description": "Related to gaming"
   },
   {
     "productName": "Autodesk",
@@ -1391,6 +1412,13 @@
     "image": "https://www.jthemes.com/wp-content/uploads/2021/04/Fontawesome.png",
     "link": "https://fontawesome.com/",
     "description": "Internet's icon library and toolkit, used by millions of designers, developers, and content creators"
+  },
+  {
+    "productName": "Epic games",
+    "category": "tools",
+    "image": "https://cdn2.unrealengine.com/Epic+Games+Node%2Fxlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca4.jpg",
+    "link": "https://store.epicgames.com/en-US/",
+    "description": "Gaming"
   },
   {
     "productName": "ChatGPT Writer",
@@ -1456,6 +1484,13 @@
     "description": "A great website to generate resumes & cover letters"
   },
   {
+    "productName": "Epic games",
+    "category": "tools",
+    "image": "https://cdn2.unrealengine.com/Epic+Games+Node%2Fxlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca4.jpg",
+    "link": "https://store.epicgames.com/en-US/",
+    "description": "Gaming"
+  },
+  {
     "productName": "RoomSketcher",
     "category": "tools",
     "image": "https://www.mspecs.se/wp-content/uploads/2021/09/RoomSketcher_logo_high.png",
@@ -1468,6 +1503,13 @@
     "image": "https://bit.ly/3YKPTRr",
     "link": "https://rxresu.me/",
     "description": "Reactive Resume is an open-source, customizable resume builder that uses React.js."
+  },
+  {
+    "productName": "Trustpilot",
+    "category": "tools",
+    "image": "https://reviewgrower.com/wp-content/uploads/2022/06/trustpilot-logo-1.png",
+    "link": "https://www.trustpilot.com/",
+    "description": "Review platform that's open to everyone"
   },
   {
     "productName": "Poet.so",
@@ -1503,6 +1545,13 @@
     "image": "https://shorturl.at/uxGQ3",
     "link": "https://shorturl.at/AILW3",
     "description": "Remove noise from voice recordings with speech enhancement"
+  },
+  {
+    "productName": "BOTB",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/81/BOTB_Official_Logo.jpg",
+    "link": "https://www.botb.com/",
+    "description": "BOTB (Best Of The Best Plc)"
   },
   {
     "productName": "Angel.co",
@@ -2301,6 +2350,13 @@
     "image": "https://shorturl.at/myBPW",
     "link": "https://excalidraw.com/",
     "description": "Virtual whiteboard for sketching hand-drawn diagrams ,very useful for content creation"
+  },
+   {
+    "productName": "CLion",
+    "category": "tools",
+    "image": "https://static-00.iconduck.com/assets.00/clion-icon-512x512-tvyolucv.png",
+    "link": "https://www.jetbrains.com/clion/",
+    "description": "Cross-platform IDE for C and C++ development with powerful refactoring and debugging capabilities."
   },
   {
     "productName": "Grammarly",
@@ -5459,6 +5515,13 @@
     "image": "https://shorturl.at/tNMy8",
     "link": "https://www.codetriage.com/",
     "description": "A site that helps you find open-source projects to contribute to by delivering issues directly to your inbox."
+  },
+  {
+    "productName": "IntelliJ IDEA",
+    "category": "tools",
+    "image": "https://logonoid.com/images/intellij-idea-logo.png",
+    "link": "https://www.jetbrains.com/idea/",
+    "description": "The Leading Java and Kotlin IDE."
   },
   {
   "productName": "Glassdoor",
