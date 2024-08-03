@@ -1064,6 +1064,13 @@
     "description": "International Centre for Free and Open Source Software "
   },
   {
+    "productName": "WPGetAPI",
+    "category": "tools",
+    "image": "https://i.ytimg.com/vi/09lG2BTzgiM/maxresdefault.jpg",
+    "link": "https://wpgetapi.com/",
+    "description": "Easiest way to connect your WordPress website to an external API"
+  },
+  {
     "productName": "Screen Recorder",
     "category": "tools",
     "image": "https://shorturl.at/nBJQY",
