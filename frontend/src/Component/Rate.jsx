@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { FaStar } from 'react-icons/fa'
 import "./Rate.css"
-
 const Rate = () => {
   const [rating, setRating] = useState(null);
   const [hover, setHover] = useState(null);
