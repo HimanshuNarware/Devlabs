@@ -7,6 +7,13 @@
     "description": "Starknet is a Validity Rollup that provides unlimited scale while retaining Ethereum’s security and decentralization."
   },
   {
+    "productName": "Visual Studio Code",
+    "category": "coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuER1tOoBap4qZ8V7OUsbf-quqFfEjj3Jnzg&s",
+    "link": "https://code.visualstudio.com/",
+    "description": "Visual Studio Code is a free, open-source code editor from Microsoft that provides developers with powerful tools and a flexible workspace for a variety of programming languages."
+},
+  {
     "productName": "PhpStorm",
     "category": "tools",
     "image": "https://www.quanta.org/free-phpstorm-licence/phpstorm-logo.png",
