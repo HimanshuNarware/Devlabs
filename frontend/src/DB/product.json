@@ -1463,6 +1463,13 @@
     "description": "A great website to generate resumes & cover letters"
   },
   {
+    "productName": "Epic games",
+    "category": "tools",
+    "image": "https://cdn2.unrealengine.com/Epic+Games+Node%2Fxlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca4.jpg",
+    "link": "https://store.epicgames.com/en-US/",
+    "description": "Gaming"
+  },
+  {
     "productName": "RoomSketcher",
     "category": "tools",
     "image": "https://www.mspecs.se/wp-content/uploads/2021/09/RoomSketcher_logo_high.png",
