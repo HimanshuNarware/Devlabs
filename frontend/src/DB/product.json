@@ -336,6 +336,13 @@
     "description": "IBomma is a free movie streaming platform that allows users to watch and download multiple movies."
   },
   {
+    "productName": "The Guardian",
+    "category": "tools",
+    "image": "https://shared.prolewiki.org/uploads/7/7a/The_Guardian_Logo.jpg",
+    "link": "https://www.theguardian.com/",
+    "description": "The world's leading liberal voice"
+  },
+  {
     "productName": "unscreen",
     "category": "tools",
     "image": "https://bit.ly/3KXZGi3",
@@ -1104,6 +1111,13 @@
     "image": "https://bit.ly/3NH8dIt",
     "link": "https://bit.ly/43VBwNf",
     "description": "InterviewBit prepares you not only for the interviews, but for the actual job too."
+  },
+  {
+    "productName": "The Guardian",
+    "category": "tools",
+    "image": "https://shared.prolewiki.org/uploads/7/7a/The_Guardian_Logo.jpg",
+    "link": "https://www.theguardian.com/",
+    "description": "The world's leading liberal voice"
   },
   {
     "productName": "Planner 5D",
