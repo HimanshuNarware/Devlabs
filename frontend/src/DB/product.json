@@ -819,6 +819,13 @@
     "description": "Uni-app is a framework for developing all front-end applications using Vue.js , developers write a set of codes.."
   },
   {
+    "productName": "Oxfam",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBIQUGTTVc0d--TyDk1m6zKD6OWwG1ol5ouQ&s",
+    "link": "https://www.oxfamindia.org/",
+    "description": "Best non profit organization working to support child education, empowering women"
+  },
+  {
     "productName": "Patreon",
     "category": "tools",
     "image": "https://crystalpng.com/wp-content/uploads/2023/10/New-Patreon-Logo.png",
