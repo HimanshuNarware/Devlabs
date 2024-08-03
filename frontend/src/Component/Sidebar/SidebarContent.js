@@ -1,5 +1,4 @@
 import React from "react";
-
 function SidebarContent({name,description,active}) {
 
   function handleSidebarClick(prop) {

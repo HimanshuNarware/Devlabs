@@ -4,7 +4,6 @@ import ReactPaginate from "react-paginate";
 import axios from "axios";
 import ClipLoader from "react-spinners/ClipLoader";
 import jsonProjects from "../DB/openSource.json";
-
 const BACKEND = process.env.REACT_APP_BACKEND;
 
 const OpenSource = () => {
