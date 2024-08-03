@@ -2430,6 +2430,13 @@
     "description": "Provides Temporary disposable email address."
   },
   {
+    "projectName": "Traycer-AI",
+    "ownerUsername": "Anshuman Tiwari",
+    "tags": ["python", "Artifical Intelligence", "Voice-Assistant", "Code Automation", "Visual Studio Code"],
+    "link": "https://traycer.ai/",
+    "description": "This is a code reviewer platform that is an open source of organisation which also helped developers in VS code as well."
+},
+  {
     "productName": "Web Developer",
     "category": "extensions",
     "image": "https://bit.ly/3nv8lAj",
