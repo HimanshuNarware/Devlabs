@@ -1554,6 +1554,13 @@
     "description": "The Generative AI tool that is revolutionizing preproduction and production by allowing filmmakers to go From Concept To Camera™ in minutes."
   },
   {
+    "productName": "SteelSeries",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJdBc9mrlnH7phBacLty-mrudVrhs2R-q6w&s",
+    "link": "https://steelseries.com/",
+    "description": "Leading manufacturer of gaming peripherals and accessories"
+  },
+  {
     "productName": "Remote.co",
     "category": "remote",
     "image": "https://remoteco.s3.amazonaws.com/wp-content/uploads/2017/02/retina_favicon_32.png",
