@@ -70,6 +70,27 @@
     "description": "BIRME is a flexible and easy to use bulk image resizer. It can resize your images to any specific dimension and crop them proportionately if necessary."
   },
   {
+    "productName": "Algoprep",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.YCoHiZUENjppmF9S9WghLwAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://www.algoprep.in/",
+    "description": "Algoprep is a course website which is created by two professionals in the field of DSA and computer science, this website helps you to learn DSA."
+  },
+  {
+    "productName": "Random",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.wLtCSTfhG9l65650vmVOnAHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://www.random.org/",
+    "description": "RANDOM.ORG offers true random numbers to anyone on the Internet. The randomness comes from atmospheric noise, which for many purposes is better than the pseudo-random number algorithms typically used in computer programs."
+  },
+  {
+    "productName": "Iplogger",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.wQCiw8FFLwhpWKEUqzE2qQHaFJ?rs=1&pid=ImgDetMain",
+    "link": "https://iplogger.org/",
+    "description": "IP Logger URL shortener web service helps to track data on your website traffic, get information about clicks on your short URLs shared via you social media channels or published on your website, lookup ip address, check ip location and check any URL for redirects and safety."
+  },
+  {
     "productName": "claude AI",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.dTYn10CJCVhkCJX6QokokwHaEK?rs=1&pid=ImgDetMain",
