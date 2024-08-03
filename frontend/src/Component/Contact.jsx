@@ -1,15 +1,16 @@
-import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLinkedin,
-  faGithub,
-  faTwitter,
   faFacebook,
+  faGithub,
+  faLinkedin,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Lottie from "lottie-react";
+import React, { useState } from "react";
+import { Bounce, ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import animationData from "../lottie/contact.json";
 import "../style/Contact.css";
-
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [isValid, setIsValid] = useState(true);
@@ -20,6 +21,24 @@ const Contact = () => {
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     setIsValid(emailRegex.test(value));
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if (isValid && email) {
+      toast("✅ Sent Successfully!", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+        closeButton: true,
+      });
+    }
   };
 
   return (
@@ -38,7 +57,7 @@ const Contact = () => {
             <p className="contact-description">
               Please fill out the form below to get in touch with us.
             </p>
-            <form className="contact-form">
+            <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="name" className="form-label">
                   Name
@@ -122,6 +141,19 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover={false}
+        theme="light"
+        transition={Bounce}
+      />
     </div>
   );
 };

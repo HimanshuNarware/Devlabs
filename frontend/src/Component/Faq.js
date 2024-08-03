@@ -11,7 +11,6 @@ import {
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import data from "./accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
-
 export default function Faq() {
   let [index, setIndex] = useState(0);
   const [className, setClassName] = useState(null);
