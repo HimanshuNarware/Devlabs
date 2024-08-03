@@ -63,6 +63,13 @@
     "description": "LogoAI is a AI powered logo generator, which creates logos with creative and profressional design."
   },
   {
+    "productName": "Eclipse",
+    "category": "IDEs",
+    "image": "https://addonwebsolutions.com/wp-content/uploads/2018/11/eclipse.png",
+    "link": "https://www.eclipse.org/",
+    "description": "Versatile open-source IDE supporting multiple languages with robust plugin ecosystem."
+  },
+  {
     "productName": "Disney Plus",
     "category": "Entertainment",
     "image": "https://shorturl.at/GHg6D",
