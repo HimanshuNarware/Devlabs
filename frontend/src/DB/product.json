@@ -950,6 +950,13 @@
     "description": "EIFL (Electronic Information for Libraries)"
   },
   {
+    "productName": "GamerPower",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQIY763oi3TrcM7Lnhn8sNvxHgtuWLJSJQiw&s",
+    "link": "https://www.gamerpower.com/",
+    "description": "Ultimate tool for gamers"
+  },
+  {
     "productName": "MDN Web Docs",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1200px-MDN_Web_Docs.svg.png",
