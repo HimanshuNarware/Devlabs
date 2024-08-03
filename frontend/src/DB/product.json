@@ -5613,6 +5613,13 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+} ,
+{
+  "productName": "OpenLearn",
+  "category": "course",
+  "image": "https://github.com/user-attachments/assets/1c6e15c1-911c-4ecf-986b-66b328ce4da4",
+  "link": "https://www.open.edu/openlearn/",
+  "description": "The Open University’s platform offers free courses across various disciplines, with interactive content and quizzes to reinforce learning."
 } , 
 {
   "productName": "Balsamiq",
@@ -5734,4 +5741,5 @@
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
   } 
+
 ]
