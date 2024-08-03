@@ -1267,6 +1267,13 @@
     "description": "Study materials such as tutorials, articles, and resources for Java programming and other related technologies"
   },
   {
+    "productName": "GG deals",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv6Bz4L_O96YuJGFaeVk1s4KJVK0U8KU0o9g&s",
+    "link": "https://gg.deals/",
+    "description": "Find the best game deals online"
+  },
+  {
     "productName": "HiTV",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/HiTV.png",
