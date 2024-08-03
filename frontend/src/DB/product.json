@@ -1491,6 +1491,13 @@
     "description": "Reactive Resume is an open-source, customizable resume builder that uses React.js."
   },
   {
+    "productName": "Trustpilot",
+    "category": "tools",
+    "image": "https://reviewgrower.com/wp-content/uploads/2022/06/trustpilot-logo-1.png",
+    "link": "https://www.trustpilot.com/",
+    "description": "Review platform that's open to everyone"
+  },
+  {
     "productName": "Poet.so",
     "category": "tools",
     "image": "https://bit.ly/3IiqJUM",
