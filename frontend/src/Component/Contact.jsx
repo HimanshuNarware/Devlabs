@@ -22,7 +22,6 @@ const Contact = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     setIsValid(emailRegex.test(value));
   };
-
   const handleSubmit = (event) => {
     event.preventDefault();
     if (isValid && email) {
