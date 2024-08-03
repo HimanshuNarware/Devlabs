@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../style/BackToTopButton.css';
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
-
 function BackToTopButton() {
     const [isVisible, setIsVisible] = useState(false);
     const [scrollProgress, setScrollProgress] = useState(0);

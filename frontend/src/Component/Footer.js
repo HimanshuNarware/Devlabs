@@ -26,7 +26,6 @@ import {
 } from "react-icons/ai";
 import { BsYoutube, BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
 import { Link } from "react-router-dom";
-
 function Footer() {
   const today = new Date();
   const year = today.getFullYear();

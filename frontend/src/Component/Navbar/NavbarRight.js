@@ -18,7 +18,6 @@ function NavbarRight({ setSearchQuery }) {
   const handleInputChange = (e) => {
     setLocalSearchQuery(e.target.value); // Update the search query when input changes
   };
-
   const handleSearch = (e) => {
     e.preventDefault();
     setSearchQuery(searchQuery); // Pass the search query to the parent component (App)
