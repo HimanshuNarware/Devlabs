@@ -17,7 +17,7 @@
 .open-source__content-box-home {
     position: relative;
     width: 100%;
-    padding: 12px;
+    padding: 20px;
     border-radius: 5px;box-shadow: 0px 0px 8px violet;
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -69,8 +69,8 @@
     }
   }
 .open-source__content-box-home:hover {
-    transform: scale(0.9);
-    box-shadow: 0px 0px 15px #b85cf6e1;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 25px #951bf9;
 }
 
 .open-source__content-box-home h2 {
