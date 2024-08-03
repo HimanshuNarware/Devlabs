@@ -28,6 +28,13 @@
     "description": "Initializr generates spring boot project with just what you need to start quickly!"
   },
   {
+    "productName":"JSBin",
+    "category":"Web Development Platform",
+    "image":"https://shorturl.at/kblvi",
+    "link":"https://jsbin.com/",
+    "description":"JS Bin is a webapp specifically designed to help JavaScript and CSS folk test snippets of code, within some context, and debug the code collaboratively."
+  },
+  {
     "productName": "Studocu",
     "category": "tools",
     "image": "https://cdn6.aptoide.com/imgs/8/e/4/8e44fd32cbc8670457828df938dee546_fgraphic.png",
