@@ -819,6 +819,13 @@
     "description": "Netlify provides free hosting, deploying, and many more service to the user so the user doesn't need to worry about the hosting."
   },
   {
+    "productName": "Rapid API",
+    "category": "tools",
+    "image": "https://toppng.com/uploads/preview/rapid-api-logo-116093740639ljg1hv9ap.png",
+    "link": "hhttps://rapidapi.com/",
+    "description": "Find, Connect, & Share 1000s of APIs"
+  },
+  {
     "productName": "MDN Web Docs",
     "category": "tools",
     "image": "https://cdn-1.webcatalog.io/catalog/mdn-web-docs/mdn-web-docs-icon-filled-256.png?v=1675596631400",
