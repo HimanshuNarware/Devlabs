@@ -126,6 +126,13 @@
     "description": "Synthesia AI is an AI system that enables individuals to create professional-quality video content without needing cameras, microphones, or studios."
   },
   {
+    "productName": "Pomodoro Timer",
+    "category": "tools",
+    "image": "https://www.pngfind.com/pngs/m/72-724484_the-pomodoro-technique-developed-by-francesco-cirillo-smiley.png",
+    "link": "https://pomofocus.io/",
+    "description": "Help you manage your time and let you focus on any tasks such as study,etc."
+  },
+  {
     "productName": "IEEE",
     "category": "tools",
     "image": "https://pbs.twimg.com/profile_images/474591466749034496/2-H1zqWf_400x400.jpeg",
@@ -257,6 +264,13 @@
     "image": "https://shorturl.at/dxObb",
     "link": "https://www.primevideo.com/",
     "description": "Amazon Prime video is an movie streaming platform to view multiple videos  in offline as well as online."
+  },
+  {
+    "productName": "APKMirror",
+    "category": "tools",
+    "image": "https://www.moosoft.com/wp-content/uploads/2023/06/ApkMirror-98765.png",
+    "link": "https://www.apkmirror.com/",
+    "description": "Free and safe Android APK downloads."
   },
   {
     "productName": "Goose AI",
@@ -1379,6 +1393,14 @@
     "description": "Free downloads of legally licensed fonts that are perfect for your design projects."
   },
   {
+
+    "productName": "Student AI",
+    "category": "tools",
+    "image": "https://studentai.app/wp-content/uploads/2023/05/S-letter-geometric-Logo-design-Linear.-.png",
+    "link": "https://studentai.app/",
+    "description": "Every essay becomes a masterpiece, citations align like stars, and even the trickiest math problems bow down."
+  },
+  {
     "productName": "CLX Gaming",
     "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPcatiQ4iWCbkZi83MlsZXPZN0ppkmx0a03Q&s",
@@ -1923,6 +1945,13 @@
     "image": "https://bit.ly/3Y3S0Pz",
     "link": "https://m0chan.github.io/",
     "description": "Cybersecurity blog and resource hub."
+  },
+  {
+    "productName": "UpToDown",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Uptodown-new-logo-2019.jpg",
+    "link": "https://en.uptodown.com/",
+    "description": "Multi-platform app store specialized in Android."
   },
   {
     "productName": "Hacker101",
