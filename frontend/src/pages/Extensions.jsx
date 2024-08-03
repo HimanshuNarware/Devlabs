@@ -10,8 +10,7 @@ const extensions = [
   { name: "JSONVue", description: "As a developer working with RESTful APIs, reading raw JSON data on a browser can be quite awkward. It’s much easier to read JSON in tree-view, rather than in its raw state.", link: "https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en%20", image: "https://lh3.googleusercontent.com/4rEXe8coLpWkeFvKwS3lnNuqev5jHuz782UOPIgfubs-e_wPitMALrGUY1j6gwrlM7yTjzMkTP26DeIgGuzFZZyn0A=s60" },
   { name: "Dark Reader Extension", description: "It enables dark mode on any website, reducing eye strain and making it easier to read at night.", link: "https://darkreader.org/", image: "https://avatars.githubusercontent.com/u/38494721?v=4"},
   { name: "Rakuten Extension", description: "It’s a nice way to get some cashback, and this is on top of whatever cashback or points you may get from your credit card! The extension makes it easy to check for offers while shopping online.", link: "https://chromewebstore.google.com/detail/rakuten-get-cash-back-for/chhjbpecpncaggjpdakmflnfcopglcmi?hl=en", image: "https://logowik.com/content/uploads/images/rakuten7982.jpg"},
-  { name: "JavaScript Code", description: "This extension is a must-have for any JavaScript developer. It provides a quick way to search for JavaScript code snippets and solutions to common problems.", link: "https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets", image: "https://xabikos.gallerycdn.vsassets.io/extensions/xabikos/javascriptsnippets/1.8.0/1587489699375/Microsoft.VisualStudio.Services.Icons.Default"},
-]
+];
 
 const Extension = () => {
   return (

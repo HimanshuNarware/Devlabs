@@ -74,6 +74,11 @@ const extensions = [
     image: "https://i.pcmag.com/imagery/reviews/00DGg3V9SuURGDLUoe7QmD6-23.fit_lim.size_1050x591.v1605289134.png",
     developer: "ProofHub",
   },
+  { title: "JavaScript Code", 
+    category: "Development",
+    description: "This extension is a must-have for any JavaScript developer. It provides a quick way to search for JavaScript code snippets and solutions to common problems.", 
+    version: "1.8.0",
+    image: "https://xabikos.gallerycdn.vsassets.io/extensions/xabikos/javascriptsnippets/1.8.0/1587489699375/Microsoft.VisualStudio.Services.Icons.Default"},
 ];
 
 const Extensions = () => (
