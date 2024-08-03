@@ -1400,6 +1400,13 @@
     "description": "Internet's icon library and toolkit, used by millions of designers, developers, and content creators"
   },
   {
+    "productName": "Epic games",
+    "category": "tools",
+    "image": "https://cdn2.unrealengine.com/Epic+Games+Node%2Fxlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca4.jpg",
+    "link": "https://store.epicgames.com/en-US/",
+    "description": "Gaming"
+  },
+  {
     "productName": "ChatGPT Writer",
     "category": "tools",
     "image": "https://store-images.s-microsoft.com/image/apps.41733.286a6164-6562-4a8e-a779-a449ad869ff8.5450d70f-7fdf-4ee6-8f65-e47c77aff6f3.f601c8ff-e835-4f1c-b202-88235a8fd6ca",
@@ -1517,6 +1524,13 @@
     "image": "https://shorturl.at/uxGQ3",
     "link": "https://shorturl.at/AILW3",
     "description": "Remove noise from voice recordings with speech enhancement"
+  },
+  {
+    "productName": "BOTB",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/81/BOTB_Official_Logo.jpg",
+    "link": "https://www.botb.com/",
+    "description": "BOTB (Best Of The Best Plc)"
   },
   {
     "productName": "Angel.co",
