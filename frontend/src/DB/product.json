@@ -5790,6 +5790,12 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
-  } 
-
+  }, 
+  {
+    "productName": "Eden AI",
+    "category": "AI",
+    "image": "https://github.com/user-attachments/assets/346f645b-78b4-428a-8c40-d5aab174a397",
+    "link": "https://www.edenai.co/post/best-generative-ai-apis",
+    "description": "Eden AI is a platform that allows you to create your own generative AI tools."
+  }
 ]
