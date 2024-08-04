@@ -5791,5 +5791,12 @@
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
   } 
+  {
+    "productName": "Price History",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/8xnSpp-PRFPRpUMWLyvvzXnGEV1z4ySK7vWpw4yEgLUDZxF_JiMylYK9uOSJ1OEHRDdXlAnu6LtcItdzDu2ACUR7=s60",
+    "link": "https://chromewebstore.google.com/detail/price-history-amazon-pric/agccifdcgciljchfofenkoboeehkmjkl?hl=en",
+    "description": "Price History for Amazon & Flipkart. Amazon Price Tracker. Flipkart Price Tracker. Track Amazon & Flipkart prices, view Price charts."
+  } 
 
 ]
