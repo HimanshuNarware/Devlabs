@@ -13,6 +13,7 @@ import Tilt from "react-parallax-tilt";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import debounce from "lodash.debounce";
+import Testimonials from '../pages/Testimonials';
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -22,7 +23,6 @@ function Home(props) {
     localStorage.getItem("filter") || ""
   );
   const ref = useRef(null);
-
   useEffect(() => {
     if (props.searchQuery !== "") {
       ref.current?.scrollIntoView({
@@ -505,6 +505,7 @@ function Home(props) {
             </ul>
           </div>
         </div>
+        <Testimonials/>
       </div>
     </SkeletonTheme>
   );
