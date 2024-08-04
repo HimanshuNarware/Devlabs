@@ -8,7 +8,6 @@ export default function Signup() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-
     try {
       const response = await fetch('http://localhost:8000/users/signup', {
         method: 'POST',

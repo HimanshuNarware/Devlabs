@@ -28,6 +28,13 @@
     "description": "Initializr generates spring boot project with just what you need to start quickly!"
   },
   {
+    "productName":"JSBin",
+    "category":"Web Development Platform",
+    "image":"https://shorturl.at/kblvi",
+    "link":"https://jsbin.com/",
+    "description":"JS Bin is a webapp specifically designed to help JavaScript and CSS folk test snippets of code, within some context, and debug the code collaboratively."
+  },
+  {
     "productName": "Studocu",
     "category": "tools",
     "image": "https://cdn6.aptoide.com/imgs/8/e/4/8e44fd32cbc8670457828df938dee546_fgraphic.png",
@@ -124,6 +131,13 @@
     "image": "https://th.bing.com/th/id/OIP.IlF7myH15vT-30PQ2t2ETwAAAA?rs=1&pid=ImgDetMain",
     "link": "https://www.synthesia.io/",
     "description": "Synthesia AI is an AI system that enables individuals to create professional-quality video content without needing cameras, microphones, or studios."
+  },
+  {
+    "productName": "Pomodoro Timer",
+    "category": "tools",
+    "image": "https://www.pngfind.com/pngs/m/72-724484_the-pomodoro-technique-developed-by-francesco-cirillo-smiley.png",
+    "link": "https://pomofocus.io/",
+    "description": "Help you manage your time and let you focus on any tasks such as study,etc."
   },
   {
     "productName": "IEEE",
@@ -257,6 +271,13 @@
     "image": "https://shorturl.at/dxObb",
     "link": "https://www.primevideo.com/",
     "description": "Amazon Prime video is an movie streaming platform to view multiple videos  in offline as well as online."
+  },
+  {
+    "productName": "APKMirror",
+    "category": "tools",
+    "image": "https://www.moosoft.com/wp-content/uploads/2023/06/ApkMirror-98765.png",
+    "link": "https://www.apkmirror.com/",
+    "description": "Free and safe Android APK downloads."
   },
   {
     "productName": "Goose AI",
@@ -432,6 +453,13 @@
     "image": "https://e7.pngegg.com/pngimages/19/490/png-clipart-crom%C4%81-tata-group-croma-logix-city-centre-noida-croma-vikrampuri-kharkhana-hyderabad-croma-jayanagar-bengaluru-sunrisers-hyderabad-text-retail.png",
     "link": "https://www.croma.com/",
     "description": "Destination for online shopping in India. "
+  },
+  {
+    "productName": "Live Aquaria",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvthVlPJYOebKHXsLp5pVuAVmuSTHD6X6e2w&s",
+    "link": "https://www.liveaquaria.com/",
+    "description": "Offers aquarium hobbyists the best shopping experience possible"
   },
   {
     "productName": "Katalon",
@@ -753,6 +781,13 @@
     "description": "Web-based DevOps platform.Helps to manage the software development lifecycle. "
   },
   {
+    "productName": "Ubuy India",
+    "category": "tools",
+    "image": "https://i.pinimg.com/originals/97/58/0d/97580d84469cf69e5c6e4c3d1e9ee8fd.png",
+    "link": "https://www.ubuy.co.in/",
+    "description": "Shop for electronics, apparel, mobile phones, beauty products & more online from the overseas market at low prices in India"
+  },
+  {
     "productName": "Coded Pen",
     "category": "web",
     "image": "https://shorturl.at/rs6g0",
@@ -857,6 +892,13 @@
     "image": "https://rb.gy/vknfx0",
     "link": "https://unsplash.com/",
     "description": "Source for free stack visuals"
+  },
+  {
+    "productName": "Open Food Facts",
+    "category": "tools",
+    "image": "https://static.openfoodfacts.org/images/logos/off-logo-vertical-light.svg",
+    "link": "https://world.openfoodfacts.org/",
+    "description": "Food products database made by everyone, for everyone."
   },
   {
     "productName": "PikaShows",
@@ -1356,6 +1398,14 @@
     "image": "https://tinyurl.com/bdeapp7t",
     "link": "https://www.fontspace.com/",
     "description": "Free downloads of legally licensed fonts that are perfect for your design projects."
+  },
+  {
+
+    "productName": "Student AI",
+    "category": "tools",
+    "image": "https://studentai.app/wp-content/uploads/2023/05/S-letter-geometric-Logo-design-Linear.-.png",
+    "link": "https://studentai.app/",
+    "description": "Every essay becomes a masterpiece, citations align like stars, and even the trickiest math problems bow down."
   },
   {
     "productName": "CLX Gaming",
@@ -1902,6 +1952,13 @@
     "image": "https://bit.ly/3Y3S0Pz",
     "link": "https://m0chan.github.io/",
     "description": "Cybersecurity blog and resource hub."
+  },
+  {
+    "productName": "UpToDown",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Uptodown-new-logo-2019.jpg",
+    "link": "https://en.uptodown.com/",
+    "description": "Multi-platform app store specialized in Android."
   },
   {
     "productName": "Hacker101",
@@ -4710,6 +4767,13 @@
     "description": "An annual Open-Source Program by JGEC that immerses students in Open Source contributions."
   },
   {
+    "productName": "MLH Fellowship",
+    "category": "tools",
+    "image": "https://shorturl.at/m6vh5",
+    "link": "https://fellowship.mlh.io/",
+    "description": "A 12-week remote internship with a stipend, collaborating on open source projects with top engineers."
+  },
+  {
     "productName": "Binged",
     "category": "Entertainment",
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Binge_logo.png",
@@ -5599,6 +5663,27 @@
   "image": "https://www.glassdoor.com/employers/app/uploads/sites/2/2017/04/new-glassdoor-icon-1.jpg",
   "link": "https://www.glassdoor.com/",
   "description": "A platform where employees and former employees anonymously review companies. It also provides job listings, including remote job opportunities."
+},
+{
+  "productName": "Git",
+  "category": "tools",
+  "image": "https://git-scm.com/images/logos/logomark-orange@2x.png",
+  "link": "https://git-scm.com/",
+  "description": "A distributed version control system that allows developers to track changes in source code during software development."
+} ,
+{
+  "productName": "OpenLearn",
+  "category": "course",
+  "image": "https://github.com/user-attachments/assets/1c6e15c1-911c-4ecf-986b-66b328ce4da4",
+  "link": "https://www.open.edu/openlearn/",
+  "description": "The Open University’s platform offers free courses across various disciplines, with interactive content and quizzes to reinforce learning."
+} , 
+{
+  "productName": "Balsamiq",
+  "category": "Ui",
+  "image": "https://github.com/user-attachments/assets/a6e8be21-6ab4-45d4-be8c-ae37298cf528",
+  "link": "https://balsamiq.com/",
+  "description": "A low-fidelity wireframing tool with a free trial, great for quick mockups."
 } ,
 {
 "productName": "Yesmovies",
@@ -5713,4 +5798,5 @@
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
   } 
+
 ]

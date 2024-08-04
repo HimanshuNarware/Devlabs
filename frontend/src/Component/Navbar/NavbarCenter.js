@@ -49,7 +49,7 @@ function NavbarCenter( ) {
               <div className="bookmarkTag">
                 <FontAwesomeIcon icon={faBookmark} /> Bookmark <span className="totBook">{totalBookmarks}</span>
               </div>
-            }
+            }  
             to="/bookmark"
           />
         </li>
@@ -125,5 +125,4 @@ function NavbarCenter( ) {
     </nav>
   );
 }
-
 export default NavbarCenter;

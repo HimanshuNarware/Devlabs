@@ -24,7 +24,6 @@
     display: block;
     opacity: 1;
 }
-
 .back-to-top-button:not(.visible) {
     opacity: 0;
     transform: translateY(20px);
