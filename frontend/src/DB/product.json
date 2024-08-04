@@ -5791,5 +5791,12 @@
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
   } 
+  {
+    "productName": "Pinterest",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "link": "https://www.pinterest.com/",
+    "description": "Understand the trends your audience is searching. Discover trends based on interests, demographics, season and more using Pinterest Trends"
+  } 
 
 ]
