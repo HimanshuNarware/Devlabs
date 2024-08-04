@@ -20,7 +20,14 @@
     "link": "https://cohere.com/",
     "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
   },
-   {
+  {
+    "productName": "Framer Tool",
+    "category": "tools" ,
+    "image": "https://www.svgrepo.com/download/364527/framer-logo-fill.svg",
+    "link": "https://www.framer.com/",
+    "description": "Frame is a design and prototyping tool that allows you to create interactive products. With Framer, you can design anything from websites, to apps, to UI kits."
+  },
+  {
     "productName": "Spring Initializr",
     "category": "tools" ,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9i0HBomVepR6AMsmIrZAuU1MOBwWiEtAtA&s",
