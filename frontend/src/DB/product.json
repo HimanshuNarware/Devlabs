@@ -182,6 +182,13 @@
     "description": "Sketch provides all the tools to help you create — from early wireframes, to flexible design systems. Powerful vector editing. An infinite Canvas. Intuitive, life-like prototyping and more."
   },
   {
+    "productName": "MND Web Docs",
+    "category": "tools",
+    "image": "https://th.bing.com/th?id=OIP.c21HAYd7cMVsP9PcXAhUVQAAAA&w=197&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    "link": "https://developer.mozilla.org/en-US/",
+    "description": "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites."
+  },
+  {
     "productName": "Descript AI",
     "category": "tools",
     "image": "https://canny.io/images/d294641777b8d0b68b57a4a57e4453e1.png",
