@@ -21,5 +21,4 @@ function Navbar(props) {
     </header>
   );
 }
-
 export default Navbar;
