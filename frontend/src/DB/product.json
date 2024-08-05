@@ -1,5 +1,12 @@
 [
   {
+    "productName": "DevZero",
+    "category": "Useful Tools",
+    "image": "https://devzero.com/assets/img/logo.png",
+    "link": "https://devzero.com/",
+    "description": "Providing developers with customizable yet standardized workspaces so they can code and iterate in a collaborative, production-symmetric environment."
+},
+  {
     "productName": "Starknet",
     "category": "Web",
     "image": "https://www.starknet.io/wp-content/themes/Starknet/assets/img/starknet-logo.svg",
