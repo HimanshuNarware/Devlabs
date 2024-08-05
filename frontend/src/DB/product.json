@@ -5,7 +5,22 @@
     "image": "https://www.starknet.io/wp-content/themes/Starknet/assets/img/starknet-logo.svg",
     "link": "https://www.starknet.io/",
     "description": "Starknet is a Validity Rollup that provides unlimited scale while retaining Ethereum’s security and decentralization."
+  },  
+  {
+    "productName": "Visual Studio Code",
+    "category": "coding",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuER1tOoBap4qZ8V7OUsbf-quqFfEjj3Jnzg&s",
+    "link": "https://code.visualstudio.com/",
+    "description": "Visual Studio Code is a free, open-source code editor from Microsoft that provides developers with powerful tools and a flexible workspace for a variety of programming languages."
+},
+  {
+    "productName": "HBO Max",
+    "category": "Movies",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi0AtsHyV6u8jWeYo38SP6MAysGpcHxQoyAw&s",
+    "link": "https://www.hbomax.com/",
+    "description": "HBO Max is a premium streaming service that offers a vast library of movies, TV shows, and exclusive content, including HBO originals and WarnerMedia content."
   },
+  
   {
     "productName": "PhpStorm",
     "category": "tools",
@@ -20,12 +35,26 @@
     "link": "https://cohere.com/",
     "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
   },
-   {
+  {
+    "productName": "Framer Tool",
+    "category": "tools" ,
+    "image": "https://www.svgrepo.com/download/364527/framer-logo-fill.svg",
+    "link": "https://www.framer.com/",
+    "description": "Frame is a design and prototyping tool that allows you to create interactive products. With Framer, you can design anything from websites, to apps, to UI kits."
+  },
+  {
     "productName": "Spring Initializr",
     "category": "tools" ,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9i0HBomVepR6AMsmIrZAuU1MOBwWiEtAtA&s",
     "link": "https://start.spring.io/",
     "description": "Initializr generates spring boot project with just what you need to start quickly!"
+  },
+  {
+    "productName": "Sound Cloud",
+    "category": "tools" ,
+    "image": "data:image/jpeg;base64,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",
+    "link": "https://soundcloud.com/soundcloud",
+    "description": "SoundCloud helps you to discover followers on SoundCloud | Stream tracks, albums, playlists on desktop and mobile."
   },
   {
     "productName":"JSBin",
@@ -56,6 +85,13 @@
     "description": "It is an video streaming platform where user can see multiple language Videos."
   },
   {
+    "productName": "pypl",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.cdm4CuIfyxdE85zt7-sVEwHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://pypi.org/",
+    "description": "The Python Package Index (PyPI) is a repository of software for the Python programming language."
+  },
+  {
     "productName": "10web",
     "category": "tools",
     "image": "https://images.saasworthy.com/web_2980_logo_1587552638_vsudb.jpg",
@@ -70,6 +106,13 @@
     "description": "LogoAI is a AI powered logo generator, which creates logos with creative and profressional design."
   },
   {
+    "productName": "Eclipse",
+    "category": "IDEs",
+    "image": "https://addonwebsolutions.com/wp-content/uploads/2018/11/eclipse.png",
+    "link": "https://www.eclipse.org/",
+    "description": "Versatile open-source IDE supporting multiple languages with robust plugin ecosystem."
+  },
+  {
     "productName": "Disney Plus",
     "category": "Entertainment",
     "image": "https://shorturl.at/GHg6D",
@@ -82,6 +125,13 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbardxOJox-lSC4XHAGcFvfz8GQO26osFcOA&s",
     "link": "https://www.birme.net/",
     "description": "BIRME is a flexible and easy to use bulk image resizer. It can resize your images to any specific dimension and crop them proportionately if necessary."
+  },
+  {
+    "productName": "Pixcet",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.ORl_waniJ_uFJxMkYmZleAAAAA?w=158&h=158&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "link": "https://www.pixect.com/",
+    "description": "Pixect lets you take photos and record videos with webcam and apply effects and filters. You can also edit, crop, flip and rotate photos online, or create photo collages."
   },
   {
     "productName": "Algoprep",
@@ -117,6 +167,13 @@
     "image": "https://th.bing.com/th/id/OIP.eLzdzhAyNEyhvHu571rxrAAAAA?rs=1&pid=ImgDetMain",
     "link": "https://lovo.ai/",
     "description": "This AI Lovo lets you generate advanced AI voices for any use case."
+  },
+  {
+    "productName": "Banuba",
+    "category": "tools",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/b1c21f46184903.584a9918ee7ee.jpg",
+    "link": "https://www.banuba.com/",
+    "description": "Banuba is the world leader in Face AR. Cross-platform support. Quick and Easy Integration. Choose from AR features, video editing, virtual try-on."
   },
   {
     "productName": "Synthesia",
@@ -5790,6 +5847,31 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
-  } 
+  },
+  {
+    "productName": "Price History",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/8xnSpp-PRFPRpUMWLyvvzXnGEV1z4ySK7vWpw4yEgLUDZxF_JiMylYK9uOSJ1OEHRDdXlAnu6LtcItdzDu2ACUR7=s60",
+    "link": "https://chromewebstore.google.com/detail/price-history-amazon-pric/agccifdcgciljchfofenkoboeehkmjkl?hl=en",
+    "description": "Price History for Amazon & Flipkart. Amazon Price Tracker. Flipkart Price Tracker. Track Amazon & Flipkart prices, view Price charts."
 
+
+  },
+  {
+    "productName": "Page Brightness Adjust",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/kara_vAm53UbcMrXPkaBX2_gMk1aSYIul0P9lNcZJxNc4j21lgwFrZ3jZTHj8Gz27iYdkmOlsTesy0A1Qz9c0HVj=s60",
+    "link": "https://chromewebstore.google.com/detail/adjust-page-brightness/bcjiagkgnilmcngacjlfhmpdmbhbjcah",
+    "description": "This extension reduces or increases the screen brightness level for both daytime and nighttime periods based on user-defined values. It helps the websites that do not support the native dark theme. Also, it can increase the brightness of websites that are too dark"
+
+
+
+  }, 
+  {
+    "productName": "Eden AI",
+    "category": "AI",
+    "image": "https://github.com/user-attachments/assets/346f645b-78b4-428a-8c40-d5aab174a397",
+    "link": "https://www.edenai.co/post/best-generative-ai-apis",
+    "description": "Eden AI is a platform that allows you to create your own generative AI tools."
+  }
 ]
