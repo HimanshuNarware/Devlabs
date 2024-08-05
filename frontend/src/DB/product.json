@@ -56,6 +56,13 @@
     "description": "It is an video streaming platform where user can see multiple language Videos."
   },
   {
+    "productName": "pypl",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.cdm4CuIfyxdE85zt7-sVEwHaHa?rs=1&pid=ImgDetMain",
+    "link": "https://pypi.org/",
+    "description": "The Python Package Index (PyPI) is a repository of software for the Python programming language."
+  },
+  {
     "productName": "10web",
     "category": "tools",
     "image": "https://images.saasworthy.com/web_2980_logo_1587552638_vsudb.jpg",
