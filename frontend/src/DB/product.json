@@ -5790,6 +5790,17 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
+
+  },
+  {
+    "productName": "Page Brightness Adjust",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/kara_vAm53UbcMrXPkaBX2_gMk1aSYIul0P9lNcZJxNc4j21lgwFrZ3jZTHj8Gz27iYdkmOlsTesy0A1Qz9c0HVj=s60",
+    "link": "https://chromewebstore.google.com/detail/adjust-page-brightness/bcjiagkgnilmcngacjlfhmpdmbhbjcah",
+    "description": "This extension reduces or increases the screen brightness level for both daytime and nighttime periods based on user-defined values. It helps the websites that do not support the native dark theme. Also, it can increase the brightness of websites that are too dark"
+
+
+
   }, 
   {
     "productName": "Eden AI",
