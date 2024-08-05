@@ -5797,6 +5797,24 @@
     "image": "https://lh3.googleusercontent.com/8xnSpp-PRFPRpUMWLyvvzXnGEV1z4ySK7vWpw4yEgLUDZxF_JiMylYK9uOSJ1OEHRDdXlAnu6LtcItdzDu2ACUR7=s60",
     "link": "https://chromewebstore.google.com/detail/price-history-amazon-pric/agccifdcgciljchfofenkoboeehkmjkl?hl=en",
     "description": "Price History for Amazon & Flipkart. Amazon Price Tracker. Flipkart Price Tracker. Track Amazon & Flipkart prices, view Price charts."
-  } 
 
+
+  },
+  {
+    "productName": "Page Brightness Adjust",
+    "category": "extensions",
+    "image": "https://lh3.googleusercontent.com/kara_vAm53UbcMrXPkaBX2_gMk1aSYIul0P9lNcZJxNc4j21lgwFrZ3jZTHj8Gz27iYdkmOlsTesy0A1Qz9c0HVj=s60",
+    "link": "https://chromewebstore.google.com/detail/adjust-page-brightness/bcjiagkgnilmcngacjlfhmpdmbhbjcah",
+    "description": "This extension reduces or increases the screen brightness level for both daytime and nighttime periods based on user-defined values. It helps the websites that do not support the native dark theme. Also, it can increase the brightness of websites that are too dark"
+
+
+
+  }, 
+  {
+    "productName": "Eden AI",
+    "category": "AI",
+    "image": "https://github.com/user-attachments/assets/346f645b-78b4-428a-8c40-d5aab174a397",
+    "link": "https://www.edenai.co/post/best-generative-ai-apis",
+    "description": "Eden AI is a platform that allows you to create your own generative AI tools."
+  }
 ]
