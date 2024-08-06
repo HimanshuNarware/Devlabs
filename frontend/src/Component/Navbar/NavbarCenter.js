@@ -25,6 +25,7 @@ function NavbarCenter( ) {
   const handleRateUsClick = () => {
     setIsModalOpen(true);
   };
+
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
@@ -48,7 +49,8 @@ function NavbarCenter( ) {
               <div className="bookmarkTag">
                 <FontAwesomeIcon icon={faBookmark} /> Bookmark <span className="totBook">{totalBookmarks}</span>
               </div>
-            }  
+            } 
+            
             to="/bookmark"
           />
         </li>
