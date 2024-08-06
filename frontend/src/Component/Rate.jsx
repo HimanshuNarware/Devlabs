@@ -4,7 +4,6 @@ import "./Rate.css"
 const Rate = () => {
   const [rating, setRating] = useState(null);
   const [hover, setHover] = useState(null);
-
   return (
     <div className='Rate'>
       {[...Array(5)].map((star, index) => {
