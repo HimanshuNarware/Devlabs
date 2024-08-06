@@ -5964,5 +5964,50 @@
     "image": "https://github.com/user-attachments/assets/346f645b-78b4-428a-8c40-d5aab174a397",
     "link": "https://www.edenai.co/post/best-generative-ai-apis",
     "description": "Eden AI is a platform that allows you to create your own generative AI tools."
+  },
+  {
+    "productName": "SkillShare",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5n97aejY-xIgPDF8HSTvJrcy_OLTocTInQnLH0-8haNuV-QyN",
+    "link": "https://www.skillshare.com/en/",
+    "description": "Focuses on creative and professional skills with a project-based approach."
+  },
+  {
+    "productName": "MasterClass",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTsNkUZY96QX0rN7y25ZKYoe98DhUs8h0cDkuhrpCiXmukfBcAO",
+    "link": "https://www.masterclass.com/",
+    "description": "Courses from world-renowned experts across various fields, including arts, cooking, sports, and more."
+  },
+  {
+    "productName": "Ed2go",
+    "category": "course",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdu3k_w182gfgHFHUdkEjmFfLdhoBKOnOpE1Z1_bfGLcUB6yMN",
+    "link": "https://www.ed2go.com/about-us",
+    "description": "Online courses for professional development and career training."
+  },
+  {
+    "productName": "CreativeLive",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTTN9nibKkVRwT52aLIuclahndw3616_nkI5rhSyDmecQbxQJ1",
+    "link": "https://www.creativelive.com/",
+    "description": "Live and on-demand courses in photography, art, design, music, and more."
+  },
+  {
+    "productName": "TreeHouse",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRioAv3OLegd1pjaW51rvkidAWtKzPvJQUXkCtbE66gwbj2FDXu",
+    "link": "https://teamtreehouse.com/",
+    "description": "Online coding courses and tracks for beginners."
+  },
+  {
+    "productName": "Alison",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
+    "link": "https://alison.com/",
+    "description": "Free courses in various fields including IT, business, health, and languages."
   }
+  
+
+
 ]
