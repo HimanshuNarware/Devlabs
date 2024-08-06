@@ -6041,5 +6041,12 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
     "link": "https://alison.com/",
     "description": "Free courses in various fields including IT, business, health, and languages."
+  },
+  {
+    "productName": "Lunacy",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/96ea136c-d77d-4de8-b74d-8ce181a6bd98",
+    "link": "https://icons8.com/lunacy",
+    "description": "A f-ree design software with built-in assets and features, similar to Sketch but available for Windows."
   }
 ]
