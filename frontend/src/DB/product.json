@@ -6041,5 +6041,12 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
     "link": "https://alison.com/",
     "description": "Free courses in various fields including IT, business, health, and languages."
+  },
+  {
+    "productName": "Snakify",
+    "category": "course",
+    "image": "https://www.beens.org/wp-content/uploads/2016/12/Snakify-e1481686934140.png",
+    "link": "https://snakify.org/en/",
+    "description": "Interactive tutorials and practice problems on python."
   }
 ]
