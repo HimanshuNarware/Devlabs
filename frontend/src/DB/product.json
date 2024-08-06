@@ -6041,5 +6041,11 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
     "link": "https://alison.com/",
     "description": "Free courses in various fields including IT, business, health, and languages."
+  },
+   "productName": "Devhints",
+    "category": "tools",
+    "image": "https://shorturl.at/Nyb6c",
+    "link": "https://devhints.io/",
+    "description": "A collection of quick reference cheat sheets for a variety of programming languages and tools."
   }
 ]
