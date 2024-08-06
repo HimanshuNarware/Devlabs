@@ -14,6 +14,13 @@
     "description": "Providing developers with customizable yet standardized workspaces so they can code and iterate in a collaborative, production-symmetric environment."
 },
   {
+  "productName": "Invision",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/98765/invision-logo.svg",
+  "link": "https://www.invisionapp.com/",
+  "description": "Invision is a digital product design platform that helps teams collaborate and prototype designs efficiently."
+},
+  {
     "productName": "Starknet",
     "category": "web",
     "image": "https://www.starknet.io/wp-content/themes/Starknet/assets/img/starknet-logo.svg",
@@ -28,11 +35,25 @@
     "description": "Ghostery is a powerful browser extension that enhances your privacy by blocking trackers and providing detailed insights into who is collecting your data. It's available for multiple browsers and helps speed up page loading times while ensuring a more private browsing experience."
 },
   {
+  "productName": "Call Of Duty",
+  "category": "games",
+  "image": "https://www.svgrepo.com/download/67890/call-of-duty-logo.svg",
+  "link": "https://www.callofduty.com/",
+  "description": "Call of Duty is a first-person shooter video game franchise that focuses on realism and cinematic experiences."
+},
+  {
     "productName": "Visual Studio Code",
     "category": "coding",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuER1tOoBap4qZ8V7OUsbf-quqFfEjj3Jnzg&s",
     "link": "https://code.visualstudio.com/",
     "description": "Visual Studio Code is a free, open-source code editor from Microsoft that provides developers with powerful tools and a flexible workspace for a variety of programming languages."
+},
+  {
+    "productName": "GitLab",
+    "category": "tools",
+    "image": "https://rb.gy/5vmahj",
+    "link": "https://about.gitlab.com/",
+    "description": "GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager with features for CI/CD, issue tracking, and more, enabling teams to collaborate on code development and deployment efficiently."
 },
   {
     "productName": "HBO Max",
@@ -49,6 +70,13 @@
     "link": "https://www.edclub.com/",
     "description": "edclub is a web-based and fully customizable educational platform. Students can learn in class, at home, or wherever an internet connection can be found. Students are already familiar with the layout of the program because the design is very similar to popular games. Each lesson provides instant, meaningful feedback that encourages students to continue practicing. "
   },
+  {
+  "productName": "Gutenberg",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/12345/gutenberg-logo.svg",
+  "link": "https://www.gutenberg.org/",
+  "description": "Gutenberg is an open-source publishing platform that allows you to create and manage content easily."
+},
   {
     "productName": "StayFocusd",
     "category": "Extensions",
@@ -5938,6 +5966,13 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
+  } ,
+  {
+    "productName": "Indeed",
+    "category": "resume",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTGmyaRb5PXoY3WAxU1vgHJP102eKqIyzDz0-9J04vBZO5DZLam",
+    "link": "https://www.indeed.com/create-resume/",
+    "description": "Free resume builder with templates and customization options."
   },
   {
     "productName": "Price History",
@@ -5971,5 +6006,47 @@
     "image": "https://github.com/user-attachments/assets/49058348-4dd1-478f-8197-606de13e5a07",
     "link": "https://ui.aceternity.com/",
     "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
+  },
+  {
+    "productName": "SkillShare",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5n97aejY-xIgPDF8HSTvJrcy_OLTocTInQnLH0-8haNuV-QyN",
+    "link": "https://www.skillshare.com/en/",
+    "description": "Focuses on creative and professional skills with a project-based approach."
+  },
+  {
+    "productName": "MasterClass",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTsNkUZY96QX0rN7y25ZKYoe98DhUs8h0cDkuhrpCiXmukfBcAO",
+    "link": "https://www.masterclass.com/",
+    "description": "Courses from world-renowned experts across various fields, including arts, cooking, sports, and more."
+  },
+  {
+    "productName": "Ed2go",
+    "category": "course",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdu3k_w182gfgHFHUdkEjmFfLdhoBKOnOpE1Z1_bfGLcUB6yMN",
+    "link": "https://www.ed2go.com/about-us",
+    "description": "Online courses for professional development and career training."
+  },
+  {
+    "productName": "CreativeLive",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTTN9nibKkVRwT52aLIuclahndw3616_nkI5rhSyDmecQbxQJ1",
+    "link": "https://www.creativelive.com/",
+    "description": "Live and on-demand courses in photography, art, design, music, and more."
+  },
+  {
+    "productName": "TreeHouse",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRioAv3OLegd1pjaW51rvkidAWtKzPvJQUXkCtbE66gwbj2FDXu",
+    "link": "https://teamtreehouse.com/",
+    "description": "Online coding courses and tracks for beginners."
+  },
+  {
+    "productName": "Alison",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
+    "link": "https://alison.com/",
+    "description": "Free courses in various fields including IT, business, health, and languages."
   }
 ]
