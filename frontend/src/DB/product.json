@@ -5964,5 +5964,12 @@
     "image": "https://github.com/user-attachments/assets/346f645b-78b4-428a-8c40-d5aab174a397",
     "link": "https://www.edenai.co/post/best-generative-ai-apis",
     "description": "Eden AI is a platform that allows you to create your own generative AI tools."
+  },
+  {
+    "productName": "Aceternity UI",
+    "category": "UI library",
+    "image": "https://github.com/user-attachments/assets/49058348-4dd1-478f-8197-606de13e5a07",
+    "link": "https://ui.aceternity.com/",
+    "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
   }
 ]
