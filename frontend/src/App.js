@@ -18,7 +18,7 @@ import Darkmode from "darkmode-js"; // Import the Darkmode library
 const About = lazy(() => import("./Component/About"));
 const Rateus = lazy(() => import("./Component/Rateus"));
 const Home = lazy(() => import("./Component/Home"));
-const NotFound = lazy(() => import("./Component/NotFound"));
+// const NotFound = lazy(() => import("./Component/NotFound"));
 const OpenSource = lazy(() => import("./Component/OpenSource"));
 const Review = lazy(() => import("./Component/Review"));
 const BookMark = lazy(() => import("./Component/BookMark"));

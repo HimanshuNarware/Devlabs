@@ -234,3 +234,22 @@
 .profile__submit-btn:hover {
   background-color: #2b6b2f;
 }
+.auth__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #673AB7; /* Purple background */
+  color: black; /* Black text for content within the container */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 2px solid #673AB7;
+  backdrop-filter: blur(5px); /* Add blur effect */
+}
+
+@media (max-width: 600px) {
+  .TrailingCursor_cursor-container__iOCry{
+    display: none;
+  }
+  
+}
