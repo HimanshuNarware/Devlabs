@@ -36,6 +36,13 @@
   },
   
   {
+    "productName": "edclub",
+    "category": "education",
+    "image": "https://static.typingclub.com/m/website/logo.png",
+    "link": "https://www.edclub.com/",
+    "description": "edclub is a web-based and fully customizable educational platform. Students can learn in class, at home, or wherever an internet connection can be found. Students are already familiar with the layout of the program because the design is very similar to popular games. Each lesson provides instant, meaningful feedback that encourages students to continue practicing. "
+  },
+  {
     "productName": "PhpStorm",
     "category": "tools",
     "image": "https://www.quanta.org/free-phpstorm-licence/phpstorm-logo.png",
