@@ -20,7 +20,14 @@
     "link": "https://cohere.com/",
     "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
   },
-   {
+  {
+    "productName": "Quick, draw",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.u1-wmByIY4zCPM8UBJrJ9wHaFj?w=239&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "link": "https://quickdraw.withgoogle.com/",
+    "description": "This is a game built with machine learning. You draw, and a neural network tries to guess what you’re drawing. Of course, it doesn’t always work. But the more you play with it, the more it works."
+  },
+  {
     "productName": "Spring Initializr",
     "category": "tools" ,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9i0HBomVepR6AMsmIrZAuU1MOBwWiEtAtA&s",
