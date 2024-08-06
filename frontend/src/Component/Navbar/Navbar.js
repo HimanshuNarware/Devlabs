@@ -6,13 +6,15 @@ import NavbarCenter from "./NavbarCenter";
 import Progress from "./Progress";
 function Navbar(props) {
   const [showSideNav, setShowSideNav] = useState(false);
-  
+
   return (
     <header>
       <div className="navbar w-100">
         <Progress />
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
-        <NavbarCenter showSideNav={showSideNav} />     
+        <div style={{ marginLeft: "auto" }}>
+          <NavbarCenter showSideNav={showSideNav} />
+        </div>
         {/* Pass setSearchQuery directly 
         <NavbarRight setSearchQuery={props.setSearchQuery} />
         */}
