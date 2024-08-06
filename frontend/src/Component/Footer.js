@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../image/logo1.png";
 import "../style/Footer.css";
-
 import {
   FaGithubSquare,
   FaLinkedinIn,
@@ -28,6 +27,7 @@ import { BsYoutube, BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
+    
     <footer>
       <div className="Footer">
         <div className="container">

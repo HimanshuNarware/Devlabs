@@ -43,7 +43,6 @@ const RemoteJob = lazy(() => import("./pages/RemoteJob"));
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
-
   useEffect(() => {
     AOS.init();
   }, []);
