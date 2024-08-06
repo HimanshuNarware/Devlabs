@@ -23,7 +23,6 @@ function Home(props) {
     localStorage.getItem("filter") || ""
   );
   const ref = useRef(null);
-
   useEffect(() => {
     if (props.searchQuery !== "") {
       ref.current?.scrollIntoView({
@@ -31,7 +30,6 @@ function Home(props) {
       });
     }
   }, [props.searchQuery]);
-
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(jsonTools);
   const [currentPage, setCurrentPage] = useState(1);
@@ -46,15 +44,12 @@ function Home(props) {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   console.log(searchQuery);
-
   const currentPost1 = dataBaseData;
   let allvalue = [];
-
   const handleBookmarks = () => {
     const bookmark = JSON.parse(localStorage.getItem("bookmarks"));
     setBookmark(bookmark);
   };
-
   useEffect(() => {
     handleBookmarks();
   }, []);

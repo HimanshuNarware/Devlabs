@@ -5,7 +5,6 @@ import test2 from '../image/test2.png';
 import test3 from '../image/test3.png';
 import test4 from '../image/test4.png';
 import test5 from '../image/test5.png';
-
 const testimonials = [
   {
     name: 'B. Sharmila',

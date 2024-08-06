@@ -1,6 +1,5 @@
 import React from 'react';
 import '../style/EthicalHacking.css';
-
 const blogs = [
   {
     title: 'Introduction to Ethical Hacking',

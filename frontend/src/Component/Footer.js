@@ -26,7 +26,6 @@ import {
 } from "react-icons/ai";
 import { BsYoutube, BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
 import { Link } from "react-router-dom";
-
 function Footer() {
   const today = new Date();
   const year = today.getFullYear();
@@ -83,6 +82,7 @@ function Footer() {
                   <a href="https://www.devlabsstore.tech/profile">
                     <FaUser className="mr-2" /> My Profile
                   </a>
+                  
                 </li>
                 <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/open-source">
@@ -149,7 +149,6 @@ function Footer() {
           </div>
         </div>
       </div>
-
       <div className="Last-footer">
         <div className="container">
           <div className="row justify-content-center">

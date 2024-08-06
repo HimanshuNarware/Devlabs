@@ -10,6 +10,8 @@ function Profile() {
     website: ""
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+
+  // Le data from localStorage when the component mounts
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [showLogin, setShowLogin] = useState(true); // Toggle between login and signup
   const [formData, setFormData] = useState({
