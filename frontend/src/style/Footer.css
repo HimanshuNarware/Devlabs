@@ -4,6 +4,7 @@
   background: #6a43c3;
   color: white;
 }
+
 /* Social Icons Hover Effects */
 .outerD .icons {
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
@@ -90,6 +91,41 @@
   animation: pulse 0.5s infinite;
 }
 
+/* Footer Links Lighting Effect */
+ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+ul a::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  filter: blur(10px);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+ul a:hover {
+  color: #ffd700; /* Change link color on hover */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+ul a:hover::before {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .Footer {
@@ -173,14 +209,6 @@ ul {
 ul li {
   text-align: center;
   margin-bottom: 0.5rem; /* Adjust the space between list items */
-}
-
-ul a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.3rem;
-  display: flex;
-  align-items: center;
 }
 
 ul a .mr-2 {
