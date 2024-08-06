@@ -41,7 +41,7 @@
     "link": "https://www.hbomax.com/",
     "description": "HBO Max is a premium streaming service that offers a vast library of movies, TV shows, and exclusive content, including HBO originals and WarnerMedia content."
   },
-  
+
   {
     "productName": "edclub",
     "category": "education",
@@ -62,6 +62,13 @@
     "image": "https://www.quanta.org/free-phpstorm-licence/phpstorm-logo.png",
     "link": "https://www.jetbrains.com/phpstorm/",
     "description": "Powerful IDE for PHP development with intelligent coding assistance and deep code understanding."
+  },
+  {
+    "productName": "Xampp",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/XAMPP_Logo.png",
+    "link": "https://www.apachefriends.org/download.html",
+    "description": "XAMPP is an easy to install Apache distribution containing MariaDB, PHP, and Perl."
   },
   {
     "productName": "Cohere AI",
