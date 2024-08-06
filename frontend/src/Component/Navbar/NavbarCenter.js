@@ -90,6 +90,8 @@ function NavbarCenter() {
             }
             to="#"
           />
+         
+      
         </li>
         <li className="nav-item">
           <NavbarItem
@@ -99,6 +101,26 @@ function NavbarCenter() {
               </>
             }
             to="/contact"
+          />
+        </li>
+        <li className="nav-item">
+          <NavbarItem
+            description={
+              <>
+                <FontAwesomeIcon icon={faStar} /> Login
+              </>
+            }
+            to="/Login"
+          />
+        </li>
+        <li className="nav-item">
+          <NavbarItem
+            description={
+              <>
+                <FontAwesomeIcon icon={faStar} /> Register
+              </>
+            }
+            to="/Register"
           />
         </li>
       </ul>

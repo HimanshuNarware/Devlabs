@@ -30,7 +30,8 @@ import CodingPlatform from "./pages/CodingPlatform"; // Corrected import
 import CoursesPlatform from "./pages/CoursesPlatform";
 import Collaboration from "./pages/Collaboration";
 import TrailingCursor from "./Component/TrailingCursor/TrailingCursor";
-
+import Login from "./Component/Login";
+import Register from "./Component/Register";
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
   useEffect(() => {
@@ -60,6 +61,8 @@ function App() {
         <Route path="/coding-platform" element={<CodingPlatform />} />
         <Route path="/courses-platform" element={<CoursesPlatform />} />
         <Route path="/collaboration-tools" element={<Collaboration />} />
+        <Route path="/login" element={<Login />} /> {/* New Route */}
+        <Route path="/register" element={<Register />} /> {/* New Route */}
         {/* Define other routes as needed */}
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
