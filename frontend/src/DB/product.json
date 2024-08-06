@@ -6041,5 +6041,12 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
     "link": "https://alison.com/",
     "description": "Free courses in various fields including IT, business, health, and languages."
+  },
+  {
+    "productName": "Penpot",
+    "category": "Ui",
+    "image": "https://site-assets.plasmic.app/5a092f8c015ea24a9c0953e5ca065580.svg",
+    "link": "https://penpot.app/",
+    "description": "An open-source design and prototyping platform for cross-functional teams."
   }
 ]
