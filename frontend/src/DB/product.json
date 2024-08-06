@@ -57,6 +57,13 @@
     "description": "edclub is a web-based and fully customizable educational platform. Students can learn in class, at home, or wherever an internet connection can be found. Students are already familiar with the layout of the program because the design is very similar to popular games. Each lesson provides instant, meaningful feedback that encourages students to continue practicing. "
   },
   {
+  "productName": "Gutenberg",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/12345/gutenberg-logo.svg",
+  "link": "https://www.gutenberg.org/",
+  "description": "Gutenberg is an open-source publishing platform that allows you to create and manage content easily."
+},
+  {
     "productName": "StayFocusd",
     "category": "Extensions",
     "image": "https://shorturl.at/kctDc",
