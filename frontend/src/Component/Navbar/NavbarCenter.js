@@ -50,7 +50,6 @@ function NavbarCenter( ) {
                 <FontAwesomeIcon icon={faBookmark} /> Bookmark <span className="totBook">{totalBookmarks}</span>
               </div>
             } 
-            
             to="/bookmark"
           />
         </li>
