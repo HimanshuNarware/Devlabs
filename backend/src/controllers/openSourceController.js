@@ -10,13 +10,11 @@ const addProject = async (req, res) => {
             return res.status(400).json({ success: false, errors: ["All fields are required"] });
         }
 
-        const newProject = await OpenSource.create({
+        const newProject = new OpenSource({
             projectName, ownerUsername, tags, link, description
         });
 
-        if (!newProject) {
-            return res.status(401).json({ success: false, errors: ["Issue Adding the Tool"] });
-        }
+        await newProject.save();
 
         return res.status(201).json({ success: true, project: newProject });
     } catch (error) {
@@ -28,11 +26,13 @@ const addProject = async (req, res) => {
 const fetchAllProjects = async (req, res) => {
     try {
         const { page = 1, limit = 10 } = req.query;
+
         const openSourceProjects = await OpenSource.find()
             .skip((page - 1) * limit)
-            .limit(limit);
+            .limit(parseInt(limit));
 
         const totalProjects = await OpenSource.countDocuments();
+
         return res.status(200).json({
             success: true,
             openSourceProjects,
