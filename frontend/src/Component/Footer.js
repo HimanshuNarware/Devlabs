@@ -148,7 +148,6 @@ function Footer() {
           </div>
         </div>
       </div>
-
       <div className="Last-footer">
         <div className="container">
           <div className="row justify-content-center">

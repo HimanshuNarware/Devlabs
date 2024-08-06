@@ -17,7 +17,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaRobot, FaUserSecret, FaFilm, FaCogs, FaLaptopCode, FaTools, FaBook, FaUsers, FaTasks } from "react-icons/fa"; // Import relevant icons from react-icons
 import "../../style/Sidebar.css";
-
 function Sidebar({ showSideNav }) {
   const sidebarContent = [
     {

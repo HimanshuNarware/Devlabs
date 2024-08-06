@@ -12,8 +12,7 @@ function Navbar(props) {
       <div className="navbar w-100">
         <Progress />
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
-        <NavbarCenter showSideNav={showSideNav} />
-        
+        <NavbarCenter showSideNav={showSideNav} />     
         {/* Pass setSearchQuery directly 
         <NavbarRight setSearchQuery={props.setSearchQuery} />
         */}
@@ -22,5 +21,4 @@ function Navbar(props) {
     </header>
   );
 }
-
 export default Navbar;
