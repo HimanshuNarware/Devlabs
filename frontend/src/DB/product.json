@@ -35,6 +35,13 @@
     "description": "Visual Studio Code is a free, open-source code editor from Microsoft that provides developers with powerful tools and a flexible workspace for a variety of programming languages."
 },
   {
+    "productName": "GitLab",
+    "category": "tools",
+    "image": "https://rb.gy/5vmahj",
+    "link": "https://about.gitlab.com/",
+    "description": "GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager with features for CI/CD, issue tracking, and more, enabling teams to collaborate on code development and deployment efficiently."
+},
+  {
     "productName": "HBO Max",
     "category": "Movies",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi0AtsHyV6u8jWeYo38SP6MAysGpcHxQoyAw&s",
