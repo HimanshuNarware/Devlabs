@@ -10,7 +10,6 @@ import Darkmode from "darkmode-js";
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
 const options = {
   bottom: "unset",
   left: "15px",

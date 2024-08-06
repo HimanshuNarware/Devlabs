@@ -11,7 +11,6 @@ import { Bounce, ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import animationData from "../lottie/contact.json";
 import "../style/Contact.css";
-
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [isValid, setIsValid] = useState(true);
@@ -19,11 +18,9 @@ const Contact = () => {
   const handleEmailChange = (event) => {
     const { value } = event.target;
     setEmail(value);
-
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     setIsValid(emailRegex.test(value));
   };
-
   const handleSubmit = (event) => {
     event.preventDefault();
     if (isValid && email) {
