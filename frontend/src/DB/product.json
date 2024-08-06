@@ -28,6 +28,13 @@
     "description": "Ghostery is a powerful browser extension that enhances your privacy by blocking trackers and providing detailed insights into who is collecting your data. It's available for multiple browsers and helps speed up page loading times while ensuring a more private browsing experience."
 },
   {
+  "productName": "Call Of Duty",
+  "category": "games",
+  "image": "https://www.svgrepo.com/download/67890/call-of-duty-logo.svg",
+  "link": "https://www.callofduty.com/",
+  "description": "Call of Duty is a first-person shooter video game franchise that focuses on realism and cinematic experiences."
+},
+  {
     "productName": "Visual Studio Code",
     "category": "coding",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuER1tOoBap4qZ8V7OUsbf-quqFfEjj3Jnzg&s",
