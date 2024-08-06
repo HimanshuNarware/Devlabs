@@ -115,10 +115,10 @@ function Home(props) {
 
   const filteredData = !!props.searchQuery
     ? allvalue.filter((datalist) => {
-        return datalist.productName
-          .toLowerCase()
-          .includes(props.searchQuery.toLowerCase());
-      })
+      return datalist.productName
+        .toLowerCase()
+        .includes(props.searchQuery.toLowerCase());
+    })
     : allvalue;
 
   const currentPost =
@@ -132,17 +132,20 @@ function Home(props) {
   const prePage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
+      window.scrollTo({ top: document.body.scrollHeight * 0.2, behavior: "smooth" });
     }
   };
 
   const nextPage = () => {
     if (currentPage < npage) {
       setCurrentPage(currentPage + 1);
+      window.scrollTo({ top: document.body.scrollHeight * 0.2, behavior: "smooth" });
     }
   };
 
   const changeCPage = (id) => {
     setCurrentPage(id);
+    window.scrollTo({ top: document.body.scrollHeight * 0.2, behavior: "smooth" });
   };
 
   const handleBookmark = (datalist) => {
@@ -305,7 +308,7 @@ function Home(props) {
                   </h1>
                 </h1>
 
-                <div className="hero-button-container" style={{display: "flex", justifyContent: "center"}}>
+                <div className="hero-button-container" style={{ display: "flex", justifyContent: "center" }}>
                   <button className="hero-button">
                     <NavbarItem description="Get Started" to="/open-source" />
                   </button>
@@ -333,7 +336,7 @@ function Home(props) {
         <br />
         {searchQuery && searchResults.length === 0 && (
           <div className="no-results">
-            <img src="./empty-state.png" height={"300px"} width={"300px"} style={{background: "none"}} alt="empty_state_img"/>
+            <img src="./empty-state.png" height={"300px"} width={"300px"} style={{ background: "none" }} alt="empty_state_img" />
             <h1>No matching tools found.</h1>
           </div>
         )}
@@ -353,9 +356,8 @@ function Home(props) {
             {filters.map((category) => (
               <button
                 key={category}
-                className={`filter-button ${
-                  selectedFilters.includes(category) ? "active_filter" : ""
-                }`}
+                className={`filter-button ${selectedFilters.includes(category) ? "active_filter" : ""
+                  }`}
                 onClick={() => handleFilterButtonClick(category)}
               >
                 {category}
