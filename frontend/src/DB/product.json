@@ -6041,5 +6041,12 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
     "link": "https://alison.com/",
     "description": "Free courses in various fields including IT, business, health, and languages."
+  },
+  {
+    "productName": "Marvel",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/a58b508b-a862-46ba-b877-6737ba9de565",
+    "link": "https://marvelapp.com/",
+    "description": "Design and prototype interfaces, and collaborate with teams; supports real-time feedback and iteration."
   }
 ]
