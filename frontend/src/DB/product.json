@@ -7,6 +7,13 @@
     "description": "Sentry is an open-source error tracking tool that helps developers monitor and fix crashes in real time."
   },
   {
+    "productName": "Eclipse",
+    "category": "coding",
+    "image": "https://shorturl.at/Z7f51",
+    "link": "https://www.eclipse.org/",
+    "description": "Eclipse is an open-source integrated development environment (IDE) that supports multiple programming languages and provides a rich set of tools for software development, including code editing, debugging, and project management."
+},
+  {
     "productName": "DevZero",
     "category": "Useful Tools",
     "image": "https://docs.devzero.io/~gitbook/image?url=https%3A%2F%2F3351508441-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F5T3roFeO7ghjcNFibTDV%252Ficon%252FzuOg8WYAjLZU7fLYsPtR%252Fdevzerohq_logo.jpeg%3Falt%3Dmedia%26token%3D6552448a-b05a-4d97-9e2c-dbf823736a4e&width=32&dpr=1&quality=100&sign=9a2fcec3&sv=1",
