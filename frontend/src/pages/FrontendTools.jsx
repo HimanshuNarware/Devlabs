@@ -109,7 +109,14 @@ const tools = [
     description: "Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.",
     link: "https://backbonejs.org/",
     image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1681040353717/f19b13d0-e85e-4527-8c4b-81a0b8d2034a.jpeg"
+  },
+  {
+    name: "Webpack",
+    description: "Webpack is a module bundler for modern JavaScript applications. It compiles small pieces of code, known as modules, into a cohesive bundle for use in the browser. Webpack enables developers to manage dependencies, perform code splitting, and implement hot module replacement to enhance development efficiency. It works with a wide variety of file types and seamlessly integrates with popular frameworks and libraries, supporting both ES6 and CommonJS module formats.",
+    link: "https://webpack.js.org/",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwebpack.js.org%2Fconcepts%2F&psig=AOvVaw2QVMaU5NOZG8bV33cipQQc&ust=1721638369531000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMi2_-3gt4cDFQAAAAAdAAAAABAE"
   }
+  
 ];
 
 const FrontendTools = () => {

@@ -13,6 +13,7 @@ import Tilt from "react-parallax-tilt";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import debounce from "lodash.debounce";
+import Testimonials from '../pages/Testimonials';
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -29,7 +30,6 @@ function Home(props) {
       });
     }
   }, [props.searchQuery]);
-
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(jsonTools);
   const [currentPage, setCurrentPage] = useState(1);
@@ -44,15 +44,12 @@ function Home(props) {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   console.log(searchQuery);
-
   const currentPost1 = dataBaseData;
   let allvalue = [];
-
   const handleBookmarks = () => {
     const bookmark = JSON.parse(localStorage.getItem("bookmarks"));
     setBookmark(bookmark);
   };
-
   useEffect(() => {
     handleBookmarks();
   }, []);
@@ -504,6 +501,7 @@ function Home(props) {
             </ul>
           </div>
         </div>
+        <Testimonials/>
       </div>
     </SkeletonTheme>
   );
