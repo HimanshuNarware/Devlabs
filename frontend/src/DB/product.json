@@ -176,6 +176,13 @@
     "description": "IP Logger URL shortener web service helps to track data on your website traffic, get information about clicks on your short URLs shared via you social media channels or published on your website, lookup ip address, check ip location and check any URL for redirects and safety."
   },
   {
+    "productName": "WebStorm",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz7_tRL44sCGtQgJoskBrKQEAhr5pIlCK62Q&s",
+    "link": "https://www.jetbrains.com/webstorm/",
+    "description": "WebStorm includes everything you need for JavaScript and TypeScript development right from the start. "
+  },
+  {
     "productName": "claude AI",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.dTYn10CJCVhkCJX6QokokwHaEK?rs=1&pid=ImgDetMain",
