@@ -13,6 +13,7 @@ import Tilt from "react-parallax-tilt";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import debounce from "lodash.debounce";
+import Testimonials from "../pages/Testimonials";
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -29,7 +30,6 @@ function Home(props) {
       });
     }
   }, [props.searchQuery]);
-
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(jsonTools);
   const [currentPage, setCurrentPage] = useState(1);
@@ -44,15 +44,12 @@ function Home(props) {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   console.log(searchQuery);
-
   const currentPost1 = dataBaseData;
   let allvalue = [];
-
   const handleBookmarks = () => {
     const bookmark = JSON.parse(localStorage.getItem("bookmarks"));
     setBookmark(bookmark);
   };
-
   useEffect(() => {
     handleBookmarks();
   }, []);
@@ -282,6 +279,8 @@ function Home(props) {
     setSearchResults(results);
   }, 300);
 
+  let filterdata = [];
+
   return (
     <SkeletonTheme>
       <div>
@@ -304,7 +303,10 @@ function Home(props) {
                   </h1>
                 </h1>
 
-                <div className="hero-button-container" style={{display: "flex", justifyContent: "center"}}>
+                <div
+                  className="hero-button-container"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
                   <button className="hero-button">
                     <NavbarItem description="Get Started" to="/open-source" />
                   </button>
@@ -332,7 +334,13 @@ function Home(props) {
         <br />
         {searchQuery && searchResults.length === 0 && (
           <div className="no-results">
-            <img src="./empty-state.png" height={"300px"} width={"300px"} style={{background: "none"}} alt="empty_state_img"/>
+            <img
+              src="./empty-state.png"
+              height={"300px"}
+              width={"300px"}
+              style={{ background: "none" }}
+              alt="empty_state_img"
+            />
             <h1>No matching tools found.</h1>
           </div>
         )}
@@ -401,6 +409,7 @@ function Home(props) {
                 })
                 .slice(firstPostIndex, lastPostIndex)
                 .map((datalist) => {
+                  filterdata.push(datalist);
                   return (
                     <div
                       className="content-box-home"
@@ -444,66 +453,69 @@ function Home(props) {
                   );
                 })}
           </div>
-          <div className="pagination">
-            <ul>
-              <div className="page-item-prev">
-                <li>
-                  <a href="#!" onClick={prePage}>
-                    &lt;
-                  </a>
-                </li>
-              </div>
-              <div className="page-wrapper">
-                {numbers.map((n, i) => {
-                  // Calculate range of visible page numbers around current page
-                  const start = Math.max(1, currentPage - 4); // Show 4 pages before current page
-                  const end = Math.min(npage, start + 8); // Show 8 pages in total
+          {filterdata.length > 0 && (
+            <div className="pagination">
+              <ul>
+                <div className="page-item-prev">
+                  <li>
+                    <a href="#!" onClick={prePage}>
+                      &lt;
+                    </a>
+                  </li>
+                </div>
+                <div className="page-wrapper">
+                  {numbers.map((n, i) => {
+                    // Calculate range of visible page numbers around current page
+                    const start = Math.max(1, currentPage - 4); // Show 4 pages before current page
+                    const end = Math.min(npage, start + 8); // Show 8 pages in total
 
-                  // Show ellipsis if start is greater than 1
-                  if (start > 1 && i === 1) {
-                    return (
-                      <li key={i}>
-                        <span>...</span>
-                      </li>
-                    );
-                  }
+                    // Show ellipsis if start is greater than 1
+                    if (start > 1 && i === 1) {
+                      return (
+                        <li key={i}>
+                          <span>...</span>
+                        </li>
+                      );
+                    }
 
-                  // Show ellipsis if end is less than npage
-                  if (end < npage && i === numbers.length - 1) {
-                    return (
-                      <li key={i}>
-                        <span>...</span>
-                      </li>
-                    );
-                  }
+                    // Show ellipsis if end is less than npage
+                    if (end < npage && i === numbers.length - 1) {
+                      return (
+                        <li key={i}>
+                          <span>...</span>
+                        </li>
+                      );
+                    }
 
-                  // Display the page number if within the visible range
-                  if (n >= start && n <= end) {
-                    return (
-                      <li
-                        key={i}
-                        className={`${currentPage === n ? "active" : ""}`}
-                      >
-                        <a href="#!" onClick={() => changeCPage(n)}>
-                          {n}
-                        </a>
-                      </li>
-                    );
-                  }
+                    // Display the page number if within the visible range
+                    if (n >= start && n <= end) {
+                      return (
+                        <li
+                          key={i}
+                          className={`${currentPage === n ? "active" : ""}`}
+                        >
+                          <a href="#!" onClick={() => changeCPage(n)}>
+                            {n}
+                          </a>
+                        </li>
+                      );
+                    }
 
-                  return null; // Hide pages outside the visible range
-                })}
-              </div>
-              <div className="page-item-next">
-                <li>
-                  <a href="#!" onClick={nextPage}>
-                    &gt;
-                  </a>
-                </li>
-              </div>
-            </ul>
-          </div>
+                    return null; // Hide pages outside the visible range
+                  })}
+                </div>
+                <div className="page-item-next">
+                  <li>
+                    <a href="#!" onClick={nextPage}>
+                      &gt;
+                    </a>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          )}
         </div>
+        <Testimonials />
       </div>
     </SkeletonTheme>
   );

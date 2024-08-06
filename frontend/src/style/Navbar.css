@@ -1,3 +1,12 @@
+#progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 8px;
+  background:linear-gradient(90deg,rgb(113, 111, 111),rgb(38, 37, 37));
+  z-index: 9999;
+}
 .navbar {
   background-color: #6a43c3;
   padding: 1rem;
