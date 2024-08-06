@@ -43,6 +43,13 @@
     "description": "edclub is a web-based and fully customizable educational platform. Students can learn in class, at home, or wherever an internet connection can be found. Students are already familiar with the layout of the program because the design is very similar to popular games. Each lesson provides instant, meaningful feedback that encourages students to continue practicing. "
   },
   {
+    "productName": "StayFocusd",
+    "category": "Extensions",
+    "image": "https://shorturl.at/kctDc",
+    "link": "https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji",
+    "description": "StayFocusd is a browser extension for Google Chrome that helps improve productivity by restricting the amount of time you can spend on time-wasting websites. It allows you to block or limit access to distracting websites, keeping you focused on your work."
+},
+  {
     "productName": "PhpStorm",
     "category": "tools",
     "image": "https://www.quanta.org/free-phpstorm-licence/phpstorm-logo.png",
