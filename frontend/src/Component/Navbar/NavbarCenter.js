@@ -25,7 +25,6 @@ function NavbarCenter( ) {
   const handleRateUsClick = () => {
     setIsModalOpen(true);
   };
-
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
