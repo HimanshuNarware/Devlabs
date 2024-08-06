@@ -226,7 +226,7 @@ function Footer() {
                     <AiOutlineMail
                       color="white"
                       fontSize={25}
-                      className="ico"
+                      className="ico ico7"
                     />
                   </a>
                 </span>
