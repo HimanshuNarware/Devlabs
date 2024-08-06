@@ -4,6 +4,7 @@
   align-items: center;
   height: 100vh; /* Ensure the component is centered vertically */
 }
+
 .rate-us__container {
   width: 70%;
   max-width: 600px;
@@ -31,25 +32,10 @@
   justify-content: center;
 }
 
-.rate-us__submit-button {
-  width: 30%;
-  padding: 10px;
-  background-color: #7c1de2;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
 .rate-us__icon {
   font-size: 2rem; /* Increase emoji size */
   cursor: pointer;
   transition: transform 0.3s, filter 0.3s;
-}
-
-.rate-us__submit-button--hover:hover {
-  background-color: #5f129f;
 }
 
 .rate-us__icon--selected {
@@ -66,4 +52,19 @@
   resize: none;
   margin-bottom: 20px;
   font-size: 1rem; /* Adjust textarea font size */
+}
+
+.rate-us__submit-button {
+  width: 30%;
+  padding: 10px;
+  background-color: #7c1de2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.rate-us__submit-button--hover:hover {
+  background-color: #5f129f;
 }
