@@ -218,6 +218,13 @@
     "description": "Banuba is the world leader in Face AR. Cross-platform support. Quick and Easy Integration. Choose from AR features, video editing, virtual try-on."
   },
   {
+    "productName": "WampServer",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/WampServer-logo.png",
+    "link": "https://sourceforge.net/projects/wampserver/",
+    "description": "WampServer is a Web development platform on Windows that allows you to create dynamic Web applications with Apache2, PHP, MySQL and MariaDB."
+  },
+  {
     "productName": "Synthesia",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.IlF7myH15vT-30PQ2t2ETwAAAA?rs=1&pid=ImgDetMain",
