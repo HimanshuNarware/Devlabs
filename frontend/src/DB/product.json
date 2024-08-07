@@ -7,6 +7,13 @@
     "description": "Sentry is an open-source error tracking tool that helps developers monitor and fix crashes in real time."
   },
   {
+    "productName": "Grammerly plagrism",
+    "category": "Tool",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJegCk-tk9EwNlZ6Br_GnM9LJcfsjhtngkpA&s",
+    "link": "https://www.grammarly.com/plagiarism-checker",
+    "description": "Ensure every word is your own with Grammarly’s plagiarism checker."
+  },
+  {
     "productName": "Bitbucket",
     "category": "tools",
     "image": "https://shorturl.at/upeTZ",
