@@ -16,7 +16,6 @@ const Rate = () => {
       alert("Please provide a rating and feedback before submitting.");
     }
   };
-
   return (
     showDialog && (
       <div className='rate-us'>

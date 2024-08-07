@@ -320,6 +320,31 @@ ul a .mr-2 {
   background-color: rgba(0, 0, 0, 0.742);
   color: white;
 }
+/* Styling for the legal section */
+.legal {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.2rem; /* Slightly smaller text size */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Styling for the legal links */
+.legal a.footer-link {
+  color: #ffffff; /* White color for the links */
+  text-decoration: none; /* Remove underline */
+  margin: 0 0.5rem; /* Spacing between links */
+}
+
+.legal a.footer-link:hover {
+  text-decoration: underline; /* Underline on hover */
+  font-weight: bold; /* Bold font weight for emphasis */
+}
+
+/* Optional: Styling for the separator (|) */
+.legal span.separator {
+  color: #ffffff; /* White color for the separator */
+  margin: 0 0.5rem; /* Spacing around the separator */
+}
 
 /* Contact Links */
 .contact-link {
