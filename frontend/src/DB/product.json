@@ -7,6 +7,13 @@
     "description": "Sentry is an open-source error tracking tool that helps developers monitor and fix crashes in real time."
   },
   {
+    "productName": "pageSpeed insights",
+    "category": "Tool",
+    "image": "https://www.gstatic.com/pagespeed/insights/ui/logo/favicon_48.png",
+    "link": "https://pagespeed.web.dev/",
+    "description": "Make your web pages fast on all devices."
+  },
+  {
     "productName": "Bitbucket",
     "category": "tools",
     "image": "https://shorturl.at/upeTZ",
