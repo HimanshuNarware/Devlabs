@@ -6145,5 +6145,12 @@
     "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
+  },
+  {
+    "productName": "Devhints",
+    "category": "tools",
+    "image": "https://shorturl.at/Nyb6c",
+    "link": "https://devhints.io/",
+    "description": "A collection of quick reference cheat sheets for a variety of programming languages and tools."
   }
 ]
