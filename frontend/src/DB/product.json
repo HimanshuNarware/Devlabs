@@ -54,6 +54,13 @@
     "link": "https://www.ghostery.com/",
     "description": "Ghostery is a powerful browser extension that enhances your privacy by blocking trackers and providing detailed insights into who is collecting your data. It's available for multiple browsers and helps speed up page loading times while ensuring a more private browsing experience."
 },
+{
+  "productName": "Hemingway",
+  "category": "Tool",
+  "image": "https://th.bing.com/th/id/OIP.KmubvHbzHsdAXbx5sfHXrgHaHa?w=166&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+  "link": "https://hemingwayapp.com/",
+  "description": "Hemingway App helps you write concisely and correctly by highlighting lengthy, complex, or error-prone sentences. You can also use AI tools to fix, tone, or style your text with Hemingway Editor Plus."
+},
   {
   "productName": "Call Of Duty",
   "category": "games",
