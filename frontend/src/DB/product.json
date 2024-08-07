@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Sourcegraph",
+    "category": "Coding",
+    "image": "https://sourcegraph.com/sourcegraph-logo.svg",
+    "link": "https://sourcegraph.com/",
+    "description": "Sourcegraph allows developers to rapidly search, write, and understand code by bringing insights from their entire codebase right into the editor."
+},
+  {
     "productName": "Sentry",
     "category": "Tool",
     "image": "https://www.sentry.io/_assets/branding/png/sentry-horizontal-black.png",
