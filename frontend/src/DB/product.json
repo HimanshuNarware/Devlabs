@@ -7,6 +7,13 @@
     "description": "Sentry is an open-source error tracking tool that helps developers monitor and fix crashes in real time."
   },
   {
+    "productName": "Kaggle",
+    "category": "tools",
+    "image": "https://shorturl.at/OoBI3",
+    "link": "https://www.kaggle.com/",
+    "description": "Kaggle is an online platform that offers data science competitions, a vast repository of datasets, and a collaborative environment for data scientists and machine learning enthusiasts to share code, models, and insights."
+},
+  {
     "productName": "Bitbucket",
     "category": "tools",
     "image": "https://shorturl.at/upeTZ",
