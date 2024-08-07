@@ -60,6 +60,7 @@ function Footer() {
                   <a href="https://www.devlabsstore.tech/about">
                     <FaQuestionCircle className="mr-2" /> About Us
                   </a>
+                  
                 </li>
                 <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/bookmark">
