@@ -18,11 +18,9 @@ const Contact = () => {
   const handleEmailChange = (event) => {
     const { value } = event.target;
     setEmail(value);
-
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     setIsValid(emailRegex.test(value));
   };
-
   const handleSubmit = (event) => {
     event.preventDefault();
     if (isValid && email) {
