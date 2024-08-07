@@ -206,7 +206,7 @@ function Footer() {
                 <span className="icons">
                   <a href="/" target="_blank" rel="noopener noreferrer">
                     <FaGithubSquare
-                    
+
                       color="white"
                       fontSize={25}
                       className="ico"
@@ -219,6 +219,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    
                     <AiOutlineMail
                       color="white"
                       fontSize={25}
