@@ -7,6 +7,13 @@
     "description": "Sentry is an open-source error tracking tool that helps developers monitor and fix crashes in real time."
   },
   {
+    "productName": "QuickTools by Picsart",
+    "category": "Tool",
+    "image": "https://cdn140.picsart.com/quicktools-logo.svg",
+    "link": "https://tools.picsart.com/text/font-generator/",
+    "description": "#1 Font & Text Generator with 170+ fonts & 10 font styles."
+  },
+  {
     "productName": "Bitbucket",
     "category": "tools",
     "image": "https://shorturl.at/upeTZ",

@@ -286,7 +286,6 @@ function Home(props) {
 
   return (
     <SkeletonTheme>
-      <div>
         <div className="hero">
           <div className="hero-text">
             <div id="hero" className="hero-container">
