@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../image/logo1.png";
 import "../style/Footer.css";
-
 import {
   FaGithubSquare,
   FaLinkedinIn,
@@ -26,13 +25,13 @@ import {
 } from "react-icons/ai";
 import { BsYoutube, BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
 import { Link } from "react-router-dom";
-
 function Footer() {
   return (
-    <footer className="overflow-x-hidden">
+    
+    <footer>
       <div className="Footer">
         <div className="container">
-          <div className="row justify-center">
+          <div className="row">
             <div className="col-md-6 col-lg-4 col-12 ft-1">
               <a href="https://www.devlabsstore.tech/">
                 <img width={209} src={logo} alt="devlabs" />
@@ -81,6 +80,7 @@ function Footer() {
                   <a href="https://www.devlabsstore.tech/profile">
                     <FaUser className="mr-2" /> My Profile
                   </a>
+                  
                 </li>
                 <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/open-source">
@@ -124,7 +124,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-last explore">
+            <div className="col-md-6 col-lg-2 col-12 ft-2 ft-last">
               <h3>Explore</h3>
               <ul>
                 <li className="nav-item">
@@ -150,7 +150,7 @@ function Footer() {
 
       <div className="Last-footer">
         <div className="container">
-          <div className="row justify-center">
+          <div className="row justify-content-center">
             <div className="col-md-6 col-12 ft-1">
               <div className="text-center fs-6 my-3">
                 COPYRIGHT © Devlabs 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE

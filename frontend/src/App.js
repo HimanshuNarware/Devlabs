@@ -10,7 +10,6 @@ import BackToTopButton from "./Component/BackToTopButton";
 import Footer from "./Component/Footer";
 import TrailingCursor from "./Component/TrailingCursor/TrailingCursor";
 import ChatAssistant from "./ChatAssistant/ChatAssistant";
-
 // Lazy load components
 const About = lazy(() => import("./Component/About"));
 const Rateus = lazy(() => import("./Component/Rateus"));
@@ -44,7 +43,6 @@ const RemoteJob = lazy(() => import("./pages/RemoteJob"));
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
-
   useEffect(() => {
     AOS.init();
   }, []);

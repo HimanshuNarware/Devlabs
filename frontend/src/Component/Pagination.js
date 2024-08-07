@@ -17,7 +17,6 @@ const Pagination = ({
       <div className="page-index">
         Showing {firstCardIndex + 1}-{lastCardIndex} from {dataLength} results
       </div>
-
       <ul className="pagination_about_us">
         {(currentPage > 1) &&
           <li className="page-item">

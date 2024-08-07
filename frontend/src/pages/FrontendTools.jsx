@@ -115,7 +115,13 @@ const tools = [
     description: "Webpack is a module bundler for modern JavaScript applications. It compiles small pieces of code, known as modules, into a cohesive bundle for use in the browser. Webpack enables developers to manage dependencies, perform code splitting, and implement hot module replacement to enhance development efficiency. It works with a wide variety of file types and seamlessly integrates with popular frameworks and libraries, supporting both ES6 and CommonJS module formats.",
     link: "https://webpack.js.org/",
     image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwebpack.js.org%2Fconcepts%2F&psig=AOvVaw2QVMaU5NOZG8bV33cipQQc&ust=1721638369531000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMi2_-3gt4cDFQAAAAAdAAAAABAE"
-  }
+  },
+  {
+    name: "Three.js",
+    description: "Three.js is a cross-browser JavaScript library and API used to create and display animated 3D computer graphics in a web browser. It simplifies the process of building 3D experiences for the web by providing a straightforward interface for working with WebGL, which is the underlying technology for rendering graphics. Three.js supports a wide range of features including lighting, shadows, materials, textures, and advanced effects like shaders and post-processing. It's widely used for creating interactive 3D websites, games, data visualizations, and virtual reality experiences.",
+    link: "https://threejs.org/",
+    image: "https://miro.medium.com/v2/resize:fit:724/1*6s_Dkfeldg35ySmAp0tPkQ.png"
+}
   
 ];
 

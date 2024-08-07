@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/Movie.css";
-
 const movies = [
   {
     title: "The Pursuit of Happyness",
@@ -73,6 +72,15 @@ const movies = [
     image:
       "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkflHw3-Y9fnKzKa3YxTXl_3xe8YJEWp4KFrfM5NZEsHg4Dqfi",
     releaseDate: "2014-09-05",
+  },
+  {
+    title: "Srikanth Bolla",
+    category: "Biography",
+    description:
+      "Srikanth is a 2024 Indian Hindi-language biographical film on the life of Srikanth Bolla, a visually-impaired industrialist and the founder of Bollant Industries.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-LbV2HkXt0qDQfwEFKjApCOsbn8poFpnMmg&s",
+    releaseDate: "2024-05-13",
   },
   {
     title: "Chhichhore",
