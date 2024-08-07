@@ -6048,5 +6048,12 @@
     "image": "https://github.com/user-attachments/assets/96ea136c-d77d-4de8-b74d-8ce181a6bd98",
     "link": "https://icons8.com/lunacy",
     "description": "A f-ree design software with built-in assets and features, similar to Sketch but available for Windows."
+  },
+  {
+    "productName": "Pencil Project",
+    "category": "Ui",
+    "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
+    "link": "https://pencil.evolus.vn/",
+    "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
   }
 ]
