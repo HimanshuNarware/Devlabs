@@ -6145,5 +6145,12 @@
     "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
+  },
+  {
+    "productName": "Creddle",
+    "category": "resume",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQCoghNNeH0iZeNiMlRZ2Kj8Rtp7l_P_uANzuEzbkIjJ7rXdBVA",
+    "link": "https://resume.creddle.io/",
+    "description": "Provides customizable and modern resume templates designed to be professional and visually appealing."
   }
 ]
