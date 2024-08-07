@@ -13,7 +13,20 @@
     "link": "https://bitbucket.org/",
     "description": "Bitbucket is a Git-based source code repository hosting service from Atlassian that offers a collaborative environment for code development, integrated CI/CD, and seamless integration with other Atlassian products."
 },
-  
+  {
+    "productName": "Sublime Text",
+    "category": "coding",
+    "image": "https://t.ly/-PnbM",
+    "link": "https://www.sublimetext.com/",
+    "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It features a clean interface, powerful search and editing capabilities, and a wide range of plugins and customizations to enhance the development experience."
+  },
+  {
+    "productName": "Eclipse",
+    "category": "coding",
+    "image": "https://shorturl.at/Z7f51",
+    "link": "https://www.eclipse.org/",
+    "description": "Eclipse is an open-source integrated development environment (IDE) that supports multiple programming languages and provides a rich set of tools for software development, including code editing, debugging, and project management."
+},
   {
     "productName": "DevZero",
     "category": "Useful Tools",
@@ -6049,5 +6062,47 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
     "link": "https://alison.com/",
     "description": "Free courses in various fields including IT, business, health, and languages."
+  },
+  {
+    "productName": "Marvel",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/a58b508b-a862-46ba-b877-6737ba9de565",
+    "link": "https://marvelapp.com/",
+    "description": "Design and prototype interfaces, and collaborate with teams; supports real-time feedback and iteration."
+  },
+  {
+    "productName": "Mockplus",
+    "category": "Ui",
+    "image": "https://www.mockplus.com/enUS/images/nav/logo-red-black.png",
+    "link": "https://www.mockplus.com/",
+    "description": "Rapidly design and prototype UI/UX interfaces; offers a wide range of pre-designed components."
+  },
+  {
+    "productName": "Origami Studio",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/56a3972e-80b8-4ad5-8cf0-7603c4ffe508",
+    "link": "https://origami.design/",
+    "description": "Design interactive interfaces and prototypes with complex animations; ideal for high-fidelity prototypes."
+  },
+  {
+    "productName": "Penpot",
+    "category": "Ui",
+    "image": "https://site-assets.plasmic.app/5a092f8c015ea24a9c0953e5ca065580.svg",
+    "link": "https://penpot.app/",
+    "description": "An open-source design and prototyping platform for cross-functional teams."
+  },
+  {
+    "productName": "Lunacy",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/96ea136c-d77d-4de8-b74d-8ce181a6bd98",
+    "link": "https://icons8.com/lunacy",
+    "description": "A f-ree design software with built-in assets and features, similar to Sketch but available for Windows."
+  },
+  {
+    "productName": "Pencil Project",
+    "category": "Ui",
+    "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
+    "link": "https://pencil.evolus.vn/",
+    "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
   }
 ]
