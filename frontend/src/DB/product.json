@@ -6043,6 +6043,13 @@
     "description": "Free courses in various fields including IT, business, health, and languages."
   },
   {
+    "productName": "Mockplus",
+    "category": "Ui",
+    "image": "https://www.mockplus.com/enUS/images/nav/logo-red-black.png",
+    "link": "https://www.mockplus.com/",
+    "description": "Rapidly design and prototype UI/UX interfaces; offers a wide range of pre-designed components."
+  },
+  {
     "productName": "Origami Studio",
     "category": "Ui",
     "image": "https://github.com/user-attachments/assets/56a3972e-80b8-4ad5-8cf0-7603c4ffe508",
