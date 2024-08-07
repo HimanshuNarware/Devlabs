@@ -217,6 +217,13 @@
     "description": "Versatile open-source IDE supporting multiple languages with robust plugin ecosystem."
   },
   {
+    "productName": "Streamlit",
+    "category": "Web Frameworks",
+    "image": "https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg",
+    "link": "https://streamlit.io/",
+    "description": "User-friendly open-source framework for building  interactive, data-driven web applications in Python with minimal code."
+  },
+  {
     "productName": "Disney Plus",
     "category": "Entertainment",
     "image": "https://shorturl.at/GHg6D",
