@@ -9,7 +9,7 @@ function Navbar(props) {
   
   return (
     <header>
-      <div className="navbar w-100">
+      <div className="navbar">
         <Progress />
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
         <NavbarCenter showSideNav={showSideNav} />
