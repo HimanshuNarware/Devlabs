@@ -74,14 +74,6 @@ const extensions = [
     image: "https://i.pcmag.com/imagery/reviews/00DGg3V9SuURGDLUoe7QmD6-23.fit_lim.size_1050x591.v1605289134.png",
     developer: "ProofHub",
   }, 
-  {
-    title: "Apollo.io",
-    category: "Development",
-    description: "Apollo enables users to find contact info, connect with buyers, track emails, and more for free.",
-    version: "8.2.2",
-    image: "https://lh3.googleusercontent.com/-8eKyJVDfvaymLdJ8tKDtkJ6JD1PG9raGqglPpUi0VuQriBY6vMOhuabeS4rD8AL2ilW681Q_icEpDX8sLX5LH-iWZg=s60",
-    developer: "ZenLeads Inc.",
-  },
 ];
 
 const Extensions = () => (
