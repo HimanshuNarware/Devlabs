@@ -91,7 +91,7 @@
   width: fit-content;
   justify-content: center;
   align-items: center;
-  padding: 8px;
+  padding: 10px;
   gap: 5px;
   animation: slideLeft 1s ease forwards;
 }
@@ -146,6 +146,15 @@
 #nav-icon1.open span:nth-child(3) {
   top: 18px;
   transform: rotate(-135deg);
+}
+.navbar-left {
+  display: flex;
+  width: fit-content;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+  animation: slideLeft 1s ease forwards;
 }
 
 .navbar-center {

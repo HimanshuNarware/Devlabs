@@ -10,6 +10,8 @@ const Pagination = ({
   handlePageChange,
   scrollPosition
 }) => {
+
+
   return (
     <nav>
       <div className="page-index">
