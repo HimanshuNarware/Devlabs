@@ -106,6 +106,13 @@
     "description": "StayFocusd is a browser extension for Google Chrome that helps improve productivity by restricting the amount of time you can spend on time-wasting websites. It allows you to block or limit access to distracting websites, keeping you focused on your work."
 },
   {
+    "productName": "Thisissand",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.ZetQNYat2gMZiL1C82pvwAAAAA?rs=1&pid=ImgDetMain",
+    "link": "https://thisissand.com/",
+    "description": "Thisissand is a unique playground for creating and sharing amazing sandscapes on your computer or mobile device. "
+  },
+  {
     "productName": "PhpStorm",
     "category": "tools",
     "image": "https://www.quanta.org/free-phpstorm-licence/phpstorm-logo.png",
