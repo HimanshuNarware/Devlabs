@@ -5,6 +5,7 @@ const Pagination = ({
   firstCardIndex,
   lastCardIndex,
   dataLength,
+  
   allPagesNumbers,
   currentPage,
   handlePageChange,
