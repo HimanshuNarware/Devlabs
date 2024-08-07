@@ -5,8 +5,8 @@ body {
     background-color: #f4f4f4;
   }
   
-  .container {
-    max-width: 1200px;
+  .container1 {
+    max-width: 100%;
     margin: 0 auto;
     height: auto;
     padding: 20px;

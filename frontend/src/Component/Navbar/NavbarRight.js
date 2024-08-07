@@ -2,54 +2,54 @@ import React, { useEffect, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import { RxCross2 } from "react-icons/rx";
 import "../../style/Navbar.css";
+function NavbarRight({ setSearchQuery }) {
+  const [searchQuery, setLocalSearchQuery] = useState(""); // Local state to manage search query
 
-function NavbarRight(props) {
-  const [searchQuery, setSearchQuery] = useState("");
-
+  //debounce search query
   useEffect(() => {
     let timer = setTimeout(() => {
-      props.setSearchQuery(searchQuery);
+      setSearchQuery(searchQuery);
     }, 300);
     return () => {
       clearTimeout(timer);
     };
-  }, [searchQuery]);
+  }, [searchQuery, setSearchQuery]);
 
   const handleInputChange = (e) => {
-    setSearchQuery(e.target.value);
+    setLocalSearchQuery(e.target.value); // Update the search query when input changes
   };
-
   const handleSearch = (e) => {
     e.preventDefault();
-    props.setSearchQuery(searchQuery);
+    setSearchQuery(searchQuery); // Pass the search query to the parent component (App)
   };
 
   const clearSearchHandler = (e) => {
     e.preventDefault();
-    setSearchQuery("");
-    props.setSearchQuery("");
+    setLocalSearchQuery("");
+    setSearchQuery(""); // Pass the empty search query to the parent component (App)
   };
 
   return (
-    <div className="navbar-right">
+    <div className="navbar-right" id="navbarTogglerDemo03">
       <div className="search">
         <form role="search" className="search-bar" onSubmit={handleSearch}>
-          <div className="box">
+          <div className="box" focus>
             <input
               type="text"
               className="input"
               placeholder="Search . . ."
-              value={searchQuery}
+              value={searchQuery} // Set input value to the search query
               onChange={handleInputChange}
             />
+
             <button
-              className={`clear-button ${!searchQuery && "invisible"}`}
+              className={`span ${!searchQuery && "invisible"}`}
               type="button"
               onClick={clearSearchHandler}
             >
               <RxCross2 />
             </button>
-            <button className="search-button" type="submit">
+            <button className="span" type="submit">
               <BsSearch />
             </button>
           </div>

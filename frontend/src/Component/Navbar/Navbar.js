@@ -3,8 +3,6 @@ import "../../style/Navbar.css";
 import Sidebar from "../Sidebar/Sidebar";
 import NavbarLeft from "./NavbarLeft";
 import NavbarCenter from "./NavbarCenter";
-//import NavbarRight from "./NavbarRight";
-
 function Navbar(props) {
   const [showSideNav, setShowSideNav] = useState(false);
   
@@ -12,7 +10,7 @@ function Navbar(props) {
     <header>
       <div className="navbar">
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
-        <NavbarCenter />
+        <NavbarCenter showSideNav={showSideNav} />
         
         {/* Pass setSearchQuery directly 
         <NavbarRight setSearchQuery={props.setSearchQuery} />

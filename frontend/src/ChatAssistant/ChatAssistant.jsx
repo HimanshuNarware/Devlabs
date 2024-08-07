@@ -7,49 +7,27 @@ import ActionProvider from "../ChatBot/ActionProvider";
 import "./ChatAssistant.css";
 import chatbotLogo from "../assets/chatbotLogo.jpeg";
 import chatbotLogo1 from "../assets/logo1.png";
-
 const ChatAssistant = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [logoSrc, setLogoSrc] = useState(chatbotLogo);
 
   const toggleChatbot = () => {
     setIsOpen(!isOpen);
   };
-
   const closeChatbot = () => {
     setIsOpen(false);
   };
 
   return (
     <div className='chatbot'>
-
+      <span className={`tooltiptext ${isOpen ? 'hidden' : ''}`}>Chat bot</span>
       <img
-        className='Logo'
+        className={`Logo ${isOpen ? 'hidden' : ''}`}
         src={chatbotLogo}
         alt='Logo'
         onClick={toggleChatbot}
         onMouseEnter={() => (document.querySelector(".Logo").src = chatbotLogo1)}
         onMouseLeave={() => (document.querySelector(".Logo").src = chatbotLogo)}
       />
-
-      {/* {!isOpen && ( // Conditionally render the logo if the chatbot is closed
-    <div className='chatbot'>l
-      {!isOpen && ( // Conditionally render the logo if the chatbot is closed
-
-
-      //{!isOpen && (
-
-
-
-        <img
-          className='Logo'
-          src={logoSrc}
-          alt='Logo'
-          onClick={toggleChatbot}
-          onMouseEnter={() => setLogoSrc(chatbotLogo1)}
-          onMouseLeave={() => setLogoSrc(chatbotLogo)}
-        />
-      )} */}
       {isOpen && (
         <div className={`chatbot-wrapper ${isOpen ? 'chatbot-animation' : 'chatbot-close-animation'}`}>
           <button className='close-button' onClick={closeChatbot}>

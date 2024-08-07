@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
-import { IoReorderThree, IoClose } from "react-icons/io5";
 import "../../style/Navbar.css"
 import logo from "../../image/logo1.png";
-
-function NavbarLeft(props) {
+function NavbarLeft(props, showSideNav) {
   useEffect(() => {
     const handleDocumentClick = (e) => {
       if (!e.target.closest('.navbar-left')) {
@@ -23,13 +21,12 @@ function NavbarLeft(props) {
     e.preventDefault();
     props.setShowSideNav(!props.showSideNav);
   }
-
   function handleItemClick() {
     props.setShowSideNav(false);
   }
 
   return (
-    <span className="navbar-left">
+    <span className="navbar-left" style={{marginTop : showSideNav ? "0px":"0px"}}>
       <a
         onClick={handleClick}
         className="navbar-brand sdbar-logo"
@@ -48,5 +45,4 @@ function NavbarLeft(props) {
     </span>
   );
 }
-
 export default NavbarLeft;

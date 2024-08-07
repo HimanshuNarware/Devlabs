@@ -1,11 +1,10 @@
 :root,
 body,
 html {
-  scrollbar-width: none; 
+  scrollbar-width: none;
   height: 100%;
-  cursor:none;
+  cursor: none;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +14,8 @@ html {
 
 body {
   min-height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr auto;
+  display: flex;
+  max-width: 100vw;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -32,10 +31,15 @@ body {
 
 .darkmode-layer,
 .darkmode-toggle {
-  z-index: 35;
+  z-index: 5;
   position: absolute;
   bottom: 18px !important;
 }
+.darkmode-toggle:hover {
+  cursor: none;
+
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

@@ -21,6 +21,13 @@
         "description": " (DApp) powered by blockchain technology to streamline supply chain management processes."
     },
     {
+        "projectName": "PetAdopt",
+        "ownerUsername": "kartikmehta18",
+        "tags": ["HTML","JS","CSS", "Bootstrap"],
+        "link": "https://github.com/kartikmehta18/PetAdopts",
+        "description": " This is the largest no-kill rescue and pet adoption platform."
+    },
+    {
         "projectName": "Ciphers",
         "ownerUsername": "vihar-s1",
         "tags": ["python", "cryptography"],
@@ -867,5 +874,20 @@
         "tags": ["RUST"],
         "link": "https://github.com/juspay/hyperswitch",
         "description": "Open Source Financial Switch for fast and reliable payments."
+    },
+    {
+        "projectName": "Refine",
+        "ownerUsername": "Refinedev",
+        "tags": ["TypeScript", "JavaScript"],
+        "link": "https://github.com/refinedev/refine",
+        "description": "A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility."
+    },
+    {
+        "projectName": "SheetAble",
+        "ownerUsername": "Sheetable",
+        "tags": ["Javascript", "Go", "CSS", "Shell", "HTML", "Python"],
+        "link": "https://github.com/SheetAble/SheetAble",
+        "description": "Self-hosted music sheet organizing software"
     }
+    
 ]
