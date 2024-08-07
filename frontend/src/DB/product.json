@@ -12,6 +12,13 @@
     "image": "https://t.ly/-PnbM",
     "link": "https://www.sublimetext.com/",
     "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It features a clean interface, powerful search and editing capabilities, and a wide range of plugins and customizations to enhance the development experience."
+  },
+  {
+    "productName": "Eclipse",
+    "category": "coding",
+    "image": "https://shorturl.at/Z7f51",
+    "link": "https://www.eclipse.org/",
+    "description": "Eclipse is an open-source integrated development environment (IDE) that supports multiple programming languages and provides a rich set of tools for software development, including code editing, debugging, and project management."
 },
   {
     "productName": "DevZero",
@@ -19,6 +26,13 @@
     "image": "https://docs.devzero.io/~gitbook/image?url=https%3A%2F%2F3351508441-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F5T3roFeO7ghjcNFibTDV%252Ficon%252FzuOg8WYAjLZU7fLYsPtR%252Fdevzerohq_logo.jpeg%3Falt%3Dmedia%26token%3D6552448a-b05a-4d97-9e2c-dbf823736a4e&width=32&dpr=1&quality=100&sign=9a2fcec3&sv=1",
     "link": "https://devzero.io/",
     "description": "Providing developers with customizable yet standardized workspaces so they can code and iterate in a collaborative, production-symmetric environment."
+},
+  {
+  "productName": "Invision",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/98765/invision-logo.svg",
+  "link": "https://www.invisionapp.com/",
+  "description": "Invision is a digital product design platform that helps teams collaborate and prototype designs efficiently."
 },
   {
     "productName": "Starknet",
@@ -35,11 +49,25 @@
     "description": "Ghostery is a powerful browser extension that enhances your privacy by blocking trackers and providing detailed insights into who is collecting your data. It's available for multiple browsers and helps speed up page loading times while ensuring a more private browsing experience."
 },
   {
+  "productName": "Call Of Duty",
+  "category": "games",
+  "image": "https://www.svgrepo.com/download/67890/call-of-duty-logo.svg",
+  "link": "https://www.callofduty.com/",
+  "description": "Call of Duty is a first-person shooter video game franchise that focuses on realism and cinematic experiences."
+},
+  {
     "productName": "Visual Studio Code",
     "category": "coding",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuER1tOoBap4qZ8V7OUsbf-quqFfEjj3Jnzg&s",
     "link": "https://code.visualstudio.com/",
     "description": "Visual Studio Code is a free, open-source code editor from Microsoft that provides developers with powerful tools and a flexible workspace for a variety of programming languages."
+},
+  {
+    "productName": "GitLab",
+    "category": "tools",
+    "image": "https://rb.gy/5vmahj",
+    "link": "https://about.gitlab.com/",
+    "description": "GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager with features for CI/CD, issue tracking, and more, enabling teams to collaborate on code development and deployment efficiently."
 },
   {
     "productName": "HBO Max",
@@ -56,6 +84,13 @@
     "link": "https://www.edclub.com/",
     "description": "edclub is a web-based and fully customizable educational platform. Students can learn in class, at home, or wherever an internet connection can be found. Students are already familiar with the layout of the program because the design is very similar to popular games. Each lesson provides instant, meaningful feedback that encourages students to continue practicing. "
   },
+  {
+  "productName": "Gutenberg",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/12345/gutenberg-logo.svg",
+  "link": "https://www.gutenberg.org/",
+  "description": "Gutenberg is an open-source publishing platform that allows you to create and manage content easily."
+},
   {
     "productName": "StayFocusd",
     "category": "Extensions",
@@ -5945,6 +5980,13 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
+  } ,
+  {
+    "productName": "Indeed",
+    "category": "resume",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTGmyaRb5PXoY3WAxU1vgHJP102eKqIyzDz0-9J04vBZO5DZLam",
+    "link": "https://www.indeed.com/create-resume/",
+    "description": "Free resume builder with templates and customization options."
   },
   {
     "productName": "Price History",
@@ -5971,5 +6013,89 @@
     "image": "https://github.com/user-attachments/assets/346f645b-78b4-428a-8c40-d5aab174a397",
     "link": "https://www.edenai.co/post/best-generative-ai-apis",
     "description": "Eden AI is a platform that allows you to create your own generative AI tools."
+  },
+  {
+    "productName": "SkillShare",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5n97aejY-xIgPDF8HSTvJrcy_OLTocTInQnLH0-8haNuV-QyN",
+    "link": "https://www.skillshare.com/en/",
+    "description": "Focuses on creative and professional skills with a project-based approach."
+  },
+  {
+    "productName": "MasterClass",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTsNkUZY96QX0rN7y25ZKYoe98DhUs8h0cDkuhrpCiXmukfBcAO",
+    "link": "https://www.masterclass.com/",
+    "description": "Courses from world-renowned experts across various fields, including arts, cooking, sports, and more."
+  },
+  {
+    "productName": "Ed2go",
+    "category": "course",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdu3k_w182gfgHFHUdkEjmFfLdhoBKOnOpE1Z1_bfGLcUB6yMN",
+    "link": "https://www.ed2go.com/about-us",
+    "description": "Online courses for professional development and career training."
+  },
+  {
+    "productName": "CreativeLive",
+    "category": "course",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTTN9nibKkVRwT52aLIuclahndw3616_nkI5rhSyDmecQbxQJ1",
+    "link": "https://www.creativelive.com/",
+    "description": "Live and on-demand courses in photography, art, design, music, and more."
+  },
+  {
+    "productName": "TreeHouse",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRioAv3OLegd1pjaW51rvkidAWtKzPvJQUXkCtbE66gwbj2FDXu",
+    "link": "https://teamtreehouse.com/",
+    "description": "Online coding courses and tracks for beginners."
+  },
+  {
+    "productName": "Alison",
+    "category": "course",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
+    "link": "https://alison.com/",
+    "description": "Free courses in various fields including IT, business, health, and languages."
+  },
+  {
+    "productName": "Marvel",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/a58b508b-a862-46ba-b877-6737ba9de565",
+    "link": "https://marvelapp.com/",
+    "description": "Design and prototype interfaces, and collaborate with teams; supports real-time feedback and iteration."
+  },
+  {
+    "productName": "Mockplus",
+    "category": "Ui",
+    "image": "https://www.mockplus.com/enUS/images/nav/logo-red-black.png",
+    "link": "https://www.mockplus.com/",
+    "description": "Rapidly design and prototype UI/UX interfaces; offers a wide range of pre-designed components."
+  },
+  {
+    "productName": "Origami Studio",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/56a3972e-80b8-4ad5-8cf0-7603c4ffe508",
+    "link": "https://origami.design/",
+    "description": "Design interactive interfaces and prototypes with complex animations; ideal for high-fidelity prototypes."
+  },
+  {
+    "productName": "Penpot",
+    "category": "Ui",
+    "image": "https://site-assets.plasmic.app/5a092f8c015ea24a9c0953e5ca065580.svg",
+    "link": "https://penpot.app/",
+    "description": "An open-source design and prototyping platform for cross-functional teams."
+  },
+  {
+    "productName": "Lunacy",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/96ea136c-d77d-4de8-b74d-8ce181a6bd98",
+    "link": "https://icons8.com/lunacy",
+    "description": "A f-ree design software with built-in assets and features, similar to Sketch but available for Windows."
+  },
+  {
+    "productName": "Pencil Project",
+    "category": "Ui",
+    "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
+    "link": "https://pencil.evolus.vn/",
+    "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
   }
 ]
