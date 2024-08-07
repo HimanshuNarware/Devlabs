@@ -392,6 +392,13 @@
     "description": "Extract color from the images and get color code and details"
   },
   {
+    "productName": "Fathom",
+    "category": "tools",
+    "image": "https://framerusercontent.com/images/l9XleNGx5L9gQKwyZraSd9qyI.png",
+    "link": "https://hello.fathom.fm/",
+    "description": "Podcast player that allows users to discover, save, and share highlights from podcasts, enhancing the listening experience."
+  },
+  {
     "productName": "calligrapher AI",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.7htvBR5bHbAr3UGwJ3jGdQHaEo?rs=1&pid=ImgDetMain",
