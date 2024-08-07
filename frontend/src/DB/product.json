@@ -6043,6 +6043,13 @@
     "description": "Free courses in various fields including IT, business, health, and languages."
   },
   {
+    "productName": "Origami Studio",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/56a3972e-80b8-4ad5-8cf0-7603c4ffe508",
+    "link": "https://origami.design/",
+    "description": "Design interactive interfaces and prototypes with complex animations; ideal for high-fidelity prototypes."
+  },
+  {
     "productName": "Penpot",
     "category": "Ui",
     "image": "https://site-assets.plasmic.app/5a092f8c015ea24a9c0953e5ca065580.svg",
