@@ -630,6 +630,13 @@
     "description": "PlayCode is an online code editor and playground for web development."
   },
   {
+    "productName": "Linear",
+    "category": "Project Management Tools",
+    "image": "https://styles.redditmedia.com/t5_3j5lm/styles/communityIcon_ic9d1ggiu2d81.png",
+    "link": "https://linear.app/",
+    "description": "Project management tool focused on creating, tracking, and managing tasks efficiently, particularly for software development teams."
+  },
+  {
     "productName": "edX",
     "category": "courses",
     "image": "http://bit.ly/4aK9dDT",
