@@ -12,13 +12,20 @@
     "image": "https://shorturl.at/upeTZ",
     "link": "https://bitbucket.org/",
     "description": "Bitbucket is a Git-based source code repository hosting service from Atlassian that offers a collaborative environment for code development, integrated CI/CD, and seamless integration with other Atlassian products."
-},
+  },
   {
     "productName": "Sublime Text",
     "category": "coding",
     "image": "https://t.ly/-PnbM",
     "link": "https://www.sublimetext.com/",
     "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It features a clean interface, powerful search and editing capabilities, and a wide range of plugins and customizations to enhance the development experience."
+  },
+  {
+    "productName": "Little alchemy 2",
+    "category": "tools",
+    "image": "https://th.bing.com/th/id/OIP.HPYRajzPj5anNJD03v38ugHaHa?w=164&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "link": "https://littlealchemy2.com/",
+    "description": "Mix items and create the world from scratch! Discover interesting items accompanied by funny descriptions and lose yourself exploring the huge, exciting library!"
   },
   {
     "productName": "Eclipse",
