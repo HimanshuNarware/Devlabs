@@ -47,7 +47,7 @@ function NavbarCenter( ) {
           <NavbarItem
             description={
               <div className="bookmarkTag">
-                <FontAwesomeIcon icon={faBookmark} /> Bookmark <span className="totBook">{totalBookmarks}</span>
+                <FontAwesomeIcon icon={faBookmark} /> Bookmark <span className="totBook ">{totalBookmarks}</span>
               </div>
             } 
             
