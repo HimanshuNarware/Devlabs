@@ -7,6 +7,13 @@
     "description": "Sentry is an open-source error tracking tool that helps developers monitor and fix crashes in real time."
   },
   {
+    "productName": "Bitbucket",
+    "category": "tools",
+    "image": "https://shorturl.at/upeTZ",
+    "link": "https://bitbucket.org/",
+    "description": "Bitbucket is a Git-based source code repository hosting service from Atlassian that offers a collaborative environment for code development, integrated CI/CD, and seamless integration with other Atlassian products."
+},
+  {
     "productName": "Sublime Text",
     "category": "coding",
     "image": "https://t.ly/-PnbM",
