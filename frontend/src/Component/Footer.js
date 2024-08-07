@@ -55,6 +55,7 @@ function Footer() {
                   <a href="https://www.devlabsstore.tech/">
                     <FaHome className="mr-2" /> Home
                   </a>
+                  
                 </li>
                 <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/about">
