@@ -76,7 +76,7 @@ const tools = [
 const BackendTools = () => {
   return (
     <div className="frontend-tools">
-    <h1 className="title" style={{marginTop:'60px',color:'white'}}>Backend Tools</h1>
+    <h1 className="title" style={{marginTop:'60px',color:'blue'}}>Backend Tools</h1>
     <div className="tools-grid">
       {tools.map((tool, index) => (
         <div key={index} className="tool-card">
