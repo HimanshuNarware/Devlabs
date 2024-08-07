@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/Movie.css";
-
 const movies = [
   {
     title: "The Pursuit of Happyness",

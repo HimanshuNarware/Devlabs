@@ -13,7 +13,7 @@ import data from "./accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 export default function Faq() {
   let [index, setIndex] = useState(0);
-  const [className, setClassName] = useState(null);
+  const [setClassName] = useState(null);
 
   return (
     <section className="faq">
