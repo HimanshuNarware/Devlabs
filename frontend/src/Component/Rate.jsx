@@ -5,6 +5,7 @@ import "./Rate.css";
 const Rate = () => {
   const [rating, setRating] = useState(null);
   const [hover, setHover] = useState(null);
+
   const [feedback, setFeedback] = useState("");
   const [showDialog, setShowDialog] = useState(true);
 
