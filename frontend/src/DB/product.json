@@ -6048,5 +6048,40 @@
     "image": "https://github.com/user-attachments/assets/a58b508b-a862-46ba-b877-6737ba9de565",
     "link": "https://marvelapp.com/",
     "description": "Design and prototype interfaces, and collaborate with teams; supports real-time feedback and iteration."
+  },
+  {
+    "productName": "Mockplus",
+    "category": "Ui",
+    "image": "https://www.mockplus.com/enUS/images/nav/logo-red-black.png",
+    "link": "https://www.mockplus.com/",
+    "description": "Rapidly design and prototype UI/UX interfaces; offers a wide range of pre-designed components."
+  },
+  {
+    "productName": "Origami Studio",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/56a3972e-80b8-4ad5-8cf0-7603c4ffe508",
+    "link": "https://origami.design/",
+    "description": "Design interactive interfaces and prototypes with complex animations; ideal for high-fidelity prototypes."
+  },
+  {
+    "productName": "Penpot",
+    "category": "Ui",
+    "image": "https://site-assets.plasmic.app/5a092f8c015ea24a9c0953e5ca065580.svg",
+    "link": "https://penpot.app/",
+    "description": "An open-source design and prototyping platform for cross-functional teams."
+  },
+  {
+    "productName": "Lunacy",
+    "category": "Ui",
+    "image": "https://github.com/user-attachments/assets/96ea136c-d77d-4de8-b74d-8ce181a6bd98",
+    "link": "https://icons8.com/lunacy",
+    "description": "A f-ree design software with built-in assets and features, similar to Sketch but available for Windows."
+  },
+  {
+    "productName": "Pencil Project",
+    "category": "Ui",
+    "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
+    "link": "https://pencil.evolus.vn/",
+    "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
   }
 ]
