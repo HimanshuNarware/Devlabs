@@ -1083,6 +1083,13 @@
     "description": "Virtual universe that lets you create, share experiences with friends"
   },
   {
+    "productName": "Behance",
+    "category": "UI_design",
+    "image": "https://static-00.iconduck.com/assets.00/logo-behance-icon-1024x1024-xoc10gee.png",
+    "link": "https://www.behance.net/",
+    "description": "Behance allows creatives to create detailed project portfolios that can include images, videos, and even interactive content. "
+  },
+  {
     "productName": "Banuba",
     "category": "tools",
     "image": "https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/original/288c1924-5ae2-405c-8e9f-858fa5bcd112.png",
