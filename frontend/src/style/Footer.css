@@ -266,26 +266,40 @@ ul a .mr-2 {
 }
 
 /* Hover effects for social icons */
-.icons a:hover .fa-linkedin {
+.icons:nth-child(1) a:hover{
   color: #0077b5;
   background-color: #0077b5;
+  scale: 1.3;
 }
-
-.icons a:hover .fa-twitter {
+.icons:nth-child(2) a:hover {
   color: #1da1f2;
   background-color: #1da1f2;
+  scale: 1.3;
+}
+.icons:nth-child(3) a:hover {
+  background-color: red;
+  scale: 1.3;
+}
+.icons:nth-child(4) a:hover {
+  background-color: blue;
+  scale: 1.3;
+}
+.icons:nth-child(5) a:hover {
+  background-color: rgb(91, 189, 250);
+  scale: 1.3;
 }
 
-.icons a:hover .fa-envelope {
+.icons:nth-child(7) a:hover {
   color: #ea4335;
   background-color: #ea4335;
+  scale: 1.3;
 }
 
-.icons a:hover .fa-github {
+.icons:nth-child(6) a:hover {
   color: #333;
   background-color: #333;
+  scale: 1.3;
 }
-
 /* Copyright */
 .copyright {
   background-color: rgba(0, 0, 0, 0.742);

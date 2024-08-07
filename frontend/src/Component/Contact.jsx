@@ -109,7 +109,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
+                <FontAwesomeIcon icon={faLinkedin} className="social-icon link-1" style={{color:'black'}}/>
               </a>
               <a
                 href="https://github.com/HimanshuNarware/Devlabs"
@@ -117,7 +117,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <FontAwesomeIcon icon={faGithub} className="social-icon" />
+                <FontAwesomeIcon icon={faGithub} className="social-icon link-2" style={{color:'black'}}/>
               </a>
               <a
                 href="https://twitter.com/"
@@ -125,7 +125,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <FontAwesomeIcon icon={faTwitter} className="social-icon" />
+                <FontAwesomeIcon icon={faTwitter} className="social-icon link-3" style={{color:'black'}} />
               </a>
               <a
                 href="https://facebook.com/"
@@ -133,7 +133,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <FontAwesomeIcon icon={faFacebook} className="social-icon" />
+                <FontAwesomeIcon icon={faFacebook} className="social-icon link-4" style={{color:'black'}}/>
               </a>
             </div>
           </div>

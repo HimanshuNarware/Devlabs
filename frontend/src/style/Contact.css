@@ -127,13 +127,31 @@
   /* margin: 0 10px; */
   /* background-color: #ccc; */
   color: #f3f6f8;
+  height: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
   /* transition: color 0.3s; */
 }
-
-.social-link:hover {
-  color: #0056b3;
+.link-1:hover {
+  background-color: #0056b3;
+  scale: 1.3;
+  transition: all 0.3s;
 }
-
+.link-2:hover{
+  background-color: white;
+  scale: 1.3;
+  transition: all 0.3s;
+}
+.link-3:hover{
+  background-color:rgb(246, 120, 120);
+  scale: 1.3;
+  transition: all 0.3s;
+}
+.link-4:hover{
+  background-color: #0056b3;
+  scale: 1.3;
+  transition: all 0.3s;
+}
 .social-links {
   display: flex;
   justify-content: center;
