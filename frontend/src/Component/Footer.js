@@ -201,10 +201,12 @@ function Footer() {
                   <a href="/" target="_blank" rel="noopener noreferrer">
                     <FaFacebookF color="white" fontSize={25} className="ico" />
                   </a>
+
                 </span>
                 <span className="icons">
                   <a href="/" target="_blank" rel="noopener noreferrer">
                     <FaGithubSquare
+                    
                       color="white"
                       fontSize={25}
                       className="ico"
