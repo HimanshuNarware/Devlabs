@@ -7,9 +7,16 @@ const Tool = require("../models/Tool");
 require("dotenv").config();
 
 const newUser = async (req, res) => {
+
+
   try {
     const { name, username, password } = req.body;
+    if (!password || typeof password !== 'string' || password.trim().length === 0) 
+      {
+      return res.status(400).json({ error: 'Invalid password' });
+    }
     const hashedPassword = passwordHash.generate(password);
+   
     const newData = new User({
       name: name,
       username: username,
