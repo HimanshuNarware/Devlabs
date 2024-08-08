@@ -6145,5 +6145,12 @@
     "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
+  },
+  {
+    "productName": "Jofibo",
+    "category": "resume",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRn3li_y0hhOQ95RDYR_ju3ViY5c92k2nPCQ89Ds8VInijiEBGK",
+    "link": "https://jofibo.com/",
+    "description": "Offers user-friendly resume and cover letter templates to help create professional and polished documents quickly."
   }
 ]
