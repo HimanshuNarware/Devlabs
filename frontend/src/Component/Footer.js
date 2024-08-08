@@ -192,7 +192,6 @@ function Footer() {
                     <BsYoutube color="white" fontSize={25} className="ico" />
                   </a>
                 </span>   
-
                 <span className="icons">
                   <a href="/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedinIn color="white" fontSize={25} className="ico" />
