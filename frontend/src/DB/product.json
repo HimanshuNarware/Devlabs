@@ -721,6 +721,27 @@
     "description": "Sharezone is a collaborative school organization app for iOS, Android.."
   },
   {
+    "productName": "Rock Paper Shotgun",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMmzCedMNEwpZb80a2UV9VzVtr7vdLVyaAA&s",
+    "link": "https://www.rockpapershotgun.com/",
+    "description": "PC gaming news, previews, reviews, opinion"
+  },
+  {
+    "productName": "Doodle",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxvzHZ-q0s93nZL8GThwMq4K_oRRCUX-fNQ&s",
+    "link": "https://doodles.google/",
+    "description": "Doodle things"
+  },
+  {
+    "productName": "Merriam Webster",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Merriam-Webster_logo.svg/800px-Merriam-Webster_logo.svg.png",
+    "link": "https://www.merriam-webster.com/",
+    "description": "Find definitions for over 300000 words from the most authoritative English dictionary"
+  },
+  {
     "productName": "Square",
     "category": "tools",
     "image": "https://1000logos.net/wp-content/uploads/2021/11/Square-logo.png",
