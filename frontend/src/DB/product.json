@@ -6327,5 +6327,19 @@
     "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
-  }
+  },
+  {
+  "productName": "Codrops",
+  "category": "tools",
+  "image": "https://www.10bestdesign.com/blog/content/images/2018/03/28.png",
+  "link": "https://tympanus.net/codrops/",
+  "description": "Codrops is a fantastic resource for experimental web design techniques and tutorials."
+},
+{
+  "productName": "WebDevSimplified",
+  "category": "tools",
+  "image": "https://pbs.twimg.com/profile_images/1086003406488113153/XBSj69e5_400x400.jpg",
+  "link": "https://courses.webdevsimplified.com/",
+  "description": "This site, along with its associated YouTube channel, provides simple explanations and tutorials on various web development topics, ideal for beginners and those looking to brush up on specific skills."
+},
 ]
