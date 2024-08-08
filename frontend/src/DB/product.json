@@ -1153,6 +1153,27 @@
     "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
   },
   {
+    "productName": "Instahyre",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNOqjQuxpQOCtxW7t2uaRIZWKmKuauNwxwWQ&s",
+    "link": "https://www.instahyre.com/",
+    "description": "Search and apply to jobs at 10000+ top companies"
+  },
+  {
+    "productName": "TrackXn",
+    "category": "tools",
+    "image": "https://storage.googleapis.com/5paisa-prod-storage/files/2022-10/tracxn%20ipo%20logo_1.png",
+    "link": "https://tracxn.com/",
+    "description": "Track the world's most innovative companies"
+  },
+  {
+    "productName": "Crunchbase",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRMD75Jv0lTnSSdZXo9MosPQ4JBVH0lfetmQ&s",
+    "link": "https://www.crunchbase.com/",
+    "description": "leading destination for company insights from early-stage startups"
+  },
+  {
     "productName": "OpenRead",
     "category": "tools",
     "image": "https://cdn.prod.website-files.com/64f2fa44b0818c378b17052e/66205c622bce7baa72bc366a_66197d73d04735705990f89f_OpenRead.png",
