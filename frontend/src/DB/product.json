@@ -6327,5 +6327,19 @@
     "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
-  }
+  },
+  {
+    "productName": "Teleport",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs-X9rcyol5FbE_125i5o7r7Hv6knYCmq0bw&s",
+    "link": "https://goteleport.com/",
+    "description": "Teleport offers a unified access plane for managing secure access to critical infrastructure, simplifying complex security operations for developers."
+  },
+  {
+    "productName": "Raycast",
+    "category": "tools",
+    "image": "https://www.raycast.com/uploads/redesign/new-appicon.png",
+    "link": "https://www.raycast.com/",
+    "description": "Raycast is a powerful launcher that allows developers to quickly access files, run scripts, and manage tasks with keyboard shortcuts, enhancing workflow efficiency."
+  },
 ]
