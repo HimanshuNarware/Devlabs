@@ -36,8 +36,8 @@ export default function Signup() {
       <h1>Signup</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label style={{color:"white"}}htmlFor="name">Name:</label>
-          <input style={{backgroundColor:"black",color:"white"}}
+          <label style={{ color: "white" }} htmlFor="name">Name:</label>
+          <input style={{ backgroundColor: "black", color: "white" }}
             type="text"
             id="name"
             value={name}
@@ -46,8 +46,8 @@ export default function Signup() {
           />
         </div>
         <div className="form-group">
-          <label style={{color:"white"}} htmlFor="username">Username:</label>
-          <input style={{backgroundColor:"black",color:"white"}}
+          <label style={{ color: "white" }} htmlFor="username">Username:</label>
+          <input style={{ backgroundColor: "black", color: "white" }}
             type="text"
             id="username"
             value={username}
@@ -56,8 +56,8 @@ export default function Signup() {
           />
         </div>
         <div className="form-group">
-          <label style={{color:"white"}} htmlFor="password">Password:</label>
-          <input style={{backgroundColor:"black",color:"white"}}
+          <label style={{ color: "white" }} htmlFor="password">Password:</label>
+          <input style={{ backgroundColor: "black", color: "white" }}
             type="password"
             id="password"
             value={password}
