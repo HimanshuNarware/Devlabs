@@ -31,7 +31,6 @@ function RateUsComponent({ previousContent }) {
       });
     }
   };
-
   return (
     <>
       <div className="rate-us-page">
@@ -44,6 +43,7 @@ function RateUsComponent({ previousContent }) {
                 className={star <= rating ? "star filled" : "star"}
                 onClick={() => handleStarClick(star)}
               >
+              
                 ★
               </span>
             ))}
