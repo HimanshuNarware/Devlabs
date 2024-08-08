@@ -74,12 +74,24 @@ const courses = [
       instructor: "David Wilson",
       price: 129.99,
     },
+    {
+      title: "Learn World",
+      category: "History",
+      description:
+        "LearnWorlds is an advanced online course creation platform .",
+      duration: "10 weeks",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2PQr4qbjQD4JcNSSO5Vs5-xU9KhXEGSugMw&s",
+      startDate: "2024-10-10",
+      endDate: "2024-12-20",
+      instructor: " Panos Siozos",
+      price: 150.99,
+    },
 ];
 
 const CoursesPlatform = () => {
   return (
-    <div className="container" style={{height: "auto"}}>
-      <h1 className="title">Available Courses</h1>
+    <div className="container" style={{ marginTop: "60px" }}>
+      <h1 className="title" style={{color:'white'}}>Available Courses</h1>
       <div className="grid-container">
         {courses.map((course, index) => (
           <div key={index} className="grid-item" style={{ objectFit: 'cover', maxWidth: '100%' }}>
