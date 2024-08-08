@@ -1323,6 +1323,34 @@
     "description": "Use Evernote to capture more than just words. Harness the power of the internet with Web Clipper."
   },
   {
+    "productName": "Screener",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvIGx-lcHLTGs1yLP0Pow2tgO0zTbx4Wg-ow&s",
+    "link": "https://www.screener.in/",
+    "description": "Stock analysis and screening tool for investors in India"
+  },
+  {
+    "productName": "INDIAai",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYE7RFTMp6fKCLu4Cvbhnyo5-pY9AIf9nw_w&s",
+    "link": "https://indiaai.gov.in/",
+    "description": "For leveraging transformative technologies"
+  },
+  {
+    "productName": "Owler",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQqkG4T9TSk81tm8DYuIGk-YFBD6zDdkwc-w&s",
+    "link": "https://corp.owler.com/",
+    "description": "Discover your direct and indirect competitors"
+  },
+  {
+    "productName": "Privco",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZVnBrAauubFhKaiQJ6h_IV3tS-kLWAmqHbw&s",
+    "link": "https://www.privco.com/",
+    "description": "Go-to-source for valuable insights into the financial health"
+  },
+  {
     "productName": "Scaler",
     "category": "courses",
     "image": "https://bit.ly/3XoZKgc",
