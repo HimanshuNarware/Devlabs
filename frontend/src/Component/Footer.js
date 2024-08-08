@@ -80,7 +80,7 @@ function Footer() {
                   <a href="https://www.devlabsstore.tech/profile">
                     <FaUser className="mr-2" /> My Profile
                   </a>
-                  
+                
                 </li>
                 <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/open-source">
