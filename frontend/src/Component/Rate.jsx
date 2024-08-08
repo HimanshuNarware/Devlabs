@@ -47,7 +47,7 @@ const Rate = () => {
           </div>
           <p className='rate-us__text'>Your Rating is {rating} out of 5.</p>
           <textarea
-    
+       
             className='rate-us__feedback-textarea'
             placeholder='Leave your feedback here...'
             value={feedback}

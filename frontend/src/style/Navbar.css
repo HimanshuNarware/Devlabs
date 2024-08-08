@@ -135,7 +135,7 @@
 }
 
 #nav-icon1.open span:nth-child(3) {
-  top: 18px;
+  top: 18px;  
   transform: rotate(-135deg);
 }
 .navbar-left {

@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   text-align: start;
   background-image: url("https://t3.ftcdn.net/jpg/04/57/92/32/360_F_457923238_8zmuShXTsS2CdsXisZSIutaBqKzl5haw.jpg");
-}
+}  
 :root {
   --scrollbar-bg: white; /* Background color of the scrollbar track */
   --scrollbar-thumb: #0d6efd; /* Color of the scrollbar thumb */

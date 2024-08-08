@@ -191,7 +191,7 @@ function Footer() {
                   <a href="/" target="_blank" rel="noopener noreferrer">
                     <BsYoutube color="white" fontSize={25} className="ico" />
                   </a>
-                </span>
+                </span>   
 
                 <span className="icons">
                   <a href="/" target="_blank" rel="noopener noreferrer">

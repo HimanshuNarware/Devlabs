@@ -30,7 +30,7 @@ function Home(props) {
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(jsonTools);
   const [currentPage, setCurrentPage] = useState(1);
-  const postPerpage = 16;
+  const postPerpage = 16;  
   const lastPostIndex = currentPage * postPerpage;
   const firstPostIndex = lastPostIndex - postPerpage;
   const [dataBaseData, setDataBaseData] = useState([]);
