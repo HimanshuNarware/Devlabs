@@ -666,6 +666,27 @@
     "description": "Create photos, collages and animated GIFs."
   },
   {
+    "productName": "Mappls",
+    "category": "tools",
+    "image": "https://play-lh.googleusercontent.com/01m5YSLauiGMh4MJm3AtCLmS7KQNfUOjisGTCHuEVYySmevnE7qWkHGsWSB8zLV0RPA",
+    "link": "https://www.mappls.com/",
+    "description": "Mappls portal"
+  },
+  {
+    "productName": "Waze",
+    "category": "tools",
+    "image": "https://gmbapi.com/wp-content/uploads/2023/12/Waze.jpg",
+    "link": "https://www.waze.com/live-map/",
+    "description": "Realtime driving directions based on live traffic updates"
+  },
+  {
+    "productName": "Medi Buddy",
+    "category": "tools",
+    "image": "https://www.healthcareradius.in/cloud/2021/11/15/MediBuddy-New-Logo-With-Tagline-scaled.jpg",
+    "link": "https://www.medibuddy.in/",
+    "description": " Healthcare providers in India"
+  },
+  {
     "productName": "Delina",
     "category": "tools",
     "image": "https://cdn.textstudio.com/output/sample/normal/7/3/8/2/delina-logo-275-2837.png",
