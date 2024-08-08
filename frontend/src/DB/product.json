@@ -977,6 +977,27 @@
     "description": "Simple, scalable virtual machines for all your web hosting and VPS hosting needs."
   },
   {
+    "productName": "VoiceLiner",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBmZu-YdSbZTW8vwcJsRDvKoDXHYgllpZvbg&s",
+    "link": "https://a9.io/voiceliner/",
+    "description": "The fastest way to capture and structure your thoughts"
+  },
+  {
+    "productName": "SoundCloud",
+    "category": "tools",
+    "image": "https://ew.com/thmb/m4hc86lh-QaXAl1U91-V2MGRWZk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Soundcloud-30b9efaf99f54cd6bdb2a45cd18cf444.jpg",
+    "link": "https://soundcloud.com/",
+    "description": "Discover and play over 320 million music tracks"
+  },
+  {
+    "productName": "FSI",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Logo_FSI.svg",
+    "link": "https://fsi.nic.in/",
+    "description": "Forest Survey of India"
+  },
+  {
     "productName": "Krohne",
     "category": "tools",
     "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/69330e75443809.5c538d8164f28.png",
