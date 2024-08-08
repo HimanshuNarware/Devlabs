@@ -7,7 +7,6 @@ const Rate = () => {
   const [hover, setHover] = useState(null);
   const [feedback, setFeedback] = useState("");
   const [showDialog, setShowDialog] = useState(true);
-
   const handleSubmit = () => {
     if (rating && feedback) {
       alert(`Rating: ${rating}\nFeedback: ${feedback}`);
