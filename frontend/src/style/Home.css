@@ -517,6 +517,12 @@
   cursor: pointer;
 }
 
+.filter-container{
+  width: 100vw;
+  height: 6vh;
+ 
+}
+
 .active_filter, .filter-button:hover {
   background-color: #09001f63;
   backdrop-filter: blur(10px);

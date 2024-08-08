@@ -21,7 +21,6 @@ function NavbarLeft(props, showSideNav) {
     e.preventDefault();
     props.setShowSideNav(!props.showSideNav);
   }
-
   function handleItemClick() {
     props.setShowSideNav(false);
   }
@@ -48,3 +47,4 @@ function NavbarLeft(props, showSideNav) {
 }
 
 export default NavbarLeft;
+
