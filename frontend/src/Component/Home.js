@@ -27,8 +27,6 @@ function Home(props) {
       });
     }
   }, [props.searchQuery]);
-
-  
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(jsonTools);
   const [currentPage, setCurrentPage] = useState(1);
