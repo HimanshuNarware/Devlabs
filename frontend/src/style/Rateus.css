@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .toast-success {
   background-color: #28a745; /* Green background for success */
   color: white;
@@ -38,36 +39,32 @@
   color: #000;
 }
 
-.star-rating {
+.emoji-rating {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
 }
 
-.star {
+.emoji {
   font-size: 24px;
-  color: #f0fafd;
   cursor: pointer;
-  transition: color 0.3s;
-  position: relative;
+  transition: transform 0.3s, text-shadow 0.3s;
+  margin: 0 10px;
 }
 
-.star:before {
-  content: '★';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  color: transparent;
-  transition: text-shadow 0.3s, transform 0.3s;
-}
-
-.star:hover:before,
-.star.filled:before {
-  color: #184ce9;
+.emoji.selected {
+  transform: scale(1.5);
   text-shadow: 0 0 20px #f7b731;
-  transform: scale(1.2);
+  animation: shine 1.5s infinite;
+}
+
+@keyframes shine {
+  0% {
+    text-shadow: 0 0 10px #f7b731, 0 0 20px #f7b731, 0 0 30px #f7b731, 0 0 40px #f7b731, 0 0 50px #f7b731, 0 0 60px #f7b731, 0 0 70px #f7b731;
+  }
+  100% {
+    text-shadow: 0 0 20px #f7b731, 0 0 30px #f7b731, 0 0 40px #f7b731, 0 0 50px #f7b731, 0 0 60px #f7b731, 0 0 70px #f7b731, 0 0 80px #f7b731;
+  }
 }
 
 .feedback-textarea {
@@ -84,7 +81,7 @@
 .submit-button {
   width: 30%;
   padding: 10px;
-  background-color:#101623 ;
+  background-color: #101623;
   color: white;
   font-weight: 600;
   border: none;

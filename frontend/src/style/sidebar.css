@@ -145,7 +145,7 @@
     box-shadow: 0 0 10px var(--bubble-color), 
                 0 0 20px var(--bubble-color), 
                 0 0 30px var(--bubble-color), 
-                0 0 40px var(--bubble-color);
+                0 0 40px var(--bubble-color);  
     animation: floatingBubbles 2s ease-in-out infinite;
   }
   

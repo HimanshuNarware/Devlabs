@@ -7,8 +7,8 @@ function RateUsComponent({ previousContent }) {
   const [rating, setRating] = useState(0);
   const [feedback, setFeedback] = useState("");
 
-  const handleStarClick = (star) => {
-    setRating(star);
+  const handleEmojiClick = (emojiIndex) => {
+    setRating(emojiIndex);
   };
 
   const handleFeedbackChange = (e) => {
@@ -16,12 +16,9 @@ function RateUsComponent({ previousContent }) {
   };
 
   const handleSubmit = () => {
-    // Check if both rating and feedback are provided
     if (rating !== 0 && feedback.trim() !== "") {
-      // Reset the state after submitting
       setRating(0);
       setFeedback("");
-      // Show toast message
       toast.success("Thanks For Your Feedback :)", {
         position: "top-center"
       });
@@ -31,20 +28,22 @@ function RateUsComponent({ previousContent }) {
       });
     }
   };
+
+  const emojis = ["😢", "😟", "😐", "😊", "😍"];
+
   return (
     <>
       <div className="rate-us-page">
         <div className="rate-us-container">
           <h2 className="rate-us-heading">Rate Our Website</h2>
-          <div className="star-rating">
-            {[1, 2, 3, 4, 5].map((star) => (
+          <div className="emoji-rating">
+            {emojis.map((emoji, index) => (
               <span
-                key={star}
-                className={star <= rating ? "star filled" : "star"}
-                onClick={() => handleStarClick(star)}
+                key={index}
+                className={index + 1 === rating ? "emoji selected" : "emoji"}
+                onClick={() => handleEmojiClick(index + 1)}
               >
-              
-                ★
+                {emoji}
               </span>
             ))}
           </div>
