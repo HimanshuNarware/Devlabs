@@ -5,14 +5,13 @@
     "image": "https://www.sentry.io/_assets/branding/png/sentry-horizontal-black.png",
     "link": "https://sentry.io/welcome/",
     "description": "Sentry is an open-source error tracking tool that helps developers monitor and fix crashes in real time."
-  },
-  
+  },  
   {
     "productName": "PyCharm",
-    "category": "coding",
+    "category": "tools",
     "image": "https://ln.run/x4uWe",
     "link": "https://www.jetbrains.com/pycharm/",
-    "description": "PyCharm is a powerful integrated development environment (IDE) from JetBrains, specifically designed for Python development. It offers intelligent code assistance, debugging, testing, and a wide range of tools to support professional developers in writing clean, maintainable Python code."
+    "description": "PyCharm is a powerful integrated development environment (IDE) from JetBrains, specifically designed for Python development."
 },
   {
     "productName": "Bitbucket",
