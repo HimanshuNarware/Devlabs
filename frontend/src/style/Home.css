@@ -154,19 +154,66 @@
   font-size: 3rem;
   font-weight: 500;
 }
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
 
 .content-box-home {
   max-width: 100vw;
+  position: relative;
   background-color: #101623;
-  border: 2px solid rgba(79, 71, 125, 255);
+  border: 10px;
   margin: 20px;
   padding: 7px 12px;
-  border-radius: 12px;
-  box-shadow: 2px 2px 8px rgba(79, 71, 125, 255);
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px violet;
   transform-style: preserve-3d;
   transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+.content-box-home::before,
+.content-box-home::after {
+  content: "";
+  position: absolute;
+  inset: -0.3rem;
+  z-index: 2;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    #672ba6,
+    #8b5cf6,
+    #cfbff7,
+    #c35cf6,
+    #6c2bb1
+  );
+  
+  border-radius: inherit;
+  animation: moving 3s linear infinite;
 
+  mask: linear-gradient(
+      to right,
+      black 1%,
+      transparent 0%,
+      transparent 99%,
+      black 90%
+    ),
+    linear-gradient(
+      to bottom,
+      black 1%,
+      transparent 0%,
+      transparent 99%,
+      black 90%
+    );
+}
+
+@keyframes moving {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
 @media (max-width: 769px) {
   .hero-container {
     flex-direction: column;
@@ -315,7 +362,7 @@
 
 .content-box-home:hover {
   transform: scale(1.1) ;
-  box-shadow: 0px 0px 25px #8b5cf6;
+  box-shadow: 0px 0px 15px #b85cf6e1;
   z-index: 3;
 }
 
@@ -468,6 +515,11 @@
   box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
   background-color: #8b5cf6;
   cursor: pointer;
+}
+.filter-container{
+  width: 100vw;
+  height: 6vh;
+ 
 }
 
 .active_filter, .filter-button:hover {

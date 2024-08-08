@@ -4,12 +4,6 @@ input[type=radio]{
 .Rate{
     height: 500px;
 }
-.Rate .star{
-    cursor: pointer;
-}
-.star FaStar{
-    border: 1px solid #fff;
-}
 
 .Rate p{
     color: #fff;
@@ -17,4 +11,10 @@ input[type=radio]{
     font-weight: 400;
     margin-top: 20px;
     /* background-color: ; */
+}
+.Rate .star{
+    cursor: pointer;
+}
+.star FaStar{
+    border: 1px solid #fff;
 }
