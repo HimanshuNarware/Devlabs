@@ -64,3 +64,4 @@ function RateUsComponent({ previousContent }) {
 }
 
 export default RateUsComponent;
+  

@@ -7,22 +7,21 @@ import ActionProvider from "../ChatBot/ActionProvider";
 import "./ChatAssistant.css";
 import chatbotLogo from "../assets/chatbotLogo.jpeg";
 import chatbotLogo1 from "../assets/logo1.png";
-
 const ChatAssistant = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleChatbot = () => {
     setIsOpen(!isOpen);
   };
-
   const closeChatbot = () => {
     setIsOpen(false);
   };
 
   return (
     <div className='chatbot'>
+      <span className={`tooltiptext ${isOpen ? 'hidden' : ''}`}>Chat bot</span>
       <img
-        className='Logo'
+        className={`Logo ${isOpen ? 'hidden' : ''}`}
         src={chatbotLogo}
         alt='Logo'
         onClick={toggleChatbot}

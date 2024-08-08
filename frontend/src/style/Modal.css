@@ -20,19 +20,19 @@
 }
 
 .close-buttoned {
-  position: absolute;
-  top: 0px;
-  right: 5px;
   width: 50px;
   height: 50px;
-  background-color: black; /* Change to black */
+  background-color: rgb(100, 28, 145); /* Change to purple */
   border-radius: 50%;
+  align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
-  cursor: pointer;
+  font-size: 30px;
+  margin-bottom: 3px;
+  cursor: none;
   color: white;
   border: none; /* Remove the border */
   outline: none; /* Remove the default outline */
+  margin-left: auto;
 }
