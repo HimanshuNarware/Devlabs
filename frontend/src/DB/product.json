@@ -602,6 +602,27 @@
     "description": "One Library All of India. The national digital library of India"
   },
   {
+    "productName": "PlayStation Store",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/PlayStation_Store.png",
+    "link": "https://store.playstation.com/",
+    "description": "Enjoy hundreds of PS5, PS4 and classic PlayStation games, online multiplayer, and more unmissable benefits"
+  },
+  {
+    "productName": "ADDitude",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT-bSoR8MmFwovOirn_X4A03ke6HAqTKyfiA&s",
+    "link": "https://www.additudemag.com/",
+    "description": "Symptom Checker"
+  },
+  {
+    "productName": "GamesRadar",
+    "category": "tools",
+    "image": "https://cdn.mos.cms.futurecdn.net/qamuzLyKtaczLXpc4Xt4T5.jpg",
+    "link": "https://www.gamesradar.com/",
+    "description": "Games related"
+  },
+  {
     "productName": "Springer",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Spring_Framework_Logo_2018.svg/2560px-Spring_Framework_Logo_2018.svg.png",
