@@ -288,45 +288,40 @@ function Home(props) {
         <div className="hero">
           <div className="hero-text">
             <div id="hero" className="hero-container">
-              <div className="hero-content">
-                <h1 className="hero-heading">
-                  <span>Welcome to</span>
-                  <br /> Devlabs!
-                  <h1 className="hero-subheading">
-                    Discover Free Tools,
-                    <br />
-                    Empower Your Projects.
-                    <br />
-                    <span className="hero-end">
-                      {" "}
-                      -Built by open-source community
-                    </span>
-                  </h1>
-                </h1>
+            <div
+  className="hero-content"
+  style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
+>
+  <div className="hero-heading">
+    <span>Welcome to</span>
+    <br /> Devlabs!
+    <h1 className="hero-subheading">
+      Discover Free Tools,
+      <br />
+      Empower Your Projects.
+      <br />
+      <span className="hero-end"> -Built by open-source community</span>
+    </h1>
+    <div
+      className="hero-button-container"
+      style={{ display: "flex", justifyContent: "center" }}
+    >
+      <button className="hero-button">
+        <NavbarItem description="Get Started" to="/open-source" />
+      </button>
+    </div>
+  </div>
+  <div className="hero-image">
+    <Tilt>
+      <img src={Devlabs} alt="devlabs-removebg-preview" />
+    </Tilt>
+  </div>
+</div>
 
-
-                <div className="hero-button-container" style={{ display: "flex", justifyContent: "center" }}>
-                  <div
-                    className="hero-button-container"
-                    style={{ display: "flex", justifyContent: "center" }}
-                  >
-
-                    <button className="hero-button">
-                      <NavbarItem description="Get Started" to="/open-source" />
-                    </button>
-                  </div>
-                </div>
-                <div className="hero-image">
-                  <Tilt>
-                    <img src={Devlabs} alt="devlabs-removebg-preview" />
-                  </Tilt>
-                </div>
-              </div>
             </div>
           </div>
           <br />
-          <h3> Lets Get, What You seek!</h3>
-          {/* <NavbarRight setSearchQuery={setSearchQuery} /> */}
+          <h3 className="let-text"> Lets Get, What You seek!</h3>
           <div className="search-feilds">
             <input
               className="search-input text-white"
