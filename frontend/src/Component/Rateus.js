@@ -21,3 +21,5 @@ export default function Rate({ rating, setRating }) {
     </div>
   );
 }
+
+

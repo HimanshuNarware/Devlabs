@@ -121,12 +121,56 @@ const movies = [
     releaseDate: "2023-8-1"
   },
   {
+    title: "Zoho Connect",
+    category: "Collaboration Tools",
+    description: "Zoho Connect is a team collaboration software that unifies people, resources, and applications on a single platform for efficient communication and collaboration.",
+    image: "https://www.zohowebstatic.com/sites/zweb/images/ogimage/connect-logo.png",
+    releaseDate: "2016-09-15"
+  },
+  {
+    title: "Bitrix24",
+    category: "Collaboration Tools",
+    description: "Bitrix24 is a collaboration platform offering a suite of tools for communication, project management, CRM, and more, designed to improve team productivity and efficiency.",
+    image: "https://logowik.com/content/uploads/images/bitrix241512.jpg",
+    releaseDate: "2012-04-12"
+  }, 
+  {
+    title: "Glip",
+    category: "Collaboration Tools",
+    description: "Glip is a collaborative platform designed for teams to communicate, manage projects, and streamline workflows effectively.",
+    image: "https://img.utdstc.com/icon/5dc/193/5dc1931ffa409f64bd7c56c5e9bdb5fc13aa04a740fdfb39c4995eba9e9a06b5:200",
+    releaseDate: "2014-05-15"
+  },
+  {
+    title: "Ryver",
+    category: "Collaboration Tools",
+    description: "Ryver is a team communication and collaboration platform that integrates chat, task management, and workflow automation to streamline team productivity.",
+    image: "https://ryver.com/wp-content/uploads/2024/05/thumbnail_ryver-cloverleaf-graphic-ACompany.png",
+    releaseDate: "2015-09-01"
+  },
+  {
     title: "nTask",
     category: "Collaboration Tools",
     description: "nTask is a project management and collaboration tool that helps teams manage tasks, projects, and workflows efficiently.",
     image: "https://www.ntaskmanager.com/wp-content/uploads/2022/05/nTask-Logo-Vertical.svg",
     releaseDate: "2015-07-01"
-  },  
+  },
+  
+  {
+    title: "Flock",
+    category: "Collaboration Tools",
+    description: "Flock is a team communication and collaboration platform that provides messaging, video conferencing, and task management to enhance team productivity.",
+    image: "https://www.flock.com/hubfs/Flock-Logo%20-%20Color%20-%20Inverted.svg",
+    releaseDate: "2014-11-01"
+  }, 
+  {
+    title: "Chanty",
+    category: "Collaboration Tools",
+    description: "Chanty is a team communication and collaboration tool that offers chat, task management, and video conferencing to enhance team productivity and streamline workflows.",
+    image: "https://super-monitoring.com/blog/wp-content/uploads/2022/07/chanty.png.webp",
+    releaseDate: "2017-01-01"
+  },   
+
 ];
 const Collaboration = () => {
   return (
