@@ -2,133 +2,89 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BsBookmark } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
-import SidebarContent from "./SidebarContent";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faBookmark,
+  faCode,
+  faInfoCircle,
+  faTasks,
+  faQuestionCircle,
+  faStar,
+  faUser,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+import { FaRobot, FaUserSecret, FaFilm, FaCogs, FaLaptopCode, FaTools, FaBook, FaUsers, FaTasks } from "react-icons/fa";
+import "../../style/sidebar.css";
 
 function Sidebar({ showSideNav }) {
   const sidebarContent = [
-    {
-      name: "all",
-      description: "All",
-      url: "/",
-    },
-    {
-      name: "remote",
-      description: "Remote Jobs",
-      url: "/remote-jobs",
-    },
-    {
-      name: "ai",
-      description: "AI",
-      url: "/ai",
-    },
-    {
-      name: "ethical",
-      description: "Ethical Hacking",
-      url: "/ethical-hacking",
-    },
-    {
-      name: "movies",
-      description: "Movie | Series",
-      url: "/movies-series",
-    },
-    {
-      name: "extension",
-      description: "Extension",
-      url: "/extension",
-    },
-    {
-      name: "ui",
-      description: "UI Design",
-      url: "/ui-design",
-    },
-    {
-      name: "tools",
-      description: "Frontend Tools",
-      url: "/front-end-tools",
-    },
-    {
-      name: "coding",
-      description: "Coding Platforms",
-      url: "/coding-platform",
-    },
-    {
-      name: "course",
-      description: "Course Platforms",
-      url: "/cources-platform",
-    },
-    {
-      name: "productivity",
-      description: "Productivity Tools",
-      url: "/productivity-tools",
-    },
-    {
-      name: "collaboration",
-      description: "Collaboration Tools",
-      url: "/collaboration-tools",
-    },
+    { name: "all", description: "All", url: "/", icon: AiFillHome },
+    { name: "remote", description: "Remote Jobs", url: "/remote-jobs", icon: BsBookmark },
+    { name: "ai", description: "AI", url: "/ai", icon: FaRobot },
+    { name: "ethical", description: "Ethical Hacking", url: "/ethical-hacking", icon: FaUserSecret },
+    { name: "movies", description: "Movie | Series", url: "/movies-series", icon: FaFilm },
+    { name: "extension", description: "Extension", url: "/extension", icon: FaCogs },
+    { name: "ui", description: "UI Design", url: "/ui-design", icon: FaLaptopCode },
+    { name: "frontend-tools", description: "Frontend Tools", url: "/front-end-tools", icon: FaTools },
+    { name: "backend-tools", description: "Backend Tools", url: "/back-end-tools", icon: FaTools },
+    { name: "coding", description: "Coding Platforms", url: "/coding-platform", icon: FaBook },
+    { name: "productivity", description: "Productivity Tools", url: "/productivity-tools", icon: FaTasks },
+    { name: "collaboration", description: "Collaboration Tools", url: "/collaboration-tools", icon: FaUsers },
   ];
+
   return (
-    <div className={`sidebar ${showSideNav ? "active" : ""}`}>
-      <div
-        className={`sidebar-content sidebar-btns ${
-          showSideNav ? "active" : ""
-        }`}
-      >
-        <div className="sidebar-btn home-btn">
-          <Link
-            to="/"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
+    <div style={{ marginTop: "10px" }} className={`sidebar ${showSideNav ? "active" : ""}`}>
+      <div className={`sidebar-content sidebar-btns ${showSideNav ? "active" : ""}`}>
+        <div className="sidebar-btn home-btn" key="home">
+          <Link to="/" className="Link Bookmark nav-link active" aria-current="page">
             <AiFillHome /> Home
           </Link>
         </div>
-        <div className="sidebar-btn bookmark-btn">
-          <Link
-            to="/bookmark"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
+        <div className="sidebar-btn bookmark-btn" key="bookmark">
+          <Link to="/bookmark" className="Link Bookmark nav-link active" aria-current="page">
             <BsBookmark /> BookMark
           </Link>
         </div>
-        <div className="sidebar-btn home-btn">
-          <Link
-            to="/about"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
-            About Us
+        <div className="sidebar-btn home-btn" key="about">
+          <Link to="/about" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faInfoCircle} /> About Us
           </Link>
         </div>
-        <div className="sidebar-btn bookmark-btn">
-          <Link
-            to="/open-source"
-            className="Link  Bookmark nav-link active"
-            aria-current="page"
-          >
-            Open Source
+        <div className="sidebar-btn bookmark-btn" key="contact">
+          <Link to="/contact" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faEnvelope} /> Contact
+          </Link>
+        </div>
+        <div className="sidebar-btn bookmark-btn" key="open-source">
+          <Link to="/open-source" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faCode} /> Open Source
+          </Link>
+        </div>
+        <div className="sidebar-btn bookmark-btn" key="faq">
+          <Link to="/faq" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faQuestionCircle} /> FAQ's
+          </Link>
+        </div>
+        <div className="sidebar-btn bookmark-btn" key="rate-us">
+          <Link to="/rateus" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faStar} /> Rate Us
+          </Link>
+        </div>
+        <div className="sidebar-btn profile-btn" key="profile">
+          <Link to="/profile" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faUser} /> My Profile
           </Link>
         </div>
       </div>
-      {sidebarContent.map((item, index) => (
-        <Link
-          to={item.url}
-          id={index}
-          className="Link  Bookmark nav-link active"
-          aria-current="page"
-        >
-          <SidebarContent
-            key={index}
-            name={item.name}
-            description={item.description}
-            active={showSideNav}
-          />
-        </Link>
+
+      {sidebarContent.map((item) => (
+        <div className="sidebar-btn" key={item.name}>
+          <Link to={item.url} className="Link Bookmark nav-link active" aria-current="page">
+            {item.icon ? <item.icon /> : <FontAwesomeIcon icon={faTasks} />} {item.description}
+          </Link>
+        </div>
       ))}
-      <div style={{ marginTop: "20px" }} />
-      ))
-      <div style={{ marginTop: "20px" }} />
     </div>
   );
 }
