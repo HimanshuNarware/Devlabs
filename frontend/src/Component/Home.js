@@ -18,7 +18,6 @@ function Home(props) {
   const [bookmarks, setBookmark] = useState(null);
   const [localStorageValue, setLocalStorageValue] = useState(
     localStorage.getItem("filter") || ""
-    
   );
   const ref = useRef(null);
   useEffect(() => {
@@ -29,6 +28,7 @@ function Home(props) {
     }
   }, [props.searchQuery]);
 
+  
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(jsonTools);
   const [currentPage, setCurrentPage] = useState(1);

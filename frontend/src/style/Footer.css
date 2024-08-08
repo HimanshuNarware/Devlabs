@@ -276,6 +276,7 @@ ul a .mr-2 {
 }
 
 
+
 .icons:nth-child(2) a::after {
   background: linear-gradient(40deg, #96d4fb, #1da1f2);
 }
