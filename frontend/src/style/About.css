@@ -78,7 +78,7 @@
 .about__grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 0px;
   padding: 10px;
   margin-top: 4rem;
 }
@@ -228,7 +228,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5%;
+  gap: 4%;
   margin: 40px;
   font-size: 1.6vmax;
   margin-top: 8rem;
@@ -330,7 +330,7 @@
 }
 
 .about__content-box .about__logo {
-  width: 350px;
+  width: 315px;
 }
 
 .about__content-box h3 {
@@ -354,12 +354,12 @@
 .about__grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 10px;
+  margin: -25px;
   margin-top: 4rem;
 }
 
 .about__contributor-container {
-  gap: 5%;
+  gap: 4%;
   margin: 40px;
   font-size: 2rem;
   margin-top: 6rem;
