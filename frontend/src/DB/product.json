@@ -49,7 +49,7 @@
   },  
   {
     "productName": "Ghostery Extension",
-    "category": "Extensions",
+    "category": "extensions",
     "image": "https://shorturl.at/IHnap",
     "link": "https://www.ghostery.com/",
     "description": "Ghostery is a powerful browser extension that enhances your privacy by blocking trackers and providing detailed insights into who is collecting your data. It's available for multiple browsers and helps speed up page loading times while ensuring a more private browsing experience."
@@ -99,7 +99,7 @@
 },
   {
     "productName": "StayFocusd",
-    "category": "Extensions",
+    "category": "extensions",
     "image": "https://shorturl.at/kctDc",
     "link": "https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji",
     "description": "StayFocusd is a browser extension for Google Chrome that helps improve productivity by restricting the amount of time you can spend on time-wasting websites. It allows you to block or limit access to distracting websites, keeping you focused on your work."
