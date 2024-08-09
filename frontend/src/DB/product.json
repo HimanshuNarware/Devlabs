@@ -6383,5 +6383,12 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzZsK3SAa78Wrg7eq8xB0WEmpvw_3GerIpQ&s",
     "link": "https://docs.digitalocean.com/products/marketplace/catalog/restyaboard/",
     "description": "Create interactive, real-time animations for apps and websites."
+  },
+  {
+    "productName": "Spline",
+    "category": "Tools",
+    "image": "https://github.com/user-attachments/assets/e60497f3-85cf-4e62-bc17-d406b9f993cf",
+    "link": "https://app.spline.design/signin",
+    "description": "Spline is a free 3D design software with real-time collaboration to create web interactive experiences in the browser. Easy 3d modeling, animation"
   }
 ]
