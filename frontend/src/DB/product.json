@@ -1,5 +1,12 @@
 [
   {
+    "productName": "HubSpot",
+    "category": "Business",
+    "image": "https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/logos/hubspot-academy-logo-color.svg",
+    "link": "https://www.hubspot.com/products/crm",
+    "description": "With the easy-to-use HubSpot CRM, you’ll never manually update reports or wonder how your team is tracking toward quotas. Your pipeline always stays up to date, so you can spend less time managing and more time selling."
+},
+  {
     "productName": "Sentry",
     "category": "Tool",
     "image": "https://www.sentry.io/_assets/branding/png/sentry-horizontal-black.png",
