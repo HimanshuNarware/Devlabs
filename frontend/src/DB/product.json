@@ -85,7 +85,7 @@
 
   {
     "productName": "edclub",
-    "category": "education",
+    "category": "courses",
     "image": "https://static.typingclub.com/m/website/logo.png",
     "link": "https://www.edclub.com/",
     "description": "edclub is a web-based and fully customizable educational platform. Students can learn in class, at home, or wherever an internet connection can be found. Students are already familiar with the layout of the program because the design is very similar to popular games. Each lesson provides instant, meaningful feedback that encourages students to continue practicing. "
@@ -176,7 +176,7 @@
   },
   {
     "productName":"JSBin",
-    "category":"Web Development Platform",
+    "category":"web",
     "image":"https://shorturl.at/kblvi",
     "link":"https://jsbin.com/",
     "description":"JS Bin is a webapp specifically designed to help JavaScript and CSS folk test snippets of code, within some context, and debug the code collaboratively."
@@ -225,7 +225,7 @@
   },
   {
     "productName": "Eclipse",
-    "category": "IDEs",
+    "category": "web",
     "image": "https://addonwebsolutions.com/wp-content/uploads/2018/11/eclipse.png",
     "link": "https://www.eclipse.org/",
     "description": "Versatile open-source IDE supporting multiple languages with robust plugin ecosystem."
@@ -3803,7 +3803,7 @@
   },
   {
     "productName": "StackBlitz",
-    "category": "Online Code Editor",
+    "category": "coding",
     "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
     "link": "https://stackblitz.com/",
     "description": "Instant dev experiences: Click, code, no local setup required."
@@ -3866,28 +3866,28 @@
   },
   {
     "productName": "devChallenges.io",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://bit.ly/462R570",
     "link": "https://devchallenges.io/",
     "description": "Coding challenges and projects to practice coding skills"
   },
   {
     "productName": "frontendpractice",
-    "category": "Coding",
+    "category": "coding",
     "image": "frontendprac.png",
     "link": "https://www.frontendpractice.com/",
     "description": "You can find a collection of projects with varying levels of difficulty."
   },
   {
     "productName": "javascript30",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://bit.ly/3qEuMED",
     "link": "https://javascript30.com/",
     "description": "Building 30 different projects over 30 days."
   },
   {
     "productName": "codewars",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://bit.ly/43XLyga",
     "link": "https://www.codewars.com/",
     "description": "Programming exercises to improve coding skills."
@@ -3901,7 +3901,7 @@
   },
   {
     "productName": "cssbattle",
-    "category": "Coding",
+    "category": "coding",
     "image": "cssbattle.png",
     "link": "https://cssbattle.dev/",
     "description": "Write CSS code in real-time"
@@ -3922,7 +3922,7 @@
   },
   {
     "productName": "jschallenger",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://tinyurl.com/5n6vbc7f",
     "link": "https://www.jschallenger.com/",
     "description": "Learn Javascript online by solving coding exercises."
@@ -4055,7 +4055,7 @@
   },
   {
     "productName": "Exercism",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://bit.ly/3qY1Ck6",
     "link": "https://exercism.org/",
     "description": "Exercism is a coding platform that offers a hands-on learning experience, providing programmers with a wide range of challenges to practice and improve their skills."
@@ -4405,35 +4405,35 @@
   },
   {
     "productName": "Devfolio",
-    "category": "Coding",
+    "category": "coding",
     "image": "Devfolio.png",
     "link": "https://devfolio.co/hackathons",
     "description": "We love software and the people who build them."
   },
   {
     "productName": "DEVPOST",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://pbs.twimg.com/profile_images/625987202909085696/KKYbLP8y_400x400.jpg",
     "link": "https://devpost.com/",
     "description": "The home for hackathons"
   },
   {
     "productName": "unstop",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://tinyurl.com/yz3nu723",
     "link": "https://unstop.com/hackathons",
     "description": "Unstop is a platform where talent meets opportunities to unlock their potential."
   },
   {
     "productName": "MAJOR LEAGUE HACKING",
-    "category": "Coding",
+    "category": "coding",
     "image": "MAJOR LEAGUE HACKING.png",
     "link": "https://mlh.io/seasons/2023/events",
     "description": "Find, compete, and earn points at the largest, most diverse hacker events in the world."
   },
   {
     "productName": "HACK CLUB",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://assets.hackclub.com/flag-orpheus-top.svg",
     "link": "https://hackathons.hackclub.com/",
     "description": "High School Hackathons"
@@ -4831,7 +4831,7 @@
   },
   {
     "productName": "Coding Ninjas",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
     "link": "https://www.codingninjas.com/",
     "description": "Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
@@ -4936,7 +4936,7 @@
   },
   {
     "productName": "Coding Ninjas",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
     "link": "https://www.codingninjas.com/",
     "description": "Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
@@ -5559,7 +5559,7 @@
   },
   {
     "productName": "Swagger",
-    "category": "API",
+    "category": "api",
     "image": "https://media.licdn.com/dms/image/C4E0BAQHvcaaw3m3gUw/company-logo_200_200/0/1633542767992/smartbear_logo?e=1729728000&v=beta&t=k1_BoMZa2kWf5YK2uqQ85E_UzAXpyLKLYgiTloJTpZQ",
     "link": "https://swagger.io/",
     "desciption": "Simplify your API development with our open-source and professional tools, built to help you and your team efficiently design and document APIs at scale."
@@ -5833,7 +5833,7 @@
    },
     {
     "productName": "DuckDuckGo",
-    "category": "security",
+    "category": "ethical",
     "image": "https://upload.wikimedia.org/wikipedia/en/8/88/DuckDuckGo_logo.svg",
     "link": "https://duckduckgo.com/",
     "description": "A search engine that emphasizes protecting user privacy and does not track users' searches."
