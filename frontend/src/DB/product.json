@@ -7,6 +7,13 @@
     "description": "Sentry is an open-source error tracking tool that helps developers monitor and fix crashes in real time."
   },
   {
+    "productName": "Pdf2Go",
+    "category": "Tool",
+    "image": "https://www.pdf2go.com/assets/logo/logo_pdf2go.svg",
+    "link": "https://www.pdf2go.com/edit-pdf",
+    "description": "This online PDF editor allows you to directly edit a PDF document."
+  },
+  {
     "productName": "Bitbucket",
     "category": "tools",
     "image": "https://shorturl.at/upeTZ",
