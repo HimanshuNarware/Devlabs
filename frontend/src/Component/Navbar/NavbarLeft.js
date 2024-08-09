@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../../style/Navbar.css"
 import logo from "../../image/logo1.png";
 function NavbarLeft(props, showSideNav) {
-  useEffect(() => {
+  useEffect(() => { 
     const handleDocumentClick = (e) => {
       if (!e.target.closest('.navbar-left')) {
         props.setShowSideNav(false);
