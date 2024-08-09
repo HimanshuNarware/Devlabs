@@ -128,15 +128,17 @@ transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .bookmarkTag{
   position: relative;
+ 
 }
 .bookmarkTag::after{
   content: '';
   position: absolute;
   background-color: #000000;
-  width: 15%;
+  width: 20%;
   height: 60%;
   color: white;
   border-radius: 4px;top:-10px;
+  right: -10px;
   
 }
 .totBook{
@@ -145,7 +147,7 @@ transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
   z-index: 10;
   color: white;
   font-size: 13px;
-  right: -7px;
+  right: 0px;
 
   
   
@@ -158,7 +160,7 @@ transition: transform 0.6s ease-in-out, box-shadow 0.3s ease-in-out;
   border-top: 6px solid rgb(8, 0, 0);
   width: 0;
   height: 0;
-  right: -8px;
+  right: -1px;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
 }

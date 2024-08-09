@@ -112,6 +112,13 @@
     "description": "Thisissand is a unique playground for creating and sharing amazing sandscapes on your computer or mobile device. "
   },
   {
+    "productName": "SciSpace",
+    "category": "extensions",
+    "image": "https://rb.gy/3y43ng",
+    "link": "https://rb.gy/wf2f32",
+    "description": "Do hours of research in minutes."
+  },
+  {
     "productName": "PhpStorm",
     "category": "tools",
     "image": "https://www.quanta.org/free-phpstorm-licence/phpstorm-logo.png",
@@ -131,6 +138,13 @@
     "image": "https://www.appengine.ai/uploads/images/profile/logo/Cohere-AI.png",
     "link": "https://cohere.com/",
     "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
+  },
+  {
+    "productName": "Wiseone",
+    "category": "tools" ,
+    "image": "https://shorturl.at/JF0qX",
+    "link": "https://shorturl.at/EHoZY",
+    "description": "Wiseone is your ultimate AI tool to enhance your web searches and boost your reading productivity."
   },
   {
     "productName": "Quick, draw",
@@ -383,6 +397,13 @@
     "image": "https://shorturl.at/p7K3m",
     "link": "https://shorturl.at/fCXae",
     "description": "Generates a color palette from any website, allowing designers to use it as a reference in their work."
+  },
+  {
+    "productName": "Helperbird",
+    "category": "extensions",
+    "image": "https://rb.gy/bkvqyx",
+    "link": "https://rb.gy/gyu4t3",
+    "description": "Improve your reading, writing & accessibility."
   },
   {
     "productName": "Image color picker",
@@ -1256,6 +1277,13 @@
     "image": "http://bit.ly/4dMPPZY",
     "link": "https://www.coursera.org/",
     "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
+  },
+  {
+    "productName": "Great Learning",
+    "category": "courses",
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_m_o6r4liwONXrrjZ2v2ZJ_WlaYXZQF9lrOy3J_aBAWeCU=s900-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.mygreatlearning.com/",
+    "description": "Great Learning is an online learning platform featuring courses, certificate programs, and tutorials in a wide range of subjects including coding, management, etc."
   },
   {
     "productName": "Instahyre",
@@ -6287,6 +6315,13 @@
     "description": "Free courses in various fields including IT, business, health, and languages."
   },
   {
+    "productName": "TapAway",
+    "category": "App",
+    "image": "https://github.com/Vaibhav-kesarwani/TapAway-App/assets/116189379/26bc63a4-032a-49bb-acb1-8e770d65d51e",
+    "link": "https://github.com/Vaibhav-kesarwani/TapAway-App",
+    "description": "Tap Away is a life-saving mobile application designed to prioritize your safety during emergencies and natural calamities. By registering on the app, users gain immediate access to crucial services that can make a difference in critical situations."
+  },
+  {
     "productName": "Marvel",
     "category": "Ui",
     "image": "https://github.com/user-attachments/assets/a58b508b-a862-46ba-b877-6737ba9de565",
@@ -6327,5 +6362,26 @@
     "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
+  },
+  {
+    "productName": "Rive",
+    "category": "Tools",
+    "image": "https://cdn.rive.app/rive_logo_dark_bg.png",
+    "link": "https://rive.app/",
+    "description": "Create interactive, real-time animations for apps and websites."
+  },
+    {
+    "productName": "Cacher",
+    "category": "Tools",
+    "image": "https://www.cacher.io/assets/open-graph-banner.png",
+    "link": "https://www.cacher.io/",
+    "description": "Store and organize reusable code snippets."
+  },
+    {
+    "productName": "Restya Board",
+    "category": "Tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzZsK3SAa78Wrg7eq8xB0WEmpvw_3GerIpQ&s",
+    "link": "https://docs.digitalocean.com/products/marketplace/catalog/restyaboard/",
+    "description": "Create interactive, real-time animations for apps and websites."
   }
 ]
