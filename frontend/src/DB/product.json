@@ -56,7 +56,7 @@
 },
   {
   "productName": "Call Of Duty",
-  "category": "games",
+  "category": "Entertainment",
   "image": "https://www.svgrepo.com/download/67890/call-of-duty-logo.svg",
   "link": "https://www.callofduty.com/",
   "description": "Call of Duty is a first-person shooter video game franchise that focuses on realism and cinematic experiences."
@@ -77,7 +77,7 @@
 },
   {
     "productName": "HBO Max",
-    "category": "Movies",
+    "category": "Entertainment",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi0AtsHyV6u8jWeYo38SP6MAysGpcHxQoyAw&s",
     "link": "https://www.hbomax.com/",
     "description": "HBO Max is a premium streaming service that offers a vast library of movies, TV shows, and exclusive content, including HBO originals and WarnerMedia content."
