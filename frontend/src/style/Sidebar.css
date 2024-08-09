@@ -6,27 +6,8 @@
   justify-content: flex-start;
   margin-top: 20px;
 }
+   
 
-.sidebar-btn {
-  margin-bottom: 10px;
-}
-
-.sidebar-btn a {
-  color: var(--sidebar-text-light);
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  transition: color 0.3s ease-in-out;
-}
-
-.sidebar-btn a:hover {
-  color: var(--sidebar-hover-light);
-}
-
-.sidebar-btn a svg {
-  margin-right: 10px;
-}
 
 @media (prefers-color-scheme: dark) {
   .sidebar {
@@ -106,7 +87,26 @@
                0 0 30px var(--sidebar-hover), 
                0 0 40px var(--sidebar-hover);
 }
+.sidebar-btn {
+  margin-bottom: 10px;
+}
 
+.sidebar-btn a {
+  color: var(--sidebar-text-light);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.sidebar-btn a:hover {
+  color: var(--sidebar-hover-light);
+}
+
+.sidebar-btn a svg {
+  margin-right: 10px;
+}
 /* Cascade Style */
 .sidebar-content {
   display: flex;
