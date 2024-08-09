@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../image/logo1.png";
-import "../style/Footer.css";
-
+import "../style/Footer.css"; 
 import {
   FaGithubSquare,
   FaLinkedinIn,
