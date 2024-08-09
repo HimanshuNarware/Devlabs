@@ -14,6 +14,13 @@
     "description": "Bitbucket is a Git-based source code repository hosting service from Atlassian that offers a collaborative environment for code development, integrated CI/CD, and seamless integration with other Atlassian products."
 },
   {
+  "productName": "Figma Jam",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/354183/figma-jam.svg",
+  "link": "https://www.figma.com/jam/",
+  "description": "Figma Jam is an online whiteboarding tool for teams to brainstorm, ideate, and plan together."
+},
+  {
     "productName": "Sublime Text",
     "category": "coding",
     "image": "https://t.ly/-PnbM",
