@@ -113,7 +113,7 @@ function Footer() {
                   </a>
                 </li> 
 
-                <li className="nav-item">
+                <li className="nav-item"> 
                   <a href="/ui-designs">
                     <FaLaptopCode className="mr-2" /> UI Design
                   </a>
