@@ -26,6 +26,10 @@ import {
 import { BsYoutube, BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
 import { Link } from "react-router-dom";
 function Footer() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const handleRateUsClick = () => {
+    setIsModalOpen(true);
+  };
   return (
     
     <footer>
@@ -56,7 +60,7 @@ function Footer() {
                     <FaHome className="mr-2" /> Home
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" onClick={handleRateUsClick}>
                   <a href="https://www.devlabsstore.tech/about">
                     <FaQuestionCircle className="mr-2" /> About Us
                   </a>
@@ -72,7 +76,7 @@ function Footer() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="https://www.devlabsstore.tech/rateus">
+                  <a href="https://www.devlabsstore.tech/Rate">
                     <AiFillStar className="mr-2" /> Rate Us
                   </a>
                 </li>
