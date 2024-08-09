@@ -1,19 +1,17 @@
 import axios from "axios";
-import React, { useEffect, useState, useRef } from "react";
-import { useDispatch } from "react-redux";
-import ClipLoader from "react-spinners/ClipLoader";
-import jsonTools from "../DB/product.json";
-import { deleteSource, setSource } from "../Slice/DataSlice";
-import "../style/Home.css";
-import Devlabs from "../image/hero_img.svg";
-import NavbarItem from "./Navbar/NavbarItem";
+import debounce from "lodash.debounce";
+import React, { useEffect, useRef, useState } from "react";
 import toast from "react-hot-toast";
-import NavbarRight from "./Navbar/NavbarRight";
-import Tilt from "react-parallax-tilt";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import debounce from "lodash.debounce";
+import Tilt from "react-parallax-tilt";
+import { useDispatch } from "react-redux";
+import jsonTools from "../DB/product.json";
+import Devlabs from "../image/hero_img.svg";
 import Testimonials from "../pages/Testimonials";
+import { deleteSource, setSource } from "../Slice/DataSlice";
+import "../style/Home.css";
+import NavbarItem from "./Navbar/NavbarItem";
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -295,25 +293,39 @@ function Home(props) {
 
   return (
     <SkeletonTheme>
-      <div>
+     
         <div className="hero">
           <div className="hero-text">
-            <div id="hero" className="hero-container">
-              <div className="hero-content">
-                <h1 className="hero-heading">
-                  <span>Welcome to</span>
-                  <br /> Devlabs!
-                  <h1 className="hero-subheading">
-                    Discover Free Tools,
-                    <br />
-                    Empower Your Projects.
-                    <br />
-                    <span className="hero-end">
-                      {" "}
-                      -Built by open-source community
-                    </span>
-                  </h1>
-                </h1>
+            < id="hero" className="hero-container">
+            <div
+  className="hero-content"
+  style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
+>
+  <div className="hero-heading">
+    <span>Welcome to</span>
+    <br /> Devlabs!
+    <h1 className="hero-subheading">
+      Discover Free Tools,
+      <br />
+      Empower Your Projects.
+      <br />
+      <span className="hero-end"> -Built by open-source community</span>
+    </h1>
+    <div
+      className="hero-button-container"
+      style={{ display: "flex", justifyContent: "center" }}
+    >
+      <button className="hero-button">
+        <NavbarItem description="Get Started" to="/open-source" />
+      </button>
+    </div>
+  </div>
+  <div className="hero-image">
+    <Tilt>
+      <img src={Devlabs} alt="devlabs-removebg-preview" />
+    </Tilt>
+  </div>
+</div>
 
                 <div
                   className="hero-button-container"
@@ -350,13 +362,8 @@ function Home(props) {
           <br />
           {searchQuery && searchResults.length === 0 && (
             <div className="no-results">
-              <img
-                src="./empty-state.png"
-                height={"300px"}
-                width={"300px"}
-                style={{ background: "none" }}
-                alt="empty_state_img"
-              />
+
+              <img src="./empty-state.png" height={"300px"} width={"300px"} style={{ background: "none" }} alt="empty_state_img" />
 
               <img
                 src="./empty-state.png"
@@ -365,7 +372,6 @@ function Home(props) {
                 style={{ background: "none" }}
                 alt="empty_state_img"
               />
-
               <h1>No matching tools found.</h1>
             </div>
           )}
@@ -385,9 +391,8 @@ function Home(props) {
               {filters.map((category) => (
                 <button
                   key={category}
-                  className={`filter-button ${
-                    selectedFilters.includes(category) ? "active_filter" : ""
-                  }`}
+                  className={`filter-button ${selectedFilters.includes(category) ? "active_filter" : ""
+                    }`}
                   onClick={() => handleFilterButtonClick(category)}
                 >
                   {category}

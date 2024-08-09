@@ -112,6 +112,13 @@
     "description": "Thisissand is a unique playground for creating and sharing amazing sandscapes on your computer or mobile device. "
   },
   {
+    "productName": "SciSpace",
+    "category": "extensions",
+    "image": "https://rb.gy/3y43ng",
+    "link": "https://rb.gy/wf2f32",
+    "description": "Do hours of research in minutes."
+  },
+  {
     "productName": "PhpStorm",
     "category": "tools",
     "image": "https://www.quanta.org/free-phpstorm-licence/phpstorm-logo.png",
@@ -131,6 +138,13 @@
     "image": "https://www.appengine.ai/uploads/images/profile/logo/Cohere-AI.png",
     "link": "https://cohere.com/",
     "description": "Cohere is focused on generative AI for the enterprise, building technology that businesses can use to deploy chatbots, search engines, copywriting, summarization, and other AI-driven products."
+  },
+  {
+    "productName": "Wiseone",
+    "category": "tools" ,
+    "image": "https://shorturl.at/JF0qX",
+    "link": "https://shorturl.at/EHoZY",
+    "description": "Wiseone is your ultimate AI tool to enhance your web searches and boost your reading productivity."
   },
   {
     "productName": "Quick, draw",
@@ -383,6 +397,13 @@
     "image": "https://shorturl.at/p7K3m",
     "link": "https://shorturl.at/fCXae",
     "description": "Generates a color palette from any website, allowing designers to use it as a reference in their work."
+  },
+  {
+    "productName": "Helperbird",
+    "category": "extensions",
+    "image": "https://rb.gy/bkvqyx",
+    "link": "https://rb.gy/gyu4t3",
+    "description": "Improve your reading, writing & accessibility."
   },
   {
     "productName": "Image color picker",
@@ -721,6 +742,27 @@
     "description": "Sharezone is a collaborative school organization app for iOS, Android.."
   },
   {
+    "productName": "Rock Paper Shotgun",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMmzCedMNEwpZb80a2UV9VzVtr7vdLVyaAA&s",
+    "link": "https://www.rockpapershotgun.com/",
+    "description": "PC gaming news, previews, reviews, opinion"
+  },
+  {
+    "productName": "Doodle",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxvzHZ-q0s93nZL8GThwMq4K_oRRCUX-fNQ&s",
+    "link": "https://doodles.google/",
+    "description": "Doodle things"
+  },
+  {
+    "productName": "Merriam Webster",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Merriam-Webster_logo.svg/800px-Merriam-Webster_logo.svg.png",
+    "link": "https://www.merriam-webster.com/",
+    "description": "Find definitions for over 300000 words from the most authoritative English dictionary"
+  },
+  {
     "productName": "Square",
     "category": "tools",
     "image": "https://1000logos.net/wp-content/uploads/2021/11/Square-logo.png",
@@ -868,6 +910,27 @@
     "description": "One Library All of India. The national digital library of India"
   },
   {
+    "productName": "PlayStation Store",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/PlayStation_Store.png",
+    "link": "https://store.playstation.com/",
+    "description": "Enjoy hundreds of PS5, PS4 and classic PlayStation games, online multiplayer, and more unmissable benefits"
+  },
+  {
+    "productName": "ADDitude",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT-bSoR8MmFwovOirn_X4A03ke6HAqTKyfiA&s",
+    "link": "https://www.additudemag.com/",
+    "description": "Symptom Checker"
+  },
+  {
+    "productName": "GamesRadar",
+    "category": "tools",
+    "image": "https://cdn.mos.cms.futurecdn.net/qamuzLyKtaczLXpc4Xt4T5.jpg",
+    "link": "https://www.gamesradar.com/",
+    "description": "Games related"
+  },
+  {
     "productName": "Springer",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Spring_Framework_Logo_2018.svg/2560px-Spring_Framework_Logo_2018.svg.png",
@@ -932,6 +995,27 @@
     "description": "Create photos, collages and animated GIFs."
   },
   {
+    "productName": "Mappls",
+    "category": "tools",
+    "image": "https://play-lh.googleusercontent.com/01m5YSLauiGMh4MJm3AtCLmS7KQNfUOjisGTCHuEVYySmevnE7qWkHGsWSB8zLV0RPA",
+    "link": "https://www.mappls.com/",
+    "description": "Mappls portal"
+  },
+  {
+    "productName": "Waze",
+    "category": "tools",
+    "image": "https://gmbapi.com/wp-content/uploads/2023/12/Waze.jpg",
+    "link": "https://www.waze.com/live-map/",
+    "description": "Realtime driving directions based on live traffic updates"
+  },
+  {
+    "productName": "Medi Buddy",
+    "category": "tools",
+    "image": "https://www.healthcareradius.in/cloud/2021/11/15/MediBuddy-New-Logo-With-Tagline-scaled.jpg",
+    "link": "https://www.medibuddy.in/",
+    "description": " Healthcare providers in India"
+  },
+  {
     "productName": "Delina",
     "category": "tools",
     "image": "https://cdn.textstudio.com/output/sample/normal/7/3/8/2/delina-logo-275-2837.png",
@@ -975,6 +1059,27 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png",
     "link": "https://www.digitalocean.com/",
     "description": "Simple, scalable virtual machines for all your web hosting and VPS hosting needs."
+  },
+  {
+    "productName": "VoiceLiner",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBmZu-YdSbZTW8vwcJsRDvKoDXHYgllpZvbg&s",
+    "link": "https://a9.io/voiceliner/",
+    "description": "The fastest way to capture and structure your thoughts"
+  },
+  {
+    "productName": "SoundCloud",
+    "category": "tools",
+    "image": "https://ew.com/thmb/m4hc86lh-QaXAl1U91-V2MGRWZk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Soundcloud-30b9efaf99f54cd6bdb2a45cd18cf444.jpg",
+    "link": "https://soundcloud.com/",
+    "description": "Discover and play over 320 million music tracks"
+  },
+  {
+    "productName": "FSI",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Logo_FSI.svg",
+    "link": "https://fsi.nic.in/",
+    "description": "Forest Survey of India"
   },
   {
     "productName": "Krohne",
@@ -1069,6 +1174,27 @@
     "description": "Create Human-like Essays with Our Undetectable AI Essay Writer"
   },
   {
+    "productName": "Metromedi",
+    "category": "tools",
+    "image": "https://metromedi.com/img/logo/logo.png",
+    "link": "https://metromedi.com/",
+    "description": "All kinds of online counselling at affordable prices. mental health counsellors,etc "
+  },
+  {
+    "productName": "PharmEasy",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCWgxnMmopw1HyP_RuES3feWwydIWd9DeRwA&s",
+    "link": "https://pharmeasy.in/",
+    "description": "One of India's most trusted online pharmacy & medical stores offering pharmaceutical and healthcare products"
+  },
+  {
+    "productName": "Practo",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNs7cyBE-iwSfpND2CWyAkN_wQrA27hG31mQ&s",
+    "link": "https://www.practo.com/",
+    "description": "Medical related"
+  },
+  {
     "productName": "Interview warmup Google",
     "category": "tools",
     "image": "https://rb.gy/4z4lkj",
@@ -1151,6 +1277,34 @@
     "image": "http://bit.ly/4dMPPZY",
     "link": "https://www.coursera.org/",
     "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
+  },
+  {
+    "productName": "Great Learning",
+    "category": "courses",
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_m_o6r4liwONXrrjZ2v2ZJ_WlaYXZQF9lrOy3J_aBAWeCU=s900-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.mygreatlearning.com/",
+    "description": "Great Learning is an online learning platform featuring courses, certificate programs, and tutorials in a wide range of subjects including coding, management, etc."
+  },
+  {
+    "productName": "Instahyre",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNOqjQuxpQOCtxW7t2uaRIZWKmKuauNwxwWQ&s",
+    "link": "https://www.instahyre.com/",
+    "description": "Search and apply to jobs at 10000+ top companies"
+  },
+  {
+    "productName": "TrackXn",
+    "category": "tools",
+    "image": "https://storage.googleapis.com/5paisa-prod-storage/files/2022-10/tracxn%20ipo%20logo_1.png",
+    "link": "https://tracxn.com/",
+    "description": "Track the world's most innovative companies"
+  },
+  {
+    "productName": "Crunchbase",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRMD75Jv0lTnSSdZXo9MosPQ4JBVH0lfetmQ&s",
+    "link": "https://www.crunchbase.com/",
+    "description": "leading destination for company insights from early-stage startups"
   },
   {
     "productName": "OpenRead",
@@ -1309,6 +1463,27 @@
     "description": "Anybody can create applications, websites, chatbots, and more on any internet-connected device without having to hire a programmer or agency."
   },
   {
+    "productName": "Unimont Realty",
+    "category": "tools",
+    "image": "https://img.staticmb.com/mbimages/photo_dir/developer/original_images/80161/1629719011086-DLLLLL.jpg",
+    "link": "https://www.unimont.in/",
+    "description": "Experience Your Gateway to Modern/Luxury Living"
+  },
+  {
+    "productName": "Zauba Corp",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtqzxWOc7JgqBADFfcv4wPHoI51xj3fvqvng&s",
+    "link": "https://www.zaubacorp.com/",
+    "description": "India's leading provider of commercial information and insight on businesses."
+  },
+  {
+    "productName": "AmbitionBox",
+    "category": "tools",
+    "image": "https://static.ambitionbox.com/img/ab-brand.png",
+    "link": "https://www.ambitionbox.com/",
+    "description": "find their perfect company every month"
+  },
+  {
     "productName": "Moodle",
     "category": "tools",
     "image": "https://cdn.iconscout.com/icon/free/png-256/free-moodle-8-1174944.png",
@@ -1321,6 +1496,34 @@
     "image": "https://w7.pngwing.com/pngs/557/404/png-transparent-evernote-computer-icons-evernote-trademark-logo-grass.png",
     "link": "https://evernote.com/",
     "description": "Use Evernote to capture more than just words. Harness the power of the internet with Web Clipper."
+  },
+  {
+    "productName": "Screener",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvIGx-lcHLTGs1yLP0Pow2tgO0zTbx4Wg-ow&s",
+    "link": "https://www.screener.in/",
+    "description": "Stock analysis and screening tool for investors in India"
+  },
+  {
+    "productName": "INDIAai",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYE7RFTMp6fKCLu4Cvbhnyo5-pY9AIf9nw_w&s",
+    "link": "https://indiaai.gov.in/",
+    "description": "For leveraging transformative technologies"
+  },
+  {
+    "productName": "Owler",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQqkG4T9TSk81tm8DYuIGk-YFBD6zDdkwc-w&s",
+    "link": "https://corp.owler.com/",
+    "description": "Discover your direct and indirect competitors"
+  },
+  {
+    "productName": "Privco",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZVnBrAauubFhKaiQJ6h_IV3tS-kLWAmqHbw&s",
+    "link": "https://www.privco.com/",
+    "description": "Go-to-source for valuable insights into the financial health"
   },
   {
     "productName": "Scaler",
@@ -6056,6 +6259,13 @@
     "description": "Eden AI is a platform that allows you to create your own generative AI tools."
   },
   {
+    "productName": "SmartResume",
+    "category": "resume",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJoEIBCRbxwu_onaiHcm2UPjPA-HGB3rjS6A2vN18cubN_Yg1Y",
+    "link": "https://www.smartresume.com/",
+    "description": " Offers modern and intuitive resume templates with an easy-to-use design interface."
+},
+  {
     "productName": "Aceternity UI",
     "category": "UI library",
     "image": "https://github.com/user-attachments/assets/49058348-4dd1-478f-8197-606de13e5a07",
@@ -6105,6 +6315,13 @@
     "description": "Free courses in various fields including IT, business, health, and languages."
   },
   {
+    "productName": "TapAway",
+    "category": "App",
+    "image": "https://github.com/Vaibhav-kesarwani/TapAway-App/assets/116189379/26bc63a4-032a-49bb-acb1-8e770d65d51e",
+    "link": "https://github.com/Vaibhav-kesarwani/TapAway-App",
+    "description": "Tap Away is a life-saving mobile application designed to prioritize your safety during emergencies and natural calamities. By registering on the app, users gain immediate access to crucial services that can make a difference in critical situations."
+  },
+  {
     "productName": "Marvel",
     "category": "Ui",
     "image": "https://github.com/user-attachments/assets/a58b508b-a862-46ba-b877-6737ba9de565",
@@ -6145,5 +6362,26 @@
     "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
+  },
+  {
+    "productName": "Rive",
+    "category": "Tools",
+    "image": "https://cdn.rive.app/rive_logo_dark_bg.png",
+    "link": "https://rive.app/",
+    "description": "Create interactive, real-time animations for apps and websites."
+  },
+    {
+    "productName": "Cacher",
+    "category": "Tools",
+    "image": "https://www.cacher.io/assets/open-graph-banner.png",
+    "link": "https://www.cacher.io/",
+    "description": "Store and organize reusable code snippets."
+  },
+    {
+    "productName": "Restya Board",
+    "category": "Tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzZsK3SAa78Wrg7eq8xB0WEmpvw_3GerIpQ&s",
+    "link": "https://docs.digitalocean.com/products/marketplace/catalog/restyaboard/",
+    "description": "Create interactive, real-time animations for apps and websites."
   }
 ]
