@@ -6427,6 +6427,13 @@
     "link": "https://github.com/",
     "description": "GitHub is a platform for version control and collaboration, allowing developers to host and review code, manage projects, and build software together."
   },
+  {
+    "productName": "AlgoExpert",
+    "category": "Tools",
+    "image": "https://assets.algoexpert.io/static/images/ae-social-logo.png",
+    "link": "https://www.algoexpert.io/product",
+    "description": "Provides coding interview preparation through structured problem-solving and video explanations."
+  },
     {
     "productName": "Restya Board",
     "category": "Tools",
