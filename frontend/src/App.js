@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom"; // Correct import
 import "./App.css";  
 import About from "./Component/About"; 
 import Footer from "./Component/Footer"; 
-import Rateus from "./Component/Rateus";
+import Rateus from "./Component/Rateus"; 
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar/Navbar";
 import BookMark from "./Component/BookMark";
