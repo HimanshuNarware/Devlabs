@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../style/Profile.css";
 
 function Profile() {
@@ -23,6 +23,7 @@ function Profile() {
     name: ""
   });
   const [error, setError] = useState("");
+  const [passwordError, setPasswordError] = useState("");
 
   useEffect(() => {
     const savedData = localStorage.getItem("profileData");
@@ -67,8 +68,13 @@ function Profile() {
   const handleAuthSubmit = (e) => {
     e.preventDefault();
     if (formData.email && formData.password) {
-      localStorage.setItem("isLoggedIn", "true");
-      setIsLoggedIn(true);
+      if (validatePassword(formData.password)) {
+        localStorage.setItem("isLoggedIn", "true");
+        setIsLoggedIn(true);
+        setError(""); // Clear any previous errors
+      } else {
+        setPasswordError("Password must be a valid hexadecimal string with at least 6 characters.");
+      }
     } else {
       setError("Please fill out all fields.");
     }
@@ -84,6 +90,14 @@ function Profile() {
     setShowLogin(prev => !prev);
     setError("");
   };
+
+  const [password, setPassword] = useState("");
+
+  const validatePassword = (password) => {
+    const Pattern = /^[0-9a-fA-F]+$/;
+    return Pattern.test(password) && password.length >= 6;
+  }
+
 
   if (!isLoggedIn) {
     return showLogin ? (
@@ -112,6 +126,7 @@ function Profile() {
               onChange={handleAuthChange}
               required
             />
+            {passwordError && <p className="auth__error">{passwordError}</p>}
           </div>
           {error && <p className="auth__error">{error}</p>}
           <button type="submit" className="auth__submit-btn">Login</button>
@@ -159,18 +174,19 @@ function Profile() {
               required
             />
           </div>
+          {passwordError && <p className="auth__error">{passwordError}</p>}
           {error && <p className="auth__error">{error}</p>}
           <div className="signup__form-group">
-          <label>
-            <input
-              type="checkbox"
-              name="subscribe"
-              checked={formData.subscribe}
-              onChange={handleChange}
-            />
-             Subscribe to promotions and newsletter
-          </label>
-        </div>
+            <label>
+              <input
+                type="checkbox"
+                name="subscribe"
+                checked={formData.subscribe}
+                onChange={handleChange}
+              />
+              Subscribe to promotions and newsletter
+            </label>
+          </div>
           <button type="submit" className="auth__submit-btn">Sign Up</button>
           <p className="auth__terms">By creating this account, you agree to our <a>terms & conditions</a>.</p>
           <p className="auth__switch-container">
@@ -185,40 +201,40 @@ function Profile() {
     <div className="profile__container">
       <div className="profile__row">
 
-      <div>
-      <div className="profile__avatar">
-        <div className="profile__avatar-placeholder">
-          {preview ? (
-              <img src={preview} alt="Profile" className="profile__avatar-img" />
-            ) : (
-              <div className="profile__avatar-placeholder">
-                {profileData.name.charAt(0).toUpperCase()}
-              </div>
-            )}
+        <div>
+          <div className="profile__avatar">
+            <div className="profile__avatar-placeholder">
+              {preview ? (
+                <img src={preview} alt="Profile" className="profile__avatar-img" />
+              ) : (
+                <div className="profile__avatar-placeholder">
+                  {profileData.name.charAt(0).toUpperCase()}
+                </div>
+              )}
+            </div>
+          </div>
+          <h2 className="profile__name">{profileData.name}</h2>
         </div>
-      </div>
-      <h2 className="profile__name">{profileData.name}</h2>
-      </div>
 
-      <div className="profile__right">
-        <div className="profile__details">
-          <p className="profile__bio">{profileData.bio}</p>
+        <div className="profile__right">
+          <div className="profile__details">
+            <p className="profile__bio">{profileData.bio}</p>
             <div className="profile__info">
               <p><span><i class="fa-solid fa-envelope"></i> </span><strong>Email:</strong> {profileData.email}</p>
               {profileData.github && (
-              <p><span><i class="fa-brands fa-github-alt"></i> </span><strong>GitHub:</strong> <a href={profileData.github} target="_blank" rel="noreferrer">{profileData.github}</a></p>
-                  )}
+                <p><span><i class="fa-brands fa-github-alt"></i> </span><strong>GitHub:</strong> <a href={profileData.github} target="_blank" rel="noreferrer">{profileData.github}</a></p>
+              )}
               {profileData.website && (
-              <p><span><i class="fa-solid fa-link"></i> </span><strong>Website:</strong> <a href={profileData.website} target="_blank" rel="noreferrer">{profileData.website}</a></p>
+                <p><span><i class="fa-solid fa-link"></i> </span><strong>Website:</strong> <a href={profileData.website} target="_blank" rel="noreferrer">{profileData.website}</a></p>
               )}
             </div>
+          </div>
+          <div className="profile__buttons">
+            <button className="profile__edit-btn" onClick={() => setIsSubmitted(false)}>Edit Profile</button>
+            <button className="profile__logout-btn" onClick={handleLogout}>Logout</button>
+          </div>
         </div>
-      <div className="profile__buttons">
-          <button className="profile__edit-btn" onClick={() => setIsSubmitted(false)}>Edit Profile</button>
-          <button className="profile__logout-btn" onClick={handleLogout}>Logout</button>
-        </div>
-      </div>
-      
+
       </div>
     </div>
   ) : (
