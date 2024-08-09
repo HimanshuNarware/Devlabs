@@ -1279,6 +1279,13 @@
     "description": "Coursera is an online learning platform featuring courses, degrees, certificate programs, and tutorials in a wide range of subjects."
   },
   {
+    "productName": "Great Learning",
+    "category": "courses",
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_m_o6r4liwONXrrjZ2v2ZJ_WlaYXZQF9lrOy3J_aBAWeCU=s900-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.mygreatlearning.com/",
+    "description": "Great Learning is an online learning platform featuring courses, certificate programs, and tutorials in a wide range of subjects including coding, management, etc."
+  },
+  {
     "productName": "Instahyre",
     "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNOqjQuxpQOCtxW7t2uaRIZWKmKuauNwxwWQ&s",
