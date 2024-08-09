@@ -359,16 +359,15 @@
   color: rgba(0, 0, 0, 0.84);
 }
 
+
+.filter {
+  transition: font-size 0.3s ease, text-decoration 0.3s ease;
+}
 .filter:hover {
   font-size: 1.8rem;
   text-decoration: underline;
   /* transition: all 0.3s; */
 }
-
-.filter {
-  transition: font-size 0.3s ease, text-decoration 0.3s ease;
-}
-
 .search {
    margin-top: 0px; 
   position: relative;

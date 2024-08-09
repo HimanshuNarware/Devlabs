@@ -46,6 +46,7 @@ function Sidebar({ showSideNav }) {
             <BsBookmark /> BookMark
           </Link>
         </div>
+        
         <div className="sidebar-btn home-btn" key="about">
           <Link to="/about" className="Link Bookmark nav-link active" aria-current="page">
             <FontAwesomeIcon icon={faInfoCircle} /> About Us

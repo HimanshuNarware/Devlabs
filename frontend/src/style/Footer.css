@@ -177,6 +177,14 @@
 	color: #000;
 	transition: transform 0.3s ease, color 0.3s ease;
   }
+  
+  .contact-link a:hover {
+	cursor: pointer;
+	color: #474eff !important;
+	color: white;
+	transform: scale(1.1);
+	animation: pulse 1s infinite alternate;
+  }
   .footer-content {
 	margin-top: 1rem;
   }
@@ -190,13 +198,6 @@
 	text-decoration: underline;
   }
  
-  .contact-link a:hover {
-	cursor: pointer;
-	color: #474eff !important;
-	color: white;
-	transform: scale(1.1);
-	animation: pulse 1s infinite alternate;
-  }
   .outerD {
 	display: flex;
 	justify-content: center;
