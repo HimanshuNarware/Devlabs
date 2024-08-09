@@ -44,18 +44,18 @@
   display: flex;
   justify-content: center;
 }
-
+.submit-button:hover {
+  background: #101623;
+  border: 2px solid #fff;
+  color: white;
+}
 .emoji {
   font-size: 24px;
   cursor: pointer;
   transition: transform 0.3s, text-shadow 0.3s;
   margin: 0 10px;
 }
-.submit-button:hover {
-  background: #101623;
-  border: 2px solid #fff;
-  color: white;
-}
+
 
 .emoji.selected {
   transform: scale(1.5);
