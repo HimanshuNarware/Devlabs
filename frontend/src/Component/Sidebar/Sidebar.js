@@ -16,6 +16,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FaRobot, FaUserSecret, FaFilm, FaCogs, FaLaptopCode, FaTools, FaBook, FaUsers, FaTasks } from "react-icons/fa";
 import "../../style/Sidebar.css";
+  
 
 function Sidebar({ showSideNav }) {
   const sidebarContent = [
