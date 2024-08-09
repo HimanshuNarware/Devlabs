@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom"; // Correct import
-import "./App.css";
+import "./App.css"; 
 import About from "./Component/About"; 
 import Footer from "./Component/Footer"; 
 import Rateus from "./Component/Rateus";
