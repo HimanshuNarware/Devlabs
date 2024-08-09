@@ -51,17 +51,18 @@
   transition: transform 0.3s, text-shadow 0.3s;
   margin: 0 10px;
 }
+.submit-button:hover {
+  background: #101623;
+  border: 2px solid #fff;
+  color: white;
+}
 
 .emoji.selected {
   transform: scale(1.5);
   text-shadow: 0 0 20px #f7b731;
   animation: shine 1.5s infinite;
 }
-.submit-button:hover {
-  background: #101623;
-  border: 2px solid #fff;
-  color: white;
-}
+
 
 @keyframes shine {
   0% {
