@@ -75,6 +75,13 @@
     "link": "https://about.gitlab.com/",
     "description": "GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager with features for CI/CD, issue tracking, and more, enabling teams to collaborate on code development and deployment efficiently."
 },
+{
+  "productName": "ArtBreeder",
+  "category": "Tool",
+  "image": "https://th.bing.com/th/id/OIP.GVhFKgC4oHFvlxZgAt5kqgAAAA?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+  "link": "https://www.artbreeder.com/",
+  "description": "Helps you to create like never before. Create characters, artworks and more with multiple tools, powered by AI."
+},
   {
     "productName": "HBO Max",
     "category": "Movies",
