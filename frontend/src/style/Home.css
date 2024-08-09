@@ -67,11 +67,11 @@
   max-width: 100vw;
   overflow: auto;
   display: flex;
-  justify-content: start;
+  justify-content: center; /* Change from start to center */
   align-items: center;
   margin-top: 20px;
   padding: 1rem;
-  margin-left: 32%;
+  margin-left: 0; /* Remove margin-left to center */
 }
 
 .pagination .page-wrapper{
@@ -131,13 +131,17 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* Change from space-between to center */
 }
-
+.let-text{
+  text-align: center;
+  font-size: 30px;
+}
 .hero-content {
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  flex-direction: row;
+  width: 100%; /* Change from 50% to 100% for full width */
+  text-align: center; /* Center the text */
   gap: 6px;
 }
 
@@ -225,8 +229,8 @@
     text-align: center;
   }
   .hero-content {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     width: 100%;
     gap: 6px;
   }
@@ -234,12 +238,8 @@
     justify-content: center;
   }
   .hero-image {
-    height: 45%;
-    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
+    justify-content: center; /* Center the image */
   }
   .hero-image img {
     height: 100%;
@@ -516,11 +516,13 @@
   background-color: #8b5cf6;
   cursor: pointer;
 }
-.filter-container{
-  width: 100vw;
-  height: 6vh;
- 
+.filter-container {
+  display: flex;
+  justify-content: center; /* Center filter buttons */
+  flex-wrap: wrap;
+  gap: 10px;
 }
+
 
 .active_filter, .filter-button:hover {
   background-color: #09001f63;
@@ -530,10 +532,10 @@
   box-shadow: -1px 2px 8px #c5aff899,0px 2px 8px #6943c392;
 }
 
-.search-fields {
+.search-feilds {
   display: flex;
-  justify-content: center;
-  margin: 20px 0;
+  justify-content: center; /* Center the search field */
+  margin-top: 20px;
 }
 
 .search-input {
