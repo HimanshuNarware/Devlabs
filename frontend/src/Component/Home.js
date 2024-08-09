@@ -109,10 +109,10 @@ function Home(props) {
 
   const filteredData = !!props.searchQuery
     ? allvalue.filter((datalist) => {
-        return datalist.productName
-          .toLowerCase()
-          .includes(props.searchQuery.toLowerCase());
-      })
+      return datalist.productName
+        .toLowerCase()
+        .includes(props.searchQuery.toLowerCase());
+    })
     : allvalue;
 
   const currentPost =
@@ -126,29 +126,20 @@ function Home(props) {
   const prePage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
-      window.scrollTo({
-        top: document.body.scrollHeight * 0.2,
-        behavior: "smooth",
-      });
+      window.scrollTo({ top: document.body.scrollHeight * 0.2, behavior: "smooth" });
     }
   };
 
   const nextPage = () => {
     if (currentPage < npage) {
       setCurrentPage(currentPage + 1);
-      window.scrollTo({
-        top: document.body.scrollHeight * 0.2,
-        behavior: "smooth",
-      });
+      window.scrollTo({ top: document.body.scrollHeight * 0.2, behavior: "smooth" });
     }
   };
 
   const changeCPage = (id) => {
     setCurrentPage(id);
-    window.scrollTo({
-      top: document.body.scrollHeight * 0.2,
-      behavior: "smooth",
-    });
+    window.scrollTo({ top: document.body.scrollHeight * 0.2, behavior: "smooth" });
   };
 
   const handleBookmark = (datalist) => {
@@ -296,7 +287,7 @@ function Home(props) {
      
         <div className="hero">
           <div className="hero-text">
-            < id="hero" className="hero-container">
+            <div id="hero" className="hero-container">
             <div
   className="hero-content"
   style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
@@ -327,30 +318,10 @@ function Home(props) {
   </div>
 </div>
 
-                <div
-                  className="hero-button-container"
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-                  <div
-                    className="hero-button-container"
-                    style={{ display: "flex", justifyContent: "center" }}
-                  >
-                    <button className="hero-button">
-                      <NavbarItem description="Get Started" to="/open-source" />
-                    </button>
-                  </div>
-                </div>
-                <div className="hero-image">
-                  <Tilt>
-                    <img src={Devlabs} alt="devlabs-removebg-preview" />
-                  </Tilt>
-                </div>
-              </div>
             </div>
           </div>
           <br />
-          <h3> Lets Get, What You seek!</h3>
-          {/* <NavbarRight setSearchQuery={setSearchQuery} /> */}
+          <h3 className="let-text"> Lets Get, What You seek!</h3>
           <div className="search-feilds">
             <input
               className="search-input text-white"
@@ -372,6 +343,7 @@ function Home(props) {
                 style={{ background: "none" }}
                 alt="empty_state_img"
               />
+
               <h1>No matching tools found.</h1>
             </div>
           )}
@@ -451,9 +423,7 @@ function Home(props) {
                           alt={datalist.category}
                         />
                         <h2>{datalist.productName}</h2>
-                        <p className="content-box-text">
-                          {datalist.description}
-                        </p>
+                        <p className="content-box-text">{datalist.description}</p>
                         <button
                           className="btn-b-box"
                           onClick={() => window.open(datalist.link)}
@@ -551,6 +521,7 @@ function Home(props) {
         </div>
       </div>
     </SkeletonTheme>
+
   );
 }
 
