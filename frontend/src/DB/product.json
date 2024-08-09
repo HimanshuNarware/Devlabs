@@ -82,6 +82,13 @@
     "link": "https://www.hbomax.com/",
     "description": "HBO Max is a premium streaming service that offers a vast library of movies, TV shows, and exclusive content, including HBO originals and WarnerMedia content."
   },
+  {
+    "productName": "Shapeways",
+    "category": "Tool",
+    "image": "https://th.bing.com/th/id/OIP.fS8A6HdHwA0RhZPcUMomZAHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "link": "https://www.shapeways.com/",
+    "description": "Shapeways offers 3D printing services for production parts, rapid prototyping, e-commerce integrations, and design solutions. Choose from over 90 materials and finishes."
+  },
 
   {
     "productName": "edclub",
