@@ -153,19 +153,6 @@
 	font-size: 1.8rem;
   }
   
-  .contact-link a {
-	color: #000;
-	transition: transform 0.3s ease, color 0.3s ease;
-  }
-  
-  .contact-link a:hover {
-	cursor: pointer;
-	color: #474eff !important;
-	color: white;
-	transform: scale(1.1);
-	animation: pulse 1s infinite alternate;
-  }
-  
   @keyframes pulse {
 	0% {
 	  transform: scale(1);
@@ -193,7 +180,18 @@
 	text-decoration: underline;
   }
   
-
+  .contact-link a {
+	color: #000;
+	transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .contact-link a:hover {
+	cursor: pointer;
+	color: #474eff !important;
+	color: white;
+	transform: scale(1.1);
+	animation: pulse 1s infinite alternate;
+  }
   .icons {
 	display: flex;
 	align-items: center;

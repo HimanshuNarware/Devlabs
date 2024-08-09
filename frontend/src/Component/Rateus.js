@@ -55,6 +55,7 @@ function RateUsComponent({ previousContent }) {
           ></textarea>
           <button className="submit-button" onClick={handleSubmit}>
             Submit
+            
           </button>
         </div>
       </div>
