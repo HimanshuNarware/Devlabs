@@ -9,6 +9,11 @@ const ActionProvider = ({ setState, children }) => {
     }));
   };
 
+  const handleEmptyMessage = () => {
+    const message = createChatBotMessage("I'm waiting for your message...");
+    updateState(message);
+  };
+
   const handleHello = () => {
     const message = createChatBotMessage('Hello, I am DevLabs ChatBot. Type your query..');
     updateState(message);
@@ -44,6 +49,7 @@ const ActionProvider = ({ setState, children }) => {
             contactUs,
             contribute,
             greeting,
+            handleEmptyMessage,
           },
         });
       })}

@@ -9,10 +9,8 @@ import toast from "react-hot-toast";
 function BookMark() {
   const sourceData = useSelector((state) => state.SourceReducer.sourceData);
   const dispatch = useDispatch();
-
   const [currentPage, setCurrentPage] = useState(1);
   const [postPerPage] = useState(8); // Number of bookmarks per page
-
   const handleDeleteBookmark = (name) => {
     dispatch(deleteSource({ name }));
 
@@ -36,19 +34,19 @@ function BookMark() {
   const prevPage = () => setCurrentPage(currentPage - 1);
 
   return (
-    <div className="containerBK">
-      <div className="container-bk">
+    <div className="bookmark">
+      <div className="bookmark__container">
         {currentBookmarks?.length > 0 ? (
           currentBookmarks?.map((data, index) => (
-            <div className="box-bk" key={index}>
-              <img className="logo" src={data.image} alt={data.name} />
+            <div className="bookmark__box" key={index}>
+              <img className="bookmark__logo" src={data.image} alt={data.name} />
               <h2>{data.name}</h2>
-              <p>{data.desc}</p>
-              <button className="btn-b" onClick={() => window.open(data.link)}>
+              <p className="bookmark__box-text">{data.desc}</p>
+              <button className="bookmark__button" onClick={() => window.open(data.link)}>
                 Link
               </button>
               <button
-                className="btn-b"
+                className="bookmark__button"
                 onClick={() => handleDeleteBookmark(data.name)}
               >
                 Remove
