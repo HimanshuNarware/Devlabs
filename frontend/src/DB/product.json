@@ -6420,6 +6420,13 @@
     "link": "https://www.cacher.io/",
     "description": "Store and organize reusable code snippets."
   },
+  {
+    "productName": "Github",
+    "category": "Tools",
+    "image": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+    "link": "https://github.com/",
+    "description": "GitHub is a platform for version control and collaboration, allowing developers to host and review code, manage projects, and build software together."
+  },
     {
     "productName": "Restya Board",
     "category": "Tools",
