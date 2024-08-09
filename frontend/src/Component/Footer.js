@@ -11,7 +11,7 @@ import {
   FaQuestionCircle,
   FaRegHeart,
   FaBriefcase,
-  FaRobot,
+  FaRobot, 
   FaFilm,
   FaTools,
   FaLaptopCode,
