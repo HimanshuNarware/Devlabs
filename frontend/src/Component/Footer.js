@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../image/logo1.png";
 import "../style/Footer.css";
-
 import {
   FaGithubSquare,
   FaLinkedinIn,
@@ -15,6 +14,7 @@ import {
   FaFilm,
   FaTools,
   FaLaptopCode,
+  FaUser,
   FaLock,
 } from "react-icons/fa";
 import {
@@ -27,6 +27,7 @@ import { BsYoutube, BsFillPersonLinesFill, BsCodeSlash } from "react-icons/bs";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
+    
     <footer>
       <div className="Footer">
         <div className="container">
@@ -36,11 +37,11 @@ function Footer() {
                 <img width={209} src={logo} alt="devlabs" />
               </a>
               <p className="footer-content">
-                Welcome to DevLabs, a website where you can search for free tools
-                that are useful for your daily needs. This application is created
-                by the incredible open-source community. On DevLabs, you can
-                discover a collection of free tools that can assist you in various
-                aspects of your life.
+                Welcome to DevLabs, a website where you can search for free
+                tools that are useful for your daily needs. This application is
+                created by the incredible open-source community. On DevLabs, you
+                can discover a collection of free tools that can assist you in
+                various aspects of your life.
               </p>
               <h3>Facing an issue or just enjoying the site?</h3>
               <button>
@@ -74,6 +75,12 @@ function Footer() {
                   <a href="https://www.devlabsstore.tech/rateus">
                     <AiFillStar className="mr-2" /> Rate Us
                   </a>
+                </li>
+                <li className="nav-item">
+                  <a href="https://www.devlabsstore.tech/profile">
+                    <FaUser className="mr-2" /> My Profile
+                  </a>
+                  
                 </li>
                 <li className="nav-item">
                   <a href="https://www.devlabsstore.tech/open-source">
@@ -145,26 +152,38 @@ function Footer() {
           <div className="row justify-content-center">
             <div className="col-md-6 col-12 ft-1">
               <div className="text-center fs-6 my-3">
-                COPYRIGHT © Devlaps 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
+                COPYRIGHT © Devlabs 2024 | <br /> MAINTAINED BY HIMANSHU NARWARE
               </div>
               <div className="text-center mb-2">
-                <a href="https://github.com/sponsors/HimanshuNarware" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/sponsors/HimanshuNarware"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="https://badgen.net/badge/icon/github?icon=github&label=Sponsor&color=orange"
                     alt="Sponsor Me on GitHub"
-                    style={{ height: '30px', width: 'auto' }}
+                    style={{ height: "30px", width: "auto" }}
                   />
                 </a>
               </div>
               <div className="outerD gap-4 md:gap-2">
                 <span className="icons">
                   <a href="/" target="_blank" rel="noopener noreferrer">
-                    <AiOutlineInstagram color="white" fontSize={25} className="ico" />
+                    <AiOutlineInstagram
+                      color="white"
+                      fontSize={25}
+                      className="ico"
+                    />
                   </a>
                 </span>
                 <span className="icons">
                   <a href="/" target="_blank" rel="noopener noreferrer">
-                    <AiOutlineTwitter color="white" fontSize={25} className="ico" />
+                    <AiOutlineTwitter
+                      color="white"
+                      fontSize={25}
+                      className="ico"
+                    />
                   </a>
                 </span>
                 <span className="icons">
@@ -184,13 +203,28 @@ function Footer() {
                 </span>
                 <span className="icons">
                   <a href="/" target="_blank" rel="noopener noreferrer">
-                    <FaGithubSquare color="white" fontSize={25} className="ico" />
+                    <FaGithubSquare
+                      color="white"
+                      fontSize={25}
+                      className="ico"
+                    />
                   </a>
                 </span>
                 <span className="icons">
                   <a href="mailto:example@gmail.com" target="_blank" rel="noopener noreferrer">
                     <AiOutlineMail color="white" fontSize={25} className="ico" />
                   </a>  
+                  <a
+                    href="mailto:example@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiOutlineMail
+                      color="white"
+                      fontSize={25}
+                      className="ico"
+                    />
+                  </a>
                 </span>
               </div>
               <hr />

@@ -9,10 +9,10 @@ function RateUsComponent({ previousContent }) {
   const handleFeedbackChange = (e) => {
     setFeedback(e.target.value);
   };
+  
   const handleEmojiClick = (emojiIndex) => {
     setRating(emojiIndex);
   };
-
 
   const handleSubmit = () => {
     if (rating !== 0 && feedback.trim() !== "") {

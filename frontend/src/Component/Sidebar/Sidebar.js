@@ -15,8 +15,10 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { FaRobot, FaUserSecret, FaFilm, FaCogs, FaLaptopCode, FaTools, FaBook, FaUsers, FaTasks } from "react-icons/fa";
+ 
 import "../../style/sidebar.css";
 
+import "../../style/Sidebar.css";
 function Sidebar({ showSideNav }) {
   const sidebarContent = [
     { name: "all", description: "All", url: "/", icon: AiFillHome },
@@ -68,6 +70,24 @@ function Sidebar({ showSideNav }) {
         </div>
         <div className="sidebar-btn bookmark-btn" key="rate-us">
           <Link to="/rateus" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faStar} /> Rate Us
+          </Link>
+        </div>
+
+          </Link>
+        </div>
+        <div className="sidebar-btn bookmark-btn" key="open-source">
+          <Link to="/open-source" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faCode} /> Open Source
+          </Link>
+        </div>
+        <div className="sidebar-btn bookmark-btn" key="faq">
+          <Link to="/faq" className="Link Bookmark nav-link active" aria-current="page">
+            <FontAwesomeIcon icon={faQuestionCircle} /> FAQ's
+          </Link>
+        </div>
+        <div className="sidebar-btn bookmark-btn" key="rate-us">
+          <Link to="/Rate" className="Link Bookmark nav-link active" aria-current="page">
             <FontAwesomeIcon icon={faStar} /> Rate Us
           </Link>
         </div>
