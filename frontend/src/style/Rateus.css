@@ -57,6 +57,11 @@
   text-shadow: 0 0 20px #f7b731;
   animation: shine 1.5s infinite;
 }
+.submit-button:hover {
+  background: #101623;
+  border: 2px solid #fff;
+  color: white;
+}
 
 @keyframes shine {
   0% {
@@ -90,11 +95,6 @@
   transition: background-color 0.3s;
 }
 
-.submit-button:hover {
-  background: #101623;
-  border: 2px solid #fff;
-  color: white;
-}
 
 
   

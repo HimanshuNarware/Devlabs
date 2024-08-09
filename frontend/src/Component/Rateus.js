@@ -6,13 +6,12 @@ import "./../style/Rateus.css";
 function RateUsComponent({ previousContent }) {
   const [rating, setRating] = useState(0);
   const [feedback, setFeedback] = useState("");
+  const handleFeedbackChange = (e) => {
+    setFeedback(e.target.value);
+  };
 
   const handleEmojiClick = (emojiIndex) => {
     setRating(emojiIndex);
-  };
-
-  const handleFeedbackChange = (e) => {
-    setFeedback(e.target.value);
   };
 
   const handleSubmit = () => {
@@ -55,7 +54,7 @@ function RateUsComponent({ previousContent }) {
           ></textarea>
           <button className="submit-button" onClick={handleSubmit}>
             Submit
-            
+
           </button>
         </div>
       </div>
