@@ -1,5 +1,19 @@
+* {
+  cursor: none;
+}
+
 .sidebar-content {
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-  }
+  padding: 10px;
+  cursor: none;
+  transition: background-color 0.2s;
+}
+
+.Toastify__toast-container {
+  color: #000;
+}
+
+.Toastify__toast {
+  font-size: 18px;
+  color: black;
+  background-color: rgb(165, 57, 197);
+}
