@@ -6427,6 +6427,13 @@
     "link": "https://github.com/",
     "description": "GitHub is a platform for version control and collaboration, allowing developers to host and review code, manage projects, and build software together."
   },
+  {
+    "productName": "SPOJ (Sphere Online Judge)",
+    "category": "Tools",
+    "image": "https://pbs.twimg.com/profile_images/568733328090480640/B1rm7i-y_400x400.jpeg",
+    "link": "https://www.spoj.com/",
+    "description": "An online judge system for practicing coding problems and competing in contests."
+  },
     {
     "productName": "Restya Board",
     "category": "Tools",
