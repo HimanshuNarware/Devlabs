@@ -17,6 +17,7 @@ function NavbarLeft(props, showSideNav) {
     };
   }, [props]);
 
+  
   function handleClick(e) {
     e.preventDefault();
     props.setShowSideNav(!props.showSideNav);
