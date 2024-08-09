@@ -5,8 +5,8 @@ import {
   FaGithubSquare,
   FaLinkedinIn,
   FaFacebookF,
-  FaDiscord,
   FaHome,
+  FaDiscord,
   FaBookmark,
   FaQuestionCircle,
   FaRegHeart,
@@ -205,16 +205,16 @@ function Footer() {
                 </span>
                 <span className="icons">
                   <a href="/" target="_blank" rel="noopener noreferrer">
-                    <FaDiscord color="white" fontSize={25} className="ico" />
-                  </a>
-                </span>
-                <span className="icons">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
                     <FaGithubSquare
                       color="white"
                       fontSize={25}
                       className="ico"
                     />
+                  </a>
+                </span>
+                <span className="icons">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <FaDiscord color="white" fontSize={25} className="ico" />
                   </a>
                 </span>
                 <span className="icons">
