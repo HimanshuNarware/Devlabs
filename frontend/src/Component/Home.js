@@ -519,7 +519,6 @@ function Home(props) {
           </div>
           <Testimonials />
         </div>
-      </div>
     </SkeletonTheme>
 
   );
