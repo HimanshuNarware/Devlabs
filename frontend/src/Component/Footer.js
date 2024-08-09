@@ -110,7 +110,7 @@ function Footer() {
                   <a href="/extensions">
                     <FaTools className="mr-2" /> Extension
                   </a>
-                </li>
+                </li>  
                 <li className="nav-item">
                   <a href="/ui-designs">
                     <FaLaptopCode className="mr-2" /> UI Design
@@ -141,7 +141,6 @@ function Footer() {
           </div>
         </div>
       </div>
-
       <div className="Last-footer">
         <div className="container">
           <div className="row justify-content-center">
@@ -192,7 +191,7 @@ function Footer() {
                 <span className="icons">
                   <a href="mailto:example@gmail.com" target="_blank" rel="noopener noreferrer">
                     <AiOutlineMail color="white" fontSize={25} className="ico" />
-                  </a>
+                  </a>  
                 </span>
               </div>
               <hr />

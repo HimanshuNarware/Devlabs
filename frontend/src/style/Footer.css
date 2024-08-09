@@ -193,19 +193,18 @@
 	text-decoration: underline;
   }
   
-  
+
+  .icons {
+	display: flex;
+	align-items: center;
+  }
   .footer-content {
 	margin-top: 1rem;
   }
-  
+
   .outerD {
 	display: flex;
 	justify-content: center;
 	gap: 1rem;
 	margin-top: 1rem;
   }
-  .icons {
-	display: flex;
-	align-items: center;
-  }
-  
