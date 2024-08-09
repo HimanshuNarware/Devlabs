@@ -31,7 +31,8 @@ function NavbarCenter( ) {
   };
 
   return (
-    <nav className="navbar-center">
+    <>
+        <nav className="navbar-center">
       <ul className="navbar-content mb-2">
         <li className="nav-item">
           <NavbarItem
@@ -124,6 +125,12 @@ function NavbarCenter( ) {
               </>
             }
             to="/Register"
+          />
+        </li>
+        <li className="nav-item">
+          <NavbarItem 
+            description={
+              <>
                 <FontAwesomeIcon icon={faUser} /> My Profile
               </>
             }
@@ -140,6 +147,8 @@ function NavbarCenter( ) {
         </Box>
       </Backdrop>
     </nav>
+    
+    </>
   );
 }
 export default NavbarCenter;
