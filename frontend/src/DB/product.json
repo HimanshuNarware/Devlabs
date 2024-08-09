@@ -48,6 +48,13 @@
     "description": "Starknet is a Validity Rollup that provides unlimited scale while retaining Ethereum’s security and decentralization."
   },  
   {
+    "productName": "Streamlit",
+    "category": "Web Frameworks",
+    "image": "https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg",
+    "link": "https://streamlit.io/",
+    "description": "User-friendly open-source framework for building  interactive, data-driven web applications in Python with minimal code."
+  },
+  {
     "productName": "Ghostery Extension",
     "category": "Extensions",
     "image": "https://shorturl.at/IHnap",
