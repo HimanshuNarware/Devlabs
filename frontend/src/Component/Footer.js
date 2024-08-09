@@ -100,21 +100,25 @@ function Footer() {
                     <FaRobot className="mr-2" /> AI
                   </a>
                 </li>
+
                 <li className="nav-item">
                   <a href="/movies&series">
                     <FaFilm className="mr-2" /> Movie/Series
                   </a>
                 </li>
+
                 <li className="nav-item">
                   <a href="/extensions">
                     <FaTools className="mr-2" /> Extension
                   </a>
-                </li>  
+                </li> 
+
                 <li className="nav-item">
                   <a href="/ui-designs">
                     <FaLaptopCode className="mr-2" /> UI Design
                   </a>
                 </li>
+                
               </ul>
             </div>
             <div className="col-md-6 col-lg-2 col-12 ft-2 ft-last">

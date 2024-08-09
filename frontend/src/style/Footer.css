@@ -169,7 +169,17 @@
 	  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
 	}
   }
-  
+  .icons {
+	display: flex;
+	align-items: center;
+  }
+  .footer-content {
+	margin-top: 1rem;
+  }
+  .contact-link a {
+	color: #000;
+	transition: transform 0.3s ease, color 0.3s ease;
+  }
   .contact-link a:hover {
 	border: 2px solid #fff;
   }
@@ -193,15 +203,5 @@
 	gap: 1rem;
 	margin-top: 1rem;
   }
-  .icons {
-	display: flex;
-	align-items: center;
-  }
-  .footer-content {
-	margin-top: 1rem;
-  }
-  .contact-link a {
-	color: #000;
-	transition: transform 0.3s ease, color 0.3s ease;
-  }
+
  
