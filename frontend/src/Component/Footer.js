@@ -6,7 +6,7 @@ import {
   FaGithubSquare,
   FaLinkedinIn,
   FaFacebookF,
-  FaHome,
+  FaHome, 
   FaBookmark,
   FaQuestionCircle,
   FaRegHeart,
