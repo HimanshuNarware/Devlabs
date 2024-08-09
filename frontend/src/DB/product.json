@@ -2767,7 +2767,7 @@
   },
   {
     "productName": "Notion",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://t.ly/_eHX",
     "link": "https://notion.so/",
     "description": "Productivity tool for everything you need."
@@ -4615,28 +4615,28 @@
   },
   {
     "productName": "Warp",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://d4.alternativeto.net/qtP9GDgTpLu6XX3v3s374WZmDiEa6d7aladATlM3mG8/rs:fill:280:280:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy93YXJwLXRlcm1pbmFsXzIwMTQwOS5wbmc.png",
     "link": "https://www.warp.dev/",
     "description": "Warp is a terminal reimagined with AI and collaborative tools for better productivity."
   },
   {
     "productName": "Unhook",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://chromestores.com/wp-content/uploads/2022/10/unhook-extension.jpg",
     "link": "https://unhook.app/",
     "description": "A browser extension to eliminate distractions on YouTube"
   },
   {
     "productName": "Cold Turkey",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://alternative.me/media/256/cold-turkey-icon-a9ifoahq7s33x2qf-c.png",
     "link": "https://getcoldturkey.com/features/",
     "description": "The free website blocker designed for studying or focusing on work. Block distractions like social media, games or apps"
   },
   {
     "productName": "Trello",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://pbs.twimg.com/profile_images/1361722806694785027/UY7DlO0a_400x400.png",
     "link": "https://trello.com/",
     "description": "Trello is a productivity tool that helps you organize tasks, teams, and tools with boards, lists, and cards"
@@ -4650,7 +4650,7 @@
   },
   {
     "productName": "Slack",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://freepngdesign.com/content/uploads/images/slack-logo-2397.png",
     "link": "https://slack.com/intl/en-in/",
     "description": "Slack is a platform designed to enhance productivity and streamline communication within teams."
@@ -4664,7 +4664,7 @@
   },
   {
     "productName": "Calendly",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://pbs.twimg.com/profile_images/1574482929203351553/J2L9r-Oy_400x400.png",
     "link": "https://calendly.com/",
     "description": "Calendly is a scheduling automation platform that makes it easy to schedule meetings."
@@ -4678,7 +4678,7 @@
   },
   {
     "productName": "Whimsical",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://i.pinimg.com/736x/ea/2a/b2/ea2ab287b40acfe28348c71eb780d11c.jpg",
     "link": "https://whimsical.com/",
     "description": "Whimsical is a collaborative tool for teams to come together to brainstorm ideas for their next big project."
@@ -4706,7 +4706,7 @@
   },
   {
     "productName": "Draw.io",
-    "category": "productivity",
+    "category": "tools",
     "image": "drawio.jpg",
     "link": "https://www.drawio.com/",
     "description": "Free online Diagram software that allows you to create various types of diagrams and charts."
@@ -5307,7 +5307,7 @@
   },
   {
     "productName": "Sphinx",
-    "category": "documentation",
+    "category": "AI",
     "image": "https://www.jetbrains.com/guide/assets/sphinxdoc-ca1beff5.png",
     "link": "https://www.sphinx-doc.org/en/master/",
     "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects."
@@ -5434,7 +5434,7 @@
   },
   {
     "productName": "PyTorch",
-    "category": "Library",
+    "category": "coding",
     "link": "https://pytorch.org/",
     "image": "https://miro.medium.com/v2/resize:fit:512/1*IMGOKBIN8qkOBt5CH55NSw.png",
     "description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing,"
@@ -5622,14 +5622,14 @@
   },
   {
     "productName": "HoneyDue",
-    "category": "Finance",
+    "category": "Others",
     "image": "https://media.licdn.com/dms/image/C4E0BAQGdJq1XBRcNnQ/company-logo_200_200/0/1631306114383?e=1729728000&v=beta&t=gDc_WuTn99wCStSgXV53g3NW9tMHb6-JgZOQDdk7CLU",
     "link": "https://www.honeydue.com/",
     "description": "Honeydue is the simplest way for couples to manage money, together."
   },
   {
     "productName": "Goodbudget",
-    "category": "Finance",
+    "category": "Others",
     "image": "https://scontent.fidr4-2.fna.fbcdn.net/v/t39.30808-6/294087749_469842161811122_7226879010175637401_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=tgjLniL5iaMQ7kNvgHPgw3T&_nc_ht=scontent.fidr4-2.fna&oh=00_AYAMdATnLXJdBSODCiCJL9q23NE4qKE7uaywOhTbWuQwow&oe=66A68DFD",
     "link": "https://goodbudget.com/",
     "description": "Goodbudget is a budget tracker for the modern age. Say no more to carrying paper envelopes. This virtual budget program keeps you on track with family and friends with the time-tested envelope budgeting method."
