@@ -4545,14 +4545,14 @@
   },
   {
     "productName": "DataCamp",
-    "category": "Data Science and Machine Learning",
+    "category": "data_science",
     "image": "DataCamp.png",
     "link": "https://www.datacamp.com/",
     "description": "DataCamp provides the best learning materials and projects on the topics of Data Science and Machine Learning."
   },
   {
     "productName": "Illa AI Agent Community",
-    "category": "Artificial intelligence and Machine Learning",
+    "category": "data_science",
     "image": "https://sfo3.digitaloceanspaces.com/illa-cloud-team-storage.illacloud.com/team-7aa86328-77bb-4dd8-8f59-7ba4e4ccd69d/system/icon/f9f683db-1e30-4585-82a0-418eaed3bdc6.jpeg",
     "link": "https://illa.ai/",
     "description": "Open-source AI Agents provided by experts in the field of machine learning and professional prompt engineers, can be run with 1 click."
