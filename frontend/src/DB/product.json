@@ -755,6 +755,27 @@
     "link": "https://doodles.google/",
     "description": "Doodle things"
   },
+    {
+    "productName": "XBOX",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/2048px-Xbox_one_logo.svg.png",
+    "link": "https://www.xbox.com/",
+    "description": "Experience the new generation of games and entertainment"
+  },
+  {
+    "productName": "PCGamesN",
+    "category": "tools",
+    "image": "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/04/pcgamesn-logo.jpeg",
+    "link": "https://www.pcgamesn.com/",
+    "description": "All the latest PC gaming news, plus guides and reviews for the biggest games"
+  },
+  {
+    "productName": "Games Rant",
+    "category": "tools",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/social/gr-og-img.png",
+    "link": "https://gamerant.com/",
+    "description": "Delivers content written by gamers for gamers with an emphasis on news, reviews, unique features, and interviews"
+  },
   {
     "productName": "Merriam Webster",
     "category": "tools",
