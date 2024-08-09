@@ -82,7 +82,6 @@
     "link": "https://www.hbomax.com/",
     "description": "HBO Max is a premium streaming service that offers a vast library of movies, TV shows, and exclusive content, including HBO originals and WarnerMedia content."
   },
-
   {
     "productName": "edclub",
     "category": "education",
@@ -4199,6 +4198,13 @@
     "image": "https://shorturl.at/flBDY",
     "link": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
     "description": "Dark Reader is an extension that brings dark mode to any website over the internet."
+  },
+  {
+    "productName": "Fathom",
+    "category": "tools",
+    "image": "https://framerusercontent.com/images/l9XleNGx5L9gQKwyZraSd9qyI.png",
+    "link": "https://hello.fathom.fm/",
+    "description": "Podcast player that allows users to discover, save, and share highlights from podcasts, enhancing the listening experience."
   },
   {
     "productName": "W3resource",
