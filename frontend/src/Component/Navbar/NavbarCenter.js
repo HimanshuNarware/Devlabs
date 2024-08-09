@@ -93,6 +93,8 @@ function NavbarCenter( ) {
             }
             to="/Rate"
           />
+         
+      
         </li>
         <li className="nav-item">
           <NavbarItem
@@ -108,6 +110,20 @@ function NavbarCenter( ) {
           <NavbarItem
             description={
               <>
+                <FontAwesomeIcon icon={faStar} /> Login
+              </>
+            }
+            to="/Login"
+          />
+        </li>
+        <li className="nav-item">
+          <NavbarItem
+            description={
+              <>
+                <FontAwesomeIcon icon={faStar} /> Register
+              </>
+            }
+            to="/Register"
                 <FontAwesomeIcon icon={faUser} /> My Profile
               </>
             }
