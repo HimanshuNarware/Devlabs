@@ -6100,7 +6100,7 @@
 } ,
 {
   "productName": "OpenLearn",
-  "category": "course",
+  "category": "courses",
   "image": "https://github.com/user-attachments/assets/1c6e15c1-911c-4ecf-986b-66b328ce4da4",
   "link": "https://www.open.edu/openlearn/",
   "description": "The Open University’s platform offers free courses across various disciplines, with interactive content and quizzes to reinforce learning."
@@ -6178,14 +6178,14 @@
 },
    {
     "productName": "Plural Sight",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbK1gESSG1wvggc4RkMx84dOVS_K_FpEDXKUkQmrNsRDWQSqRp",
     "link": "https://www.pluralsight.com/",
     "description": "Offers courses and resources to build technical skills; can help enhance resumes with certifications and skills development."
   },
   {
     "productName": "FutureLearn",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hVHDw1NP0tdQjcBpHuN9Srww5Nldu4OjEQPz3s2hP0MSfCuR",
     "link": "https://www.futurelearn.com/",
     "description": "Provides online courses and certifications that can be included in resumes to demonstrate learning and skills development."
@@ -6199,28 +6199,28 @@
    },
   {
     "productName": "Stanford Online",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-wqQjoXovn0M9NumDI0V57DsRZxrd7a-K2K1E5jHjtknCoEVR",
     "link": "https://online.stanford.edu/",
     "description": "Free and paid courses from Stanford University, including professional and executive education."
    },
   {
     "productName": "Harvard Online",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoCmOCgKlJwBk-52QvUILAWNqP2EU0RETO1uSCvSxvUVKQS8ob",
     "link": "https://www.harvardonline.harvard.edu/",
     "description": "Free and paid courses from Harvard University."
    },
   {
     "productName": "OpenCulture",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpqa64rkB-WYc70y0vAdojXVjEDIdWTsjwa1bqcVwceB38Lx-x",
     "link": "https://www.openculture.com/",
     "description": "Free cultural and educational media, including online courses, audiobooks, and more."
    },
   {
     "productName": "BigThink",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
@@ -6274,42 +6274,42 @@
   },
   {
     "productName": "SkillShare",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5n97aejY-xIgPDF8HSTvJrcy_OLTocTInQnLH0-8haNuV-QyN",
     "link": "https://www.skillshare.com/en/",
     "description": "Focuses on creative and professional skills with a project-based approach."
   },
   {
     "productName": "MasterClass",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTsNkUZY96QX0rN7y25ZKYoe98DhUs8h0cDkuhrpCiXmukfBcAO",
     "link": "https://www.masterclass.com/",
     "description": "Courses from world-renowned experts across various fields, including arts, cooking, sports, and more."
   },
   {
     "productName": "Ed2go",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdu3k_w182gfgHFHUdkEjmFfLdhoBKOnOpE1Z1_bfGLcUB6yMN",
     "link": "https://www.ed2go.com/about-us",
     "description": "Online courses for professional development and career training."
   },
   {
     "productName": "CreativeLive",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTTN9nibKkVRwT52aLIuclahndw3616_nkI5rhSyDmecQbxQJ1",
     "link": "https://www.creativelive.com/",
     "description": "Live and on-demand courses in photography, art, design, music, and more."
   },
   {
     "productName": "TreeHouse",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRioAv3OLegd1pjaW51rvkidAWtKzPvJQUXkCtbE66gwbj2FDXu",
     "link": "https://teamtreehouse.com/",
     "description": "Online coding courses and tracks for beginners."
   },
   {
     "productName": "Alison",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
     "link": "https://alison.com/",
     "description": "Free courses in various fields including IT, business, health, and languages."
