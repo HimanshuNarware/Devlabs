@@ -9,7 +9,7 @@ import {
   FaBookmark,
   FaQuestionCircle,
   FaRegHeart,
-  FaBriefcase,
+  FaBriefcase, 
   FaRobot,
   FaFilm,
   FaTools,
