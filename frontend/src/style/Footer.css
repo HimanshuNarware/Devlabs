@@ -179,18 +179,19 @@
 	font-weight: 700;
 	text-decoration: underline;
   }
-  .outerD {
-	display: flex;
-	justify-content: center;
-	gap: 1rem;
-	margin-top: 1rem;
-  }
+ 
   .contact-link a:hover {
 	cursor: pointer;
 	color: #474eff !important;
 	color: white;
 	transform: scale(1.1);
 	animation: pulse 1s infinite alternate;
+  }
+  .outerD {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 1rem;
   }
   .icons {
 	display: flex;
