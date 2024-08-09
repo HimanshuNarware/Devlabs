@@ -1000,6 +1000,27 @@
     "link": "https://overapi.com/",
     "description": "Collection of cheet sheets of mutilple techs."
   },
+      {
+    "productName": "WebTrit",
+    "category": "tools",
+    "image": "https://webtrit.com/wp-content/uploads/2021/03/WebTrit-logo-web.png",
+    "link": "https://webtrit.com/",
+    "description": "Softphone app for Android/iOS/web with full access to its source code and all future updates included"
+  },
+  {
+    "productName": "Capterra",
+    "category": "tools",
+    "image": "https://mms.businesswire.com/media/20190327005550/en/712772/22/capterra-logo.jpg",
+    "link": "https://www.capterra.com/",
+    "description": "Best software & services"
+  },
+  {
+    "productName": "SourceForge",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6pK3FhQx6Z-esFzKPusmhLhne02wLRv-4kA&s",
+    "link": "https://sourceforge.net/",
+    "description": "Complete software discovery platform"
+  },
   {
     "productName": "Autodesk",
     "category": "tools",
