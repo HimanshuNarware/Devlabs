@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./../style/Rateus.css";
-
 function RateUsComponent({ previousContent }) {
   const [rating, setRating] = useState(0);
   const [feedback, setFeedback] = useState("");
   const handleFeedbackChange = (e) => {
     setFeedback(e.target.value);
   };
-  
   const handleEmojiClick = (emojiIndex) => {
     setRating(emojiIndex);
   };
