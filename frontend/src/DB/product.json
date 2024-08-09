@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Traqq",
+    "category": "Tool",
+    "image": "https://traqq.com/about/logo.png",
+    "link": "https://traqq.com/",
+    "description": "Traqq is a powerful timesheet app and time-tracking software for remote and on-site teams worldwide. Track work hours, generate reports, and say goodbye to billing and payroll nightmares."
+  },
+  {
     "productName": "Sentry",
     "category": "Tool",
     "image": "https://www.sentry.io/_assets/branding/png/sentry-horizontal-black.png",
