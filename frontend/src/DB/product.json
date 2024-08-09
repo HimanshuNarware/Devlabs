@@ -76,6 +76,13 @@
     "description": "GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager with features for CI/CD, issue tracking, and more, enabling teams to collaborate on code development and deployment efficiently."
 },
   {
+    "productName": "Behance",
+    "category": "UI_design",
+    "image": "https://static-00.iconduck.com/assets.00/logo-behance-icon-1024x1024-xoc10gee.png",
+    "link": "https://www.behance.net/",
+    "description": "Behance allows creatives to create detailed project portfolios that can include images, videos, and even interactive content. "
+  },
+  {
     "productName": "HBO Max",
     "category": "Movies",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi0AtsHyV6u8jWeYo38SP6MAysGpcHxQoyAw&s",
