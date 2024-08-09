@@ -83,13 +83,6 @@
     "description": "HBO Max is a premium streaming service that offers a vast library of movies, TV shows, and exclusive content, including HBO originals and WarnerMedia content."
   },
   {
-    "productName": "Tabby",
-    "category": "tools",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipCLNRhiP9Qy75c0eHJjdH9w47bYewJJv_w&s",
-    "link": "https://tabby.sh/",
-    "description": "Open-source terminal emulator for various platforms, designed to offer a customizable and extensible terminal experience."
-  },
-  {
     "productName": "edclub",
     "category": "education",
     "image": "https://static.typingclub.com/m/website/logo.png",
@@ -116,6 +109,13 @@
     "image": "https://th.bing.com/th/id/OIP.ZetQNYat2gMZiL1C82pvwAAAAA?rs=1&pid=ImgDetMain",
     "link": "https://thisissand.com/",
     "description": "Thisissand is a unique playground for creating and sharing amazing sandscapes on your computer or mobile device. "
+  },
+  {
+    "productName": "Blooket",
+    "category": "tools",
+    "image": "https://1000logos.net/wp-content/uploads/2022/05/Blooket-Logo.jpg",
+    "link": "https://www.blooket.com/",
+    "description": "Educational platform where teachers can create games and quizzes that students can play to learn in a fun and interactive way."
   },
   {
     "productName": "SciSpace",
