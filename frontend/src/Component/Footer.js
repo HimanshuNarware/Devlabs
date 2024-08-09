@@ -3,7 +3,7 @@ import logo from "../image/logo1.png";
 import "../style/Footer.css";
 
 import {
-  FaGithubSquare,
+  FaGithubSquare, 
   FaLinkedinIn,
   FaFacebookF,
   FaHome,
