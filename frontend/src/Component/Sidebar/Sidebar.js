@@ -16,6 +16,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FaRobot, FaUserSecret, FaFilm, FaCogs, FaLaptopCode, FaTools, FaBook, FaUsers, FaTasks } from "react-icons/fa";
 import "../../style/Sidebar.css";
+  
+
 function Sidebar({ showSideNav }) {
   const sidebarContent = [
     { name: "all", description: "All", url: "/", icon: AiFillHome },
@@ -45,6 +47,7 @@ function Sidebar({ showSideNav }) {
             <BsBookmark /> BookMark
           </Link>
         </div>
+        
         <div className="sidebar-btn home-btn" key="about">
           <Link to="/about" className="Link Bookmark nav-link active" aria-current="page">
             <FontAwesomeIcon icon={faInfoCircle} /> About Us
@@ -66,7 +69,7 @@ function Sidebar({ showSideNav }) {
           </Link>
         </div>
         <div className="sidebar-btn bookmark-btn" key="rate-us">
-          <Link to="/Rate" className="Link Bookmark nav-link active" aria-current="page">
+          <Link to="/rateus" className="Link Bookmark nav-link active" aria-current="page">
             <FontAwesomeIcon icon={faStar} /> Rate Us
           </Link>
         </div>
