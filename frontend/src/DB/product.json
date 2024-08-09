@@ -82,6 +82,13 @@
     "link": "https://www.hbomax.com/",
     "description": "HBO Max is a premium streaming service that offers a vast library of movies, TV shows, and exclusive content, including HBO originals and WarnerMedia content."
   },
+    {
+    "productName": "SpoonFlower",
+    "category": "Tool",
+    "image": "https://th.bing.com/th/id/OIP.zSrWgAwyv_K0ifFKoUndTgAAAA?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "link": "https://www.spoonflower.com/",
+    "description": "Spoonflower is a platform for buying and selling unique prints for every project. Shop wallpaper, fabric and decor from independent artists, or design your own"
+  },
 
   {
     "productName": "edclub",
