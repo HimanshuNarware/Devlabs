@@ -330,6 +330,9 @@ ul a .mr-2 {
   color: #000;
   transition: transform 0.3s ease, color 0.3s ease;
 }
+.contact-link a:hover {
+  border: 2px solid #fff;
+}
 
 .contact-link a:hover {
   cursor: none;
@@ -356,6 +359,3 @@ ul a .mr-2 {
   }
 }
 
-.contact-link a:hover {
-  border: 2px solid #fff;
-}
