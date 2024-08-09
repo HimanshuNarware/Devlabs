@@ -1,3 +1,4 @@
+<a id="top"></a>
 <div align="center">
   <h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="50" height="50" /> DevLabs</h1>
   <p>Welcome to DevLabs, a website where you can search for free tools that are useful for your daily needs. This application is created by the incredible open-source community. On DevLabs, you can discover a collection of free tools that can assist you in various aspects of your life. Moreover, you have the opportunity to contribute to this project by adding more tools to the database.</p>
@@ -212,7 +213,8 @@ If you would like to contribute to the project then kindly go through [Contribut
   <h2>Let's Collaborate and Make DevLabs Even Better! 💻🌟</h2>
 </div>
 
-### ✨ Features
+<details>
+<summary><h2>✨ Features</h2></summary>
 
 1. User Authentication:
    Secure user registration and login using JWT.
@@ -252,15 +254,33 @@ If you would like to contribute to the project then kindly go through [Contribut
     Comprehensive documentation for developers.
     API documentation for integrating with other platforms.
 
+</details>
+
+<hr>
+
 ### 📚 Learn
 To know more about project, please go through [Learn](learn.md)
 
 ### 🌍 Community
 
-### 🏆 Contributors
+<hr>
 
-Recognize the individuals who have contributed to the project. You can use tools like All Contributors to automatically generate a list of contributors.
+<h2 align = "center">Our Contributors ❤️</h2>
+<div align = "center">
+ <h3>Thank you for contributing to our repository</h3>
 
-```bash
-npx all-contributors-cli add <username> <contribution>
-```
+ <a href="https://github.com/HimanshuNarware/Devlabs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=HimanshuNarware/Devlabs" />
+</a>
+
+</div>
+<hr>
+<div>
+  <h2><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f64f_1f3fb/512.webp" width="35" height="35"> Support </h2>
+</div>
+
+<div>
+  Don't forget to leave a star<img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp" width="35" height="30"> for this project!
+</div> <br>
+
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; background-color: black ; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 5px; font-family: Arial; font-size: 16px;">Go to Top</a>
