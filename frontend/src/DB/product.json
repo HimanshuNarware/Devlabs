@@ -13,6 +13,13 @@
     "link": "https://bitbucket.org/",
     "description": "Bitbucket is a Git-based source code repository hosting service from Atlassian that offers a collaborative environment for code development, integrated CI/CD, and seamless integration with other Atlassian products."
 },
+   {
+  "productName": "Obsidian",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/354174/obsidian.svg",
+  "link": "https://obsidian.md/",
+  "description": "Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files."
+},
   {
     "productName": "Sublime Text",
     "category": "coding",
