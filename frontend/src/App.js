@@ -9,6 +9,8 @@ import Navbar from "./Component/Navbar/Navbar";
 import BackToTopButton from "./Component/BackToTopButton";
 import Footer from "./Component/Footer";
 import TrailingCursor from "./Component/TrailingCursor/TrailingCursor";
+import Login from "./Component/Login";
+import Register from "./Component/Register";
 import ChatAssistant from "./ChatAssistant/ChatAssistant";
 // Lazy load components
 const About = lazy(() => import("./Component/About"));
@@ -52,6 +54,31 @@ function App() {
       <ScrollToTop />
       <TrailingCursor />
       <Navbar setSearchQuery={setSearchQuery} />
+      <Routes>
+        <Route path="/" element={<Home searchQuery={searchQuery} />} />
+        <Route path="/bookmark" element={<BookMark />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/open-source" element={<OpenSource />} />
+        <Route path="/review" element={<Review />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/rateus" element={<Rateus />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/remote-jobs" element={<RemoteJobs />} />
+        <Route path="/ai" element={<AI />} />
+        <Route path="/movies-series" element={<Movie />} />
+        <Route path="/extension" element={<Extension />} />
+        <Route path="/ui-design" element={<UI />} />
+        <Route path="/front-end-tools" element={<FrontendTools />} />
+        <Route path="/ethical-hacking" element={<EthicalHacking />} />
+        <Route path="/coding-platform" element={<CodingPlatform />} />
+        <Route path="/courses-platform" element={<CoursesPlatform />} />
+        <Route path="/collaboration-tools" element={<Collaboration />} />
+        <Route path="/login" element={<Login />} /> {/* New Route */}
+        <Route path="/register" element={<Register />} /> {/* New Route */}
+        {/* Define other routes as needed */}
+        <Route path="*" element={<NotFound />} /> {/* 404 route */}
+      </Routes>
+=======
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home searchQuery={searchQuery} />} />
