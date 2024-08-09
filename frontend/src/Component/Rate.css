@@ -1,6 +1,13 @@
 input[type=radio]{
     display: none;
 }
+
+.Rate .star{
+    cursor: pointer;
+}
+.star FaStar{
+    border: 1px solid #fff;
+}
 .Rate{
     height: 500px;
 }
@@ -11,10 +18,4 @@ input[type=radio]{
     font-weight: 400;
     margin-top: 20px;
     /* background-color: ; */
-}
-.Rate .star{
-    cursor: pointer;
-}
-.star FaStar{
-    border: 1px solid #fff;
 }
