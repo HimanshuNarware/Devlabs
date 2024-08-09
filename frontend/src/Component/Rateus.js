@@ -28,7 +28,6 @@ function RateUsComponent({ previousContent }) {
     }
   };
 
-  
   const emojis = ["😢", "😟", "😐", "😊", "😍"];
 
   return (
@@ -63,5 +62,6 @@ function RateUsComponent({ previousContent }) {
     </>
   );
 }
+
 export default RateUsComponent;
   

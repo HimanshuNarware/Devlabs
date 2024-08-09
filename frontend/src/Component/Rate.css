@@ -8,14 +8,3 @@ input[type=radio]{
 .star FaStar{
     border: 1px solid #fff;
 }
-.Rate{
-    height: 500px;
-}
-
-.Rate p{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 20px;
-    /* background-color: ; */
-}

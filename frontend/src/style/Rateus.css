@@ -57,16 +57,6 @@
   transition: transform 0.3s, text-shadow 0.3s;
   margin: 0 10px;
 }
-.feedback-textarea {
-  width: 100%;
-  height: 180px;
-  padding: 10px;
-  background-color: #101623;
-  border-radius: 5px;
-  resize: none;
-  margin-bottom: 20px;
-  color: white;
-}
 
 
 .emoji.selected {
@@ -85,6 +75,16 @@
   }
 }
 
+.feedback-textarea {
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+  background-color: #101623;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 20px;
+  color: white;
+}
 
 .submit-button {
   width: 30%;
