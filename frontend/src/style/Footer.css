@@ -180,11 +180,6 @@
 	text-decoration: underline;
   }
   
-  .contact-link a {
-	color: #000;
-	transition: transform 0.3s ease, color 0.3s ease;
-  }
-  
   .contact-link a:hover {
 	cursor: pointer;
 	color: #474eff !important;
@@ -199,7 +194,10 @@
   .footer-content {
 	margin-top: 1rem;
   }
-
+  .contact-link a {
+	color: #000;
+	transition: transform 0.3s ease, color 0.3s ease;
+  }
   .outerD {
 	display: flex;
 	justify-content: center;
