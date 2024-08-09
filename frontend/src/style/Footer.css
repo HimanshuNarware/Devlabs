@@ -193,6 +193,7 @@
 	text-decoration: underline;
   }
   
+  
   .footer-content {
 	margin-top: 1rem;
   }
@@ -203,7 +204,6 @@
 	gap: 1rem;
 	margin-top: 1rem;
   }
-  
   .icons {
 	display: flex;
 	align-items: center;
