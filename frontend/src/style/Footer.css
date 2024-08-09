@@ -350,7 +350,7 @@ ul a .mr-2 {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
 }
-contact-link a:hover {
+.contact-link a:hover {
   cursor: none;
   color: #474eff !important;
   color: white;
