@@ -118,9 +118,10 @@ function Footer() {
                     <FaLaptopCode className="mr-2" /> UI Design
                   </a>
                 </li>
-                
+
               </ul>
             </div>
+            
             <div className="col-md-6 col-lg-2 col-12 ft-2 ft-last">
               <h3>Explore</h3>
               <ul>
