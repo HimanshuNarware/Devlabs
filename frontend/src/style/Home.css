@@ -19,19 +19,18 @@
 
 /* Custom scrollbar for webkit browsers (Chrome, Safari, Edge) */
 
-::-webkit-scrollbar-track {
-  background-color: var(
-    --scrollbar-bg
-  ); /* Background color of the scrollbar track */
-  border-radius: 15px;
-}
-
 /* Custom scrollbar for Firefox */
 ::-webkit-scrollbar {
   scrollbar-width: thin; /* Makes the scrollbar thin */
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-bg); /* Custom colors */
   border-radius: 15px;
   width: 6px; /* Width of the scrollbar */
+}
+::-webkit-scrollbar-track {
+  background-color: var(
+    --scrollbar-bg
+  ); /* Background color of the scrollbar track */
+  border-radius: 15px;
 }
 /* contributor style */
 .contributors-section {
@@ -85,6 +84,8 @@
   list-style-type: none;
   padding: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 5px;
 }
 
@@ -516,11 +517,6 @@
   background-color: #8b5cf6;
   cursor: pointer;
 }
-.filter-container{
-  width: 100vw;
-  height: 6vh;
- 
-}
 
 .active_filter, .filter-button:hover {
   background-color: #09001f63;
@@ -641,7 +637,7 @@
 .hero-button a:hover {
   color: white;
 }
-
+ 
 @keyframes slideInLeft {
   from {
       opacity: 0;

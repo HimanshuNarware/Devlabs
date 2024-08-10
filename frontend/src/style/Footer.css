@@ -1,6 +1,6 @@
 .Footer {
-  padding: 2rem 0;
-  margin-top: 15rem; /* Adjust as needed */
+  padding: 5rem 0;
+  /* margin-top: 5rem;  */
   background: #6a43c3;
   color: white;
 }
@@ -330,14 +330,9 @@ ul a .mr-2 {
   color: #000;
   transition: transform 0.3s ease, color 0.3s ease;
 }
-
 .contact-link a:hover {
-  cursor: none;
-  color: #474eff !important;
-  color: white;
-  transform: scale(1.1);
-  animation: pulse 1s infinite alternate;
-}
+  border: 2px solid #fff;
+} 
 
 @keyframes pulse {
   0% {
@@ -355,7 +350,10 @@ ul a .mr-2 {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
 }
-
 .contact-link a:hover {
-  border: 2px solid #fff;
+  cursor: none;
+  color: #474eff !important;
+  color: white;  
+  transform: scale(1.1);
+  animation: pulse 1s infinite alternate;
 }
