@@ -7,6 +7,13 @@
     "description": "iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted."
 },
   {
+    "productName": "Retool",
+    "category": "tools",
+    "image": "https://raw.githubusercontent.com/tryretool/brand-assets/master/Logos/logo-full-black.png",
+    "link": "https://retool.com/",
+    "description": "Platform that allows developers to build internal tools quickly using pre-built components, APIs, and databases."
+  },
+  {
     "productName": "Traqq",
     "category": "Tool",
     "image": "https://traqq.com/about/logo.png",
