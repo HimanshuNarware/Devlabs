@@ -86,6 +86,13 @@
   "description": "TiddlyWiki is a unique non-linear notebook for capturing, organizing, and sharing complex information."
 }, 
   {
+  "productName": "Scrimba",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/345681/scrimba.svg",
+  "link": "https://scrimba.com/",
+  "description": "Scrimba is an interactive learning platform for coders that lets you watch and edit code directly in the video player."
+},
+  {
     "productName": "Sublime Text",
     "category": "coding",
     "image": "https://t.ly/-PnbM",
