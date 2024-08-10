@@ -1,5 +1,7 @@
 .sidebar-content {
   padding: 10px;
-  cursor: pointer;
+  cursor: pointer; 
   transition: background-color 0.2s;
-}
+} 
+
+
