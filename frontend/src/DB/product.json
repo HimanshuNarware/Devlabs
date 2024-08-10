@@ -4199,6 +4199,13 @@
     "description": "Dark Reader is an extension that brings dark mode to any website over the internet."
   },
   {
+    "productName": "Fathom",
+    "category": "tools",
+    "image": "https://framerusercontent.com/images/l9XleNGx5L9gQKwyZraSd9qyI.png",
+    "link": "https://hello.fathom.fm/",
+    "description": "Podcast player that allows users to discover, save, and share highlights from podcasts, enhancing the listening experience."
+  },
+  {
     "productName": "W3resource",
     "category": "tools",
     "image": "W3resource.png",
