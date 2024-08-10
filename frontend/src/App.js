@@ -4,6 +4,11 @@ import "./App.css";
 import About from "./Component/About"; 
 import Footer from "./Component/Footer"; 
 import Rateus from "./Component/Rateus"; 
+ 
+import "./App.css"; 
+import About from "./Component/About";
+import Footer from "./Component/Footer";
+import Rateus from "./Component/Rateus";
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar/Navbar";
 import BookMark from "./Component/BookMark";
@@ -12,7 +17,6 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
-
 import "./App.css";
  
 import AOS from "aos";
