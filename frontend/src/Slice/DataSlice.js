@@ -11,26 +11,17 @@ const DataSlice = createSlice({
   },
   reducers: {
     setSource: (state, action) => {
-      state.sourceData.push({
-        image: action.payload.image,
-        name: action.payload.name,
-        desc: action.payload.desc,
-        link: action.payload.link,
-      });
+      state.sourceData.push(action.payload);
       state.totalBookmarks = state.sourceData.length;
-      localStorage.setItem('bookmarks', JSON.stringify(state.sourceData));
     },
     deleteSource: (state, action) => {
-      // Find the index of the bookmark to delete by matching the name
       const indexToDelete = state.sourceData.findIndex(
         (bookmark) => bookmark.name === action.payload.name
       );
 
       if (indexToDelete !== -1) {
-        // Remove the bookmark from the array by index
         state.sourceData.splice(indexToDelete, 1);
         state.totalBookmarks = state.sourceData.length;
-        localStorage.setItem('bookmarks', JSON.stringify(state.sourceData));
       }
     },
   },

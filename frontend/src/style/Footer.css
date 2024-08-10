@@ -1,8 +1,93 @@
 .Footer {
-  padding: 2rem 0;
-  margin-top: 15rem; /* Adjust as needed */
+  padding: 5rem 0;
+  /* margin-top: 5rem;  */
   background: #6a43c3;
   color: white;
+}
+/* Social Icons Hover Effects */
+.outerD .icons {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.outerD .icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Increased size for better visibility */
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.outerD .icons a .fab {
+  font-size: 25px;
+  position: absolute;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Hover effects */
+.outerD .icons a:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.outerD .icons a:hover .fab {
+  color: #ffd700; /* Gold color on hover */
+}
+
+/* Icon-specific hover effects */
+.outerD .icons:nth-child(1) a:hover .fab {
+  color: #c13584; /* Instagram */
+}
+
+.outerD .icons:nth-child(2) a:hover .fab {
+  color: #1da1f2; /* Twitter */
+}
+
+.outerD .icons:nth-child(3) a:hover .fab {
+  color: #ff0000; /* YouTube */
+}
+
+.outerD .icons:nth-child(4) a:hover .fab {
+  color: #0077b5; /* LinkedIn */
+}
+
+.outerD .icons:nth-child(5) a:hover .fab {
+  color: #3b5998; /* Facebook */
+}
+
+.outerD .icons:nth-child(6) a:hover .fab {
+  color: #333; /* GitHub */
+}
+
+.outerD .icons:nth-child(7) a:hover .fab {
+  color: #ea4335; /* Email */
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.outerD .icons a:hover {
+  animation: pulse 0.5s infinite;
 }
 
 /* Responsive adjustments */

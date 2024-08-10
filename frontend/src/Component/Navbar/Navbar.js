@@ -3,17 +3,17 @@ import "../../style/Navbar.css";
 import Sidebar from "../Sidebar/Sidebar";
 import NavbarLeft from "./NavbarLeft";
 import NavbarCenter from "./NavbarCenter";
-import Progress from "./Progress";
 function Navbar(props) {
   const [showSideNav, setShowSideNav] = useState(false);
-  
+
   return (
     <header>
-      <div className="navbar w-100">
-        <Progress />
+      <div className="navbar">
         <NavbarLeft showSideNav={showSideNav} setShowSideNav={setShowSideNav} />
-        <NavbarCenter showSideNav={showSideNav} />
-        
+        <div style={{ marginLeft: "auto" }}>
+          <NavbarCenter showSideNav={showSideNav} />
+        </div>
+
         {/* Pass setSearchQuery directly 
         <NavbarRight setSearchQuery={props.setSearchQuery} />
         */}
