@@ -2162,6 +2162,27 @@
     "link": "https://10015.io/",
     "description": "Platform for generating interactive digital experiences using visual scripting."
   },
+      {
+    "productName": "Open Collective",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1ojBBfbMDmZVsRdmYYDzNR5X4LDYy3hF9w&s",
+    "link": "https://opencollective.com/",
+    "description": "Legal and financial toolbox for groups"
+  },
+  {
+    "productName": "Band Camp",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnFmNjAzX-fhyENUIKQQl-8z9bMD-3CB5fNg&s",
+    "link": "https://bandcamp.com/",
+    "description": "Discover amazing music and directly support the artists who make it"
+  },
+  {
+    "productName": "Game8",
+    "category": "tools",
+    "image": "https://assets.game8.co/assets/game8_ogp-846ace0d45c153c1174a8beac78a5378ddc11fe3e20f7e4d9b51559cfc4db94d.png",
+    "link": "https://game8.co/",
+    "description": "Top Gaming and App"
+  },
   {
     "productName": "ReadMe Generator",
     "category": "tools",
