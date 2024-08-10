@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { deleteSource } from "../Slice/DataSlice";
 import bookmarkAnimation from "../lottie/bookmark.json";
@@ -7,19 +7,18 @@ import Lottie from "lottie-react";
 import toast from "react-hot-toast";
 
 function BookMark() {
-  const sourceData = useSelector((state) => state.SourceReducer.sourceData);
+  const sourceData = useSelector((state) => state.SourceReducer.sourceData); // Adjust the selector to match your state structure
   const dispatch = useDispatch();
   const [currentPage, setCurrentPage] = useState(1);
   const [postPerPage] = useState(8); // Number of bookmarks per page
-  const handleDeleteBookmark = (name) => {
-    dispatch(deleteSource({ name }));
 
-    const bookmarksInStorage =
-      JSON.parse(localStorage.getItem("bookmarks")) || [];
-    const updatedBookmarks = bookmarksInStorage.filter(
-      (bookmark) => bookmark.name !== name
-    );
-    localStorage.setItem("bookmarks", JSON.stringify(updatedBookmarks));
+  useEffect(() => {
+    localStorage.setItem("bookmarks", JSON.stringify(sourceData));
+  }, [sourceData]);
+
+  const handleDeleteBookmark = (name) => {
+    console.log("remove", name);
+    dispatch(deleteSource({ name }));
     toast.success("Bookmark removed successfully");
   };
 
@@ -39,10 +38,17 @@ function BookMark() {
         {currentBookmarks?.length > 0 ? (
           currentBookmarks?.map((data, index) => (
             <div className="bookmark__box" key={index}>
-              <img className="bookmark__logo" src={data.image} alt={data.name} />
+              <img
+                className="bookmark__logo"
+                src={data.image}
+                alt={data.name}
+              />
               <h2>{data.name}</h2>
               <p className="bookmark__box-text">{data.desc}</p>
-              <button className="bookmark__button" onClick={() => window.open(data.link)}>
+              <button
+                className="bookmark__button"
+                onClick={() => window.open(data.link)}
+              >
                 Link
               </button>
               <button
@@ -103,7 +109,9 @@ function BookMark() {
             style={{ height: "200px" }}
           />
           <h1 className="text-2xl font-semibold">No bookmark Found</h1>
-          <h3 className="mb-4">Explore Devlabs and add them to your bookmark</h3>
+          <h3 className="mb-4">
+            Explore Devlabs and add them to your bookmark
+          </h3>
         </div>
       )}
     </div>
