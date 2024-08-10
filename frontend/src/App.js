@@ -11,7 +11,6 @@ import Footer from "./Component/Footer";
 import BackToTopButton from "./Component/BackToTopButton";
 import ScrollToTop from "./Component/ScrollToTop";
 import ChatAssistant from "./ChatAssistant/ChatAssistant";
-
 // Lazy load components for pages and rarely changed components
 const About = lazy(() => import("./Component/About"));
 const Rateus = lazy(() => import("./Component/Rateus"));
