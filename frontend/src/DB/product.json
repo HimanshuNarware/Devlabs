@@ -62,6 +62,13 @@
     "description": "Visual Studio Code is a free, open-source code editor from Microsoft that provides developers with powerful tools and a flexible workspace for a variety of programming languages."
 },
   {
+    "productName": "Tabby",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipCLNRhiP9Qy75c0eHJjdH9w47bYewJJv_w&s",
+    "link": "https://tabby.sh/",
+    "description": "Open-source terminal emulator for various platforms, designed to offer a customizable and extensible terminal experience."
+  },
+  {
     "productName": "GitLab",
     "category": "tools",
     "image": "https://rb.gy/5vmahj",
@@ -75,7 +82,6 @@
     "link": "https://www.hbomax.com/",
     "description": "HBO Max is a premium streaming service that offers a vast library of movies, TV shows, and exclusive content, including HBO originals and WarnerMedia content."
   },
-
   {
     "productName": "edclub",
     "category": "courses",
@@ -103,6 +109,13 @@
     "image": "https://th.bing.com/th/id/OIP.ZetQNYat2gMZiL1C82pvwAAAAA?rs=1&pid=ImgDetMain",
     "link": "https://thisissand.com/",
     "description": "Thisissand is a unique playground for creating and sharing amazing sandscapes on your computer or mobile device. "
+  },
+  {
+    "productName": "Blooket",
+    "category": "tools",
+    "image": "https://1000logos.net/wp-content/uploads/2022/05/Blooket-Logo.jpg",
+    "link": "https://www.blooket.com/",
+    "description": "Educational platform where teachers can create games and quizzes that students can play to learn in a fun and interactive way."
   },
   {
     "productName": "SciSpace",
@@ -762,6 +775,27 @@
     "link": "https://doodles.google/",
     "description": "Doodle things"
   },
+    {
+    "productName": "XBOX",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/2048px-Xbox_one_logo.svg.png",
+    "link": "https://www.xbox.com/",
+    "description": "Experience the new generation of games and entertainment"
+  },
+  {
+    "productName": "PCGamesN",
+    "category": "tools",
+    "image": "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/04/pcgamesn-logo.jpeg",
+    "link": "https://www.pcgamesn.com/",
+    "description": "All the latest PC gaming news, plus guides and reviews for the biggest games"
+  },
+  {
+    "productName": "Games Rant",
+    "category": "tools",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/social/gr-og-img.png",
+    "link": "https://gamerant.com/",
+    "description": "Delivers content written by gamers for gamers with an emphasis on news, reviews, unique features, and interviews"
+  },
   {
     "productName": "Merriam Webster",
     "category": "tools",
@@ -1200,6 +1234,27 @@
     "image": "https://seeklogo.com/images/P/poshmark-logo-ED11EB78C9-seeklogo.com.png",
     "link": "https://poshmark.com/",
     "description": "Buy, sell, and discover fashion, home decor, beauty, and more."
+  },
+    {
+    "productName": "Turi",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqNfcDCKpGp1p2yRtboc9MvHm3S80tNOTo8w&s",
+    "link": "https://www.turi.org/",
+    "description": "Multifaceted approach to help businesses and communities"
+  },
+  {
+    "productName": "Tura turi",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkpTuBQK07dusDGRBQksZW1RPl8LSaqs2mtg&s",
+    "link": "https://www.turaturi.com/",
+    "description": "Ethnic, Festive Wear and Daily Wear for children, made in pure cotton malmal"
+  },
+  {
+    "productName": "Super Dash",
+    "category": "tools",
+    "image": "https://i.ytimg.com/vi/Bnx_Od6iwxw/hqdefault.jpg",
+    "link": "https://superdash.flutter.dev/",
+    "description": "Multiplatform demo game developed from idea to launch in just 6 weeks"
   },
   {
     "productName": "Sap",
@@ -2161,6 +2216,27 @@
     "image": "https://10015.io/brand/logo-on-light.svg",
     "link": "https://10015.io/",
     "description": "Platform for generating interactive digital experiences using visual scripting."
+  },
+      {
+    "productName": "Open Collective",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1ojBBfbMDmZVsRdmYYDzNR5X4LDYy3hF9w&s",
+    "link": "https://opencollective.com/",
+    "description": "Legal and financial toolbox for groups"
+  },
+  {
+    "productName": "Band Camp",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnFmNjAzX-fhyENUIKQQl-8z9bMD-3CB5fNg&s",
+    "link": "https://bandcamp.com/",
+    "description": "Discover amazing music and directly support the artists who make it"
+  },
+  {
+    "productName": "Game8",
+    "category": "tools",
+    "image": "https://assets.game8.co/assets/game8_ogp-846ace0d45c153c1174a8beac78a5378ddc11fe3e20f7e4d9b51559cfc4db94d.png",
+    "link": "https://game8.co/",
+    "description": "Top Gaming and App"
   },
   {
     "productName": "ReadMe Generator",
@@ -4128,6 +4204,13 @@
     "image": "https://shorturl.at/flBDY",
     "link": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
     "description": "Dark Reader is an extension that brings dark mode to any website over the internet."
+  },
+  {
+    "productName": "Fathom",
+    "category": "tools",
+    "image": "https://framerusercontent.com/images/l9XleNGx5L9gQKwyZraSd9qyI.png",
+    "link": "https://hello.fathom.fm/",
+    "description": "Podcast player that allows users to discover, save, and share highlights from podcasts, enhancing the listening experience."
   },
   {
     "productName": "W3resource",
