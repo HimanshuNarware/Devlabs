@@ -13,14 +13,14 @@ jobs:
 
     - name: Check for duplicate entries in product.json
       run: |
-        # Check for duplicate entries in product.json
-        jq -r '.[].productName' product.json | sort | uniq -d > duplicates.txt
+        # Check for duplicate entries based on the 'link' field in product.json
+        jq -r '.[].link' product.json | sort | uniq -d > duplicates.txt
         if [ -s duplicates.txt ]; then
-          echo "Duplicate entries found in product.json:"
+          echo "Duplicate entries found in product.json based on 'link':"
           cat duplicates.txt
           exit 1
         else
-          echo "No duplicate entries found."
+          echo "No duplicate entries found based on 'link'."
         fi
 
   close-issues:

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsBookmark } from "react-icons/bs";
-import { AiFillHome } from "react-icons/ai";
+import { AiFillHome } from "react-icons/ai";   
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
@@ -45,6 +45,7 @@ function Sidebar({ showSideNav }) {
             <BsBookmark /> BookMark
           </Link>
         </div>
+        
         <div className="sidebar-btn home-btn" key="about">
           <Link to="/about" className="Link Bookmark nav-link active" aria-current="page">
             <FontAwesomeIcon icon={faInfoCircle} /> About Us
@@ -66,7 +67,7 @@ function Sidebar({ showSideNav }) {
           </Link>
         </div>
         <div className="sidebar-btn bookmark-btn" key="rate-us">
-          <Link to="/Rate" className="Link Bookmark nav-link active" aria-current="page">
+          <Link to="/rateus" className="Link Bookmark nav-link active" aria-current="page">
             <FontAwesomeIcon icon={faStar} /> Rate Us
           </Link>
         </div>
