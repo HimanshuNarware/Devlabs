@@ -743,6 +743,13 @@
     "description": "Offers aquarium hobbyists the best shopping experience possible"
   },
   {
+    "productName": "Digital Samaritan",
+    "category": "tools",
+    "image": "https://assets.softr-files.com/applications/b9f49e76-e4e1-44fe-b9aa-6adcc3bb5eb7/assets/e5108308-ac0d-4b44-8988-b411c8ff8252.png",
+    "link": "https://www.digitalsamaritan.co/",
+    "description": "Where AI meets hustle: Weekly tools to 10x your output and 0.1x your effort."
+  },
+  {
     "productName": "Katalon",
     "category": "tools",
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Katalon-logo-png.png",
