@@ -7,11 +7,74 @@
     "description": "iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted."
 },
   {
-    "productName": "Sentry",
+    "productName": "Traqq",
     "category": "Tool",
+    "image": "https://traqq.com/about/logo.png",
+    "link": "https://traqq.com/",
+    "description": "Traqq is a powerful timesheet app and time-tracking software for remote and on-site teams worldwide. Track work hours, generate reports, and say goodbye to billing and payroll nightmares."
+  },
+  {
+    "productName": "HubSpot",
+    "category": "Business",
+    "image": "https://academy.hubspot.com/hubfs/assets/hubspot.com/academy/logos/hubspot-academy-logo-color.svg",
+    "link": "https://www.hubspot.com/products/crm",
+    "description": "With the easy-to-use HubSpot CRM, you’ll never manually update reports or wonder how your team is tracking toward quotas. Your pipeline always stays up to date, so you can spend less time managing and more time selling."
+},
+  {
+    "productName": "Sourcegraph",
+    "category": "Coding",
+    "image": "https://sourcegraph.com/sourcegraph-logo.svg",
+    "link": "https://sourcegraph.com/",
+    "description": "Sourcegraph allows developers to rapidly search, write, and understand code by bringing insights from their entire codebase right into the editor."
+},
+  {
+    "productName": "Traqq",
+    "category": "Tool",
+    "image": "https://traqq.com/about/logo.png",
+    "link": "https://traqq.com/",
+    "description": "Traqq is a powerful timesheet app and time-tracking software for remote and on-site teams worldwide. Track work hours, generate reports, and say goodbye to billing and payroll nightmares."
+  },
+  {
+    "productName": "Sentry",
+    "category": "tools",
     "image": "https://www.sentry.io/_assets/branding/png/sentry-horizontal-black.png",
     "link": "https://sentry.io/welcome/",
     "description": "Sentry is an open-source error tracking tool that helps developers monitor and fix crashes in real time."
+  },
+   {
+  "productName": "PyCharm",
+  "category": "coding",
+  "image": "https://shorturl.at/yBog0",
+  "link": "https://www.jetbrains.com/pycharm/",
+  "description": "PyCharm is a powerful integrated development environment (IDE) for Python developers, providing smart code assistance, robust debugging, and seamless integration with numerous tools and frameworks."
+},
+  {
+    "productName": "Grammerly plagrism",
+    "category": "Tool",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJegCk-tk9EwNlZ6Br_GnM9LJcfsjhtngkpA&s",
+    "link": "https://www.grammarly.com/plagiarism-checker",
+    "description": "Ensure every word is your own with Grammarly’s plagiarism checker."
+},
+  {
+    "productName": "pageSpeed insights",
+    "category": "Tool",
+    "image": "https://www.gstatic.com/pagespeed/insights/ui/logo/favicon_48.png",
+    "link": "https://pagespeed.web.dev/",
+    "description": "Make your web pages fast on all devices."
+},
+  {
+    "productName": "Pdf2Go",
+    "category": "Tool",
+    "image": "https://www.pdf2go.com/assets/logo/logo_pdf2go.svg",
+    "link": "https://www.pdf2go.com/edit-pdf",
+    "description": "This online PDF editor allows you to directly edit a PDF document."
+},
+  {
+    "productName": "QuickTools by Picsart",
+    "category": "Tool",
+    "image": "https://cdn140.picsart.com/quicktools-logo.svg",
+    "link": "https://tools.picsart.com/text/font-generator/",
+    "description": "#1 Font & Text Generator with 170+ fonts & 10 font styles."
   },
   {
     "productName": "Bitbucket",
@@ -19,6 +82,57 @@
     "image": "https://shorturl.at/upeTZ",
     "link": "https://bitbucket.org/",
     "description": "Bitbucket is a Git-based source code repository hosting service from Atlassian that offers a collaborative environment for code development, integrated CI/CD, and seamless integration with other Atlassian products."
+},
+   {
+  "productName": "Obsidian",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/354174/obsidian.svg",
+  "link": "https://obsidian.md/",
+  "description": "Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files."
+},
+  {
+  "productName": "Dillinger",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/354168/markdown.svg",
+  "link": "https://dillinger.io/",
+  "description": "Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible Markdown editor."
+},
+  
+  {
+  "productName": "Pencil Project",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/340331/pencil.svg",
+  "link": "http://pencil.evolus.vn/",
+  "description": "Pencil Project is a free and open-source GUI prototyping tool that allows you to create mockups and diagrams easily."
+
+},
+  {
+  "productName": "Figma Jam",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/354183/figma-jam.svg",
+  "link": "https://www.figma.com/jam/",
+  "description": "Figma Jam is an online whiteboarding tool for teams to brainstorm, ideate, and plan together."
+},
+  {
+  "productName": "TiddlyWiki",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/345679/tiddlywiki.svg",
+  "link": "https://tiddlywiki.com/",
+  "description": "TiddlyWiki is a unique non-linear notebook for capturing, organizing, and sharing complex information."
+}, 
+  {
+  "productName": "Scrimba",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/345681/scrimba.svg",
+  "link": "https://scrimba.com/",
+  "description": "Scrimba is an interactive learning platform for coders that lets you watch and edit code directly in the video player."
+},
+  {
+  "productName": "Carbon",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/345682/carbon.svg",
+  "link": "https://carbon.now.sh/",
+  "description": "Carbon is a tool that allows you to create and share beautiful images of your source code."
 },
   {
     "productName": "Sublime Text",
@@ -28,6 +142,14 @@
     "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It features a clean interface, powerful search and editing capabilities, and a wide range of plugins and customizations to enhance the development experience."
   },
   {
+    "productName": "Sublime Text",
+    "category": "coding",
+    "image": "https://t.ly/-PnbM",
+    "link": "https://www.sublimetext.com/",
+    "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It features a clean interface, powerful search and editing capabilities, and a wide range of plugins and customizations to enhance the development experience."
+  },
+  
+  {
     "productName": "Eclipse",
     "category": "coding",
     "image": "https://shorturl.at/Z7f51",
@@ -36,17 +158,10 @@
 },
   {
     "productName": "DevZero",
-    "category": "Useful Tools",
+    "category": "tools",
     "image": "https://docs.devzero.io/~gitbook/image?url=https%3A%2F%2F3351508441-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F5T3roFeO7ghjcNFibTDV%252Ficon%252FzuOg8WYAjLZU7fLYsPtR%252Fdevzerohq_logo.jpeg%3Falt%3Dmedia%26token%3D6552448a-b05a-4d97-9e2c-dbf823736a4e&width=32&dpr=1&quality=100&sign=9a2fcec3&sv=1",
     "link": "https://devzero.io/",
     "description": "Providing developers with customizable yet standardized workspaces so they can code and iterate in a collaborative, production-symmetric environment."},
-  {
-  "productName": "Invision",
-  "category": "tools",
-  "image": "https://www.svgrepo.com/download/98765/invision-logo.svg",
-  "link": "https://www.invisionapp.com/",
-  "description": "Invision is a digital product design platform that helps teams collaborate and prototype designs efficiently."
-},
   {
     "productName": "Starknet",
     "category": "web",
@@ -55,25 +170,25 @@
     "description": "Starknet is a Validity Rollup that provides unlimited scale while retaining Ethereum’s security and decentralization."
   },  
   {
+    "productName": "Streamlit",
+    "category": "Web Frameworks",
+    "image": "https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg",
+    "link": "https://streamlit.io/",
+    "description": "User-friendly open-source framework for building  interactive, data-driven web applications in Python with minimal code."
+  },
+  {
     "productName": "Ghostery Extension",
-    "category": "Extensions",
+    "category": "extensions",
     "image": "https://shorturl.at/IHnap",
     "link": "https://www.ghostery.com/",
     "description": "Ghostery is a powerful browser extension that enhances your privacy by blocking trackers and providing detailed insights into who is collecting your data. It's available for multiple browsers and helps speed up page loading times while ensuring a more private browsing experience."
 },
   {
   "productName": "Call Of Duty",
-  "category": "games",
+  "category": "Entertainment",
   "image": "https://www.svgrepo.com/download/67890/call-of-duty-logo.svg",
   "link": "https://www.callofduty.com/",
   "description": "Call of Duty is a first-person shooter video game franchise that focuses on realism and cinematic experiences."
-},
-{
-  "productName": "Shapeways",
-  "category": "Tool",
-  "image": "https://th.bing.com/th/id/OIP.fS8A6HdHwA0RhZPcUMomZAHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-  "link": "https://www.shapeways.com/",
-  "description": "Shapeways offers 3D printing services for production parts, rapid prototyping, e-commerce integrations, and design solutions. Choose from over 90 materials and finishes."
 },
   {
     "productName": "Visual Studio Code",
@@ -82,13 +197,13 @@
     "link": "https://code.visualstudio.com/",
     "description": "Visual Studio Code is a free, open-source code editor from Microsoft that provides developers with powerful tools and a flexible workspace for a variety of programming languages."
 },
-{
-  "productName": "Shapeways",
-  "category": "Tool",
-  "image": "https://th.bing.com/th/id/OIP.fS8A6HdHwA0RhZPcUMomZAHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-  "link": "https://www.shapeways.com/",
-  "description": "Shapeways offers 3D printing services for production parts, rapid prototyping, e-commerce integrations, and design solutions. Choose from over 90 materials and finishes."
-},
+  {
+    "productName": "Tabby",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipCLNRhiP9Qy75c0eHJjdH9w47bYewJJv_w&s",
+    "link": "https://tabby.sh/",
+    "description": "Open-source terminal emulator for various platforms, designed to offer a customizable and extensible terminal experience."
+  },
   {
     "productName": "GitLab",
     "category": "tools",
@@ -96,46 +211,16 @@
     "link": "https://about.gitlab.com/",
     "description": "GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager with features for CI/CD, issue tracking, and more, enabling teams to collaborate on code development and deployment efficiently."
 },
-{
-  "productName": "Hemingway",
-  "category": "Tool",
-  "image": "https://th.bing.com/th/id/OIP.KmubvHbzHsdAXbx5sfHXrgHaHa?w=166&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-  "link": "https://hemingwayapp.com/",
-  "description": "Hemingway App helps you write concisely and correctly by highlighting lengthy, complex, or error-prone sentences. You can also use AI tools to fix, tone, or style your text with Hemingway Editor Plus."
-},
-  {
-
-  "productName": "Shapeways",
-  "category": "Tool",
-  "image": "https://th.bing.com/th/id/OIP.fS8A6HdHwA0RhZPcUMomZAHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-  "link": "https://www.shapeways.com/",
-  "description": "Shapeways offers 3D printing services for production parts, rapid prototyping, e-commerce integrations, and design solutions. Choose from over 90 materials and finishes."
-},
-  {
-  "productName": "ArtBreeder",
-  "category": "Tool",
-  "image": "https://th.bing.com/th/id/OIP.GVhFKgC4oHFvlxZgAt5kqgAAAA?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-  "link": "https://www.artbreeder.com/",
-  "description": "Helps you to create like never before. Create characters, artworks and more with multiple tools, powered by AI."
-},
   {
     "productName": "HBO Max",
-    "category": "Movies",
+    "category": "Entertainment",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi0AtsHyV6u8jWeYo38SP6MAysGpcHxQoyAw&s",
     "link": "https://www.hbomax.com/",
     "description": "HBO Max is a premium streaming service that offers a vast library of movies, TV shows, and exclusive content, including HBO originals and WarnerMedia content."
   },
-    {
-    "productName": "SpoonFlower",
-    "category": "Tool",
-    "image": "https://th.bing.com/th/id/OIP.zSrWgAwyv_K0ifFKoUndTgAAAA?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-    "link": "https://www.spoonflower.com/",
-    "description": "Spoonflower is a platform for buying and selling unique prints for every project. Shop wallpaper, fabric and decor from independent artists, or design your own"
-  },
-
   {
     "productName": "edclub",
-    "category": "education",
+    "category": "courses",
     "image": "https://static.typingclub.com/m/website/logo.png",
     "link": "https://www.edclub.com/",
     "description": "edclub is a web-based and fully customizable educational platform. Students can learn in class, at home, or wherever an internet connection can be found. Students are already familiar with the layout of the program because the design is very similar to popular games. Each lesson provides instant, meaningful feedback that encourages students to continue practicing. "
@@ -149,7 +234,7 @@
 },
   {
     "productName": "StayFocusd",
-    "category": "Extensions",
+    "category": "extensions",
     "image": "https://shorturl.at/kctDc",
     "link": "https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji",
     "description": "StayFocusd is a browser extension for Google Chrome that helps improve productivity by restricting the amount of time you can spend on time-wasting websites. It allows you to block or limit access to distracting websites, keeping you focused on your work."
@@ -162,11 +247,25 @@
     "description": "Thisissand is a unique playground for creating and sharing amazing sandscapes on your computer or mobile device. "
   },
   {
+    "productName": "Blooket",
+    "category": "tools",
+    "image": "https://1000logos.net/wp-content/uploads/2022/05/Blooket-Logo.jpg",
+    "link": "https://www.blooket.com/",
+    "description": "Educational platform where teachers can create games and quizzes that students can play to learn in a fun and interactive way."
+  },
+  {
     "productName": "SciSpace",
     "category": "extensions",
     "image": "https://rb.gy/3y43ng",
     "link": "https://rb.gy/wf2f32",
     "description": "Do hours of research in minutes."
+  },
+  {
+    "productName": "Smart TOC",
+    "category": "extensions",
+    "image": "https://shorturl.at/lVADU",
+    "link": "https://shorturl.at/GisyI",
+    "description": "Webpage outliner."
   },
   {
     "productName": "PhpStorm",
@@ -226,7 +325,7 @@
   },
   {
     "productName":"JSBin",
-    "category":"Web Development Platform",
+    "category":"web",
     "image":"https://shorturl.at/kblvi",
     "link":"https://jsbin.com/",
     "description":"JS Bin is a webapp specifically designed to help JavaScript and CSS folk test snippets of code, within some context, and debug the code collaboratively."
@@ -237,13 +336,6 @@
     "image": "https://cdn6.aptoide.com/imgs/8/e/4/8e44fd32cbc8670457828df938dee546_fgraphic.png",
     "link": "https://www.studocu.com/in",
     "description": "Free study notes,summaries and exam prep."
-  },
-  {
-    "productName":"Tree House",
-    "category":"coding",
-    "image":"https://shorturl.at/f2dBu",
-    "link":"https://teamtreehouse.com/",
-    "desciption":"Build a portfolio, create a network, and land your dream programming job."
   },
   {
     "productName": "Netflix",
@@ -275,7 +367,7 @@
   },
   {
     "productName": "Eclipse",
-    "category": "IDEs",
+    "category": "web",
     "image": "https://addonwebsolutions.com/wp-content/uploads/2018/11/eclipse.png",
     "link": "https://www.eclipse.org/",
     "description": "Versatile open-source IDE supporting multiple languages with robust plugin ecosystem."
@@ -314,13 +406,6 @@
     "image": "https://th.bing.com/th/id/OIP.wLtCSTfhG9l65650vmVOnAHaHa?rs=1&pid=ImgDetMain",
     "link": "https://www.random.org/",
     "description": "RANDOM.ORG offers true random numbers to anyone on the Internet. The randomness comes from atmospheric noise, which for many purposes is better than the pseudo-random number algorithms typically used in computer programs."
-  },
-  {
-    "productName": "Iplogger",
-    "category": "tools",
-    "image": "https://th.bing.com/th/id/OIP.wQCiw8FFLwhpWKEUqzE2qQHaFJ?rs=1&pid=ImgDetMain",
-    "link": "https://iplogger.org/",
-    "description": "IP Logger URL shortener web service helps to track data on your website traffic, get information about clicks on your short URLs shared via you social media channels or published on your website, lookup ip address, check ip location and check any URL for redirects and safety."
   },
   {
     "productName": "WebStorm",
@@ -372,11 +457,25 @@
     "description": "Help you manage your time and let you focus on any tasks such as study,etc."
   },
   {
+    "productName": "Postman Interceptor",
+    "category": "tools",
+    "image": "https://shorturl.at/AHa5Z",
+    "link": "https://shorturl.at/Ob5mU",
+    "description": "Capture requests from any website and send them to Postman Client."
+  },
+  {
     "productName": "IEEE",
     "category": "tools",
     "image": "https://pbs.twimg.com/profile_images/474591466749034496/2-H1zqWf_400x400.jpeg",
     "link": "https://www.ieee.org/",
     "description": "World's largest technical professional organization dedicated to advancing technology for the benefit of humanity."
+  },
+  {
+    "productName": "Talend API Tester",
+    "category": "tools",
+    "image": "https://shorturl.at/a3xNt",
+    "link": "https://shorturl.at/t7Yqx",
+    "description": "Visually interact with REST, SOAP and HTTP APIs."
   },
   {
     "productName": "Clarif AI",
@@ -426,13 +525,6 @@
     "image": "https://damiandeluca.com.ar/wp-content/uploads/2012/08/sublime.png",
     "link": "https://www.sublimetext.com/",
     "description": "Sublime Text is a sophisticated cross-platform text editor for code, markup and prose."
-  },
-  {
-    "productName": "Sketch",
-    "category": "tools",
-    "image": "https://www.liblogo.com/img-logo/sk389s515-sketch-logo-sketch-logo-free-icon-of-social-colored-icons.png",
-    "link": "https://www.sketch.com/",
-    "description": "Sketch provides all the tools to help you create — from early wireframes, to flexible design systems. Powerful vector editing. An infinite Canvas. Intuitive, life-like prototyping and more."
   },
   {
     "productName": "Descript AI",
@@ -548,7 +640,7 @@
   },
   {
     "productName": "Zenpen",
-    "category": "Tools",
+    "category": "tools",
     "image": "data:image/jpeg;base64,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",
     "link": "https://zenpen.io/",
     "description": "A minimalist writing zone, where you can block out all distractions and get to what's important. The writing! "
@@ -757,13 +849,6 @@
     "description": "To automate web, API, mobile & desktop functional testing."
   },
   {
-    "productName": "INASP",
-    "category": "tools",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-UYoD4NcKvkpUa3zfOlgqP2i3ing8ZpDNQ&s",
-    "link": "https://www.inasp.info/",
-    "description": "Our vision is of research and knowledge at the heart of development"
-  },
-  {
     "productName": "Fiverr",
     "category": "tools",
     "image": "https://th.bing.com/th/id/OIP.Arb4siojnanMD4dOpW5uHgHaHa?rs=1&pid=ImgDetMain",
@@ -776,6 +861,27 @@
     "image": "https://w7.pngwing.com/pngs/780/55/png-transparent-flight-airplane-travel-agent-computer-icons-travel-text-logo-symbol-thumbnail.png",
     "link": "https://lgtours.in/",
     "description": "For booking and travelling"
+  },
+  {
+    "productName": "XBOX",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/2048px-Xbox_one_logo.svg.png",
+    "link": "https://www.xbox.com/",
+    "description": "Experience the new generation of games and entertainment"
+  },
+  {
+    "productName": "PCGamesN",
+    "category": "tools",
+    "image": "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/04/pcgamesn-logo.jpeg",
+    "link": "https://www.pcgamesn.com/",
+    "description": "All the latest PC gaming news, plus guides and reviews for the biggest games"
+  },
+  {
+    "productName": "Games Rant",
+    "category": "tools",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/social/gr-og-img.png",
+    "link": "https://gamerant.com/",
+    "description": "Delivers content written by gamers for gamers with an emphasis on news, reviews, unique features, and interviews"
   },
   {
     "productName": "Carousel Hero",
@@ -804,6 +910,27 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxvzHZ-q0s93nZL8GThwMq4K_oRRCUX-fNQ&s",
     "link": "https://doodles.google/",
     "description": "Doodle things"
+  },
+    {
+    "productName": "XBOX",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/2048px-Xbox_one_logo.svg.png",
+    "link": "https://www.xbox.com/",
+    "description": "Experience the new generation of games and entertainment"
+  },
+  {
+    "productName": "PCGamesN",
+    "category": "tools",
+    "image": "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/04/pcgamesn-logo.jpeg",
+    "link": "https://www.pcgamesn.com/",
+    "description": "All the latest PC gaming news, plus guides and reviews for the biggest games"
+  },
+  {
+    "productName": "Games Rant",
+    "category": "tools",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/social/gr-og-img.png",
+    "link": "https://gamerant.com/",
+    "description": "Delivers content written by gamers for gamers with an emphasis on news, reviews, unique features, and interviews"
   },
   {
     "productName": "Merriam Webster",
@@ -855,25 +982,11 @@
     "description": "Snap receipt photos, forward email receipts to your account, and import expenses from your bank account."
   },
   {
-    "productName": "Venngage",
-    "category": "tools",
-    "image": "https://wittysparks.com/wp-content/uploads/2021/11/venngage-logo.jpg",
-    "link": "https://venngage.com/",
-    "description": "Create within the simple but powerful editor."
-  },
-  {
     "productName": "Ecomate",
     "category": "tools",
     "image": "https://assets-global.website-files.com/65294b9610dbd756e671da57/65294b9610dbd756e671da6d_ecomate_logo.png",
     "link": "https://www.ecomateapp.com/",
     "description": "Eco-friendly foam blowing agent"
-  },
-  {
-    "productName": "Mulearn",
-    "category": "tools",
-    "image": "https://mulearn.org/%C2%B5Learn.webp",
-    "link": "https://mulearn.org/",
-    "description": "Synergic philosophy of education, with a culture of mutual learning through micro groups of peers."
   },
   {
     "productName": "Holopin",
@@ -939,20 +1052,6 @@
     "description": "Find and install hundreds of apps and games for Linux"
   },
   {
-    "productName": "InstaHire",
-    "category": "tools",
-    "image": "https://shorturl.at/gj1LR",
-    "link": "https://www.instahyre.com/",
-    "description": "Showcase yourself to a curated list of top companies."
-  },
-  {
-    "productName": "Krohne",
-    "category": "tools",
-    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/69330e75443809.5c538d8164f28.png",
-    "link": "https://krohne.com/en",
-    "description": "World-leading manufacturer and supplier of solutions in industrial process instrumentation."
-  },
-  {
     "productName": "National Digital Library",
     "category": "tools",
     "image": "https://ndl.iitkgp.ac.in/assets/img/landing-devel-iitkgp.svg",
@@ -1007,13 +1106,6 @@
     "image": "https://shorturl.at/cBGBo",
     "link": "https://codedamn.com/",
     "description": "codedamn is an interactive platform for learning to code, offering hands-on coding practice and tutorials for various programming languages and technologies."
-  },
-  {
-    "productName": "Money Control",
-    "category": "tools",
-    "image": "https://getlogo.net/wp-content/uploads/2020/04/moneycontrol-logo-vector.png",
-    "link": "https://www.moneycontrol.com/",
-    "description": "Read the latest business news on the Indian economy, global market, upcoming IPOs and more."
   },
   {
     "productName": "Bright Data",
@@ -1146,13 +1238,6 @@
     "description": "Celestial is an Open world Space survival game playing on a Spherical world of roughly 700km2."
   },
   {
-    "productName": "GitLab",
-    "category": "tools",
-    "image": "https://www.pngfind.com/pngs/m/94-945757_gitlab-logo-hd-png-download.png",
-    "link": "https://about.gitlab.com/",
-    "description": "Web-based DevOps platform.Helps to manage the software development lifecycle. "
-  },
-  {
     "productName": "Ubuy India",
     "category": "tools",
     "image": "https://i.pinimg.com/originals/97/58/0d/97580d84469cf69e5c6e4c3d1e9ee8fd.png",
@@ -1210,13 +1295,6 @@
     "description": "Anybody can create applications, websites, chatbots, and more on any internet-connected device without having to hire a programmer or agency."
   },
   {
-    "productName": "FileHippo",
-    "category": "tools",
-    "image": "https://w7.pngwing.com/pngs/270/655/png-transparent-screencast-screenshot-computer-program-filehippo-computer-monitors-computer-computer-logo-computer-program-thumbnail.png",
-    "link": "https://filehippo.com/",
-    "description": "To download safe free versions of the latest software, freeware, shareware and demo programs from a reputable download site"
-  },
-  {
     "productName": "Essay Flow",
     "category": "tools",
     "image": "https://shorturl.at/RDfpQ",
@@ -1250,20 +1328,6 @@
     "image": "https://rb.gy/4z4lkj",
     "link": "https://grow.google/certificates/interview-warmup/",
     "description": "A quick way to prepare for your next interview using this google interview warmup"
-  },
-  {
-    "productName": "Roblox",
-    "category": "tools",
-    "image": "https://static.vecteezy.com/system/resources/previews/027/127/434/original/roblox-logo-roblox-icon-transparent-free-png.png",
-    "link": "https://www.roblox.com/",
-    "description": "Virtual universe that lets you create, share experiences with friends"
-  },
-  {
-    "productName": "Banuba",
-    "category": "tools",
-    "image": "https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/original/288c1924-5ae2-405c-8e9f-858fa5bcd112.png",
-    "link": "https://www.banuba.com/",
-    "description": "Boosting engagement for video conferencing and other apps."
   },
   {
     "productName": "Maths GPT",
@@ -1306,6 +1370,27 @@
     "image": "https://seeklogo.com/images/P/poshmark-logo-ED11EB78C9-seeklogo.com.png",
     "link": "https://poshmark.com/",
     "description": "Buy, sell, and discover fashion, home decor, beauty, and more."
+  },
+    {
+    "productName": "Turi",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqNfcDCKpGp1p2yRtboc9MvHm3S80tNOTo8w&s",
+    "link": "https://www.turi.org/",
+    "description": "Multifaceted approach to help businesses and communities"
+  },
+  {
+    "productName": "Tura turi",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkpTuBQK07dusDGRBQksZW1RPl8LSaqs2mtg&s",
+    "link": "https://www.turaturi.com/",
+    "description": "Ethnic, Festive Wear and Daily Wear for children, made in pure cotton malmal"
+  },
+  {
+    "productName": "Super Dash",
+    "category": "tools",
+    "image": "https://i.ytimg.com/vi/Bnx_Od6iwxw/hqdefault.jpg",
+    "link": "https://superdash.flutter.dev/",
+    "description": "Multiplatform demo game developed from idea to launch in just 6 weeks"
   },
   {
     "productName": "Sap",
@@ -1469,13 +1554,6 @@
     "description": "Ultimate tool for gamers"
   },
   {
-    "productName": "MDN Web Docs",
-    "category": "tools",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1200px-MDN_Web_Docs.svg.png",
-    "link": "https://developer.mozilla.org/en-US/",
-    "description": "Provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."
-  },
-  {
 
     "productName": "Meishe SDK",
     "category": "tools",
@@ -1504,13 +1582,6 @@
     "image": "https://cdn.freelogovectors.net/wp-content/uploads/2019/01/stitch_fix_logo.png",
     "link": "https://www.stitchfix.com/",
     "description": "Personal styling for men, women & kids that sends clothing to your door"
-  },
-  {
-    "productName": "Appy Pie",
-    "category": "tools",
-    "image": "https://www.appypie.com/wp-content/uploads/2020/01/Appy-Pie-Logo.jpg",
-    "link": "https://www.appypie.com/",
-    "description": "Anybody can create applications, websites, chatbots, and more on any internet-connected device without having to hire a programmer or agency."
   },
   {
     "productName": "Unimont Realty",
@@ -1653,32 +1724,11 @@
     "description": "InterviewBit prepares you not only for the interviews, but for the actual job too."
   },
   {
-    "productName": "The Guardian",
-    "category": "tools",
-    "image": "https://shared.prolewiki.org/uploads/7/7a/The_Guardian_Logo.jpg",
-    "link": "https://www.theguardian.com/",
-    "description": "The world's leading liberal voice"
-  },
-  {
     "productName": "Planner 5D",
     "category": "tools",
     "image": "https://w7.pngwing.com/pngs/667/531/png-transparent-planner5d-office-interior-design-services-planner-5d-app-store-gui-game-elements-blue-text-trademark-thumbnail.png",
     "link": "https://planner5d.com/",
     "description": "Create your dream home design with powerful but easy software"
-  },
-  {
-    "productName": "Banuba",
-    "category": "tools",
-    "image": "https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/original/288c1924-5ae2-405c-8e9f-858fa5bcd112.png",
-    "link": "https://www.banuba.com/",
-    "description": "Boosting engagement for video conferencing and other apps."
-  },
-  {
-    "productName": "APIdog",
-    "category": "tools",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNBlfLY-KCFlJkdFoTTkdurNVu7lpUmQT6g&s",
-    "link": "https://apidog.com/",
-    "description": "Complete set of tools that connects the entire API lifecycle"
   },
   {
     "productName": "Momentum",
@@ -1693,13 +1743,6 @@
     "image": "https://shorturl.at/uvFQ9",
     "link": "https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd",
     "description": "This JSONView converts the JSON content into an understandable format and esay to view."
-  },
-  {
-    "productName": "Oxfam",
-    "category": "tools",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBIQUGTTVc0d--TyDk1m6zKD6OWwG1ol5ouQ&s",
-    "link": "https://www.oxfamindia.org/",
-    "description": "Best non profit organization working to support child education, empowering women"
   },
   {
     "productName": "Microsoft Math Solver",
@@ -1723,13 +1766,6 @@
     "description": "The latest news, sports, music and entertainment videos on Dailymotion."
   },
   {
-    "productName": "Student AI",
-    "category": "tools",
-    "image": "https://studentai.app/wp-content/uploads/2023/05/S-letter-geometric-Logo-design-Linear.-.png",
-    "link": "https://studentai.app/",
-    "description": "Every essay becomes a masterpiece, citations align like stars, and even the trickiest math problems bow down."
-  },
-  {
     "productName": "Netlify",
     "category": "tools",
     "image": "https://cdn-1.webcatalog.io/catalog/netlify/netlify-icon-filled-256.png?v=1686434806267",
@@ -1742,13 +1778,6 @@
     "image": "https://toppng.com/uploads/preview/rapid-api-logo-116093740639ljg1hv9ap.png",
     "link": "hhttps://rapidapi.com/",
     "description": "Find, Connect, & Share 1000s of APIs"
-  },
-  {
-    "productName": "MDN Web Docs",
-    "category": "tools",
-    "image": "https://cdn-1.webcatalog.io/catalog/mdn-web-docs/mdn-web-docs-icon-filled-256.png?v=1675596631400",
-    "link": " https://developer.mozilla.org/en-US/ ",
-    "description": " Provides information about Open Web technologies including HTML, CSS, and APIs"
   },
   {
     "productName": "Hashnode",
@@ -1784,6 +1813,48 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Yahoo%21_icon_%282009-2013%29.svg",
     "link": "https://in.yahoo.com/",
     "description": "An internet services company that offers a variety of products and services"
+  },
+      {
+    "productName": "Bad Brains Record",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Bad_Brains_debut.jpg/220px-Bad_Brains_debut.jpg",
+    "link": "https://badbrainsrecords.com/",
+    "description": "Pay To Cum"
+  },
+  {
+    "productName": "CrunkThread",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnwSMwvrDW-LkQlTfX0MSO_iUk2eD-TL6Dw&s",
+    "link": "https://crunkthread.com/",
+    "description": "The streetwear brand that will take your wardrobe to the next level"
+  },
+  {
+    "productName": "YUPLAY",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFvqhWS0dafZIehvEdkhpzMXn-dhkOdUPI2w&s",
+    "link": "https://www.yuplay.com/",
+    "description": "Gamification"
+  },
+        {
+    "productName": "WebTrit",
+    "category": "tools",
+    "image": "https://webtrit.com/wp-content/uploads/2021/03/WebTrit-logo-web.png",
+    "link": "https://webtrit.com/",
+    "description": "Softphone app for Android/iOS/web with full access to its source code and all future updates included"
+  },
+  {
+    "productName": "Capterra",
+    "category": "tools",
+    "image": "https://mms.businesswire.com/media/20190327005550/en/712772/22/capterra-logo.jpg",
+    "link": "https://www.capterra.com/",
+    "description": "Best software & services"
+  },
+  {
+    "productName": "SourceForge",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6pK3FhQx6Z-esFzKPusmhLhne02wLRv-4kA&s",
+    "link": "https://sourceforge.net/",
+    "description": "Complete software discovery platform"
   },
   {
     "productName": "Overleaf",
@@ -1870,14 +1941,6 @@
     "description": "Free downloads of legally licensed fonts that are perfect for your design projects."
   },
   {
-
-    "productName": "Student AI",
-    "category": "tools",
-    "image": "https://studentai.app/wp-content/uploads/2023/05/S-letter-geometric-Logo-design-Linear.-.png",
-    "link": "https://studentai.app/",
-    "description": "Every essay becomes a masterpiece, citations align like stars, and even the trickiest math problems bow down."
-  },
-  {
     "productName": "CLX Gaming",
     "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPcatiQ4iWCbkZi83MlsZXPZN0ppkmx0a03Q&s",
@@ -1932,6 +1995,27 @@
     "image": "https://overapi.com/static/images/overapi-logo.png",
     "link": "https://overapi.com/",
     "description": "Collection of cheet sheets of mutilple techs."
+  },
+      {
+    "productName": "WebTrit",
+    "category": "tools",
+    "image": "https://webtrit.com/wp-content/uploads/2021/03/WebTrit-logo-web.png",
+    "link": "https://webtrit.com/",
+    "description": "Softphone app for Android/iOS/web with full access to its source code and all future updates included"
+  },
+  {
+    "productName": "Capterra",
+    "category": "tools",
+    "image": "https://mms.businesswire.com/media/20190327005550/en/712772/22/capterra-logo.jpg",
+    "link": "https://www.capterra.com/",
+    "description": "Best software & services"
+  },
+  {
+    "productName": "SourceForge",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6pK3FhQx6Z-esFzKPusmhLhne02wLRv-4kA&s",
+    "link": "https://sourceforge.net/",
+    "description": "Complete software discovery platform"
   },
   {
     "productName": "Giveaway Base",
@@ -1995,13 +2079,6 @@
     "image": "https://www.jthemes.com/wp-content/uploads/2021/04/Fontawesome.png",
     "link": "https://fontawesome.com/",
     "description": "Internet's icon library and toolkit, used by millions of designers, developers, and content creators"
-  },
-  {
-    "productName": "Epic games",
-    "category": "tools",
-    "image": "https://cdn2.unrealengine.com/Epic+Games+Node%2Fxlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca4.jpg",
-    "link": "https://store.epicgames.com/en-US/",
-    "description": "Gaming"
   },
   {
     "productName": "ChatGPT Writer",
@@ -2275,6 +2352,27 @@
     "image": "https://10015.io/brand/logo-on-light.svg",
     "link": "https://10015.io/",
     "description": "Platform for generating interactive digital experiences using visual scripting."
+  },
+      {
+    "productName": "Open Collective",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1ojBBfbMDmZVsRdmYYDzNR5X4LDYy3hF9w&s",
+    "link": "https://opencollective.com/",
+    "description": "Legal and financial toolbox for groups"
+  },
+  {
+    "productName": "Band Camp",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnFmNjAzX-fhyENUIKQQl-8z9bMD-3CB5fNg&s",
+    "link": "https://bandcamp.com/",
+    "description": "Discover amazing music and directly support the artists who make it"
+  },
+  {
+    "productName": "Game8",
+    "category": "tools",
+    "image": "https://assets.game8.co/assets/game8_ogp-846ace0d45c153c1174a8beac78a5378ddc11fe3e20f7e4d9b51559cfc4db94d.png",
+    "link": "https://game8.co/",
+    "description": "Top Gaming and App"
   },
   {
     "productName": "ReadMe Generator",
@@ -2817,17 +2915,10 @@
   },
   {
     "productName": "Notion",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://t.ly/_eHX",
     "link": "https://notion.so/",
     "description": "Productivity tool for everything you need."
-  },
-  {
-    "productName": "Simplilearn",
-    "category": "tools",
-    "image": "https://static.theprint.in/wp-content/uploads/2024/03/ANI-20240316070040.jpg",
-    "link": "https://www.simplilearn.com/",
-    "description": "World’s Leading Digital Skills Provider"
   },
   {
     "productName": "ILovePDF",
@@ -3853,7 +3944,7 @@
   },
   {
     "productName": "StackBlitz",
-    "category": "Online Code Editor",
+    "category": "coding",
     "image": "https://avatars.githubusercontent.com/u/28635252?s=200&v=4",
     "link": "https://stackblitz.com/",
     "description": "Instant dev experiences: Click, code, no local setup required."
@@ -3916,28 +4007,28 @@
   },
   {
     "productName": "devChallenges.io",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://bit.ly/462R570",
     "link": "https://devchallenges.io/",
     "description": "Coding challenges and projects to practice coding skills"
   },
   {
     "productName": "frontendpractice",
-    "category": "Coding",
+    "category": "coding",
     "image": "frontendprac.png",
     "link": "https://www.frontendpractice.com/",
     "description": "You can find a collection of projects with varying levels of difficulty."
   },
   {
     "productName": "javascript30",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://bit.ly/3qEuMED",
     "link": "https://javascript30.com/",
     "description": "Building 30 different projects over 30 days."
   },
   {
     "productName": "codewars",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://bit.ly/43XLyga",
     "link": "https://www.codewars.com/",
     "description": "Programming exercises to improve coding skills."
@@ -3951,7 +4042,7 @@
   },
   {
     "productName": "cssbattle",
-    "category": "Coding",
+    "category": "coding",
     "image": "cssbattle.png",
     "link": "https://cssbattle.dev/",
     "description": "Write CSS code in real-time"
@@ -3972,7 +4063,7 @@
   },
   {
     "productName": "jschallenger",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://tinyurl.com/5n6vbc7f",
     "link": "https://www.jschallenger.com/",
     "description": "Learn Javascript online by solving coding exercises."
@@ -4105,7 +4196,7 @@
   },
   {
     "productName": "Exercism",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://bit.ly/3qY1Ck6",
     "link": "https://exercism.org/",
     "description": "Exercism is a coding platform that offers a hands-on learning experience, providing programmers with a wide range of challenges to practice and improve their skills."
@@ -4249,6 +4340,13 @@
     "image": "https://shorturl.at/flBDY",
     "link": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
     "description": "Dark Reader is an extension that brings dark mode to any website over the internet."
+  },
+  {
+    "productName": "Fathom",
+    "category": "tools",
+    "image": "https://framerusercontent.com/images/l9XleNGx5L9gQKwyZraSd9qyI.png",
+    "link": "https://hello.fathom.fm/",
+    "description": "Podcast player that allows users to discover, save, and share highlights from podcasts, enhancing the listening experience."
   },
   {
     "productName": "W3resource",
@@ -4455,35 +4553,35 @@
   },
   {
     "productName": "Devfolio",
-    "category": "Coding",
+    "category": "coding",
     "image": "Devfolio.png",
     "link": "https://devfolio.co/hackathons",
     "description": "We love software and the people who build them."
   },
   {
     "productName": "DEVPOST",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://pbs.twimg.com/profile_images/625987202909085696/KKYbLP8y_400x400.jpg",
     "link": "https://devpost.com/",
     "description": "The home for hackathons"
   },
   {
     "productName": "unstop",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://tinyurl.com/yz3nu723",
     "link": "https://unstop.com/hackathons",
     "description": "Unstop is a platform where talent meets opportunities to unlock their potential."
   },
   {
     "productName": "MAJOR LEAGUE HACKING",
-    "category": "Coding",
+    "category": "coding",
     "image": "MAJOR LEAGUE HACKING.png",
     "link": "https://mlh.io/seasons/2023/events",
     "description": "Find, compete, and earn points at the largest, most diverse hacker events in the world."
   },
   {
     "productName": "HACK CLUB",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://assets.hackclub.com/flag-orpheus-top.svg",
     "link": "https://hackathons.hackclub.com/",
     "description": "High School Hackathons"
@@ -4595,14 +4693,14 @@
   },
   {
     "productName": "DataCamp",
-    "category": "Data Science and Machine Learning",
+    "category": "data_science",
     "image": "DataCamp.png",
     "link": "https://www.datacamp.com/",
     "description": "DataCamp provides the best learning materials and projects on the topics of Data Science and Machine Learning."
   },
   {
     "productName": "Illa AI Agent Community",
-    "category": "Artificial intelligence and Machine Learning",
+    "category": "data_science",
     "image": "https://sfo3.digitaloceanspaces.com/illa-cloud-team-storage.illacloud.com/team-7aa86328-77bb-4dd8-8f59-7ba4e4ccd69d/system/icon/f9f683db-1e30-4585-82a0-418eaed3bdc6.jpeg",
     "link": "https://illa.ai/",
     "description": "Open-source AI Agents provided by experts in the field of machine learning and professional prompt engineers, can be run with 1 click."
@@ -4665,28 +4763,28 @@
   },
   {
     "productName": "Warp",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://d4.alternativeto.net/qtP9GDgTpLu6XX3v3s374WZmDiEa6d7aladATlM3mG8/rs:fill:280:280:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy93YXJwLXRlcm1pbmFsXzIwMTQwOS5wbmc.png",
     "link": "https://www.warp.dev/",
     "description": "Warp is a terminal reimagined with AI and collaborative tools for better productivity."
   },
   {
     "productName": "Unhook",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://chromestores.com/wp-content/uploads/2022/10/unhook-extension.jpg",
     "link": "https://unhook.app/",
     "description": "A browser extension to eliminate distractions on YouTube"
   },
   {
     "productName": "Cold Turkey",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://alternative.me/media/256/cold-turkey-icon-a9ifoahq7s33x2qf-c.png",
     "link": "https://getcoldturkey.com/features/",
     "description": "The free website blocker designed for studying or focusing on work. Block distractions like social media, games or apps"
   },
   {
     "productName": "Trello",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://pbs.twimg.com/profile_images/1361722806694785027/UY7DlO0a_400x400.png",
     "link": "https://trello.com/",
     "description": "Trello is a productivity tool that helps you organize tasks, teams, and tools with boards, lists, and cards"
@@ -4700,21 +4798,14 @@
   },
   {
     "productName": "Slack",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://freepngdesign.com/content/uploads/images/slack-logo-2397.png",
     "link": "https://slack.com/intl/en-in/",
     "description": "Slack is a platform designed to enhance productivity and streamline communication within teams."
   },
   {
-    "productName": "Framer",
-    "category": "UI_design",
-    "image": "framer.svg",
-    "link": "https://www.framer.com/",
-    "description": "Framer is no-code web-designing tool where teams design and publish stunning sites"
-  },
-  {
     "productName": "Calendly",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://pbs.twimg.com/profile_images/1574482929203351553/J2L9r-Oy_400x400.png",
     "link": "https://calendly.com/",
     "description": "Calendly is a scheduling automation platform that makes it easy to schedule meetings."
@@ -4728,7 +4819,7 @@
   },
   {
     "productName": "Whimsical",
-    "category": "productivity",
+    "category": "tools",
     "image": "https://i.pinimg.com/736x/ea/2a/b2/ea2ab287b40acfe28348c71eb780d11c.jpg",
     "link": "https://whimsical.com/",
     "description": "Whimsical is a collaborative tool for teams to come together to brainstorm ideas for their next big project."
@@ -4756,7 +4847,7 @@
   },
   {
     "productName": "Draw.io",
-    "category": "productivity",
+    "category": "tools",
     "image": "drawio.jpg",
     "link": "https://www.drawio.com/",
     "description": "Free online Diagram software that allows you to create various types of diagrams and charts."
@@ -4846,13 +4937,6 @@
     "description": "It is an online game where you solve crimes using SQL (and learn SQL in the process). Learn SQL while playing a game!"
   },
   {
-    "productName": "BitBucket",
-    "category": "collaborations",
-    "image": "https://media.licdn.com/dms/image/C5633AQE2Tg6KNJfrLA/productpage-logo-image_200_200/0/1630996699471/null_logo?e=1717174800&v=beta&t=IVJKM1umGhSUFlUhur3RqaeOm4TtZtVZNXO7uCBaLQ4",
-    "link": "https://bitbucket.org/",
-    "description": "Bitbucket is more than just Git code management. Bitbucket gives teams one place to plan projects, collaborate on code, test, and deploy."
-  },
-  {
     "productName": "CodeSandBox",
     "category": "collaborations",
     "link": "https://media.licdn.com/dms/image/C4E0BAQFdNU256OlLZA/company-logo_200_200/0/1645108917187/codesandbox_logo?e=1724889600&v=beta&t=WGUpOGdWMdMQzZjaVwnV_STywCwPm6fiYZXt2PwTK-U",
@@ -4881,7 +4965,7 @@
   },
   {
     "productName": "Coding Ninjas",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
     "link": "https://www.codingninjas.com/",
     "description": "Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
@@ -4892,20 +4976,6 @@
     "image": "https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s900-c-k-c0x00ffffff-no-rj",
     "link": "https://takeuforward.org/",
     "description": "takeUforward provides a comprehensive platform offering DSA sheets and core CS subjects crucial for placements, empowering learners with essential skills for career success."
-  },
-  {
-    "productName": "Canva",
-    "category": "UI_design",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3YN97O31JYAlzd5nUAThlbDiv7kE2m2hjw&s",
-    "link": "https://www.canva.com/",
-    "description": "Canva is a Web design tool with collaborative features. Best for User-friendly graphic design, social media content creation, and online collaboration."
-  },
-  {
-    "productName": "Magic UI",
-    "category": "UI_design",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjFCT2jJ2xX3MZyVj3NsM_i8cUuZT_IS0pQ&s",
-    "link": "https://magicui.design/",
-    "description": "UI Library for Design Engineers. Animated components and effects you can add to your projects. Free. Open Source."
   },
   {
     "productName": "Iconfinder",
@@ -4950,13 +5020,6 @@
     "description": "Programiz is an online platform providing tutorials and practice exercises for learning programming languages and concepts."
   },
   {
-    "productName": "Framer Motion",
-    "category": "UI_design",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEvwYNKclGGZ0pMtgCfodUMu22JqspXQow&s",
-    "link": "https://www.framer.com/motion/",
-    "description": "Framer Motion is a powerful open-source motion library for React that makes it easy to create smooth and complex animations. It provides a flexible API for designing interactive UI animations, enhancing the user experience with seamless transitions and engaging visual effects."
-  },
-  {
     "productName": "Lighthouse",
     "category": "extensions",
     "image": "https://res.cloudinary.com/dslzeoxj7/image/upload/v1718101659/xiermgidrkdcjzuzstee.png",
@@ -4986,7 +5049,7 @@
   },
   {
     "productName": "Coding Ninjas",
-    "category": "Coding",
+    "category": "coding",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t9UxtLvKlyy9ziOJMyMHBRAukK7jgFYLmw&s",
     "link": "https://www.codingninjas.com/",
     "description": "Coding Ninjas offers comprehensive coding courses designed to equip learners with the skills needed for success in the tech industry."
@@ -5209,20 +5272,6 @@
     "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question."
   },
   {
-    "productName": "Edabit",
-    "category": "courses",
-    "image": "https://s3.amazonaws.com/edabit-images/logo_wide_large.png",
-    "link": "https://edabit.com/",
-    "description": "Edabit is a learning platform designed to improve coding skills through interactive challenges across various programming languages. It emphasizes hands-on practice and problem-solving techniques to enhance programming proficiency."
-  },
-  {
-    "productName": "Skill Share",
-    "category": "tools" ,
-    "image": "https://play-lh.googleusercontent.com/Lfh8g5kPONfSNL7R4s8itnMMdj3lhmHU9tb4gp7eoOaXkJo0dOcwB6iWPdNGZMRDMVs",
-    "link": "https://www.skillshare.com/en/",
-    "description": "Skillshare is an online learning community offering thousands of classes across creative and entrepreneurial skills. It allows users to learn at their own pace with access to diverse topics taught by industry experts."
-  },
-  {
     "productName": "Linkedin Learning",
     "category": "courses",
     "image": "https://media.licdn.com/dms/image/C4E0DAQEdAUx9nzmdGA/learning-public-crop_288_512/0/1593629654087?e=2147483647&v=beta&t=Scnqlh_Efb6Yx8irsul5fsLvkP7XfKkzzoqUSY9Bb4w",
@@ -5357,7 +5406,7 @@
   },
   {
     "productName": "Sphinx",
-    "category": "documentation",
+    "category": "AI",
     "image": "https://www.jetbrains.com/guide/assets/sphinxdoc-ca1beff5.png",
     "link": "https://www.sphinx-doc.org/en/master/",
     "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects."
@@ -5484,7 +5533,7 @@
   },
   {
     "productName": "PyTorch",
-    "category": "Library",
+    "category": "coding",
     "link": "https://pytorch.org/",
     "image": "https://miro.medium.com/v2/resize:fit:512/1*IMGOKBIN8qkOBt5CH55NSw.png",
     "description": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing,"
@@ -5588,7 +5637,7 @@
   },
   {
     "productName": "Amplitude",
-    "category": "Analytics",
+    "category": "Others",
     "image": "https://media.licdn.com/dms/image/C560BAQEvD1JyOCKwqw/company-logo_200_200/0/1649303244821/amplitude_analytics_logo?e=1729728000&v=beta&t=grX8DGI4ZInpbx8NnItAI9cWwPfWZgSeBzX0IxL-JkM",
     "link": "https://amplitude.com/",
     "desciption": "We are a digital analytics platform. We help every business optimize the business value of digital product innovation. We’re the competitive edge to not only survive—but thrive—in the new era."
@@ -5609,7 +5658,7 @@
   },
   {
     "productName": "Swagger",
-    "category": "API",
+    "category": "api",
     "image": "https://media.licdn.com/dms/image/C4E0BAQHvcaaw3m3gUw/company-logo_200_200/0/1633542767992/smartbear_logo?e=1729728000&v=beta&t=k1_BoMZa2kWf5YK2uqQ85E_UzAXpyLKLYgiTloJTpZQ",
     "link": "https://swagger.io/",
     "desciption": "Simplify your API development with our open-source and professional tools, built to help you and your team efficiently design and document APIs at scale."
@@ -5672,14 +5721,14 @@
   },
   {
     "productName": "HoneyDue",
-    "category": "Finance",
+    "category": "Others",
     "image": "https://media.licdn.com/dms/image/C4E0BAQGdJq1XBRcNnQ/company-logo_200_200/0/1631306114383?e=1729728000&v=beta&t=gDc_WuTn99wCStSgXV53g3NW9tMHb6-JgZOQDdk7CLU",
     "link": "https://www.honeydue.com/",
     "description": "Honeydue is the simplest way for couples to manage money, together."
   },
   {
     "productName": "Goodbudget",
-    "category": "Finance",
+    "category": "Others",
     "image": "https://scontent.fidr4-2.fna.fbcdn.net/v/t39.30808-6/294087749_469842161811122_7226879010175637401_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=tgjLniL5iaMQ7kNvgHPgw3T&_nc_ht=scontent.fidr4-2.fna&oh=00_AYAMdATnLXJdBSODCiCJL9q23NE4qKE7uaywOhTbWuQwow&oe=66A68DFD",
     "link": "https://goodbudget.com/",
     "description": "Goodbudget is a budget tracker for the modern age. Say no more to carrying paper envelopes. This virtual budget program keeps you on track with family and friends with the time-tested envelope budgeting method."
@@ -5692,13 +5741,6 @@
     "description": "µLearn is a synergic philosophy of education, with a culture of mutual learning through micro peer groups. We are here to assist you in breaking through the echo chambers and free you from the shackles you have grounded yourself in."
   },
   {
-    "productName": "Pluralsight",
-    "category": "AI",
-    "image": "https://www.pluralsight.com/content/dam/ps-nav-assets/product-logo/pluralsight-color-full-logo.png",
-    "link": "https://www.pluralsight.com/",
-    "description": "Develop critical tech skills. Cut cycle times. Build happier, healthier tech teams. And innovate smarter using AI. All with Pluralsight."
-  },
-  {
     "productName": "Invideo Ai",
     "category": "AI",
     "image": "https://web-assets.invideo.io/common/prod/logos/invideo-ai-light.svg",
@@ -5708,7 +5750,7 @@
   {
     "productName": "Simplilearn",
     "category": "courses",
-    "image": "",
+    "image": "https://static.theprint.in/wp-content/uploads/2024/03/ANI-20240316070040.jpg",
     "link": "https://www.simplilearn.com/",
     "description": "Change, Adapt and Build with AI"
   },
@@ -5883,19 +5925,11 @@
    },
     {
     "productName": "DuckDuckGo",
-    "category": "security",
+    "category": "ethical",
     "image": "https://upload.wikimedia.org/wikipedia/en/8/88/DuckDuckGo_logo.svg",
     "link": "https://duckduckgo.com/",
     "description": "A search engine that emphasizes protecting user privacy and does not track users' searches."
    },
-
-  {
-    "productName":"FutureLearn",
-    "category": "tools",
-    "image": "https://miro.medium.com/v2/resize:fit:2400/1*No_5DlBQPdlZHyoLfyUMhQ.png",
-    "link": "https://www.futurelearn.com/",
-    "description": "FutureLearn is an online education platform that offers a wide range of courses and  degrees from leading universities  around the world. "
-  },
   {
     "productName": "Neumorphism.io",
     "category": "UI_design",
@@ -5930,13 +5964,6 @@
   "image": "https://media.licdn.com/dms/image/D560BAQGLUQsYP7sqGA/company-logo_200_200/0/1666809807679/codeiumdev_logo?e=1730332800&v=beta&t=Nrz1Qf5LcU2lHgOGdYG2xCk3zq0By7nxla-MarSu9TI",
   "link": "https://media.licdn.com/dms/image/D560BAQGLUQsYP7sqGA/company-logo_200_200/0/1666809807679/codeiumdev_logo?e=1730332800&v=beta&t=Nrz1Qf5LcU2lHgOGdYG2xCk3zq0By7nxla-MarSu9TI",
   "description": "Codeium is a AI software for writing effecient Code."
-},
-{
-  "productName": "Student AI",
-  "category": "AI",
-  "image": "https://studentai.app/wp-content/uploads/2023/05/S-letter-geometric-Logo-design-Linear.-.png",
-  "link": "https://studentai.app/",
-  "description": "Dedicated AI Tools and Tutors for Students, Graduates & Professionals."
 },
 {
   "productName": "SAP",
@@ -6065,13 +6092,6 @@
 "description": "IP Logger is a URL Shortener with advanced analytics for the traffic through your links, visitors on your online store, blog or website"
 },
 {
-"productName": "Algoprep",
-"category": "courses",
-"image": "https://www.algoprep.in/img/logo_1.png",
-"link": "https://www.algoprep.in/",
-"description": "Algoprep is a course website which is created by two professionals in the field of DSA and computer science, this website helps you to learn DSA."
-},
-{
 "productName": "Airdash",
 "category": "media",
 "image": "",
@@ -6150,14 +6170,14 @@
 } ,
 {
   "productName": "OpenLearn",
-  "category": "course",
+  "category": "courses",
   "image": "https://github.com/user-attachments/assets/1c6e15c1-911c-4ecf-986b-66b328ce4da4",
   "link": "https://www.open.edu/openlearn/",
   "description": "The Open University’s platform offers free courses across various disciplines, with interactive content and quizzes to reinforce learning."
 } , 
 {
   "productName": "Balsamiq",
-  "category": "Ui",
+  "category": "UI_design",
   "image": "https://github.com/user-attachments/assets/a6e8be21-6ab4-45d4-be8c-ae37298cf528",
   "link": "https://balsamiq.com/",
   "description": "A low-fidelity wireframing tool with a free trial, great for quick mockups."
@@ -6183,7 +6203,7 @@
   "link":"https://www.flinto.com/",
   "description":"A Mac app used for creating interactive and animated prototypes with a free trial."
 
-} ,
+},
 {
   "productName": "Standard Resume",
   "category": "resume",
@@ -6205,13 +6225,6 @@
   "link": "https://enhancv.com/",
   "description": "Enhancv provides templates and customization options to highlight your strengths by tailoring sections like skills, achievements, and personal projects. It helps you create a unique, visually appealing resume that emphasizes your unique qualifications and experiences."
 },
-{
-"productName": "MIT OpenCourseWare",
-"category": "courses",
-"image": "https://github.com/user-attachments/assets/b893692b-3fe1-41d2-901e-5eb84d820189",
-"link": "https://ocw.mit.edu/",
-"description": "Features free lecture notes, exams, and videos from MIT’s course catalog, providing high-quality educational materials for self-study."
-},
   {
     "productName": "KnowledgeHut",
     "category": "courses",
@@ -6221,21 +6234,21 @@
    },
 {
     "productName": "Zapier",
-    "category": "Integration tool",
+    "category": "tools",
     "image": "https://cdn.zapier.com/zapier/images/logos/social.png",
     "link": "https://zapier.com/apps",
     "description": "An automation tool that connects different web helps bridge the gap between different applications to streamline workflows and increase prod web applications and services."
 },
    {
     "productName": "Plural Sight",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbK1gESSG1wvggc4RkMx84dOVS_K_FpEDXKUkQmrNsRDWQSqRp",
     "link": "https://www.pluralsight.com/",
     "description": "Offers courses and resources to build technical skills; can help enhance resumes with certifications and skills development."
   },
   {
     "productName": "FutureLearn",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hVHDw1NP0tdQjcBpHuN9Srww5Nldu4OjEQPz3s2hP0MSfCuR",
     "link": "https://www.futurelearn.com/",
     "description": "Provides online courses and certifications that can be included in resumes to demonstrate learning and skills development."
@@ -6249,28 +6262,28 @@
    },
   {
     "productName": "Stanford Online",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-wqQjoXovn0M9NumDI0V57DsRZxrd7a-K2K1E5jHjtknCoEVR",
     "link": "https://online.stanford.edu/",
     "description": "Free and paid courses from Stanford University, including professional and executive education."
    },
   {
     "productName": "Harvard Online",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoCmOCgKlJwBk-52QvUILAWNqP2EU0RETO1uSCvSxvUVKQS8ob",
     "link": "https://www.harvardonline.harvard.edu/",
     "description": "Free and paid courses from Harvard University."
    },
   {
     "productName": "OpenCulture",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpqa64rkB-WYc70y0vAdojXVjEDIdWTsjwa1bqcVwceB38Lx-x",
     "link": "https://www.openculture.com/",
     "description": "Free cultural and educational media, including online courses, audiobooks, and more."
    },
   {
     "productName": "BigThink",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalt2wa5s6M4QsxQG1p44DsfjzgIXsrammVT-pEokZ8lQ1_uy8",
     "link": "https://bigthink.com/",
     "description": "Courses and lessons from top thinkers and doers in various fields."
@@ -6317,128 +6330,228 @@
 },
   {
     "productName": "Aceternity UI",
-    "category": "UI library",
+    "category": "UI_design",
     "image": "https://github.com/user-attachments/assets/49058348-4dd1-478f-8197-606de13e5a07",
     "link": "https://ui.aceternity.com/",
     "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations."
   },
   {
     "productName": "SkillShare",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5n97aejY-xIgPDF8HSTvJrcy_OLTocTInQnLH0-8haNuV-QyN",
     "link": "https://www.skillshare.com/en/",
     "description": "Focuses on creative and professional skills with a project-based approach."
   },
   {
     "productName": "MasterClass",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTsNkUZY96QX0rN7y25ZKYoe98DhUs8h0cDkuhrpCiXmukfBcAO",
     "link": "https://www.masterclass.com/",
     "description": "Courses from world-renowned experts across various fields, including arts, cooking, sports, and more."
   },
   {
     "productName": "Ed2go",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdu3k_w182gfgHFHUdkEjmFfLdhoBKOnOpE1Z1_bfGLcUB6yMN",
     "link": "https://www.ed2go.com/about-us",
     "description": "Online courses for professional development and career training."
   },
   {
     "productName": "CreativeLive",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTTN9nibKkVRwT52aLIuclahndw3616_nkI5rhSyDmecQbxQJ1",
     "link": "https://www.creativelive.com/",
     "description": "Live and on-demand courses in photography, art, design, music, and more."
   },
   {
     "productName": "TreeHouse",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRioAv3OLegd1pjaW51rvkidAWtKzPvJQUXkCtbE66gwbj2FDXu",
     "link": "https://teamtreehouse.com/",
     "description": "Online coding courses and tracks for beginners."
   },
   {
+
     "productName": "Alison",
-    "category": "course",
+    "category": "courses",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAdHkkDom-MEMMFXf_Dd8zTwPYqoB9hC_o-Jws3NOVnEYlWax",
     "link": "https://alison.com/",
     "description": "Free courses in various fields including IT, business, health, and languages."
   },
   {
     "productName": "TapAway",
-    "category": "App",
+    "category": "tools",
     "image": "https://github.com/Vaibhav-kesarwani/TapAway-App/assets/116189379/26bc63a4-032a-49bb-acb1-8e770d65d51e",
     "link": "https://github.com/Vaibhav-kesarwani/TapAway-App",
     "description": "Tap Away is a life-saving mobile application designed to prioritize your safety during emergencies and natural calamities. By registering on the app, users gain immediate access to crucial services that can make a difference in critical situations."
   },
   {
     "productName": "Marvel",
-    "category": "Ui",
+    "category": "UI_design",
     "image": "https://github.com/user-attachments/assets/a58b508b-a862-46ba-b877-6737ba9de565",
     "link": "https://marvelapp.com/",
     "description": "Design and prototype interfaces, and collaborate with teams; supports real-time feedback and iteration."
   },
   {
     "productName": "Mockplus",
-    "category": "Ui",
+    "category": "UI_design",
     "image": "https://www.mockplus.com/enUS/images/nav/logo-red-black.png",
     "link": "https://www.mockplus.com/",
     "description": "Rapidly design and prototype UI/UX interfaces; offers a wide range of pre-designed components."
   },
   {
     "productName": "Origami Studio",
-    "category": "Ui",
+    "category": "UI_design",
     "image": "https://github.com/user-attachments/assets/56a3972e-80b8-4ad5-8cf0-7603c4ffe508",
     "link": "https://origami.design/",
     "description": "Design interactive interfaces and prototypes with complex animations; ideal for high-fidelity prototypes."
   },
   {
     "productName": "Penpot",
-    "category": "Ui",
+    "category": "UI_design",
     "image": "https://site-assets.plasmic.app/5a092f8c015ea24a9c0953e5ca065580.svg",
     "link": "https://penpot.app/",
     "description": "An open-source design and prototyping platform for cross-functional teams."
   },
   {
     "productName": "Lunacy",
-    "category": "Ui",
+    "category": "UI_design",
     "image": "https://github.com/user-attachments/assets/96ea136c-d77d-4de8-b74d-8ce181a6bd98",
     "link": "https://icons8.com/lunacy",
     "description": "A f-ree design software with built-in assets and features, similar to Sketch but available for Windows."
   },
   {
     "productName": "Pencil Project",
-    "category": "Ui",
+    "category": "UI_design",
     "image": "https://pencil.evolus.vn/styling/images/logo-shadow.png",
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
   },
+
+  {
+    "productName": "Creddle",
+    "category": "resume",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQCoghNNeH0iZeNiMlRZ2Kj8Rtp7l_P_uANzuEzbkIjJ7rXdBVA",
+    "link": "https://resume.creddle.io/",
+    "description": "Provides customizable and modern resume templates designed to be professional and visually appealing."
+  },
   {
     "productName": "Rive",
-    "category": "Tools",
+    "category": "tools",
     "image": "https://cdn.rive.app/rive_logo_dark_bg.png",
     "link": "https://rive.app/",
     "description": "Create interactive, real-time animations for apps and websites."
   },
     {
     "productName": "Cacher",
-    "category": "Tools",
+    "category": "tools",
     "image": "https://www.cacher.io/assets/open-graph-banner.png",
     "link": "https://www.cacher.io/",
     "description": "Store and organize reusable code snippets."
   },
   {
+  "productName": "Resumonk",
+  "category": "resume",
+  "image": "https://cdn.prod.website-files.com/5c06e16a5bdc7bce10059cc3/638dea81d179e969d3dce947_sQ6aF92ClmZt5FSzMwEf6nHQ62cb7NaqwvNdkEuyOIA.jpeg",
+  "link": "https://www.resumonk.com/",
+  "description": " An online resume builder that offers both free and premium templates for creating professional resumes."
+},
+{
     "productName": "Github",
     "category": "Tools",
     "image": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
     "link": "https://github.com/",
     "description": "GitHub is a platform for version control and collaboration, allowing developers to host and review code, manage projects, and build software together."
   },
+  {
+    "productName": "AlgoExpert",
+    "category": "Tools",
+    "image": "https://assets.algoexpert.io/static/images/ae-social-logo.png",
+    "link": "https://www.algoexpert.io/product",
+    "description": "Provides coding interview preparation through structured problem-solving and video explanations."
+  },
+{
+    "productName": "SPOJ (Sphere Online Judge)",
+    "category": "Tools",
+    "image": "https://pbs.twimg.com/profile_images/568733328090480640/B1rm7i-y_400x400.jpeg",
+    "link": "https://www.spoj.com/",
+    "description": "An online judge system for practicing coding problems and competing in contests."
+  },
+{
+    "productName": "Kaggle",
+    "category": "Tools",
+    "image": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png",
+    "link": "https://www.kaggle.com/",
+    "description": " A platform for data science and machine learning competitions with real-world datasets."
+  },
     {
     "productName": "Restya Board",
-    "category": "Tools",
+    "category": "tools",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzZsK3SAa78Wrg7eq8xB0WEmpvw_3GerIpQ&s",
     "link": "https://docs.digitalocean.com/products/marketplace/catalog/restyaboard/",
     "description": "Create interactive, real-time animations for apps and websites."
-  }
+  },
+  {
+    "productName": "Spline",
+    "category": "Tools",
+    "image": "https://github.com/user-attachments/assets/e60497f3-85cf-4e62-bc17-d406b9f993cf",
+    "link": "https://app.spline.design/signin",
+    "description": "Spline is a free 3D design software with real-time collaboration to create web interactive experiences in the browser. Easy 3d modeling, animation"
+  },
+  {
+    "productName": "Devhints",
+    "category": "tools",
+    "image": "https://shorturl.at/Nyb6c",
+    "link": "https://devhints.io/",
+    "description": "A collection of quick reference cheat sheets for a variety of programming languages and tools."
+  },
+    {
+    "productName": "Pinegrow",
+    "category": "Tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kNYX7sDRNqbn214C6mReXYTpg2aHLDdaYQ&s",
+    "link": "https://pinegrow.com/",
+    "description": " Visual web design tool for building responsive websites."
+  },
+{
+    "productName": "NocoDB",
+    "category": "Tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNA0cIN5ZsOzoZpNC7x-4t_47Jbm0T_zwsQ&s",
+    "link": "https://nocodb.com/",
+    "description": "Open-source Airtable alternative for turning SQL databases into smart spreadsheets."
+  },
+    {
+    "productName": "Smashing Magazine",
+    "category": "Tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzZsK3SAa78Wrg7eq8xB0WEmpvw_3GerIpQ&",
+    "link": "https://www.smashingmagazine.com/",
+    "description": " Resource for web design and development articles."
+  },
+    {
+    "productName": "Pinegrow",
+    "category": "Tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kNYX7sDRNqbn214C6mReXYTpg2aHLDdaYQ&s",
+    "link": "https://pinegrow.com/",
+    "description": " Visual web design tool for building responsive websites."
+  },
+ {
+    "productName": "Pinterest",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "link": "https://www.pinterest.com/",
+    "description": "Understand the trends your audience is searching. Discover trends based on interests, demographics, season and more using Pinterest Trends"
+  },
+  {
+"productName": "Teleport",
+"category": "tool",
+"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgAodPKxQNGdKXEUA7n86WqZ3peSxDmaAlow&s",
+"link": "https://goteleport.com/",
+"description": "Teleport offers a unified access plane for managing secure access to critical infrastructure, simplifying complex security operations for developers."
+},
+{
+"productName": "Raycast",
+"category": "tool",
+"image": "https://upload.wikimedia.org/wikipedia/en/f/f4/Raycast_App_Icon.png",
+"link": "https://www.raycast.com/",
+"description": "Raycast is a powerful launcher that allows developers to quickly access files, run scripts, and manage tasks with keyboard shortcuts, enhancing workflow efficiency."
+ }
 ]

@@ -1,10 +1,50 @@
-import React, { useState, useEffect, Suspense, lazy } from "react";
+import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom"; // Correct import
+import "./App.css"; 
+import About from "./Component/About";  
+import "./App.css";  
+import About from "./Component/About"; 
+import Footer from "./Component/Footer"; 
+import Rateus from "./Component/Rateus"; 
+ import "./App.css"; 
+import About from "./Component/About";
+import Footer from "./Component/Footer";
+import Rateus from "./Component/Rateus";
+import Home from "./Component/Home";
+import Navbar from "./Component/Navbar/Navbar";
+import BookMark from "./Component/BookMark";
+import ChatAssistant from "./ChatAssistant/ChatAssistant";
+import NotFound from "./Component/NotFound";
+import BackToTopButton from "./Component/BackToTopButton";
+import OpenSource from "./Component/OpenSource";
+import Review from "./Component/Review";
 import "./App.css";
+import About from "./Component/About";
+import Footer from "./Component/Footer"; 
+import Rateus from "./Component/Rateus";
+import Home from "./Component/Home";
+import Navbar from "./Component/Navbar/Navbar";
+import BookMark from "./Component/BookMark";
+import ChatAssistant from "./ChatAssistant/ChatAssistant";
+import NotFound from "./Component/NotFound";
+import BackToTopButton from "./Component/BackToTopButton";
+import OpenSource from "./Component/OpenSource";
+import Review from "./Component/Review";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./Component/ScrollToTop";
+
+import RemoteJobs from "./pages/RemoteJobs";
+import AI from "./pages/AI";
+import Movie from "./pages/Movie";
+import Extension from "./pages/Extension";
+import UI from "./pages/UI";
+import FrontendTools from "./pages/FrontendTools";
+import EthicalHacking from "./pages/EthicalHacking";
+import Faq from "./Component/Faq";
+import CodingPlatform from "./pages/CodingPlatform"; // Corrected import
+import CoursesPlatform from "./pages/CoursesPlatform";
 import Navbar from "./Component/Navbar/Navbar";
 import BackToTopButton from "./Component/BackToTopButton";
 import Footer from "./Component/Footer";
@@ -16,7 +56,7 @@ import ChatAssistant from "./ChatAssistant/ChatAssistant";
 const About = lazy(() => import("./Component/About"));
 const Rateus = lazy(() => import("./Component/Rateus"));
 const Home = lazy(() => import("./Component/Home"));
-// const NotFound = lazy(() => import("./Component/NotFound"));
+const NotFound = lazy(() => import("./Component/NotFound"));
 const OpenSource = lazy(() => import("./Component/OpenSource"));
 const Review = lazy(() => import("./Component/Review"));
 const BookMark = lazy(() => import("./Component/BookMark"));
@@ -48,11 +88,9 @@ function App() {
   useEffect(() => {
     AOS.init();
   }, []);
-
   return (
     <>
       <ScrollToTop />
-      <TrailingCursor />
       <Navbar setSearchQuery={setSearchQuery} />
       <Routes>
         <Route path="/" element={<Home searchQuery={searchQuery} />} />
@@ -62,7 +100,6 @@ function App() {
         <Route path="/review" element={<Review />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/rateus" element={<Rateus />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/remote-jobs" element={<RemoteJobs />} />
         <Route path="/ai" element={<AI />} />
         <Route path="/movies-series" element={<Movie />} />
@@ -71,48 +108,11 @@ function App() {
         <Route path="/front-end-tools" element={<FrontendTools />} />
         <Route path="/ethical-hacking" element={<EthicalHacking />} />
         <Route path="/coding-platform" element={<CodingPlatform />} />
-        <Route path="/courses-platform" element={<CoursesPlatform />} />
-        <Route path="/collaboration-tools" element={<Collaboration />} />
-        <Route path="/login" element={<Login />} /> {/* New Route */}
-        <Route path="/register" element={<Register />} /> {/* New Route */}
+
+        <Route path="/courses-platform" element={<CoursesPlatform />}/>
         {/* Define other routes as needed */}
-        <Route path="*" element={<NotFound />} /> {/* 404 route */}
+<Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>
-=======
-      <Suspense fallback={<div>Loading...</div>}>
-        <Routes>
-          <Route path="/" element={<Home searchQuery={searchQuery} />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/bookmark" element={<BookMark />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/open-source" element={<OpenSource />} />
-          <Route path="/review" element={<Review />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/rateus" element={<Rateus />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/remote-jobs" element={<RemoteJobs />} />
-          <Route path="/ai" element={<AI />} />
-          <Route path="/movies-series" element={<Movie />} />
-          <Route path="/extension" element={<Extension />} />
-          <Route path="/ui-design" element={<UI />} />
-          <Route path="/front-end-tools" element={<FrontendTools />} />
-          <Route path="/ethical-hacking" element={<EthicalHacking />} />
-          <Route path="/coding-platform" element={<CodingPlatform />} />
-          <Route path="/courses-platform" element={<CoursesPlatform />} />
-          <Route path="/productivity-tools" element={<Productivity />} />
-          <Route path="/collaboration-tools" element={<Collaboration />} />
-          <Route path="/extensions" element={<Extensions />} />
-
-          <Route path="/movies&series" element={<Movies />} />
-
-          <Route path="/ui-designs" element={<Ui />} />
-          <Route path="/remote-job" element={<RemoteJob />} />
-            
-          {/* Define other routes as needed */}
-          {/* <Route path="*" element={<NotFound />} /> 404 route */}
-        </Routes>
-      </Suspense>
       <BackToTopButton />
       <Footer />
       <ChatAssistant />
