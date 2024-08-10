@@ -1,5 +1,9 @@
 import React, { useState, useEffect, Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom"; // Correct import
+import "./App.css";  
+import About from "./Component/About"; 
+import Footer from "./Component/Footer"; 
+import Rateus from "./Component/Rateus"; 
  
 import "./App.css"; 
 import About from "./Component/About";
@@ -14,6 +18,7 @@ import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
 import "./App.css";
+ 
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
