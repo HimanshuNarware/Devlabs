@@ -1,5 +1,12 @@
 [
   {
+    "productName": "Traqq",
+    "category": "Tool",
+    "image": "https://traqq.com/about/logo.png",
+    "link": "https://traqq.com/",
+    "description": "Traqq is a powerful timesheet app and time-tracking software for remote and on-site teams worldwide. Track work hours, generate reports, and say goodbye to billing and payroll nightmares."
+  },
+  {
     "productName": "Sentry",
     "category": "Tool",
     "image": "https://www.sentry.io/_assets/branding/png/sentry-horizontal-black.png",
@@ -769,6 +776,27 @@
     "image": "https://w7.pngwing.com/pngs/780/55/png-transparent-flight-airplane-travel-agent-computer-icons-travel-text-logo-symbol-thumbnail.png",
     "link": "https://lgtours.in/",
     "description": "For booking and travelling"
+  },
+  {
+    "productName": "XBOX",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/2048px-Xbox_one_logo.svg.png",
+    "link": "https://www.xbox.com/",
+    "description": "Experience the new generation of games and entertainment"
+  },
+  {
+    "productName": "PCGamesN",
+    "category": "tools",
+    "image": "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/04/pcgamesn-logo.jpeg",
+    "link": "https://www.pcgamesn.com/",
+    "description": "All the latest PC gaming news, plus guides and reviews for the biggest games"
+  },
+  {
+    "productName": "Games Rant",
+    "category": "tools",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/social/gr-og-img.png",
+    "link": "https://gamerant.com/",
+    "description": "Delivers content written by gamers for gamers with an emphasis on news, reviews, unique features, and interviews"
   },
   {
     "productName": "Carousel Hero",
@@ -1777,6 +1805,27 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Yahoo%21_icon_%282009-2013%29.svg",
     "link": "https://in.yahoo.com/",
     "description": "An internet services company that offers a variety of products and services"
+  },
+        {
+    "productName": "WebTrit",
+    "category": "tools",
+    "image": "https://webtrit.com/wp-content/uploads/2021/03/WebTrit-logo-web.png",
+    "link": "https://webtrit.com/",
+    "description": "Softphone app for Android/iOS/web with full access to its source code and all future updates included"
+  },
+  {
+    "productName": "Capterra",
+    "category": "tools",
+    "image": "https://mms.businesswire.com/media/20190327005550/en/712772/22/capterra-logo.jpg",
+    "link": "https://www.capterra.com/",
+    "description": "Best software & services"
+  },
+  {
+    "productName": "SourceForge",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6pK3FhQx6Z-esFzKPusmhLhne02wLRv-4kA&s",
+    "link": "https://sourceforge.net/",
+    "description": "Complete software discovery platform"
   },
   {
     "productName": "Overleaf",
@@ -6406,7 +6455,7 @@
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
   },
-  {
+ 
     "productName": "Rive",
     "category": "Tools",
     "image": "https://cdn.rive.app/rive_logo_dark_bg.png",
@@ -6440,5 +6489,12 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNA0cIN5ZsOzoZpNC7x-4t_47Jbm0T_zwsQ&s",
     "link": "https://nocodb.com/",
     "description": "Open-source Airtable alternative for turning SQL databases into smart spreadsheets."
-  }
+  },
+ {
+    "productName": "Pinterest",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "link": "https://www.pinterest.com/",
+    "description": "Understand the trends your audience is searching. Discover trends based on interests, demographics, season and more using Pinterest Trends"
+  } 
 ]
