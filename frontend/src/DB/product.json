@@ -1315,6 +1315,13 @@
     "description": "Find, discover and download the best apps and games for Android"
   },
   {
+    "productName": "Traqq",
+    "category": "Tool",
+    "image": "https://traqq.com/about/logo.png",
+    "link": "https://traqq.com/",
+    "description": "Traqq is a powerful timesheet app and time-tracking software for remote and on-site teams worldwide. Track work hours, generate reports, and say goodbye to billing and payroll nightmares."
+  },
+  {
     "productName": "Coursera",
     "category": "courses",
     "image": "http://bit.ly/4dMPPZY",
