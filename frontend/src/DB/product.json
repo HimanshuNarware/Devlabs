@@ -62,6 +62,13 @@
     "description": "Visual Studio Code is a free, open-source code editor from Microsoft that provides developers with powerful tools and a flexible workspace for a variety of programming languages."
 },
   {
+    "productName": "Tabby",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipCLNRhiP9Qy75c0eHJjdH9w47bYewJJv_w&s",
+    "link": "https://tabby.sh/",
+    "description": "Open-source terminal emulator for various platforms, designed to offer a customizable and extensible terminal experience."
+  },
+  {
     "productName": "GitLab",
     "category": "tools",
     "image": "https://rb.gy/5vmahj",
