@@ -49,6 +49,20 @@
     "description": "Bitbucket is a Git-based source code repository hosting service from Atlassian that offers a collaborative environment for code development, integrated CI/CD, and seamless integration with other Atlassian products."
 },
   {
+  "productName": "Pencil Project",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/340331/pencil.svg",
+  "link": "http://pencil.evolus.vn/",
+  "description": "Pencil Project is a free and open-source GUI prototyping tool that allows you to create mockups and diagrams easily."
+},
+  {
+    "productName": "Sublime Text",
+    "category": "coding",
+    "image": "https://t.ly/-PnbM",
+    "link": "https://www.sublimetext.com/",
+    "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It features a clean interface, powerful search and editing capabilities, and a wide range of plugins and customizations to enhance the development experience."
+  },
+  {
     "productName": "Eclipse",
     "category": "coding",
     "image": "https://shorturl.at/Z7f51",
