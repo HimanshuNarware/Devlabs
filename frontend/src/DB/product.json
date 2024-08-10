@@ -6483,6 +6483,13 @@
     "link": "https://github.com/",
     "description": "GitHub is a platform for version control and collaboration, allowing developers to host and review code, manage projects, and build software together."
   },
+  {
+    "productName": "Kaggle",
+    "category": "Tools",
+    "image": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png",
+    "link": "https://www.kaggle.com/",
+    "description": " A platform for data science and machine learning competitions with real-world datasets."
+  },
     {
     "productName": "Restya Board",
     "category": "tools",
