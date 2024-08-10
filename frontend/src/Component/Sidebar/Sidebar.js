@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsBookmark } from "react-icons/bs";
-import { AiFillHome } from "react-icons/ai";
+import { AiFillHome } from "react-icons/ai";   
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
@@ -16,8 +16,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FaRobot, FaUserSecret, FaFilm, FaCogs, FaLaptopCode, FaTools, FaBook, FaUsers, FaTasks } from "react-icons/fa";
 import "../../style/Sidebar.css";
-  
-
 function Sidebar({ showSideNav }) {
   const sidebarContent = [
     { name: "all", description: "All", url: "/", icon: AiFillHome },
