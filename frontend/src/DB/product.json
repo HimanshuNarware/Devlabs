@@ -1201,6 +1201,27 @@
     "link": "https://poshmark.com/",
     "description": "Buy, sell, and discover fashion, home decor, beauty, and more."
   },
+    {
+    "productName": "Turi",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqNfcDCKpGp1p2yRtboc9MvHm3S80tNOTo8w&s",
+    "link": "https://www.turi.org/",
+    "description": "Multifaceted approach to help businesses and communities"
+  },
+  {
+    "productName": "Tura turi",
+    "category": "tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkpTuBQK07dusDGRBQksZW1RPl8LSaqs2mtg&s",
+    "link": "https://www.turaturi.com/",
+    "description": "Ethnic, Festive Wear and Daily Wear for children, made in pure cotton malmal"
+  },
+  {
+    "productName": "Super Dash",
+    "category": "tools",
+    "image": "https://i.ytimg.com/vi/Bnx_Od6iwxw/hqdefault.jpg",
+    "link": "https://superdash.flutter.dev/",
+    "description": "Multiplatform demo game developed from idea to launch in just 6 weeks"
+  },
   {
     "productName": "Sap",
     "category": "tools",
