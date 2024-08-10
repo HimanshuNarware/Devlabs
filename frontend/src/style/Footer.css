@@ -353,7 +353,7 @@ ul a .mr-2 {
 .contact-link a:hover {
   cursor: none;
   color: #474eff !important;
-  color: white;
+  color: white;  
   transform: scale(1.1);
   animation: pulse 1s infinite alternate;
 }
