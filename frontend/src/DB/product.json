@@ -79,6 +79,13 @@
   "description": "Figma Jam is an online whiteboarding tool for teams to brainstorm, ideate, and plan together."
 },
   {
+  "productName": "TiddlyWiki",
+  "category": "tools",
+  "image": "https://www.svgrepo.com/download/345679/tiddlywiki.svg",
+  "link": "https://tiddlywiki.com/",
+  "description": "TiddlyWiki is a unique non-linear notebook for capturing, organizing, and sharing complex information."
+}, 
+  {
     "productName": "Sublime Text",
     "category": "coding",
     "image": "https://t.ly/-PnbM",
