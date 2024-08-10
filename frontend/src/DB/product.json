@@ -6455,7 +6455,7 @@
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
   },
-  {
+ 
     "productName": "Rive",
     "category": "Tools",
     "image": "https://cdn.rive.app/rive_logo_dark_bg.png",
@@ -6482,5 +6482,12 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzZsK3SAa78Wrg7eq8xB0WEmpvw_3GerIpQ&s",
     "link": "https://docs.digitalocean.com/products/marketplace/catalog/restyaboard/",
     "description": "Create interactive, real-time animations for apps and websites."
-  }
+  },
+ {
+    "productName": "Pinterest",
+    "category": "tools",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "link": "https://www.pinterest.com/",
+    "description": "Understand the trends your audience is searching. Discover trends based on interests, demographics, season and more using Pinterest Trends"
+  } 
 ]
