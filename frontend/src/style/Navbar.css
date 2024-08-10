@@ -23,8 +23,9 @@
   top: -10px; /* Adjust the value as needed */
 }
 .navbar-content li {
-  flex-grow: 1; /* Make the navbar items stretch to fill the width */
-  margin: 0 15px; /* Add margin to create space between nav items */
+  flex-grow: 1;
+  margin: 0 15px;
+  padding-right:30px;
   font-size: 1.3rem;
   text-decoration: none; /* Ensures no underline */
 }
