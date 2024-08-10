@@ -6222,6 +6222,13 @@
     "link": "https://docs.digitalocean.com/products/marketplace/catalog/restyaboard/",
     "description": "Create interactive, real-time animations for apps and websites."
   },
+  {
+    "productName": "Devhints",
+    "category": "tools",
+    "image": "https://shorturl.at/Nyb6c",
+    "link": "https://devhints.io/",
+    "description": "A collection of quick reference cheat sheets for a variety of programming languages and tools."
+  },
     {
     "productName": "Pinegrow",
     "category": "Tools",
