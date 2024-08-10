@@ -6569,5 +6569,12 @@
 "image": "https://upload.wikimedia.org/wikipedia/en/f/f4/Raycast_App_Icon.png",
 "link": "https://www.raycast.com/",
 "description": "Raycast is a powerful launcher that allows developers to quickly access files, run scripts, and manage tasks with keyboard shortcuts, enhancing workflow efficiency."
+ },
+{
+"productName": "Asciinema",
+"category": "tool",
+"image": "https://avatars.githubusercontent.com/u/6506055?s=200&v=4",
+"link": "https://asciinema.org/",
+"description": "Record and share terminal sessions as lightweight, web-friendly playback."
  }
 ]
