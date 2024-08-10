@@ -6498,6 +6498,13 @@
     "description": "GitHub is a platform for version control and collaboration, allowing developers to host and review code, manage projects, and build software together."
   },
   {
+    "productName": "AlgoExpert",
+    "category": "Tools",
+    "image": "https://assets.algoexpert.io/static/images/ae-social-logo.png",
+    "link": "https://www.algoexpert.io/product",
+    "description": "Provides coding interview preparation through structured problem-solving and video explanations."
+  },
+{
     "productName": "SPOJ (Sphere Online Judge)",
     "category": "Tools",
     "image": "https://pbs.twimg.com/profile_images/568733328090480640/B1rm7i-y_400x400.jpeg",
