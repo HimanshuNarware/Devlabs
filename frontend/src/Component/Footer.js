@@ -228,7 +228,7 @@ function Footer() {
               <hr />
             </div>
           </div>
-        </div>
+        </div>   
       </div>
     </footer>
   );
