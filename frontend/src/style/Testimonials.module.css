@@ -1,6 +1,6 @@
 .testimonials {
   text-align: center;
-  margin: 50px auto;
+  margin: 50px auto 20px auto; /* Reduced bottom margin to 20px */
   max-width: 90%; /* Adjusted to fit within the viewport */
   position: relative;
 }
@@ -21,6 +21,7 @@
   overflow: hidden;
   max-width: 100%;
   position: relative;
+  margin: 10px auto 0 auto; /* Reduced bottom margin to 0 */
 }
 
 .card {
@@ -110,8 +111,8 @@ h3 {
   }
   .arrow.right {
     right: -30px; /* Adjusted for smaller screens */
-}}
-
+}
+}
 @media (max-width: 500px) {
   .card {
     width: 100%;

@@ -1,19 +1,17 @@
 import axios from "axios";
-import React, { useEffect, useState, useRef } from "react";
-import { useDispatch } from "react-redux";
-import ClipLoader from "react-spinners/ClipLoader";
-import jsonTools from "../DB/product.json";
-import { deleteSource, setSource } from "../Slice/DataSlice";
-import "../style/Home.css";
-import Devlabs from "../image/hero_img.svg";
-import NavbarItem from "./Navbar/NavbarItem";
+import debounce from "lodash.debounce";
+import React, { useEffect, useRef, useState } from "react";
 import toast from "react-hot-toast";
-import NavbarRight from "./Navbar/NavbarRight";
-import Tilt from "react-parallax-tilt";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import debounce from "lodash.debounce";
+import Tilt from "react-parallax-tilt";
+import { useDispatch } from "react-redux";
+import jsonTools from "../DB/product.json";
+import Devlabs from "../image/hero_img.svg";
 import Testimonials from "../pages/Testimonials";
+import { deleteSource, setSource } from "../Slice/DataSlice";
+import "../style/Home.css";
+import NavbarItem from "./Navbar/NavbarItem";
 
 const BACKEND = process.env.REACT_APP_BACKEND;
 
@@ -286,247 +284,244 @@ function Home(props) {
 
   return (
     <SkeletonTheme>
-      <div>
+     
         <div className="hero">
           <div className="hero-text">
             <div id="hero" className="hero-container">
-              <div className="hero-content">
-                <h1 className="hero-heading">
-                  <span>Welcome to</span>
-                  <br /> Devlabs!
-                  <h1 className="hero-subheading">
-                    Discover Free Tools,
-                    <br />
-                    Empower Your Projects.
-                    <br />
-                    <span className="hero-end">
-                      {" "}
-                      -Built by open-source community
-                    </span>
-                  </h1>
-                </h1>
+            <div
+  className="hero-content"
+  style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
+>
+  <div className="hero-heading">
+    <span>Welcome to</span>
+    <br /> Devlabs!
+    <h1 className="hero-subheading">
+      Discover Free Tools,
+      <br />
+      Empower Your Projects.
+      <br />
+      <span className="hero-end"> -Built by open-source community</span>
+    </h1>
+    <div
+      className="hero-button-container"
+      style={{ display: "flex", justifyContent: "center" }}
+    >
+      <button className="hero-button">
+        <NavbarItem description="Get Started" to="/open-source" />
+      </button>
+    </div>
+  </div>
+  <div className="hero-image">
+    <Tilt>
+      <img src={Devlabs} alt="devlabs-removebg-preview" />
+    </Tilt>
+  </div>
+</div>
 
-
-                <div className="hero-button-container" style={{ display: "flex", justifyContent: "center" }}>
-                <div
-                  className="hero-button-container"
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-
-                  <button className="hero-button">
-                    <NavbarItem description="Get Started" to="/open-source" />
-                  </button>
-                </div>
-              </div>
-              <div className="hero-image">
-                <Tilt>
-                  <img src={Devlabs} alt="devlabs-removebg-preview" />
-                </Tilt>
-              </div>
             </div>
           </div>
-        </div>
-        <br />
-        <h3> Lets Get, What You seek!</h3>
-        {/* <NavbarRight setSearchQuery={setSearchQuery} /> */}
-        <div className="search-feilds">
-          <input
-            className="search-input text-white"
-            onChange={(e) => handleSearch(e.target.value)}
-            type="text"
-            placeholder="Search Tools ..."
-          />
-        </div>
-        <br />
-        {searchQuery && searchResults.length === 0 && (
-          <div className="no-results">
-
-            <img src="./empty-state.png" height={"300px"} width={"300px"} style={{ background: "none" }} alt="empty_state_img" />
-
-            <img
-              src="./empty-state.png"
-              height={"300px"}
-              width={"300px"}
-              style={{ background: "none" }}
-              alt="empty_state_img"
+          <br />
+          <h3 className="let-text"> Lets Get, What You seek!</h3>
+          <div className="search-feilds">
+            <input
+              className="search-input text-white"
+              onChange={(e) => handleSearch(e.target.value)}
+              type="text"
+              placeholder="Search Tools ..."
             />
-
-            <h1>No matching tools found.</h1>
           </div>
-        )}
-        {!loading && currentPost.length === 0 && (
-          <div className="empty-state">
-            <img
-              src="https://i.pinimg.com/originals/5d/35/e3/5d35e39988e3a183bdc3a9d2570d20a9.gif"
-              className="home-img"
-              alt="no post"
-            />
-            <p>No posts found.</p>
-          </div>
-        )}
+          <br />
+          {searchQuery && searchResults.length === 0 && (
+            <div className="no-results">
 
-        <div className="main" ref={ref}>
-          <div className="filter-container">
-            {filters.map((category) => (
-              <button
-                key={category}
-                className={`filter-button ${selectedFilters.includes(category) ? "active_filter" : ""
-                  }`}
-                onClick={() => handleFilterButtonClick(category)}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-          <div className={loading ? "loading-container" : "main-container"}>
-            {loading && (
-              <div className="home-loading">
-                <div className="home-loading-container">
-                  <Skeleton circle={"true"} height={90} width={90} />
-                  <Skeleton width={130} />
-                  <Skeleton count={5} />
-                </div>
-                <div className="home-loading-container">
-                  <Skeleton circle={"true"} height={90} width={90} />
-                  <Skeleton width={130} />
-                  <Skeleton count={5} />
-                </div>
-                <div className="home-loading-container">
-                  <Skeleton circle={"true"} height={90} width={90} />
-                  <Skeleton width={130} />
-                  <Skeleton count={5} />
-                </div>
-                <div className="home-loading-container">
-                  <Skeleton circle={"true"} height={90} width={90} />
-                  <Skeleton width={130} />
-                  <Skeleton count={5} />
-                </div>
-                <div className="home-loading-container">
-                  <Skeleton circle={"true"} height={90} width={90} />
-                  <Skeleton width={130} />
-                  <Skeleton count={5} />
-                </div>
-              </div>
-            )}
+              <img src="./empty-state.png" height={"300px"} width={"300px"} style={{ background: "none" }} alt="empty_state_img" />
 
-            {!loading &&
-              filteredItems
-                .filter((item) => {
-                  return searchQuery.toLowerCase() === ""
-                    ? item
-                    : item.productName.toLowerCase().includes(searchQuery);
-                })
-                .slice(firstPostIndex, lastPostIndex)
-                .map((datalist) => {
-                  filterdata.push(datalist);
-                  return (
-                    <div
-                      className="content-box-home"
-                      key={datalist.productName}
-                    >
-                      <img
-                        className="logo"
-                        src={datalist.image}
-                        alt={datalist.category}
-                      />
-                      <h2>{datalist.productName}</h2>
-                      <p className="content-box-text">{datalist.description}</p>
-                      <button
-                        className="btn-b-box"
-                        onClick={() => window.open(datalist.link)}
-                      >
-                        Link
-                      </button>
-                      {bookmarks?.some((item) =>
-                        item.name.includes(datalist.productName)
-                      ) ? (
-                        <>
-                          <button
-                            className="btn-booked-box"
-                            onClick={() =>
-                              handleDeleteBookmark(datalist.productName)
-                            }
-                          >
-                            Remove
-                          </button>
-                        </>
-                      ) : (
-                        <button
-                          className="btn-b-box"
-                          onClick={() => handleBookmark(datalist)}
-                        >
-                          Bookmark
-                        </button>
-                      )}
-                    </div>
-                  );
-                })}
-          </div>
-          {filterdata.length > 0 && (
-            <div className="pagination">
-              <ul>
-                <div className="page-item-prev">
-                  <li>
-                    <a href="#!" onClick={prePage}>
-                      &lt;
-                    </a>
-                  </li>
-                </div>
-                <div className="page-wrapper">
-                  {numbers.map((n, i) => {
-                    // Calculate range of visible page numbers around current page
-                    const start = Math.max(1, currentPage - 4); // Show 4 pages before current page
-                    const end = Math.min(npage, start + 8); // Show 8 pages in total
+              <img
+                src="./empty-state.png"
+                height={"300px"}
+                width={"300px"}
+                style={{ background: "none" }}
+                alt="empty_state_img"
+              />
 
-                    // Show ellipsis if start is greater than 1
-                    if (start > 1 && i === 1) {
-                      return (
-                        <li key={i}>
-                          <span>...</span>
-                        </li>
-                      );
-                    }
-
-                    // Show ellipsis if end is less than npage
-                    if (end < npage && i === numbers.length - 1) {
-                      return (
-                        <li key={i}>
-                          <span>...</span>
-                        </li>
-                      );
-                    }
-
-                    // Display the page number if within the visible range
-                    if (n >= start && n <= end) {
-                      return (
-                        <li
-                          key={i}
-                          className={`${currentPage === n ? "active" : ""}`}
-                        >
-                          <a href="#!" onClick={() => changeCPage(n)}>
-                            {n}
-                          </a>
-                        </li>
-                      );
-                    }
-
-                    return null; // Hide pages outside the visible range
-                  })}
-                </div>
-                <div className="page-item-next">
-                  <li>
-                    <a href="#!" onClick={nextPage}>
-                      &gt;
-                    </a>
-                  </li>
-                </div>
-              </ul>
+              <h1>No matching tools found.</h1>
             </div>
           )}
+          {!loading && currentPost.length === 0 && (
+            <div className="empty-state">
+              <img
+                src="https://i.pinimg.com/originals/5d/35/e3/5d35e39988e3a183bdc3a9d2570d20a9.gif"
+                className="home-img"
+                alt="no post"
+              />
+              <p>No posts found.</p>
+            </div>
+          )}
+
+          <div className="main" ref={ref}>
+            <div className="filter-container">
+              {filters.map((category) => (
+                <button
+                  key={category}
+                  className={`filter-button ${selectedFilters.includes(category) ? "active_filter" : ""
+                    }`}
+                  onClick={() => handleFilterButtonClick(category)}
+                >
+                  {category}
+                </button>
+              ))}
+            </div>
+            <div className={loading ? "loading-container" : "main-container"}>
+              {loading && (
+                <div className="home-loading">
+                  <div className="home-loading-container">
+                    <Skeleton circle={"true"} height={90} width={90} />
+                    <Skeleton width={130} />
+                    <Skeleton count={5} />
+                  </div>
+                  <div className="home-loading-container">
+                    <Skeleton circle={"true"} height={90} width={90} />
+                    <Skeleton width={130} />
+                    <Skeleton count={5} />
+                  </div>
+                  <div className="home-loading-container">
+                    <Skeleton circle={"true"} height={90} width={90} />
+                    <Skeleton width={130} />
+                    <Skeleton count={5} />
+                  </div>
+                  <div className="home-loading-container">
+                    <Skeleton circle={"true"} height={90} width={90} />
+                    <Skeleton width={130} />
+                    <Skeleton count={5} />
+                  </div>
+                  <div className="home-loading-container">
+                    <Skeleton circle={"true"} height={90} width={90} />
+                    <Skeleton width={130} />
+                    <Skeleton count={5} />
+                  </div>
+                </div>
+              )}
+
+              {!loading &&
+                filteredItems
+                  .filter((item) => {
+                    return searchQuery.toLowerCase() === ""
+                      ? item
+                      : item.productName.toLowerCase().includes(searchQuery);
+                  })
+                  .slice(firstPostIndex, lastPostIndex)
+                  .map((datalist) => {
+                    filterdata.push(datalist);
+                    return (
+                      <div
+                        className="content-box-home"
+                        key={datalist.productName}
+                      >
+                        <img
+                          className="logo"
+                          src={datalist.image}
+                          alt={datalist.category}
+                        />
+                        <h2>{datalist.productName}</h2>
+                        <p className="content-box-text">{datalist.description}</p>
+                        <button
+                          className="btn-b-box"
+                          onClick={() => window.open(datalist.link)}
+                        >
+                          Link
+                        </button>
+                        {bookmarks?.some((item) =>
+                          item.name.includes(datalist.productName)
+                        ) ? (
+                          <>
+                            <button
+                              className="btn-booked-box"
+                              onClick={() =>
+                                handleDeleteBookmark(datalist.productName)
+                              }
+                            >
+                              Remove
+                            </button>
+                          </>
+                        ) : (
+                          <button
+                            className="btn-b-box"
+                            onClick={() => handleBookmark(datalist)}
+                          >
+                            Bookmark
+                          </button>
+                        )}
+                      </div>
+                    );
+                  })}
+            </div>
+            {filterdata.length > 0 && (
+              <div className="pagination">
+                <ul>
+                  <div className="page-item-prev">
+                    <li>
+                      <a href="#!" onClick={prePage}>
+                        &lt;
+                      </a>
+                    </li>
+                  </div>
+                  <div className="page-wrapper">
+                    {numbers.map((n, i) => {
+                      // Calculate range of visible page numbers around current page
+                      const start = Math.max(1, currentPage - 4); // Show 4 pages before current page
+                      const end = Math.min(npage, start + 8); // Show 8 pages in total
+
+                      // Show ellipsis if start is greater than 1
+                      if (start > 1 && i === 1) {
+                        return (
+                          <li key={i}>
+                            <span>...</span>
+                          </li>
+                        );
+                      }
+
+                      // Show ellipsis if end is less than npage
+                      if (end < npage && i === numbers.length - 1) {
+                        return (
+                          <li key={i}>
+                            <span>...</span>
+                          </li>
+                        );
+                      }
+
+                      // Display the page number if within the visible range
+                      if (n >= start && n <= end) {
+                        return (
+                          <li
+                            key={i}
+                            className={`${currentPage === n ? "active" : ""}`}
+                          >
+                            <a href="#!" onClick={() => changeCPage(n)}>
+                              {n}
+                            </a>
+                          </li>
+                        );
+                      }
+
+                      return null; // Hide pages outside the visible range
+                    })}
+                  </div>
+                  <div className="page-item-next">
+                    <li>
+                      <a href="#!" onClick={nextPage}>
+                        &gt;
+                      </a>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            )}
+          </div>
+          <Testimonials />
         </div>
-        <Testimonials />
       </div>
     </SkeletonTheme>
+
   );
 }
 
