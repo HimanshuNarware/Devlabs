@@ -21,6 +21,13 @@
     "description": "With the easy-to-use HubSpot CRM, you’ll never manually update reports or wonder how your team is tracking toward quotas. Your pipeline always stays up to date, so you can spend less time managing and more time selling."
 },
   {
+    "productName": "Linear",
+    "category": "Project Management Tools",
+    "image": "https://styles.redditmedia.com/t5_3j5lm/styles/communityIcon_ic9d1ggiu2d81.png",
+    "link": "https://linear.app/",
+    "description": "Project management tool focused on creating, tracking, and managing tasks efficiently, particularly for software development teams."
+  },
+  {
     "productName": "Sourcegraph",
     "category": "Coding",
     "image": "https://sourcegraph.com/sourcegraph-logo.svg",
