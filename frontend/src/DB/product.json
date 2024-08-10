@@ -6319,7 +6319,15 @@
     "link": "https://pencil.evolus.vn/",
     "description": "Create wireframes and prototypes for web and mobile interfaces; supports exporting to various formats."
   },
- 
+
+  {
+    "productName": "Creddle",
+    "category": "resume",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQCoghNNeH0iZeNiMlRZ2Kj8Rtp7l_P_uANzuEzbkIjJ7rXdBVA",
+    "link": "https://resume.creddle.io/",
+    "description": "Provides customizable and modern resume templates designed to be professional and visually appealing."
+  },
+  {
     "productName": "Rive",
     "category": "tools",
     "image": "https://cdn.rive.app/rive_logo_dark_bg.png",
@@ -6374,6 +6382,9 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzZsK3SAa78Wrg7eq8xB0WEmpvw_3GerIpQ&s",
     "link": "https://docs.digitalocean.com/products/marketplace/catalog/restyaboard/",
     "description": "Create interactive, real-time animations for apps and websites."
+
+
+
   },
   {
     "productName": "Devhints",
