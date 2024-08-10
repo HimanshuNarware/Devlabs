@@ -73,7 +73,7 @@ const extensions = [
     version: "1.6.0",
     image: "https://i.pcmag.com/imagery/reviews/00DGg3V9SuURGDLUoe7QmD6-23.fit_lim.size_1050x591.v1605289134.png",
     developer: "ProofHub",
-  },
+  }, 
 ];
 
 const Extensions = () => (
