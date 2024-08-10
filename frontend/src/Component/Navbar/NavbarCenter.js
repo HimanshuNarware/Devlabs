@@ -92,7 +92,7 @@ function NavbarCenter() {
                   <FontAwesomeIcon icon={faStar} /> Rate Us
                 </>
               }
-              to="/Rate"
+              to=""
             />
           </li>
           <li className="nav-item">
