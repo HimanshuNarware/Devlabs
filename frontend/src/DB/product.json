@@ -5963,7 +5963,7 @@
   "link":"https://www.flinto.com/",
   "description":"A Mac app used for creating interactive and animated prototypes with a free trial."
 
-} ,
+},
 {
   "productName": "Standard Resume",
   "category": "resume",
@@ -6263,6 +6263,13 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNA0cIN5ZsOzoZpNC7x-4t_47Jbm0T_zwsQ&s",
     "link": "https://nocodb.com/",
     "description": "Open-source Airtable alternative for turning SQL databases into smart spreadsheets."
+  },
+    {
+    "productName": "Smashing Magazine",
+    "category": "Tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzZsK3SAa78Wrg7eq8xB0WEmpvw_3GerIpQ&",
+    "link": "https://www.smashingmagazine.com/",
+    "description": " Resource for web design and development articles."
   },
  {
     "productName": "Pinterest",
