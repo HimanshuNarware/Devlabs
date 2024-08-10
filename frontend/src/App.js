@@ -16,7 +16,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./Component/ScrollToTop";
-//cards
+
 import RemoteJobs from "./pages/RemoteJobs";
 import AI from "./pages/AI";
 import Movie from "./pages/Movie";
@@ -27,6 +27,43 @@ import EthicalHacking from "./pages/EthicalHacking";
 import Faq from "./Component/Faq";
 import CodingPlatform from "./pages/CodingPlatform"; // Corrected import
 import CoursesPlatform from "./pages/CoursesPlatform";
+import Navbar from "./Component/Navbar/Navbar";
+import BackToTopButton from "./Component/BackToTopButton";
+import Footer from "./Component/Footer";
+import TrailingCursor from "./Component/TrailingCursor/TrailingCursor";
+import Login from "./Component/Login";
+import Register from "./Component/Register";
+import ChatAssistant from "./ChatAssistant/ChatAssistant";
+// Lazy load components
+const About = lazy(() => import("./Component/About"));
+const Rateus = lazy(() => import("./Component/Rateus"));
+const Home = lazy(() => import("./Component/Home"));
+const NotFound = lazy(() => import("./Component/NotFound"));
+const OpenSource = lazy(() => import("./Component/OpenSource"));
+const Review = lazy(() => import("./Component/Review"));
+const BookMark = lazy(() => import("./Component/BookMark"));
+const Contact = lazy(() => import("./Component/Contact"));
+const Signup = lazy(() => import("./Component/Signup"));
+const Profile = lazy(() => import("./Component/Profile"));
+const RemoteJobs = lazy(() => import("./pages/RemoteJobs"));
+const AI = lazy(() => import("./pages/AI"));
+const UI = lazy(() => import("./pages/UI"));
+const Movie = lazy(() => import("./pages/Movie"));
+const Extension = lazy(() => import("./pages/Extension"));
+const EthicalHacking = lazy(() => import("./pages/EthicalHacking"));
+const FrontendTools = lazy(() => import("./pages/FrontendTools"));
+const Faq = lazy(() => import("./Component/Faq"));
+const CodingPlatform = lazy(() => import("./pages/CodingPlatform")); // Corrected import
+const CoursesPlatform = lazy(() => import("./pages/CoursesPlatform"));
+const Collaboration = lazy(() => import("./pages/Collaboration"));
+const Productivity = lazy(() => import("./pages/Productivity"));
+const Extensions = lazy(() => import("./pages/Extensions"));
+
+const Movies = lazy(() => import("./pages/Movies"));
+
+const Ui = lazy(() => import("./pages/UserInterface"));
+
+const RemoteJob = lazy(() => import("./pages/RemoteJob"));
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
