@@ -6491,6 +6491,22 @@
     "link": "https://docs.digitalocean.com/products/marketplace/catalog/restyaboard/",
     "description": "Create interactive, real-time animations for apps and websites."
   },
+
+
+  {
+    "productName": "Codrops",
+    "category": "Tools",
+    "image": "https://avatars.githubusercontent.com/u/310036?s=200&v=4",
+    "link": "https://tympanus.net/codrops/",
+    "description": "Codrops is a fantastic resource for experimental web design techniques and tutorials."
+  },
+  {
+    "productName": "WebDevSimplified ",
+    "category": "Tools",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjDcImKVuqsPQ57KaPpv5XQxRB-8a_l6PHxQ&s",
+    "link": "https://courses.webdevsimplified.com/",
+    "description": "WebDevSimplified, provides simple explanations and tutorials on various web development topics."
+  },
   {
     "productName": "Spline",
     "category": "Tools",
