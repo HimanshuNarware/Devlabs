@@ -30,9 +30,9 @@ function NavbarCenter() {
         <li className="nav-item">
           <NavbarItem description={<><FontAwesomeIcon icon={faInfoCircle} /> About Us</>} to="/about" />
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <NavbarItem description={<><FontAwesomeIcon icon={faQuestionCircle} /> FAQ's</>} to="/faq" />
-        </li>
+        </li> */}
         <li className="nav-item" onClick={handleRateUsClick}>
           <NavbarItem description={<><FontAwesomeIcon icon={faStar} /> Rate Us</>} to="#" />
         </li>
