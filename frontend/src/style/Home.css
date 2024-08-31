@@ -276,7 +276,7 @@
   border: 2px solid #804afe;
   color: white;
   box-shadow: -1px 2px 8px #c5aff899,0px 2px 8px #6943c392;
-  cursor: none;
+  /* cursor: none; */
 }
 .hero-button a:hover {
   color: white;
@@ -437,18 +437,18 @@
   border-radius: 6px;
   box-shadow: 1px 1px rgb(0, 0, 0, 0.5);
   background-color: #8b5cf6;
-  cursor: none;
+  /* cursor: none; */
 }
 .btn-booked-box {
   border: 2px dashed #8b5cf6;
   color: white;
-  cursor: none;
+  /* cursor: none; */
   background: transparent;
 }
 
 .btn-booked-box:hover {
   color: white;
-  cursor: none;
+  /* cursor: none; */
   background-color: #8b5cf6;
   box-shadow: 10px 10px 30px rgba(139, 92, 246, 0.8),
     -10px -10px 30px rgba(139, 92, 246, 0.3);
@@ -457,7 +457,7 @@
 .btn-b-box:hover {
   color: #fff;
   background: transparent;
-  cursor: none;
+  /* cursor: none; */
   box-shadow: 2px 2px 1px #8b5cf6;
 }
 
@@ -631,7 +631,7 @@
   border: 2px solid #8b5cf6;
   color: white;
   box-shadow: 4px 4px 2px #8b5cf6;
-  cursor: none;
+  /* cursor: none; */
 }
 
 .hero-button a:hover {

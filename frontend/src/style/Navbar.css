@@ -57,7 +57,7 @@
   padding: 0;
   margin: 0;
   justify-content: space-between; /* Add space between items */
-  width: 109%; /* Make the navbar items stretch along the width */
+  width: 100%; /* Make the navbar items stretch along the width */
 }
 
 .card-body img {
@@ -81,11 +81,11 @@
   box-shadow: 0 0 10px rgba(255, 255, 255, 0); /* Initially no shadow */
 }
 
-.nav-item:hover {
-  transform: scale(1.05); /* Scale up slightly on hover */
-  filter: brightness(1.2); /* Brighten on hover for shine effect */
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Add glowing effect */
-}
+ .nav-item:hover {
+  /* transform: scale(1.05); Scale up slightly on hover */
+   filter: brightness(1.2);/* Brighten on hover for shine effect */
+  /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); Add glowing effect */
+} 
 
 
 
@@ -222,6 +222,7 @@
   height: 2px;
   background-color: black;
   transition: width 0.2s ease-in-out;
+  transform-origin:center ;
 }
 
 .sidebar.active {

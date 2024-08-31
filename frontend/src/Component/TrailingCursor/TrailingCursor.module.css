@@ -1,10 +1,10 @@
-.cursor-container {
+/* .cursor-container {
   position: absolute;
   pointer-events: none;
   z-index: 12;
   transform: translate(0,10%); 
-}
-
+} */
+/* 
 .custom-cursor {
   width: 33px;
   height: 33px;
@@ -17,9 +17,9 @@
   position: absolute;
   pointer-events: none;
   animation: trailing-animation 0.4s linear;
-}
+} */
 
-.trailing {
+/* .trailing {
   position: absolute;
   width: 8px;
   height: 8px;
@@ -30,8 +30,8 @@
   transition: transform 1.2s, opacity 1s;
   pointer-events: none;
   /* z-index: 9998; */
-}
-
+/* }  */
+/* 
 @keyframes trailing-effect {
   from {
       transform: scale(1);
@@ -50,4 +50,4 @@
       opacity: 0;
   }
 }
-
+ */

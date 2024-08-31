@@ -5,7 +5,7 @@
   margin-right: 20px;
   margin-bottom: 12px;
   /* z-index: 999; */
-  cursor:none;
+  /* cursor:none; */
 }
 .chatbot-close-animation {
   animation: animate-close ease-in 0.3s forwards;
@@ -148,7 +148,7 @@
 .Logo {
   height: 50px;
   width: 50px;
-  cursor: none;
+  /* cursor: none; */
   height:50px;
   width:50px;
 }
@@ -183,7 +183,7 @@
   border-radius: 50px;
   color: black;
   font-size: 20px;
-  cursor: none;
+  /* cursor: none; */
   position: absolute;
   z-index: 5;
   margin-left: 130px;
