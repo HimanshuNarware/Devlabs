@@ -11,6 +11,15 @@ html {
   box-sizing: border-box;
   /* cursor: none; */
 }
+.disable-text-selection {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
 
 body {
   min-height: 100vh;
