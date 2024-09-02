@@ -70,7 +70,8 @@
   align-items: center;
   margin-top: 20px;
   padding: 1rem;
-  margin-left: 32%;
+  /* margin-left: 32%; */
+  margin-inline: auto;
 }
 
 .pagination .page-wrapper{
