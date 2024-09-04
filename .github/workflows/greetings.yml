@@ -1,3 +1,5 @@
+# @format
+
 name: 'Greetings'
 
 on:
@@ -16,7 +18,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.TOKEN }}
           issue-message: |
             Congratulations, @${{ github.actor }}! 🎉 Thank you for creating your issue. Your contribution is greatly appreciated and we look forward to working with you to resolve the issue. Keep up the great work!
           pr-message: |

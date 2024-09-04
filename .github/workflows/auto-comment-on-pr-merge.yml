@@ -1,3 +1,5 @@
+# @format
+
 name: Auto Comment on PR Merge
 
 on:
@@ -10,11 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - name: Add Comment to Merged PR
-       env:
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-       run: |
-         curl -H "Authorization: token $GITHUB_TOKEN" \
-         -X POST \
-         -d '{"body":"🎉 Your pull request has been successfully merged! 🎉 Thank you for your contribution to our project. Your efforts are greatly appreciated. Keep up the fantastic work! 🚀"}' \
-         "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"
+      - name: Add Comment to Merged PR
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          curl -H "Authorization: token $TOKEN" \
+          -X POST \
+          -d '{"body":"🎉 Your pull request has been successfully merged! 🎉 Thank you for your contribution to our project. Your efforts are greatly appreciated. Keep up the fantastic work! 🚀"}' \
+          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"

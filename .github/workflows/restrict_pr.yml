@@ -1,3 +1,5 @@
+# @format
+
 name: Restrict Contributor to limited contributions in Devlabs
 
 on:
@@ -14,7 +16,7 @@ jobs:
         id: calculate_score
         uses: actions/github-script@v4
         with:
-          github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github-token: ${{ secrets.TOKEN }}
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
@@ -79,7 +81,7 @@ jobs:
         if: always() && steps.calculate_score.outputs.close_pull_request == 'true'
         uses: actions/github-script@v4
         with:
-          github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github-token: ${{ secrets.TOKEN }}
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
