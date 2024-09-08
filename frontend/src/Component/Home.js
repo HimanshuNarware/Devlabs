@@ -25,7 +25,7 @@ function Home(props) {
   }
 
   const [currentPage, setCurrentPage] = useState(1);
-  const postPerpage = 16;
+  const postPerpage = 32;
   const lastPostIndex = currentPage * postPerpage;
   const firstPostIndex = lastPostIndex - postPerpage;
   const [dataBaseData, setDataBaseData] = useState([]);
