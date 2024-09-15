@@ -1,9 +1,11 @@
+
 .about__contributor-container {
   gap: 5%;
-  margin: 40px;
+  /* margin: 40px; */
   font-size: 2rem;
   margin-top: 6rem;
   width: 100%;
+  /* overflow: hidden; */
 }
 .about__founder-container,
 .about__buttons-container {
@@ -521,4 +523,18 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.about__img{
+  /* width: calc(100 - 90)px!important;
+  height: inherit; */
+  /* border-radius: 5px !important; */
+  border-radius: 5px;
+  object-fit:scale-down;
+  /* height: 188%; */
+  /* fill-opacity: blur(10px);
+   */
+   /* overflow: hidden !important; */
+   /* overflow: hidden; */
+  
 }

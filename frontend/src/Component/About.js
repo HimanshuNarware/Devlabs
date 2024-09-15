@@ -88,7 +88,7 @@ function About() {
         <div className="about__box about__box--2 aos-init" data-aos="flip-left">
           <img
             className="about__img"
-            src="https://civicopilot.com/wp-content/uploads/2022/11/searching_training.svg"
+            src="https://img.freepik.com/free-vector/illustrated-woman-being-intern-company_23-2148726151.jpg?size=626&ext=jpg"
             alt="img"
           />
         </div>
@@ -98,7 +98,7 @@ function About() {
         <div className="about__box about__box--2">
           <img
             className="about__img"
-            src="https://media.istockphoto.com/id/1276643671/vector/tiny-programmers-programming-website-for-internet-platform.jpg?s=612x612&w=0&k=20&c=7k24K8DYdSRxVHj3roqR_f4wkk-a_fG3WlT4hN-VJUg="
+            src="https://img.freepik.com/free-vector/developer-activity-concept-illustration_114360-1554.jpg?t=st=1726407511~exp=1726411111~hmac=f2dbc71c1557c1284496c3bb3d243d58894cd840fad5b42c528679d5fb57d2c4&w=740"
             alt="img"
           />
         </div>
