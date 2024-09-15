@@ -36,13 +36,13 @@ export default function Faq() {
                 >
                   <AccordionItemHeading>
                     <AccordionItemButton className="faq__accordion-item">
-                      <AccordionItemState>
+                      {/* <AccordionItemState>
                         {({ expanded }) =>
                           expanded
                             ? setClassName("expanded")
                             : setClassName("collapsed")
                         }
-                      </AccordionItemState>
+                      </AccordionItemState> */}
                       <div
                         className="faq__accordion-button"
                         onClick={() => setIndex(i)}
