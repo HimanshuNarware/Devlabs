@@ -27,7 +27,16 @@
   .not-found-image {
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
+    margin-block:50px;
+    /* background-image: cross-fade(10px); */
+/* object-fit: contain;
+filter: opacity(10)px; */
+/* background-color: rgba(224, 110, 110, 0.6); */
+/* background-blend-mode: lighten; */
+/* filter: blur(1px); */
   }
+
   
 .not-found-button {
     display: inline-block;
@@ -35,8 +44,8 @@
     top: 70%;
     left: 44%;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #6600ff;
+    color: #ffffff;
     text-decoration: none;
     border: none;
     border-radius: 4px;

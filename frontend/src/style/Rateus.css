@@ -27,6 +27,7 @@
   border-radius: 5px;
   background-color: #8B5CF6;
   transition: box-shadow 0.3s, transform 0.3s;
+  margin: 100px 20px;
 }
 
 .rate-us-container:hover {
