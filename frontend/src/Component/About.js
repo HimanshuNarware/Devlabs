@@ -146,7 +146,7 @@ function About() {
             </div>
           </div>
         </div>
-        <h1 id="contributors">Our Contributors</h1>
+        {/* <h1 id="contributors">Our Contributors</h1>
 
         <input
           type="text"
@@ -154,9 +154,9 @@ function About() {
           placeholder="Search your name here..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-        />
+        /> */}
 
-        <div className="about__grid-container">
+        {/* <div className="about__grid-container">
           {filledData.map((contributor) => {
             if (contributor.placeholder) {
               return (
@@ -187,10 +187,10 @@ function About() {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </div>
 
-      <Pagination
+      {/* <Pagination
         firstCardIndex={firstCardIndex}
         lastCardIndex={lastCardIndex}
         dataLength={filteredContributors.length}
@@ -198,7 +198,7 @@ function About() {
         currentPage={currentPage}
         scrollPosition={"contributors"}
         handlePageChange={handlePageChange}
-      />
+      /> */}
     </div>
   );
 }
