@@ -6598,4 +6598,12 @@
 "link": "https://asciinema.org/",
 "description": "Record and share terminal sessions as lightweight, web-friendly playback."
  }
+,
+{
+  "productName": "Icybiz",
+  "category": "tools",
+  "image": "https://icybiz.com/favicon.ico",
+  "link": "https://icybiz.com/",
+  "description": "Create and host websites visually, with stable addresses and optional forums."
+}
 ]
